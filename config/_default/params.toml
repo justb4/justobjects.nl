@@ -1,6 +1,6 @@
 twitter = "@justb4"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Just Objects B.V. is the trading name for the professional activities of Just van den Broecke."
+introDescription = "The trading name for the professional activities of Just van den Broecke."
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 # description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
 
@@ -86,7 +86,8 @@ iconsDir = "icons/" # without a leading forward slash
 
 # website author
 [author]
-name = "Jane Doe"
+# name = "Just van den Broecke"
+name = "Just Objects B.V."
 # photo = "images/jane-doe.png" #include this if you would like to show the author photo on the sidebar
 
 [plausible_analytics]
