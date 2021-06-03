@@ -1,0 +1,125 @@
+[[main]]
+  name = "Home"
+  url = ""
+  weight = -110
+
+[[main]]
+  name = "About"
+  url = "about/"
+  weight = -109
+
+[[main]]
+  name = "Writings"
+  identifier = "Writings"
+  url = "writings/"
+  weight = -108
+[[main]]
+  parent = "Writings"
+  name = "Blog"
+  # url = "writings/blog/"
+  url = "blog/"
+[[main]]
+  parent = "Writings"
+  name = "Tweets"
+  # url = "writings/tweets/"
+  url = "tweets/"
+[[main]]
+  parent = "Writings"
+  name = "Presentations"
+  # url = "writings/presentations/"
+  url = "presentations/"
+[[main]]
+  parent = "Writings"
+  name = "Publications"
+  # url = "writings/publications/"
+  url = "publications/"
+
+[[main]]
+  name = "Projects"
+  identifier = "Projects"
+  url = "projects/"
+  weight = -107
+[[main]]
+  parent = "Projects"
+  name = "Overview"
+  url = "projects/"
+  weight = -99
+[[main]]
+  parent = "Projects"
+  name = "Heron Mapping Client →"
+  url = "http://heron-mc.org"
+  weight = -98
+[[main]]
+  parent = "Projects"
+  name = "GeoHealthCheck – OGC GeoSpatial Web Service Monitoring →"
+  url = "https://geohealthcheck.org"
+  weight = -97
+
+# TODO : add more Project links
+
+[[main]]
+  name = "Products"
+  identifier = "Products"
+  url = "products/"
+  weight = -107
+[[main]]
+  parent = "Products"
+  name = "map5.nl"
+  url = "map5/"
+  weight = -99
+[[main]]
+  parent = "Products"
+  name = "geoqos.com"
+  url = "geoqos/"
+  weight = -98
+
+# [[main]]
+#  name = "Archives"
+#  url = "post/rich-content/"
+#  weight = -106
+
+# Submenus are done this way: parent -> identifier
+[[main]]
+  name = "Links"
+  identifier = "Links"
+  weight = -105
+[[main]]
+  parent = "Links"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/"
+[[main]]
+  parent = "Links"
+  name = "Twitter"
+  url = "https://twitter.com/"
+
+# social menu links
+
+[[social]]
+  name = "github"
+  type = "social"
+  weight = 1
+  url = "https://github.com/#"
+[[social]]
+  name = "twitter"
+  weight = 2
+  url = "https://twitter.com/#"
+[[social]]
+  name = "linkedin"
+  weight = 3
+  url = "https://www.linkedin.com/in/#"
+[[social]]
+  name = "rss"
+  weight = 4
+  url = "index.xml"
+
+# other supported social links
+# name = "youtube"
+# url = "https://www.youtube.com/#"
+# name = "facebook"
+# url = "https://facebook.com/#"
+# name = "instagram"
+# url = "https://instagram.com/#"
+# name = "stackoverflow"
+# url = "https://stackoverflow.com/#"
+# name = "gitlab"
+# url = "https://gitlab.com/#"
