@@ -11,13 +11,14 @@
 [[main]]
   name = "Writings"
   identifier = "Writings"
-  url = "writings/"
+  # url = "writings/"
   weight = -108
 [[main]]
   parent = "Writings"
   name = "Blog"
   # url = "writings/blog/"
-  url = "blog/"
+  # url = "blog/"
+  url = "posts/"
 [[main]]
   parent = "Writings"
   name = "Tweets"
