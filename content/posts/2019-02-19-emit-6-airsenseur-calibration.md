@@ -151,76 +151,39 @@ Within the Heron Viewer we can compare for example NO2, not only with Josene mea
 Also the data is available through all [SE OGC APIs][27], for example the [SensorThings API][28].
 
 
-              <p>
-                <strong>ad 6)</strong> The moment of truth! How well does the SE-based SE Stetl Python calibration results fit with the original RIVM values? One of the advantages of Data Harvesting (opposed to data push) is that we can switch back in time, i.e. restart harvesting from a given date. Harvesting and continuous calibration was restarted from august 1, 2018, the start of the calibration period at the RIVM station. Using a Grafana panel that displays both RIVM and SE-calculated values we can graphically see how well the data aligns.
-              </p>
+**ad 6)** The moment of truth! How well does the SE-based SE Stetl Python calibration results fit with the original RIVM values? One of the advantages of Data Harvesting (opposed to data push) is that we can switch back in time, i.e. restart harvesting from a given date. Harvesting and continuous calibration was restarted from august 1, 2018, the start of the calibration period at the RIVM station. Using a Grafana panel that displays both RIVM and SE-calculated values we can graphically see how well the data aligns.
 
-              <p>
-                <img loading="lazy" class="aligncenter size-large wp-image-876" src="uploads/2019/02/breukelen-grafana-1024x404.jpg" alt="" width="820" height="324" srcset="https://justobjects.nl/wp-content/uploads/2019/02/breukelen-grafana-1024x404.jpg 1024w, https://justobjects.nl/wp-content/uploads/2019/02/breukelen-grafana-300x118.jpg 300w, https://justobjects.nl/wp-content/uploads/2019/02/breukelen-grafana-768x303.jpg 768w, https://justobjects.nl/wp-content/uploads/2019/02/breukelen-grafana-150x59.jpg 150w, https://justobjects.nl/wp-content/uploads/2019/02/breukelen-grafana.jpg 1112w" sizes="(max-width: 820px) 100vw, 820px" />
-              </p>
+![ ](/uploads/2019/02/breukelen-grafana.jpg)
 
-              <p>
-                What we can see from the above image, is that visually the data aligns very well, here for NO2. The purple graph is the official RIVM measurement. Only station ASE NL 02 is not completely aligned.
-              </p>
-            </div>
+What we can see from the above image, is that visually the data aligns very well, here for NO2. The purple graph is the official RIVM measurement. Only station ASE NL 02 is not completely aligned.
 
-            <p>
-              To also have some numeric proof and a more objective comparison, I dived in scatterplot and numerical analysis in Python. Apart from scatterplots that show calculated (Y) agains RIVM ref values (X) I calculated the <a href="https://en.wikipedia.org/wiki/Coefficient_of_determination">&#8220;R-squared&#8221;</a> and &#8220;slope&#8221; for fitting indicator values. This was also my first serious use of Python libs like Scipy, Pandas, Seaborn and Numpy (you&#8217;re never too old to become a data-scientist!).
-            </p>
 
-            <p>
-              As all SE calibrated data is also stored in InfluxDB with RIVM refdata harvested from their SOS, it was easy to fetch values for the plots/calculations..
-            </p>
+To also have some numeric proof and a more objective comparison, I dived in scatterplot and numerical analysis in Python. Apart from scatterplots that show calculated (Y) agains RIVM ref values (X) I calculated the [&#8220;R-squared&#8221;][29] and &#8220;slope&#8221; for fitting indicator values. This was also my first serious use of Python libs like Scipy, Pandas, Seaborn and Numpy (you&#8217;re never too old to become a data-scientist!).
 
-            <p>
-              Objectivity could be effected since station ASE NL 01 was finally deployed (okt 2018) in Nijmegen, also next to an RIVM station. So the calibration calculations from RIVM refdata in Breukelen could be compared to &#8220;Nijmegen&#8221;. The implementation for making these scatterplots can be found <a href="https://github.com/smartemission/smartemission/tree/master/etl/calibration">here</a>. Lets look at some results, mainly for NO2, as I consider this one of the most important AQ indicator gasses.
-            </p>
+As all SE calibrated data is also stored in InfluxDB with RIVM refdata harvested from their SOS, it was easy to fetch values for the plots/calculations.
 
-            <p>
-              <img loading="lazy" class="aligncenter size-full wp-image-878" src="uploads/2019/02/nijm-ruy-no2-ASE_NL01-2018-12-25-2019-01-24.png" alt="" width="500" height="500" srcset="https://justobjects.nl/wp-content/uploads/2019/02/nijm-ruy-no2-ASE_NL01-2018-12-25-2019-01-24.png 500w, https://justobjects.nl/wp-content/uploads/2019/02/nijm-ruy-no2-ASE_NL01-2018-12-25-2019-01-24-150x150.png 150w, https://justobjects.nl/wp-content/uploads/2019/02/nijm-ruy-no2-ASE_NL01-2018-12-25-2019-01-24-300x300.png 300w" sizes="(max-width: 500px) 100vw, 500px" />
-            </p>
+Objectivity could be effected since station ASE NL 01 was finally deployed (okt 2018) in Nijmegen, also next to an RIVM station. So the calibration calculations from RIVM refdata in Breukelen could be compared to &#8220;Nijmegen&#8221;. The implementation for making these scatterplots can be found [here][30]. Lets look at some results, mainly for NO2, as I consider this one of the most important AQ indicator gasses.
 
-            <p>
-              I like this image a lot as it shows an almost ideal alignment with an R2 of 0.976 and slope of almost 1. Mind: calibration was thus done at a very different site (about 80 km west) and AQ condition (highway) as the deployment (city street). 
-            </p>
+![ ](/uploads/2019/02/nijm-ruy-no2-ASE_NL01-2018-12-25-2019-01-24.png)
 
-            <p>
-              <img loading="lazy" class="aligncenter size-large wp-image-879" src="uploads/2019/02/asenl01-se-pycal-plots-1024x475.png" alt="" width="820" height="380" srcset="https://justobjects.nl/wp-content/uploads/2019/02/asenl01-se-pycal-plots-1024x475.png 1024w, https://justobjects.nl/wp-content/uploads/2019/02/asenl01-se-pycal-plots-300x139.png 300w, https://justobjects.nl/wp-content/uploads/2019/02/asenl01-se-pycal-plots-768x357.png 768w, https://justobjects.nl/wp-content/uploads/2019/02/asenl01-se-pycal-plots-150x70.png 150w" sizes="(max-width: 820px) 100vw, 820px" />
-            </p>
+I like this image a lot as it shows an almost ideal alignment with an R2 of 0.976 and slope of almost 1. Mind: calibration was thus done at a very different site (about 80 km west) and AQ condition (highway) as the deployment (city street). 
 
-            <p>
-              Above are plots for the other gasses as well. First row in Breukelen (no ref CO available in RIVM SOS), front row in Nijmegen. Only NO in Nijmegen is a bit problematic.
-            </p>
+![ ](/uploads/2019/02/asenl01-se-pycal-plots.png)
 
-            <p>
-              <img loading="lazy" class="aligncenter size-large wp-image-880" src="uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09-1024x340.png" alt="" width="820" height="272" srcset="https://justobjects.nl/wp-content/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09-1024x340.png 1024w, https://justobjects.nl/wp-content/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09-300x100.png 300w, https://justobjects.nl/wp-content/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09-768x255.png 768w, https://justobjects.nl/wp-content/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09-150x50.png 150w" sizes="(max-width: 820px) 100vw, 820px" />
-            </p>
+Above are plots for the other gasses as well. First row in Breukelen (no ref CO available in RIVM SOS), front row in Nijmegen. Only NO in Nijmegen is a bit problematic.
 
-            <p>
-              To close off: this last image above shows NO2 fit at the Breukelen station for all five ASE boxes. Also quite good.
-            </p>
-          </div>
+![ ](/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09.png)
 
-          <p>
-            What to conclude? First of all AirSensEUR is a major step forward in affordable accurate AQ sensing. We hope to expand the community.
-          </p>
+To close off: this last image above shows NO2 fit at the Breukelen station for all five ASE boxes. Also quite good.
 
-          <p>
-            AlphaSense NO2 electrochemical sensors appear quite accurate, but calibration requires quite some effort, plus calibration formulas apply per individual sensor. Would automatic per-sensor ANN be less time-consuming and still accurate? Something I would like to investigate.
-          </p>
 
-          <p>
-            The Smart Emission project and platform is still going strong, running within a Kubernetes Cloud maintained by Dutch Kadaster.
-          </p>
+What to conclude? First of all AirSensEUR is a major step forward in affordable accurate AQ sensing. We hope to expand the community.
 
-          <p>
-            Next emit will discuss how I integrated data from the amazing Luftdaten.info project for the municipality of Nijmegen.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+AlphaSense NO2 electrochemical sensors appear quite accurate, but calibration requires quite some effort, plus calibration formulas apply per individual sensor. Would automatic per-sensor ANN be less time-consuming and still accurate? Something I would like to investigate.
+
+The Smart Emission project and platform is still going strong, running within a Kubernetes Cloud maintained by Dutch Kadaster.
+
+Next emit will discuss how I integrated data from the amazing Luftdaten.info project for the municipality of Nijmegen.
 
  [1]: /emit-5-assembling-and-deploying-5-airsenseurs/
  [2]: https://airsenseur.org/
@@ -250,3 +213,5 @@ Also the data is available through all [SE OGC APIs][27], for example the [Senso
  [26]: https://data.smartemission.nl/heron/
  [27]: https://data.smartemission.nl/data
  [28]: https://en.wikipedia.org/wiki/SensorThings_API
+ [29]: https://en.wikipedia.org/wiki/Coefficient_of_determination
+ [30]: https://github.com/smartemission/smartemission/tree/master/etl/calibration
