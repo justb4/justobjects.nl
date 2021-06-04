@@ -82,130 +82,74 @@ All ASE calibrated gas-data continuously available via SE viewers/APIs
 6. Feb 2019  
 Analysis of the calibration ([SE Python Stetl][19]) implementation results
 
-        <div class="page" title="Page 14">
-          <div class="section">
-            <div class="layoutArea">
-              <div class="column">
-                <p>
-                  <strong>ad 1)</strong> The five ASE Boxes were mounted on a horizontal pole and connected to WIFI and current. As end-result all boxes were publishing their raw data to the SE InfluxDB Data Collector and were visible in the <a href="https://data.smartemission.nl/grafana-dc/d/HVSBmbHmz/airsenseur-netherlands-deploy">SE Grafana raw data viewer</a>.
-                </p>
+**ad 1)** The five ASE Boxes were mounted on a horizontal pole and connected to WIFI and current. As end-result all boxes were publishing their raw data to the SE InfluxDB Data Collector and were visible in the [SE Grafana raw data viewer][20].
 
-                <div id="attachment_792" style="width: 586px" class="wp-caption aligncenter">
-                  <img aria-describedby="caption-attachment-792" loading="lazy" class=" wp-image-792" src="uploads/2018/08/asenl-unbox-assemble-deploy-1-1024x715.jpg" alt="" width="576" height="402" srcset="https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-1.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-1-300x209.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-1-768x536.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-1-150x105.jpg 150w" sizes="(max-width: 576px) 100vw, 576px" />
+![Configured for InfluxDB Data Push visualized via Grafana](/uploads/2018/08/asenl-unbox-assemble-deploy-1.jpg)
 
-                  <p id="caption-attachment-792" class="wp-caption-text">
-                    Configured for InfluxDB Data Push visualized via Grafana
-                  </p>
-                </div>
+**ad 2)** The picture below shows ASE_NL_01 (left above) through _05 clockwise at their deployment sites. ASE_03 and 04 (right below) were at a single location.
 
-                <div class="page" title="Page 15">
-                  <div class="section">
-                    <div class="layoutArea">
-                      <div class="column">
-                        <p>
-                          Reference values for the gases NO,NO2 and O3 were already continuously available from the RIVM reference station via e.g. the RIVM SOS API. A CO-sensor was added to the station by RIVM. CO-data was collected manually.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+![ ](/uploads/2019/02/ase-nl-1-5-deployed.jpg)
 
-                <p>
-                  <strong>ad 2)</strong> The picture below shows ASE_NL_01 (left above) through _05 clockwise at their deployment sites. ASE_03 and 04 (right below) were at a single location.
-                </p>
+ASE_NL 01 was deployed at an RIVM site in Nijmegen. This allowed us to verify its calibration with different reference data as with which it was calibrated! See below.
 
-                <p>
-                  <img loading="lazy" class="size-full wp-image-868 alignnone" src="uploads/2019/02/ase-nl-1-5-deployed.jpg" alt="" width="718" height="423" srcset="https://justobjects.nl/wp-content/uploads/2019/02/ase-nl-1-5-deployed.jpg 718w, https://justobjects.nl/wp-content/uploads/2019/02/ase-nl-1-5-deployed-300x177.jpg 300w, https://justobjects.nl/wp-content/uploads/2019/02/ase-nl-1-5-deployed-150x88.jpg 150w" sizes="(max-width: 718px) 100vw, 718px" />
-                </p>
+![ ](/uploads/2019/02/deployment-map-s.jpg)
 
-                <p>
-                  ASE_NL 01 was deployed at an RIVM site in Nijmegen. This allowed us to verify its calibration with different reference data as with which it was calibrated! See below.
-                </p>
+**ad 3)** The calibration was performed by EC-JRC (M. Gerboles) using R and ShinyR webapp. All sources can be found in this [EC-JRC GitHub repo][21]. This process is quite intricate and a bit hard to explain in the context of a blog-post paragraph. I&#8217;ll try a summary:
 
-                <p>
-                  <img loading="lazy" class="aligncenter size-full wp-image-869" src="uploads/2019/02/deployment-map-s.jpg" alt="" width="506" height="379" srcset="https://justobjects.nl/wp-content/uploads/2019/02/deployment-map-s.jpg 506w, https://justobjects.nl/wp-content/uploads/2019/02/deployment-map-s-300x225.jpg 300w, https://justobjects.nl/wp-content/uploads/2019/02/deployment-map-s-150x112.jpg 150w" sizes="(max-width: 506px) 100vw, 506px" />
-                </p>
+Sensor values are digital readings (0..65535). This is effected by the electrical circuitry within each ASE, for optimal gain. To calculate back to mV and nA a per-sensor (brand+type) calculation is required first before applying any regression formula. A bit is explained in the image below.
 
-                <p>
-                  <strong>ad 3)</strong> The calibration was performed by EC-JRC (M. Gerboles) using R and ShinyR webapp. All sources can be found in this <a href="https://github.com/ec-jrc/airsenseur-calibration">EC-JRC GitHub repo</a>. This process is quite intricate and a bit hard to explain in the context of a blog-post paragraph. I&#8217;ll try a summary:
-                </p>
+![ ](/uploads/2019/02/readings-vref.jpg)
 
-                <p>
-                  Sensor values are digital readings (0..65535). This is effected by the electrical circuitry within each ASE, for optimal gain. To calculate back to mV and nA a per-sensor (brand+type) calculation is required first before applying any regression formula. A bit is explained in the image below.
-                </p>
+The second outcome is a per-individual-sensor regression formula. This is for most sensors a linear equation. For O3 (OX_A431) the formula is polynomial, as O3 readings are influenced by NO2 concentration. Below is an example as later implemented in Python using [SE Stetl ETL][19]
 
-                <p>
-                  <img loading="lazy" class="aligncenter  wp-image-870" src="uploads/2019/02/readings-vref-1024x717.jpg" alt="" width="541" height="379" srcset="https://justobjects.nl/wp-content/uploads/2019/02/readings-vref.jpg 1024w, https://justobjects.nl/wp-content/uploads/2019/02/readings-vref-300x210.jpg 300w, https://justobjects.nl/wp-content/uploads/2019/02/readings-vref-768x538.jpg 768w, https://justobjects.nl/wp-content/uploads/2019/02/readings-vref-150x105.jpg 150w, https://justobjects.nl/wp-content/uploads/2019/02/readings-vref-285x201.jpg 285w" sizes="(max-width: 541px) 100vw, 541px" />
-                </p>
+![ ](/uploads/2019/02/calibration-formulae.jpg)
 
-                <p>
-                  The second outcome is a per-individual-sensor regression formula. This is for most sensors a linear equation. For O3 (OX_A431) the formula is polynomial, as O3 readings are influenced by NO2 concentration. Below is an example as later implemented in Python using <a href="https://github.com/smartemission/docker-se-stetl/">SE Stetl ETL</a> (see below).
-                </p>
+The main three outcomes of the calibration are:
 
-                <p>
-                  <img loading="lazy" class="aligncenter  wp-image-871" src="uploads/2019/02/calibration-formulae.jpg" alt="" width="389" height="572" srcset="https://justobjects.nl/wp-content/uploads/2019/02/calibration-formulae.jpg 558w, https://justobjects.nl/wp-content/uploads/2019/02/calibration-formulae-204x300.jpg 204w, https://justobjects.nl/wp-content/uploads/2019/02/calibration-formulae-102x150.jpg 102w" sizes="(max-width: 389px) 100vw, 389px" />
-                </p>
+* the parameters for digital to nA calculation (per sensor brand+type)
+* the linear (polynomial) equations for nA to concentration (ug/m3)
+* the per-individual-sensor parameters (a0-a3)
 
-                <p>
-                  The main three outcomes of the calibration are:
-                </p>
+![ ](/uploads/2019/02/scatterplots-asenl03.jpg)
 
-                <ul>
-                  <li>
-                    the parameters for digital to nA calculation (per sensor brand+type)
-                  </li>
-                  <li>
-                    the linear (polynomial) equations for nA to concentration (ug/m3)
-                  </li>
-                  <li>
-                    the per-individual-sensor parameters (a0-a3)
-                  </li>
-                </ul>
+Above some scatterplots made for ASE Box 3 NO2 and O3.
 
-                <p>
-                  <img loading="lazy" class="aligncenter  wp-image-872" src="uploads/2019/02/scatterplots-asenl03.jpg" alt="" width="565" height="541" srcset="https://justobjects.nl/wp-content/uploads/2019/02/scatterplots-asenl03.jpg 593w, https://justobjects.nl/wp-content/uploads/2019/02/scatterplots-asenl03-300x287.jpg 300w, https://justobjects.nl/wp-content/uploads/2019/02/scatterplots-asenl03-150x143.jpg 150w" sizes="(max-width: 565px) 100vw, 565px" />
-                </p>
+**ad 4)** Knowing all equations and their parameters from step 3 above, I attempted to integrate this in the continuous ETL within the Smart Emission Platform. Up to now the platform supported only a single sensor station type: the Intemo Jose(ne). As the platform is fed by harvesting raw data from a set of remote APIs provided by Data Collectors, it was relatively easy to add sensor(-station)-metadata and extend the Refiner ETL to apply calibration algorithms driven by that metadata. 
 
-                <p>
-                  Above some scatterplots made for ASE Box 3 NO2 and O3.
-                </p>
+So for Josene stations the existing ANN calibration would still be applied, while for ASE stations per-sensor linear equations would be performed. All parameterization was already configurable using the [Device, DeviceDefs, DeviceFuncs][22] abstractions in the [SE Stetl implementation][19]. Recently, to allow stations that already send calibrated values, I introduced the [Vanilla Device][23] starting with harvesting [Luftdaten.info][24] stations (more in a later post).
 
-                <p>
-                  <strong>ad 4)</strong>. Knowing all equations and their parameters from step 3 above, I attempted to integrate this in the continuous ETL within the Smart Emission Platform. Up to now the platform supported only a single sensor station type: the Intemo Jose(ne). As the platform is fed by harvesting raw data from a set of remote APIs provided by Data Collectors, it was relatively easy to add sensor(-station)-metadata and extend the Refiner ETL to apply calibration algorithms driven by that metadata. 
-                </p>
+The formula&#8217;s as applied in Python SE Stetl are as follows:
 
-                <p>
-                  So for Josene stations the existing ANN calibration would still be applied, while for ASE stations per-sensor linear equations would be performed. All parameterization was already configurable using the <a href="https://github.com/smartemission/docker-se-stetl/tree/mast">Device, DeviceDefs, DeviceFuncs</a> abstractions in the <a href="https://github.com/smartemission/docker-se-stetl/">SE Stetl implementation</a>. Recently, to allow stations that already send calibrated values, I introduced the <a href="https://github.com/smartemission/docker-se-stetl/blob/master/smartem/devices/vanilla.py">Vanilla Device</a> starting with harvesting <a href="https://luftdaten.info/">Luftdaten.info</a> stations (more in a later post).
-                </p>
+```
+STEP 1a - Digital to Voltage (V)
+V = (Ref - RefAD) + (Digital+1) /2^16 x 2 x RefAD
+```
 
-                <p>
-                  The formula&#8217;s as applied in Python SE Stetl are as follows:
-                </p>
+```
+STEP 1b - Voltage (V) to Ampere (I) as Ri
+I = 10^9 V/(Gain x Rload)
+```
 
-                <pre>STEP 1a - Digital to Voltage (V)<br />V = (Ref - RefAD) + (Digital+1) /2^16 x 2 x RefAD</pre>
+```
+STEP 2 - Ampere (I) to concentration (ug/m3) - Example
+I=a0+a1*NO2+a2*T
+```
 
-                <pre>STEP 1b - Voltage (V) to Ampere (I) as Ri<br />I = 10^9 V/(Gain x Rload)</pre>
+```
+==> NO2 = (I - a0 - a2 * T) / a1
+a0-a2 has specific values for each NO2-B43F sensor.
+```
 
-                <pre>STEP 2 - Ampere (I) to concentration (ug/m3) - Example <br />I=a0+a1*NO2+a2*T</pre>
+Now that these formulas and their parameters were implemented, near-realtime values could be made visible in all SE apps (viewers) and APIs such as the [SmartApp][25] and the [Heron Viewer][26].
 
-                <pre>  ==&gt; NO2 = (I - a0 - a2 * T) / a1<br />a0-a2 has specific values for each NO2-B43F sensor.</pre>
+{{< a-img data-href="https://data.smartemission.nl/smartapp/" data-src="/uploads/2019/02/smartapp-ase01-nijmegen.png" >}}
 
-                <p>
-                  Now that these formulas and their parameters were implemented, near-realtime values could be made visible in all SE apps (viewers) and APIs such as the <a href="https://data.smartemission.nl/smartapp/">SmartApp</a> and the <a href="https://data.smartemission.nl/heron/">Heron Viewer</a>.<br /><a href="https://data.smartemission.nl/smartapp/"><img loading="lazy" class="aligncenter wp-image-873 size-full" src="uploads/2019/02/smartapp-ase01-nijmegen.png" alt="" width="800" height="466" srcset="https://justobjects.nl/wp-content/uploads/2019/02/smartapp-ase01-nijmegen.png 800w, https://justobjects.nl/wp-content/uploads/2019/02/smartapp-ase01-nijmegen-300x175.png 300w, https://justobjects.nl/wp-content/uploads/2019/02/smartapp-ase01-nijmegen-768x447.png 768w, https://justobjects.nl/wp-content/uploads/2019/02/smartapp-ase01-nijmegen-150x87.png 150w" sizes="(max-width: 800px) 100vw, 800px" /></a>
-                </p>
-              </div>
+Within the Heron Viewer we can compare for example NO2, not only with Josene measurements, but also with official RIVM values.
 
-              <p>
-                Within the Heron Viewer we can compare for example NO2, not only with Josene measurements, but also with official RIVM values.
-              </p>
+![ ](/uploads/2019/02/heron1.png)
 
-              <p>
-                <img loading="lazy" class="aligncenter size-large wp-image-875" src="uploads/2019/02/heron1-1024x674.png" alt="" width="820" height="540" srcset="https://justobjects.nl/wp-content/uploads/2019/02/heron1-1024x674.png 1024w, https://justobjects.nl/wp-content/uploads/2019/02/heron1-300x198.png 300w, https://justobjects.nl/wp-content/uploads/2019/02/heron1-768x506.png 768w, https://justobjects.nl/wp-content/uploads/2019/02/heron1-150x99.png 150w, https://justobjects.nl/wp-content/uploads/2019/02/heron1.png 1582w" sizes="(max-width: 820px) 100vw, 820px" />
-              </p>
+Also the data is available through all [SE OGC APIs][27], for example the [SensorThings API][28].
 
-              <p>
-                Also the data is available through all <a href="https://data.smartemission.nl/data">SE OGC APIs</a>, for example the <a href="https://en.wikipedia.org/wiki/SensorThings_API">SensorThings API</a>.
-              </p>
 
               <p>
                 <strong>ad 6)</strong> The moment of truth! How well does the SE-based SE Stetl Python calibration results fit with the original RIVM values? One of the advantages of Data Harvesting (opposed to data push) is that we can switch back in time, i.e. restart harvesting from a given date. Harvesting and continuous calibration was restarted from august 1, 2018, the start of the calibration period at the RIVM station. Using a Grafana panel that displays both RIVM and SE-calculated values we can graphically see how well the data aligns.
@@ -297,3 +241,12 @@ Analysis of the calibration ([SE Python Stetl][19]) implementation results
  [17]: http://www.alphasense.com/index.php/safety/products/
  [18]: https://www.samenmetenaanluchtkwaliteit.nl/sensoren-voor-no2
  [19]: https://github.com/smartemission/docker-se-stetl/
+ [20]: https://data.smartemission.nl/grafana-dc/d/HVSBmbHmz/airsenseur-netherlands-deploy
+ [21]: https://github.com/ec-jrc/airsenseur-calibration
+ [22]: https://github.com/smartemission/docker-se-stetl/tree/mast
+ [23]: https://github.com/smartemission/docker-se-stetl/blob/master/smartem/devices/vanilla.py
+ [24]: https://luftdaten.info
+ [25]: https://data.smartemission.nl/smartapp/
+ [26]: https://data.smartemission.nl/heron/
+ [27]: https://data.smartemission.nl/data
+ [28]: https://en.wikipedia.org/wiki/SensorThings_API
