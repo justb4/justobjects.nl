@@ -25,9 +25,9 @@ tags:
   - stetl
 
 ---
-During June 21-24, 2016 I attended the very first [GeoPython Conference in Basel Switzerland][1]. This event was organized by the [Institute of Geomatics Engineering of the FHNW &#8211; University of Applied Sciences and Arts Northwestern Switzerland][2] and [PyBasel][3], the local Python User Group Northwestern Switzerland. In particular I should mention key-organizer  [Martin Christen][4] from FHNW. He and his team made this into a such a great event that GeoPython 2017 is already planned. About 130 people attended, most from Europe, but also from other continents.  For a TL;DR the conference website [www.geopython.net][5]  provides you all the details: not just the program, but also the &#8220;post-processing&#8221;: slides, photo&#8217;s ([on Flickr][6]) etc.  The conference also included time and resources (room, food, beverages) for code-sprints. One of the outcomes of the conference-survey was to establish a public GeoPython mailing list at python.org. Details: to subscribe, send mail to:  <u><a href="mailto:GeoPython-subscribe@python.org">GeoPython-subscribe@python.org</a> </u>with the keyword &#8220;subscribe&#8221; in the subject. or use the web-interface: <https://mail.python.org/mm3/mailman3/lists/geopython.python.org/>.
+During June 21-24, 2016 I attended the very first [GeoPython Conference in Basel Switzerland][1]. This event was organized by the [Institute of Geomatics Engineering of the FHNW &#8211; University of Applied Sciences and Arts Northwestern Switzerland][2] and [PyBasel][3], the local Python User Group Northwestern Switzerland. In particular I should mention key-organizer  [Martin Christen][4] from FHNW. He and his team made this into a such a great event that GeoPython 2017 is already planned. About 130 people attended, most from Europe, but also from other continents.  For a TL;DR the conference website [www.geopython.net][5]  provides you all the details: not just the program, but also the &#8220;post-processing&#8221;: slides, photo&#8217;s ([on Flickr][6]) etc.  The conference also included time and resources (room, food, beverages) for code-sprints. One of the outcomes of the conference-survey was to establish a public GeoPython mailing list at python.org. Details: to subscribe, send mail to:  <u>[GeoPython-subscribe@python.org][28] </u>with the keyword &#8220;subscribe&#8221; in the subject, or use the web-interface: <https://mail.python.org/mm3/mailman3/lists/geopython.python.org/>.
 
-[<img loading="lazy" class="alignright wp-image-666" src="uploads/2016/07/gp1.jpg" alt="gp1" width="400" height="262" srcset="https://justobjects.nl/wp-content/uploads/2016/07/gp1.jpg 800w, https://justobjects.nl/wp-content/uploads/2016/07/gp1-300x197.jpg 300w, https://justobjects.nl/wp-content/uploads/2016/07/gp1-768x503.jpg 768w, https://justobjects.nl/wp-content/uploads/2016/07/gp1-229x150.jpg 229w, https://justobjects.nl/wp-content/uploads/2016/07/gp1-150x98.jpg 150w" sizes="(max-width: 400px) 100vw, 400px" />][1]
+{{< a-img data-href="http://www.geopython.net/" data-src="/uploads/2016/07/gp1-right.jpg" data-class="float_right" >}}
 
 So why a dedicated GeoPython conference? IMHO Python makes more and more  sense for Open Source geospatial development. Not just for custom geo-scripting or glueing with e.g. [GDAL][7], or for developing plugins for [QGIS][8] and [GRASS][9], but more and more as a mature framework language for geospatial processing and  OGC services. The projects [PyWPS][10] and [PyCSW][11] are an example of the latter. To access OGC services from Python clients there is [OWSLib][12]. Upcoming geospatial CMS frameworks like [GeoNode][13] and the very recent  [Boundless Exchange][14], powered by GeoNode, show that Python has the potential to become &#8220;the new Java&#8221; within the Open Source geospatial world.
 
@@ -51,7 +51,7 @@ I am grateful to the organizing team that I could [present Stetl][27] in the la
 
 &nbsp;
 
-### 
+###
 
 <div>
 </div>
@@ -86,3 +86,4 @@ I am grateful to the organizing team that I could [present Stetl][27] in the la
  [25]: http://jupyter.org/
  [26]: http://flask.pocoo.org/
  [27]: http://www.slideshare.net/justb4/geospatial-etl-with-stetl-geopython-2016
+ [28]: mailto:GeoPython-subscribe@python.org
