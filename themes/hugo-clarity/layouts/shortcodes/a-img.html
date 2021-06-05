@@ -1,14 +1,9 @@
 {{- $clazz := "lazy" }}
-{{- $dClazz := .Get "data-class" }}
-{{- if $dClazz }}
-  {{- $clazz = printf "%s %s" $clazz $dClazz }}
-{{- end }}
-<div class="wp-caption aligncenter">
+<div class="{{ .Get "data-class" }}">
   <a href="{{ .Get "data-href"}}">
     <img class="{{ $clazz }}"
       src="{{ .Get "data-src" }}"
       alt="{{ .Get "data-caption"  | safeHTML }}" />
   </a>
-
   <!-- <p class="wp-caption-text wp-caption-dark">{{ .Get "data-caption" }}</p> -->
 </div>
