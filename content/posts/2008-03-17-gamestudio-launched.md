@@ -9,29 +9,36 @@ categories:
   - Projects
 
 ---
-[<img loading="lazy" class="alignleft wp-image-275 size-medium" src="uploads/2008/03/gamesatelier-just-300x217.jpg" alt="gamesatelier-just" width="300" height="217" srcset="https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-just-300x217.jpg 300w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-just-206x150.jpg 206w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-just-150x108.jpg 150w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-just.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" />][1]
+&nbsp;
+{{< a-img data-href="javascript:return false" data-src="/uploads/2008/03/gamesatelier-just-300x217.jpg" data-class="float_left">}}
 
-[<img loading="lazy" class="alignright wp-image-274 size-medium" src="uploads/2008/03/gamesatelier-sara-300x225.jpg" alt="gamesatelier-sara" width="300" height="225" srcset="https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-sara-300x225.jpg 300w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-sara-199x150.jpg 199w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-sara-150x112.jpg 150w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-sara.jpg 306w" sizes="(max-width: 300px) 100vw, 300px" />][2] On friday march 14, 2008 Mayor [Job Cohen][3] of Amsterdam was the first player of the [GamesAtelier][4] product that [Waag Society][5] launched. We at [7Scenes][6] have worked hard to get the software done.
+{{< a-img data-href="javascript:return false" data-src="/uploads/2008/03/gamesatelier-sara-300x225.jpg" data-class="float_right">}}
 
-<img loading="lazy" class="alignleft wp-image-273 size-medium" src="uploads/2008/03/gamesatelier-cohen-300x215.jpg" alt="gamesatelier-cohen" width="300" height="215" srcset="https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-cohen-300x215.jpg 300w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-cohen-208x150.jpg 208w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-cohen-150x107.jpg 150w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-cohen.jpg 319w" sizes="(max-width: 300px) 100vw, 300px" /> 
+<!-- <img loading="lazy" class="alignleft wp-image-275 size-medium" src="uploads/2008/03/gamesatelier-just-300x217.jpg" alt="gamesatelier-just" width="300" height="217" srcset="https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-just-300x217.jpg 300w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-just-206x150.jpg 206w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-just-150x108.jpg 150w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-just.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" />
+
+<img loading="lazy" class="alignright wp-image-274 size-medium" src="uploads/2008/03/gamesatelier-sara-300x225.jpg" alt="gamesatelier-sara" width="300" height="225" srcset="https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-sara-300x225.jpg 300w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-sara-199x150.jpg 199w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-sara-150x112.jpg 150w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-sara.jpg 306w" sizes="(max-width: 300px) 100vw, 300px" />] -->
+
+On friday march 14, 2008 Mayor [Job Cohen][3] of Amsterdam was the first player of the [GamesAtelier][4] product that [Waag Society][5] launched. We at [7Scenes][6] have worked hard to get the software done.
 
 &nbsp;
 
+<!-- <img loading="lazy" class="alignleft wp-image-273 size-medium" src="uploads/2008/03/gamesatelier-cohen-300x215.jpg" alt="gamesatelier-cohen" width="300" height="215" srcset="https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-cohen-300x215.jpg 300w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-cohen-208x150.jpg 208w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-cohen-150x107.jpg 150w, https://justobjects.nl/wp-content/uploads/2008/03/gamesatelier-cohen.jpg 319w" sizes="(max-width: 300px) 100vw, 300px" /> -->
+
+{{< a-img data-href="javascript:return false" data-src="/uploads/2008/03/gamesatelier-cohen.jpg" data-class="float_left">}}
+
 &nbsp;
 
-links  
+Links  
 [www.gamesatelier.nl][7]  
 [Games Atelier officieel van start][8]  
 [parool.nl][9]
 
 &nbsp;
 
-&nbsp;
+More photos here: <http://gallery.waag.org/gamesatelier>
 
-More photos here: <a href="http://gallery.waag.org/gamesatelier" target="_blank">http://gallery.waag.org/gamesatelier</a>
-
- [1]: uploads/2008/03/gamesatelier-cohen.jpg
- [2]: uploads/2008/03/gamesatelier-sara.jpg
+ [1]: /uploads/2008/03/gamesatelier-cohen.jpg
+ [2]: /uploads/2008/03/gamesatelier-sara.jpg
  [3]: http://nl.wikipedia.org/wiki/Job_Cohen
  [4]: http://7scenes.com/games_atelier
  [5]: http://www.waag.org
