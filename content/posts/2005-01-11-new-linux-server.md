@@ -8,7 +8,10 @@ categories:
   - General
 
 ---
-.![pundit 1][1].![pundit 2][2].![pundit 3][3]  
+<!-- ![pundit 1][1] ![pundit 2][2] ![pundit 3][3] -->
+
+`.pundit 1` `.pundit 2` `.pundit 3`
+
 Today finally switched over to my new Linux server, an [Asus Pundit-R][4], running [Debian Sarge][5]
 
  [1]: /assets/media/asus-pundit-1.jpg
