@@ -138,7 +138,7 @@ This site has been written and generated using XBook&#8230;
 
 # CowCatcher
 
-See <a href="http://www.justobjects.org/cowcatcher" target="proj">www.justobjects.org/cowcatcher</a> and <a href="http://sourceforge.net/projects/cowcatcher" target="proj">SourceForge</a>
+See <www.justobjects.org/cowcatcher> and [SourceForge][8]
 
 ### Goals
 
@@ -146,7 +146,7 @@ Develop a toolset to generate HTML course materials from XML and provide content
 
 ### Comment
 
-This project has helped us to quickly assemble materials and provide <a href="http://www.justobjects.nl/jo/training" target="_self">training</a> to our clients. There is a lot of free stuff like complete online Java courses, so check it out.
+This project has helped us to quickly assemble materials and provide [training][7] to our clients. There is a lot of free stuff like complete online Java courses, so check it out.
 
  [1]: http://www.geonovum.nl
  [2]: http://smartemission.ruhosting.nl/
@@ -154,3 +154,5 @@ This project has helped us to quickly assemble materials and provide <a href="h
  [4]: https://www.pdok.nl/
  [5]: http://www.kralidis.ca/
  [6]: https://github.com/geopython/GeoHealthCheck
+ [7]: /jo/training
+ [8]: http://sourceforge.net/projects/cowcatcher
