@@ -10,11 +10,11 @@ categories:
   - Projects
 
 ---
-[<img loading="lazy" class="alignnone wp-image-302 size-full" src="uploads/2005/11/n8spel1.jpg" alt="n8spel1" width="602" height="261" srcset="https://justobjects.nl/wp-content/uploads/2005/11/n8spel1.jpg 602w, https://justobjects.nl/wp-content/uploads/2005/11/n8spel1-300x130.jpg 300w, https://justobjects.nl/wp-content/uploads/2005/11/n8spel1-250x108.jpg 250w, https://justobjects.nl/wp-content/uploads/2005/11/n8spel1-150x65.jpg 150w" sizes="(max-width: 602px) 100vw, 602px" />][1]
+![ ][0]
 
 Again I had the opportunity to do a fun and technically challenging geo-project using my [GeoTracing][2] platform: developing a [GPS-based mobile drawing game][3] for the  [Amsterdam Museum Night][4]. Teams would go into the city where they compete on who would (geo)draw the most beautiful &#8220;8&#8221; by walking with a GPS and a mobile phone. They could embellish their drawings with photo&#8217;s and video&#8217;s taken and submitted on the spot. The competitive element was creativity with both the drawing and the media. All submitted media were tagged to the geographic locations where they were taken. The player&#8217;s movements, tracks and media could be followed in real-time through a webbrowser. You can view [a report with video made by Bright magazine][5].
 
-[<img loading="lazy" class="alignnone wp-image-304 size-full" src="uploads/2005/11/n8spel2.jpg" alt="n8spel2" width="396" height="519" srcset="https://justobjects.nl/wp-content/uploads/2005/11/n8spel2.jpg 396w, https://justobjects.nl/wp-content/uploads/2005/11/n8spel2-228x300.jpg 228w, https://justobjects.nl/wp-content/uploads/2005/11/n8spel2-114x150.jpg 114w" sizes="(max-width: 396px) 100vw, 396px" />][6]
+![ ][1]
 
 The N8-game application was developed in about one month by two developers. It consisted of three main components: (1) the server (2) mobile clients and (3) a web-browser front end.
 
@@ -25,7 +25,8 @@ The **_server_** utilized the GeoTracing server without any modification. Basica
 The **_web-browser front-end_** was written using pure DHTML with [Google Maps][13], [AJAX][11] and [a Pushlet client][12].  
 Through Pushlets the browser receives real-time events like player movements and incoming media. Using the server REST service with AJAX player and tracklog info is obtained. Conceptually the browser-server interaction follows a distributed [Model-View-Controller pattern][14] with the Model on the server, the events to the View (browser) transmitted with Pushlets and the Controller function using AJAX.
 
- [1]: uploads/2005/11/n8spel1.jpg
+ [0]: /uploads/2005/11/n8spel1.jpg
+ [1]: /uploads/2005/11/n8spel2.jpg
  [2]: http://www.geotracing.com
  [3]: http://www.n8spel.nl
  [4]: http://www.n8.nl
