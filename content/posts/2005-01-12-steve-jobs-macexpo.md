@@ -9,7 +9,7 @@ categories:
   - osgeo
 
 ---
-Just watched the [video stream][1] of [Steve Jobs&#8217; keynote address for Macworld Conference][2]. What I found the most exciting announcement is the introduction of the [Mac Mini][3], a barebone G4 for around EUR 500,-.
+Just watched the [video stream][1] of [Steve Jobs&#8217; keynote address for Macworld Conference][2]. What I found the most exciting announcement is the introduction of the [Mac Mini][3], a barebone G4 for around EUR 500.
 
  [1]: http://stream.apple.akadns.net/
  [2]: http://www.macworld.com/news/2005/01/11/keynote/index.php
