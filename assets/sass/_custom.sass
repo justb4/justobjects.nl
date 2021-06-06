@@ -1,3 +1,5 @@
+$small: 414px;
+
 img
   display: block
 
@@ -6,3 +8,9 @@ h3.link_owner
 
 .img_alt
   text-align: center
+
+.float_left, .float_right
+  @media screen and (max-width: $small)
+    width: 100%
+    float: none
+    clear: both
