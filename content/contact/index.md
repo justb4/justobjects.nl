@@ -21,7 +21,7 @@ Phone +31 654268627
 Email: info AT justobjects.nl  
 [www.justobjects.nl][5]
 
- [1]: http://www.justobjects.nl/jo/assets/doc/cv.html
+ [1]: https://files.justobjects.nl/jo/assets/doc/cv.html
  [2]: https://patreon.com/justb4
  [3]: https://github.com/justb4
  [4]: https://twitter.com/justb4

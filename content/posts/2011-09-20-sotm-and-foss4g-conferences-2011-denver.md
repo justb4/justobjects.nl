@@ -45,8 +45,8 @@ Next year FOSS4G will be in Beijing, China ! Will SOTM also be held there ?
  [6]: http://openstreetmap.org
  [7]: http://www.wynkoop.com/ "www.wynkoop.com/"
  [8]: http://2011.foss4g.org/sessions/openstreetmap-and-inspire-can-twain-meet "2011.foss4g.org/sessions/openstreetmap-and-inspire-can-twain-meet"
- [9]: http://www.justobjects.nl/jo/assets/presentation/foss4g-2011/html/img0.html
- [10]: http://www.justobjects.nl/jo/assets/presentation/foss4g-2011/osm-inspire-foss4g2011-broecke.pdf
+ [9]: https://files.justobjects.nl/jo/assets/presentation/foss4g-2011/html/img0.html
+ [10]: https://files.justobjects.nl/jo/assets/presentation/foss4g-2011/osm-inspire-foss4g2011-broecke.pdf
  [11]: http://www.denver-bed-breakfast.com
  [12]: http://signaturecrystalsharp.com/
  [13]: http://www.denver-bed-breakfast.com/images/clementine.jpg

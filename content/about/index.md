@@ -28,8 +28,8 @@ The most active part of this website should be [Just&#8217;s Blog][4], but also
   * <small>January 11, 2019</small>[Cheers to 2018][11]
   * <small>August 15, 2018</small>[Emit #5 – Assembling and Deploying 5 AirSensEURs – a Story in Pictures][12]
 
- [1]: https://justobjects.nl/jo/assets/doc/cv.html
- [2]: https://justobjects.nl/jo/assets/doc/cv.pdf
+ [1]: https://files.justobjects.nl/jo/assets/doc/cv.html
+ [2]: https://files.justobjects.nl/jo/assets/doc/cv.pdf
  [3]: http://osgeo.org
  [4]: http://justobjects.nl/writings/blog/ "Just's Blog"
  [5]: http://justobjects.nl/projects/

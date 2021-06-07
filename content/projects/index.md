@@ -155,7 +155,7 @@ This project has helped us to quickly assemble materials and provide [training]
  [5]: http://www.kralidis.ca/
  [6]: http://data.smartemission.nl/
  [7]: https://github.com/geopython/GeoHealthCheck
- [8]: /jo/training
+ [8]: https://files.justobjects.nl/jo/training
  [9]: http://sourceforge.net/projects/cowcatcher
  [10]: http://geohealthcheck.org
  [12]: http://bag.vrom.nl/de_bag_gebruiken/bag_extract__
