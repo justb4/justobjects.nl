@@ -59,37 +59,37 @@ Below a selection of various presentations by Just, starting with the most recen
 [\[HTML Slides\]][35]
 
 **_&#8220;The Wonderful World of Open Source Geo&#8221; &#8211; JavaKnights &#8211; September 18, 2009_**  
-<a href="http://www.justobjects.nl/jo/assets/presentation/topotales/index.html" target="_new">[HTML Slides]</a>
+[\[HTML Slides\]][36]
 
 **_&#8220;7Scenes&#8221; &#8211; OSGEO Hacking Event, Bolsena (IT) &#8211; June 25, 2009_**  
-<a href="http://www.justobjects.nl/jo/assets/presentation/bolsena-7scenes/index.html" target="_new">[HTML Slides]</a>
+[\[HTML Slides\]][37]
 
 **_&#8220;GeoNetwork Jeeves Tester&#8221; &#8211; OSGEO Hacking Event, Bolsena (IT) &#8211; June 24, 2009_**  
-<a href="http://www.justobjects.nl/jo/assets/presentation/bolsena-jeeves-tester/index.html" target="_new">[HTML Slides]</a>
+[\[HTML Slides\]][38]
 
 **_&#8220;7Scenes&#8221; &#8211; JavaKnights &#8211; April 10, 2008_**  
-<a href="http://www.justobjects.nl/jo/assets/presentation/7scenesjk/index.html" target="_new">[HTML Slides]</a>
+[\[HTML Slides\]][39]
 
 **_&#8220;GeoTracing&#8221; &#8211; FOSS4G &#8211; September 14, 2006_**  
-<a href="http://www.geotracing.com/presentation" target="_new">[HTML Slides]</a>
+[\[HTML Slides\]][40]
 
 **_&#8220;Pushlets&#8221; &#8211; Postbank/ING &#8211; September 29, 2006_**  
-<a href="http://www.pushlets.com/presentation" target="_new">[HTML Slides]</a>
+[\[HTML Slides\]][41]
 
 **_&#8220;GeoTracing&#8221; &#8211; Waag Killerclub &#8211; Dec 14, 2005_**  
-<a href="http://www.justobjects.nl/jo/assets/presentation/geotracing-lm-05/index.html" target="_new">[Arty HTML!]</a>
+[\[HTML Slides\]][42]
 
 **_&#8220;Frequency 1550&#8221; &#8211; NLJUG JSpring &#8211; May 12, 2005_**  
-<a href="http://www.justobjects.nl/jo/assets/presentation/jspring05/index.html" target="_new">[HTML Slides]</a> <a href="http://www.nljug.org/pages/events/content/jspring_2005/sessions/00001" target="_new">[Session Description]</a>
+[\[HTML Slides\]][43] [\[Session Description\]][44]
 
 **_&#8220;Frequency 1550&#8221; &#8211; Waag &#8211; February, 2005_**  
-<a href="http://www.justobjects.nl/jo/assets/presentation/f1550tech/index.html" target="_new">[HTML Slides]</a>
+[\[HTML Slides\]][45]
 
 **_&#8220;Multi-user Networking&#8221; &#8211; Deaf03 &#8211; V2 Rotterdam &#8211; 2003_**  
-<a href="http://www.justobjects.nl/jo/assets/presentation/deaf03/slide.0.0.html" target="_new">[HTML Slides]</a>
+[\[HTML Slides\]][46]
 
 **_&#8220;Multiparty/Multimedia Services to Native ATM Desktops&#8221; &#8211; HPDC &#8211; August 1996_**  
-<a href="http://www.justobjects.nl/jo/assets/doc/hpdc-slides/index.htm" target="_new">[HTML Slides]</a>
+[\[HTML Slides\]][47]
 
 [1]: http://www.slideshare.net/justb4
 [2]: http://www.slideshare.net/justb4/sensorweb-sos-pilot-rivmgeonovum-status
@@ -126,21 +126,15 @@ Below a selection of various presentations by Just, starting with the most recen
 [33]: http://www.justobjects.nl/jo/assets/presentation/bolsena-2010-inspire/index.html
 [34]: http://www.justobjects.nl/jo/assets/presentation/bolsena-2010-inspire/bolsena-2010-inspire-just.pdf
 [35]: http://www.justobjects.nl/jo/assets/presentation/kadaster-inspire-ws-nrw/index.html
-
-[36]: ewrewr
-[37]: ewrewr
-
-[38]: ewrewr
-[39]: ewrewr
-
-[40]: ewrewr
-[41]: ewrewr
-
-[42]: ewrewr
-[43]: ewrewr
-
-[44]: ewrewr
-[45]: ewrewr
-
-[46]: ewrewr
-[47]: ewrewr
+[36]: http://www.justobjects.nl/jo/assets/presentation/topotales/index.html
+[37]: http://www.justobjects.nl/jo/assets/presentation/bolsena-7scenes/index.html
+[38]: http://www.justobjects.nl/jo/assets/presentation/bolsena-jeeves-tester/index.html
+[39]: http://www.justobjects.nl/jo/assets/presentation/7scenesjk/index.html
+[40]: http://www.geotracing.com/presentation
+[41]: http://www.pushlets.com/presentation
+[42]: http://www.justobjects.nl/jo/assets/presentation/geotracing-lm-05/index.html
+[43]: http://www.justobjects.nl/jo/assets/presentation/jspring05/index.html
+[44]: http://www.nljug.org/pages/events/content/jspring_2005/sessions/00001
+[45]: http://www.justobjects.nl/jo/assets/presentation/f1550tech/index.html
+[46]: http://www.justobjects.nl/jo/assets/presentation/deaf03/slide.0.0.html
+[47]: http://www.justobjects.nl/jo/assets/doc/hpdc-slides/index.htm
