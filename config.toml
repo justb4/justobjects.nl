@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://www.justobjects.nl/"
 languageCode = "en-us"
 title = "Just Objects"
 theme = "hugo-clarity"
