@@ -29,10 +29,10 @@ J.A. van den Broecke;**_&#8220;Multi-user Networking&#8221;_**; Published in**_&
 Linda Rising (ed.);**_&#8220;Design Patterns in Communications Software&#8221;_**; (includes [my article written with Jim Coplien)][10] Cambridge University Press June 2001; ISBN 0521790409  
 [\[Reference\]][11]
 
-J.A. van den Broecke;&nbsp;**_&#8220;Pushlets, Part 1: Send events from servlets to DHTML client browsers&#8221;_**&nbsp;; JavaWorld, March 2000;  
+J.A. van den Broecke;&nbsp;**_&#8220;Pushlets, Part 1: Send events from servlets to DHTML client browsers&#8221;_**&nbsp;; JavaWorld, March 2000  
 [\[Online HTML\]][12] [\[www.pushlets.com\]][13]
 
-J.A. van den Broecke, [J.O. Coplien][14] **_&#8220;Using Design Patterns to Build a Framework for Multimedia Networking&#8221;_**; Bell Labs Technical Journal Volume 2 Number 1 Winter 1997; pp 166-187.  
+J.A. van den Broecke, [J.O. Coplien][14] **_&#8220;Using Design Patterns to Build a Framework for Multimedia Networking&#8221;_**; Bell Labs Technical Journal Volume 2 Number 1 Winter 1997; pp 166-187  
 [\[PDF\]][15]
 
 H. Ouibrahim, J.A. van den Broecke;&nbsp;**_&#8220;Multiparty/Multimedia Services to Native ATM Desktops&#8221;_**; Fifth IEEE International Symposium on High-Performance Distributed Computing; Syracuse NY, USA, August 1996, pp. 203-208;  
@@ -42,16 +42,17 @@ J.A. van den Broecke;**_&#8220;Introduction to MIDI&#8221;_**; AT & T and Philip
 
 # Chemistry
 
-G.G. Choudhry, J.A. van den Broecke, and O. Hutzinger;&nbsp;**_&#8220;Formation of polychlorodibenzofurans (PCDFs) by the photolyses of polychlorobenzenes (PCBzs) in aqueous acetonitrile containing phenols&#8221;_**; Chemosphere 12: No. 4/5 pp 487-492 1983, <a href="http://www.sciencedirect.com/science/article/pii/0045653583901984" target="_blank" rel="noopener">[Link]</a>  
-<a href="http://www.justobjects.nl/jo/assets/doc/choudhry1983.pdf" target="_blank" rel="noopener">[PDF Download]</a>.
+G.G. Choudhry, J.A. van den Broecke, and O. Hutzinger;&nbsp;**_&#8220;Formation of polychlorodibenzofurans (PCDFs) by the photolyses of polychlorobenzenes (PCBzs) in aqueous acetonitrile containing phenols&#8221;_**; Chemosphere 12: No. 4/5 pp 487-492 1983  
+[\[Link\]][18] [\[PDF Download\]][19]
 
-G.G. Choudhry, J.A. van den Broecke, G.R.B. Webster, and O. Hutzinger;&nbsp;**_&#8220;Environmental Photoincorporations of Polychlorobenzenes into Several Humic Model Monomers&#8221;_**; Chemosphere 16: 495-505 1987, <a href="http://www.sciencedirect.com/science/article/pii/0045653587902578" target="_blank" rel="noopener">[Link]</a>  
-<a href="http://www.justobjects.nl/jo/assets/doc/choudhry1987.pdf" target="_blank" rel="noopener">[PDF Download]</a>.
+G.G. Choudhry, J.A. van den Broecke, G.R.B. Webster, and O. Hutzinger;&nbsp;**_&#8220;Environmental Photoincorporations of Polychlorobenzenes into Several Humic Model Monomers&#8221;_**; Chemosphere 16: 495-505 1987  
+[\[Link\]][20] [\[PDF Download\]][21]
 
-G.G. Choudhry, J.A. van den Broecke, G.R.B. Webster, and O. Hutzinger;&nbsp;**_&#8220;Photochemistry of Halogenated Benzene Derivatives. Part VII. Photochemical Interactions of Polychlorobenzenes with some Humic Model Compounds&#8221;_**; 1986 Environm. Toxicol. Chem. 5: 625-635, <a href="http://onlinelibrary.wiley.com/doi/10.1002/etc.5620050703/abstract" target="_blank" rel="noopener">[Link]</a>  
-<a href="http://www.justobjects.nl/jo/assets/doc/choudhry1986.pdf" target="_blank" rel="noopener">[PDF Download]</a>.
+G.G. Choudhry, J.A. van den Broecke, G.R.B. Webster, and O. Hutzinger;&nbsp;**_&#8220;Photochemistry of Halogenated Benzene Derivatives. Part VII. Photochemical Interactions of Polychlorobenzenes with some Humic Model Compounds&#8221;_**; 1986 Environm. Toxicol. Chem. 5: 625-635  
+[\[Link\]][22] [\[PDF Download\]][23]
 
-G.G. Choudhry, J.A. van den Broecke, G.R.B. Webster, and O. Hutzinger;&nbsp;**_&#8220;Environmental Photoincorporations of polychlorobenzenes into several humic model monomers&#8221;_**; 1987 Proceedings of the Third International Symposium on &#8220;Environmental Pollution and its Impact on Life in the Mediterranean Region&#8221;; Istanbul, Turkey, September 1-4, 1985; Guest eds. H. Parlar et al., Pergamon Press, New York; <a href="http://www.sciencedirect.com/science/article/pii/0045653587902578" target="_blank" rel="noopener">[Link]</a>.
+G.G. Choudhry, J.A. van den Broecke, G.R.B. Webster, and O. Hutzinger;&nbsp;**_&#8220;Environmental Photoincorporations of polychlorobenzenes into several humic model monomers&#8221;_**; 1987 Proceedings of the Third International Symposium on &#8220;Environmental Pollution and its Impact on Life in the Mediterranean Region&#8221;; Istanbul, Turkey, September 1-4, 1985; Guest eds. H. Parlar et al., Pergamon Press, New York  
+[\[Link\]][24]
 
 [1]: http://52north.org/files/sensorweb/GSWConference2016/Geospatial_Sensor_Webs_Conference_2016_2.pdf
 [2]: http://smartplatform.readthedocs.io/en/latest/_static/dissemination/sensorweb-munster-30aug2016/paper-munster-conf.pdf
@@ -70,3 +71,10 @@ G.G. Choudhry, J.A. van den Broecke, G.R.B. Webster, and O. Hutzinger;&nbsp;**_&
 [15]: http://www.justobjects.nl/jo/assets/doc/bltj97.pdf
 [16]: http://www.justobjects.nl/jo/assets/doc/hpdc96.pdf
 [17]: http://www.justobjects.nl/jo/assets/doc/hpdc-slides/index.htm
+[18]: http://www.sciencedirect.com/science/article/pii/0045653583901984
+[19]: http://www.justobjects.nl/jo/assets/doc/choudhry1983.pdf
+[20]: http://www.sciencedirect.com/science/article/pii/0045653587902578
+[21]: http://www.justobjects.nl/jo/assets/doc/choudhry1987.pdf
+[22]: ttp://onlinelibrary.wiley.com/doi/10.1002/etc.5620050703/abstract
+[23]: http://www.justobjects.nl/jo/assets/doc/choudhry1986.pdf
+[24]: http://www.sciencedirect.com/science/article/pii/0045653587902578
