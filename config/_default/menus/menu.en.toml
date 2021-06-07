@@ -19,21 +19,25 @@
   # url = "writings/blog/"
   # url = "blog/"
   url = "posts/"
+  weight = -99
 [[main]]
   parent = "Writings"
   name = "Tweets"
   # url = "writings/tweets/"
   url = "tweets/"
+  weight = -98
 [[main]]
   parent = "Writings"
   name = "Presentations"
   # url = "writings/presentations/"
   url = "presentations/"
+  weight = -97
 [[main]]
   parent = "Writings"
   name = "Publications"
   # url = "writings/publications/"
   url = "publications/"
+  weight = -96
 
 [[main]]
   name = "Projects"
