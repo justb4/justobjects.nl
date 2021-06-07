@@ -47,14 +47,21 @@
   weight = -99
 [[main]]
   parent = "Projects"
-  name = "Heron Mapping Client →"
+  # name = "Heron Mapping Client →"
+  name = "Heron Mapping Client"
   url = "http://heron-mc.org"
   weight = -98
 [[main]]
   parent = "Projects"
-  name = "GeoHealthCheck – OGC GeoSpatial Web Service Monitoring →"
+  # name = "GeoHealthCheck – OGC GeoSpatial Web Service Monitoring →"
+  name = "GeoHealthCheck – OGC GeoSpatial Web Service Monitoring"
   url = "https://geohealthcheck.org"
   weight = -97
+[[main]]
+  parent = "Projects"
+  name = "Smart Emission – Open Sensor Web Platform"
+  url = "http://data.smartemission.nl"
+  weight = -96
 
 # TODO : add more Project links
 
