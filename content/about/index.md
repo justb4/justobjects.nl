@@ -5,28 +5,26 @@ type: page
 date: 2014-06-22T13:59:27+00:00
 
 ---
-Just Objects B.V. is the trading name for the professional activities of <a href="https://www.linkedin.com/in/justb4" target="_blank" rel="noopener noreferrer">Just van den Broecke</a>.
+Just Objects B.V. is the trading name for the professional activities of [Just van den Broecke][13].
 
 You can [find Just&#8217;s CV here.][1] also [as PDF][2].
 
-Just Objects provides services for <a title="GIS, Geospatial IT, or Geo-ICT" href="http://en.wikipedia.org/wiki/Geographic_information_system" target="_blank" rel="noopener noreferrer">Geospatial IT</a>, also known as GIS or Geo-ICT, with a focus on <a href="http://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank" rel="noopener noreferrer">Free and Open Source</a> (FOSS), Open Standards and Open Data.
+Just Objects provides services for [Geospatial IT][14], also known as GIS or Geo-ICT, with a focus on [Free and Open Source][15] (FOSS), Open Standards and Open Data.
 
 The range of services includes: consultancy, training, development, hosting and maintenance.
 
-Just Objects is a member of the <a title="OpenGeoGroep" href="http://opengeogroep.nl" target="_blank" rel="noopener noreferrer">OpenGeoGroep Cooperation</a>.
+Just Objects is a member of the [OpenGeoGroep Cooperation][16].
 
-Just is an <a href="http://osgeo.org" target="_blank" rel="noopener noreferrer">OSGeo</a> <a href="http://wiki.osgeo.org/wiki/Just_van_den_Broecke" target="_blank" rel="noopener noreferrer">Charter member</a> and founder and now chair of the <a title="OSGeo.nl" href="http://osgeo.nl" target="_blank" rel="noopener noreferrer">OSGeo.nl Foundation</a>, the Dutch Chapter of [OSGeo.org][3].
+Just is an [OSGeo][3] [Charter member][17] and founder and now chair of the [OSGeo.nl Foundation][6], the Dutch Chapter of [OSGeo.org][3].
 
 The most active part of this website should be [Just&#8217;s Blog][4], but also checkout his contributions to &#8220;the commons&#8221; via  [his Open Source projects][5] and [OSGeo.nl.][6]
 
-<!--via SimplePie with RSSImport-->
-
-  * <small>January 20, 2021</small>[That Was 2020][7]
-  * <small>January 17, 2020</small>[Cheers to 2019][8]
-  * <small>May 31, 2019</small>[Second Time Around – WFS v3 and pygeoapi][9]
-  * <small>February 19, 2019</small>[Emit #6 – AirSensEUR Calibration][10]
-  * <small>January 11, 2019</small>[Cheers to 2018][11]
-  * <small>August 15, 2018</small>[Emit #5 – Assembling and Deploying 5 AirSensEURs – a Story in Pictures][12]
+* January 20, 2021 [That Was 2020][7]
+* January 17, 2020 [Cheers to 2019][8]
+* May 31, 2019 [Second Time Around – WFS v3 and pygeoapi][9]
+* February 19, 2019 [Emit #6 – AirSensEUR Calibration][10]
+* January 11, 2019 [Cheers to 2018][11]
+* August 15, 2018 [Emit #5 – Assembling and Deploying 5 AirSensEURs – a Story in Pictures][12]
 
  [1]: https://files.justobjects.nl/jo/assets/doc/cv.html
  [2]: https://files.justobjects.nl/jo/assets/doc/cv.pdf
@@ -40,3 +38,8 @@ The most active part of this website should be [Just&#8217;s Blog][4], but also
  [10]: https://justobjects.nl/emit-6-airsenseur-calibration/ "Emit #6 – AirSensEUR Calibration"
  [11]: https://justobjects.nl/cheers-to-2018/ "Cheers to 2018"
  [12]: https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/ "Emit #5 – Assembling and Deploying 5 AirSensEURs – a Story in Pictures"
+ [13]: https://www.linkedin.com/in/justb4
+ [14]: http://en.wikipedia.org/wiki/Geographic_information_system "GIS, Geospatial IT, or Geo-ICT"
+ [15]: http://en.wikipedia.org/wiki/Free_and_open-source_software
+ [16]: http://opengeogroep.nl
+ [17]: http://wiki.osgeo.org/wiki/Just_van_den_Broecke
