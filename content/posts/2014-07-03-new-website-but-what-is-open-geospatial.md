@@ -4,6 +4,7 @@ author: Just van den Broecke
 type: post
 date: 2014-07-03T00:07:20+00:00
 url: /new-website-but-what-is-open-geospatial/
+featured_image: uploads/2014/07/def-150x106.jpg
 categories:
   - osgeo
 
