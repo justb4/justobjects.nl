@@ -10,7 +10,7 @@ Just has initiated and participates in a number of Open Source projects, sometim
 
 # Smart Emission
 
-See the <a href="http://data.smartemission.nl/" target="proj">Smart Emission website</a>.
+See the [Smart Emission website][6].
 
 ### Goal
 
@@ -22,7 +22,7 @@ This project started in 2015 as an assignment from [Geonovum][1] for the [Smart 
 
 # GeoHealthCheck
 
-See <a href="http://geohealthcheck.org" target="proj">GeoHealthCheck.org</a>
+See [GeoHealthCheck.org][10]
 
 ### Goal
 
@@ -30,11 +30,11 @@ GeoHealthCheck is a Python application to support monitoring OGC Web Services up
 
 ### Comment
 
-This project was started by the great [Tom Kralidis][5]. I started joining the [GeoHealthCheck project on GitHub][6]  in 2016 with some patches (PRs), from there providing more substantial contributions.
+This project was started by the great [Tom Kralidis][5]. I started joining the [GeoHealthCheck project on GitHub][7]  in 2016 with some patches (PRs), from there providing more substantial contributions.
 
 # NLExtract
 
-See <a href="http://nlextract.nl/" target="proj">nlextract.nl</a>.
+See [nlextract.nl][11].
 
 ### Goal
 
@@ -42,47 +42,47 @@ Develop an Open Source toolkit to extract, transform (ETL) and visualize Dutch o
 
 ### Comment
 
-This project proceeded on an initial development of <a href="http://bag.vrom.nl/de_bag_gebruiken/bag_extract__" target="_new">BAGExtract+ from the Dutch Ministry of Intrastructure and Environment</a>. The project is done under the flag of the <a href="http://opengeogroep.nl/" target="_new">OpenGeoGroep</a>.
+This project proceeded on an initial development of [BAGExtract+ from the Dutch Ministry of Intrastructure and Environment][12]. The project is done under the flag of the [OpenGeoGroep][13].
 
 # Heron Mapping Client
 
-See <a href="http://heron-mc.org/" target="proj">heron-mc.org</a>.
+See [heron-mc.org][14].
 
 ### Goal
 
-Develop components/widgets for building advanced geo web-clients using the <a href="http://geoext.org/" target="proj">GeoExt framework</a>. This project is hosted at <a href="http://code.google.com/p/geoext-viewer" target="proj">code.google.com/p/geoext-viewer</a>.
+Develop components/widgets for building advanced geo web-clients using the [GeoExt framework][15]. This project is hosted at [code.google.com/p/geoext-viewer][16].
 
 ### Comment
 
-This project was initally co-developed with <a href="http://www.geodan.nl/" target="proj">Geodan</a>, in particular to build a viewer within the <a href="http://www.esdin.eu/" target="proj">ESDIN</a> best practices for <a href="http://inspire.jrc.ec.europa.eu/" target="_self">INSPIRE</a>.
+This project was initally co-developed with [Geodan][17], in particular to build a viewer within the [ESDIN][18] best practices for [INSPIRE][19].
 
 # Stetl &#8211; Streaming ETL
 
-See <a href="http://stetl.org/" target="_new">stetl.org</a>.
+See [stetl.org][20].
 
 ### Goal
 
-Provide an ETL framework in Python geared at transforming complex/rich GML like INSPIRE and GML datasets, for example the national Dutch toposet (TOP10NL). Specify all ETL processing steps via a text configuration file (no programming). Integrate and use existing ETL-tools like GDAL/OGR, XSLT and PostGIS natively from within Python. Integrate with the <a href="http://deegree.org/" target="_new">deegree WFS server</a> and a possible foundation framework for <a href="http://nlextract.nl/" target="proj">nlextract.nl</a>.
+Provide an ETL framework in Python geared at transforming complex/rich GML like INSPIRE and GML datasets, for example the national Dutch toposet (TOP10NL). Specify all ETL processing steps via a text configuration file (no programming). Integrate and use existing ETL-tools like GDAL/OGR, XSLT and PostGIS natively from within Python. Integrate with the [deegree WFS server][21] and a possible foundation framework for [nlextract.nl][22].
 
 ### Comment
 
-This project came out of several iterations for ETL within the <a href="http://inspire-foss.org/" target="proj">inspire-foss.org</a> project. Basically
+This project came out of several iterations for ETL within the [inspire-foss.org][23] project. Basically
 
 # INSPIRE-FOSS &#8211; Free and Open Source for INSPIRE
 
-See <a href="http://inspire-foss.org/" target="proj">inspire-foss.org</a>.
+See [inspire-foss.org][23].
 
 ### Goal
 
-Develop components for transformation and web services (WMS, WFS, CSW) that comply with the pan-European <a href="http://inspire.jrc.ec.europa.eu/" target="_self">INSPIRE directive</a> using Free and Open Source for Geospatial (FOSS4G). This project is hosted at <a href="http://code.google.com/p/inspire-foss" target="proj">code.google.com/p/inspire-foss</a>.
+Develop components for transformation and web services (WMS, WFS, CSW) that comply with the pan-European [INSPIRE directive][19] using Free and Open Source for Geospatial (FOSS4G). This project is hosted at [code.google.com/p/inspire-foss][24].
 
 ### Comment
 
-This project was started as part of work on INSPIRE for the <a href="http://www.kadaster.nl/" target="proj">Dutch Land Registry (Kadaster)</a>, further propagated with <a href="http://www.deegree.org/" target="proj">deegree</a>-developers from <a href="http://www.lat-lon.de/" target="proj">lat/lon GmbH</a>.
+This project was started as part of work on INSPIRE for the [Dutch Land Registry (Kadaster)][25], further propagated with [deegree][21]-developers from [lat/lon GmbH][26].
 
 # GeoSkating
 
-See <a href="http://www.geoskating.com/" target="proj">www.geoskating.com</a> and the <a href="http://groups.google.com/group/geoskating" target="proj">Google Group (Dutch)</a>
+See <http://www.geoskating.com> and the [Google Group (Dutch)][27]
 
 ### Goal
 
@@ -90,31 +90,31 @@ Generate interactive, multimedial skate-maps through GPS and mobile phones. Upco
 
 ### Comment
 
-One of my dearest projects. Involves a whole range of Java-technologies (J2ME, J2EE). See also a <a href="http://tinyurl.com/lugzyl" target="_self">Dutch newspaper (Volkskrant) article</a>
+One of my dearest projects. Involves a whole range of Java-technologies (J2ME, J2EE). See also a [Dutch newspaper (Volkskrant) article][28]
 
 # GeoTracing
 
-See <a href="http://www.geotracing.com/" target="proj">www.geotracing.com</a>.
+See <www.geotracing.com>.
 
 ### Goal
 
-Create a generic platform for remote tracklogging and real-time tracing through GPS with mobile phones. See also GeoTracing example applications:<a href="http://www.geoskating.com/" target="proj">www.geoskating.com</a>, <a href="http://www.geosailing.com/" target="proj">www.geosailing.com</a> and <a href="http://www.n8spel.nl/" target="proj">a geodrawing game</a>.
+Create a generic platform for remote tracklogging and real-time tracing through GPS with mobile phones. See also GeoTracing example applications: <http://www.geoskating.com>, <http://www.geosailing.com> and [a geodrawing game][29].
 
 # Pushlets
 
-See <a href="http://www.pushlets.com/" target="proj">www.pushlets.com</a>.
+See <www.pushlets.com>.
 
 ### Goal
 
-A HTTP-based public/subscribe framework. Event push to browser clients without using client-side Java. Pushlets are told to be the first (1999) implementation for the principles of COMET (see <a href="http://ajaxian.com/archives/comet-a-new-approach-to-ajax-applications" target="_self">ajaxian.com</a>).
+A HTTP-based public/subscribe framework. Event push to browser clients without using client-side Java. Pushlets are told to be the first (1999) implementation for the principles of COMET (see [ajaxian.com][30]).
 
 ### Comment
 
-This project seems to attract many developers since a publication in <a href="http://www.javaworld.com/jw-03-2000/jw-03-pushlet.html" target="_self">JavaWorld March, 2000</a>.
+This project seems to attract many developers since a publication in [JavaWorld March, 2000][31].
 
 # KeyWorx
 
-See the <a href="http://www.keyworx.org/" target="proj">KeyWorx homepage</a>. This project ran until 2007.
+See the [KeyWorx homepage][32]. This project ran until 2007.
 
 ### Goal
 
@@ -122,11 +122,11 @@ Develop a multi-user/multi-service/multi-channel application platform.
 
 ### Comment
 
-KeyWorx was developed at <a href="http://www.waag.org/" target="proj">Waag Society</a> in Amsterdam.
+KeyWorx was developed at [Waag Society][33] in Amsterdam.
 
 # XBook
 
-See <a href="http://www.justobjects.org/xbook" target="proj">www.justobjects.org/xbook</a>.
+See [www.justobjects.org/xbook][34].
 
 ### Goal
 
@@ -138,7 +138,7 @@ This site has been written and generated using XBook&#8230;
 
 # CowCatcher
 
-See <www.justobjects.org/cowcatcher> and [SourceForge][8]
+See <http://www.justobjects.org/cowcatcher> and [SourceForge][9]
 
 ### Goals
 
@@ -146,13 +146,38 @@ Develop a toolset to generate HTML course materials from XML and provide content
 
 ### Comment
 
-This project has helped us to quickly assemble materials and provide [training][7] to our clients. There is a lot of free stuff like complete online Java courses, so check it out.
+This project has helped us to quickly assemble materials and provide [training][8] to our clients. There is a lot of free stuff like complete online Java courses, so check it out.
 
  [1]: http://www.geonovum.nl
  [2]: http://smartemission.ruhosting.nl/
  [3]: http://www.airsenseur.org/
  [4]: https://www.pdok.nl/
  [5]: http://www.kralidis.ca/
- [6]: https://github.com/geopython/GeoHealthCheck
- [7]: /jo/training
- [8]: http://sourceforge.net/projects/cowcatcher
+ [6]: http://data.smartemission.nl/
+ [7]: https://github.com/geopython/GeoHealthCheck
+ [8]: /jo/training
+ [9]: http://sourceforge.net/projects/cowcatcher
+ [10]: http://geohealthcheck.org
+ [12]: http://bag.vrom.nl/de_bag_gebruiken/bag_extract__
+ [13]: http://opengeogroep.nl/
+ [14]: http://heron-mc.org/
+ [15]: http://geoext.org/
+ [16]: http://code.google.com/p/geoext-viewer
+ [17]: http://www.geodan.nl/
+ [18]: http://www.esdin.eu/
+ [19]: http://inspire.jrc.ec.europa.eu/
+ [20]: http://stetl.org/
+ [21]: http://deegree.org/
+ [22]: http://nlextract.nl/
+ [23]: http://inspire-foss.org/
+ [24]: http://code.google.com/p/inspire-foss
+ [25]: http://www.kadaster.nl/
+ [26]: http://www.lat-lon.de/
+ [27]: http://groups.google.com/group/geoskating
+ [28]: http://tinyurl.com/lugzyl
+ [29]: http://www.n8spel.nl/
+ [30]: http://ajaxian.com/archives/comet-a-new-approach-to-ajax-applications
+ [31]: http://www.javaworld.com/jw-03-2000/jw-03-pushlet.html
+ [32]: http://www.keyworx.org/
+ [33]: http://www.waag.org/
+ [34]: http://www.justobjects.org/xbook
