@@ -1,7 +1,7 @@
-[[main]]
-  name = "Home"
-  url = ""
-  weight = -110
+# [[main]]
+#  name = "Home"
+#  url = ""
+#  weight = -110
 
 [[main]]
   name = "About"
@@ -72,6 +72,11 @@
   name = "NLExtract – Unlock Dutch Geodata"
   url = "http://nlextract.nl"
   weight = -94
+[[main]]
+  parent = "Projects"
+  name = "NLExtract – Unlock Dutch Geodata"
+  url = "http://nlextract.nl"
+  weight = -94
 
 # TODO : add more Project links
 
@@ -79,7 +84,7 @@
   name = "Products"
   identifier = "Products"
   url = "products/"
-  weight = -107
+  weight = -102
 [[main]]
   parent = "Products"
   name = "map5.nl"
@@ -97,18 +102,18 @@
 #  weight = -106
 
 # Submenus are done this way: parent -> identifier
-[[main]]
-  name = "Links"
-  identifier = "Links"
-  weight = -105
-[[main]]
-  parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
-[[main]]
-  parent = "Links"
-  name = "Twitter"
-  url = "https://twitter.com/"
+# [[main]]
+#  name = "Links"
+#  identifier = "Links"
+#  weight = -105
+# [[main]]
+#  parent = "Links"
+#  name = "LinkedIn"
+#  url = "https://www.linkedin.com/"
+# [[main]]
+#  parent = "Links"
+#  name = "Twitter"
+#  url = "https://twitter.com/"
 
 # social menu links
 
