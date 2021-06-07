@@ -74,11 +74,39 @@
   weight = -94
 [[main]]
   parent = "Projects"
-  name = "NLExtract – Unlock Dutch Geodata"
-  url = "http://nlextract.nl"
-  weight = -94
-
-# TODO : add more Project links
+  name = "INSPIRE FOSS – Free and Open Source for INSPIRE"
+  url = "https://github.com/justb4/inspire-foss"
+  weight = -93
+[[main]]
+  parent = "Projects"
+  name = "7Scenes – create mobile games and tours"
+  url = "http://7scenes.com"
+  weight = -92
+[[main]]
+  parent = "Projects"
+  name = "MapGlow – heatmaps via WMS"
+  url = "https://github.com/justb4/mapglow"
+  weight = -91
+[[main]]
+  parent = "Projects"
+  name = "GeoSkating – map your inline skating tracks"
+  url = "http://geoskating.com"
+  weight = -90
+[[main]]
+  parent = "Projects"
+  name = "GeoRambling – Just’s Multimedial GPS Hikes"
+  url = "http://georambling.com"
+  weight = -89
+[[main]]
+  parent = "Projects"
+  name = "Pushlets – PubSub via HTTP"
+  url = "http://pushlets.com"
+  weight = -88
+[[main]]
+  parent = "Projects"
+  name = "CowCatcher – Free Java Training Materials"
+  url = "http://justobjects.org/cowcatcher"
+  weight = -87
 
 [[main]]
   name = "Products"
