@@ -6,7 +6,8 @@
       </h3>
       {{ partial "post-meta" . }}
     </div>
-    {{- with .Params.thumbnail }}
+    {{/* - with .Params.thumbnail */}}
+    {{- with .Params.featured_image }}
     <div class="excerpt_footer partition">
       <div class="excerpt_thumbnail">
         <img src='{{ if (hasPrefix . "http") }}{{ . }}{{ else }}{{ absURL . }}{{ end }}' alt="{{ $.Title }}">
