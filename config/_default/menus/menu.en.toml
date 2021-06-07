@@ -62,6 +62,16 @@
   name = "Smart Emission – Open Sensor Web Platform"
   url = "http://data.smartemission.nl"
   weight = -96
+[[main]]
+  parent = "Projects"
+  name = "Stetl – Streaming ETL"
+  url = "http://stetl.org"
+  weight = -95
+[[main]]
+  parent = "Projects"
+  name = "NLExtract – Unlock Dutch Geodata"
+  url = "http://nlextract.nl"
+  weight = -94
 
 # TODO : add more Project links
 
