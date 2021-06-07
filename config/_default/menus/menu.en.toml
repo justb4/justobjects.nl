@@ -128,6 +128,11 @@
   url = "geoqos/"
   weight = -98
 
+[[main]]
+  name = "Contact"
+  url = "contact/"
+  weight = -101
+
 # [[main]]
 #  name = "Archives"
 #  url = "post/rich-content/"
@@ -150,22 +155,22 @@
 # social menu links
 
 [[social]]
-  name = "github"
-  type = "social"
+  name = "linkedin"
   weight = 1
-  url = "https://github.com/#"
+  url = "http://www.linkedin.com/in/justb4"
 [[social]]
   name = "twitter"
   weight = 2
-  url = "https://twitter.com/#"
+  url = "http://twitter.com/justb4"
 [[social]]
-  name = "linkedin"
+  name = "github"
+  type = "social"
   weight = 3
-  url = "https://www.linkedin.com/in/#"
+  url = "https://github.com/justb4"
 [[social]]
   name = "rss"
+  url = "http://justobjects.nl/feed/"
   weight = 4
-  url = "index.xml"
 
 # other supported social links
 # name = "youtube"
