@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3DPS on Clarity</title>
+    <link>https://nl.justobjects.org/tags/3dps/</link>
+    <description>Recent content in 3DPS on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 29 Jan 2015 14:06:51 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/3dps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D Geospatial – Open Standards – v0</title>
+      <link>https://nl.justobjects.org/3d-geospatial-open-standards-v0/</link>
+      <pubDate>Thu, 29 Jan 2015 14:06:51 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/3d-geospatial-open-standards-v0/</guid>
+      <description>
+        
+          &lt;p&gt;This is my evolving overview of 3D Geospatial Open Standards with a focus on web technology: services, HTML5, WebGL. These are notes I keep within &lt;a href=&#34;http://evernote.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Evernote&lt;/a&gt;
+ as part of the 3D Geospatial Notebook whose public link is: &lt;a href=&#34;https://www.evernote.com/pub/justb4ever/3d-geospatial&#34;&gt;https://www.evernote.com/pub/justb4ever/3d-geospatial&lt;/a&gt;. For sure, resources are missing, let me know. These notes are synced from Evernote using &lt;a href=&#34;http://zapier.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Zapier&lt;/a&gt;
+, so formatting is a bit messy, sorry for that, though I completely revised this blog on Jan 30, 2015.&lt;/p&gt;
+&lt;p&gt;The presentations by &lt;a href=&#34;https://twitter.com/emmanuel_belo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emanuel Belo&lt;/a&gt;
+ (&lt;a href=&#34;http://www.camptocamp.com/en/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Camp2Camp&lt;/a&gt;
+, links below) are an excellent start to get a global overview. He mentions the following categories of 3D standards and their organizations:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Geo: OGC&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3D Portrayal Services (Proposals: WVS WMS-Like &amp;amp; W3DS WFS-Like) (Just: Now 3DPS)&lt;/li&gt;
+&lt;li&gt;KML – XML/COLLADA&lt;/li&gt;
+&lt;li&gt;CityGML – representation, storage, and exchange&lt;/li&gt;
+&lt;li&gt;CZML (AGI/Cesium) ?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Geo: OSGeo&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TMS (Cesium Terrain Server z.B)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Web: Web3d&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; X3D – Extensible 3D Graphics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Graphics: Khronos Group&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;COLLADA – eXchange / interoperability&lt;/li&gt;
+&lt;li&gt;glTF – graphic language Transmission Format&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TopoJSON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the short time I am spending within the 3D domain I think another categorization could be 3D Web Services Standards and 3D Content/Format Standards. A lot of focus is usually on the latter. Within 3D Content/Format Standards my view is that there are the sub-categories based on stages within a 3D rendering pipeline, i.e. from raw source data like CityGML up to 3D-scene encodings like COLLADA and glTF. I see “Terrain” as a separate content category with encodings like height maps and TINs.&lt;/p&gt;
+&lt;p&gt;I think/hope that 3D Web Services will gain importance: services to request Content in various encodings plus Terrain data. Techniques like tiling (TMS/WMTS) are already very common within the geospatial world. With the latest developments in vector-tiling I see much potential, especially for terrain and textures (raster) draped on a terrain. Streaming as in video streaming, is not common within the geospatial world but may become of use especially in HTML5 apps (via web sockets?).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;General&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following presentations by Emanuel Belo from Camp2Camp hit the nail on the head. The content lives up to the title.&lt;/p&gt;
+&lt;p&gt;Two versions available, video and slides from FOSS4G 2013, Nottingham (missed that unfortunately) and a later 2014 version.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9CgU0zs8DlU&#34;&gt;https://www.youtube.com/watch?v=9CgU0zs8DlU&lt;/a&gt; 3D Web Services And Models For The Web: Where Do We Stand? Belo FOSS4G13&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/camptocamp/3-d-web-services-and-models-for-the-web&#34;&gt;http://www.slideshare.net/camptocamp/3-d-web-services-and-models-for-the-web&lt;/a&gt; Belo – ditto slides [1]&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.geospatialworldforum.org/2014/presentation/geo3d/Emmanuel%20Belo%20M.pdf&#34;&gt;http://www.geospatialworldforum.org/2014/presentation/geo3d/Emmanuel%20Belo%20M.pdf&lt;/a&gt; Belo – ditto 2014 version slides&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Open Geospatial Consortium – OGC&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For open geospatial standards the Open Geospatial Consortium, OGC, is the first standards body to look at. Their standards&lt;br&gt;
+are often aligned with corresponding ISO standards and more recently OGC started collaborating more closely with W3C.&lt;/p&gt;
+&lt;p&gt;At least two Standards Working Groups (WSGs) are dedicated to 3D. The more established 3D Information Management (3DIM, CityGML!)) and the probably lesser known 3D Portrayal SWG.&lt;/p&gt;
+&lt;p&gt;It should be noted and credited that most of the OGC 3D standards came out of the German &lt;a href=&#34;http://www.gdi-3d.de&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GDI-DE&lt;/a&gt;
+ project.&lt;br&gt;
+At this moment (Jan 2015) two main OGC standards are of importance for 3D: CityGML and the draft standard for 3D Portrayal web services: 3DPS.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;OGC – 3D Information Modeling – CityGML&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;“CityGML is a common information model and XML-based encoding for the representation, storage, and exchange of virtual 3D city and landscape models. CityGML provides a standard model and mechanism for describing 3D objects with respect to their geometry, topology, semantics and appearance, and defines five different levels of detail. Included are also generalization hierarchies between thematic classes, aggregations, relations between objects, and spatial properties. CityGML is highly scalable and datasets can include different urban entities supporting the general trend toward modeling not only individual buildings but also whole sites, districts, cities, regions, and countries.”&lt;/em&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.citygml.org&#34;&gt;http://www.citygml.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;SWG: &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/3dimwg&#34;&gt;http://www.opengeospatial.org/projects/groups/3dimwg&lt;/a&gt; – 3D Information Management (3DIM) Domain Working Group&lt;br&gt;
+CityGML: &lt;a href=&#34;http://www.opengeospatial.org/standards/citygml&#34;&gt;http://www.opengeospatial.org/standards/citygml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;OGC candidate 3D Standards | GeoConnexion&lt;br&gt;
+&lt;a href=&#34;http://www.geoconnexion.com/articles/ogc-candidate-3d-standards&#34;&gt;http://www.geoconnexion.com/articles/ogc-candidate-3d-standards&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.w3ds.org/doku.php&#34;&gt;http://www.w3ds.org/doku.php&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;OGC – 3D Web Services – 3D Portrayal&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;SWG: &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/3dpswg&#34;&gt;http://www.opengeospatial.org/projects/groups/3dpswg&lt;/a&gt; – 3D Portrayal SWG.&lt;br&gt;
+Note the W3DS, WVS, WTS and WPVS are now all obsolete since they have been merged into a single web service standard: the 3D Portrayal Service (3DPS).&lt;/p&gt;
+&lt;p&gt;A draft version 1.0.0 is now (January 2015) out for public comment within OGC:&lt;br&gt;
+&lt;a href=&#34;http://www.opengeospatial.org/standards/requests/130&#34;&gt;http://www.opengeospatial.org/standards/requests/130&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“The 3D portrayal standard (3DPS) is an OGC service implementation specification targeting the delivery of 3D portrayals in an interoperable fashion. … When client and server(s) involved share a common set of capabilities, it becomes possible to view and analyze 3D geoinformation from diverse sources in a combined manner. …. The 3DPS combines the essential parts of the suggested W3DS and WVS into one common interface.”&lt;/em&gt; and&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“ The Open Geospatial Consortium (OGC) and the Web3D Consortium have both been working to address the need for interoperability, as well as the content challenges of volume, access speed, and diversity of devices. The Web3D Consortium has focused on open standards for real-time 3D visualization, including streaming, and their members developed a Geospatial Component extension for X3D. The OGC has focused on developing a service interface to provide interoperable access to 3D geospatial data servers. In 2012, a group of OGC members, building on work done in both organizations, completed the 3D Portrayal Interoperability Experiment (3DPIE) to develop and evaluate best practices for 3D portrayal services.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“The candidate OGC 3D Portrayal Service Standard is designed to support both client and server side rendering. For client-side rendering, the client requests a 3D model from the server. The server extracts the requested model from the 3D geodata server and generates a 3D scene graph including geometry and textures. Depending on the server’s capabilities, data formats such as X3D, KML and COLLADA can be used to retrieve the scene graph. The rendering of the scene is done on the client side. In a web client, X3DOM and/or XML3D can be used to integrate the scene into an immersive HTML5 experience. However, there are no fixed format requirements, opening the service for other technologies such as JSON-based glTF. For server side rendering, the client passes the requested content and view parameters to the server. The server then generates layered image depictions of the 3D environment for display on the client. In either scenario, the client’s user can query and navigate through the 3D content.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Link to 3DPS v1.0.0 for public review on jan 29, 2015:&lt;/p&gt;
+&lt;p&gt;Public comment request: &lt;a href=&#34;http://www.opengeospatial.org/standards/requests/130&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.opengeospatial.org/standards/requests/130&#34;&gt;http://www.opengeospatial.org/standards/requests/130&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+Direct download 3DPS 1.0.0 draft: &lt;a href=&#34;https://portal.opengeospatial.org/files/61884&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://portal.opengeospatial.org/files/61884&#34;&gt;https://portal.opengeospatial.org/files/61884&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For history reasons some notes kept on W3DS and WVS below.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A &lt;strong&gt;Web 3D Service (W3DS)&lt;/strong&gt; is a portrayal service for three-dimensional geodata such as landscape models, city models, textured building models, vegetation objects, and streetfurniture. Geodata is delivered as scenes that are comprised of display elements, optimized for efficient real time rendering at high frame rates. 3D Scenes can be interactively displayed and explored by internet browsers with 3D plug-ins, or loaded into virtual globe applications.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The &lt;strong&gt;Web View Service (WVS)&lt;/strong&gt; is a portrayal service for three-dimensional geodata suchas landscape models, city models, vegetation models, or transportation infrastructure models. A WVS server mainly provides 2D image representing a 3D view on a scene constructed from 3D geodata that is integrated and visualized by the WVS server. In addition to these color images of a 3D scene, a WVS server can advertise and deliver complementary image layers that include geometrical or thematic information: e.g., depth layers, surface normal data, or object id information.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;OGC – 3D Portrayal Interoperability Experiment (3DPIE)&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
+The OGC …. &lt;em&gt;“3D Portrayal Interoperability Experiment (IE) successfully tested and demonstrated different mechanisms for the portrayal, delivery, and exploitation of 3D geodata based on open standards-based formats and services. …approaches for service-based 3D portrayal based on thedrafts for the candidate standards for 3D portrayal, Web 3D Service (W3DS) and WebView Service (WVS).”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Page: &lt;a href=&#34;http://www.opengeospatial.org/projects/initiatives/3dpie&#34;&gt;http://www.opengeospatial.org/projects/initiatives/3dpie&lt;/a&gt;&lt;br&gt;
+Report: &lt;a href=&#34;https://portal.opengeospatial.org/files/?artifact_id=49068&#34;&gt;https://portal.opengeospatial.org/files/?artifact_id=49068&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NB this ultimately lead to the development of the 3D Portrayal Standard which merged W3DS and WVS.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Open Source Geospatial Foundation – OSGeo&lt;/strong&gt;&lt;br&gt;
+Although &lt;a href=&#34;http://osgeo.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.org&lt;/a&gt;
+ is not a standards body, for years the Tiled Map Service TMS spec is intensively used, probably more than its OGC-counterpart WMTS…&lt;br&gt;
+&lt;a href=&#34;http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification&#34;&gt;http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;TMS is finding its use in the 3D landscape not just for tiles containing 2D raster maps to be draped over a terrain, but also more and more as a container for height and (compressed) vector tiles. This is an important development, see e.g. Cesium Terrain Server and its two format-encodings for terrain-tiles:&lt;br&gt;
+&lt;a href=&#34;https://github.com/AnalyticalGraphicsInc/cesium/wiki/Cesium-Terrain-Server&#34;&gt;https://github.com/AnalyticalGraphicsInc/cesium/wiki/Cesium-Terrain-Server&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;X3D – Web3D&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;“Extensible 3D (X3D) Graphics and Humanoid Animation (H-Anim) include a coordinated set of steadily evolving ISO standards. “&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.web3d.org/standards&#34;&gt;http://www.web3d.org/standards&lt;/a&gt; (mostly X3D, equiv with ISO/IEC 19775 (architecture and abstract capabilities), 19776 (encodings), and 19777 (API)))&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;X3DOM&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;“X3DOM is an adaption of the X3D standard to (X)HTML, ensuring declarative 3D can&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;be used inside standards-compliant browser. It aims to support a large browser base and&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;decent X3D feature coverage, while working towards a common declarative 3D standard&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;in the Declarative 3D community WG at the W3C. The reference implementation is&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;maintained by Fraunhofer IGD and available under the open-source license MIT.”&lt;/em&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.x3dom.org/&#34;&gt;http://www.x3dom.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;WebGL&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.khronos.org/webgl/&#34;&gt;https://www.khronos.org/webgl/&lt;/a&gt;&lt;br&gt;
+&lt;em&gt;“WebGL is a standard for programming in 3D with the browser as platform. The final&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;specification of the standard was published in 2010 and is defined by the Khronos Group,&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;a consortium which is also in charge of Open GL, Open CL and OpenGL ES (embedded&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;systems). WebGL provide a context into HTML5 canvas that is 3D Computer Graphics&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;capable without plug-in.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cesium&lt;/strong&gt;&lt;br&gt;
+Although &lt;a href=&#34;http://cesiumjs.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CesiumJS&lt;/a&gt;
+ is mainly a client JavaScript framework based on WebGL and Dojo,  some very useful standards are originating from the project.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://cesiumjs.org/data-and-assets/terrain/formats/quantized-mesh-1.0.html&#34;&gt;http://cesiumjs.org/data-and-assets/terrain/formats/quantized-mesh-1.0.html&lt;/a&gt; quantized mesh via TMS – for terrain services based on TINs.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide&#34;&gt;https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide&lt;/a&gt; – CZML is a JSON schema for describing a time-dynamic graphical scene&lt;/p&gt;
+&lt;p&gt;NEW (august 2015) &lt;em&gt;&lt;strong&gt;“3D Tiles”&lt;/strong&gt;&lt;/em&gt; : &lt;a href=&#34;https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles&#34;&gt;https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles&lt;/a&gt;. &lt;em&gt;“3D Tiles are an &lt;a href=&#34;https://github.com/AnalyticalGraphicsInc/3d-tiles&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;open specification&lt;/a&gt;
+ for streaming massive heterogeneous 3D geospatial datasets….3D Tiles define a spatial data structure and a set of tile formats designed for 3D and optimized for streaming and rendering. Tiles for 3D models use &lt;a href=&#34;https://www.khronos.org/gltf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;glTF&lt;/a&gt;
+, the WebGL runtime asset format developed by Khronos, which the Cesium team heavily contributes to….”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collada&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;“COLLADA™ defines an XML-based schema to make it easy to transport 3D assets between applications – enabling diverse 3D authoring and content processing tools to be combined into a production pipeline. The intermediate language provides comprehensive encoding of visual scenes including: geometry, shaders and effects, physics, animation, kinematics, and even multiple version representations of the same asset.COLLADA FX enables leading 3D authoring tools to work effectively together to create shader and effects applications and assets to be authored and packaged using OpenGL® Shading Language, Cg, CgFX, and DirectX® FX.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.khronos.org/collada/&#34;&gt;https://www.khronos.org/collada/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;KML&lt;/strong&gt;&lt;br&gt;
+Originally from Keyhole/Google, but since years an OGC Standard. May embed Collada.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“Keyhole Markup Language (KML) is an XML notation for expressing geographic annotation and visualization within Internet-based, two-dimensional maps and three-dimensional Earth browsers. KML was developed for use with Google Earth, which was originally named Keyhole Earth Viewer. It was created by Keyhole, Inc, which was acquired by Google in 2004. KML became an international standard of the Open Geospatial Consortium in 2008.[1][2] Google Earth was the first program able to view and graphically edit KML files. “&lt;/em&gt;&lt;br&gt;
+Source: &lt;a href=&#34;http://en.wikipedia.org/wiki/Keyhole_Markup_Language&#34;&gt;http://en.wikipedia.org/wiki/Keyhole_Markup_Language&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;OGC Standard: &lt;a href=&#34;http://www.opengeospatial.org/standards/kml&#34;&gt;http://www.opengeospatial.org/standards/kml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;3D in KML:&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
+&lt;a href=&#34;https://developers.google.com/kml/documentation/models&#34;&gt;https://developers.google.com/kml/documentation/models&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://blog.thematicmapping.org/2008/04/proportional-3d-collada-objects-in-kml.html&#34;&gt;http://blog.thematicmapping.org/2008/04/proportional-3d-collada-objects-in-kml.html&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://blog.thematicmapping.org/2008/04/drawing-3d-bars-in-kml.html&#34;&gt;http://blog.thematicmapping.org/2008/04/drawing-3d-bars-in-kml.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;glTF&lt;/strong&gt;&lt;br&gt;
+Final stage OpenGL Transmission Format to enable rapid delivery and loading of 3D content by WebGL, OpenGL, and OpenGL ES APIs.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“The “glTF” project aims to define a final stage OpenGL Transmission Format to enable rapid delivery and loading of 3D content by WebGL, OpenGL, and OpenGL ES APIs. glTF together with COLLADA comprise a standards-based content pipeline for rich 3D web and mobile applications. glTF Specification is a work-in-progress from the COLLADA Working Group; it is not an official Khronos-ratified specification yet. It is incomplete and subject to change. The draft specification and related converters and loaders are available on github.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.khronos.org/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://www.khronos.org/&#34;&gt;https://www.khronos.org/&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.khronos.org/gltf/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://www.khronos.org/gltf/&#34;&gt;https://www.khronos.org/gltf/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TopoJSON&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“TopoJSON is an extension of GeoJSON that encodes topology. Rather than representing geometries discretely, geometries in TopoJSON files are stitched together from shared line segments called arcs. TopoJSON eliminates redundancy, offering much more compact representations of geometry than with GeoJSON; typical TopoJSON files are 80% smaller than their GeoJSON equivalents. In addition, TopoJSON facilitates applications that use topology, such as topology-preserving shape simplification, automatic map coloring, and cartograms.”&lt;/em&gt; (i.e. compact TIN-representations!).&lt;br&gt;
+&lt;a href=&#34;https://github.com/mbostock/topojson&#34;&gt;https://github.com/mbostock/topojson&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Germany: SIG 3D&lt;/strong&gt;&lt;br&gt;
+Germany-based 3D interest group. Started already very early (2002) with 3D geospatial and has a long history. Many useful resources for both standards and implementations can be found via their websites.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“Three-dimensional models of cities and regions play an important role in major applications of architecture, urban planning, surveying, mobile telecommunication or facility management. In the environmental sector 3D city models enable the simulation of noise and exhaust emissions as well as predictions on city climate change affecting a city. Concerning disaster situations like floods, 3D landscape models can help to analyse the affected areas and buildings.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“Since the beginning of 2010 SIG 3D is part of the German Spatial Data Infrastructure (GDI-DE) and coordinates this context the national and international network of 3D activities.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.sig3d.org/&#34;&gt;http://www.sig3d.org/&lt;/a&gt;&lt;br&gt;
+Several standards like OGC CityGML W3DS, later 3DPS had their origins here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Netherlands: Doorbraak 3D (Breakthrough 3D)&lt;/strong&gt;&lt;br&gt;
+3D initiative within The Netherlands as a follow-up on earlier successful 3D projects like the 3D-Pilot: &lt;a href=&#34;http://www.geonovum.nl/documenten/rapport-eindrapportages-3d-pilot-nl-eerste-fase&#34;&gt;http://www.geonovum.nl/documenten/rapport-eindrapportages-3d-pilot-nl-eerste-fase&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As a follow-up (2011) of the 3D-Pilot the public standard CityGML-IMGeo was developed. Basically this standardizes detailed smallscale/detailed topography using and extending CityGML: &lt;a href=&#34;http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-imgeo-versie-211&#34;&gt;http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-imgeo-versie-211&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;History of 3D geo in The Netherlands: &lt;a href=&#34;http://www.geonovum.nl/onderwerpen/3d-geo-informatie/historie-3d-geo-informatie-nl&#34;&gt;http://www.geonovum.nl/onderwerpen/3d-geo-informatie/historie-3d-geo-informatie-nl&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now (Jan 2015) starting up a next phase called “3D Doorbraak”, with a recent working conference for establishing the 3D roadmap for The Netherlands: &lt;a href=&#34;http://www.geonovum.nl/nieuws/werkconferentie-voor-opstellen-roadmap-3d-doorbraak&#34;&gt;http://www.geonovum.nl/nieuws/werkconferentie-voor-opstellen-roadmap-3d-doorbraak&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The choice of standards plays an important part.&lt;/p&gt;
+&lt;p&gt;See also news items via Twitter (#doorbraak3D): &lt;a href=&#34;https://twitter.com/search?q=%23doorbraak3D&amp;amp;src=typd&#34;&gt;https://twitter.com/search?q=%23doorbraak3D&amp;amp;src=typd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;BIM – IFC&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Now that geospatial information is obtaining more detail and moving into 3D, integration with standards within the Building and infrastructure industry is one of the most obvious use-cases. Building Information Modelling or BIM is a huge standardization effort within the Building and infrastructure domain.&lt;/p&gt;
+&lt;p&gt;Geoff ,”Between The Poles”, Zeiss blogs regularly on BIM and Geospatial: &lt;a href=&#34;http://geospatial.blogs.com/geospatial/bim/&#34;&gt;http://geospatial.blogs.com/geospatial/bim/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;“Building information modeling&lt;/strong&gt; (&lt;strong&gt;BIM&lt;/strong&gt;) is a process involving the generation and management of digital representations of physical and functional characteristics of places. &lt;strong&gt;Building information models&lt;/strong&gt; (&lt;strong&gt;BIMs&lt;/strong&gt;) are files (often but not always in proprietary formats and containing proprietary data) which can be exchanged or networked to support decision-making about a place. Current BIM software is used by individuals, businesses and government agencies who plan, design, construct, operate and maintain diverse physical infrastructures, such as water, wastewater, electricity, gas, refuse and communication utilities, roads, bridges and ports, houses, apartments, schools and shops, offices, factories, warehouses and prisons.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Source: &lt;a href=&#34;http://en.wikipedia.org/wiki/Building_information_modeling&#34;&gt;http://en.wikipedia.org/wiki/Building_information_modeling&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For information exchange the Industry Foundation Classes are put forward.&lt;/p&gt;
+&lt;p&gt;“The &lt;em&gt;Industry Foundation Classes (IFC) data model is intended to describe building and construction industry data.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;It is a platform neutral, open file format specification that is not controlled by a single vendor or group of vendors. It is an object-based file format with a data model developed bybuildingSMART (formerly the International Alliance for Interoperability, IAI) to facilitate interoperability in the architecture, engineering and construction (AEC) industry, and is a commonly used collaboration format in Building information modeling (BIM) based projects. The IFC model specification is open and available.[1] It is registered by ISO and is an official International Standard ISO 16739:2013.”&lt;/em&gt;&lt;br&gt;
+Source: &lt;a href=&#34;http://en.wikipedia.org/wiki/Industry_Foundation_Classes&#34;&gt;http://en.wikipedia.org/wiki/Industry_Foundation_Classes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More: &lt;a href=&#34;http://www.ifcwiki.org/index.php/Main_Page&#34;&gt;http://www.ifcwiki.org/index.php/Main_Page&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>3D Geospatial – Free and Open Source Software v0</title>
+      <link>https://nl.justobjects.org/3d-geospatial-foss-v0/</link>
+      <pubDate>Wed, 28 Jan 2015 11:52:34 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/3d-geospatial-foss-v0/</guid>
+      <description>
+        
+          &lt;p&gt;This is my list of FOSS products for 3D Geospatial with a focus on web technology/WebGL and Open Standards. These are notes I keep within Evernote as part of the 3D Geospatial Notebook whose public link is: &lt;a href=&#34;https://www.evernote.com/pub/justb4ever/3d-geospatial&#34;&gt;https://www.evernote.com/pub/justb4ever/3d-geospatial&lt;/a&gt;. This is also the first experiment to auto sync Evernote to WordPress using Zapier, so beware of any glitches in formatting! I am sure I have missed many other great products. Let me know!&lt;/p&gt;
+&lt;h3 id=&#34;oslandia&#34;&gt;OSLandia&lt;/h3&gt;
+&lt;p&gt;OSLandia from Paris, France  is one of the most active companies contributing to 3D Geospatial FOSS.
+&lt;a href=&#34;http://www.oslandia.com/&#34;&gt;http://www.oslandia.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.oslandia.com/postgis-3d-foss4g-video-and-workshop-en.html&#34;&gt;http://www.oslandia.com/postgis-3d-foss4g-video-and-workshop-en.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– The latest PostGIS and QGIS 3D enhancements presented at &lt;a href=&#34;http://2013.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G&lt;/a&gt;
+ by Oslandia – GIS goes 3D : an OpenSource stack – Olivier Courtin – FOSS4G 2014&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vimeo.com/106846660&#34;&gt;http://vimeo.com/106846660&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cesium&#34;&gt;Cesium&lt;/h3&gt;
+&lt;p&gt;– General&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without a plugin. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization. Cesium is open source under the Apache 2.0 license. It is free for commercial and non-commercial use.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cesium.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://cesiumjs.org/&#34;&gt;http://cesiumjs.org/&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://cesiumjs.org/presentations/Rendering%20the%20Whole%20Wide%20World%20on%20the%20World%20Wide%20Web.pdf&#34;&gt;http://cesiumjs.org/presentations/Rendering%20the%20Whole%20Wide%20World%20on%20the%20World%20Wide%20Web.pdf&lt;/a&gt; great presentation&lt;/p&gt;
+&lt;p&gt;– Cesium Terrain Service Preparation&lt;br&gt;
+&lt;a href=&#34;https://github.com/giohappy/gdal2cesium&#34;&gt;https://github.com/giohappy/gdal2cesium&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/kaktus40/Cesium-GeoserverTerrainProvider&#34;&gt;https://github.com/kaktus40/Cesium-GeoserverTerrainProvider&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– Creating 3D terrains with Cesium – Bjørn Sandvik&lt;br&gt;
+&lt;a href=&#34;http://blog.thematicmapping.org/2014/10/3d-terrains-with-cesium.html&#34;&gt;http://blog.thematicmapping.org/2014/10/3d-terrains-with-cesium.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– Migrating from Google Earth to Cesium&lt;br&gt;
+&lt;em&gt;This is a guest post by Greg Angevine, Founder of &lt;a href=&#34;http://cubecities.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cube Cities Inc&lt;/a&gt;
+. His company has used the Google Earth plugin for years and has recently built impressive work with Cesium (like &lt;a href=&#34;https://twitter.com/CesiumJS/status/552845347484364800&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this&lt;/a&gt;
+)&lt;/em&gt;&lt;br&gt;
+&lt;a href=&#34;http://cesiumjs.org/2015/01/27/Migrating-from-Earth-to-Cesium/&#34;&gt;http://cesiumjs.org/2015/01/27/Migrating-from-Earth-to-Cesium/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– Cesium and OpenLayers3&lt;br&gt;
+Cesium has a real focus on (OGC) standards and integrating with software implementing OGC standards. I heard that the Cesium-folks are even proposing additions to OGC 3D standards (CZML? or the very compact terrain tiling using quantized mesh?). That would be great in concert with/as payload for the upcoming 3DPS (3D Portrayal Service) standard.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cesium-ol3.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://openlayers.org/ol3-cesium/&#34;&gt;http://openlayers.org/ol3-cesium/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– My Cesium experiments with Dutch OpenTopo tiles and Top10NL-3D Vector&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cesium-just.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://app.nlextract.nl/3d/&#34;&gt;http://app.nlextract.nl/3d/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– My Cesium experiments with Cesium-OpenLayers3 Integration using Dutch Topo Top10NL-3D Vector&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cesium-ol3-just.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://app.nlextract.nl/3d/&#34;&gt;http://app.nlextract.nl/3d/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tangram&#34;&gt;Tangram&lt;/h3&gt;
+&lt;p&gt;From the folks from &lt;a href=&#34;http://mapzen.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MapZen&lt;/a&gt;
+ who make much more cool stuff: &lt;em&gt;“Tangram is a library for rendering 2D &amp;amp; 3D maps with WebGL, using GeoJSON/TopoJSON or binary vector tiles.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/tangram.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/tangrams/tangram&#34;&gt;https://github.com/tangrams/tangram&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://mapzen.com/tangram&#34;&gt;https://mapzen.com/tangram&lt;/a&gt; (demo)&lt;/p&gt;
+&lt;h3 id=&#34;d3js&#34;&gt;D3JS&lt;/h3&gt;
+&lt;p&gt;– General&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/d3js.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“ &lt;strong&gt;D3.js&lt;/strong&gt; is a JavaScript library for manipulating documents based on data. &lt;strong&gt;D3&lt;/strong&gt; helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.”&lt;/em&gt;&lt;br&gt;
+&lt;a href=&#34;http://d3js.org/&#34;&gt;http://d3js.org/&lt;/a&gt; –&lt;/p&gt;
+&lt;p&gt;– Kind of 3D with D3 – Maps for the Web&lt;br&gt;
+&lt;a href=&#34;http://www.web-maps.com/gisblog/?p=1370&#34;&gt;http://www.web-maps.com/gisblog/?p=1370&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– Creating Charts and Legends for 3D Atlas Maps – A Mashup of D3.js, osgEarth, and the Chromium Embedded Framework — Raimu&lt;br&gt;
+&lt;a href=&#34;http://vimeo.com/106234276&#34;&gt;http://vimeo.com/106234276&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;postgis&#34;&gt;PostGIS&lt;/h3&gt;
+&lt;p&gt;PostGIS has many 3D facilities. Check these out.&lt;/p&gt;
+&lt;p&gt;– Lidar/Pointclouds in PostGIS:
+&lt;a href=&#34;https://github.com/pgpointcloud/pointcloud&#34;&gt;https://github.com/pgpointcloud/pointcloud&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://workshops.boundlessgeo.com/tutorial-lidar/&#34;&gt;http://workshops.boundlessgeo.com/tutorial-lidar/&lt;/a&gt; (tutorial)&lt;br&gt;
+&lt;a href=&#34;http://s3.cleverelephant.ca/foss4gna2013-pointcloud.pdf&#34;&gt;http://s3.cleverelephant.ca/foss4gna2013-pointcloud.pdf&lt;/a&gt; (paul ramsey slides)&lt;br&gt;
+&lt;a href=&#34;http://boundlessgeo.com/2013/11/manage-lidar-postgis/&#34;&gt;http://boundlessgeo.com/2013/11/manage-lidar-postgis/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– TIN Support&lt;br&gt;
+&lt;a href=&#34;https://smathermather.wordpress.com/2013/12/18/2-5d-tins-in-postgis/&#34;&gt;https://smathermather.wordpress.com/2013/12/18/2-5d-tins-in-postgis/&lt;/a&gt; and&lt;br&gt;
+&lt;a href=&#34;https://github.com/smathermather/postgis-etc/blob/master/3D/AsTin.sql&#34;&gt;https://github.com/smathermather/postgis-etc/blob/master/3D/AsTin.sql&lt;/a&gt; – create TINs with &lt;a href=&#34;http://postgis.net/docs/ST_DelaunayTriangles.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ST_DelaunayTriangles&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;http://www.oslandia.com/full-spatial-database-power-in-2-lines-en.html&#34;&gt;http://www.oslandia.com/full-spatial-database-power-in-2-lines-en.html&lt;/a&gt;&lt;br&gt;
+also check: GRASS: &lt;a href=&#34;http://grass.osgeo.org/grass70/manuals/addons/v.delaunay3d.html&#34;&gt;http://grass.osgeo.org/grass70/manuals/addons/v.delaunay3d.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– X3D Generation&lt;br&gt;
+&lt;a href=&#34;http://postgis.net/docs/ST_AsX3D.html&#34;&gt;http://postgis.net/docs/ST_AsX3D.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– 3ddb for PostGIS (CityGML)&lt;br&gt;
+&lt;a href=&#34;http://www.3dcitydb.org/&#34;&gt;http://www.3dcitydb.org/&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/3dcitydb&#34;&gt;https://github.com/3dcitydb&lt;/a&gt; GitHub&lt;br&gt;
+&lt;a href=&#34;http://www.3dcitydb.org/3dcitydb/fileadmin/downloaddata/3dcitydb-v2_0_6-postgis-tutorial.pdf&#34;&gt;http://www.3dcitydb.org/3dcitydb/fileadmin/downloaddata/3dcitydb-v2_0_6-postgis-tutorial.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– A New Dimension To PostGIS : 3D – &lt;a href=&#34;http://2013.foss4g.org/conf/programme/people/250/index.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Olivier Courtin&lt;/a&gt;
+ (Oslandia) with &lt;a href=&#34;http://2013.foss4g.org/conf/programme/people/139/index.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hugo Mercier&lt;/a&gt;
+ (Oslandia)&lt;br&gt;
+&lt;a href=&#34;http://2013.foss4g.org/conf/programme/presentations/7/index.html&#34;&gt;http://2013.foss4g.org/conf/programme/presentations/7/index.html&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.slideshare.net/SimeonNedkov/postgis-3d-implementation&#34;&gt;http://www.slideshare.net/SimeonNedkov/postgis-3d-implementation&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=tQbE6B8JaHI&#34;&gt;https://www.youtube.com/watch?v=tQbE6B8JaHI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– PostGIS and CGAL
+CGAL &lt;a href=&#34;https://www.cgal.org/&#34;&gt;https://www.cgal.org/&lt;/a&gt; and &lt;a href=&#34;https://smathermather.wordpress.com/2013/12/05/postgis-with-sfcgal-videos-how-did-i-miss-these-videos/&#34;&gt;https://smathermather.wordpress.com/2013/12/05/postgis-with-sfcgal-videos-how-did-i-miss-these-videos/&lt;/a&gt;&lt;br&gt;
+SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;/a&gt; “ &lt;em&gt;SFCGAL&lt;/em&gt; is a C++ wrapper library around &lt;em&gt;&lt;a href=&#34;http://www.cgal.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CGAL&lt;/a&gt;
+ with the aim of supporting ISO 19107:2013 and &lt;a href=&#34;http://www.opengeospatial.org/standards/sfa&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Simple Features Access 1.2&lt;/a&gt;
+ for 3D operations.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;– Other PostGIS 3D Stuff&lt;br&gt;
+&lt;em&gt;“This post explains how to setup a powerful spatial data store (PostGIS) with a wide range of features (SFCGAL, PgRouting, PostgreSQL PointCloud, PDAL)“&lt;/em&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.oslandia.com/full-spatial-database-power-in-2-lines-en.html&#34;&gt;http://www.oslandia.com/full-spatial-database-power-in-2-lines-en.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://postgis3d.blogspot.nl/&#34;&gt;http://postgis3d.blogspot.nl/&lt;/a&gt; (Camp2Camp – 2007 – by Mathieu ..?)&lt;/p&gt;
+&lt;h3 id=&#34;xnavigator&#34;&gt;XNavigator&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;“XNavigator is an interactive 3D viewer and integrated client for exploring virtual city and landscape models. Instead of defining its own proprietary communication protocols, open OGC standards are used. The Open Geospatial Consortium (OGC) defines standards for accessing spatial information over the internet.  The main 3D content is downloaded from a Web 3D Service (W3DS).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Additional OGC services which can be accessed include:&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Web Map Service (WMS)&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Open Location Services (OpenLS) including Route Service, Directory Service, and Geocoder&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Catalog Service for Web (CSW) ebRIM profile&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Web Feature Service (WFS) serving GML3 and CityGML content “&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://xnavigator.sourceforge.net/doku.php&#34;&gt;http://xnavigator.sourceforge.net/doku.php&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;threejs&#34;&gt;ThreeJS&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;“The aim of the project is to create a lightweight 3D library with a very low level of complexity — in other words, for dummies. The library provides &amp;lt;canvas&amp;gt;, &amp;lt;svg&amp;gt;, CSS3D and WebGL renderers.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/threejs.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://threejs.org&#34;&gt;http://threejs.org&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;w3ds&#34;&gt;W3DS&lt;/h3&gt;
+&lt;p&gt;W3DS (Web 3D Service) is a portrayal service for 3D scenes. Early OGC discussion documents. Now superseded by the 3DPS, the 3D Portrayal Service, now (jan 2015) out for public comment in OGC. This is an early W3DS implementation in GeoServer that started from the dissertation work by Nuno Miguel Carvalho Oliveira (professor: Jorge Gustavo Rocha) at the University of Minho (Portugal).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://mei.di.uminho.pt/sites/default/files/dissertacoes//eeum_di_dissertacao_pg18391.pdf&#34;&gt;http://mei.di.uminho.pt/sites/default/files/dissertacoes//eeum_di_dissertacao_pg18391.pdf&lt;/a&gt; – Dissertation&lt;br&gt;
+&lt;a href=&#34;https://github.com/geoserver/geoserver/tree/master/src/community/w3ds&#34;&gt;https://github.com/geoserver/geoserver/tree/master/src/community/w3ds&lt;/a&gt; – GeoServer community module&lt;br&gt;
+&lt;a href=&#34;http://osgeo-org.1560.x6.nabble.com/W3DS-Implementation-up-and-running-td4665127.html&#34;&gt;http://osgeo-org.1560.x6.nabble.com/W3DS-Implementation-up-and-running-td4665127.html&lt;/a&gt; – email on GeoServer list&lt;/p&gt;
+&lt;h3 id=&#34;qgishorao&#34;&gt;QGIS/Horao&lt;/h3&gt;
+&lt;p&gt;By OSLandia&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“A simple viewer built around OpenSceneGraph … designed to listen to commands on its standard input. … The other piece is a Python plugin that is used to connect QGIS signals to the viewer (in another process) to allow loading of QGIS layers with 3D geometries.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/horao.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Oslandia/horao&#34;&gt;https://github.com/Oslandia/horao&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.openscenegraph.org/&#34;&gt;http://www.openscenegraph.org/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cuardo&#34;&gt;Cuardo&lt;/h3&gt;
+&lt;p&gt;Again By OSLandia, watch these guys!&lt;br&gt;
+&lt;em&gt;“ Cuardo is an OpenSource WebGL 3D data viewer, focusing on urban data analysis and visualization … a 3D GIS web framework based on Three.js and WebGL, oriented toward urban visualization.“&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cuardo.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Oslandia/cuardo&#34;&gt;https://github.com/Oslandia/cuardo&lt;/a&gt;
+&lt;a href=&#34;http://www.oslandia.com/oslandia-releases-cuardo-3d-gis-viewer-en.html&#34;&gt;http://www.oslandia.com/oslandia-releases-cuardo-3d-gis-viewer-en.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;suggestions-fromreaders&#34;&gt;Suggestions from Readers&lt;/h3&gt;
+&lt;p&gt;After the first version I got quite some suggestions. Thanks!&lt;/p&gt;
+&lt;p&gt;– Glob3Mobile – &lt;a href=&#34;https://twitter.com/DiegoGomezDeck&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;@DiegoGomezDeck&lt;/a&gt;
+&lt;br&gt;
+&lt;em&gt;“ G3M is a framework developed and designed to:&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Develop mobile maps apps in 2D, 2,5D and 3D&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Work with real time data&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Integrate any kind of data (format,size)&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Be integrated on any legacy system&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- High performance mobile native development&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Multi Touch screens&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Face the problem of the mobile performance as an integrated problem between server &amp;amp; client&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Works on iOS, Android devices and HTML5 environments. “&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.glob3mobile.com/&#34;&gt;http://www.glob3mobile.com/&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

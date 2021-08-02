@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wfs on Clarity</title>
+    <link>https://nl.justobjects.org/tags/wfs/</link>
+    <description>Recent content in wfs on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 31 May 2019 23:33:35 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/wfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second Time Around – WFS v3 and pygeoapi</title>
+      <link>https://nl.justobjects.org/2nd-time-around-wfs-v3-pygeoapi/</link>
+      <pubDate>Fri, 31 May 2019 23:33:35 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/2nd-time-around-wfs-v3-pygeoapi/</guid>
+      <description>
+        
+          &lt;p&gt;TLDR;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;tired of the OGC WFS/GML/INSPIRE complexity mess&lt;/li&gt;
+&lt;li&gt;new spirit from &lt;a href=&#34;https://github.com/opengeospatial/WFS_FES&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WFS v3 standard&lt;/a&gt;
+ and OGC REST API movement&lt;/li&gt;
+&lt;li&gt;title of this blog refers (YouTube): &lt;a href=&#34;https://www.youtube.com/watch?v=xz4YQZ01Q_A&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Shalamar, The Second Time Around&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+ implements OGC REST APIs in Python&lt;/li&gt;
+&lt;li&gt;I joined &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+ can unlock/proxy existing WFS v1,v2 and any OGR Source!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;About 10 years ago, working on my first serious geospatial contract at &lt;a href=&#34;https://www.kadaster.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch Kadaster&lt;/a&gt;
+, I was asked to investigate an emerging &lt;a href=&#34;http://www.opengeospatial.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC&lt;/a&gt;
+ standard called “WFS”, &lt;a href=&#34;https://en.wikipedia.org/wiki/Web_Feature_Service&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Web Feature Service&lt;/a&gt;
+. Providing a matrix of client-server interoperability was one of the expected outcomes. That is: which WFS-clients will happily fetch data from WFS server-products. I don’t have the actual outcome anymore, but I can recall: it was a very empty table: there were a few WFS server-implementations at the time: GeoServer, MapServer and deegree and some WFS clients, both Open Source and proprietary. In my recollection, only OpenLayers would interwork with the above three WFS servers. The rest had various interworking issues: around &lt;a href=&#34;https://epsg.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EPSG&lt;/a&gt;
+-encoding (three possible encodings!) and other vague GML issues. In short, it was a mess: remember, all we wanted to exchange were flat, table-like &lt;a href=&#34;https://www.opengeospatial.org/standards/sfa&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Simple Features:&lt;/a&gt;
+ records with attributes and a single geometry (Point, Line, Polygon).&lt;/p&gt;
+&lt;p&gt;Later on, things became even worse: multiple WFS and GML versions. And not to mention &lt;a href=&#34;https://en.wikipedia.org/wiki/Geography_Markup_Language&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GML Application Schemas&lt;/a&gt;
+ like for &lt;a href=&#34;http://inspire.ec.europa.eu/applicationschema&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;INSPIRE&lt;/a&gt;
+. Plenty of work for WFS/GML experts, which I was considered one, but I felt cynical at some point. From my background as a software engineer at &lt;a href=&#34;https://en.wikipedia.org/wiki/Bell_Labs&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AT&amp;amp;amp;T/Lucent/Bell Labs&lt;/a&gt;
+, where I developed embedded software for the public &lt;a href=&#34;https://en.wikipedia.org/wiki/5ESS_Switching_System&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;5ESS telephone exchange&lt;/a&gt;
+, &lt;strong&gt;&lt;em&gt;over-engineering was considered bad practice&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Also from the perspective of the emerging &lt;a href=&#34;https://agilemanifesto.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Agile movement&lt;/a&gt;
+: &lt;strong&gt;&lt;em&gt;“make the simplest thing that could possibly work”&lt;/em&gt;&lt;/strong&gt;, this WFS/GML ‘beast’ seemed untamable, driven by theoreticians who modeled the geospatial world from behind UML tools like &lt;a href=&#34;https://sparxsystems.com/products/ea/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Enterprise Architect&lt;/a&gt;
+. I attended numerous meetings between Dutch government organizations that had WFS/GML interworking problems. At some point I gave up: the intellectual challenges (and contracts!) were alluring, but the (geospatial) world wouldn’t progress like this. Though I used WFS and GML in many of my apps, I had a love-hate relationship with them, as a rule-of-thumb only the lowest denominator, WFS v1 and GLM2 had the most chances to interwork.&lt;/p&gt;
+&lt;p&gt;Until…back to the title of this blog. I grew up in the 70-s/80-s, so want to introduce this song. I hope the YouTube video below is embedded ok. Otherwise check out &lt;a href=&#34;https://www.youtube.com/watch?v=xz4YQZ01Q_A&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this link from Shalamar, The Second Time Around&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/xz4YQZ01Q_A?controls=1&amp;rel=0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Fast forward to 2019: we live in an API-world: REST, &lt;a href=&#34;https://swagger.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Swagger&lt;/a&gt;
+, OpenApi. OGC became wiser: both in process and technology. Folks from the OSGeo Community, I must mention &lt;a href=&#34;https://medium.com/@cholmes&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Chris Holmes&lt;/a&gt;
+ here, advocated/pushed for a more collaborative/development-like standardization process, e.g. using GitHub over Word documents. A landmark OGC/W3C study called &lt;a href=&#34;https://www.w3.org/TR/sdw-bp/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Spatial Data on the Web Best Practices”&lt;/a&gt;
+ recommended a more web-friendly approach.&lt;/p&gt;
+&lt;p&gt;Fast-fast forward, the above issues resulted in a brand new &lt;a href=&#34;https://github.com/opengeospatial/WFS_FES&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WFS version 3 standard&lt;/a&gt;
+ under development: using both GitHub and the latest REST (Open)API technologies. Forget about WFS v1 and v2, GML v.whatever, and OWS in general with their &lt;strong&gt;&lt;em&gt;tired GetCapabilities&lt;/em&gt;&lt;/strong&gt;, this is a new road taken. Kudos to &lt;a rel=&#34;noreferrer noopener&#34; aria-label=&#34; (opens in a new tab)&#34; href=&#34;https://medium.com/@cholmes&#34; target=&#34;_blank&#34;&gt;Chris Holmes&lt;/a&gt;, he words this better than me in this &lt;a href=&#34;https://medium.com/@cholmes/wfs-3-0-get-excited-yes-8e904fdbcc0&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Medium Article on WFS3&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;So yes, what about this &lt;strong&gt;&lt;em&gt;Second Time Around?&lt;/em&gt;&lt;/strong&gt; Well I got attracted to WFS again (“in love” is not really appropriate for technology IMHO), for two reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;the &lt;a href=&#34;https://github.com/opengeospatial/WFS_FES&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WFS spec&lt;/a&gt;
+ and the folks/energy around it&lt;/li&gt;
+&lt;li&gt;Open Source implementation of this standard in Python: &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Python IMHO makes much much sense within the Open Source geospatial domain. For similar reasons as described above, like over-engineering (and Oracle!), I abandoned Java about 8 years ago.&lt;/p&gt;
+&lt;p&gt;So I joined the &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+ project. Not out of any commercial interest, but mainly out of an developer’s itch: this is useful, let’s see how this works out, a now small, but great community, several from my country, to work with.&lt;/p&gt;
+&lt;p&gt;About &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+: currently the project is focused on WFS v3, but in general we attempt to implement multiple OGC REST APIs. Also, the project provides a plugin architecture: via &lt;strong&gt;&lt;em&gt;Providers&lt;/em&gt;&lt;/strong&gt;, where data can be fetched from any backend: remote services or local files. Check out our &lt;a href=&#34;https://demo.pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;demo server&lt;/a&gt;
+ which is updated constantly via the &lt;a href=&#34;https://github.com/geopython/pygeoapi&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi GitHub repo&lt;/a&gt;
+ and &lt;a href=&#34;https://cloud.docker.com/u/geopython/repository/docker/geopython/pygeoapi/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;DockerHub&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2019/05/image.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;figure class=&#34;wp-block-image&#34;&gt;
+&lt;img loading=&#34;lazy&#34; width=&#34;1024&#34; height=&#34;578&#34; src=&#34;https://justobjects.nl/wp-content/uploads/2019/05/image-1024x578.png&#34; alt=&#34;&#34; class=&#34;wp-image-886&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2019/05/image-1024x578.png 1024w, https://justobjects.nl/wp-content/uploads/2019/05/image-300x169.png 300w, https://justobjects.nl/wp-content/uploads/2019/05/image-768x433.png 768w, https://justobjects.nl/wp-content/uploads/2019/05/image-150x85.png 150w, https://justobjects.nl/wp-content/uploads/2019/05/image.png 1200w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt; &lt;/figure&gt;
+--&gt;
+&lt;p&gt;Diving a bit deeper, one of my first contributions to this project was to add an &lt;a href=&#34;https://github.com/geopython/pygeoapi/blob/master/pygeoapi/provider/ogr.py&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGRProvider&lt;/a&gt;
+ that would fetch from any &lt;a href=&#34;https://gdal.org/drivers/vector/index.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GDAL/OGR Vector source&lt;/a&gt;
+, in particular a backend WFS. Partly from a vision: &lt;strong&gt;&lt;em&gt;“Let’s free all those tired WFS-es out there”&lt;/em&gt;&lt;/strong&gt;, but also practically: the Python GDAL/OGR bindings are so powerful, performant and reusable, saving lots of development time over developing specific Providers for GeoJSON, GeoPackage, SpatialLite, PostGIS, and even ESRI Shapefiles and FeatureServers. In theory, any OGR (Vector) Source can now be exposed via WFS v3 in &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;There’s lots of movement around WFS v3 and OGC REST APIs in general, where both standards makers and implementors interact. Like the &lt;a href=&#34;https://www.opengeospatial.org/OGCAPI_Hack2019&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC API Hackathon&lt;/a&gt;
+ in June 2019, London (sold out now!). If you ever abandoned WFS v1/v2 it is time to reconcile now!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

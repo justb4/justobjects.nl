@@ -1,5 +1,0 @@
-baseURL = "https://www.justobjects.nl"
-languageCode = "en-us"
-title = "Just Objects"
-theme = "hugo-clarity"
-publishDir = "dist"

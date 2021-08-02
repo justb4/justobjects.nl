@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stetl on Clarity</title>
+    <link>https://nl.justobjects.org/tags/stetl/</link>
+    <description>Recent content in stetl on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 20 Jan 2018 17:02:39 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/stetl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emit #1 – Into Spatiotemporal</title>
+      <link>https://nl.justobjects.org/emit-1/</link>
+      <pubDate>Sat, 20 Jan 2018 17:02:39 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/emit-1/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-google-photo.jpg&#34; alt=&#34;Smart Emission Googled for Photos&#34;&gt;&lt;/p&gt;
+&lt;p&gt;One of my new year’s resolutions for 2018 was to “blog more”. Not being very active on the well-known social media: a bit tired of Twitter, never really into Facebook, bit of LinkedIn. &lt;a href=&#34;https://lists.osgeo.org/mailman/listinfo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo mailing lists&lt;/a&gt;
+, &lt;a href=&#34;https://github.com/justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
+ and &lt;a href=&#34;https://gitter.im/geopython/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gitter&lt;/a&gt;
+ is where you can find me most (thanks Jody, for reminding!). And I read many blogs, especially on my &lt;a href=&#34;https://en.wikipedia.org/wiki/Nexus_10&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Nexus 10&lt;/a&gt;
+ tablet and &lt;a href=&#34;https://www.fairphone.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Fairphone 2&lt;/a&gt;
+ via the awesome &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
+ App. If you have not heard of &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
+ (or any other blog-feed collectors), stop here and check out &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
+! Most blogs (like this one) provide an &lt;a href=&#34;https://justobjects.nl/feed/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RSS/Atom-feed&lt;/a&gt;
+. Via &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
+ you can search/add RSS-feeds and thus create your own “reading table”. My favorite feeds are related to Open Source Geospatial, Python and IoT, like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://planet.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;planet.osgeo.org&lt;/a&gt;
+ – the OSGeo blog aggregator, must-read if you’re in Open Geospatial&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sgillies.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sean Gillies blog&lt;/a&gt;
+ – developer at MapBox a.o. of &lt;a href=&#34;http://toblerity.org/fiona/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Fiona&lt;/a&gt;
+, GeoPython, geospatial and personal stuff&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://planetpython.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Planet Python&lt;/a&gt;
+ – all Python&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://feedly.com/i/category/Geospatial&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2018/01/feedly.png&#34;
+      alt=&#34;Feedly shown in web browser&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Enough sidestepping, my goal is to share tech around the Open Source &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+ (SE Platform) in a series of posts, dubbed  ‘Emits’. This is Emit #1. Since 2014 I have been working on several projects, often through &lt;a href=&#34;https://www.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum&lt;/a&gt;
+, and recently via the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Union Joint Research Centre&lt;/a&gt;
+ (JRC), that deal with the acquisition, management, web-api-unlocking and visualization of environmental sensor-data, mainly for Air Quality (AQ).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-google.jpg&#34; alt=&#34;Smart Emission Googled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;What made these projects exciting for me is that they brought together many aspects and technologies (read: Open Source projects and &lt;a href=&#34;https://www.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo software&lt;/a&gt;
+) I had been &lt;a href=&#34;https://justobjects.nl/projects/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;working on&lt;/a&gt;
+ through the years. Also, it was the first time I got back into Environmental Chemistry, for which I hold a master’s degree from the University of Amsterdam, &lt;a href=&#34;https://justobjects.nl/writings/publications/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;co-authoring some publications&lt;/a&gt;
+, yes, many many years ago.&lt;/p&gt;
+&lt;p&gt;So what is the &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+ and what makes it exciting and relevant? In a nutshell (&lt;a href=&#34;http://smartplatform.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;read the tech doc here&lt;/a&gt;
+): The goal of the SE Platform is to facilitate the acquisition (harvesting)  of sensor-data from a multitude of sensor devices and make this data available via standardized formats and web-APIs (mainly: &lt;a href=&#34;http://www.opengeospatial.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Standards&lt;/a&gt;
+) and Viewers. The SE Platform originates, what is now called the &lt;a href=&#34;http://smartemission.ruhosting.nl/visitors/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;award-winning&lt;/a&gt;
+, &lt;a href=&#34;http://smartemission.ruhosting.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Nijmegen project&lt;/a&gt;
+ in 2015-2017. Quoting from the paper &lt;a href=&#34;http://www.ru.nl/publish/pages/774337/carton_etall_aesop-2015_v11_filling_thefeedback_gap_ofexternalities_insmartcities.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Filling the feedback gap of place-related externalities in smart cities”&lt;/a&gt;
+{.reference.external} :&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“…we present the set-up of the pilot experiment in project “Smart Emission”,&lt;/em&gt; &lt;em&gt;constructing an experimental citizen-sensor-network in the city of Nijmegen. This project, as part of&lt;/em&gt; &lt;em&gt;research program ‘Maps 4 Society,’ is one of the currently running Smart City projects in the&lt;/em&gt; &lt;em&gt;Netherlands. A number of social, technical and governmental innovations are put together in this&lt;/em&gt; &lt;em&gt;project: (1) innovative sensing method: new, low-cost sensors are being designed and built in the&lt;/em&gt; &lt;em&gt;project and tested in practice, using small sensing-modules that measure air quality indicators,&lt;/em&gt; &lt;em&gt;amongst others NO2, CO2, ozone, temperature and noise load. (2) big data: the measured data forms&lt;/em&gt; &lt;em&gt;a refined data-flow from sensing points at places where people live and work: thus forming a ‘big&lt;/em&gt; _picture’ to build a real-time, in-depth understanding of the local distribution of urban air quality (3)_&lt;em&gt;empowering citizens by making visible the ‘externality’ of urban air quality and feeding this into a&lt;/em&gt; &lt;em&gt;bottom-up planning process: the community in the target area get the co-decision-making control over&lt;/em&gt; &lt;em&gt;where the sensors are placed, co-interpret the mapped feedback data, discuss and collectively explore&lt;/em&gt; &lt;em&gt;possible options for improvement (supported by a Maptable instrument) to get a fair and ‘better’&lt;/em&gt; &lt;em&gt;distribution of air pollution in the city, balanced against other spatial qualities. ….”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-nijmegen.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;So from the outset the SE Platform is geared towards connecting citizen-owned sensor devices. Many similar programs and initiatives are currently evolving, often under the flag of Citizen Science and Smart Cities. Within the Netherlands, where the SE Nijmegen project originated, the &lt;a href=&#34;http://rivm.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National Institute for Public Health and the Environment&lt;/a&gt;
+ (RIVM) was an active project partner, and still stimulates citizens measuring Air Quality via a project and portal: &lt;a href=&#34;https://www.samenmetenaanluchtkwaliteit.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Together Measuring Air Quality”&lt;/a&gt;
+. In the context of discussions on Air Quality, climate change and lowering budgets for governmental environmental institutions, citizen-participation becomes more and more relevant. A whole series of blogs could be devoted to social and political aspects of Citizen Science, but I will stick to tech-stuff here.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-partners.png&#34; alt=&#34;:left&#34;&gt;&lt;/p&gt;
+&lt;p&gt;What made working on the SE Nijmegen project exciting and challenging, is that I was given time and opportunity by the project partners (see pic) to not just build a one-time project-specific piece of software, but a reusable set of Open Source components: the Smart Emission Platform ([sources on GitHub][42]).&lt;/p&gt;
+&lt;p&gt;Having had some earlier experience within the &lt;a href=&#34;http://sensors.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum SOSPilot project&lt;/a&gt;
+ (2014-2015), investigating among others the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sensor_Observation_Service&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
+ to unlock &lt;a href=&#34;http://www.lml.rivm.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RIVM AQ data (LML)&lt;/a&gt;
+, I was aware of the challenges dealing with what can be called &lt;em&gt;&lt;strong&gt;Spatiotemporal (Big) Data&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;The figure below shows The Big Picture of the SE Platform. Red arrows denote the flow of data: originating from sensor devices, going through Data Management (ETL), unlocked via various web-APIs, and finally “consumed” in client-apps and viewers.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/arch-big-picture.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;There are many aspects of the SE Platform that can be expanded. These are for upcoming Emits. For now a summary of some of the challenges and applied technologies, to be detailed later:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;raw data from sensors: requires refinement: validation/calibration/aggregation&lt;/li&gt;
+&lt;li&gt;dealing with Big Data that is both spatial (location-based) and temporal (time-based)&lt;/li&gt;
+&lt;li&gt;applying an &lt;a href=&#34;https://en.wikipedia.org/wiki/Artificial_neural_network&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Artificial Neural Network&lt;/a&gt;
+ (ANN) for sensor-data calibration&lt;/li&gt;
+&lt;li&gt;databases for Spatiotemporal data: PostGIS and &lt;a href=&#34;https://www.influxdata.com/time-series-platform/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;InfluxDB and TICK Stack&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;applying the &lt;a href=&#34;http://www.stetl.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl framework&lt;/a&gt;
+ for all data management (ETL)&lt;/li&gt;
+&lt;li&gt;metadata for sensors and sensor networks, always a tough and often avoided subject&lt;/li&gt;
+&lt;li&gt;connecting the Open Hardware &lt;a href=&#34;http://www.airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EU JRC AirSensEUR&lt;/a&gt;
+ AQ sensor-box to the SE Platform&lt;/li&gt;
+&lt;li&gt;using OGC WMS (with Dimensions for Time) and WFS for viewing and downloading sensor data&lt;/li&gt;
+&lt;li&gt;is &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
+ (SOS) and SWE still viable?&lt;/li&gt;
+&lt;li&gt;how powerful is the &lt;a href=&#34;http://www.opengeospatial.org/standards/sensorthings&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorThings API&lt;/a&gt;
+ (STA) standard?&lt;/li&gt;
+&lt;li&gt;deployment with Docker and &lt;a href=&#34;https://docs.docker.com/compose/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker Compose&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Docker and host systems monitoring: &lt;a href=&#34;https://prometheus.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Prometheus&lt;/a&gt;
+ + Grafana&lt;/li&gt;
+&lt;li&gt;OGC Services Monitoring with &lt;a href=&#34;http://geohealthcheck.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Visualizations: custom viewers with &lt;a href=&#34;http://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron&lt;/a&gt;
+/Leaflet/OpenLayers, Grafana dashboards&lt;/li&gt;
+&lt;li&gt;from development to test and production: &lt;a href=&#34;https://www.vagrantup.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Vagrant&amp;#43;VirtualBox&lt;/a&gt;
+, Ubuntu, Docker&lt;/li&gt;
+&lt;li&gt;using component-subsets of the platform for small deployments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/docker-monitoring.jpg&#34; alt=&#34;Monitoring SE Docker Containers: Prometheus+cAdvisor+Grafana&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A lot of stuff to uncover, hopefully got your interest if you have read all the way to here. Will try to treat one aspect/technology in each subsequent Emit-blog post. And off course the entire &lt;a href=&#34;https://github.com/geonovum/smartemission/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SE platform is Open Source&lt;/a&gt;
+ (GNU GPL), so you are free to download and experiment, and maybe even would like to contribute.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Dances with the GeoPython Tribe</title>
+      <link>https://nl.justobjects.org/dances-with-the-geopython-tribe/</link>
+      <pubDate>Wed, 13 Jul 2016 23:06:10 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/dances-with-the-geopython-tribe/</guid>
+      <description>
+        
+          &lt;p&gt;During June 21-24, 2016 I attended the very first &lt;a href=&#34;http://www.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoPython Conference in Basel Switzerland&lt;/a&gt;
+. This event was organized by the &lt;a href=&#34;http://www.fhnw.ch/habg/ivgi/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Institute of Geomatics Engineering of the FHNW – University of Applied Sciences and Arts Northwestern Switzerland&lt;/a&gt;
+ and &lt;a href=&#34;http://www.meetup.com/PyBasel-Basel-Python-Meetup/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyBasel&lt;/a&gt;
+, the local Python User Group Northwestern Switzerland. In particular I should mention key-organizer  &lt;a href=&#34;https://www.linkedin.com/in/martinchristen&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Martin Christen&lt;/a&gt;
+ from FHNW. He and his team made this into a such a great event that GeoPython 2017 is already planned. About 130 people attended, most from Europe, but also from other continents.  For a TL;DR the conference website &lt;a href=&#34;http://www.geopython.net&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.geopython.net&lt;/a&gt;
+  provides you all the details: not just the program, but also the “post-processing”: slides, photo’s (&lt;a href=&#34;https://www.flickr.com/photos/144781014@N02/sets/72157667869241134/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;on Flickr&lt;/a&gt;
+) etc.  The conference also included time and resources (room, food, beverages) for code-sprints. One of the outcomes of the conference-survey was to establish a public GeoPython mailing list at python.org. Details: to subscribe, send mail to:  &lt;u&gt;&lt;a href=&#34;mailto:GeoPython-subscribe@python.org&#34;&gt;GeoPython-subscribe@python.org&lt;/a&gt;
+ &lt;/u&gt;with the keyword “subscribe” in the subject, or use the web-interface: &lt;a href=&#34;https://mail.python.org/mm3/mailman3/lists/geopython.python.org/&#34;&gt;https://mail.python.org/mm3/mailman3/lists/geopython.python.org/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;float_right&#34;&gt;
+  &lt;a href=&#34;http://www.geopython.net/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2016/07/gp1-right.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;So why a dedicated GeoPython conference? IMHO Python makes more and more  sense for Open Source geospatial development. Not just for custom geo-scripting or glueing with e.g. &lt;a href=&#34;http://gdal.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GDAL&lt;/a&gt;
+, or for developing plugins for &lt;a href=&#34;http://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/plugins.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;QGIS&lt;/a&gt;
+ and &lt;a href=&#34;https://grass.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GRASS&lt;/a&gt;
+, but more and more as a mature framework language for geospatial processing and  OGC services. The projects &lt;a href=&#34;http://pywps.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyWPS&lt;/a&gt;
+ and &lt;a href=&#34;http://pycsw.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyCSW&lt;/a&gt;
+ are an example of the latter. To access OGC services from Python clients there is &lt;a href=&#34;http://geopython.github.io/OWSLib/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OWSLib&lt;/a&gt;
+. Upcoming geospatial CMS frameworks like &lt;a href=&#34;http://geonode.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoNode&lt;/a&gt;
+ and the very recent  &lt;a href=&#34;http://boundlessgeo.com/exchange/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Boundless Exchange&lt;/a&gt;
+, powered by GeoNode, show that Python has the potential to become “the new Java” within the Open Source geospatial world.&lt;/p&gt;
+&lt;p&gt;Did I say “Java”? Ok: did almost 20 years of Java, from the very first JDK somewhere in 95/96 (Applets!), through &lt;a href=&#34;https://en.wikipedia.org/wiki/Microsoft_Java_Virtual_Machine&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sun vs Microsoft over Java&lt;/a&gt;
+, from the heaviness of &lt;a href=&#34;https://en.wikipedia.org/wiki/Enterprise_JavaBeans&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;J2EE/EJB&lt;/a&gt;
+s, to the lighter weighings of &lt;a href=&#34;https://en.wikipedia.org/wiki/Spring_Framework&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Spring&lt;/a&gt;
+, the settling of Java as a backend/server technology. Sidestep: “Java” seems to be a central keyword in my family’s ancestry: &lt;a href=&#34;https://en.wikipedia.org/wiki/Pieter_van_den_Broecke&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my great-great grandfather was one of the first people in the world to drink a cup of Java&lt;/a&gt;
+ and also was one of the first to set foot on the Indonesian island of Java, being on the same ship with &lt;a href=&#34;https://nl.wikipedia.org/wiki/Jan_Pieterszoon_Coen&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jan Pieterszoon Coen&lt;/a&gt;
+. My grandfather lived for 20 years in &lt;a href=&#34;https://en.wikipedia.org/wiki/Malang&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Malang&lt;/a&gt;
+ (East Java), working as a civil (Delft) engineer. But I am diverting. The colonial period was by times a violent (by the Dutch) episode in Dutch history, not to be proud of.&lt;/p&gt;
+
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;http://www.geopython.net/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2016/07/gp2-left.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;But times they are a-changing, technologies are evolving. I am happy these days to develop in Python (and JavaScript for the web-frontend). Like moving from C/C++ to Java back then, and now from Java to Python, what appeals to me: shortened development times, lesser lines of code  to debug and maintain, ease of deployment, a central repository (&lt;a href=&#34;https://pypi.python.org/pypi&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyPi&lt;/a&gt;
+) , an independent, vibrant community and possibly more.  But again I am diverting, there are great and stable geo-products in Java like &lt;a href=&#34;http://geoserver.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoServer&lt;/a&gt;
+ I use daily. Diversity in programming languages is good. Someone (&lt;a href=&#34;https://www.linkedin.com/in/jodygarnett&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jody Garnett&lt;/a&gt;
+?) posted somewhere about the C-tribe and Java-tribe within the Open Source geospatial world, but can’t find the reference. Back to the subject of this post!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Like said, the organizing team has done a great job postprocessing the event, to be found via &lt;a href=&#34;http://www.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.geopython.net&lt;/a&gt;
+ so listing all talks/workshops will not add value here. My overall feeling was that this conference, like the very first &lt;a href=&#34;http://2006.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G in Lausanne&lt;/a&gt;
+ I attended in 2006, was the beginning of a global community. Above all this was also an event where folks with a shared interest met and conversed. Often at conferences one learns and shares the most during breaks and social gatherings. In short: I learned a lot, being a relative newcomer in the geospatial Python community: GeoNode, GeoDjango, Python with Grass, and much more. For example I learned about some general Python technologies like the  &lt;a href=&#34;http://jupyter.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jupyter Notebook&lt;/a&gt;
+ that many presenters used. I found that many (like me) are using &lt;a href=&#34;http://flask.pocoo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Flask&lt;/a&gt;
+ for simple Python webapps/REST APIs. Flask expresses one of features I like about Python: minimalism.&lt;/p&gt;
+&lt;p&gt;I am grateful to the organizing team that I could &lt;a href=&#34;http://www.slideshare.net/justb4/geospatial-etl-with-stetl-geopython-2016&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;present Stetl&lt;/a&gt;
+ in the last session on the last day, since I submitted past the deadline. Luckily the room was still filled, though the cold beer was tempting just ahead. Mind: during the conference there was a heatwave, above 30 degrees C each day, yes in Switzerland. But all in all this was a very cool conference! Hope to see you at GeoPython 2017!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

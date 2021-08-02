@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>weewx on Clarity</title>
+    <link>https://nl.justobjects.org/tags/weewx/</link>
+    <description>Recent content in weewx on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 15 Dec 2014 23:19:17 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/weewx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Into the Weather – Part 3 – Publishing Data to the Cloud – 1</title>
+      <link>https://nl.justobjects.org/into-the-weather-part-3/</link>
+      <pubDate>Mon, 15 Dec 2014 23:19:17 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/into-the-weather-part-3/</guid>
+      <description>
+        
+          &lt;p&gt;In my last post, &lt;a href=&#34;https://nl.justobjects.org/into-the-weather-part-2-fun-with-raspberry-pi/&#34;&gt;Into the Weather – Part 2&lt;/a&gt;
+, I outlined a global architecture of a &lt;a href=&#34;http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Davis Vantage Pro2&lt;/a&gt;
+ weather station connected to a &lt;a href=&#34;http://www.raspberrypi.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Raspberry Pi&lt;/a&gt;
+ (RPi) running &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ weather software to capture raw weather data. Here I will try to depict how to bring this weather data “from the &lt;a href=&#34;http://en.wikipedia.org/wiki/Little_Fluffy_Clouds&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;fluffy clouds&lt;/a&gt;
+ into the digital cloud”. Finally, at the end, also some geospatial content. The image below shows the weather station sensors at the Geonovum building rooftop (was quite hazardous replacing a faulty temperature sensor there!) and the Davis console connected to the Raspberry Pi (transparent enclosure). All documentation and code can be found via: &lt;a href=&#34;http://sospilot.readthedocs.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sospilot.readthedocs.org&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2014/12/davis-pws-geonovum-pics1.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;To recap: the &lt;a href=&#34;http://www.davisnet.com/weather/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Davis Weather Station&lt;/a&gt;
+ continuously captures raw weather data through its sensors: temperature (out/in), pressure, wind (speed, direction), rainfall and even UV-radiation. This data is initially gathered within the local console display. This is fine for personal/local usage, but for capturing history, deriving trends and in particular for external sharing this is quite limited. The real fun starts with getting access to the raw data and go from there.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2014/11/weather-hw-setup.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is where the Raspberry Pi with weewx and later &lt;a href=&#34;http://www.stetl.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl&lt;/a&gt;
+, PostGIS, GeoServer and the 52North SOS come in, but I’ll go step-by-step. Let’s first see how we can publish weather data with just weewx.&lt;/p&gt;
+&lt;p&gt;My first post &lt;a href=&#34;https://nl.justobjects.org/into-the-weather-part-1/&#34;&gt;Into the Weather – Part 1&lt;/a&gt;
+ in this series introduced weewx, a Python framework for capturing, storing and publishing weather data. The Davis weather station is connected via USB to the RPi. The RPi runs &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ to gather and store weather data (in a SQLite DB) from the weather station. But weewx can do more than this: it can also publish weather data to a variety of services. As any well-designed framework, weewx is basically a kernel, the &lt;em&gt;weewx engine&lt;/em&gt; with configurable plugins, all specified and parameterized from a single configuration file &lt;em&gt;weewx.conf&lt;/em&gt;, like in &lt;a href=&#34;https://github.com/Geonovum/sospilot/blob/master/src/weewx/davis/weewx.conf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this example&lt;/a&gt;
+. The &lt;em&gt;weewx daemon&lt;/em&gt; process runs forever in a main loop continuously calling on all plugins.&lt;/p&gt;
+&lt;p&gt;First there are &lt;em&gt;weewx station-drivers&lt;/em&gt; that continuously capture raw data from most common weather stations. Although there are many brands of weather stations, many will share common hardware and protocols. The second class of plugins are &lt;em&gt;archiving drivers&lt;/em&gt;, where/how to store raw weather data. Two standard archiving drivers are available: SQLite and MySQL. My choice: SQLite. For publication from archived data, a &lt;em&gt;standard reporting driver&lt;/em&gt; generates a plain HTML website using an extensible &lt;em&gt;skin containing (HTML) templates&lt;/em&gt;. By configuring an FTP or &lt;em&gt;rsync&lt;/em&gt; destination, the generated HTML can be published to a remote webserver. This is the first connection to the digital cloud. Off course the skin and templates are highly configurable &lt;a href=&#34;https://github.com/Geonovum/sospilot/tree/master/src/weewx/davis/byteweather&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;as in this example&lt;/a&gt;
+. Many examples can be found on the web. I found the nice &lt;a href=&#34;http://davies-barnard.co.uk/2014/01/weewx-byteweather-template&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;byteweather-template by Chris Davies-Barnard&lt;/a&gt;
+. Below is the result as can be found at: &lt;a href=&#34;http://sensors.geonovum.nl/weewx&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sensors.geonovum.nl/weewx&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;http://sensors.geonovum.nl/weewx/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2014/12/weewx-geonovum-screen1.png&#34;
+      alt=&#34;Weewx Standard Report&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;In addition, I’ve added even a more dynamic weather display like the &lt;a href=&#34;http://wiki.sandaysoft.com/a/SteelSeries_Gauges&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Steelseries Gauges&lt;/a&gt;
+, as seen below and via the link &lt;a href=&#34;http://sensors.geonovum.nl/weewx/gauges/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sensors.geonovum.nl/weewx/gauges&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;http://sensors.geonovum.nl/weewx/gauges/index.html&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2014/12/weewx-geonovum-gauges-screen1.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Just like other crowd-sourced projects like OpenStreetMap and WikiPedia there are various weather  communities where you can join and publish your weather data via RESTful APIs. weewx provides drivers for most common communities like &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Weather Underground&lt;/a&gt;
+ and &lt;a href=&#34;http://pwsweather.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PWSWeather&lt;/a&gt;
+. For example, I registered the Geonovum weather station as  &lt;a href=&#34;http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum IUTRECHT96&lt;/a&gt;
+ as below.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2014/12/wu-geonovum-pws1.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Weather Underground also provides various apps and a map, the &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WunderMap&lt;/a&gt;
+. Here you can view your station, together with all others that jointly provide weather data. As can be seen there is already quite some coverage within The Netherlands.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2014/12/wundermap-nl1.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;All in all, there is a fascinating world to explore once you get into the weather domain and its many communities.&lt;/p&gt;
+&lt;p&gt;So why am I doing all of this? Apart from having the opportunity to develop this as part of the &lt;a href=&#34;http://sospilot.readthedocs.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SOSPilot Project at Geonovum&lt;/a&gt;
+, I think that “geospatial” is moving from 2D to “N-dimensional”: not only more and more “3D”  is hitting the shores (just see the recent 2014 blogs at &lt;a href=&#34;http://planet.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;planet.osgeo.org&lt;/a&gt;
+), but also location-based sensor data (like Air Quality and weather data) and the &lt;a href=&#34;http://en.wikipedia.org/wiki/Internet_of_Things&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Internet of Things&lt;/a&gt;
+ drives a need to deal with time-series data: management, storage, services and visualization. Within the Open Source geospatial world I happily see that many frameworks and tools are extended to deal with 3D, like &lt;a href=&#34;http://openlayers.org/ol3-cesium/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenLayers/Cesium&lt;/a&gt;
+ (one of my next posts) and &lt;a href=&#34;http://boundlessgeo.com/2013/11/manage-lidar-postgis/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PostGIS/PDAL&lt;/a&gt;
+ and with Time like in &lt;a href=&#34;http://docs.geoserver.org/latest/en/user/services/wms/time.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoServer Dimension&lt;/a&gt;
+ support. Also the &lt;a href=&#34;http://www.opengeospatial.org/ogc/markets-technologies/swe&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Web Enablement&lt;/a&gt;
+ and its lighter-weight version &lt;a href=&#34;http://ogc-iot.github.io/ogc-iot-api/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorThings&lt;/a&gt;
+ is gaining more attention.&lt;/p&gt;
+&lt;p&gt;Not yet done with the weather. Next post I will dive into further unlocking weather data via OGC services like WMS and SOS. That would be “Publishing Data to Cloud 9” ;-)&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Into the Weather – Part 2 – Fun with Raspberry Pi</title>
+      <link>https://nl.justobjects.org/into-the-weather-part-2-fun-with-raspberry-pi/</link>
+      <pubDate>Thu, 06 Nov 2014 01:35:30 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/into-the-weather-part-2-fun-with-raspberry-pi/</guid>
+      <description>
+        
+          &lt;p&gt;This is a follow-up to &lt;a href=&#34;https://nl.justobjects.org/into-the-weather-part-1/&#34;&gt;“Into the Weather – Part 1 – Exploring weewx”&lt;/a&gt;
+. Sorry, still almost no geospatial content for now. To recap: I am trying to setup an infrastructure where measurements from a &lt;a href=&#34;http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Davis Vantage Pro2 Weather Station&lt;/a&gt;
+ are collected and exposed to web services, most notably OGC Services like &lt;a href=&#34;http://docs.geoserver.org/latest/en/user/services/wms/time.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WMS-Time&lt;/a&gt;
+ and SOS, the &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sensor Observation Service&lt;/a&gt;
+. The TLDR; /impatient can view results at &lt;a href=&#34;http://sensors.geonovum.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sensors.geonovum.nl&lt;/a&gt;
+, sources in the &lt;a href=&#34;https://github.com/Geonovum/sospilot/tree/master/src&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub project&lt;/a&gt;
+ and in general &lt;a href=&#34;http://sospilot.readthedocs.org/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;the documentation&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;As this setup needs to be run from within my client’s local intranet with available servers “in the Cloud” there is a need for a “relaying middleman”.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://www.raspberrypi.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Raspberry Pi&lt;/a&gt;
+ (RPi) was my first choice. The RPi is a credit-card sized computer that can run Linux-es like &lt;a href=&#34;http://www.raspbian.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Raspbian&lt;/a&gt;
+, a Linux OS based on &lt;a href=&#34;https://www.debian.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Debian&lt;/a&gt;
+. As the Davis weather station console has a USB-interface and &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ supports read-outs from Davis weather stations, choosing the RPi was obvious. The combination RPi, Raspbian, weewx (try &lt;a href=&#34;https://www.google.nl/search?q=RPi%2C&amp;#43;Raspbian%2C&amp;#43;weewx&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this Google search&lt;/a&gt;
+) is becoming more and more popular for setting up public and community-based weather stations.&lt;/p&gt;
+&lt;p&gt;By now it is time to depict the overall architecture as in the image below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2014/11/weather-hw-setup1.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Davis weather station will connect via USB to the RPi. The RPi will run &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ to gather and store weather data (in a SQLite DB) from the weather station. In addition the RPi will run ETL software based on &lt;a href=&#34;http://www.stetl.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl&lt;/a&gt;
+ to publish weather data to a PostgreSQL/PostGIS database in a cloud server. Using &lt;a href=&#34;http://geoserver.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geoserver&lt;/a&gt;
+ and the &lt;a href=&#34;http://52north.org/communities/sensorweb/sos/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;52North SOS&lt;/a&gt;
+ the cloud server will expose the weather data via web services like WMS (Time), WFS and SOS and plain HTML using custom weather web templates like the fabulous &lt;a href=&#34;http://wiki.sandaysoft.com/a/SteelSeries_Gauges&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;steelseries gauges&lt;/a&gt;
+. I will expand on the software setup in the next post.&lt;/p&gt;
+&lt;p&gt;For now I will focus on acquiring and setting up the RPi, as this was a fun-exercise by itself. I ordered a kit with a Raspberry Pi Model B+ with power unit, casing, micro SD and WIFI USB adapter (&lt;a href=&#34;http://www.kiwi-electronics.nl/raspberry-pi/raspberry-pi-accessoires/wi-pi-draadloze-usb-adapter-voor-raspberry-pi&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WiPi&lt;/a&gt;
+) at &lt;a href=&#34;http://www.kiwi-electronics.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Kiwi Electronics&lt;/a&gt;
+. The whole package arrived the next day.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2014/11/rasp-pi-all1.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;From unboxing to having everything installed with the &lt;a href=&#34;https://nl.justobjects.org/into-the-weather-part-1/&#34;&gt;weewx Simulator (see Part 1)&lt;/a&gt;
+ went smooth. It would take too far to describe all the install steps and gotcha’s. I’ve summarized these here in the &lt;a href=&#34;http://sospilot.readthedocs.org/en/latest/raspberrypi-install.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RPi installation doc&lt;/a&gt;
+. Apart from a standard Raspbian install, I paid in particular attention to two aspects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;running unattended as a headless server, i.e. monitoring and self-healing&lt;/li&gt;
+&lt;li&gt;having SSH access outside the LAN via reverse SSH-tunneling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Monitoring and self-healing are non-neglectable aspects, in particular the weewx server may go down for some reason, as well as the WIFI network and any of the SSH-tunnels. These aspects are described &lt;a href=&#34;http://sospilot.readthedocs.org/en/latest/raspberrypi-install.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;in the documentation&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;All in all this step was to get weewx running, still in simulator mode, storing raw weather data in a SQLite database and publishing HTML reports.&lt;/p&gt;
+&lt;p&gt;So the final result is an RPi humming silently, weewx reporting regularly. In general having a stable system for the next steps: gathering and publishing the weather data to the OGC services like WMS, WFS and SOS. The &lt;a href=&#34;http://www.stetl.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Python-based Stetl framework&lt;/a&gt;
+, again proved to be instrumental to this effort, both on the RPi and on the Linux server in the Cloud.  This will be a subject for my next post. See the architecture below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2014/11/weather-sw-setup.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;Summarizing: A Stetl process (&lt;a href=&#34;https://github.com/Geonovum/sospilot/tree/master/src/weather/weewx2pg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl sync&lt;/a&gt;
+) continuously gathers and publishes weather data to a remote PostgreSQL/PostGIS server. Through PostgreSQL-VIEWs refined weather data is immediately available to GeoServer as WMS(Time) and WFS sources, and via another Stetl process (&lt;a href=&#34;https://github.com/Geonovum/sospilot/tree/master/src/weather/pg2sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl SOS&lt;/a&gt;
+) published via SOS-T (ala WFS-T) to the SOS. The weewx engine has a plugin to publish a flat HTML website via &lt;em&gt;rsync&lt;/em&gt; using configurable templates.&lt;/p&gt;
+&lt;p&gt;There is much to expand still. I’m excited to see this whole infrastructure work in such a short time &lt;em&gt;&lt;strong&gt;thanks to&lt;/strong&gt; &lt;strong&gt;all these developers that produce all of the Open Source software involved here&lt;/strong&gt;&lt;/em&gt;: from the core Debian/Raspbian OSs, the weewx weather software, PostgreSQL/PostGIS, GeoServer and the 52North SOS. The proverbial sentence is: &lt;em&gt;&lt;strong&gt;I am just standing on the shoulders of you giants&lt;/strong&gt;&lt;/em&gt;. This is the way humanity should evolve regarding soft/hardware-technology. Thanks again, and if you have read this far, I hope to see you in my next post !&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Into the Weather – Part 1 – Exploring weewx</title>
+      <link>https://nl.justobjects.org/into-the-weather-part-1/</link>
+      <pubDate>Fri, 17 Oct 2014 01:21:02 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/into-the-weather-part-1/</guid>
+      <description>
+        
+          
+&lt;div class=&#34;float_right&#34;&gt;
+  &lt;a href=&#34;http://lib.heron-mc.org/heron/latest/examples/simpletimeslider/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2014/10/wms-time-heron-knmi-300x181.png&#34;
+      alt=&#34;WMS Time Example with GeoServer in Heron&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Tagging this post as “Part 1”  is ambitious. Beware: there is hardly any “geo” for now. In the coming time I hope to share some technical experiences with weather stations, weather software and ultimately exposing weather data via some open geospatial standards like &lt;a href=&#34;http://mapserver.org/ogc/wms_time.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC WMS(-Time)&lt;/a&gt;
+ as in &lt;a href=&#34;http://lib.heron-mc.org/heron/latest/examples/simpletimeslider/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;example image right&lt;/a&gt;
+, WFS and in particular &lt;a href=&#34;http://en.wikipedia.org/wiki/Sensor_Observation_Service&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SOS (Sensor Observation Service)&lt;/a&gt;
+. The context is an exciting project with &lt;a href=&#34;http://www.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum&lt;/a&gt;
+ in the Netherlands: to transform and expose (via web services and reporting) open/raw Air Quality data from &lt;a href=&#34;http://www.rivm.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RIVM&lt;/a&gt;
+, the Dutch National Institute for Public Health and the Environment. The main link to this project is &lt;a href=&#34;http://sensors.geonovum.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sensors.geonovum.nl&lt;/a&gt;
+. All software is developed as FOSS &lt;a href=&#34;https://github.com/Geonovum/sospilot&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;via a GitHub project&lt;/a&gt;
+. There are already some results there. I may post on these later.&lt;/p&gt;
+
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;#ZgotmplZ&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2014/10/sospilot-screenshot-300x206.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Within a sub-project the aim is to expose measurements from a physical weather station via standardized OGC web services like WMS, WFS and SOS.  As a first step I dived into the world of weather hardware and software, in particular their vivid open source/open data communities. A whole new world expanded to me. To no surprise: Location and The Weather are part of everyday life since the beginnings of humanity. &lt;a href=&#34;http://openweathermap.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenWeatherMap&lt;/a&gt;
+ and &lt;a href=&#34;http://www.wunderground.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Weather Underground&lt;/a&gt;
+ are just two of the many communities around open weather data. In addition there’s an abundance of FOSS weather software. Personal weather stations are measuring not just temperature but also pressure, humidity, rainfall, wind, up to UV radiation and are built &lt;a href=&#34;http://www.zipfelmaus.com/blog/arduino-weather-shield-schematics-layout-code-everything-you-need/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;homebrew&lt;/a&gt;
+ or &lt;a href=&#34;http://www.weathershop.co.uk/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;bought for as cheap as $50,-. &lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2014/10/weather-hacking.png&#34; alt=&#34;Weather Hacking&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Being a noob in weather soft/hardware technology I had to start somewhere and then go step-by-step. The overall “architecture” can be even depicted in text:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;weather station --&amp;gt; soft/middleware --&amp;gt; web services + reporting
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;float_right&#34;&gt;
+  &lt;a href=&#34;http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2014/10/davis-vantage-pro2-300x188.jpg&#34;
+      alt=&#34;Davis Vantage Pro2 Weather Station&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Being more of a software person, I decided to start with the weather soft/middleware. Also, since Geonovum already owns a &lt;a href=&#34;http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Davis Vantage Pro2 Weather Station&lt;/a&gt;
+ and the &lt;a href=&#34;http://www.raspberrypi.org/products/model-b-plus/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Raspberry Pi B&amp;#43;&lt;/a&gt;
+ I plan to use is still underway…&lt;/p&gt;
+&lt;p&gt;From what I gathered, &lt;a href=&#34;http://www.weewx.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ is the most widely used engine/framework within the weather FOSS community. Also the fact that it is written in Python with a very extensible architecture immediately settled my choice. Explaining &lt;a href=&#34;http://www.weewx.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ is a subject by itself but &lt;a href=&#34;http://www.weewx.com/docs.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;very well documented&lt;/a&gt;
+. I’ll try in a few sentences what &lt;a href=&#34;http://www.weewx.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ does:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;collect current and archive weather station measurement data (drivers)&lt;/li&gt;
+&lt;li&gt;storing weather data (archive and statistics) in a database (&lt;a href=&#34;http://www.sqlite.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SQLite&lt;/a&gt;
+ or MySQL)&lt;/li&gt;
+&lt;li&gt;submitting data to weather community services like &lt;a href=&#34;http://www.wunderground.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Weather Underground&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;creating formatted/templated reports for your local or remote website&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Any of these functionalities is highly extensible through a configurable plugin architecture. The drivers support most common weather stations. Installing is a breeze, either in a local directory or via Linux package managers. Also note that weather data  have quite some different local units (Fahrenheit/Celsius, knots/meters etc). &lt;a href=&#34;http://www.weewx.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ will all take care of this.&lt;/p&gt;
+&lt;p&gt;So, not yet having access to a weather station, what could I do? One of the weather station drivers is the &lt;a href=&#34;http://www.weewx.com/docs/usersguide.htm#[Simulator]&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Simulator&lt;/a&gt;
+ which intelligently generates weather data for testing.&lt;/p&gt;
+
+&lt;div class=&#34;float_right&#34;&gt;
+  &lt;a href=&#34;http://openweathermap.org/maps&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2014/10/openweathermap-300x196.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Trying to have some real-world data I set out on what appeared to be a two-hour hack: create a weather station driver that obtains its data from an open weather API. There are many off course. I choose the &lt;a href=&#34;http://openweathermap.org/api&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenWeatherMap API&lt;/a&gt;
+ to get data in the area of our cabin in the woods near the place of &lt;a href=&#34;http://en.wikipedia.org/wiki/Otterlo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Otterlo in the Netherlands&lt;/a&gt;
+. Writing this hard-coded driver took just a few line of Python. The &lt;a href=&#34;https://github.com/Geonovum/sospilot/blob/master/src/weewx/test/weatherapidriver.py&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;source code can be found here&lt;/a&gt;
+. To not overask the API, I’ve set the time interval to 2 minutes within the &lt;a href=&#34;https://github.com/Geonovum/sospilot/blob/master/src/weewx/test/weewx.conf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx configuration file&lt;/a&gt;
+. Also it would not be fair to report these values to any of the weather communities. If the weewx community is interested I can donate this software, with some generalization (e.g. URLvia config).&lt;/p&gt;
+&lt;p&gt;But all in all my first driver is still running fine in weewx. The main challenge was converting all the values between different metric systems. weewx allows and even encourages you to store all data in US metrics. All the reporting and conversion utilities will always allow you to show your local metric units.&lt;/p&gt;
+
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;#ZgotmplZ&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2014/10/otterlo-weewx-report-300x275.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;As a Linux daemon now runs fine in our test system. It is time to show some results. weewx reporting is basically a website generated via &lt;a href=&#34;http://www.cheetahtemplate.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cheetah templates&lt;/a&gt;
+. The default template is basic white on black. I found a nice template called &lt;a href=&#34;http://davies-barnard.co.uk/2014/01/weewx-byteweather-template&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Byteweather&lt;/a&gt;
+. You can find my continuous weather report  here at &lt;a href=&#34;http://sensors.geonovum.nl/weather/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sensors.geonovum.nl/weather&lt;/a&gt;
+. Measurements are now building up thanks to the weewx archive database. Values are mostly matching Dutch weather station data. Expect for the rainfall…Surely we have lots of rain but not that much…&lt;/p&gt;
+&lt;p&gt;Next posting I hope to tell more about deploying the Raspberry Pi and connecting to the Geonovum Davis Weather station. Then there will be also more “geo” in the post, I promise!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

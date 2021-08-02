@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mapnik on Clarity</title>
+    <link>https://nl.justobjects.org/tags/mapnik/</link>
+    <description>Recent content in mapnik on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 17 Mar 2010 11:11:25 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/mapnik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenStreetMap Tiles for Dutch Projection EPSG:28992</title>
+      <link>https://nl.justobjects.org/openstreetmap-tiles-for-dutch-projection-epsg28992/</link>
+      <pubDate>Wed, 17 Mar 2010 11:11:25 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/openstreetmap-tiles-for-dutch-projection-epsg28992/</guid>
+      <description>
+        
+          &lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;alignleft wp-image-262 size-thumbnail&#34; src=&#34;uploads/2010/03/osm-rdtiles-150x150.jpg&#34; alt=&#34;osm-rdtiles&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;][1]
+--&gt;
+&lt;p&gt; &lt;br&gt;
+
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;#ZgotmplZ&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2010/03/osm-rdtiles-150x150.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+This article documents how to generate &lt;a href=&#34;http://www.openstreetmap.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenStreetMap (OSM)&lt;/a&gt;
+ tiles for the &lt;a href=&#34;http://www.rdnap.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch RD (“Rijksdriehoeksmeting”) projection&lt;/a&gt;
+ also known as &lt;a href=&#34;http://spatialreference.org/ref/epsg/28992&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EPSG:28992&lt;/a&gt;
+. The steps described below can be used for other projections as well. I assume you are familiar with the OpenStreetMap (OSM) project. If not, there is ample information on the web, for example the &lt;a href=&#34;http://wiki.openstreetmap.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSM Wiki&lt;/a&gt;
+. What makes OSM very attractive is not just &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/Map_Making_Overview&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;the shared mapmaking&lt;/a&gt;
+ and an &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/OpenStreetMap_License&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;unrestrictive license&lt;/a&gt;
+ on the resulting map(data), but a toolchain, that allows you to &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/Renderers&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;generate/render your own maps !&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;In addition, &lt;a href=&#34;http://www.openstreetmap.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSM within The Netherlands&lt;/a&gt;
+ is very detailed since &lt;a href=&#34;http://www.and.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Automotive Navigation Data (AND)&lt;/a&gt;
+ has donated a complete road dataset for The Netherlands in 2007 to the OSM project. OSM maps are usually rendered as 256×256 tiles in a &lt;a href=&#34;http://docs.openlayers.org/library/spherical_mercator.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Spherical Mercator projection&lt;/a&gt;
+ with the (unofficial) code EPSG:900913, a.k.a. the “Google Projection”. Spherical Mercator has an official designation of &lt;a href=&#34;http://spatialreference.org/ref/epsg/3785&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EPSG:3785&lt;/a&gt;
+ but you will mostly find EPSG:900913. Most countries however use local map-projections, mainly for better accuracy and calculations. Most Dutch mapping applications use the aforementioned &lt;a href=&#34;http://www.rdnap.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch RD projection, EPSG:28992&lt;/a&gt;
+. Generating OSM tiles for EPSG:28992 requires some extra steps and has some gotchas you need to be aware of.&lt;/p&gt;
+&lt;p&gt;Below, I will not describe the setup of the entire toolchain needed to &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/Mapnik&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;generate OSM map tiles with Mapnik&lt;/a&gt;
+, but just the steps that are specific to our goal: generate OSM map tiles for extent of The Netherlands with the projection EPSG:28992. These steps were done on &lt;a href=&#34;http://www.ubuntu.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Ubuntu Linux&lt;/a&gt;
+ 9.04 (Jaunty). So let’s take the seven steps!&lt;/p&gt;
+&lt;h3 id=&#34;step-1-download-osm-data&#34;&gt;Step 1: download OSM data&lt;/h3&gt;
+&lt;p&gt;Since we only plan to generate tiles for The Netherlands, plus the fact that the projection EPSG:28992 will not even work around the world, we need only an extract for The Netherlands. I have downloaded this extract from &lt;code&gt;http://hypercube.telascience.org/planet/planet-nl-latest.osm.gz&lt;/code&gt;, but at the time of this writing this file was not present. Best is to go to &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/Planet.osm&#34;&gt;http://wiki.openstreetmap.org/wiki/Planet.osm&lt;/a&gt; to find a suitable download server. Unpack &lt;code&gt;planet-nl-latest.osm.gz&lt;/code&gt;. The resulting XML file &lt;code&gt;planet-nl-latest.osm&lt;/code&gt; is around 4.5 GB.&lt;/p&gt;
+&lt;h3 id=&#34;step-2-import-osm-data-in-postgis&#34;&gt;Step 2: import OSM data in PostGIS&lt;/h3&gt;
+&lt;p&gt;Use &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/Osm2pgsql&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;osm2pgsql&lt;/a&gt;
+ to import the Planet XML file into the PostgreSQL/PostGIS database. Since the standard version from the Ubuntu repository gave errors I have built a custom version of &lt;code&gt;osm2pgsql&lt;/code&gt; from SVN (rev. 20274) using these steps:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;sudo apt-get install build-essential libxml2-dev libgeos-dev libpq-dev libbz2-dev proj
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;mkdir /opt/osm/osm2pgsql
+&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /opt/osm/osm2pgsql
+&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;svn &lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; http://svn.openstreetmap.org/applications/utils/export/osm2pgsql svn-20274
+&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/-g -O2/-O2 -march=native -fomit-frame-pointer/&amp;#39;&lt;/span&gt; Makefile
+&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;make
+&lt;span class=&#34;ln&#34;&gt;9&lt;/span&gt;make install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Import the OSM file with this command line:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;osm2pgsql --slim -c -E EPSG:4326 -d georzlab -U postgres -W -H localhost S /opt/osm/osm2pgsql/svn-20274/default.style /path/to/planet-nl-latest.osm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note the use of EPSG:4326 (standard lon/lat projection) to store data in the DB. Maybe I could have used the default EPSG:900913. The &lt;code&gt;--slim&lt;/code&gt; option was needed to prevent errors.&lt;/p&gt;
+&lt;h3 id=&#34;step-3-install-mapnik&#34;&gt;Step 3: install Mapnik&lt;/h3&gt;
+&lt;p&gt;An install of &lt;a href=&#34;http://mapnik.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Mapnik&lt;/a&gt;
+, the map tile renderer, version 0.7.0 from &lt;a href=&#34;http://svn.mapnik.org/tags/release-0.7.0&#34;&gt;http://svn.mapnik.org/tags/release-0.7.0&lt;/a&gt; was done. Installing Mapnik itself involves many steps. These are described in many places, such as &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/Mapnik/Installation&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;here&lt;/a&gt;
+ and for Ubuntu at &lt;a href=&#34;http://trac.mapnik.org/wiki/UbuntuInstallation&#34;&gt;http://trac.mapnik.org/wiki/UbuntuInstallation&lt;/a&gt;. Best is to have a Mapnik version as recent as possible.&lt;/p&gt;
+&lt;h3 id=&#34;step-4-download-and-extract-world-boundary-files&#34;&gt;Step 4: download and extract World Boundary files&lt;/h3&gt;
+&lt;p&gt;This is a standard step in the Mapnik rendering process for OSM. Specific in our case is that we will extract only the area of The Netherlands from the World Boundary shape files. This is not just for efficiency purposes but required, &lt;em&gt;&lt;strong&gt;otherwise rendering boundaries/geonames will silently fail (see below)&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Two steps are required here:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;extract/clip the Netherlands’ bounding box and&lt;/li&gt;
+&lt;li&gt;reproject extracted data to EPSG:28992.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Thanks to the wonderful geo-library &lt;a href=&#34;http://gdal.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GDAL/OGR&lt;/a&gt;
+ and the command &lt;code&gt;ogr2ogr&lt;/code&gt; for vector data manipulations, this can be done in a script as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# location of shape files&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /var/kademo/data/osm/world_boundaries
+&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# Extract NL area to Dutch RD (EPSG:28992)&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# get extent in EPSG:900913 from PostGIS:&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#    select ST_Extent(ST_Transform(way,900913)) from planet_osm_line;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;extent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;311523.765594493 6555476.44574815 822461.515529216 7160903.43417988&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;srs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;28992&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Extract NL for EPSG:&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;srs&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;/bin/rm &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;/bin/ls *&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;srs&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;*&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;ogr2ogr -f &lt;span class=&#34;s2&#34;&gt;&amp;#34;ESRI Shapefile&amp;#34;&lt;/span&gt; -s_srs EPSG:900913 -t_srs EPSG:&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;srs&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;               -spat &lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;extent&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;  builtup_area_&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;srs&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;.shp builtup_area.shp
+&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;ogr2ogr -f &lt;span class=&#34;s2&#34;&gt;&amp;#34;ESRI Shapefile&amp;#34;&lt;/span&gt; -s_srs EPSG:900913 -t_srs EPSG:&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;srs&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;18&lt;/span&gt;               -spat &lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;extent&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;  processed_p_&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;srs&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;.shp processed_p.shp
+&lt;span class=&#34;ln&#34;&gt;19&lt;/span&gt;ogr2ogr -f &lt;span class=&#34;s2&#34;&gt;&amp;#34;ESRI Shapefile&amp;#34;&lt;/span&gt; -s_srs EPSG:900913 -t_srs EPSG:&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;srs&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;  
+&lt;span class=&#34;ln&#34;&gt;20&lt;/span&gt;               -spat &lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;extent&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;  shoreline_300_&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;srs&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;.shp shoreline_300.shp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The extent in EPSG:900913 can be obtained from the data in PostGIS with the &lt;a href=&#34;http://www.postgresql.org/docs/8.4/static/app-psql.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;psql&lt;/a&gt;
+ command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;select ST_Extent(ST_Transform(way,900913)) from planet_osm_line;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This extra step came about after great help from the very active &lt;a href=&#34;http://www.mail-archive.com/talk-nl@openstreetmap.org/info.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch OSM mailing list&lt;/a&gt;
+. You can read the relevant thread &lt;a href=&#34;http://www.mail-archive.com/talk-nl@openstreetmap.org/msg09240.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;here&lt;/a&gt;
+. It became clear that the clip/reproject step was necessary. The reason is most probably the Mapnik bug &lt;a href=&#34;http://trac.mapnik.org/ticket/308&#34;&gt;http://trac.mapnik.org/ticket/308&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Also make sure that you have the proper settings for EPSG:28992 in PROJ’s EPSG file, usually located in &lt;code&gt;/usr/share/proj/epsg&lt;/code&gt; and make sure that this setting is actually used by &lt;code&gt;ogr2ogr&lt;/code&gt;. Older versions of GDAL may use their own PROJ settings in their .csv files. The &lt;a href=&#34;http://bit.ly/9G5fAq&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PROJ/PostGIS/GDAL issues around EPSG:28992&lt;/a&gt;
+ deserve a blog-post by themselves. At this moment even &lt;a href=&#34;http://spatialreference.org/ref/epsg/28992/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;http://spatialreference.org/ref/epsg/28992&lt;/a&gt;
+ publishes wrong PROJ values. The issue mainly deals with the &lt;code&gt;+towgs84&lt;/code&gt; parameter, needed for reprojections, not being present.&lt;/p&gt;
+&lt;h3 id=&#34;step-5-install-and-configure-osm-mapnik-tools&#34;&gt;Step 5: install and configure OSM Mapnik tools&lt;/h3&gt;
+&lt;p&gt;This step involves changing the OSM-specific Python-scripts and the Mapnik XML configuration (“The Mapnik Map File”) for invoking Mapnik.&lt;/p&gt;
+&lt;p&gt;I installed SVN rev. 20274 with the command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;svn export http://svn.openstreetmap.org/applications/rendering/mapnik
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and ran:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;generate_xml.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to generate a basic configuration.&lt;/p&gt;
+&lt;p&gt;The main step is making changes to the Mapnik map file &lt;code&gt;osm.xml&lt;/code&gt; and its included files in &lt;code&gt;inc/*.xml.inc&lt;/code&gt;. Below is relevant info.&lt;/p&gt;
+&lt;p&gt;We need to determine the extent for our tiling scheme. This is in general different from the extent of the dataset. It is the same extent that you will need in your tiling server like &lt;a href=&#34;http://tilecache.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;TileCache&lt;/a&gt;
+ and your web client like &lt;a href=&#34;http://openlayers.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenLayers&lt;/a&gt;
+. There is unfortunately no Dutch standard for this extent. I have used the following values&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;EPSG:28992 (RD)       -65200.96,    242799.04  375200.96,   683200.96
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt; EPSG:4326 (WGS84)     2.307,	       50.134         8.752,	       54.087
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Change extent in &lt;code&gt;datasource-settings.xml.inc&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;2.307,50.134,8.752,54.087
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Since our PostGIS data is in EPSG:4326 change &lt;code&gt;inc/settings.xml.inc&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&amp;lt;!ENTITY osm2pgsql_projection &amp;#34;&amp;amp;srs4326;&amp;#34; &amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Edit &lt;code&gt;inc/entities.xml.inc&lt;/code&gt; and add new XML entity for the &lt;a href=&#34;http://trac.osgeo.org/proj&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Proj&lt;/a&gt;
+ definition for EPSG:28992.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&amp;lt;!ENTITY srs28992 &amp;#34;+proj=sterea
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;          +lat_0=52.15616055555555 +lon_0=5.38763888888889
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;          +k=0.9999079 +x_0=155000 +y_0=463000
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;          +ellps=bessel
+&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;          +towgs84=565.237,50.0087,465.658,-0.406857,0.350733,-1.87035,4.0812
+&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;          +units=m +no_defs&amp;#34; &amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;See also &lt;a href=&#34;http://spatialreference.org/ref/sr-org/6781/mapnik&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;here&lt;/a&gt;
+ for the right “Proj” definition. The only change required in &lt;code&gt;osm.xml&lt;/code&gt; is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&amp;lt;Map bgcolor=&amp;#34;#b5d0d0&amp;#34; srs=&amp;#34;&amp;amp;srs28992;&amp;#34; minimum_version=&amp;#34;0.6.1&amp;#34;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;There is no need to change Layer elements in &lt;code&gt;osm.xml&lt;/code&gt; since they keep the projection from the entity &lt;code&gt;osm2pgsql_projection&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In &lt;code&gt;inc/layer-shapefiles.xml.inc&lt;/code&gt; change the names/projections to those of the extracted/reprojected shape files in Step 4. I have used XML entities as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&amp;lt;layer name=&amp;#34;world&amp;#34; status=&amp;#34;on&amp;#34; srs=&amp;#34;&amp;amp;srs;&amp;#34;&amp;gt;
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;     &amp;lt;stylename&amp;gt;world&amp;lt;/stylename&amp;gt;
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;    &amp;lt;datasource&amp;gt;
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;       &amp;lt;parameter name=&amp;#34;type&amp;#34;&amp;gt;shape&amp;lt;/parameter&amp;gt;
+&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;       &amp;lt;parameter name=&amp;#34;file&amp;#34;&amp;gt;&amp;amp;world_boundaries;/shoreline_300_&amp;amp;projection;&amp;lt;/parameter&amp;gt;
+&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;    &amp;lt;/datasource&amp;gt;
+&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&amp;lt;/layer&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;With &lt;code&gt;&amp;amp;srs;&lt;/code&gt; being EPSG:28992 and &lt;code&gt;&amp;amp;projection;&lt;/code&gt; 28992.&lt;/p&gt;
+&lt;h3 id=&#34;step-6-generate-test-tile&#34;&gt;Step 6: Generate Test Tile&lt;/h3&gt;
+&lt;p&gt;The moment of truth ! We are going to generate a single map image to test all of our settings.&lt;br&gt;
+I made a copy of the Python file &lt;code&gt;generate_image.py&lt;/code&gt; and modifed this file as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;if __name__ == &amp;#34;__main__&amp;#34;:
+&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;    try:
+&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;        mapfile = os.environ[&amp;#39;MAPNIK_MAP_FILE&amp;#39;]
+&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;    except KeyError:
+&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;        mapfile = &amp;#34;osm.xml&amp;#34;
+&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;    map_uri = &amp;#34;/path/to/output/file.png&amp;#34;
+&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;    # Map image bbox
+&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;    ll = (4, 52.3, 5, 52.5)
+&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;    # zoomlevel
+&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;    z = 10
+&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;    imgx = 50 * z
+&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;    imgy = 50 * z
+&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;    m = mapnik.Map(imgx,imgy)
+&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;    mapnik.load_map(m,mapfile)
+&lt;span class=&#34;ln&#34;&gt;18&lt;/span&gt;    prj = mapnik.Projection(&amp;#34;
+&lt;span class=&#34;ln&#34;&gt;19&lt;/span&gt;     +proj=sterea +lat_0=52.15616055555555
+&lt;span class=&#34;ln&#34;&gt;20&lt;/span&gt;     +lon_0=5.38763888888889
+&lt;span class=&#34;ln&#34;&gt;21&lt;/span&gt;     +k=0.9999079 +x_0=155000 +y_0=463000  
+&lt;span class=&#34;ln&#34;&gt;22&lt;/span&gt;     +ellps=bessel
+&lt;span class=&#34;ln&#34;&gt;23&lt;/span&gt;     +towgs84=565.237,50.0087,465.658,-0.406857,0.350733,-1.87035,4.0812
+&lt;span class=&#34;ln&#34;&gt;24&lt;/span&gt;     +units=m +no_defs&amp;#34;)
+&lt;span class=&#34;ln&#34;&gt;25&lt;/span&gt;    c0 = prj.forward(mapnik.Coord(ll[0],ll[1]))
+&lt;span class=&#34;ln&#34;&gt;26&lt;/span&gt;    c1 = prj.forward(mapnik.Coord(ll[2],ll[3]))
+&lt;span class=&#34;ln&#34;&gt;27&lt;/span&gt;    if hasattr(mapnik,&amp;#39;mapnik_version&amp;#39;) and mapnik.mapnik_version() &amp;amp;gt;= 800:
+&lt;span class=&#34;ln&#34;&gt;28&lt;/span&gt;        bbox = mapnik.Box2d(c0.x,c0.y,c1.x,c1.y)
+&lt;span class=&#34;ln&#34;&gt;29&lt;/span&gt;    else:
+&lt;span class=&#34;ln&#34;&gt;30&lt;/span&gt;        bbox = mapnik.Envelope(c0.x,c0.y,c1.x,c1.y)
+&lt;span class=&#34;ln&#34;&gt;31&lt;/span&gt;    m.zoom_to_box(bbox)
+&lt;span class=&#34;ln&#34;&gt;32&lt;/span&gt;    im = mapnik.Image(imgx,imgy)
+&lt;span class=&#34;ln&#34;&gt;33&lt;/span&gt;    mapnik.render(m, im)
+&lt;span class=&#34;ln&#34;&gt;34&lt;/span&gt;    view = im.view(0,0,imgx,imgy) # x,y,width,height
+&lt;span class=&#34;ln&#34;&gt;35&lt;/span&gt;    view.save(map_uri,&amp;#39;png&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It was here that many of the issues solved above emerged. Below is the image of the first attempt with a silent failure resulting in the World boundary shapefiles being ignored.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.justobjects.org/assets/media/osm-28992-no-shapes.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After using extract/clip (Step 4) the resulting image became as follows.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.justobjects.org/assets/media/osm-28992-ok.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This looked much better. Now the final step is generating all tiles for The Netherlands. Normally this can be done with the OSM script &lt;code&gt;generate_tiles.py&lt;/code&gt;, but this script is specific for the Google projection and should be rewritten for EPSG:28992 and the extent used above. For the time being I have used &lt;a href=&#34;http://tilecache.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;TileCache&lt;/a&gt;
+ to render and serve the tiles. This is the final step.&lt;/p&gt;
+&lt;h3 id=&#34;step-7-render-tiles-with-tilecache&#34;&gt;Step 7: render tiles with TileCache&lt;/h3&gt;
+&lt;p&gt;Here I used a standard &lt;a href=&#34;http://tilecache.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;TileCache&lt;/a&gt;
+ installation with the following configuration.&lt;/p&gt;
+&lt;pre&gt;[osm_28992]
+type=Mapnik
+mapfile=/path/to/osm.xml
+spherical_mercator=false
+resolutions=860.160,430.080,215.040,107.520,53.760,26.880,13.440,6.720,3.360,
+                     1.680,0.840,0.420,0.210,0.105,0.0525
+metatile=yes
+bbox=-65200.96, 242799.04, 375200.96, 683200.96
+srs=EPSG:28992
+&lt;/pre&gt;
+&lt;p&gt;Note that the bbox is the same as the extent in the Mapnik mapfile. Together with these specific resolutions the resulting zoom-levels will approach natural map scales used in The Netherlands like 1:25000. Tiles will be generated during requests. One can also explicitly generate tiles using the standard TileCache script &lt;code&gt;tilecache_seed.py&lt;/code&gt;. I used:&lt;/p&gt;
+&lt;pre&gt;su -s /bin/bash -c &#34;tilecache_seed.py osm_28992 0 12&#34; www-data
+&lt;/pre&gt;
+&lt;p&gt;This will take quite some time also dependent on your TileCache installation (CGI/FastCGI). IMO it will be better to rewrite OSM &lt;code&gt;generate_tiles.py&lt;/code&gt;. Below is a resulting excerpt from generated tiles.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.justobjects.org/assets/media/osm-28992-detail.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Somehow the map looks somewhat more busy than the standard OSM “Slippy Map”. This may be due to settings in &lt;code&gt;osm.xml&lt;/code&gt; with respect to scales and showing/hiding layers.&lt;/p&gt;
+&lt;h3 id=&#34;finally&#34;&gt;Finally&lt;/h3&gt;
+&lt;p&gt;I hope the above info is useful not just for those that need to generate tiles in Dutch projection but also for other projections. For example for an &lt;a href=&#34;http://inspire.jrc.ec.europa.eu/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;INSPIRE&lt;/a&gt;
+ project I have generated tiles in ETRS89 (EPSG:4258) with some slight modifications to the Mapnik config and TileCache config. Some further work could include more automation within the OSM Mapnik scripts/config in particular &lt;code&gt;generate_tiles.py&lt;/code&gt;. Also, being able to use these tiles in &lt;a href=&#34;http://geowebcache.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoWebCache&lt;/a&gt;
+ would be very useful.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

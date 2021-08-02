@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>geonovum on Clarity</title>
+    <link>https://nl.justobjects.org/tags/geonovum/</link>
+    <description>Recent content in geonovum on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 17 Jan 2020 01:38:19 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/geonovum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cheers to 2019</title>
+      <link>https://nl.justobjects.org/cheers-to-2019/</link>
+      <pubDate>Fri, 17 Jan 2020 01:38:19 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/cheers-to-2019/</guid>
+      <description>
+        
+          &lt;p&gt;Overview of my professional life in 2019. Inspired by the concise bullet-point-style of Tom Kralidis’ &lt;a href=&#34;http://www.kralidis.ca/blog/2018/12/28/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cheers to 2018&lt;/a&gt;
+,  on which I based &lt;a href=&#34;http://justobjects.nl/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my previous Cheers to 2018.&lt;/a&gt;
+ Highlights of living and working in the Open Source Geospatial and OSGeo(&lt;a href=&#34;https://osgeo.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;.nl&lt;/a&gt;
+|.&lt;a href=&#34;https://www.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;org&lt;/a&gt;
+)-world in 2019. Organized by “Theme” i.s.o. by month.&lt;/p&gt;
+&lt;p&gt;TL;DR. My 2019 highlight was providing the &lt;a href=&#34;https://geopython.github.io/geopython-workshop/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoPython Workshop&lt;/a&gt;
+ (“Doing Geospatial with Python”) at the &lt;a href=&#34;https://2019.foss4g.org/schedule/workshops/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G in Bukarest&lt;/a&gt;
+. A really great team-effort: first remote collaboration to get the content done. Then at the spot, despite network failures, providing a hopefully inspiring workshop on modern GeoPython. Kudos to Tom, Angelos, Francesco, Jachym, Luis and Jorge!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/geopython-workshop-team.jpg&#34; alt=&#34;The GeoPython Workshop Team at FOSS4G 2019 &amp;#8211; Bukarest&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_924&#34; style=&#34;width: 830px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-924&#34; loading=&#34;lazy&#34; class=&#34;size-large wp-image-924&#34; src=&#34;uploads/2020/01/geopython-workshop-team-1024x768.jpg&#34; alt=&#34;&#34; width=&#34;820&#34; height=&#34;615&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team-1024x768.jpg 1024w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team-300x225.jpg 300w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team-768x576.jpg 768w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team-150x113.jpg 150w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team.jpg 1200w&#34; sizes=&#34;(max-width: 820px) 100vw, 820px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-924&#34; class=&#34;wp-caption-text&#34;&gt;
+    The GeoPython Workshop Team at FOSS4G 2019 &amp;#8211; Bukarest.
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;My second highlight was joining the &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+ project. Had a &lt;a href=&#34;http://justobjects.nl/2nd-time-around-wfs-v3-pygeoapi/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;love/hate relationship with WFS&lt;/a&gt;
+, but the new &lt;a href=&#34;https://www.opengeospatial.org/standards/ogcapi-features&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenAPI direction in OGC&lt;/a&gt;
+ and the great team behind the pygeoapi project made me want to be part of this. BTW pygeoapi &lt;span style=&#34;font-weight: 400;&#34;&gt;has just (Jan. 2020) received &lt;/span&gt;&lt;a href=&#34;https://www.opengeospatial.org/resource/products/details/?pid=1606&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&amp;lt;span style=&amp;#34;font-weight: 400;&amp;#34;&amp;gt;OGC Compliance Certification and Reference Implementation Status&amp;lt;/span&amp;gt;&lt;/a&gt;
+ &lt;span style=&#34;font-weight: 400;&#34;&gt;for OGC API – Features specification.&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;geospatial-cloud-services&#34;&gt;Geospatial Cloud Services&lt;/h3&gt;
+&lt;p&gt;Main focus. Seriously moving into hosting Geospatial Cloud Services, both as a source of income and to support/strengthen underlying open source projects. Warning: shameless ads below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Throughout 2019 – expanded &lt;a href=&#34;https://map5.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5.nl&lt;/a&gt;
+, a subscription service for Dutch topographic, historical- and embellished hill-shade and arial maps I started to host in 2015.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://map5.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2020/01/map5.nl_.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-917&#34; src=&#34;uploads/2020/01/map5.nl_.png&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;592&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/map5.nl_.png 800w, https://justobjects.nl/wp-content/uploads/2020/01/map5.nl_-300x222.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/map5.nl_-768x568.png 768w, https://justobjects.nl/wp-content/uploads/2020/01/map5.nl_-150x111.png 150w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;January – launched &lt;a href=&#34;https://geoqos.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoQoS.com&lt;/a&gt;
+ , a Cloud-hosted &lt;a href=&#34;https://geohealthcheck.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+ (GHC) service on a subscription basis. GHC is is an uptime and QoS monitor for (OGC) web services. Customers get their own GHC instance. &lt;a href=&#34;https://geoqos.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoQoS.com&lt;/a&gt;
+ saves the burden of self-hosting GHC. Truly, I can’t do without GHC for any of my geospatial web-services (like &lt;a href=&#34;https://map5.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5.nl&lt;/a&gt;
+). Developed with &lt;a href=&#34;https://www.djangoproject.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Python Django&lt;/a&gt;
+ and &lt;a href=&#34;https://stripe.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stripe&lt;/a&gt;
+, deployed with &lt;a href=&#34;https://www.ansible.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Ansible&lt;/a&gt;
+ (can’t do without) and off course &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://geoqos.com/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2020/01/geoqos.com_.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+[&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter wp-image-915 size-full&#34; src=&#34;uploads/2020/01/geoqos.com_.png&#34; alt=&#34;&#34; width=&#34;952&#34; height=&#34;563&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/geoqos.com_.png 952w, https://justobjects.nl/wp-content/uploads/2020/01/geoqos.com_-300x177.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/geoqos.com_-768x454.png 768w, https://justobjects.nl/wp-content/uploads/2020/01/geoqos.com_-150x89.png 150w&#34; sizes=&#34;(max-width: 952px) 100vw, 952px&#34; /&gt;][13]
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;Dec+ into 2020 – something big – more to be announced.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;contract-work&#34;&gt;Contract Work&lt;/h3&gt;
+&lt;p&gt;As my focus is more and more on providing “Geospatial Cloud Services” (see above), not too much contract work in 2019, though I am always open for offerings!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Commission Joint Research Center&lt;/a&gt;
+ (Ispra, Italy)  -deployed five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
+ air-quality sensor-stations (NO2, NO, CO, O3) within the Netherlands, connecting these to the &lt;a href=&#34;https://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+.  &lt;a href=&#34;https://nl.justobjects.org/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;This blog-post&lt;/a&gt;
+ describes the overall setup and this &lt;a href=&#34;https://nl.justobjects.org/emit-6-airsenseur-calibration&#34;&gt;post the really good calibration results&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-large wp-image-880&#34; src=&#34;uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09-1024x340.png&#34; alt=&#34;&#34; width=&#34;820&#34; height=&#34;272&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09-1024x340.png 1024w, https://justobjects.nl/wp-content/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09-300x100.png 300w, https://justobjects.nl/wp-content/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09-768x255.png 768w, https://justobjects.nl/wp-content/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09-150x50.png 150w&#34; sizes=&#34;(max-width: 820px) 100vw, 820px&#34; /&gt;
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For &lt;a href=&#34;https://www.nijmegen.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gemeente Nijmegen&lt;/a&gt;
+ – integrated &lt;a href=&#34;https://luftdaten.info/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Luftdaten.info&lt;/a&gt;
+ finedust  (PM10, PM25)  measurements within the &lt;a href=&#34;https://data.smartemission.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+ via Harvesting.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://data.smartemission.nl/smartapp/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2020/01/luftdaten-smartapp.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-904&#34; src=&#34;uploads/2020/01/luftdaten-smartapp.png&#34; alt=&#34;&#34; width=&#34;400&#34; height=&#34;294&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/luftdaten-smartapp.png 400w, https://justobjects.nl/wp-content/uploads/2020/01/luftdaten-smartapp-300x221.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/luftdaten-smartapp-150x110.png 150w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;For &lt;a href=&#34;https://www.stantec.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stantec&lt;/a&gt;
+ NL – custom &lt;a href=&#34;https://geohealthcheck.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+ Plugins (Probes/Checks) for ESRI ArcGIS Feature services, plus several Auth-facilities (Basic, Token) for auth-based web-services.&lt;/li&gt;
+&lt;li&gt;For &lt;a href=&#34;https://coin.nl/nl/home&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;COIN NL&lt;/a&gt;
+ – &lt;a href=&#34;https://nlextract.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLExtract Project&lt;/a&gt;
+ – added shortened streetname (&lt;span style=&#34;color: #993300;&#34;&gt;verkorteopenbareruimtenaam&lt;/span&gt;, a Scrabble-winner, yes!) to &lt;a href=&#34;https://zakelijk.kadaster.nl/bag&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;BAG&lt;/a&gt;
+ (Dutch Adresses and Buildings Dataset) Postgres Dump and Address CSV.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;open-source-contributions&#34;&gt;Open Source Contributions&lt;/h3&gt;
+&lt;p&gt;Continuous work as a contributor on several Open Source Projects. Apart from some GitLab Projects, you can find/follow me best on &lt;a href=&#34;https://github.com/justb4/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://github.com/justb4?tab=overview&amp;amp;from=2019-01-01&amp;amp;to=2019-12-31&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2020/01/gh-contribs-2019-justb4.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;size-full wp-image-901&#34; src=&#34;uploads/2020/01/gh-contribs-2019-justb4.png&#34; alt=&#34;GitHub Contribitions 2019&#34; width=&#34;784&#34; height=&#34;202&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/gh-contribs-2019-justb4.png 784w, https://justobjects.nl/wp-content/uploads/2020/01/gh-contribs-2019-justb4-300x77.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/gh-contribs-2019-justb4-768x198.png 768w, https://justobjects.nl/wp-content/uploads/2020/01/gh-contribs-2019-justb4-150x39.png 150w&#34; sizes=&#34;(max-width: 784px) 100vw, 784px&#34; /&gt;
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.stetl.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl&lt;/a&gt;
+ – Geospatial ETL in Python, maintaining since 2011. Highlight: Py2 to Py3 migration, many thanks:  &lt;a href=&#34;https://github.com/borrob&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Rob van Loon&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://geohealthcheck.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+ – Service Status and QoS Checker for OGC Web Services – &lt;a href=&#34;https://github.com/geopython/GeoHealthCheck/pulls?q=is%3Apr&amp;#43;is%3Aclosed&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;39 PRs&lt;/a&gt;
+ went in! Highlight: Py2 to Py3 migration, again many thanks:  &lt;a href=&#34;https://github.com/borrob&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Rob van Loon&lt;/a&gt;
+. Even added ESRI Feature Server plugin!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+ – a Python server implementation of the &lt;a href=&#34;https://www.opengeospatial.org/blog/2996&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC API suite of standards&lt;/a&gt;
+ – joined this great project in 2019. Several contributions: a.o. the &lt;a href=&#34;https://github.com/geopython/pygeoapi/blob/master/pygeoapi/provider/ogr.py&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GDAL/OGR backend Provider&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://demo.pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi demo server&lt;/a&gt;
+ – provided the (auto-)deployment stack for the pygeoapi demo server (&lt;a href=&#34;https://github.com/geopython/demo.pygeoapi.io&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;code at GitHub&lt;/a&gt;
+).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nlextract.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLExtract&lt;/a&gt;
+ – ongoing development – data downloads attract quite some attention.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/meggsimum/wegue&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wegue&lt;/a&gt;
+ – geo-webclient framework based on &lt;a href=&#34;https://vuejs.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Vue.js&lt;/a&gt;
+ with OpenLayers started by &lt;a href=&#34;https://github.com/chrismayer&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Christian Mayer&lt;/a&gt;
+. Joined this great project in 2019 with some small patches, adding &lt;a href=&#34;https://github.com/meggsimum/wegue/blob/master/Dockerfile&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dockerfile&lt;/a&gt;
+, &lt;a href=&#34;https://github.com/meggsimum/wegue/pull/82&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;projection-support&lt;/a&gt;
+ and still working on &lt;a href=&#34;https://github.com/meggsimum/wegue/pull/95&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoCoder PR&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron MC&lt;/a&gt;
+ – Web Mapping Client based on &lt;a href=&#34;https://www.geoext.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoExt&lt;/a&gt;
+ and OpenLayers. Yes, old tech but still in wide use. For one thing the &lt;a href=&#34;https://kadviewer.map5.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KadViewer&lt;/a&gt;
+ within map5.nl attracts many customers. In time hope to migrate to &lt;a href=&#34;https://github.com/meggsimum/wegue&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wegue&lt;/a&gt;
+ (see above).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/stademo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SensorThings API demo server&lt;/a&gt;
+ – Geonovum organized a &lt;a href=&#34;https://www.geonovum.nl/over-geonovum/agenda/hackathon-sensorthings-api&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SensorThings API Hackathon&lt;/a&gt;
+ in oct 2019. See &lt;a href=&#34;https://github.com/Geonovum/SensorthingsAPI&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;results here&lt;/a&gt;
+. Used the &lt;a href=&#34;https://www.gostserver.xyz/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geodan GOST&lt;/a&gt;
+ STA server. Also added a &lt;a href=&#34;https://github.com/Geonovum/SensorthingsAPI/blob/master/sta-data-upload/postman-mqtt/README.md&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;workflow/pipeline&lt;/a&gt;
+ for adding data for the &lt;a href=&#34;https://www.sensemakers.sda-projects.nl/projects/mijnomgeving/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Amsterdam Sensemakers Water “mijnomgeving”&lt;/a&gt;
+ measurements. This used a MQTT-NodeRed-STA mapping.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://geopython.github.io/OWSLib/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OWSLib&lt;/a&gt;
+ – various &lt;a href=&#34;https://github.com/geopython/OWSLib/commits?author=justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;small contributions&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;more-contributions-8211-handy-docker-images&#34;&gt;More Contributions – Handy Docker Images&lt;/h3&gt;
+&lt;p&gt;To support many of the Cloud services and Open Source projects, I developed several handy Docker Images, also available from &lt;a href=&#34;https://hub.docker.com/u/justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my DockerHub&lt;/a&gt;
+.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/justb4/docker-awstats&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-awstats&lt;/a&gt;
+ – AWStats in Docker, oldie, but very effective webstats. Deploy multiple instances in single Docker container. Highly configurable, e.g. also for &lt;a href=&#34;https://docs.traefik.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Traefik&lt;/a&gt;
+ access logs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/justb4/docker-jmeter&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-jmeter&lt;/a&gt;
+ – &lt;a href=&#34;https://jmeter.apache.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Apache JMeter&lt;/a&gt;
+ wrapped in Docker.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://hub.docker.com/u/justb4&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2020/01/justb4-docker-images.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+&lt;a href=&#34;https://hub.docker.com/u/justb4&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter wp-image-906 size-full&#34; title=&#34;https://hub.docker.com/u/justb4&#34; src=&#34;uploads/2020/01/justb4-docker-images.png&#34; alt=&#34;&#34; width=&#34;648&#34; height=&#34;805&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/justb4-docker-images.png 648w, https://justobjects.nl/wp-content/uploads/2020/01/justb4-docker-images-241x300.png 241w, https://justobjects.nl/wp-content/uploads/2020/01/justb4-docker-images-121x150.png 121w&#34; sizes=&#34;(max-width: 648px) 100vw, 648px&#34; /&gt;&lt;/a&gt;
+--&gt;
+&lt;p&gt;Not too many Docker Image downloads, but look at &lt;a href=&#34;https://github.com/justb4/docker-jmeter&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-jmeter,&lt;/a&gt;
+ over 1 million! Glad to give to &lt;a href=&#34;https://en.wikipedia.org/wiki/Commons&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The Commons&lt;/a&gt;
+.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapfish-print&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapfish-print&lt;/a&gt;
+ – for MapFish Print &lt;strong&gt;version 3&lt;/strong&gt;. MapFish Print allows printing maps as PDFs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapfish-print2&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapfish-print2&lt;/a&gt;
+ – for MapFish Print &lt;strong&gt;version 2&lt;/strong&gt; – This version is still used in quite some contexts, at least for &lt;a href=&#34;https://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron&lt;/a&gt;
+ and &lt;a href=&#34;https://kadviewer.map5.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KadViewer&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-rclone&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-rclone&lt;/a&gt;
+ – Docker image to perform a &lt;a href=&#34;http://rclone.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;rclone&lt;/a&gt;
+ sync based on a cron schedule, with &lt;a href=&#34;https://healthchecks.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;healthchecks.io&lt;/a&gt;
+ monitoring.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-pgbackup&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-pgbackup&lt;/a&gt;
+ – automated/scheduled PostgreSQL/PostGIS backups for all PostgreSQL-based Docker Containers in its Docker-network. I think it is nifty: just run and forget: your Postgres backups are taken care of. Inspired by: &lt;a href=&#34;https://github.com/kartoza/docker-pg-backup&#34;&gt;https://github.com/kartoza/docker-pg-backup&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;osgeonl&#34;&gt;OSGeo.nl&lt;/h3&gt;
+&lt;p&gt;Now as chair of the board, still involved in the OSGeo Dutch Local Chapter, &lt;a href=&#34;https://osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl&lt;/a&gt;
+ since its establishment in 2011. Thanks to our wonderful volunteers, we were able to organize several events.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jan 13 – organizer – joint &lt;a href=&#34;https://www.meetup.com/OSGeoNL/events/256712195/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl and OpenStreetMap NL new-years party&lt;/a&gt;
+ at Cafe Dudok in Hilversum.&lt;/li&gt;
+&lt;li&gt;April – Docker (for geospatial) Workshop by &lt;a href=&#34;https://www.merkator.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Merkator&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;June 20 – &lt;a href=&#34;https://foss4g.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4GNL&lt;/a&gt;
+ – our yearly conference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;conferences-8211-attended&#34;&gt;Conferences – Attended&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Jan 31-Feb 1 –  &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;TheThingsNetwork Conference&lt;/a&gt;
+. About &lt;a href=&#34;https://en.wikipedia.org/wiki/LoRa&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Lora(WAN)&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Feb 21 – GeoDocker Workshop Merkator&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Feb 14-15 – &lt;a href=&#34;https://vuejs.amsterdam/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Vue.js Amsterdam&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;June 20 – &lt;a href=&#34;https://foss4g.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G-NL&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;June 24-25 – &lt;a href=&#34;http://2019.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoPython 2019&lt;/a&gt;
+ – Basel.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;August 25-31 – &lt;a href=&#34;https://2019.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G – Bukarest&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sept 20 – Sensemakers Amsterdam&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Okt 2 – Geo Gebruikers festival by Geonovum – Amersfoort&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;hackathons--code-sprints&#34;&gt;Hackathons &amp;amp; Code Sprints&lt;/h3&gt;
+&lt;p&gt;I always love to go to hackathons. From software to hardware-hacking with the &lt;a href=&#34;https://www.sensemakersams.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sensemakers Amsterdam&lt;/a&gt;
+.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;April 5 – OGG Hackathon by &lt;a href=&#34;https://www.opengeogroep.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenGeoGroep&lt;/a&gt;
+. Random hacking day where I got involved in &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+ the first time.&lt;/li&gt;
+&lt;li&gt;May 14-17 – OSGeo Codesprint (attended remotely).&lt;/li&gt;
+&lt;li&gt;June 3-6 – OGC API Features – “WFS3 Werkweek” by Geonovum – &lt;a href=&#34;https://geonovum.github.io/wfs3-experiments/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;report (HTML)&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;SensorThings API Hackathon by Geonovum – &lt;a href=&#34;https://github.com/Geonovum/SensorthingsAPI/blob/master/wrapup/hackathon_results_justvandenbroecke.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my contributions (PDF slides)&lt;/a&gt;
+ – &lt;a href=&#34;https://github.com/Geonovum/SensorthingsAPI/tree/master/sta-data-upload/postman-mqtt&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;How to upload data to STA&lt;/a&gt;
+ – &lt;a href=&#34;https://sta.map5.nl/gost/v1.0&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;STA Demo Server&lt;/a&gt;
+. And &lt;a href=&#34;https://github.com/justb4/stademo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;its setup in GitHub&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;talks--workshops-8211-provided&#34;&gt;Talks &amp;amp; Workshops – Provided&lt;/h3&gt;
+&lt;p&gt;On several of the above events I gave some presence with presentations and workshops. Most of my slides can be found on &lt;a href=&#34;https://www.slideshare.net/justb4/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;slideshare.net/justb4&lt;/a&gt;
+ Below some links.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;June 20 – &lt;a href=&#34;https://foss4g.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G-NL&lt;/a&gt;
+. Presented &lt;a href=&#34;https://pygeoapi.io/presentations/default/#/frontpage&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;June 25 – GeoPython Basel – presented &lt;a href=&#34;https://submit.geopython.net/geopython2019/talk/FYMUDV/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+ .&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;August 25-31 – &lt;a href=&#34;https://2019.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G – Bukarest&lt;/a&gt;
+. Provided GeoPython workshop. All together with the great GeoPython team as in picture above.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/geopython-ws-foss4g19.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-medium wp-image-923&#34; src=&#34;uploads/2020/01/geopython-ws-foss4g19-143x300.png&#34; alt=&#34;&#34; width=&#34;143&#34; height=&#34;300&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/geopython-ws-foss4g19-143x300.png 143w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-ws-foss4g19-72x150.png 72w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-ws-foss4g19.png 402w&#34; sizes=&#34;(max-width: 143px) 100vw, 143px&#34; /&gt;
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;August 25-31 – &lt;a href=&#34;https://2019.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G – Bukarest&lt;/a&gt;
+. Presented &lt;a href=&#34;https://submit.geopython.net/geopython2019/talk/FYMUDV/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+ . With &lt;a href=&#34;https://www.linkedin.com/in/tomkralidis/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Tom Kralidis&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Sept 20 – &lt;a href=&#34;https://www.sensemakersams.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sensemakers Amsterdam&lt;/a&gt;
+ – on Open Sensor Networks – &lt;a href=&#34;https://www.slideshare.net/justb4/open-sensor-networks-173718779&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;slides.&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Okt 3 – at Stantec – GeoHealthCheck/GeoQoS workshop – &lt;a href=&#34;https://geohealthcheck.org/presentation/index.html#/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;slides&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Nov 1 – Odijk – Dutch Rentmeesters (steward: a person who manages an estate or farm for another person) – presented &lt;a href=&#34;https://map5.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5.nl&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;logo-design&#34;&gt;Logo Design&lt;/h3&gt;
+&lt;p&gt;I don’t consider myself as a designer, but with a little help from online logo-creation platforms and feedback from my co-workers, I created the following in 2019:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For &lt;a href=&#34;https://geoqos.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoQoS.com&lt;/a&gt;
+ – hosted GeoHealthCheck in the Cloud.&lt;br&gt;
+&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/geoqos-logo.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter  wp-image-929&#34; src=&#34;uploads/2020/01/geoqos-logo.png&#34; alt=&#34;&#34; width=&#34;433&#34; height=&#34;93&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/geoqos-logo.png 765w, https://justobjects.nl/wp-content/uploads/2020/01/geoqos-logo-300x64.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/geoqos-logo-150x32.png 150w&#34; sizes=&#34;(max-width: 433px) 100vw, 433px&#34; /&gt;
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;For the &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+ (OGC API Features, “WFS3”,  in Python) Project&lt;br&gt;
+&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/final-s.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-930&#34; src=&#34;uploads/2020/01/final-s.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;82&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/final-s.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/final-s-150x41.png 150w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;For the &lt;a href=&#34;https://geohealthcheck.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+ project&lt;br&gt;
+&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/medium.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter  wp-image-931&#34; src=&#34;uploads/2020/01/medium.png&#34; alt=&#34;&#34; width=&#34;419&#34; height=&#34;73&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/medium.png 918w, https://justobjects.nl/wp-content/uploads/2020/01/medium-300x52.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/medium-768x134.png 768w, https://justobjects.nl/wp-content/uploads/2020/01/medium-150x26.png 150w, https://justobjects.nl/wp-content/uploads/2020/01/medium-900x160.png 900w&#34; sizes=&#34;(max-width: 419px) 100vw, 419px&#34; /&gt;
+--&gt;
+&lt;h3 id=&#34;resolutions-2020&#34;&gt;Resolutions 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;More effort into &lt;a href=&#34;https://github.com/meggsimum/wegue&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wegue&lt;/a&gt;
+ project&lt;/li&gt;
+&lt;li&gt;Further expanding hosted Geospatial Cloud Services&lt;/li&gt;
+&lt;li&gt;Improve on and provide the GeoPython Workshop&lt;/li&gt;
+&lt;li&gt;Whatever comes around.&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Unlocking Sensor Data – I’ll send an SOS to the world</title>
+      <link>https://nl.justobjects.org/unlocking-sensor-data-sos/</link>
+      <pubDate>Thu, 01 Oct 2015 00:42:56 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/unlocking-sensor-data-sos/</guid>
+      <description>
+        
+          &lt;p&gt;Revealing: the title refers, for the younger readers, to a great 1979-hit by The Police as expanded below. To be played at the loudest possible volume. If you don’t see anything here below try the YouTube link directly:&lt;/p&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/MbXWrmQW-OE?controls=1&amp;rel=0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;One of the main aspects that glues the OSGeo-world together are OGC-standards: WMS, WFS, WMTS, WCS and WPS are, at least for most insiders, not hollow acronyms. But who knows about and uses SOS? SOS stands for &lt;em&gt;“Sensor Observation Service”&lt;/em&gt;, &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;an OGC standard&lt;/a&gt;
+ within the elaborate framework of the &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
+.  SOS provides a standard to publish (SOS-T) and request time-based (meta-) data, mostly from “Sensors”. Its convention is similar to WMS/WFS (GetCapabilities, DescribeSensor, GetObservation etc). Think of weather or air quality measurements over time.&lt;/p&gt;
+&lt;p&gt;The Internet of &lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_Things&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Things (IoT)&lt;/a&gt;
+  is now gaining a strong momentum: &lt;em&gt;“The Internet of Things (IoT) is the network of physical objects or “things” embedded&lt;/em&gt; &lt;em&gt;with electronics, software, sensors, and network connectivity, which enables these  objects to collect and exchange data. The Internet of Things allows objects to be sensed and controlled remotely across existing network infrastructure, creating opportunities for more direct integration between the physical world and computer-based systems, and resulting in improved efficiency, accuracy and economic benefit Each thing is uniquely identifiable through its embedded computing system but is able to interoperate within the existing Internet infrastructure. Experts estimate that the IoT will consist of almost 50 billion  objects by 2020.” (&lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_Things&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;from Wikipedia&lt;/a&gt;
+).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;So how will SOS and the generic &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
+ will fit into this force? I really don’t know. For many of the OGC-standards like WMS, there are multiple implementations. For SOS  I know about just two: the &lt;a href=&#34;http://52north.org/communities/sensorweb/sos/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;52 North SOS&lt;/a&gt;
+, and the &lt;a href=&#34;http://istsos.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;IstSOS&lt;/a&gt;
+.  Both of these are powerful with their own strengths and limitations.&lt;/p&gt;
+&lt;p&gt;I have worked successfully with the &lt;a href=&#34;http://52north.org/communities/sensorweb/sos/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;52 North SOS&lt;/a&gt;
+ within a &lt;a href=&#34;http://sensors.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch project on Air Quality&lt;/a&gt;
+. All details are in &lt;a href=&#34;http://sospilot.readthedocs.org/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this online document.&lt;/a&gt;
+ In essence we are (still) publishing and emitting Dutch National Air Quality data via a SOS server. At the same time, via GeoServer, using WMS-Time &lt;a href=&#34;http://sensors.geonovum.nl/heronviewer/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;via this web-client&lt;/a&gt;
+. On the way I found that the OGC-SOS Standard is complex and quite cumbersome in its usage. 52 North has provided &lt;a href=&#34;http://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/api-doc/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;a custom REST interface&lt;/a&gt;
+ that appeals to be more usable. But SOS with its inner talk of “Procedures” and “Offerings” remains a Hot Potato.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;http://sensors.geonovum.nl/heronviewer/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2015/10/heron-viewer-o3-ts.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;So the broader question is more about the OGC SOS standard and the related &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
+  : how we as an OSGeo-community think it should evolve within the expanding world of the IoT? My opinion is that we need to strive for more ease-of-use. SOS-as-standard is an academic challenge. A window to the future may be the OGC-effort initiated by Steve Liang: the SensorThings API not only provides a simplification from the original  &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
+ but also a modern way of community-based cooperation of standards making via GtiHub: &lt;a href=&#34;http://ogc-iot.github.io/ogc-iot-api/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;http://ogc-iot.github.io/ogc-iot-api&lt;/a&gt;
+. Time will tell, a message in a bottle will also eventually arrive.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>StreamYard on Clarity</title>
+    <link>https://nl.justobjects.org/tags/streamyard/</link>
+    <description>Recent content in StreamYard on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 20 Jan 2021 13:24:25 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/streamyard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>That Was 2020</title>
+      <link>https://nl.justobjects.org/that-was-2020/</link>
+      <pubDate>Wed, 20 Jan 2021 13:24:25 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/that-was-2020/</guid>
+      <description>
+        
+          &lt;p&gt;Overview of my professional life in 2020. Highlights of living and working in the Open Source Geospatial and OSGeo(&lt;a href=&#34;https://osgeo.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;.nl&lt;/a&gt;
+|.&lt;a href=&#34;https://www.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;org&lt;/a&gt;
+)-world in 2020. Organized by “Theme”.&lt;/p&gt;
+&lt;p&gt;Yes, 2020 was a “special year” in pandemic and political terms. So much has been written and opinions expressed, that I don’t see a need to add to more here. Some of my activities below may make clear how I and we (OSGeo.nl community) dealt.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2021/01/various-4eps.jpg&#34;
+      alt=&#34;Screenshots of De Grote Geo Show&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;div id=&#34;attachment_947&#34; style=&#34;width: 796px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;&lt;img aria-describedby=&#34;caption-attachment-947&#34; loading=&#34;lazy&#34; class=&#34;size-full wp-image-947&#34; src=&#34;../uploads/2021/01/various-4eps.jpg&#34; alt=&#34;Screenshots of De Grote Geo Show&#34; width=&#34;786&#34; height=&#34;432&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/various-4eps.jpg 786w, https://justobjects.nl/wp-content/uploads/2021/01/various-4eps-300x165.jpg 300w, https://justobjects.nl/wp-content/uploads/2021/01/various-4eps-768x422.jpg 768w, https://justobjects.nl/wp-content/uploads/2021/01/various-4eps-150x82.jpg 150w&#34; sizes=&#34;(max-width: 786px) 100vw, 786px&#34; /&gt;&lt;/a&gt;
+
+  &lt;p id=&#34;caption-attachment-947&#34; class=&#34;wp-caption-text&#34;&gt;
+    Screenshots of De Grote Geo Show
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;TL;DR. My absolute 2020-highlight was initiating and working on &lt;strong&gt;&lt;a href=&#34;https://tv.osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;De Grote Geo Show&lt;/a&gt;
+&lt;/strong&gt; (“DGGS, The Big Geo Show”), a live-streamed webshow in “De Wereld Draait Door”-style. This was/is a great team-effort by Dutch Open Source Geo/OSGeo.nl community members. Kudos to Erik, Niene, Mariëlle, Jonna, Willem, Hans and many many more (about 30+ folks)! We streamed 13 shows in 2020 with a huge range of subjects and (international) guests. And we’re still going strong with a &lt;strong&gt;&lt;a href=&#34;https://tv.osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;DGGS New Year’s Show/Socializer&lt;/a&gt;
+&lt;/strong&gt; on Sunday, Jan. 24, 2021.&lt;/p&gt;
+&lt;p&gt;Below follow 2020-highlights by theme.&lt;/p&gt;
+&lt;h3 id=&#34;the-big-geo-show&#34;&gt;The Big Geo Show&lt;/h3&gt;
+&lt;p&gt;Let’s start with the absolute 2020 highlight. It became clear in March 2020 that we had to cancel or virtualize our planned (June 2020, ITC Enschede) FOSS4G-NL conference and other OSGeo.nl events. I invested some time into “webinar streaming software”: Zoom, Jitsi, Teams WebEx etc. Those did not really appeal to me for what I had in mind.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2021/01/backstage-view-by-niene.jpg&#34;
+      alt=&#34;StreamYard - Backstage View&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;div id=&#34;attachment_999&#34; style=&#34;width: 830px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;&lt;img aria-describedby=&#34;caption-attachment-999&#34; loading=&#34;lazy&#34; class=&#34;size-large wp-image-999&#34; src=&#34;../uploads/2021/01/backstage-view-by-niene-1024x522.jpg&#34; alt=&#34;StreamYard - Backstage View&#34; width=&#34;820&#34; height=&#34;418&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/backstage-view-by-niene-1024x522.jpg 1024w, https://justobjects.nl/wp-content/uploads/2021/01/backstage-view-by-niene-300x153.jpg 300w, https://justobjects.nl/wp-content/uploads/2021/01/backstage-view-by-niene-768x391.jpg 768w, https://justobjects.nl/wp-content/uploads/2021/01/backstage-view-by-niene-1536x783.jpg 1536w, https://justobjects.nl/wp-content/uploads/2021/01/backstage-view-by-niene-150x76.jpg 150w, https://justobjects.nl/wp-content/uploads/2021/01/backstage-view-by-niene.jpg 1902w&#34; sizes=&#34;(max-width: 820px) 100vw, 820px&#34; /&gt;&lt;/a&gt;
+
+  &lt;p id=&#34;caption-attachment-999&#34; class=&#34;wp-caption-text&#34;&gt;
+    &lt;strong&gt;&lt;em&gt;StreamYard &amp;#8211; Backstage View&lt;/em&gt;&lt;/strong&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;For personal streaming, I was testing &lt;strong&gt;&lt;a href=&#34;https://obsproject.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OBS Studio&lt;/a&gt;
+&lt;/strong&gt;, streaming to Twitch.tv and YouTube. I then stumbled on &lt;strong&gt;&lt;a href=&#34;https://www.learnwithjason.dev/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Learn with Jason”&lt;/a&gt;
+&lt;/strong&gt;. Very entertaining and deeply technical at the same time. I liked the format of having guests in the stream. That triggered me to do something similar with the Open Source Geo community in the Netherlands. Long story short: I had the idea to do a short, 1 hour webshow with various subjects and guests. Before I knew we had a Telegram group of now around 30 folks with a kernel of about 6-8 and started brainstorming. The other element which added to the success was my discovery of &lt;strong&gt;&lt;a href=&#34;https://streamyard.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;StreamYard.com&lt;/a&gt;
+&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2021/01/combined2.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-997&#34; src=&#34;../uploads/2021/01/combined2.png&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;214&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/combined2.png 800w, https://justobjects.nl/wp-content/uploads/2021/01/combined2-300x80.png 300w, https://justobjects.nl/wp-content/uploads/2021/01/combined2-768x205.png 768w, https://justobjects.nl/wp-content/uploads/2021/01/combined2-150x40.png 150w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;
+--&gt;
+&lt;p&gt;Now &lt;strong&gt;&lt;a href=&#34;https://streamyard.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;StreamYard&lt;/a&gt;
+&lt;/strong&gt; is a whole story by itself. In short it differs from all the well-known video-conf programs that it is a Cloud-based Broadcast Studio. Conceptually it is like making a real TV-show. There is a Stage (main screen) which can be “branded” in all sorts of creative, interactive ways: backgrounds, overlays, banners/tickers, video clips (e.g. for intro/outro or soapboxes), screen layouts, chat messages from viewers. All is controlled by one or more “hosts” (Dutch: “regisseurs”). Guests join “backstage” first and can be added to the “stage” when their item starts. And last but not least: the entire Stage can be streamed to multiple destinations at the same time like YouTube, Twitch.tv, LinkedIn etc. but also to custom RTMP servers. Viewers who missed the show could watch back later. StreamYard works completely in the browser, no installs needed. Ok, StreamYard is not Open Source, but their registration is very minimal: one only needs to provide an email adres to which a temporary login code is sent, no profile-filling etc. &lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2021/01/combined.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter wp-image-993&#34; src=&#34;../uploads/2021/01/combined.png&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;232&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/combined.png 1024w, https://justobjects.nl/wp-content/uploads/2021/01/combined-300x87.png 300w, https://justobjects.nl/wp-content/uploads/2021/01/combined-768x223.png 768w, https://justobjects.nl/wp-content/uploads/2021/01/combined-150x44.png 150w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;
+--&gt;
+&lt;p&gt;So we just started, all of us not really familiar with providing online events and being first-timers in StreamYard. One learns quickest by just jumping into the deep, learning by doing, not bother about mistakes. We quickly adopted a format for a weekly one-hour show, always at the same time, Thursdays 4-5 PM. A central website &lt;strong&gt;&lt;a href=&#34;https://tv.osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;tv.osgeo.nl&lt;/a&gt;
+&lt;/strong&gt; was quickly online (with GitHub and &lt;strong&gt;&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hugo&lt;/a&gt;
+&lt;/strong&gt;!), so we can refer to a single, short URL.&lt;/p&gt;
+&lt;p&gt;The format of each show was basically to have 5-6 items in an hour. An “item” could be an interview with a guest, a technical presentation (or mixed interview/presentation), a column, community updates, a (hands-on) tutorial, a poem, or last but least a live-quiz (via Kahoot) where viewers can participate! After the first show (where we looked a bit like rabbits in headlights!), we quickly realized we need a presenter-host for the entire show. So all subsequent shows had one of us, well mainly Niene, being the talkshow-host. We also decided to do the show in Dutch, except with international guests, as to engage our local communities (OSGeo-NL, QGIS-NL, OpenStreetMap-NL).&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://www.youtube.com/playlist?list=PLJMEnRQpAfZqCkhGh3lb3KUnXssK7Sk6C&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2021/01/episode-1-10.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-1001&#34; src=&#34;../uploads/2021/01/episode-1-10.png&#34; alt=&#34;&#34; width=&#34;808&#34; height=&#34;267&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/episode-1-10.png 808w, https://justobjects.nl/wp-content/uploads/2021/01/episode-1-10-300x99.png 300w, https://justobjects.nl/wp-content/uploads/2021/01/episode-1-10-768x254.png 768w, https://justobjects.nl/wp-content/uploads/2021/01/episode-1-10-150x50.png 150w&#34; sizes=&#34;(max-width: 808px) 100vw, 808px&#34; /&gt;
+--&gt;
+&lt;p&gt;Enough theory, show me the show! As said you can watch back all shows via &lt;strong&gt;&lt;a href=&#34;https://tv.osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;tv.osgeo.nl&lt;/a&gt;
+&lt;/strong&gt; or directly on the &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCvSAN6ur4RoGUqxtvmgsb8g&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl YouTube Channel&lt;/a&gt;
+&lt;/strong&gt;. Hell, you can even &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLJMEnRQpAfZqCkhGh3lb3KUnXssK7Sk6C&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;binge-watch all episodes&lt;/a&gt;
+&lt;/strong&gt;! &lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2021/01/combined3.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-1004&#34; src=&#34;../uploads/2021/01/combined3.png&#34; alt=&#34;&#34; width=&#34;906&#34; height=&#34;324&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/combined3.png 906w, https://justobjects.nl/wp-content/uploads/2021/01/combined3-300x107.png 300w, https://justobjects.nl/wp-content/uploads/2021/01/combined3-768x275.png 768w, https://justobjects.nl/wp-content/uploads/2021/01/combined3-150x54.png 150w&#34; sizes=&#34;(max-width: 906px) 100vw, 906px&#34; /&gt;
+--&gt;
+&lt;p&gt;Many shows were organized around a theme, like 3D (&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=UViczA8pvJs&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ep. 3 offcourse&lt;/a&gt;
+&lt;/strong&gt;), Heaven&amp;amp;Outer Space, Corona of the Sun (&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8qSTPE8Gkoc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ep. 6 on Ascension Day&lt;/a&gt;
+&lt;/strong&gt;). We had some great guests in the show, also international guests, to name a few: Nadieh Bremer and Christian Mayer (&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zXIfCLbuVlI&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ep. 7 – Visualization Special&lt;/a&gt;
+&lt;/strong&gt;), Hugo Ledoux (TU Delft on 3D), Linda van den Brink (Geonovum) and Tom Kralidis (&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=3l_a5Up8Rgc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ep 11 – on OGC API Special&lt;/a&gt;
+&lt;/strong&gt;), Anita Graser (&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=lkfVQcp3bpI&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ep. 9 – QGIS Special&lt;/a&gt;
+&lt;/strong&gt;),  Naomi Bueno de Mesquita and Topi Tjukanov (&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rl4-tPbfxOE&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ep 12. MapTime Special&lt;/a&gt;
+&lt;/strong&gt;). The last show of 2020, &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HTgdEN3nb24&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ep. 13 Christmas Edition, was one big PubQuiz&lt;/a&gt;
+&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2021/01/grote-geo-eiland-screenshot.jpg&#34;
+      alt=&#34;NewYear on &amp;#8220;Grote Geo Eiland&amp;#8221;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;div id=&#34;attachment_1006&#34; style=&#34;width: 830px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;&lt;img aria-describedby=&#34;caption-attachment-1006&#34; loading=&#34;lazy&#34; class=&#34;size-large wp-image-1006&#34; src=&#34;../uploads/2021/01/grote-geo-eiland-screenshot-1024x658.jpg&#34; alt=&#34;&#34; width=&#34;820&#34; height=&#34;527&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/grote-geo-eiland-screenshot-1024x658.jpg 1024w, https://justobjects.nl/wp-content/uploads/2021/01/grote-geo-eiland-screenshot-300x193.jpg 300w, https://justobjects.nl/wp-content/uploads/2021/01/grote-geo-eiland-screenshot-768x494.jpg 768w, https://justobjects.nl/wp-content/uploads/2021/01/grote-geo-eiland-screenshot-150x96.jpg 150w, https://justobjects.nl/wp-content/uploads/2021/01/grote-geo-eiland-screenshot.jpg 1249w&#34; sizes=&#34;(max-width: 820px) 100vw, 820px&#34; /&gt;&lt;/a&gt;
+
+  &lt;p id=&#34;caption-attachment-1006&#34; class=&#34;wp-caption-text&#34;&gt;
+    &lt;em&gt;&lt;strong&gt;NewYear on &amp;#8220;Grote Geo Eiland&amp;#8221;&lt;/strong&gt;&lt;/em&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;All in all we did 13 shows in 2020. And 2021? We’ll start with a Newyear Special with OSGeo-NL, QGIS-NL and OpenStreetMap-NL communities. Only the plenary first half-hour in StreamYard, then next a new platform where all can participate and mingle. Just watch and participate on sun, jan 24, 2021, 3 PM (GMT+1) via &lt;strong&gt;&lt;a href=&#34;https://tv.osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;tv.osgeo.nl&lt;/a&gt;
+&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;geospatial-cloud-services&#34;&gt;Geospatial Cloud Services&lt;/h3&gt;
+&lt;p&gt;Moving into providing Geospatial Cloud Services last few years, both as a source of income and to support/strengthen underlying open source projects with which they are developed. Warning: shameless ads below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.map5.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5.nl&lt;/a&gt;
+&lt;/strong&gt; is a subscription service for Dutch topographic, historical- and embellished hill-shade and arial maps I started to host in 2015. In 2020 the entire map5.nl server-infrastructure was moved from custom Ubuntu-installs to a complete &lt;strong&gt;&lt;a href=&#34;https://www.ansible.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Ansible&lt;/a&gt;
+&lt;/strong&gt;/Docker-based setup.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://www.map5.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2020/01/map5.nl_.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-917&#34; src=&#34;../uploads/2020/01/map5.nl_.png&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;592&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/map5.nl_.png 800w, https://justobjects.nl/wp-content/uploads/2020/01/map5.nl_-300x222.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/map5.nl_-768x568.png 768w, https://justobjects.nl/wp-content/uploads/2020/01/map5.nl_-150x111.png 150w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://geoqos.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoQoS.com&lt;/a&gt;
+&lt;/strong&gt; is a hosted &lt;strong&gt;&lt;a href=&#34;https://geohealthcheck.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+&lt;/strong&gt; (GHC) service on a subscription basis. GHC is an uptime and QoS monitor for (OGC) web services. Customers get their own GHC instance. &lt;strong&gt;&lt;a href=&#34;https://geoqos.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoQoS.com&lt;/a&gt;
+&lt;/strong&gt; saves the burden of self-hosting GHC. Launch was in 2019, growing steady in 2020. Expect to work more on API and new UI for GeoHealthCheck (below) in 2021.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://geoqos.com/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2020/01/geoqos.com_.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter wp-image-915 size-full&#34; src=&#34;../uploads/2020/01/geoqos.com_.png&#34; alt=&#34;&#34; width=&#34;952&#34; height=&#34;563&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/geoqos.com_.png 952w, https://justobjects.nl/wp-content/uploads/2020/01/geoqos.com_-300x177.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/geoqos.com_-768x454.png 768w, https://justobjects.nl/wp-content/uploads/2020/01/geoqos.com_-150x89.png 150w&#34; sizes=&#34;(max-width: 952px) 100vw, 952px&#34; /&gt;
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;Feb 2020 – launched &lt;strong&gt;&lt;a href=&#34;https://geotoko.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;geotoko.nl&lt;/a&gt;
+&lt;/strong&gt;. geotoko.nl, in short GeoToko, is basically a webshop to download Dutch open geo-datasets. Here one may ask: Dutch geospatial data like Topography, Addresses and Buildings, is already open and publicly available, mainly via &lt;strong&gt;&lt;a href=&#34;https://pdok.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Kadaster-PDOK&lt;/a&gt;
+&lt;/strong&gt;. So why bother reselling? This needs some explanation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://geotoko.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2021/01/opentopo-keyreg.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-953&#34; src=&#34;../uploads/2021/01/opentopo-keyreg.png&#34; alt=&#34;&#34; width=&#34;558&#34; height=&#34;188&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/opentopo-keyreg.png 558w, https://justobjects.nl/wp-content/uploads/2021/01/opentopo-keyreg-300x101.png 300w, https://justobjects.nl/wp-content/uploads/2021/01/opentopo-keyreg-150x51.png 150w&#34; sizes=&#34;(max-width: 558px) 100vw, 558px&#34; /&gt;
+--&gt;
+&lt;p&gt;Most Dutch Open geospatial datasets, as available from governmental institutions like Kadaster, are provided in a neutral exchange-format. In practice: GML (Application Schema). Most users are not able to directly digest complex GML in their applications (or don’t want to spend time on that). For over 10 years we run the Open Source project &lt;strong&gt;&lt;a href=&#34;https://github.com/nlextract/NLExtract&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLExtract&lt;/a&gt;
+&lt;/strong&gt; to convert these datasets into formats like PostGIS and CSV that can be directly used in applications. NLExtract itself builds on &lt;strong&gt;&lt;a href=&#34;https://www.stetl.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl&lt;/a&gt;
+&lt;/strong&gt;, an Open Source geospatial ETL-library in Python. NLExtract/Stetl is used a lot, but still will require users to install/maintain an NLExtract/Stetl installation, download datasets, run the ETL, check results etc. That may also be a bridge too far, if e.g. all a customer needs is a one-time CSV of say, all 10 million addresses in The Netherlands. So GeoToko taps into this niche, providing ready-to-use, often enriched Dutch datasets. Pricing is reasonable, compared to other providers, plus organizations and individuals may get highly reduced pricing when they work on Open data applications like OpenStreetMap.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://geotoko.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2021/01/bigpicture.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter wp-image-954 size-full&#34; src=&#34;../uploads/2021/01/bigpicture.png&#34; alt=&#34;GeoToko High-level Architecture&#34; width=&#34;500&#34; height=&#34;310&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/bigpicture.png 500w, https://justobjects.nl/wp-content/uploads/2021/01/bigpicture-300x186.png 300w, https://justobjects.nl/wp-content/uploads/2021/01/bigpicture-150x93.png 150w&#34; sizes=&#34;(max-width: 500px) 100vw, 500px&#34; /&gt;
+--&gt;
+&lt;p&gt;As for development: the &lt;strong&gt;&lt;a href=&#34;https://geotoko.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoToko webshop&lt;/a&gt;
+&lt;/strong&gt; was developed with Django, Flask/nginx (Download management), Stripe (backend payments) and &lt;strong&gt;&lt;a href=&#34;https://ckan.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CKAN&lt;/a&gt;
+&lt;/strong&gt;. The latter to provide a product-catalogue, sample data and metadata in general, all via &lt;strong&gt;&lt;a href=&#34;https://geocatalogus.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoCatalogus.nl&lt;/a&gt;
+&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://geotoko.nl&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2021/01/geofabriek-keten.png&#34;
+      alt=&#34;GeoFabriek &amp;#8211; Production Chain&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;div id=&#34;attachment_956&#34; style=&#34;width: 924px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;https://geotoko.nl&#34;&gt;&lt;img aria-describedby=&#34;caption-attachment-956&#34; loading=&#34;lazy&#34; class=&#34;size-full wp-image-956&#34; src=&#34;../uploads/2021/01/geofabriek-keten.png&#34; alt=&#34;&#34; width=&#34;914&#34; height=&#34;287&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/geofabriek-keten.png 914w, https://justobjects.nl/wp-content/uploads/2021/01/geofabriek-keten-300x94.png 300w, https://justobjects.nl/wp-content/uploads/2021/01/geofabriek-keten-768x241.png 768w, https://justobjects.nl/wp-content/uploads/2021/01/geofabriek-keten-150x47.png 150w&#34; sizes=&#34;(max-width: 914px) 100vw, 914px&#34; /&gt;&lt;/a&gt;
+
+  &lt;p id=&#34;caption-attachment-956&#34; class=&#34;wp-caption-text&#34;&gt;
+    &lt;strong&gt;GeoFabriek &amp;#8211; Production Chain&lt;/strong&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Further development concerned automating the NLExtract/Stetl ETL-processes. For this a framework called GeoFabriek, “GeoFactory”, was developed. This automates the entire chain from checking new dataset versions at Kadaster, through downloading, conversions, packing for download and updating the metadata (in GeoCatalogus.nl).&lt;/p&gt;
+&lt;h3 id=&#34;contract-work&#34;&gt;Contract Work&lt;/h3&gt;
+&lt;p&gt;As my focus is more and more on providing “Geospatial Cloud Services” (see above), did not take not too much contract work in 2020, though I am always open for offerings (but may say ‘no’)!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For &lt;strong&gt;&lt;a href=&#34;https://www.geolicious.de/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geolicious (Germany)&lt;/a&gt;
+&lt;/strong&gt;. Developed a Wegue &lt;strong&gt;&lt;a href=&#34;https://map.naturpark-lueneburger-heide.de/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;interactive map for the German National Park Luneburger Heide&lt;/a&gt;
+&lt;/strong&gt;. This also gave a boost to the &lt;strong&gt;&lt;a href=&#34;https://github.com/meggsimum/wegue&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wegue Open Source project&lt;/a&gt;
+&lt;/strong&gt; (see below). Was an honour to work together with the great &lt;strong&gt;&lt;a href=&#34;https://www.opengeospatial.org/blog/2996&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Steve Bennett&lt;/a&gt;
+&lt;/strong&gt; a.k.a. @stevage.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://map.naturpark-lueneburger-heide.de/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2021/01/screenshot-1.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-971&#34; src=&#34;../uploads/2021/01/screenshot-1.png&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;524&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/screenshot-1.png 800w, https://justobjects.nl/wp-content/uploads/2021/01/screenshot-1-300x197.png 300w, https://justobjects.nl/wp-content/uploads/2021/01/screenshot-1-768x503.png 768w, https://justobjects.nl/wp-content/uploads/2021/01/screenshot-1-150x98.png 150w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;
+--&gt;
+&lt;p&gt;Various new Widgets for Wegue were developed. To name a few: Enhanced Layer Tree, Enhanced Feature Info (see picture), Share Button, Routing, Multi-language, PDF Print, Download Features, Layout Improvements. Also introduced a “create-app” to have a starter app. We are in the process of merging back these new features into the Wegue core.&lt;/p&gt;
+&lt;h3 id=&#34;open-source-contributions&#34;&gt;Open Source Contributions&lt;/h3&gt;
+&lt;p&gt;Continuous work as a contributor. Apart from some GitLab Projects, you can find/follow me best on &lt;a href=&#34;https://github.com/justb4/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2021/01/contribs-2020.png&#34; alt=&#34;GitHub contributions&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-965&#34; src=&#34;../uploads/2021/01/contribs-2020.png&#34; alt=&#34;&#34; width=&#34;773&#34; height=&#34;206&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/contribs-2020.png 773w, https://justobjects.nl/wp-content/uploads/2021/01/contribs-2020-300x80.png 300w, https://justobjects.nl/wp-content/uploads/2021/01/contribs-2020-768x205.png 768w, https://justobjects.nl/wp-content/uploads/2021/01/contribs-2020-150x40.png 150w&#34; sizes=&#34;(max-width: 773px) 100vw, 773px&#34; /&gt;
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.stetl.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl&lt;/a&gt;
+ – Geospatial ETL in Python, maintaining since 2011.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://geohealthcheck.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+ – Service Status and QoS Checker for OGC Web Services.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+ – a Python server implementation of the &lt;a href=&#34;https://www.opengeospatial.org/blog/2996&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC API suite of standards&lt;/a&gt;
+ – joined this great project in 2019. Also in PSC.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://demo.pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi demo server&lt;/a&gt;
+ – provided the (auto-)deployment stack for the pygeoapi demo server (&lt;a href=&#34;https://github.com/geopython/demo.pygeoapi.io&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;code at GitHub&lt;/a&gt;
+). Added &lt;a href=&#34;https://demo.pygeoapi.io/covid-19&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;COVID-19 NL data provider&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nlextract.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLExtract&lt;/a&gt;
+ – ETL for Dutch geospatial datasets.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/meggsimum/wegue&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wegue&lt;/a&gt;
+ – geo-webclient framework based on &lt;a href=&#34;https://vuejs.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Vue.js&lt;/a&gt;
+ with OpenLayers started by &lt;a href=&#34;https://github.com/chrismayer&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Christian Mayer&lt;/a&gt;
+. Joined this great project in 2019.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron MC&lt;/a&gt;
+ – Web Mapping Client based on &lt;a href=&#34;https://www.geoext.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoExt&lt;/a&gt;
+ and OpenLayers. Yes, old tech but still in wide use. In time hope to migrate to &lt;a href=&#34;https://github.com/meggsimum/wegue&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wegue&lt;/a&gt;
+ (see above). Migrating Heron to Wegue, see first example below.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://wegue.heron-mc.org/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2021/01/screenshot-heron-wegue-1.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-974&#34; src=&#34;../uploads/2021/01/screenshot-heron-wegue-1.jpg&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;568&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/screenshot-heron-wegue-1.jpg 800w, https://justobjects.nl/wp-content/uploads/2021/01/screenshot-heron-wegue-1-300x213.jpg 300w, https://justobjects.nl/wp-content/uploads/2021/01/screenshot-heron-wegue-1-768x545.jpg 768w, https://justobjects.nl/wp-content/uploads/2021/01/screenshot-heron-wegue-1-150x107.jpg 150w, https://justobjects.nl/wp-content/uploads/2021/01/screenshot-heron-wegue-1-285x201.jpg 285w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mapproxy.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MapProxy&lt;/a&gt;
+ – joined Program Steering Committee (PSC)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://access.crunchydata.com/documentation/pg_tileserv/latest/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pg_tileserv&lt;/a&gt;
+ Vector Tiles directly  from PostGIS!&lt;br&gt;
+Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/master/Dockerfile.alpine&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dockerfile&lt;/a&gt;
+ and &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/tree/master/examples/docker&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker-example&lt;/a&gt;
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;more-contributions-8211-handy-docker-images&#34;&gt;More Contributions – Handy Docker Images&lt;/h3&gt;
+&lt;p&gt;To support many of the Cloud services and Open Source projects, I develop and maintain &lt;a href=&#34;https://github.com/search?q=user%3Ajustb4&amp;#43;docker-&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;handy Docker Images&lt;/a&gt;
+, also available from &lt;a href=&#34;https://hub.docker.com/u/justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my DockerHub&lt;/a&gt;
+.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-awstats&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-awstats&lt;/a&gt;
+ – AWStats in Docker, oldie, but very effective webstats. Deploy multiple instances in single Docker container. Highly configurable, e.g. also for &lt;a href=&#34;https://docs.traefik.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Traefik&lt;/a&gt;
+ access logs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-jmeter&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-jmeter&lt;/a&gt;
+ – &lt;a href=&#34;https://jmeter.apache.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Apache JMeter&lt;/a&gt;
+ wrapped in Docker. Over 1 million pulls!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapfish-print&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapfish-print&lt;/a&gt;
+ – for MapFish Print &lt;strong&gt;version 3&lt;/strong&gt;. MapFish Print allows printing maps as PDFs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapfish-print2&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapfish-print2&lt;/a&gt;
+ – for MapFish Print &lt;strong&gt;version 2&lt;/strong&gt; – This version is still used in quite some contexts, at least for &lt;a href=&#34;https://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron&lt;/a&gt;
+ and &lt;a href=&#34;https://kadviewer.map5.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KadViewer&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-rclone&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-rclone&lt;/a&gt;
+ – Docker image to perform a &lt;a href=&#34;http://rclone.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;rclone&lt;/a&gt;
+ sync based on a cron schedule, with &lt;a href=&#34;https://healthchecks.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;healthchecks.io&lt;/a&gt;
+ monitoring.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-pgbackup&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-pgbackup&lt;/a&gt;
+ – automated/scheduled PostgreSQL/PostGIS backups for all PostgreSQL-based Docker Containers in its Docker-network. I think it is nifty: just run and forget: your Postgres backups are taken care of. Inspired by: &lt;a href=&#34;https://github.com/kartoza/docker-pg-backup&#34;&gt;https://github.com/kartoza/docker-pg-backup&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;New Docker images developed in 2020:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapserver&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapserver&lt;/a&gt;
+ – Slim Docker Image for MapServer with Lighttpd FastCGI.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapproxy&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapproxy&lt;/a&gt;
+ – MapProxy Docker Image adapted, slimmed, from the &lt;a href=&#34;https://yagajs.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;YAGA Development-Team&lt;/a&gt;
+. &lt;a href=&#34;https://github.com/yagajs/docker-mapproxy/pull/18&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Awaiting PR merge&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapproxy-mapserver&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapproxy-mapserver&lt;/a&gt;
+ – Docker Image for MapProxy service with built-in MapServer binaries accessed directly (no MapServer service).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-cron&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-cron&lt;/a&gt;
+ – Runs Unix cron, includes docker (compose) client for running remote Docker Images.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;osgeonl&#34;&gt;OSGeo.nl&lt;/h3&gt;
+&lt;p&gt;As chair of the board, still involved in the OSGeo Dutch Local Chapter, &lt;a href=&#34;https://osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl&lt;/a&gt;
+ since its establishment in 2011.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jan 12 – organizer – joint &lt;a href=&#34;https://geoforum.nl/t/osgeo-nl-en-openstreetmap-nl-nieuwjaarsborrel-zo-13-jan-2019-hilversum/2170&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl and OpenStreetMap NL new-years party&lt;/a&gt;
+ at Cafe Dudok in Hilversum. Our last IRL event in 2020….&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No FOSS4G-NL, plans are for okt 2021, but hey, 13 episodes of &lt;a href=&#34;https://tv.osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;De Grote Geo Show&lt;/a&gt;
+ (see above)!&lt;/p&gt;
+&lt;h3 id=&#34;conferences-8211-attended&#34;&gt;Conferences – Attended&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Feb 20-21 – &lt;a href=&#34;https://vuejs.amsterdam/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Vue.js Amsterdam&lt;/a&gt;
+ – last physically attended conf in 2020&lt;/li&gt;
+&lt;li&gt;Sept 21-22 – &lt;a href=&#34;http://2020.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoPython 2019&lt;/a&gt;
+ – Virtual&lt;/li&gt;
+&lt;li&gt;Nov 19 – &lt;a href=&#34;https://info.crunchydata.com/en/postgis-day-2020-crunchy-data&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PostGIS Day 2020&lt;/a&gt;
+ – by crunchydata.com&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Had planned: FOSSGIS-DE Freiburg (Germany), FOSS4G-EU Valmiera (Latvia), GeoPython 2020 Bilbao (Spain), FOSS4G 2020 Calgary (Canada) and OSGeo Code Sprint Athens (Greece). Was studying train-tables for all EU events…Oh well.&lt;/p&gt;
+&lt;h3 id=&#34;talks--workshops-8211-provided&#34;&gt;Talks &amp;amp; Workshops – Provided&lt;/h3&gt;
+&lt;p&gt;Most of my slides on &lt;a href=&#34;https://www.slideshare.net/justb4/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;slideshare.net/justb4&lt;/a&gt;
+ . Below my 2020 talks.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sept 21-22 – &lt;a href=&#34;http://2020.geopython.net/schedule.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Python Machine Learning &amp;amp;amp; GeoPython 2020&lt;/a&gt;
+ – presented pygeoapi with Francesco Bartoli – [&lt;a href=&#34;https://pygeoapi.io/presentations/default/#/frontpage&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;slides HTML&lt;/a&gt;
+]&lt;/li&gt;
+&lt;li&gt;Dec 7-9 – GeoNode Summit 2020 – &lt;a href=&#34;https://summit.geonode.org/schedule/#session-106&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;presented pygeoapi&lt;/a&gt;
+ with Francesco Bartoli, Tom Kralidis, Angelos Tzotsos – [&lt;a href=&#34;https://pygeoapi.io/presentations/default/#/frontpage&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;slides HTML&lt;/a&gt;
+]&lt;/li&gt;
+&lt;li&gt;Nov 10 – GeoHealthCheck/&lt;a href=&#34;https://geoqos.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;geoqos.com&lt;/a&gt;
+ workshop for &lt;a href=&#34;https://www.rivm.nl/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RIVM&lt;/a&gt;
+ (National Institute for Public Health and the Environment)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Probably some more, but cannot find back at this moment.&lt;/p&gt;
+&lt;h3 id=&#34;resolutions-2021&#34;&gt;Resolutions 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;More effort into &lt;a href=&#34;https://github.com/meggsimum/wegue&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wegue&lt;/a&gt;
+ project&lt;/li&gt;
+&lt;li&gt;Get back into Kubernetes and containerism in general&lt;/li&gt;
+&lt;li&gt;Revive old GeoTracing projects  like &lt;a href=&#34;http://georambling.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;georambling.com&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;HA projects: weather station, wildlife/bird cam, and AQ monitoring with &lt;a href=&#34;http://www.home-assistant.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Home Assistant&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;More hiking and rambling&lt;/li&gt;
+&lt;li&gt;Whatever comes around.&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

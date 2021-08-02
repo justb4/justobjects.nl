@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JPEG on Clarity</title>
+    <link>https://nl.justobjects.org/tags/jpeg/</link>
+    <description>Recent content in JPEG on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 21 May 2015 23:31:46 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/jpeg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JPEG is Dead, Long Live JPEG!</title>
+      <link>https://nl.justobjects.org/jpeg-is-dead-long-live-jpeg/</link>
+      <pubDate>Thu, 21 May 2015 23:31:46 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/jpeg-is-dead-long-live-jpeg/</guid>
+      <description>
+        
+          &lt;p&gt;TL;DR: see &lt;a href=&#34;https://github.com/map5nl/map5/issues/10&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this GitHub issue&lt;/a&gt;
+ for summary (Dutch but the pictures there and Figure 1 tell the story).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/05/opentopo-png-vs-jpeg.png&#34; alt=&#34;Figure 1. Image encoding-comparison for MapProxy-tiles&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Somewhere around 1995, building my first website, it was already quite a feat to embed images. Non-aware of image-formats I played with (animated!) GIF and JPEG. Naively image-editing I noticed that my JPEGs became worse and worse after each save…I learned quickly about lossless and lossy encodings back then.  Later on came PNG. When I entered the geospatial domain there appeared to be a common convention that JPEG was to be used for arial/satellite images and PNG for rasterized vector renderings. So the years went by and all geo-folks, including me, followed that rule.&lt;/p&gt;
+&lt;p&gt;Recently I developed and launched &lt;a href=&#34;http://www.map5.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Map5.nl&lt;/a&gt;
+: a cloud service for topographic maps mostly made with Dutch Open Geo-data. See my previous post &lt;a href=&#34;http://justobjects.nl/tales-from-topographic-lowlands/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Tales from the Topographic Lowlands&lt;/a&gt;
+ how this service evolved.  After quite some research I finally settled on an Open Source geo-stack with &lt;a href=&#34;http://gdal.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GDAL&lt;/a&gt;
+, &lt;a href=&#34;http://mapserver.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MapServer&lt;/a&gt;
+ and &lt;a href=&#34;http://mapproxy.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MapProxy&lt;/a&gt;
+ on &lt;a href=&#34;http://www.ubuntu.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Ubuntu&lt;/a&gt;
+. For raster-map serving this appeared to be a golden combination.  The full stack, including pre-processing of TIFF-files (and some PNGs) is depicted below. The arrows denote the flow of data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/05/geostack11.png&#34; alt=&#34;Figure 2. Map5.nl dataflow for Raster data serving&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In a later post I will dive more into the details of this architecture. For now I should explicitly mention the work of &lt;a href=&#34;https://www.linkedin.com/in/janwillemvanaalst&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jan-Willem van Aalst&lt;/a&gt;
+, who designed the &lt;a href=&#34;http://opentopo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenTopo-related maps&lt;/a&gt;
+ provided on &lt;a href=&#34;http://www.map5.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Map5.nl&lt;/a&gt;
+ using &lt;a href=&#34;http://qgis.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;QGIS&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;But this post is about JPEG and how/why I found it needs revival in the context of raster-data preparation and serving. I explicitly mention ‘preparation’ as JPEG was applied at two steps within the stack shown in Figure 2.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JPEG Step 1 – Encoding in GeoTIFF&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Within the &lt;a href=&#34;http://www.nlextract.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLExtract project&lt;/a&gt;
+ I was already preprocessing historical maps from PNG (with world files) to GeoTIFF. At some point I found out that GeoTIFF, as a container-image format, supports multiple  image-encodings. Using JPEG encoding it appeared that the resulting GeoTIFF files were much smaller (about 50%)  without hardly any loss in image quality. For the OpenTopo layers, I devised &lt;a href=&#34;https://github.com/opengeogroep/NLExtract/blob/master/opentopo/bin/topotrans.sh&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this shell-script&lt;/a&gt;
+ to create GeoTIFFs ready to be served by any WMS-server. Without going into details of the script, this line, using &lt;a href=&#34;http://www.gdal.org/gdal_translate.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;gdal_translate&lt;/a&gt;
+, does the actual JPEG-encoding:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;gdal_translate -b 1 -b 2 -b 3 -of GTiff  
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt; -co TILED=YES  
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt; -co PROFILE=Geotiff -co COMPRESS=JPEG  
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt; -co JPEG_QUALITY=95  
+&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt; -co PHOTOMETRIC=YCBCR -co BLOCKXSIZE=512 -co BLOCKYSIZE=512  
+&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt; -a\_srs EPSG:28992 $src\_tif $dst_tif
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Later on, I happily noticed, that others, like the great &lt;a href=&#34;http://blog.cleverelephant.ca/2015/02/geotiff-compression-for-dummies.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Paul Ramsey also advertised JPEG encoding in GeoTIFF&lt;/a&gt;
+. So JPEG lived up here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JPEG Step 2 – Encoding in WMS and Tiles&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Still within the rest of the geo-stack used for actual map serving with the MapServer/MapProxy combo I was still obeying the old rule to use PNG for serving non-arial/satellite images. I struggled and tested endless variations in configuration settings for PNG. My goal was to serve small tiles with just enough quality blazingly fast.  Now PNG has many options, but broadly put one has to make a choice between PNG24 (24 bits) or PNG8 (8 bits, 256 colors). The latter uses a colormap encoding which for the rich color variations of the OpenTopo and coloured hillshading layers had quite noticeable degraded image quality. PNG24 on the other hand rendered great tiled images but with the penalty of significant tile-sizes. A &lt;a href=&#34;http://en.wikipedia.org/wiki/Catch-22_%28logic%29&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Catch-22 situation&lt;/a&gt;
+ … Enter JPEG. Configuring MapProxy to serve JPEG-tiles gave much better results but needed some tweaking:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;use at least faktor 90 JPEG-compression (also in MapServer)&lt;/li&gt;
+&lt;li&gt;disable meta-tiling and buffering, i.e. request 256×256 JPEG maps from the MapServer source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So some excerpts from the MapProxy config:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;opentopo_file_cache:
+&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;  grids: [geonovum_grid, opentopo_extent_grid]
+&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;  sources: [opentopo_wms]
+&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;  format: image/jpeg
+&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;  meta_buffer: 0
+&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;  meta_size: [1,1]
+&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt; opentopo_wms:
+&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;  type: wms
+&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;  req:
+&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;    url: http://ms.HOST_URL/go?
+&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;    layers: opentopo
+&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;    format: image/jpeg
+&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;    transparent: false
+&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;  coverage:
+&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;    bbox: [10000.000,299995.559,279997.956,625000.000]
+&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;    srs: &amp;#39;EPSG:28992&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This gave optimal results. JPEG tiles were around 4.5 times as small as PNG24. See the results in Figure 1 above. For the &lt;a href=&#34;http://app.map5.nl/nltopo/?base_layer=relief_struct&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hillshading layer&lt;/a&gt;
+ the differences were striking especially when zoomed-in. See Figure 3 below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/05/relief_struct-png-vs-jpeg.png&#34; alt=&#34;Figure 3. Tiles and filesizes for different image encodings. Click image for full picture.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;So my choice was to settle for JPEG for the topographic and hillshading maps. You can browse all Map5.nl layers in the &lt;a href=&#34;http://app.map5.nl/nltopo/&#34; target=&#34;_blank&#34;&gt;NLTopo App&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So yes, JPEG seems the most optimal for these type of map-layers, but am I missing something? Some proponed:  &lt;em&gt;“Yes, but JPEG has no transparency nor alpha-channel”&lt;/em&gt;. Hmm, true, but does this matter in most modern web-clients like &lt;a href=&#34;http://openlayers.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenLayers&lt;/a&gt;
+ or &lt;a href=&#34;http://leaflet.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Leaflet&lt;/a&gt;
+? From what I observed, JPEG-layers will happily obey opacity-settings in these web-clients. For example, Figure 4 below shows the national Dutch Topographic map overlayed with the Map5.nl hillshading layer.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/05/kadaster-top25-relief-struct.jpg&#34; alt=&#34;Figure 4 &amp;#8211; Dutch 1:25000 raster map transparently overlayed with Map5.nl JPEG hillshading layer&#34;&gt;&lt;/p&gt;
+&lt;p&gt;So what to conclude? Basically the title of this post should say it. Further I would again like to acknowledge Jan-Willem van Aalst for his outstanding work on OpenTopo maps and Frank Steggink for making the basic hillshading map from the free Dutch Lidar- pointcloud-data (&lt;a href=&#34;http://www.ahn.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AHN2&lt;/a&gt;
+). And further the developers of MapServer and MapProxy, what an awesome combo. Even without pre-tiling maps are served blazingly fast! I am really fond of the Hillshading map. The Netherlands, known to be “flatland”, can now reveal also its past. See for example figure 5 below, a &lt;a href=&#34;http://app.map5.nl/nltopo/#rd/relief_struct/12/175799.7/477431.2&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Roman Fort&lt;/a&gt;
+ from about 2000 years ago!&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;http://app.map5.nl/nltopo/#rd/relief_struct/12/175799.7/477431.2&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2015/05/relief_struct_speuld_romfort.png&#34;
+      alt=&#34;Figure 5 &amp;#8211; Contours from a Roman Fort near Speuld&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

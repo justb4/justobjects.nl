@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>geodjango on Clarity</title>
+    <link>https://nl.justobjects.org/tags/geodjango/</link>
+    <description>Recent content in geodjango on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 13 Jul 2016 23:06:10 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/geodjango/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dances with the GeoPython Tribe</title>
+      <link>https://nl.justobjects.org/dances-with-the-geopython-tribe/</link>
+      <pubDate>Wed, 13 Jul 2016 23:06:10 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/dances-with-the-geopython-tribe/</guid>
+      <description>
+        
+          &lt;p&gt;During June 21-24, 2016 I attended the very first &lt;a href=&#34;http://www.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoPython Conference in Basel Switzerland&lt;/a&gt;
+. This event was organized by the &lt;a href=&#34;http://www.fhnw.ch/habg/ivgi/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Institute of Geomatics Engineering of the FHNW – University of Applied Sciences and Arts Northwestern Switzerland&lt;/a&gt;
+ and &lt;a href=&#34;http://www.meetup.com/PyBasel-Basel-Python-Meetup/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyBasel&lt;/a&gt;
+, the local Python User Group Northwestern Switzerland. In particular I should mention key-organizer  &lt;a href=&#34;https://www.linkedin.com/in/martinchristen&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Martin Christen&lt;/a&gt;
+ from FHNW. He and his team made this into a such a great event that GeoPython 2017 is already planned. About 130 people attended, most from Europe, but also from other continents.  For a TL;DR the conference website &lt;a href=&#34;http://www.geopython.net&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.geopython.net&lt;/a&gt;
+  provides you all the details: not just the program, but also the “post-processing”: slides, photo’s (&lt;a href=&#34;https://www.flickr.com/photos/144781014@N02/sets/72157667869241134/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;on Flickr&lt;/a&gt;
+) etc.  The conference also included time and resources (room, food, beverages) for code-sprints. One of the outcomes of the conference-survey was to establish a public GeoPython mailing list at python.org. Details: to subscribe, send mail to:  &lt;u&gt;&lt;a href=&#34;mailto:GeoPython-subscribe@python.org&#34;&gt;GeoPython-subscribe@python.org&lt;/a&gt;
+ &lt;/u&gt;with the keyword “subscribe” in the subject, or use the web-interface: &lt;a href=&#34;https://mail.python.org/mm3/mailman3/lists/geopython.python.org/&#34;&gt;https://mail.python.org/mm3/mailman3/lists/geopython.python.org/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;float_right&#34;&gt;
+  &lt;a href=&#34;http://www.geopython.net/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2016/07/gp1-right.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;So why a dedicated GeoPython conference? IMHO Python makes more and more  sense for Open Source geospatial development. Not just for custom geo-scripting or glueing with e.g. &lt;a href=&#34;http://gdal.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GDAL&lt;/a&gt;
+, or for developing plugins for &lt;a href=&#34;http://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/plugins.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;QGIS&lt;/a&gt;
+ and &lt;a href=&#34;https://grass.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GRASS&lt;/a&gt;
+, but more and more as a mature framework language for geospatial processing and  OGC services. The projects &lt;a href=&#34;http://pywps.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyWPS&lt;/a&gt;
+ and &lt;a href=&#34;http://pycsw.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyCSW&lt;/a&gt;
+ are an example of the latter. To access OGC services from Python clients there is &lt;a href=&#34;http://geopython.github.io/OWSLib/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OWSLib&lt;/a&gt;
+. Upcoming geospatial CMS frameworks like &lt;a href=&#34;http://geonode.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoNode&lt;/a&gt;
+ and the very recent  &lt;a href=&#34;http://boundlessgeo.com/exchange/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Boundless Exchange&lt;/a&gt;
+, powered by GeoNode, show that Python has the potential to become “the new Java” within the Open Source geospatial world.&lt;/p&gt;
+&lt;p&gt;Did I say “Java”? Ok: did almost 20 years of Java, from the very first JDK somewhere in 95/96 (Applets!), through &lt;a href=&#34;https://en.wikipedia.org/wiki/Microsoft_Java_Virtual_Machine&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sun vs Microsoft over Java&lt;/a&gt;
+, from the heaviness of &lt;a href=&#34;https://en.wikipedia.org/wiki/Enterprise_JavaBeans&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;J2EE/EJB&lt;/a&gt;
+s, to the lighter weighings of &lt;a href=&#34;https://en.wikipedia.org/wiki/Spring_Framework&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Spring&lt;/a&gt;
+, the settling of Java as a backend/server technology. Sidestep: “Java” seems to be a central keyword in my family’s ancestry: &lt;a href=&#34;https://en.wikipedia.org/wiki/Pieter_van_den_Broecke&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my great-great grandfather was one of the first people in the world to drink a cup of Java&lt;/a&gt;
+ and also was one of the first to set foot on the Indonesian island of Java, being on the same ship with &lt;a href=&#34;https://nl.wikipedia.org/wiki/Jan_Pieterszoon_Coen&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jan Pieterszoon Coen&lt;/a&gt;
+. My grandfather lived for 20 years in &lt;a href=&#34;https://en.wikipedia.org/wiki/Malang&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Malang&lt;/a&gt;
+ (East Java), working as a civil (Delft) engineer. But I am diverting. The colonial period was by times a violent (by the Dutch) episode in Dutch history, not to be proud of.&lt;/p&gt;
+
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;http://www.geopython.net/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2016/07/gp2-left.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;But times they are a-changing, technologies are evolving. I am happy these days to develop in Python (and JavaScript for the web-frontend). Like moving from C/C++ to Java back then, and now from Java to Python, what appeals to me: shortened development times, lesser lines of code  to debug and maintain, ease of deployment, a central repository (&lt;a href=&#34;https://pypi.python.org/pypi&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyPi&lt;/a&gt;
+) , an independent, vibrant community and possibly more.  But again I am diverting, there are great and stable geo-products in Java like &lt;a href=&#34;http://geoserver.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoServer&lt;/a&gt;
+ I use daily. Diversity in programming languages is good. Someone (&lt;a href=&#34;https://www.linkedin.com/in/jodygarnett&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jody Garnett&lt;/a&gt;
+?) posted somewhere about the C-tribe and Java-tribe within the Open Source geospatial world, but can’t find the reference. Back to the subject of this post!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Like said, the organizing team has done a great job postprocessing the event, to be found via &lt;a href=&#34;http://www.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.geopython.net&lt;/a&gt;
+ so listing all talks/workshops will not add value here. My overall feeling was that this conference, like the very first &lt;a href=&#34;http://2006.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G in Lausanne&lt;/a&gt;
+ I attended in 2006, was the beginning of a global community. Above all this was also an event where folks with a shared interest met and conversed. Often at conferences one learns and shares the most during breaks and social gatherings. In short: I learned a lot, being a relative newcomer in the geospatial Python community: GeoNode, GeoDjango, Python with Grass, and much more. For example I learned about some general Python technologies like the  &lt;a href=&#34;http://jupyter.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jupyter Notebook&lt;/a&gt;
+ that many presenters used. I found that many (like me) are using &lt;a href=&#34;http://flask.pocoo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Flask&lt;/a&gt;
+ for simple Python webapps/REST APIs. Flask expresses one of features I like about Python: minimalism.&lt;/p&gt;
+&lt;p&gt;I am grateful to the organizing team that I could &lt;a href=&#34;http://www.slideshare.net/justb4/geospatial-etl-with-stetl-geopython-2016&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;present Stetl&lt;/a&gt;
+ in the last session on the last day, since I submitted past the deadline. Luckily the room was still filled, though the cold beer was tempting just ahead. Mind: during the conference there was a heatwave, above 30 degrees C each day, yes in Switzerland. But all in all this was a very cool conference! Hope to see you at GeoPython 2017!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

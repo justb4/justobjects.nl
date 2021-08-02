@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MediaTech on Clarity</title>
+    <link>https://nl.justobjects.org/categories/mediatech/</link>
+    <description>Recent content in MediaTech on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 05 Apr 2018 21:17:16 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/categories/mediatech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emit #4 – Push or Pull?</title>
+      <link>https://nl.justobjects.org/emit-4-push-or-pull/</link>
+      <pubDate>Thu, 05 Apr 2018 21:17:16 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/emit-4-push-or-pull/</guid>
+      <description>
+        
+          &lt;p&gt;This is Emit #4, in a &lt;a href=&#34;https://nl.justobjects.org/categories/smartemission/&#34;&gt;series of blog-posts around the Smart Emission Platform&lt;/a&gt;
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.&lt;/p&gt;
+&lt;p&gt;A lot of things have happened with the project since the &lt;a href=&#34;http://justobjects.nl/emit-3/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;last Emit #3&lt;/a&gt;
+ (feb 2018 already). The main news is that the SE Platform is now being migrated to the national Dutch GDI services infrastructure, &lt;a href=&#34;https://www.pdok.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PDOK&lt;/a&gt;
+. This infrastructure, entirely built with OSGeo software, is maintained by the &lt;a href=&#34;https://www.kadaster.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch Kadaster&lt;/a&gt;
+ and already (since 2010) provides open access to Dutch geospatial datasets and -services including the Dutch INSPIRE access point. Having the SE Platform hosted and maintained within PDOK gives a tremendous opportunity for long-term evolution and stability beyond its initial project-based funding.&lt;/p&gt;
+&lt;p&gt;There’s lots of exciting new technological details related to this migration, like the move from the current ad-hoc Docker-based deployment to a full-fledged &lt;a href=&#34;https://kubernetes.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Kubernetes (K8s)&lt;/a&gt;
+ Cloud roll-out. This could be the subject of an entire post by itself. For this we’re setting up a &lt;a href=&#34;https://github.com/smartemission&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;fresh GitHub organization&lt;/a&gt;
+, plus &lt;a href=&#34;https://hub.docker.com/r/smartemission/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SE Docker Images via DockerHub&lt;/a&gt;
+. All work-in-progress but first results are already tangible.&lt;/p&gt;
+&lt;p&gt;So what’s this Push or Pull about? As announced in &lt;a href=&#34;http://justobjects.nl/emit-1/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emit #1&lt;/a&gt;
+, I’ll try to explain the SE architecture “by following the data”. So sensor data is acquired by sensor stations constantly, 24 hours a day, and lots of it. To give somewhat of a figure: within the SE project the &lt;a href=&#34;http://www.snuffle.org/doku.php?id=josene&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Intemo Sensor Station “Josene”&lt;/a&gt;
+ station provides more than 100 different sensor values, “indicators”. These range from meteo-data like Temperature, Humidity, Pressure, to Air Quality values for NO2 (Nitrogen Dioxide), CO2 (Carbon Dioxide), O3 (Ozone), finedust (PM) and audio/noise indicators (sound pressure) like Decibels (A) min/max/average for about 30 frequency bands (see image below).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/04/sound-josene.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;Values for these about 100 indicators are sampled about every 20 seconds. Even with about one hundred Josene sensor stations currently one can imagine this will produce “a lot of data” to say the least. O yes, and we also like to keep all data, i.e. maintain history…Josene sensor-stations are connected via Wifi and will have to send their data to “somewhere”. Eventually, a user will need to view/consume sensor-data via an app, like the &lt;a href=&#34;http://data.smartemission.nl/smartapp/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SmartApp&lt;/a&gt;
+ (see image below), or web-services without being overwhelmed.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/04/smartapp.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;So how does the SE Platform deal with this potential tsunami of data? Well, the keywords are Buffering, Harvesting and Aggregation. Back to following the data. Each Josense sensor station will constantly push its data to what is called a &lt;em&gt;&lt;strong&gt;Data Collector&lt;/strong&gt;&lt;/em&gt; within the SE architecture. A Data Collector is basically a buffer (server) that will store bulk “timeseries” data for each station. Data is stored in bulk, i.e. not every sample is stored in an individual record but as blobs. The granularity is one blob per station/per day/per hour.  This already reduces data records to 24 blobs per day per station. A lot of storage but a reasonable number of records. Also remind: this is raw, unvalidated, unaggregated data. Best is to first show a picture from the global architecture as below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/04/se-global-arch.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;Starting at the bottom of the picture above: Sensors send (push) their raw data to their attached Data Collector. Currently this even happens outside the SE Platform: the two Data Collectors from the left are maintained by our partners Intemo (Intemo Data Collector) and CityGIS (CityGIS Data Collector) within their own premises. In the course of the project we have been adding another Data Collector based on InfluxDB for the AirSensEUR. Also the RIVM SOS is viewed as a Data Collector for purposes of Calibration (for another Emit).&lt;/p&gt;
+&lt;p&gt;The important notice is that the SE Platform deploys &lt;em&gt;&lt;strong&gt;Harvesters&lt;/strong&gt;&lt;/em&gt; that constantly &lt;em&gt;&lt;strong&gt;Pull&lt;/strong&gt;&lt;/em&gt; the raw data from a series of Data Collectors. So this is where the Push/Pull decoupling is realized. For this (Pull) we have developed a simple &lt;a href=&#34;https://github.com/Geonovum/smartemission/tree/master/docs/specs/rawsensor-api&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Raw Sensor REST API&lt;/a&gt;
+ nicknamed the &lt;em&gt;&lt;strong&gt;Whale API&lt;/strong&gt;&lt;/em&gt;. Each Data Collector exposes its buffered bulk data (history) as JSON Blobs via this very simple API, independent from its internal storage technology. One may ask: why all this unnecessary indirection? Basically, here we have the Push/Pull decoupling realized. This gave us many advantages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sensors only need “one IP-address to send to”&lt;/li&gt;
+&lt;li&gt;Data Collectors can be optimized for their purpose&lt;/li&gt;
+&lt;li&gt;The Whale API provides a thin interface while still allowing transfer of bulk data&lt;/li&gt;
+&lt;li&gt;The Whale API also provides “last/current” values, so a quick pass-through for near-realtime data&lt;/li&gt;
+&lt;li&gt;Harvesters can run at their own pace/schedule&lt;/li&gt;
+&lt;li&gt;The SE Platform can be deployed anywhere, in Test, Production phases and build-up its data&lt;/li&gt;
+&lt;li&gt;Development and testing can be done locally, on a development laptop even&lt;/li&gt;
+&lt;li&gt;Data Collectors provide bulk-data from “time zero” so when moving/migrating SE servers or re-architecting ETL or Calibration algorithms we can re-bootstrap from “time-zero”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More details can be found within the ever-evolving &lt;a href=&#34;http://smartplatform.readthedocs.io/en/latest/api.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Platform Technical documentation&lt;/a&gt;
+. As said, we are in the process of migration. Basically moving all software from a single &lt;a href=&#34;https://github.com/Geonovum/smartemission&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SE GitHub repo at Geonovum&lt;/a&gt;
+ to our new &lt;a href=&#34;https://github.com/smartemission&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub organization&lt;/a&gt;
+ and &lt;a href=&#34;https://hub.docker.com/r/smartemission/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SE DockerHub&lt;/a&gt;
+, so look into the latter for the current/upcoming status.&lt;/p&gt;
+&lt;p&gt;So within this Emit I tried to depict how sensor-data “gets into the platform without overwhelming it”. So the Harvesters keep on Harvesting, but what next? Like Neil Young sings in Harvest: “Dream up, dream up, let me fill your cup. With the promise of a man.” That is, I promise a next Emit #5 on After The Goldrush, sorry After The Harvest.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Frequency 1550 – cross-media gaming into medieval times</title>
+      <link>https://nl.justobjects.org/frequency-1550-cross-media-gaming-into-medieval-times/</link>
+      <pubDate>Wed, 09 Feb 2005 00:39:32 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/frequency-1550-cross-media-gaming-into-medieval-times/</guid>
+      <description>
+        
+          &lt;p&gt;
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;http://www.computable.nl/artikels/archief5/d07hb5nh.htm&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2005/02/f1150-hq-small-200x150.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;a href=&#34;http://freq1550.waag.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Frequency 1550&lt;/a&gt;
+ is a multi-user city game using mobile phones and GPS-technology. The game provides a real-time, location-based experience, transporting players into medieval Amsterdam of 1550 via today’s most advanced personal medium: a UMTS mobile phone. It is the one of the most exciting projects I ever worked on!F ind more info in &lt;a href=&#34;http://www.computable.nl/artikel/achtergrond/onderwijs/1415901/1277214/umtspilot-in-middeleeuws-amsterdam.html&#34;&gt;an article in the Computable magazine&lt;/a&gt; (Dutch).&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;float_right&#34;&gt;
+  &lt;a href=&#34;https://files.justobjects.nl/jo/assets/presentation/f1550tech/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2005/02/f1150-infra-thumb-199x150.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;a href=&#34;http://connectmedia.waag.org/media/freq1550killerclub.mov&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;There is a project presentation in streaming video on connect.waag.org&lt;/a&gt;
+. There are also &lt;a href=&#34;https://files.justobjects.nl/jo/assets/doc/jspring-2005.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;slides of presentations&lt;/a&gt;
+. I gave at the &lt;a href=&#34;http://www.nljug.org/en/pages/events/content/jspring_2005/sessions/00001&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch Java User Group (NLJUG)&lt;/a&gt;
+ and at the &lt;a href=&#34;http://extern.waag.org/just/freq1550&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Society for Old and New Media (KillerClub)&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;The project even hit the national news ! Click &lt;a href=&#34;https://files.justobjects.nl/jo/assets/doc/mg-journaal.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;on anchor-man Gijs&lt;/a&gt;
+ to watch the Flash video.&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;https://files.justobjects.nl/jo/assets/doc/mg-journaal.html&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2005/02/f1150-journaal-thumb-201x150.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+The game evolves around players being personages in an adventure where they help the “schout” (medieval police) who will contact them by video when entering zones or reaching (GPS) locations. Players will try to solve assignments given by the “schout” on the street or through one of their&lt;br /&gt; team members on the home base, HQ, (behind a Flash-based interface). Assignments are solved by making media (photo’s, videos) at the spot&lt;br /&gt; and submitting these. The HQ may consult internet for additional media and textual answers. Thus together, teams provide multi-media&lt;br /&gt; content, resulting in a media-collage at the end. Additional game elements include, GPS-based boobytrapping, confrontations and cloaking.&lt;/p&gt;
+&lt;p&gt;My task in this project was development of the server-side gaming engine, media management and location tracking. Yes, the server was done in Java using the &lt;a href=&#34;http://www.keyworx.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KeyWorx&lt;/a&gt;
+ platform. Client software was done using the Java 2 Mobile Edition (J2ME) for the phones and Macromedia Flash for the HQ.&lt;/p&gt;
+&lt;p&gt;I am grateful to have been part of the team at &lt;a href=&#34;http://www.waag.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Waag Society&lt;/a&gt;
+ who has initiated and developed this mobile learning game together with IVKO, part of the Montessori comprehensive school in Amsterdam. The project was supported by &lt;a href=&#34;http://www.kpn-corporate.com/nl/pers/?id=2.02&amp;amp;taal=nl&amp;amp;pers_id=227&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KPN&lt;/a&gt;
+ who supplied mobile phones and access to their UMTS network. A pilot has just been conducted in 2005 from 7 to 9 February.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Modded XBOX becomes MediaBox</title>
+      <link>https://nl.justobjects.org/modded-xbox-becomes-mediabox/</link>
+      <pubDate>Sun, 09 Jan 2005 20:23:58 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/modded-xbox-becomes-mediabox/</guid>
+      <description>
+        
+          &lt;p&gt;
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;#ZgotmplZ&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2005/01/xbox.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+I acquired an &lt;a href=&#34;http://www.xbox.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Xbox&lt;/a&gt;
+ at &lt;a href=&#34;http://www.dixons.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dixons&lt;/a&gt;
+ for EUR 199,99 (ok, leave the 1 ct to Bill I said at the counter). Sometime later I had an almost complete home entertainment center/multimedia jukebox playing all my audio files (mp3, wav, ogg,..) , shoutcast streams, video files (mpg, avi, divx, and even quicktime) and photo slideshows (with background music) with a remote control on the TV-set in the living room from my Linux server in the attic. Plus offcourse I can play regular audio/mp3/video CDs and &lt;strong&gt;region-free&lt;/strong&gt; DVDs.&lt;/p&gt;
+&lt;p&gt;My original topic &lt;a href=&#34;index.php?p=1&#34;&gt;LinuxMMBox&lt;/a&gt;
+ is now sort of obsolete, except maybe for the PVR option, but the &lt;a href=&#34;http://dreamix.sourceforge.net&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dreamix Project&lt;/a&gt;
+ is even working on Xbox PVR.&lt;/p&gt;
+&lt;p&gt;The Xbox out of the box is boring: you can play games, audio CDs and DVDs (&lt;a href=&#34;http://www.xbox.com/system/DVD&amp;#43;Movie&amp;#43;Playback&amp;#43;Kit.htm&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;with remote control&lt;/a&gt;
+) bound to your region. I acquired the &lt;a href=&#34;http://www.xbox.com/system/DVD&amp;#43;Movie&amp;#43;Playback&amp;#43;Kit.htm&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;remote control&lt;/a&gt;
+ as well. Now comes the fun part: &lt;a href=&#34;http://www.xbox-scene.com/articles/beginnersguide.php&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;the Xbox can be modified&lt;/a&gt;
+ into basically a regular PC (not bad for EUR 200!) with multimedia capabilities and networking (network card is built-in).&lt;/p&gt;
+&lt;h3 id=&#34;the-xbox-is-a-pc&#34;&gt;The Xbox is a PC&lt;/h3&gt;
+&lt;p&gt;Although the XBox is a games console (and Microsoft have tried hard to hide the fact) it is essentially a standard computer. It has all the same major hardware components but costs less than a similar specification PC – the clearest differences lie only in the packaging and the software. The most important piece of software is a small bit of code that runs as soon as the machine turns on called the BIOS. This BIOS program is held in a memory chip soldered directly onto the board.&lt;/p&gt;
+&lt;p&gt;On startup the Xbox runs the Bios which tells it to look for a disc in the DVD drive. If one is found, the BIOS ensures it is either a Microsoft certified game or an audio CD. Assuming the disc is ok, the CD plays and all is well… (if you buy a &lt;a href=&#34;http://www.xbox.com/system/DVD&amp;#43;Movie&amp;#43;Playback&amp;#43;Kit.htm&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;DVD dongle&lt;/a&gt;
+ you can also play DVDs of your own region).&lt;/p&gt;
+&lt;p&gt;However, if the drive is empty or any other type of disc is found, it runs its own mini-OS known as the dashboard which lets you set the clock and look at save games but very little else. Now, imagine for a moment you can alter the XBox’s BIOS to let you play backups of your XBox games, DivX movies, MP3s, any region DVDs (without the dongle), play any arcade/SNES/megadrive/atari/etc games, play online without XBox Live and much MUCH more.&lt;/p&gt;
+&lt;p&gt;Put simply, you can! You need to replace the BIOS with something that is less picky about what it can run. Fortunately these BIOSes have been written for you, you just need to get them into your XBOX…&lt;/p&gt;
+&lt;h3 id=&#34;my-setup&#34;&gt;My Setup&lt;/h3&gt;
+&lt;p&gt;With my Xbox having been modded, my software setup is simple: as a “dashboard” (the program that starts when you power up the Xbox) I use the &lt;a href=&#34;http://www.xboxmediaplayer.de&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;XBox Media Player (XBMP)&lt;/a&gt;
+,&lt;br&gt;
+a simple and very easy-to-use media player. XBMP can play everything: audio (mp3, wav..), video (DivX, mpeg, QuickTime etc), images (JPEG,..) in slideshows (also with audio playing in the background!). Even Shoutcast channels (internet radio) can be played.&lt;/p&gt;
+&lt;p&gt;I keep all my media files on my Linux server. I use Samba shares and &lt;a href=&#34;http://www.apachemp3.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Apache::MP3&lt;/a&gt;
+ to play my MP3s anywhere. Now as not having to copy all my files to the Xbox, I run the &lt;a href=&#34;http://www.xboxmediaplayer.de/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ccxstream server&lt;/a&gt;
+ on my Linux server, such that these files can be accessed from the Xbox. The concept of ccxtream is similar&lt;br&gt;
+to that of Samba. A regular cronjob extracts all top-Shoutcast channels.&lt;/p&gt;
+&lt;h3 id=&#34;adding-pvr&#34;&gt;Adding PVR&lt;/h3&gt;
+&lt;p&gt;The XBox itself cannot do PVR (Personal Video Recording) but I am planning a setup using &lt;a href=&#34;http://www.elgato.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EyeTV from ElGato&lt;/a&gt;
+ on my Mac and saving the recordings on my Linux server, who in turn can serve them out to the Xbox as it does already. This setup is similar to &lt;a href=&#34;http://www.jonsthoughtsoneverything.com/archives/000009.php&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;an article written by Jon&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;Another option is to use an open-source digital video jukebox (PVR, DVR) based on Linux like &lt;a href=&#34;http://freevo.sourceforge.net&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Freevo&lt;/a&gt;
+, or &lt;a href=&#34;http://www.mythtv.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MythTV&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+&lt;p&gt;Try out these links. They give you ample info on how to get things done. Tip: try the Tutorials first on &lt;a href=&#34;http://www.xbox-scene.com&#34;&gt;http://www.xbox-scene.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.xbox-scene.com&#34;&gt;http://www.xbox-scene.com&lt;/a&gt; – the main Xbox site to consult&lt;br&gt;
+&lt;a href=&#34;http://www.xboxmediaplayer.de&#34;&gt;http://www.xboxmediaplayer.de&lt;/a&gt; – the Xbox Media Player (XBMP) and streaming servers (ccxstream)&lt;br&gt;
+&lt;a href=&#34;http://dreamix.sourceforge.net&#34;&gt;http://dreamix.sourceforge.net&lt;/a&gt; – Dreamix Project&lt;br&gt;
+&lt;a href=&#34;http://freevo.sourceforge.net&#34;&gt;http://freevo.sourceforge.net&lt;/a&gt; – Freevo Project&lt;br&gt;
+&lt;a href=&#34;http://www.delgul.demon.nl/xbox/&#34;&gt;http://www.delgul.demon.nl/xbox/&lt;/a&gt; – HOWTO on getting Xebian, Freevo and the xbox remote running&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SMIL</title>
+      <link>https://nl.justobjects.org/h/</link>
+      <pubDate>Thu, 06 Jan 2005 23:17:00 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/h/</guid>
+      <description>
+        
+          &lt;p&gt;Investigated the &lt;a href=&#34;http://www.w3.org/AudioVideo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;W3C SMIL (Synchronized Multimedia Interchange Language)&lt;/a&gt;
+. Goal was to see what SMIL is and how it can be used in the &lt;a href=&#34;http://www.keyworx.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KeyWorX&lt;/a&gt;
+ multi-user environment.&lt;/p&gt;
+&lt;p&gt;(from &lt;a href=&#34;http://www.w3.org/AudioVideo&#34;&gt;http://www.w3.org/AudioVideo&lt;/a&gt;)&lt;br&gt;
+The Synchronized Multimedia Integration Language (SMIL, pronounced &amp;quot;smile&amp;quot;) enables simple authoring of interactive audiovisual presentations. SMIL is typically used for &amp;quot;rich media&amp;quot;/multimedia presentations which integrate streaming audio and video with images, text or any other media type. SMIL is an easy-to-learn HTML-like language, and many SMIL presentations are written using a simple text-editor.&lt;/p&gt;
+&lt;p&gt;Tutorials&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.xml.com/pub/a/2002/05/29/smil.html&#34;&gt;http://www.xml.com/pub/a/2002/05/29/smil.html&lt;/a&gt; – good starting point, create your first SMIL presentation in 21 minutes!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.helio.org/products/smil/tutorial/toc.html&#34;&gt;http://www.helio.org/products/smil/tutorial/toc.html&lt;/a&gt; – good&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cwi.nl/~media/SMIL/Tutorial/SMILTut.html&#34;&gt;http://www.cwi.nl/~media/SMIL/Tutorial/SMILTut.html&lt;/a&gt; – slides&lt;/li&gt;
+&lt;li&gt;do a &lt;a href=&#34;http://www.google.com/search?q=SMIL&amp;#43;Tutorial&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Google search on SMIL tutorial&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Linux MediaBox</title>
+      <link>https://nl.justobjects.org/hello-world-2/</link>
+      <pubDate>Thu, 06 Jan 2005 22:58:50 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/hello-world-2/</guid>
+      <description>
+        
+          &lt;p&gt; &lt;/p&gt;
+
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;#ZgotmplZ&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2005/01/xbox.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;The stuff below was written in 2003. Much has happened since on what may be called the “Home Media Center”. For example Linux &lt;a href=&#34;http://www.mythtv.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Myth TV&lt;/a&gt;
+ on a barebones PC like the Asus Pundit. The stuff below is for reference.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h3&gt;
+&lt;p&gt;Around the house I have numerous devices that each serve multimedia functions:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www6.tomshardware.com/video/00q2/000418/index.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Tom’s Hardware – good intro to TV cards&amp;lt;br&amp;gt;
+&lt;/a&gt;
+ &lt;a href=&#34;http://www.tweakers.net/reviews/cat/66&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Tweakers.net&lt;/a&gt;
+ – Hauppauge WinTV Radio versus Miro PCTV Pro&lt;br&gt;
+&lt;a href=&#34;http://www.linuxgazette.com/issue62/silva.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Linuxgazette&lt;/a&gt;
+ – shows how to install a TV card + realproducer&lt;/p&gt;
+&lt;h3 id=&#34;hauppauge&#34;&gt;Hauppauge&lt;/h3&gt;
+&lt;p&gt;So far the &lt;a href=&#34;http://www.hauppauge.com/html/wintvpvr_datasheet.htm&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hauppage WinTV PVR 350&lt;/a&gt;
+ seems to match&lt;br&gt;
+this feature set only the reviews are differing. But most importantly the&lt;br&gt;
+&lt;a href=&#34;http://sourceforge.net/projects/pvr&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SourceForge project that develops PVR Linux drivers&lt;/a&gt;
+ for its MPEG-2 capabilities seems to have been abandoned. UPDATE: &lt;a href=&#34;http://ivtv.sourceforge.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;A new? sourceforge project&lt;/a&gt;
+ is going strongly. Capturing a video stream from the MPEG encoder seems to work.&lt;/p&gt;
+&lt;h3 id=&#34;linux-media-labs&#34;&gt;Linux Media Labs&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.linuxmedialabs.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Linux Media Labs&lt;/a&gt;
+ has produced a couple of linux video capture cards.The LML33 is a hardware Motion JPEG capture card, and the LMLM4 does hardware MPEG-4 compression. They are a bit expensive and I’m not sure either of those cards has a bulid-in tuner.&lt;/p&gt;
+&lt;h3 id=&#34;ati&#34;&gt;ATI&lt;/h3&gt;
+&lt;p&gt;Need more research on ATI cards like the &lt;a href=&#34;http://www.ati.com/products/pc/aiwradeon8500&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ALL-IN-WONDER® RADEON 8500&lt;/a&gt;
+. It seems a bid odd to have an integrated video/TV card…&lt;br&gt;
+&lt;a href=&#34;http://gatos.sourceforge.net&#34;&gt;http://gatos.sourceforge.net&lt;/a&gt; – Linux drivers for TV&lt;/p&gt;
+&lt;h3 id=&#34;the-search-for-a-silent-box&#34;&gt;The Search for a Silent Box&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.tweakers.net/reviews/344&#34;&gt;http://www.tweakers.net/reviews/344&lt;/a&gt; – but still not really silent&lt;br&gt;
+&lt;a href=&#34;http://www.silentpcreview.com&#34;&gt;http://www.silentpcreview.com&lt;/a&gt; – Silent PC Review&lt;br&gt;
+&lt;a href=&#34;http://www.solarpc.com/20.htm&#34;&gt;http://www.solarpc.com/20.htm&lt;/a&gt; – Solar PC takes Notebook motherboards and puts them in 1U cases with fanless power supplies&lt;/p&gt;
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://www2.warehouse.com/product.asp?pf%5Fid=EX10893&amp;amp;cat=pc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AverMedia&lt;/a&gt;
+ – USB TV card&lt;br&gt;
+&lt;a href=&#34;http://www.paranoyaxc.de/bungee/bungee.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Bungee Command-Line Recorder/Player for Linux&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;http://pvrusb.sourceforge.net&#34;&gt;http://pvrusb.sourceforge.net&lt;/a&gt; – an experimental Linux 2.4 driver for the Hauppauge WinTV PVR USB (NTSC only)&lt;br&gt;
+&lt;a href=&#34;http://www.mplayerhq.hu/homepage&#34;&gt;http://www.mplayerhq.hu/homepage&lt;/a&gt; – Movie Player for Linux, plays any format&lt;br&gt;
+&lt;a href=&#34;http://yolinux.com/TUTORIALS/LinuxTutorialVideo.html&#34;&gt;http://yolinux.com/TUTORIALS/LinuxTutorialVideo.html&lt;/a&gt; – YoLinux Tutorial: Video, DVD, TV and Multimedia&lt;br&gt;
+&lt;a href=&#34;http://bytesex.org&#34;&gt;http://bytesex.org&lt;/a&gt; – home of bttv, the device driver for bt848 / bt878 based grabber boards&lt;br&gt;
+&lt;a href=&#34;http://cserv.sourceforge.net&#34;&gt;http://cserv.sourceforge.net&lt;/a&gt; – Camserv, free program to do streaming video through the web&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

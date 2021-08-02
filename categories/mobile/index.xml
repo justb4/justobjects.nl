@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on Clarity</title>
+    <link>https://nl.justobjects.org/categories/mobile/</link>
+    <description>Recent content in Mobile on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 16 Feb 2018 23:03:57 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emit #3 – Things are Moving</title>
+      <link>https://nl.justobjects.org/emit-3/</link>
+      <pubDate>Fri, 16 Feb 2018 23:03:57 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/emit-3/</guid>
+      <description>
+        
+          &lt;p&gt;This is Emit #3, in a &lt;a href=&#34;https://nl.justobjects.org/categories/smartemission/&#34;&gt;series of blog-posts around the Smart Emission Platform&lt;/a&gt;
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality. In &lt;a href=&#34;https://nl.justobjects.org/emit-1/&#34;&gt;Emit #1&lt;/a&gt;
+, the big picture of the platform was sketched. Subsequent Emits will detail technical aspects of the SE Platform. “Follow the data” will be the main trail loosely adhered to.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/arch-big-picture.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;Three weeks ago since &lt;a href=&#34;https://nl.justobjects.org/emit-2/&#34;&gt;Emit #2&lt;/a&gt;
+. A lot of Things have been happening since:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;went to &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The Things Conference&lt;/a&gt;
+, all about &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;building a LoRaWAN network&lt;/a&gt;
+ with an open global community.&lt;/li&gt;
+&lt;li&gt;started at Dutch Kadaster to migrate the Smart Emission Platform  into the &lt;a href=&#34;https://www.pdok.nl/en/about-pdok&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National GDI PDOK&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Elaborated the &lt;a href=&#34;http://www.opengeospatial.org/standards/sensorthings&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorThings API&lt;/a&gt;
+ (STA) to see if it can replace &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
+ (SOS).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A lot to expand on. Will try to briefly summarize on The Things Conference, LoRA and LoRaWAN and save the other tech for later Emits.&lt;/p&gt;
+&lt;p&gt;LoRA and LoRaWAN may sound like a sidestep, but are very much related to for example building a network of Air Quality and other environmental sensors. When deploying such sensors two issues always arise:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;power: need continuous electricity to keep sensors and their computing boards powered&lt;/li&gt;
+&lt;li&gt;transmission: need cabled Internet, WIFI or cellular data to transmit sensor-data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In short, LoRa/LoRaWAN (LoRa=Long Range) is basically a wireless RF technology for long-&lt;wbr /&gt;range, low-power and low-throughput communications. You may find many references on the web like from the &lt;a href=&#34;https://www.lora-alliance.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;LoRa Alliance&lt;/a&gt;
+ and &lt;a href=&#34;https://www.semtech.com/technology/lora&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SemTech&lt;/a&gt;
+. There is lots of buzz around LoRa. But just like the, &lt;a href=&#34;https://wirelessleiden.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wireless Leiden project&lt;/a&gt;
+, who built a public WIFI network around the city, &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The ThingsNetwork&lt;/a&gt;
+ has embraced LoRa technology to build a world-wide open, community-driven, “overlay network”:&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://www.thethingsnetwork.org/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2018/02/ttn-pics.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;“The Things Network is building a network for the Internet of Things by creating abundant data connectivity, so applications and businesses can flourish. The technology we use is called LoRaWAN and it allows for things to talk to the internet without 3G or WiFi. So no WiFi codes and no mobile subscriptions. It features low battery usage, long range and low bandwidth. Perfect for the internet of things.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You may want to explore the worldwide map of TTN gateways below.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://www.thethingsnetwork.org/map&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2018/02/ttn-map.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;And &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The ThingsNetwork&lt;/a&gt;
+ (TTN) was established in Amsterdam, The Netherlands. As an individual you can extend The Things Network by deploying a &lt;a href=&#34;https://www.thethingsnetwork.org/docs/gateways/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gateway&lt;/a&gt;
+. Via the TTN KickStarter project, I was one of the first backers, already in 2015. The interest was overwhelming, even leading to (Gateway) delivery problems. But a LoRa Gateway to extend TTN is almost a commodity now. You can even &lt;a href=&#34;https://www.thethingsnetwork.org/docs/gateways/start/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;build one yourself&lt;/a&gt;
+. TTN is very much tied to the whole “DIY makers movement”. All TTN designs and code (on &lt;a href=&#34;https://github.com/thethingsnetwork&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
+) are open. Below a global architecture picture from their site.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/02/ttn-arch.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;So TTN organized &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;their first conference&lt;/a&gt;
+, off course in Amsterdam. For three days: it was an amazing success, more than 500 enthousiasts.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2018/02/ttn-conf.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;The conf was very hands-on with lots of free workshops (with free takeaway hardware). Followed several workshops, which were intense (hardware+software hacking) but always rewarding (blinking green lights!). One to mention in particular (as a Python programmer) was on &lt;a href=&#34;https://pycom.io/product/lopy/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;LoPy&lt;/a&gt;
+ a sort of Arduino board, very low cost (around $30), programmable with MicroPython that connects directly to TTN. Within an hour the board was happily sending meteo-data to the TTN.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://twitter.com/justb4/status/959113531449802752&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2018/02/lopy.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;All in all this conference made me eager to explore more of LoRA with TTN, in particular to explore possibilities for citizen-based sensor-networks for environmental, in particular air quality, data. I am aware that “IoT” has some bad connotations when it comes to security, especially from closed technologies. But IoT is a movement we cannot stop. With and end-to-end open technology like the TTN there is at least the possibility to avoid the “black box”-part and take things in our own hand.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Emit #1 – Into Spatiotemporal</title>
+      <link>https://nl.justobjects.org/emit-1/</link>
+      <pubDate>Sat, 20 Jan 2018 17:02:39 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/emit-1/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-google-photo.jpg&#34; alt=&#34;Smart Emission Googled for Photos&#34;&gt;&lt;/p&gt;
+&lt;p&gt;One of my new year’s resolutions for 2018 was to “blog more”. Not being very active on the well-known social media: a bit tired of Twitter, never really into Facebook, bit of LinkedIn. &lt;a href=&#34;https://lists.osgeo.org/mailman/listinfo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo mailing lists&lt;/a&gt;
+, &lt;a href=&#34;https://github.com/justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
+ and &lt;a href=&#34;https://gitter.im/geopython/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gitter&lt;/a&gt;
+ is where you can find me most (thanks Jody, for reminding!). And I read many blogs, especially on my &lt;a href=&#34;https://en.wikipedia.org/wiki/Nexus_10&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Nexus 10&lt;/a&gt;
+ tablet and &lt;a href=&#34;https://www.fairphone.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Fairphone 2&lt;/a&gt;
+ via the awesome &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
+ App. If you have not heard of &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
+ (or any other blog-feed collectors), stop here and check out &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
+! Most blogs (like this one) provide an &lt;a href=&#34;https://justobjects.nl/feed/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RSS/Atom-feed&lt;/a&gt;
+. Via &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
+ you can search/add RSS-feeds and thus create your own “reading table”. My favorite feeds are related to Open Source Geospatial, Python and IoT, like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://planet.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;planet.osgeo.org&lt;/a&gt;
+ – the OSGeo blog aggregator, must-read if you’re in Open Geospatial&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sgillies.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sean Gillies blog&lt;/a&gt;
+ – developer at MapBox a.o. of &lt;a href=&#34;http://toblerity.org/fiona/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Fiona&lt;/a&gt;
+, GeoPython, geospatial and personal stuff&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://planetpython.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Planet Python&lt;/a&gt;
+ – all Python&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://feedly.com/i/category/Geospatial&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2018/01/feedly.png&#34;
+      alt=&#34;Feedly shown in web browser&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Enough sidestepping, my goal is to share tech around the Open Source &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+ (SE Platform) in a series of posts, dubbed  ‘Emits’. This is Emit #1. Since 2014 I have been working on several projects, often through &lt;a href=&#34;https://www.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum&lt;/a&gt;
+, and recently via the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Union Joint Research Centre&lt;/a&gt;
+ (JRC), that deal with the acquisition, management, web-api-unlocking and visualization of environmental sensor-data, mainly for Air Quality (AQ).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-google.jpg&#34; alt=&#34;Smart Emission Googled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;What made these projects exciting for me is that they brought together many aspects and technologies (read: Open Source projects and &lt;a href=&#34;https://www.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo software&lt;/a&gt;
+) I had been &lt;a href=&#34;https://justobjects.nl/projects/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;working on&lt;/a&gt;
+ through the years. Also, it was the first time I got back into Environmental Chemistry, for which I hold a master’s degree from the University of Amsterdam, &lt;a href=&#34;https://justobjects.nl/writings/publications/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;co-authoring some publications&lt;/a&gt;
+, yes, many many years ago.&lt;/p&gt;
+&lt;p&gt;So what is the &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+ and what makes it exciting and relevant? In a nutshell (&lt;a href=&#34;http://smartplatform.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;read the tech doc here&lt;/a&gt;
+): The goal of the SE Platform is to facilitate the acquisition (harvesting)  of sensor-data from a multitude of sensor devices and make this data available via standardized formats and web-APIs (mainly: &lt;a href=&#34;http://www.opengeospatial.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Standards&lt;/a&gt;
+) and Viewers. The SE Platform originates, what is now called the &lt;a href=&#34;http://smartemission.ruhosting.nl/visitors/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;award-winning&lt;/a&gt;
+, &lt;a href=&#34;http://smartemission.ruhosting.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Nijmegen project&lt;/a&gt;
+ in 2015-2017. Quoting from the paper &lt;a href=&#34;http://www.ru.nl/publish/pages/774337/carton_etall_aesop-2015_v11_filling_thefeedback_gap_ofexternalities_insmartcities.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Filling the feedback gap of place-related externalities in smart cities”&lt;/a&gt;
+{.reference.external} :&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“…we present the set-up of the pilot experiment in project “Smart Emission”,&lt;/em&gt; &lt;em&gt;constructing an experimental citizen-sensor-network in the city of Nijmegen. This project, as part of&lt;/em&gt; &lt;em&gt;research program ‘Maps 4 Society,’ is one of the currently running Smart City projects in the&lt;/em&gt; &lt;em&gt;Netherlands. A number of social, technical and governmental innovations are put together in this&lt;/em&gt; &lt;em&gt;project: (1) innovative sensing method: new, low-cost sensors are being designed and built in the&lt;/em&gt; &lt;em&gt;project and tested in practice, using small sensing-modules that measure air quality indicators,&lt;/em&gt; &lt;em&gt;amongst others NO2, CO2, ozone, temperature and noise load. (2) big data: the measured data forms&lt;/em&gt; &lt;em&gt;a refined data-flow from sensing points at places where people live and work: thus forming a ‘big&lt;/em&gt; _picture’ to build a real-time, in-depth understanding of the local distribution of urban air quality (3)_&lt;em&gt;empowering citizens by making visible the ‘externality’ of urban air quality and feeding this into a&lt;/em&gt; &lt;em&gt;bottom-up planning process: the community in the target area get the co-decision-making control over&lt;/em&gt; &lt;em&gt;where the sensors are placed, co-interpret the mapped feedback data, discuss and collectively explore&lt;/em&gt; &lt;em&gt;possible options for improvement (supported by a Maptable instrument) to get a fair and ‘better’&lt;/em&gt; &lt;em&gt;distribution of air pollution in the city, balanced against other spatial qualities. ….”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-nijmegen.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;So from the outset the SE Platform is geared towards connecting citizen-owned sensor devices. Many similar programs and initiatives are currently evolving, often under the flag of Citizen Science and Smart Cities. Within the Netherlands, where the SE Nijmegen project originated, the &lt;a href=&#34;http://rivm.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National Institute for Public Health and the Environment&lt;/a&gt;
+ (RIVM) was an active project partner, and still stimulates citizens measuring Air Quality via a project and portal: &lt;a href=&#34;https://www.samenmetenaanluchtkwaliteit.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Together Measuring Air Quality”&lt;/a&gt;
+. In the context of discussions on Air Quality, climate change and lowering budgets for governmental environmental institutions, citizen-participation becomes more and more relevant. A whole series of blogs could be devoted to social and political aspects of Citizen Science, but I will stick to tech-stuff here.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-partners.png&#34; alt=&#34;:left&#34;&gt;&lt;/p&gt;
+&lt;p&gt;What made working on the SE Nijmegen project exciting and challenging, is that I was given time and opportunity by the project partners (see pic) to not just build a one-time project-specific piece of software, but a reusable set of Open Source components: the Smart Emission Platform ([sources on GitHub][42]).&lt;/p&gt;
+&lt;p&gt;Having had some earlier experience within the &lt;a href=&#34;http://sensors.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum SOSPilot project&lt;/a&gt;
+ (2014-2015), investigating among others the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sensor_Observation_Service&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
+ to unlock &lt;a href=&#34;http://www.lml.rivm.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RIVM AQ data (LML)&lt;/a&gt;
+, I was aware of the challenges dealing with what can be called &lt;em&gt;&lt;strong&gt;Spatiotemporal (Big) Data&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;The figure below shows The Big Picture of the SE Platform. Red arrows denote the flow of data: originating from sensor devices, going through Data Management (ETL), unlocked via various web-APIs, and finally “consumed” in client-apps and viewers.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/arch-big-picture.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;There are many aspects of the SE Platform that can be expanded. These are for upcoming Emits. For now a summary of some of the challenges and applied technologies, to be detailed later:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;raw data from sensors: requires refinement: validation/calibration/aggregation&lt;/li&gt;
+&lt;li&gt;dealing with Big Data that is both spatial (location-based) and temporal (time-based)&lt;/li&gt;
+&lt;li&gt;applying an &lt;a href=&#34;https://en.wikipedia.org/wiki/Artificial_neural_network&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Artificial Neural Network&lt;/a&gt;
+ (ANN) for sensor-data calibration&lt;/li&gt;
+&lt;li&gt;databases for Spatiotemporal data: PostGIS and &lt;a href=&#34;https://www.influxdata.com/time-series-platform/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;InfluxDB and TICK Stack&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;applying the &lt;a href=&#34;http://www.stetl.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl framework&lt;/a&gt;
+ for all data management (ETL)&lt;/li&gt;
+&lt;li&gt;metadata for sensors and sensor networks, always a tough and often avoided subject&lt;/li&gt;
+&lt;li&gt;connecting the Open Hardware &lt;a href=&#34;http://www.airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EU JRC AirSensEUR&lt;/a&gt;
+ AQ sensor-box to the SE Platform&lt;/li&gt;
+&lt;li&gt;using OGC WMS (with Dimensions for Time) and WFS for viewing and downloading sensor data&lt;/li&gt;
+&lt;li&gt;is &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
+ (SOS) and SWE still viable?&lt;/li&gt;
+&lt;li&gt;how powerful is the &lt;a href=&#34;http://www.opengeospatial.org/standards/sensorthings&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorThings API&lt;/a&gt;
+ (STA) standard?&lt;/li&gt;
+&lt;li&gt;deployment with Docker and &lt;a href=&#34;https://docs.docker.com/compose/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker Compose&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Docker and host systems monitoring: &lt;a href=&#34;https://prometheus.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Prometheus&lt;/a&gt;
+ + Grafana&lt;/li&gt;
+&lt;li&gt;OGC Services Monitoring with &lt;a href=&#34;http://geohealthcheck.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Visualizations: custom viewers with &lt;a href=&#34;http://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron&lt;/a&gt;
+/Leaflet/OpenLayers, Grafana dashboards&lt;/li&gt;
+&lt;li&gt;from development to test and production: &lt;a href=&#34;https://www.vagrantup.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Vagrant&amp;#43;VirtualBox&lt;/a&gt;
+, Ubuntu, Docker&lt;/li&gt;
+&lt;li&gt;using component-subsets of the platform for small deployments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/docker-monitoring.jpg&#34; alt=&#34;Monitoring SE Docker Containers: Prometheus+cAdvisor+Grafana&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A lot of stuff to uncover, hopefully got your interest if you have read all the way to here. Will try to treat one aspect/technology in each subsequent Emit-blog post. And off course the entire &lt;a href=&#34;https://github.com/geonovum/smartemission/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SE platform is Open Source&lt;/a&gt;
+ (GNU GPL), so you are free to download and experiment, and maybe even would like to contribute.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>GPS Hiking and The Evolution of Navigation</title>
+      <link>https://nl.justobjects.org/gps-hiking-evolution-navigation/</link>
+      <pubDate>Wed, 26 Aug 2015 11:56:33 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/gps-hiking-evolution-navigation/</guid>
+      <description>
+        
+          &lt;p&gt;On sunday August 25, 2015 I provided a talk/workshop for a local knowledge network of friends and acquaintances in Amsterdam. TLDR; see &lt;a href=&#34;http://gps.justobjects.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;gps.justobjects.nl&lt;/a&gt;
+. Originally, I would talk about &lt;em&gt;“Hiking with GPS”&lt;/em&gt;. But as I started pondering about this subject I decided to broaden the content to include also the evolution of navigation. My reasoning was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;by using GPS we unlearn navigational skills such as compass and map reading&lt;/li&gt;
+&lt;li&gt;my personal interest in human evolution for example the route humans followed out of Africa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/08/out-of-africa.jpg&#34; alt=&#34;Routes (red) of Homo Sapiens out of Africa to populate the World&#34;&gt;&lt;/p&gt;
+&lt;p&gt;So I combined all these elements into a new title/subject &lt;em&gt;“GPS Hiking and The Evolution of Navigation”&lt;/em&gt;. See also &lt;a href=&#34;http://www.slideshare.net/justb4/wandelen-met-gps-en-de-evolutie-van-navigatie&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;these slides&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Natural Navigation&lt;/strong&gt;&lt;br&gt;
+I was already reading and practicing the intriguing art of Natural Navigation which in short allows one to find direction without any device nor map. By reading and interpreting signs of nature one can determine direction, i.e. where The North is.&lt;/p&gt;
+&lt;p&gt;Natural Navigation is not just about finding direction by sun, moon and stars, but in particular by interpreting our natural surroundings, i.e. the land, the plants, the trees and animals. Natural forces shape these surroundings, making them asymmetric under the influence of their prevailing forces. This asymmetry in nature provides clues for example where the North is.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;http://www.naturalnavigator.com&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2015/08/tree-combined-wind-growth.jpg&#34;
+      alt=&#34;Left tree shaped by wind, right by the sun (src: The Natural Navigator, Gooley)&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;For instance: sun, rain and wind strongly shape the direction that trees and their branches grow. A prevailing south-western wind will bend trees slightly north-east.&lt;/p&gt;
+&lt;p&gt;But also mosses and lichen on trees give clues about direction. This has saved me once in finding my way when hiking on a cloudy day without GPS and an emptying smartphone.&lt;/p&gt;
+&lt;p&gt;To get started with Natural Navigation I recommend the books by Tristan Gooley via &lt;a href=&#34;http://www.naturalnavigator.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.naturalnavigator.com&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;http://www.naturalnavigator.com&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2015/08/book-tnn-gooley.jpg&#34;
+      alt=&#34;The Natural Navigator by Tristan Gooley&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;I am also intrigued in how early humans navigated. As hunter/gatherers we had to cross enormous stretches of land, often going far out from a base camp for a hunt or food collection. Did these first humans use dogs for navigation, made landmarks?They sure must have been masters at Natural Navigation. We can get some clues from indigenous people today. Years ago I read a fascinating book &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Songlines&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“The Songlines” by Bruce Chatwin&lt;/a&gt;
+, which in short told how Australian Aboriginals could navigate throughout their continent, or &lt;a href=&#34;https://en.wikipedia.org/wiki/Songline&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;as Wikipedia explains&lt;/a&gt;
+:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“Within the animist belief system of Indigenous Australians, a songline, also called dreaming&lt;/em&gt; &lt;em&gt;track, is one of the paths across the land which mark the route followed by localised ‘creator-beings’ during the Dreaming (creation time, JvdB). The paths of the songlines are recorded in traditional songs, stories, dance, and painting.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/08/songlines.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A knowledgeable person is able to navigate across the land by repeating the words of the song,&lt;/em&gt; &lt;em&gt;which describe the location of landmarks, waterholes, and other natural phenomena.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Going Outdoors&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/08/lezing-foto-1.jpg&#34; alt=&#34;GeoCaching and Natural Navigation&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We ended the session by doing an exercise with both Natural Navigation and following a route and GeoCaching with GPS. Here my &lt;a href=&#34;http://gps.justobjects.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Map5.nl&lt;/a&gt;
+ &lt;a href=&#34;http://app.map5.nl/nltopo/?key=gast&amp;amp;gpx=gpx/vliegenbos238.gpx&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLTopo App&lt;/a&gt;
+ appeared useful for those without GPS.&lt;/p&gt;
+
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;http://app.map5.nl/nltopo/?key=gast&amp;amp;gpx=gpx/vliegenbos238.gpx&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2015/08/nltopo-app.jpg&#34;
+      alt=&#34;The Route and Caches in the Map5.nl NLTopo App&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;It was fun afternoon, maybe something to reenact in another setting. Let me know if you are interested.&lt;/p&gt;
+&lt;p&gt;You can find the landing page of this talk/workshop at &lt;a href=&#34;http://gps.justobjects.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;gps.justobjects.nl&lt;/a&gt;
+ and &lt;a href=&#34;http://www.slideshare.net/justb4/wandelen-met-gps-en-de-evolutie-van-navigatie&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;slides on Slideshare&lt;/a&gt;
+. In Dutch but you may view the &lt;a href=&#34;https://translate.google.com/translate?sl=nl&amp;amp;tl=en&amp;amp;js=y&amp;amp;prev=_t&amp;amp;hl=en&amp;amp;ie=UTF-8&amp;amp;u=http%3A%2F%2Fgps.justobjects.nl%2F&amp;amp;edit-text=&amp;amp;act=url&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;page via Google Translate&lt;/a&gt;
+.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Making a Mobile Game at Picnic 2007</title>
+      <link>https://nl.justobjects.org/making-a-mobile-game-at-picnic-07/</link>
+      <pubDate>Wed, 03 Oct 2007 14:15:08 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/making-a-mobile-game-at-picnic-07/</guid>
+      <description>
+        
+          &lt;!--
+&lt;img loading=&#34;lazy&#34; class=&#34;alignleft wp-image-279 size-medium&#34; src=&#34;uploads/2007/10/walkandplay-thumb-300x242.jpg&#34; alt=&#34;walkandplay-thumb&#34; width=&#34;300&#34; height=&#34;242&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2007/10/walkandplay-thumb-300x242.jpg 300w, https://justobjects.nl/wp-content/uploads/2007/10/walkandplay-thumb-185x150.jpg 185w, https://justobjects.nl/wp-content/uploads/2007/10/walkandplay-thumb-150x121.jpg 150w, https://justobjects.nl/wp-content/uploads/2007/10/walkandplay-thumb.jpg 428w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;
+--&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;#ZgotmplZ&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2007/10/walkandplay-thumb-300x242.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;At &lt;a href=&#34;http://www.picnicnetwork.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Picnic 07&lt;/a&gt;
+ we held 2 workshops using our &lt;a href=&#34;http://walkandplay.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WalkAndPlay mobile gamekit&lt;/a&gt;
+ (based on &lt;a href=&#34;http://www.geotracing.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoTracing&lt;/a&gt;
+). Here participants can Create, Play and View a GPS-based locative mobile game.&lt;/p&gt;
+&lt;p&gt;Below is one of the results from the &lt;a href=&#34;http://www.picnicnetwork.org/article-7287-en.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Picnic Junior Workshop for highschools&lt;/a&gt;
+. You may also want to view the &lt;a href=&#34;http://extern.waag.org/just/7scenes/walknplay-picnicjr.mov&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;high resolution movie&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/4-_HOk_83s4?controls=1&amp;rel=0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This work will be continued at &lt;a href=&#34;http://7scenes.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;7scenes&lt;/a&gt;
+ (more info soon).&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Tracking Schuttevaer Sailing Race 2007</title>
+      <link>https://nl.justobjects.org/geosailing-live-schuttevaer/</link>
+      <pubDate>Fri, 08 Jun 2007 19:51:17 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/geosailing-live-schuttevaer/</guid>
+      <description>
+        
+          &lt;!-- &lt;img loading=&#34;lazy&#34; class=&#34;alignleft wp-image-290 size-medium&#34; src=&#34;uploads/2007/06/schuttevaer2-300x121.jpg&#34; alt=&#34;schuttevaer2&#34; width=&#34;300&#34; height=&#34;121&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2007/06/schuttevaer2-300x121.jpg 300w, https://justobjects.nl/wp-content/uploads/2007/06/schuttevaer2-250x101.jpg 250w, https://justobjects.nl/wp-content/uploads/2007/06/schuttevaer2-150x60.jpg 150w, https://justobjects.nl/wp-content/uploads/2007/06/schuttevaer2.jpg 527w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt; --&gt;
+&lt;p&gt; &lt;br&gt;
+
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;#ZgotmplZ&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2007/06/schuttevaer2-300x121.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;During June 7-9, 2007 the &lt;a href=&#34;http://www.schuttevaerrace.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch Schuttevaerrace&lt;/a&gt;
+ was &lt;a href=&#34;http://www.geosailing.com/svr&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;covered live&lt;/a&gt;
+ using Just Objects’ &lt;a href=&#34;http://www.geotracing.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoTracing&lt;/a&gt;
+ platform in combination with &lt;a href=&#34;http://www.falcom.de/index.php?id=801&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Falcom Mambo GPS/GPRS tracking devices&lt;/a&gt;
+ attached onboard with 15 boats. I did this project jointly with the &lt;a href=&#34;http://www.kenniscentrumjachtbouw.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Kenniscentrum Jachtbouw&lt;/a&gt;
+ (Dennis Carton, project initiator), &lt;a href=&#34;http://www.grrr.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Grrr&lt;/a&gt;
+ (Jelmer Boomsma and Rolf Coppens) and the Internet Acedemy of the &lt;a href=&#34;http://www.nhl.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Noordelijke Hogeschool Leeuwarden&lt;/a&gt;
+ (Frederik van der Meulen, Ronald Klooster).&lt;/p&gt;
+&lt;p&gt;Except with some GPS-fixing and GPRS coverage issues and this event was a huge success.&lt;/p&gt;
+&lt;p&gt;(Random images taken by sailors from &lt;a href=&#34;http://www.geosailing.com/svr&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.geosailing.com/svr&lt;/a&gt;
+)&lt;/p&gt;
+&lt;!-- &lt;table border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;8&#34;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      &lt;a href=&#34;http://www.geosailing.com/svr&#34; target=&#34;_new&#34;&gt;&lt;img src=&#34;http://www.geosailing.com/svr/srv/randomimage.jsp?resize=240x180&#34; alt=&#34;random image&#34; border=&#34;0&#34; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+
+    &lt;td&gt;
+      &lt;a href=&#34;http://www.geosailing.com/svr&#34; target=&#34;_new&#34;&gt;&lt;img src=&#34;http://www.geosailing.com/svr/srv/randomimage.jsp?n=1&amp;resize=240x180&#34; alt=&#34;random image&#34; border=&#34;0&#34; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt; --&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;http://www.geosailing.com/svr/srv/randomimage.jsp?resize=240x180&#34; alt=&#34; &#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;http://www.geosailing.com/svr/srv/randomimage.jsp?n=1&amp;amp;resize=240x180&#34; alt=&#34; &#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;http://www.geosailing.com/svr&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;random image&lt;/a&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;http://www.geosailing.com/svr&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;random image&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Some screenshots.&lt;/p&gt;
+&lt;!-- &lt;table border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;8&#34;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      &lt;a href=&#34;http://www.geosailing.com/svr&#34; target=&#34;_new&#34;&gt;&lt;img src=&#34;http://www.geosailing.com/svr/media.srv?id=1441&amp;resize=240x180!&#34; alt=&#34;screenshot image&#34; border=&#34;0&#34; /&gt;&lt;/a&gt;&lt;br /&gt; The Start
+    &lt;/td&gt;
+
+    &lt;td&gt;
+      &lt;a href=&#34;http://www.geosailing.com/svr&#34; target=&#34;_new&#34;&gt;&lt;img src=&#34;http://www.geosailing.com/svr/media.srv?id=1446&amp;resize=240x180!&#34; alt=&#34;screenshot image&#34; border=&#34;0&#34; /&gt;&lt;/a&gt;&lt;br /&gt; Routes and Photo&amp;#8217;s
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt; --&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;http://www.geosailing.com/svr/media.srv?id=1441&amp;amp;resize=240x180!&#34; alt=&#34; &#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;http://www.geosailing.com/svr/media.srv?id=1446&amp;amp;resize=240x180!&#34; alt=&#34; &#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;http://www.geosailing.com/svr&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The Start&lt;/a&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;http://www.geosailing.com/svr&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Routes and Photo’s&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Read more on &lt;a href=&#34;http://www.geotracing.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.geosailing.com&lt;/a&gt;
+.&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Waag Society Sarai Workshop with GeoTracing</title>
+      <link>https://nl.justobjects.org/waag-society-sarai-workshop-with-geotracing/</link>
+      <pubDate>Mon, 02 Apr 2007 07:05:26 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/waag-society-sarai-workshop-with-geotracing/</guid>
+      <description>
+        
+          &lt;!-- &lt;img loading=&#34;lazy&#34; class=&#34;alignleft wp-image-293 size-medium&#34; src=&#34;uploads/2007/04/waag-sarai1-map-300x205.jpg&#34; alt=&#34;waag-sarai1-map&#34; width=&#34;300&#34; height=&#34;205&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2007/04/waag-sarai1-map-300x205.jpg 300w, https://justobjects.nl/wp-content/uploads/2007/04/waag-sarai1-map-218x150.jpg 218w, https://justobjects.nl/wp-content/uploads/2007/04/waag-sarai1-map-150x102.jpg 150w, https://justobjects.nl/wp-content/uploads/2007/04/waag-sarai1-map.jpg 587w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt; --&gt;
+&lt;p&gt; &lt;br&gt;
+
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;#ZgotmplZ&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2007/04/waag-sarai1-map-300x205.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.waag.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Waag Society&lt;/a&gt;
+ held a Locative Media workshop @ Sarai Media lab, Delhi, India using &lt;a href=&#34;http://www.geotracing.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoTracing&lt;/a&gt;
+. View the video for an impression.&lt;/p&gt;
+&lt;p&gt; &lt;br&gt;
+ &lt;/p&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/KSReeo4fhm4?controls=1&amp;rel=0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Bliin</title>
+      <link>https://nl.justobjects.org/bliin/</link>
+      <pubDate>Mon, 20 Nov 2006 09:07:15 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/bliin/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2006/11/blinn-full.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;Users create ‘bliins’ to navigate and monitor their interests in a location or area. bliins can be saved and shared amongst users. Another &lt;a href=&#34;http://www.geotracing.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoTracing&lt;/a&gt;
+ project:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“&lt;a href=&#34;http://bliin.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;bliin&lt;/a&gt;
+ is a social networking service where users can spot, trace and share experiences — pictures, videos, audio and text — with one another in real-time on a Google Map.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://bliin.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;bliin&lt;/a&gt;
+ is available for Desktop &amp;amp; Pocket internet.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://bliin.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;bliin&lt;/a&gt;
+ is currently testing in closed beta. Users you see are live and media is uploaded in real-time.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Read all on &lt;a href=&#34;http://bliin.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;bliin.com&lt;/a&gt;
+. While still in alpha-stage &lt;a href=&#34;http://bliin.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;bliin&lt;/a&gt;
+ already attracted press and 1000-s of visitors. Below some links to various press articles and blogs.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.rtl.nl/%28/actueel/editienl/%29/components/actueel/editienl/2006/44/bliin.xml&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Altijd te vinden via GPS”&lt;/a&gt;
+, Editie NL, RTL 4, David Behrens, 10-30-2006&lt;br&gt;
+&lt;a href=&#34;http://www.bnr.nl/Weblog.asp?WeblogId=16&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Digitale pioniers”&lt;/a&gt;
+, Elektronische Eeuw, BNR Nieuwsradio, Herbert Blankesteijn, 10-26-2006&lt;br&gt;
+&lt;a href=&#34;http://cgi.omroep.nl/cgi-bin/streams?/radio1/tros/radioonline/20061024.wma?start=48:15&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Op bliin kan je jezelf volgbaar maken…”&lt;/a&gt;
+ Radio Online, Tros, Francisco van Jole, 10-24-2006&lt;br&gt;
+&lt;a href=&#34;http://www.yme.nl/ymerce/2006/10/digitale-pioniers.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Digitale pioniers?”&lt;/a&gt;
+, Ymerce, Yme Bosma, 10-23-2006&lt;br&gt;
+&lt;a href=&#34;http://www.digitalepioniers.nl/Academy&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Woophy, bliin en Bugpool winnaars…”&lt;/a&gt;
+, Digitale Pioniers Academy, Syb Groeneveld, 10-23-2006&lt;br&gt;
+&lt;a href=&#34;http://www.bright.nl/drie-digitale-pioniers-krijgen-25-duizend-euro&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Drie digitale pioniers krijgen 25 duizend euro”&lt;/a&gt;
+, Bright, Tonie van Ringelestijn, 10-23-2006&lt;br&gt;
+&lt;a href=&#34;http://gnispen.blogspot.com/2006/10/final-part-of-digitale-pioniers.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Digitale pioniers academie, de uitreiking”&lt;/a&gt;
+, SUbWAY, 10-21-2006&lt;br&gt;
+&lt;a href=&#34;http://gnispen.blogspot.com/2006/10/final-part-of-digitale-pioniers.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Final Part of Digital Pioneers Academy”&lt;/a&gt;
+, gnispen World in Pictures, Guido van Nispen, 10-21-2006&lt;br&gt;
+&lt;a href=&#34;http://radar.oreilly.com/brady/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“GeoTracing”&lt;/a&gt;
+, O’Reilly Radar, Brady Forrest, 9-14-2006&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Sense of Brainport</title>
+      <link>https://nl.justobjects.org/sense-of-brainport/</link>
+      <pubDate>Mon, 20 Nov 2006 08:29:45 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/sense-of-brainport/</guid>
+      <description>
+        
+          &lt;!-- &lt;img loading=&#34;lazy&#34; class=&#34;alignleft wp-image-298 size-large&#34; src=&#34;uploads/2006/11/senseofbrainport-1024x612.jpg&#34; alt=&#34;senseofbrainport&#34; width=&#34;820&#34; height=&#34;490&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2006/11/senseofbrainport-1024x612.jpg 1024w, https://justobjects.nl/wp-content/uploads/2006/11/senseofbrainport-300x179.jpg 300w, https://justobjects.nl/wp-content/uploads/2006/11/senseofbrainport-250x150.jpg 250w, https://justobjects.nl/wp-content/uploads/2006/11/senseofbrainport-150x89.jpg 150w, https://justobjects.nl/wp-content/uploads/2006/11/senseofbrainport.jpg 1075w&#34; sizes=&#34;(max-width: 820px) 100vw, 820px&#34; /&gt; --&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2006/11/senseofbrainport.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.senseofbrainport.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sense of Brainport&lt;/a&gt;
+ again a &lt;a href=&#34;http://www.geotracing.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoTracing project&lt;/a&gt;
+ was launched on September 21, 2006. During one week &lt;a href=&#34;http://www.senseofthecity.nl/sobp/deelnemers.jsp&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;participants&lt;/a&gt;
+ from &lt;a href=&#34;http://www.brainport.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Brainport&lt;/a&gt;
+ were “geotracing” the region of Eindhoven/”Zuid Oost Brabant” with a mobile phone and a GPS.&lt;/p&gt;
+&lt;p&gt;During the event they could be traced &lt;a href=&#34;http://www.senseofthecity.nl/sobp/map.jsp?cmd=live&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;in real-time on the map&lt;/a&gt;
+. While tracing the tracers are posting photos of their impressions. These photo’s are geotagged at the location taken. All their routes are stored in an archive for &lt;a href=&#34;http://www.senseofthecity.nl/sobp/map.jsp&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;viewing and playback&lt;/a&gt;
+.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Sense of the City</title>
+      <link>https://nl.justobjects.org/sense-of-the-city/</link>
+      <pubDate>Tue, 25 Apr 2006 08:11:15 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/sense-of-the-city/</guid>
+      <description>
+        
+          &lt;!-- &lt;img loading=&#34;lazy&#34; class=&#34;alignleft wp-image-300 size-medium&#34; src=&#34;uploads/2006/04/sotce-300x236.jpg&#34; alt=&#34;sotce&#34; width=&#34;300&#34; height=&#34;236&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2006/04/sotce-300x236.jpg 300w, https://justobjects.nl/wp-content/uploads/2006/04/sotce-190x150.jpg 190w, https://justobjects.nl/wp-content/uploads/2006/04/sotce-150x118.jpg 150w, https://justobjects.nl/wp-content/uploads/2006/04/sotce.jpg 381w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt; --&gt;
+&lt;p&gt; &lt;br&gt;
+
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;#ZgotmplZ&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2006/04/sotce-300x236.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.senseofthecity.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sense of the City&lt;/a&gt;
+ the latest &lt;a href=&#34;http://www.geotracing.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoTracing project&lt;/a&gt;
+ was launched on april 21, 2006. During the last week of april 2006, ten civilians are “geotracing” the Dutch city of Eindhoven with a mobile phone and a GPS. During the event they can be traced &lt;a href=&#34;http://www.senseofthecity.nl/sotce/sotc.jsp?cmd=live&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;in real-time on the map&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;While tracing the tracers are posting photos of their impressions. These photo’s are geotagged at the location taken. All their routes are stored in an archive for &lt;a href=&#34;http://www.senseofthecity.nl/sotce/sotc.jsp?cmd=staalkaart&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;viewing and playback.&lt;/a&gt;
+&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>GeoDrawing in the Night</title>
+      <link>https://nl.justobjects.org/geodrawing-in-the-night/</link>
+      <pubDate>Tue, 08 Nov 2005 09:53:20 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/geodrawing-in-the-night/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2005/11/n8spel1.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;Again I had the opportunity to do a fun and technically challenging geo-project using my &lt;a href=&#34;http://www.geotracing.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoTracing&lt;/a&gt;
+ platform: developing a &lt;a href=&#34;http://www.n8spel.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GPS-based mobile drawing game&lt;/a&gt;
+ for the  &lt;a href=&#34;http://www.n8.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Amsterdam Museum Night&lt;/a&gt;
+. Teams would go into the city where they compete on who would (geo)draw the most beautiful “8” by walking with a GPS and a mobile phone. They could embellish their drawings with photo’s and video’s taken and submitted on the spot. The competitive element was creativity with both the drawing and the media. All submitted media were tagged to the geographic locations where they were taken. The player’s movements, tracks and media could be followed in real-time through a webbrowser. You can view &lt;a href=&#34;http://www.bright.nl/node/257&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;a report with video made by Bright magazine&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2005/11/n8spel2.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;The N8-game application was developed in about one month by two developers. It consisted of three main components: (1) the server (2) mobile clients and (3) a web-browser front end.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;&lt;em&gt;mobile client&lt;/em&gt;&lt;/strong&gt; is a Java J2ME application (Midlet) running on a Nokia 6600 communicating with a &lt;a href=&#34;http://www.holux.com.tw/Temp%20web/GR-236.htm&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Holux GPSlim Bluetooth Sirf III GPS module&lt;/a&gt;
+. The main function of this app is to sample GPS data and transmit it to the server. Players could indicate with a button push to start (“pen-down”) and stop drawing (“pen-up”). Media were captured using the standard camera application on a Sony Z1010 phone. Media was submitted by email. The phone’s email adress is coupled to each team.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;&lt;em&gt;server&lt;/em&gt;&lt;/strong&gt; utilized the GeoTracing server without any modification. Basically a GeoTracing server functions as a remote GPS track-logger coupled to a Content Management System. GeoTracing is based on &lt;a href=&#34;http://www.keyworx.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KeyWorx&lt;/a&gt;
+. Incoming media are tied to a player (tracer) and a tracklog and a geographic location using the date in the medium (e.g. EXIF date) or the email submit time. The GeoTracing server provides a &lt;a href=&#34;http://en.wikipedia.org/wiki/Representational_State_Transfer&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;REST&lt;/a&gt;
+ service for clients to obtain tracklog meta information, (converted) media and tracklog data in an extended &lt;a href=&#34;http://www.topografix.com/gpx.asp&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GPX format&lt;/a&gt;
+. This also facilitates coupling with &lt;a href=&#34;http://en.wikipedia.org/wiki/AJAX&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AJAX&lt;/a&gt;
+ browser-technology (see below). The server also pushes live events like user movements and other tracklog events through &lt;a href=&#34;http://www.pushlets.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Pushlets&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;&lt;em&gt;web-browser front-end&lt;/em&gt;&lt;/strong&gt; was written using pure DHTML with &lt;a href=&#34;http://www.google.com/apis/maps&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Google Maps&lt;/a&gt;
+, &lt;a href=&#34;http://en.wikipedia.org/wiki/AJAX&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AJAX&lt;/a&gt;
+ and &lt;a href=&#34;http://www.pushlets.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;a Pushlet client&lt;/a&gt;
+.&lt;br&gt;
+Through Pushlets the browser receives real-time events like player movements and incoming media. Using the server REST service with AJAX player and tracklog info is obtained. Conceptually the browser-server interaction follows a distributed &lt;a href=&#34;http://en.wikipedia.org/wiki/Model_view_controller&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Model-View-Controller pattern&lt;/a&gt;
+ with the Model on the server, the events to the View (browser) transmitted with Pushlets and the Controller function using AJAX.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>GeoSkating – Draw maps while skating</title>
+      <link>https://nl.justobjects.org/geoskating-new-project/</link>
+      <pubDate>Sun, 29 May 2005 15:08:13 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/geoskating-new-project/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;a href=&#34;http://www.geoskating.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoSkating&lt;/a&gt;
+ is my latest project started in february 2005.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2005/05/geoskating.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.geoskating.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoSkating&lt;/a&gt;
+ aims to automate the generation of interactive annotated skate-maps by using the Global Positioning System (GPS), Mobile Phones and the Internet. The key idea is that while skating, GPS position data is being assembled and published to a server through a mobile phone. At the same time the skater can enrich the GPS data with road surface ratings and by submitting media items like pictures. The server will draw geographic maps showing road quality through colouring plus the submitted media on the GPS locations where they were captured. In addition, skaters can also be seen moving in real-time on the map while skating!&lt;/p&gt;
+&lt;p&gt;The technical setup is globally as follows. GPS data is sampled using a standard &lt;a href=&#34;http://www.delorme.com/bluelogger&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Bluetooth GPS module&lt;/a&gt;
+. This module communicates with a mobile phone, a &lt;a href=&#34;http://www.nokia.com/nokia/0,4879,33210,00.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Nokia 6600&lt;/a&gt;
+. On the mobile phone runs a small &lt;a href=&#34;http://java.sun.com/j2me&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Java (J2ME)&lt;/a&gt;
+ program that reads the GPS data from the GPS module and sends it through the mobile data network (GPRS) to the geoskating.com server. The skater can enter the road quality as a number (1-5) on the phone keypad. The current quality is always added to each GPS sample sent to the server.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MIDP 2  on Mac OS X is here !</title>
+      <link>https://nl.justobjects.org/midp-2-on-mac-os-x-is-here/</link>
+      <pubDate>Fri, 11 Mar 2005 21:21:08 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/midp-2-on-mac-os-x-is-here/</guid>
+      <description>
+        
+          &lt;p&gt;
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;#ZgotmplZ&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2005/03/bluetooth.gif&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+Since Mac OS X is already my preferred platform for Java development, I was very pleased to experience that J2ME development for MIDP 2.0 has finally become reality. I can now develop, compile, verify, package, run, debug and deploy MIDP 2.0 MIDlets from within my Java IDE (&lt;a href=&#34;http://www.jetbrains.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;IntelliJ IDEA&lt;/a&gt;
+). All thanks to &lt;a href=&#34;http://www.mpowerplayer.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Michael Powers mpowerplayer&lt;/a&gt;
+. Best way to start is to go to &lt;a href=&#34;http://developer.mpowerplayer.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;developer.mpowerplayer.com&lt;/a&gt;
+ and download the SDK. But there is more.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://www.mpowerplayer.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Mpowerplayer&lt;/a&gt;
+ offers the tools familiar to J2ME developers: MIDP2.0 jars, the preverify tool and a MIDP2.0 emulator. Additionally, if your Mac has &lt;a href=&#34;http://www.bluetooth.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Bluetooth&lt;/a&gt;
+ support, you can quickly deploy your MIDLet using the OS X &lt;a href=&#34;http://www.apple.com/bluetooth/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Bluetooth File Exchange&lt;/a&gt;
+. To automate deployment I wrote a one-line script &lt;code&gt;btsend.sh&lt;/code&gt; that is called directly from within &lt;a href=&#34;http://ant.apache.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Ant&lt;/a&gt;
+:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/sh
+&lt;/span&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;/usr/bin/open -a &lt;span class=&#34;s2&#34;&gt;&amp;#34;/Applications/Utilities/Bluetooth File Exchange.app&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and then from within Ant&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&amp;lt;target name=&amp;#34;deploy&amp;#34;&amp;gt;
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;  &amp;lt;exec executable=&amp;#34;${basedir}/btsend.sh&amp;#34;&amp;gt;
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;    &amp;lt;arg line=&amp;#34;${myproject.jar}&amp;#34;/&amp;gt;
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;  &amp;lt;/exec&amp;gt;
+&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&amp;lt;/target&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The only manual action is to select your mobile device from the Bluetooth File Exchange list of devices. On my Nokia 6600 phone I receive an incoming message and the installer is run.&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;#ZgotmplZ&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2005/03/gps-earthmate.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+If you are developing Bluetooth-based MIDlets using &lt;a href=&#34;http://www.jcp.org/en/jsr/detail?id=82&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;the JSR-82 Bluetooth API&lt;/a&gt;
+ you can additionally download, evaluate and acquire the &lt;a href=&#34;http://www.avetana-gmbh.de/avetana-gmbh/produkte/jsr82.eng.xml&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Avetana JSR-82 implementation for OS X&lt;/a&gt;
+. This allows you to fully test Bluetooth-based J2ME apps from within your IDE on Mac OS X. For example, I was able to connect and test to the &lt;a href=&#34;http://www.delorme.com/bluelogger&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Delorme Blue Logger GPS&lt;/a&gt;
+&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Frequency 1550 – cross-media gaming into medieval times</title>
+      <link>https://nl.justobjects.org/frequency-1550-cross-media-gaming-into-medieval-times/</link>
+      <pubDate>Wed, 09 Feb 2005 00:39:32 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/frequency-1550-cross-media-gaming-into-medieval-times/</guid>
+      <description>
+        
+          &lt;p&gt;
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;http://www.computable.nl/artikels/archief5/d07hb5nh.htm&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2005/02/f1150-hq-small-200x150.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;a href=&#34;http://freq1550.waag.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Frequency 1550&lt;/a&gt;
+ is a multi-user city game using mobile phones and GPS-technology. The game provides a real-time, location-based experience, transporting players into medieval Amsterdam of 1550 via today’s most advanced personal medium: a UMTS mobile phone. It is the one of the most exciting projects I ever worked on!F ind more info in &lt;a href=&#34;http://www.computable.nl/artikel/achtergrond/onderwijs/1415901/1277214/umtspilot-in-middeleeuws-amsterdam.html&#34;&gt;an article in the Computable magazine&lt;/a&gt; (Dutch).&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;float_right&#34;&gt;
+  &lt;a href=&#34;https://files.justobjects.nl/jo/assets/presentation/f1550tech/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2005/02/f1150-infra-thumb-199x150.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;a href=&#34;http://connectmedia.waag.org/media/freq1550killerclub.mov&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;There is a project presentation in streaming video on connect.waag.org&lt;/a&gt;
+. There are also &lt;a href=&#34;https://files.justobjects.nl/jo/assets/doc/jspring-2005.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;slides of presentations&lt;/a&gt;
+. I gave at the &lt;a href=&#34;http://www.nljug.org/en/pages/events/content/jspring_2005/sessions/00001&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch Java User Group (NLJUG)&lt;/a&gt;
+ and at the &lt;a href=&#34;http://extern.waag.org/just/freq1550&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Society for Old and New Media (KillerClub)&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;The project even hit the national news ! Click &lt;a href=&#34;https://files.justobjects.nl/jo/assets/doc/mg-journaal.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;on anchor-man Gijs&lt;/a&gt;
+ to watch the Flash video.&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;float_left&#34;&gt;
+  &lt;a href=&#34;https://files.justobjects.nl/jo/assets/doc/mg-journaal.html&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2005/02/f1150-journaal-thumb-201x150.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+The game evolves around players being personages in an adventure where they help the “schout” (medieval police) who will contact them by video when entering zones or reaching (GPS) locations. Players will try to solve assignments given by the “schout” on the street or through one of their&lt;br /&gt; team members on the home base, HQ, (behind a Flash-based interface). Assignments are solved by making media (photo’s, videos) at the spot&lt;br /&gt; and submitting these. The HQ may consult internet for additional media and textual answers. Thus together, teams provide multi-media&lt;br /&gt; content, resulting in a media-collage at the end. Additional game elements include, GPS-based boobytrapping, confrontations and cloaking.&lt;/p&gt;
+&lt;p&gt;My task in this project was development of the server-side gaming engine, media management and location tracking. Yes, the server was done in Java using the &lt;a href=&#34;http://www.keyworx.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KeyWorx&lt;/a&gt;
+ platform. Client software was done using the Java 2 Mobile Edition (J2ME) for the phones and Macromedia Flash for the HQ.&lt;/p&gt;
+&lt;p&gt;I am grateful to have been part of the team at &lt;a href=&#34;http://www.waag.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Waag Society&lt;/a&gt;
+ who has initiated and developed this mobile learning game together with IVKO, part of the Montessori comprehensive school in Amsterdam. The project was supported by &lt;a href=&#34;http://www.kpn-corporate.com/nl/pers/?id=2.02&amp;amp;taal=nl&amp;amp;pers_id=227&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KPN&lt;/a&gt;
+ who supplied mobile phones and access to their UMTS network. A pilot has just been conducted in 2005 from 7 to 9 February.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

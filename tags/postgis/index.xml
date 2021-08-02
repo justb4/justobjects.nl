@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PostGIS on Clarity</title>
+    <link>https://nl.justobjects.org/tags/postgis/</link>
+    <description>Recent content in PostGIS on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 11 Jan 2019 02:04:54 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/postgis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cheers to 2018</title>
+      <link>https://nl.justobjects.org/cheers-to-2018/</link>
+      <pubDate>Fri, 11 Jan 2019 02:04:54 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/cheers-to-2018/</guid>
+      <description>
+        
+          &lt;p&gt;Never too late to look back. Inspired by the concise bullet-point-style of Tom Kralidis’ &lt;a href=&#34;http://www.kralidis.ca/blog/2018/12/28/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cheers to 2018&lt;/a&gt;
+,  my personal highlights of living and working in the Open Source Geospatial and OSGeo(.nl|org)-world in 2018. I’ll post 2019 reso’s later. Not just personal projects, but also events from the &lt;a href=&#34;https://osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl Local Chapter&lt;/a&gt;
+ in which I am involved since its beginnings.&lt;/p&gt;
+&lt;h3 id=&#34;january&#34;&gt;January&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;One of my 2018-resolutions was to focus more on SensorWeb/Spatiotemporal inspired by working since 2015 on the &lt;a href=&#34;https://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission project&lt;/a&gt;
+. Started a &lt;a href=&#34;https://justobjects.nl/category/smartemission/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;blog-post-series “Emits”&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;With &lt;a href=&#34;https://osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl&lt;/a&gt;
+ we always start the year (since 2011) with a joint &lt;a href=&#34;https://osgeo.nl/2018/02/verslag-nieuwjaarsborrel-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl and OpenStreetMap NL new-years party&lt;/a&gt;
+ at Cafe Dudok in Hilversum. Many of the 2018-plans discussed there became reality. Not at least the two QGIS-Days and FOSS4G-NL 2018 conference (see below).&lt;/li&gt;
+&lt;li&gt;The first Dutch QGIS Day hosted by the &lt;a href=&#34;https://www.un-ihe.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;IHE Delft Institute for Water Education&lt;/a&gt;
+. Very well attended (160?) by both regular QGIS-users and IHE-students. Big thanks to &lt;a href=&#34;https://geo-academie.nl/erik/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Erik Meerburg&lt;/a&gt;
+ (what would OSGeo.nl be without Erik?) and &lt;a href=&#34;https://www.un-ihe.org/hans-van-der-kwast&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hans van der Kwast&lt;/a&gt;
+ (IHE).&lt;/li&gt;
+&lt;li&gt;Started working on a contract for the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Commission Joint Research Center&lt;/a&gt;
+ (Ispra, Italy)  to deploy five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
+ air-quality stations within the Netherlands, connecting these to the &lt;a href=&#34;https://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+. More in &lt;a href=&#34;https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this blog-post&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;february&#34;&gt;February&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;As first-timer went to &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;TheThingsNetwork Conference&lt;/a&gt;
+. What an amazing event! For some years already into &lt;a href=&#34;https://en.wikipedia.org/wiki/LoRa&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Lora(WAN)&lt;/a&gt;
+ and maintaining a TTN Gateway, I learned so much, also from the workshops there, that I wrote a &lt;a href=&#34;http://justobjects.nl/emit-3/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;separate blog-post about this event&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Started contracting (eventually until sept 30, 2018) at Dutch Kadaster to migrate the entire Smart Emission (SE) Platform to Kadaster infrastructure. Initially just migrating the &lt;a href=&#34;https://cloud.docker.com/u/smartemission/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SE Docker Images&lt;/a&gt;
+, normally two-weeks (to be honest, a day’s) work, BUT, as a (nice) surprise learned we had to move SE “To The Cloud”, that is to &lt;a href=&#34;https://azure.microsoft.com/en-us/services/kubernetes-service/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Azure Kubernetes (AKS)&lt;/a&gt;
+, well that kept me and one Kadaster-colleague (learned a lot from you Gerwin!) busy till end of september at least  2-3 days a week!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;march&#34;&gt;March&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;As first-timer went to the &lt;a href=&#34;https://wiki.osgeo.org/wiki/OSGeo_Code_Sprint_2018&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo 2018 Code Sprint in Bonn&lt;/a&gt;
+. Mainly to work on &lt;a href=&#34;https://geohealthcheck.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+. (GHC). Another highlight! Not the least since I finally met the great &lt;a href=&#34;https://www.osgeo.org/member/tom-kralidis/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Tom Kralidis&lt;/a&gt;
+! I had been working on GHC with Tom a couple of years but we somehow never met IRL. Spent most of week on a single PR (&lt;a href=&#34;https://github.com/geopython/GeoHealthCheck/pull/222&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;per-Resource scheduling&lt;/a&gt;
+) which required a re-architecture of GHC. But more importantly socializing with Tom and other folks there, well, Bonn, need I say more…Thanks organizers: &lt;a href=&#34;https://wiki.osgeo.org/wiki/Astrid_Emde&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Astrid Emde&lt;/a&gt;
+ et al. for this great week!&lt;/li&gt;
+&lt;li&gt;In that same codesprint week I also attended several talks at the yearly &lt;a href=&#34;https://fossgis-konferenz.de/2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSSGIS Conference&lt;/a&gt;
+  there. The FOSSGIS Conference is a major event in Europe as it involves all German-speaking (DACH) countries, plus their OpenStreetMap communities. Even with my high-school German language knowledge very well to follow.  As an exception to the rule I was grateful to be allowed to give a &lt;a href=&#34;https://geohealthcheck.org/presentation/#/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck presentation&lt;/a&gt;
+ in English. Thanks to &lt;a href=&#34;https://www.ccc.de&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CCC&lt;/a&gt;
+, FOSSGIS always videotapes all talks, so you can &lt;a href=&#34;https://media.ccc.de/v/2018-5294-geohealthcheck&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;watch some of my stuttering here&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;april&#34;&gt;April&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;With OSGeo.nl we and our community-members more and more try to organize small, hands-on events that are lightweight to organize. The &lt;a href=&#34;https://osgeo.nl/2018/04/verslag-nlextract-hacking-day/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLExtract Hacking Day&lt;/a&gt;
+ was a success! Thanks to organizer Frank Steggink (who also wrote the report), and a great space offered by &lt;a href=&#34;https://www.webmapper.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WebMapper&lt;/a&gt;
+ (Edward MacGillavry) in the &lt;a href=&#34;https://sifutrecht.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Social Impact Factory Utrecht.&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;may&#34;&gt;May&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;What happened in this month? Luckily GitHub tracks my activity. Many commits for the Smart Emission Kubernetes challenge. I see a week without commits in May: made a great hiking trip with friends in Ireland: the &lt;a href=&#34;http://www.kerryway.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Kerry Way&lt;/a&gt;
+. Rain? Only one evening when walking to the pub (always live music there)!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://github.com/justb4?tab=overview&amp;amp;from=2018-01-01&amp;amp;to=2018-12-31&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2019/01/github-2018-just.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;h3 id=&#34;june&#34;&gt;June&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;More work on &lt;a href=&#34;https://map5.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5.nl&lt;/a&gt;
+, a subscription service for Dutch topographic, historical- and embellished hillshade and arial maps I started to host in 2015. Plus ongoing Smart Emission stuff.&lt;/li&gt;
+&lt;li&gt;Gradually, a heat-wave was overtaking The Netherlands. Climate change?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;july&#34;&gt;July&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Heat-wave more and more building up.. But that did not stop the great OSGeo.nl organizing team to host the second &lt;a href=&#34;https://foss4g.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G-NL in Almere&lt;/a&gt;
+. July 10-11. Kudos to Erik Meerburg and team for two great days of workshops and conf!&lt;/li&gt;
+&lt;li&gt;At the FOSS4G-NL I had the honor to &lt;a href=&#34;https://www.slideshare.net/justb4/osgeonlopeningfoss4gnl2018&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;open the conference&lt;/a&gt;
+ and  present the &lt;a href=&#34;https://geoforum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;national Dutch GeoForum: geoforum.nl.&lt;/a&gt;
+ We jointly (Kadaster, WebMapper, OSGeo.nl) extended the existing Dutch Kadaster PDOK Forum. As OSGeo.nl we did not want to launch yet another forum but to bundle forces.  Since that launch hundreds of folks registered.&lt;/li&gt;
+&lt;li&gt;Week after: off to &lt;a href=&#34;https://foss4g-europe.osgeopt.pt/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G-EU&lt;/a&gt;
+ in &lt;a href=&#34;https://en.wikipedia.org/wiki/Guimar%C3%A3es&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Guimarães&lt;/a&gt;
+,Portugal. FOSS4G-EU is always something special. Folks gather from literally every country in Europe. From the Baltic States to Croatia. In a cosy atmosphere &lt;a href=&#34;https://wiki.osgeo.org/wiki/Jorge_Gustavo_Rocha&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jorge Gustavo Rocha&lt;/a&gt;
+ and the LOC made this into a great event. Great talks during the day and every evening (and sometimes nights) in this small-town university city it was easy to find and gather with the OSGeo-folks on the main square &lt;a href=&#34;https://en.wikipedia.org/wiki/Historic_Centre_of_Guimar%C3%A3es&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Largo da Oliveira&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;august&#34;&gt;August&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Started to seriously deploy the five AirSensEUR (ASE) stations. First at an RIVM air quality station in Breukelen next to the main A2 highway. With the great help of Jan Vonk of RIVM we managed to attach and digitally connect these stations at their premises. To have an idea, read &lt;a href=&#34;https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my blog post on this effort&lt;/a&gt;
+. The ASE stations will gather raw, uncalibrated, Air Quality data there for two months and use the onsite RIVM measurements as reference for later calibration.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://nl.justobjects.org/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2019/01/ase-rivm-breukelen.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;h3 id=&#34;september&#34;&gt;September&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Again a small gap in my GitHub commit history: two weeks with my family (and our great Labrador Jamie) in rural France: Auvergne and Ardeche. I always love to set out GPS-hikes at home, hacking some of the French IGN topo-maps for personal use, and see how these turn out on the spot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2019/01/ign-trails.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;oktober&#34;&gt;Oktober&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Contract with Dutch Kadaster ended on sept 30. Just in time we migrated the entire Smart Emission stack to Azure Kubernetes (AKS). Well, IMHO Kubernetes is just awesome, especially after a few years of ad-hoc Docker deployment. Yes, a learning curve and devops-paradigm shift. Though for smaller projects in 2019 I am now combining &lt;a href=&#34;https://www.ansible.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Ansible&lt;/a&gt;
+ with Docker (Compose).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;After two months of gathering data for calibration, deployed the five AirSensEUR (ASE) stations at their target locations within The Netherlands. At each location challenges: an ASE needs 3 things: 1) to be firmly/rain-protected mounted physically, 2) 220V current and 3) WIFI. That combination turned out to be a challenge at each spot. But finally all five ASEs are now humming at their spots.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://data.smartemission.nl/grafana-dc/d/HVSBmbHmz/airsenseur-netherlands-deploy&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2019/01/ases-o3.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And with OSGeo.nl we had the second 2018 QGIS-Day at &lt;a href=&#34;https://www.ordina.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Ordina Utrecht&lt;/a&gt;
+. Thanks to the LOC: Jonas, Coen et al. Observation: all hands-on workshops were overcrowded!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;november&#34;&gt;November&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;More work on &lt;a href=&#34;https://map5.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5.nl&lt;/a&gt;
+ and working on a next SAAS: &lt;a href=&#34;https://geohealthcheck.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+ in the Cloud, as a subscription service, under the name &lt;a href=&#34;https://geoqos.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;geoqos&lt;/a&gt;
+ (“Geo-Cause”) on &lt;a href=&#34;https://geoqos.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;geoqos.com&lt;/a&gt;
+. Hopefully that makes the GeoHealthCheck project sustainable.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Presented Smart Emission at the &lt;a href=&#34;https://www.geonovum.nl/over-geonovum/agenda/geo-gebruikersfestival-2018-en-sdinext&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geo Users Festival by Geonovum&lt;/a&gt;
+. Bit of beamer issues, &lt;a href=&#34;https://www.slideshare.net/justb4/sensor-sdi-in-pdok-with-smart-emission-platform&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my slides on Slideshare&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://www.geonovum.nl/over-geonovum/agenda/geo-gebruikersfestival-2018-en-sdinext&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2019/01/geofestival-2018.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What’s that day after the &lt;a href=&#34;https://www.gisday.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GIS Day&lt;/a&gt;
+? Yes, the &lt;a href=&#34;https://postgisdag.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PostGIS Day&lt;/a&gt;
+! That’s exactly what the LOC team (Steven M. Ottens and Tom van Tilburg) organized. Deliberately keeping it low-profile to attract high-profile PostGIS hackers. And how they did! The format was an &lt;a href=&#34;https://en.wikipedia.org/wiki/Unconference&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;unconference&lt;/a&gt;
+. Even as a considered PostGIS veteran (starting with a PostGIS workshop from &lt;a href=&#34;http://2006.foss4g.org/contributionDisplay0b28.html?contribId=47&amp;amp;sessionId=61&amp;amp;confId=1&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Paul Ramsey in Lausanne 2006&lt;/a&gt;
+) my  brain was crushing hearing stuff like from &lt;a href=&#34;http://www.gdmc.nl/martijn/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Martijn Meijers&lt;/a&gt;
+ - &lt;em&gt;&lt;a href=&#34;https://www.google.com/search?q=Indexing&amp;#43;AIS&amp;#43;data&amp;#43;%2F&amp;#43;point&amp;#43;clouds&amp;#43;with&amp;#43;a&amp;#43;Space&amp;#43;Filling&amp;#43;Curve&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;aq=t&amp;amp;channel=rcs&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Indexing AIS data / point clouds with a Space Filling Curve&lt;/a&gt;
+&lt;/em&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://postgisdag.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2019/01/postgisday-2018.jpg&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;december&#34;&gt;December&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Through my various projects thinking: All GeoData is Spatio-Temporal. Presented in Eindhoven at a Ruimteschepper event: &lt;em&gt;LoRaWAN TheThingsNetwork makers event&lt;/em&gt;. &lt;a href=&#34;https://www.slideshare.net/justb4/open-sensor-networks-with-lora-ttn-and-sensorthings-api&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Slides are here&lt;/a&gt;
+.  For one thing attempted to bridge the world of IoT with OGC SensorWeb via the &lt;a href=&#34;https://en.wikipedia.org/wiki/SensorThings_API&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SensorThings API&lt;/a&gt;
+ in a PoC.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://www.slideshare.net/justb4/open-sensor-networks-with-lora-ttn-and-sensorthings-api&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2019/01/poc-ttn-sta.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;That’s almost it of 2018. A last brainwave on GeoHealthCheck usability made me to introduce interactive &lt;a href=&#34;https://plot.ly/javascript/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Plotly.js&lt;/a&gt;
+ based interactive history Run-graphs. Together with and thanks to Tom Kralidis reviewing that was my final GitHub commit in 2018. Ok finalized on jan 3, 2019 but what a year!&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://geohealthcheck.org/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2019/01/plotly-ghc.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Emit #1 – Into Spatiotemporal</title>
+      <link>https://nl.justobjects.org/emit-1/</link>
+      <pubDate>Sat, 20 Jan 2018 17:02:39 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/emit-1/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-google-photo.jpg&#34; alt=&#34;Smart Emission Googled for Photos&#34;&gt;&lt;/p&gt;
+&lt;p&gt;One of my new year’s resolutions for 2018 was to “blog more”. Not being very active on the well-known social media: a bit tired of Twitter, never really into Facebook, bit of LinkedIn. &lt;a href=&#34;https://lists.osgeo.org/mailman/listinfo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo mailing lists&lt;/a&gt;
+, &lt;a href=&#34;https://github.com/justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
+ and &lt;a href=&#34;https://gitter.im/geopython/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gitter&lt;/a&gt;
+ is where you can find me most (thanks Jody, for reminding!). And I read many blogs, especially on my &lt;a href=&#34;https://en.wikipedia.org/wiki/Nexus_10&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Nexus 10&lt;/a&gt;
+ tablet and &lt;a href=&#34;https://www.fairphone.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Fairphone 2&lt;/a&gt;
+ via the awesome &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
+ App. If you have not heard of &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
+ (or any other blog-feed collectors), stop here and check out &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
+! Most blogs (like this one) provide an &lt;a href=&#34;https://justobjects.nl/feed/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RSS/Atom-feed&lt;/a&gt;
+. Via &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
+ you can search/add RSS-feeds and thus create your own “reading table”. My favorite feeds are related to Open Source Geospatial, Python and IoT, like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://planet.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;planet.osgeo.org&lt;/a&gt;
+ – the OSGeo blog aggregator, must-read if you’re in Open Geospatial&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sgillies.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sean Gillies blog&lt;/a&gt;
+ – developer at MapBox a.o. of &lt;a href=&#34;http://toblerity.org/fiona/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Fiona&lt;/a&gt;
+, GeoPython, geospatial and personal stuff&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://planetpython.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Planet Python&lt;/a&gt;
+ – all Python&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://feedly.com/i/category/Geospatial&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2018/01/feedly.png&#34;
+      alt=&#34;Feedly shown in web browser&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Enough sidestepping, my goal is to share tech around the Open Source &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+ (SE Platform) in a series of posts, dubbed  ‘Emits’. This is Emit #1. Since 2014 I have been working on several projects, often through &lt;a href=&#34;https://www.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum&lt;/a&gt;
+, and recently via the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Union Joint Research Centre&lt;/a&gt;
+ (JRC), that deal with the acquisition, management, web-api-unlocking and visualization of environmental sensor-data, mainly for Air Quality (AQ).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-google.jpg&#34; alt=&#34;Smart Emission Googled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;What made these projects exciting for me is that they brought together many aspects and technologies (read: Open Source projects and &lt;a href=&#34;https://www.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo software&lt;/a&gt;
+) I had been &lt;a href=&#34;https://justobjects.nl/projects/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;working on&lt;/a&gt;
+ through the years. Also, it was the first time I got back into Environmental Chemistry, for which I hold a master’s degree from the University of Amsterdam, &lt;a href=&#34;https://justobjects.nl/writings/publications/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;co-authoring some publications&lt;/a&gt;
+, yes, many many years ago.&lt;/p&gt;
+&lt;p&gt;So what is the &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+ and what makes it exciting and relevant? In a nutshell (&lt;a href=&#34;http://smartplatform.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;read the tech doc here&lt;/a&gt;
+): The goal of the SE Platform is to facilitate the acquisition (harvesting)  of sensor-data from a multitude of sensor devices and make this data available via standardized formats and web-APIs (mainly: &lt;a href=&#34;http://www.opengeospatial.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Standards&lt;/a&gt;
+) and Viewers. The SE Platform originates, what is now called the &lt;a href=&#34;http://smartemission.ruhosting.nl/visitors/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;award-winning&lt;/a&gt;
+, &lt;a href=&#34;http://smartemission.ruhosting.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Nijmegen project&lt;/a&gt;
+ in 2015-2017. Quoting from the paper &lt;a href=&#34;http://www.ru.nl/publish/pages/774337/carton_etall_aesop-2015_v11_filling_thefeedback_gap_ofexternalities_insmartcities.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Filling the feedback gap of place-related externalities in smart cities”&lt;/a&gt;
+{.reference.external} :&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“…we present the set-up of the pilot experiment in project “Smart Emission”,&lt;/em&gt; &lt;em&gt;constructing an experimental citizen-sensor-network in the city of Nijmegen. This project, as part of&lt;/em&gt; &lt;em&gt;research program ‘Maps 4 Society,’ is one of the currently running Smart City projects in the&lt;/em&gt; &lt;em&gt;Netherlands. A number of social, technical and governmental innovations are put together in this&lt;/em&gt; &lt;em&gt;project: (1) innovative sensing method: new, low-cost sensors are being designed and built in the&lt;/em&gt; &lt;em&gt;project and tested in practice, using small sensing-modules that measure air quality indicators,&lt;/em&gt; &lt;em&gt;amongst others NO2, CO2, ozone, temperature and noise load. (2) big data: the measured data forms&lt;/em&gt; &lt;em&gt;a refined data-flow from sensing points at places where people live and work: thus forming a ‘big&lt;/em&gt; _picture’ to build a real-time, in-depth understanding of the local distribution of urban air quality (3)_&lt;em&gt;empowering citizens by making visible the ‘externality’ of urban air quality and feeding this into a&lt;/em&gt; &lt;em&gt;bottom-up planning process: the community in the target area get the co-decision-making control over&lt;/em&gt; &lt;em&gt;where the sensors are placed, co-interpret the mapped feedback data, discuss and collectively explore&lt;/em&gt; &lt;em&gt;possible options for improvement (supported by a Maptable instrument) to get a fair and ‘better’&lt;/em&gt; &lt;em&gt;distribution of air pollution in the city, balanced against other spatial qualities. ….”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-nijmegen.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;So from the outset the SE Platform is geared towards connecting citizen-owned sensor devices. Many similar programs and initiatives are currently evolving, often under the flag of Citizen Science and Smart Cities. Within the Netherlands, where the SE Nijmegen project originated, the &lt;a href=&#34;http://rivm.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National Institute for Public Health and the Environment&lt;/a&gt;
+ (RIVM) was an active project partner, and still stimulates citizens measuring Air Quality via a project and portal: &lt;a href=&#34;https://www.samenmetenaanluchtkwaliteit.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Together Measuring Air Quality”&lt;/a&gt;
+. In the context of discussions on Air Quality, climate change and lowering budgets for governmental environmental institutions, citizen-participation becomes more and more relevant. A whole series of blogs could be devoted to social and political aspects of Citizen Science, but I will stick to tech-stuff here.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-partners.png&#34; alt=&#34;:left&#34;&gt;&lt;/p&gt;
+&lt;p&gt;What made working on the SE Nijmegen project exciting and challenging, is that I was given time and opportunity by the project partners (see pic) to not just build a one-time project-specific piece of software, but a reusable set of Open Source components: the Smart Emission Platform ([sources on GitHub][42]).&lt;/p&gt;
+&lt;p&gt;Having had some earlier experience within the &lt;a href=&#34;http://sensors.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum SOSPilot project&lt;/a&gt;
+ (2014-2015), investigating among others the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sensor_Observation_Service&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
+ to unlock &lt;a href=&#34;http://www.lml.rivm.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RIVM AQ data (LML)&lt;/a&gt;
+, I was aware of the challenges dealing with what can be called &lt;em&gt;&lt;strong&gt;Spatiotemporal (Big) Data&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;The figure below shows The Big Picture of the SE Platform. Red arrows denote the flow of data: originating from sensor devices, going through Data Management (ETL), unlocked via various web-APIs, and finally “consumed” in client-apps and viewers.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/arch-big-picture.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;There are many aspects of the SE Platform that can be expanded. These are for upcoming Emits. For now a summary of some of the challenges and applied technologies, to be detailed later:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;raw data from sensors: requires refinement: validation/calibration/aggregation&lt;/li&gt;
+&lt;li&gt;dealing with Big Data that is both spatial (location-based) and temporal (time-based)&lt;/li&gt;
+&lt;li&gt;applying an &lt;a href=&#34;https://en.wikipedia.org/wiki/Artificial_neural_network&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Artificial Neural Network&lt;/a&gt;
+ (ANN) for sensor-data calibration&lt;/li&gt;
+&lt;li&gt;databases for Spatiotemporal data: PostGIS and &lt;a href=&#34;https://www.influxdata.com/time-series-platform/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;InfluxDB and TICK Stack&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;applying the &lt;a href=&#34;http://www.stetl.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl framework&lt;/a&gt;
+ for all data management (ETL)&lt;/li&gt;
+&lt;li&gt;metadata for sensors and sensor networks, always a tough and often avoided subject&lt;/li&gt;
+&lt;li&gt;connecting the Open Hardware &lt;a href=&#34;http://www.airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EU JRC AirSensEUR&lt;/a&gt;
+ AQ sensor-box to the SE Platform&lt;/li&gt;
+&lt;li&gt;using OGC WMS (with Dimensions for Time) and WFS for viewing and downloading sensor data&lt;/li&gt;
+&lt;li&gt;is &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
+ (SOS) and SWE still viable?&lt;/li&gt;
+&lt;li&gt;how powerful is the &lt;a href=&#34;http://www.opengeospatial.org/standards/sensorthings&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorThings API&lt;/a&gt;
+ (STA) standard?&lt;/li&gt;
+&lt;li&gt;deployment with Docker and &lt;a href=&#34;https://docs.docker.com/compose/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker Compose&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Docker and host systems monitoring: &lt;a href=&#34;https://prometheus.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Prometheus&lt;/a&gt;
+ + Grafana&lt;/li&gt;
+&lt;li&gt;OGC Services Monitoring with &lt;a href=&#34;http://geohealthcheck.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Visualizations: custom viewers with &lt;a href=&#34;http://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron&lt;/a&gt;
+/Leaflet/OpenLayers, Grafana dashboards&lt;/li&gt;
+&lt;li&gt;from development to test and production: &lt;a href=&#34;https://www.vagrantup.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Vagrant&amp;#43;VirtualBox&lt;/a&gt;
+, Ubuntu, Docker&lt;/li&gt;
+&lt;li&gt;using component-subsets of the platform for small deployments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/docker-monitoring.jpg&#34; alt=&#34;Monitoring SE Docker Containers: Prometheus+cAdvisor+Grafana&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A lot of stuff to uncover, hopefully got your interest if you have read all the way to here. Will try to treat one aspect/technology in each subsequent Emit-blog post. And off course the entire &lt;a href=&#34;https://github.com/geonovum/smartemission/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SE platform is Open Source&lt;/a&gt;
+ (GNU GPL), so you are free to download and experiment, and maybe even would like to contribute.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>3D Geospatial – Free and Open Source Software v0</title>
+      <link>https://nl.justobjects.org/3d-geospatial-foss-v0/</link>
+      <pubDate>Wed, 28 Jan 2015 11:52:34 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/3d-geospatial-foss-v0/</guid>
+      <description>
+        
+          &lt;p&gt;This is my list of FOSS products for 3D Geospatial with a focus on web technology/WebGL and Open Standards. These are notes I keep within Evernote as part of the 3D Geospatial Notebook whose public link is: &lt;a href=&#34;https://www.evernote.com/pub/justb4ever/3d-geospatial&#34;&gt;https://www.evernote.com/pub/justb4ever/3d-geospatial&lt;/a&gt;. This is also the first experiment to auto sync Evernote to WordPress using Zapier, so beware of any glitches in formatting! I am sure I have missed many other great products. Let me know!&lt;/p&gt;
+&lt;h3 id=&#34;oslandia&#34;&gt;OSLandia&lt;/h3&gt;
+&lt;p&gt;OSLandia from Paris, France  is one of the most active companies contributing to 3D Geospatial FOSS.
+&lt;a href=&#34;http://www.oslandia.com/&#34;&gt;http://www.oslandia.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.oslandia.com/postgis-3d-foss4g-video-and-workshop-en.html&#34;&gt;http://www.oslandia.com/postgis-3d-foss4g-video-and-workshop-en.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– The latest PostGIS and QGIS 3D enhancements presented at &lt;a href=&#34;http://2013.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G&lt;/a&gt;
+ by Oslandia – GIS goes 3D : an OpenSource stack – Olivier Courtin – FOSS4G 2014&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vimeo.com/106846660&#34;&gt;http://vimeo.com/106846660&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cesium&#34;&gt;Cesium&lt;/h3&gt;
+&lt;p&gt;– General&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without a plugin. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization. Cesium is open source under the Apache 2.0 license. It is free for commercial and non-commercial use.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cesium.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://cesiumjs.org/&#34;&gt;http://cesiumjs.org/&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://cesiumjs.org/presentations/Rendering%20the%20Whole%20Wide%20World%20on%20the%20World%20Wide%20Web.pdf&#34;&gt;http://cesiumjs.org/presentations/Rendering%20the%20Whole%20Wide%20World%20on%20the%20World%20Wide%20Web.pdf&lt;/a&gt; great presentation&lt;/p&gt;
+&lt;p&gt;– Cesium Terrain Service Preparation&lt;br&gt;
+&lt;a href=&#34;https://github.com/giohappy/gdal2cesium&#34;&gt;https://github.com/giohappy/gdal2cesium&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/kaktus40/Cesium-GeoserverTerrainProvider&#34;&gt;https://github.com/kaktus40/Cesium-GeoserverTerrainProvider&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– Creating 3D terrains with Cesium – Bjørn Sandvik&lt;br&gt;
+&lt;a href=&#34;http://blog.thematicmapping.org/2014/10/3d-terrains-with-cesium.html&#34;&gt;http://blog.thematicmapping.org/2014/10/3d-terrains-with-cesium.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– Migrating from Google Earth to Cesium&lt;br&gt;
+&lt;em&gt;This is a guest post by Greg Angevine, Founder of &lt;a href=&#34;http://cubecities.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cube Cities Inc&lt;/a&gt;
+. His company has used the Google Earth plugin for years and has recently built impressive work with Cesium (like &lt;a href=&#34;https://twitter.com/CesiumJS/status/552845347484364800&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this&lt;/a&gt;
+)&lt;/em&gt;&lt;br&gt;
+&lt;a href=&#34;http://cesiumjs.org/2015/01/27/Migrating-from-Earth-to-Cesium/&#34;&gt;http://cesiumjs.org/2015/01/27/Migrating-from-Earth-to-Cesium/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– Cesium and OpenLayers3&lt;br&gt;
+Cesium has a real focus on (OGC) standards and integrating with software implementing OGC standards. I heard that the Cesium-folks are even proposing additions to OGC 3D standards (CZML? or the very compact terrain tiling using quantized mesh?). That would be great in concert with/as payload for the upcoming 3DPS (3D Portrayal Service) standard.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cesium-ol3.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://openlayers.org/ol3-cesium/&#34;&gt;http://openlayers.org/ol3-cesium/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– My Cesium experiments with Dutch OpenTopo tiles and Top10NL-3D Vector&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cesium-just.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://app.nlextract.nl/3d/&#34;&gt;http://app.nlextract.nl/3d/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– My Cesium experiments with Cesium-OpenLayers3 Integration using Dutch Topo Top10NL-3D Vector&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cesium-ol3-just.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://app.nlextract.nl/3d/&#34;&gt;http://app.nlextract.nl/3d/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tangram&#34;&gt;Tangram&lt;/h3&gt;
+&lt;p&gt;From the folks from &lt;a href=&#34;http://mapzen.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MapZen&lt;/a&gt;
+ who make much more cool stuff: &lt;em&gt;“Tangram is a library for rendering 2D &amp;amp; 3D maps with WebGL, using GeoJSON/TopoJSON or binary vector tiles.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/tangram.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/tangrams/tangram&#34;&gt;https://github.com/tangrams/tangram&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://mapzen.com/tangram&#34;&gt;https://mapzen.com/tangram&lt;/a&gt; (demo)&lt;/p&gt;
+&lt;h3 id=&#34;d3js&#34;&gt;D3JS&lt;/h3&gt;
+&lt;p&gt;– General&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/d3js.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“ &lt;strong&gt;D3.js&lt;/strong&gt; is a JavaScript library for manipulating documents based on data. &lt;strong&gt;D3&lt;/strong&gt; helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.”&lt;/em&gt;&lt;br&gt;
+&lt;a href=&#34;http://d3js.org/&#34;&gt;http://d3js.org/&lt;/a&gt; –&lt;/p&gt;
+&lt;p&gt;– Kind of 3D with D3 – Maps for the Web&lt;br&gt;
+&lt;a href=&#34;http://www.web-maps.com/gisblog/?p=1370&#34;&gt;http://www.web-maps.com/gisblog/?p=1370&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– Creating Charts and Legends for 3D Atlas Maps – A Mashup of D3.js, osgEarth, and the Chromium Embedded Framework — Raimu&lt;br&gt;
+&lt;a href=&#34;http://vimeo.com/106234276&#34;&gt;http://vimeo.com/106234276&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;postgis&#34;&gt;PostGIS&lt;/h3&gt;
+&lt;p&gt;PostGIS has many 3D facilities. Check these out.&lt;/p&gt;
+&lt;p&gt;– Lidar/Pointclouds in PostGIS:
+&lt;a href=&#34;https://github.com/pgpointcloud/pointcloud&#34;&gt;https://github.com/pgpointcloud/pointcloud&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://workshops.boundlessgeo.com/tutorial-lidar/&#34;&gt;http://workshops.boundlessgeo.com/tutorial-lidar/&lt;/a&gt; (tutorial)&lt;br&gt;
+&lt;a href=&#34;http://s3.cleverelephant.ca/foss4gna2013-pointcloud.pdf&#34;&gt;http://s3.cleverelephant.ca/foss4gna2013-pointcloud.pdf&lt;/a&gt; (paul ramsey slides)&lt;br&gt;
+&lt;a href=&#34;http://boundlessgeo.com/2013/11/manage-lidar-postgis/&#34;&gt;http://boundlessgeo.com/2013/11/manage-lidar-postgis/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– TIN Support&lt;br&gt;
+&lt;a href=&#34;https://smathermather.wordpress.com/2013/12/18/2-5d-tins-in-postgis/&#34;&gt;https://smathermather.wordpress.com/2013/12/18/2-5d-tins-in-postgis/&lt;/a&gt; and&lt;br&gt;
+&lt;a href=&#34;https://github.com/smathermather/postgis-etc/blob/master/3D/AsTin.sql&#34;&gt;https://github.com/smathermather/postgis-etc/blob/master/3D/AsTin.sql&lt;/a&gt; – create TINs with &lt;a href=&#34;http://postgis.net/docs/ST_DelaunayTriangles.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ST_DelaunayTriangles&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;http://www.oslandia.com/full-spatial-database-power-in-2-lines-en.html&#34;&gt;http://www.oslandia.com/full-spatial-database-power-in-2-lines-en.html&lt;/a&gt;&lt;br&gt;
+also check: GRASS: &lt;a href=&#34;http://grass.osgeo.org/grass70/manuals/addons/v.delaunay3d.html&#34;&gt;http://grass.osgeo.org/grass70/manuals/addons/v.delaunay3d.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– X3D Generation&lt;br&gt;
+&lt;a href=&#34;http://postgis.net/docs/ST_AsX3D.html&#34;&gt;http://postgis.net/docs/ST_AsX3D.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– 3ddb for PostGIS (CityGML)&lt;br&gt;
+&lt;a href=&#34;http://www.3dcitydb.org/&#34;&gt;http://www.3dcitydb.org/&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/3dcitydb&#34;&gt;https://github.com/3dcitydb&lt;/a&gt; GitHub&lt;br&gt;
+&lt;a href=&#34;http://www.3dcitydb.org/3dcitydb/fileadmin/downloaddata/3dcitydb-v2_0_6-postgis-tutorial.pdf&#34;&gt;http://www.3dcitydb.org/3dcitydb/fileadmin/downloaddata/3dcitydb-v2_0_6-postgis-tutorial.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– A New Dimension To PostGIS : 3D – &lt;a href=&#34;http://2013.foss4g.org/conf/programme/people/250/index.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Olivier Courtin&lt;/a&gt;
+ (Oslandia) with &lt;a href=&#34;http://2013.foss4g.org/conf/programme/people/139/index.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hugo Mercier&lt;/a&gt;
+ (Oslandia)&lt;br&gt;
+&lt;a href=&#34;http://2013.foss4g.org/conf/programme/presentations/7/index.html&#34;&gt;http://2013.foss4g.org/conf/programme/presentations/7/index.html&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.slideshare.net/SimeonNedkov/postgis-3d-implementation&#34;&gt;http://www.slideshare.net/SimeonNedkov/postgis-3d-implementation&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=tQbE6B8JaHI&#34;&gt;https://www.youtube.com/watch?v=tQbE6B8JaHI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;– PostGIS and CGAL
+CGAL &lt;a href=&#34;https://www.cgal.org/&#34;&gt;https://www.cgal.org/&lt;/a&gt; and &lt;a href=&#34;https://smathermather.wordpress.com/2013/12/05/postgis-with-sfcgal-videos-how-did-i-miss-these-videos/&#34;&gt;https://smathermather.wordpress.com/2013/12/05/postgis-with-sfcgal-videos-how-did-i-miss-these-videos/&lt;/a&gt;&lt;br&gt;
+SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;/a&gt; “ &lt;em&gt;SFCGAL&lt;/em&gt; is a C++ wrapper library around &lt;em&gt;&lt;a href=&#34;http://www.cgal.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CGAL&lt;/a&gt;
+ with the aim of supporting ISO 19107:2013 and &lt;a href=&#34;http://www.opengeospatial.org/standards/sfa&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Simple Features Access 1.2&lt;/a&gt;
+ for 3D operations.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;– Other PostGIS 3D Stuff&lt;br&gt;
+&lt;em&gt;“This post explains how to setup a powerful spatial data store (PostGIS) with a wide range of features (SFCGAL, PgRouting, PostgreSQL PointCloud, PDAL)“&lt;/em&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.oslandia.com/full-spatial-database-power-in-2-lines-en.html&#34;&gt;http://www.oslandia.com/full-spatial-database-power-in-2-lines-en.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://postgis3d.blogspot.nl/&#34;&gt;http://postgis3d.blogspot.nl/&lt;/a&gt; (Camp2Camp – 2007 – by Mathieu ..?)&lt;/p&gt;
+&lt;h3 id=&#34;xnavigator&#34;&gt;XNavigator&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;“XNavigator is an interactive 3D viewer and integrated client for exploring virtual city and landscape models. Instead of defining its own proprietary communication protocols, open OGC standards are used. The Open Geospatial Consortium (OGC) defines standards for accessing spatial information over the internet.  The main 3D content is downloaded from a Web 3D Service (W3DS).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Additional OGC services which can be accessed include:&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Web Map Service (WMS)&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Open Location Services (OpenLS) including Route Service, Directory Service, and Geocoder&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Catalog Service for Web (CSW) ebRIM profile&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Web Feature Service (WFS) serving GML3 and CityGML content “&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://xnavigator.sourceforge.net/doku.php&#34;&gt;http://xnavigator.sourceforge.net/doku.php&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;threejs&#34;&gt;ThreeJS&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;“The aim of the project is to create a lightweight 3D library with a very low level of complexity — in other words, for dummies. The library provides &amp;lt;canvas&amp;gt;, &amp;lt;svg&amp;gt;, CSS3D and WebGL renderers.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/threejs.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://threejs.org&#34;&gt;http://threejs.org&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;w3ds&#34;&gt;W3DS&lt;/h3&gt;
+&lt;p&gt;W3DS (Web 3D Service) is a portrayal service for 3D scenes. Early OGC discussion documents. Now superseded by the 3DPS, the 3D Portrayal Service, now (jan 2015) out for public comment in OGC. This is an early W3DS implementation in GeoServer that started from the dissertation work by Nuno Miguel Carvalho Oliveira (professor: Jorge Gustavo Rocha) at the University of Minho (Portugal).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://mei.di.uminho.pt/sites/default/files/dissertacoes//eeum_di_dissertacao_pg18391.pdf&#34;&gt;http://mei.di.uminho.pt/sites/default/files/dissertacoes//eeum_di_dissertacao_pg18391.pdf&lt;/a&gt; – Dissertation&lt;br&gt;
+&lt;a href=&#34;https://github.com/geoserver/geoserver/tree/master/src/community/w3ds&#34;&gt;https://github.com/geoserver/geoserver/tree/master/src/community/w3ds&lt;/a&gt; – GeoServer community module&lt;br&gt;
+&lt;a href=&#34;http://osgeo-org.1560.x6.nabble.com/W3DS-Implementation-up-and-running-td4665127.html&#34;&gt;http://osgeo-org.1560.x6.nabble.com/W3DS-Implementation-up-and-running-td4665127.html&lt;/a&gt; – email on GeoServer list&lt;/p&gt;
+&lt;h3 id=&#34;qgishorao&#34;&gt;QGIS/Horao&lt;/h3&gt;
+&lt;p&gt;By OSLandia&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“A simple viewer built around OpenSceneGraph … designed to listen to commands on its standard input. … The other piece is a Python plugin that is used to connect QGIS signals to the viewer (in another process) to allow loading of QGIS layers with 3D geometries.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/horao.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Oslandia/horao&#34;&gt;https://github.com/Oslandia/horao&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.openscenegraph.org/&#34;&gt;http://www.openscenegraph.org/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cuardo&#34;&gt;Cuardo&lt;/h3&gt;
+&lt;p&gt;Again By OSLandia, watch these guys!&lt;br&gt;
+&lt;em&gt;“ Cuardo is an OpenSource WebGL 3D data viewer, focusing on urban data analysis and visualization … a 3D GIS web framework based on Three.js and WebGL, oriented toward urban visualization.“&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cuardo.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Oslandia/cuardo&#34;&gt;https://github.com/Oslandia/cuardo&lt;/a&gt;
+&lt;a href=&#34;http://www.oslandia.com/oslandia-releases-cuardo-3d-gis-viewer-en.html&#34;&gt;http://www.oslandia.com/oslandia-releases-cuardo-3d-gis-viewer-en.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;suggestions-fromreaders&#34;&gt;Suggestions from Readers&lt;/h3&gt;
+&lt;p&gt;After the first version I got quite some suggestions. Thanks!&lt;/p&gt;
+&lt;p&gt;– Glob3Mobile – &lt;a href=&#34;https://twitter.com/DiegoGomezDeck&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;@DiegoGomezDeck&lt;/a&gt;
+&lt;br&gt;
+&lt;em&gt;“ G3M is a framework developed and designed to:&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Develop mobile maps apps in 2D, 2,5D and 3D&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Work with real time data&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Integrate any kind of data (format,size)&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Be integrated on any legacy system&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- High performance mobile native development&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Multi Touch screens&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Face the problem of the mobile performance as an integrated problem between server &amp;amp; client&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Works on iOS, Android devices and HTML5 environments. “&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.glob3mobile.com/&#34;&gt;http://www.glob3mobile.com/&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Into the Weather – Part 3 – Publishing Data to the Cloud – 1</title>
+      <link>https://nl.justobjects.org/into-the-weather-part-3/</link>
+      <pubDate>Mon, 15 Dec 2014 23:19:17 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/into-the-weather-part-3/</guid>
+      <description>
+        
+          &lt;p&gt;In my last post, &lt;a href=&#34;https://nl.justobjects.org/into-the-weather-part-2-fun-with-raspberry-pi/&#34;&gt;Into the Weather – Part 2&lt;/a&gt;
+, I outlined a global architecture of a &lt;a href=&#34;http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Davis Vantage Pro2&lt;/a&gt;
+ weather station connected to a &lt;a href=&#34;http://www.raspberrypi.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Raspberry Pi&lt;/a&gt;
+ (RPi) running &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ weather software to capture raw weather data. Here I will try to depict how to bring this weather data “from the &lt;a href=&#34;http://en.wikipedia.org/wiki/Little_Fluffy_Clouds&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;fluffy clouds&lt;/a&gt;
+ into the digital cloud”. Finally, at the end, also some geospatial content. The image below shows the weather station sensors at the Geonovum building rooftop (was quite hazardous replacing a faulty temperature sensor there!) and the Davis console connected to the Raspberry Pi (transparent enclosure). All documentation and code can be found via: &lt;a href=&#34;http://sospilot.readthedocs.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sospilot.readthedocs.org&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2014/12/davis-pws-geonovum-pics1.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;To recap: the &lt;a href=&#34;http://www.davisnet.com/weather/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Davis Weather Station&lt;/a&gt;
+ continuously captures raw weather data through its sensors: temperature (out/in), pressure, wind (speed, direction), rainfall and even UV-radiation. This data is initially gathered within the local console display. This is fine for personal/local usage, but for capturing history, deriving trends and in particular for external sharing this is quite limited. The real fun starts with getting access to the raw data and go from there.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2014/11/weather-hw-setup.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is where the Raspberry Pi with weewx and later &lt;a href=&#34;http://www.stetl.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl&lt;/a&gt;
+, PostGIS, GeoServer and the 52North SOS come in, but I’ll go step-by-step. Let’s first see how we can publish weather data with just weewx.&lt;/p&gt;
+&lt;p&gt;My first post &lt;a href=&#34;https://nl.justobjects.org/into-the-weather-part-1/&#34;&gt;Into the Weather – Part 1&lt;/a&gt;
+ in this series introduced weewx, a Python framework for capturing, storing and publishing weather data. The Davis weather station is connected via USB to the RPi. The RPi runs &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ to gather and store weather data (in a SQLite DB) from the weather station. But weewx can do more than this: it can also publish weather data to a variety of services. As any well-designed framework, weewx is basically a kernel, the &lt;em&gt;weewx engine&lt;/em&gt; with configurable plugins, all specified and parameterized from a single configuration file &lt;em&gt;weewx.conf&lt;/em&gt;, like in &lt;a href=&#34;https://github.com/Geonovum/sospilot/blob/master/src/weewx/davis/weewx.conf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this example&lt;/a&gt;
+. The &lt;em&gt;weewx daemon&lt;/em&gt; process runs forever in a main loop continuously calling on all plugins.&lt;/p&gt;
+&lt;p&gt;First there are &lt;em&gt;weewx station-drivers&lt;/em&gt; that continuously capture raw data from most common weather stations. Although there are many brands of weather stations, many will share common hardware and protocols. The second class of plugins are &lt;em&gt;archiving drivers&lt;/em&gt;, where/how to store raw weather data. Two standard archiving drivers are available: SQLite and MySQL. My choice: SQLite. For publication from archived data, a &lt;em&gt;standard reporting driver&lt;/em&gt; generates a plain HTML website using an extensible &lt;em&gt;skin containing (HTML) templates&lt;/em&gt;. By configuring an FTP or &lt;em&gt;rsync&lt;/em&gt; destination, the generated HTML can be published to a remote webserver. This is the first connection to the digital cloud. Off course the skin and templates are highly configurable &lt;a href=&#34;https://github.com/Geonovum/sospilot/tree/master/src/weewx/davis/byteweather&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;as in this example&lt;/a&gt;
+. Many examples can be found on the web. I found the nice &lt;a href=&#34;http://davies-barnard.co.uk/2014/01/weewx-byteweather-template&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;byteweather-template by Chris Davies-Barnard&lt;/a&gt;
+. Below is the result as can be found at: &lt;a href=&#34;http://sensors.geonovum.nl/weewx&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sensors.geonovum.nl/weewx&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;http://sensors.geonovum.nl/weewx/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2014/12/weewx-geonovum-screen1.png&#34;
+      alt=&#34;Weewx Standard Report&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;In addition, I’ve added even a more dynamic weather display like the &lt;a href=&#34;http://wiki.sandaysoft.com/a/SteelSeries_Gauges&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Steelseries Gauges&lt;/a&gt;
+, as seen below and via the link &lt;a href=&#34;http://sensors.geonovum.nl/weewx/gauges/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sensors.geonovum.nl/weewx/gauges&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;http://sensors.geonovum.nl/weewx/gauges/index.html&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2014/12/weewx-geonovum-gauges-screen1.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Just like other crowd-sourced projects like OpenStreetMap and WikiPedia there are various weather  communities where you can join and publish your weather data via RESTful APIs. weewx provides drivers for most common communities like &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Weather Underground&lt;/a&gt;
+ and &lt;a href=&#34;http://pwsweather.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PWSWeather&lt;/a&gt;
+. For example, I registered the Geonovum weather station as  &lt;a href=&#34;http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum IUTRECHT96&lt;/a&gt;
+ as below.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2014/12/wu-geonovum-pws1.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Weather Underground also provides various apps and a map, the &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WunderMap&lt;/a&gt;
+. Here you can view your station, together with all others that jointly provide weather data. As can be seen there is already quite some coverage within The Netherlands.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://nl.justobjects.org/uploads/2014/12/wundermap-nl1.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;All in all, there is a fascinating world to explore once you get into the weather domain and its many communities.&lt;/p&gt;
+&lt;p&gt;So why am I doing all of this? Apart from having the opportunity to develop this as part of the &lt;a href=&#34;http://sospilot.readthedocs.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SOSPilot Project at Geonovum&lt;/a&gt;
+, I think that “geospatial” is moving from 2D to “N-dimensional”: not only more and more “3D”  is hitting the shores (just see the recent 2014 blogs at &lt;a href=&#34;http://planet.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;planet.osgeo.org&lt;/a&gt;
+), but also location-based sensor data (like Air Quality and weather data) and the &lt;a href=&#34;http://en.wikipedia.org/wiki/Internet_of_Things&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Internet of Things&lt;/a&gt;
+ drives a need to deal with time-series data: management, storage, services and visualization. Within the Open Source geospatial world I happily see that many frameworks and tools are extended to deal with 3D, like &lt;a href=&#34;http://openlayers.org/ol3-cesium/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenLayers/Cesium&lt;/a&gt;
+ (one of my next posts) and &lt;a href=&#34;http://boundlessgeo.com/2013/11/manage-lidar-postgis/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PostGIS/PDAL&lt;/a&gt;
+ and with Time like in &lt;a href=&#34;http://docs.geoserver.org/latest/en/user/services/wms/time.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoServer Dimension&lt;/a&gt;
+ support. Also the &lt;a href=&#34;http://www.opengeospatial.org/ogc/markets-technologies/swe&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Web Enablement&lt;/a&gt;
+ and its lighter-weight version &lt;a href=&#34;http://ogc-iot.github.io/ogc-iot-api/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorThings&lt;/a&gt;
+ is gaining more attention.&lt;/p&gt;
+&lt;p&gt;Not yet done with the weather. Next post I will dive into further unlocking weather data via OGC services like WMS and SOS. That would be “Publishing Data to Cloud 9” ;-)&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Into the Weather – Part 2 – Fun with Raspberry Pi</title>
+      <link>https://nl.justobjects.org/into-the-weather-part-2-fun-with-raspberry-pi/</link>
+      <pubDate>Thu, 06 Nov 2014 01:35:30 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/into-the-weather-part-2-fun-with-raspberry-pi/</guid>
+      <description>
+        
+          &lt;p&gt;This is a follow-up to &lt;a href=&#34;https://nl.justobjects.org/into-the-weather-part-1/&#34;&gt;“Into the Weather – Part 1 – Exploring weewx”&lt;/a&gt;
+. Sorry, still almost no geospatial content for now. To recap: I am trying to setup an infrastructure where measurements from a &lt;a href=&#34;http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Davis Vantage Pro2 Weather Station&lt;/a&gt;
+ are collected and exposed to web services, most notably OGC Services like &lt;a href=&#34;http://docs.geoserver.org/latest/en/user/services/wms/time.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WMS-Time&lt;/a&gt;
+ and SOS, the &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sensor Observation Service&lt;/a&gt;
+. The TLDR; /impatient can view results at &lt;a href=&#34;http://sensors.geonovum.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sensors.geonovum.nl&lt;/a&gt;
+, sources in the &lt;a href=&#34;https://github.com/Geonovum/sospilot/tree/master/src&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub project&lt;/a&gt;
+ and in general &lt;a href=&#34;http://sospilot.readthedocs.org/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;the documentation&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;As this setup needs to be run from within my client’s local intranet with available servers “in the Cloud” there is a need for a “relaying middleman”.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://www.raspberrypi.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Raspberry Pi&lt;/a&gt;
+ (RPi) was my first choice. The RPi is a credit-card sized computer that can run Linux-es like &lt;a href=&#34;http://www.raspbian.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Raspbian&lt;/a&gt;
+, a Linux OS based on &lt;a href=&#34;https://www.debian.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Debian&lt;/a&gt;
+. As the Davis weather station console has a USB-interface and &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ supports read-outs from Davis weather stations, choosing the RPi was obvious. The combination RPi, Raspbian, weewx (try &lt;a href=&#34;https://www.google.nl/search?q=RPi%2C&amp;#43;Raspbian%2C&amp;#43;weewx&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this Google search&lt;/a&gt;
+) is becoming more and more popular for setting up public and community-based weather stations.&lt;/p&gt;
+&lt;p&gt;By now it is time to depict the overall architecture as in the image below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2014/11/weather-hw-setup1.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Davis weather station will connect via USB to the RPi. The RPi will run &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ to gather and store weather data (in a SQLite DB) from the weather station. In addition the RPi will run ETL software based on &lt;a href=&#34;http://www.stetl.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl&lt;/a&gt;
+ to publish weather data to a PostgreSQL/PostGIS database in a cloud server. Using &lt;a href=&#34;http://geoserver.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geoserver&lt;/a&gt;
+ and the &lt;a href=&#34;http://52north.org/communities/sensorweb/sos/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;52North SOS&lt;/a&gt;
+ the cloud server will expose the weather data via web services like WMS (Time), WFS and SOS and plain HTML using custom weather web templates like the fabulous &lt;a href=&#34;http://wiki.sandaysoft.com/a/SteelSeries_Gauges&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;steelseries gauges&lt;/a&gt;
+. I will expand on the software setup in the next post.&lt;/p&gt;
+&lt;p&gt;For now I will focus on acquiring and setting up the RPi, as this was a fun-exercise by itself. I ordered a kit with a Raspberry Pi Model B+ with power unit, casing, micro SD and WIFI USB adapter (&lt;a href=&#34;http://www.kiwi-electronics.nl/raspberry-pi/raspberry-pi-accessoires/wi-pi-draadloze-usb-adapter-voor-raspberry-pi&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WiPi&lt;/a&gt;
+) at &lt;a href=&#34;http://www.kiwi-electronics.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Kiwi Electronics&lt;/a&gt;
+. The whole package arrived the next day.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2014/11/rasp-pi-all1.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;From unboxing to having everything installed with the &lt;a href=&#34;https://nl.justobjects.org/into-the-weather-part-1/&#34;&gt;weewx Simulator (see Part 1)&lt;/a&gt;
+ went smooth. It would take too far to describe all the install steps and gotcha’s. I’ve summarized these here in the &lt;a href=&#34;http://sospilot.readthedocs.org/en/latest/raspberrypi-install.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RPi installation doc&lt;/a&gt;
+. Apart from a standard Raspbian install, I paid in particular attention to two aspects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;running unattended as a headless server, i.e. monitoring and self-healing&lt;/li&gt;
+&lt;li&gt;having SSH access outside the LAN via reverse SSH-tunneling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Monitoring and self-healing are non-neglectable aspects, in particular the weewx server may go down for some reason, as well as the WIFI network and any of the SSH-tunnels. These aspects are described &lt;a href=&#34;http://sospilot.readthedocs.org/en/latest/raspberrypi-install.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;in the documentation&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;All in all this step was to get weewx running, still in simulator mode, storing raw weather data in a SQLite database and publishing HTML reports.&lt;/p&gt;
+&lt;p&gt;So the final result is an RPi humming silently, weewx reporting regularly. In general having a stable system for the next steps: gathering and publishing the weather data to the OGC services like WMS, WFS and SOS. The &lt;a href=&#34;http://www.stetl.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Python-based Stetl framework&lt;/a&gt;
+, again proved to be instrumental to this effort, both on the RPi and on the Linux server in the Cloud.  This will be a subject for my next post. See the architecture below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2014/11/weather-sw-setup.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;Summarizing: A Stetl process (&lt;a href=&#34;https://github.com/Geonovum/sospilot/tree/master/src/weather/weewx2pg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl sync&lt;/a&gt;
+) continuously gathers and publishes weather data to a remote PostgreSQL/PostGIS server. Through PostgreSQL-VIEWs refined weather data is immediately available to GeoServer as WMS(Time) and WFS sources, and via another Stetl process (&lt;a href=&#34;https://github.com/Geonovum/sospilot/tree/master/src/weather/pg2sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl SOS&lt;/a&gt;
+) published via SOS-T (ala WFS-T) to the SOS. The weewx engine has a plugin to publish a flat HTML website via &lt;em&gt;rsync&lt;/em&gt; using configurable templates.&lt;/p&gt;
+&lt;p&gt;There is much to expand still. I’m excited to see this whole infrastructure work in such a short time &lt;em&gt;&lt;strong&gt;thanks to&lt;/strong&gt; &lt;strong&gt;all these developers that produce all of the Open Source software involved here&lt;/strong&gt;&lt;/em&gt;: from the core Debian/Raspbian OSs, the weewx weather software, PostgreSQL/PostGIS, GeoServer and the 52North SOS. The proverbial sentence is: &lt;em&gt;&lt;strong&gt;I am just standing on the shoulders of you giants&lt;/strong&gt;&lt;/em&gt;. This is the way humanity should evolve regarding soft/hardware-technology. Thanks again, and if you have read this far, I hope to see you in my next post !&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Moving PostGIS tables from the public schema to a new schema</title>
+      <link>https://nl.justobjects.org/moving-postgis-tables-from-the-public-schema-to-a-new-schema/</link>
+      <pubDate>Fri, 01 Feb 2013 16:40:38 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/moving-postgis-tables-from-the-public-schema-to-a-new-schema/</guid>
+      <description>
+        
+          &lt;p&gt;Update 30 nov 2013: &lt;a href=&#34;https://gist.github.com/justb4/7719180&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;code is now as a GIST on GitHub&lt;/a&gt;
+, also with function to move single table.&lt;/p&gt;
+&lt;p&gt;Update 19 feb 2014: &lt;strong&gt;&lt;em&gt;not yet tested with PostGIS v2.0 and up, so beware (or let me know if that works)!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Update 4 june 2015: &lt;strong&gt;_tested with PostgreSQL 9.3.4 and PostGIS v2.1: all ok!! _&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Using &lt;a href=&#34;http://www.postgresql.org/docs/9.2/static/ddl-schemas.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PostgreSQL Schema’s&lt;/a&gt;
+ when using &lt;a href=&#34;http://postgis.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PostGIS&lt;/a&gt;
+ is very useful. Instead of the default &lt;em&gt;public&lt;/em&gt; schema where PostGIS and its meta-tables (&lt;em&gt;geometry_columns&lt;/em&gt; and &lt;em&gt;spatial_ref_sys&lt;/em&gt;) are installed one can use an explicit schema. One main reason, at least for me, is that PostgreSQL Schema’s allow me to make data dumps of the Schema (via &lt;a href=&#34;http://www.postgresql.org/docs/9.2/static/app-pgdump.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pg_dump&lt;/a&gt;
+)  and restore these dumps in another database, even on another system. When using the default _public _schema a dump would also include PostGIS functions and metatables. This is problematic to restore on another system or higher PostgreSQL/PostGIS version. So I recommend always to use Schema’s.&lt;/p&gt;
+&lt;p&gt;But what if your tables are already in the &lt;em&gt;public&lt;/em&gt; schema? This was the case in some of my older projects like &lt;a href=&#34;http://geoskating.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoSkating&lt;/a&gt;
+ which has tables in PostgreSQL 8.2 in the &lt;em&gt;public&lt;/em&gt; schema. With some hacking and &lt;a href=&#34;http://blog.coreycoogan.com/2010/12/22/how-to-move-postgresql-tables-to-a-different-schema/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;surfing&lt;/a&gt;
+ on the web, I constructed an SQL function that would move my tables from the _public S_chema to any other Schema and update the PostGIS metatables (and leave these in the _public _Schema). See the function &lt;em&gt;postgis_schema_move&lt;/em&gt;() below.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;-- Function to move tables to schema
+&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;CREATE OR REPLACE FUNCTION
+&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;       public.postgis_schema_move(old_schema varchar(32),
+&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;         new_schema varchar(32)) RETURNS void AS $$
+&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;DECLARE
+&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;    row record;
+&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;BEGIN
+&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;    FOR row IN SELECT tablename FROM pg_tables
+&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;            WHERE schemaname = old_schema and tablename != &amp;#39;spatial_ref_sys&amp;#39;
+&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;              AND tablename != &amp;#39;geometry_columns&amp;#39;
+&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;    LOOP
+&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;        EXECUTE &amp;#39;ALTER TABLE &amp;#39; || quote_ident(old_schema) || &amp;#39;.&amp;#39;
+&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;                 || quote_ident(row.tablename) ||
+&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;                    &amp;#39; SET SCHEMA &amp;#39; || new_schema || &amp;#39;;&amp;#39;;
+&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;        EXECUTE &amp;#39;UPDATE public.geometry_columns
+&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;                 SET f_table_schema = &amp;#39; || quote_literal(new_schema) ||
+&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;                  &amp;#39; WHERE f_table_schema = &amp;#39; || quote_literal(old_schema) ||&amp;#39;
+&lt;span class=&#34;ln&#34;&gt;18&lt;/span&gt;                    AND f_table_name = &amp;#39; || quote_literal(row.tablename) || &amp;#39;;&amp;#39;;
+&lt;span class=&#34;ln&#34;&gt;19&lt;/span&gt;    END LOOP;
+&lt;span class=&#34;ln&#34;&gt;20&lt;/span&gt;END;
+&lt;span class=&#34;ln&#34;&gt;21&lt;/span&gt;$$ LANGUAGE plpgsql;
+&lt;span class=&#34;ln&#34;&gt;22&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;23&lt;/span&gt;-- Example: Move from public to schema app
+&lt;span class=&#34;ln&#34;&gt;24&lt;/span&gt;SELECT public.postgis_schema_move(&amp;#39;public&amp;#39;, &amp;#39;app&amp;#39;);&amp;lt;/pre&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The SQL function &lt;em&gt;postgis_schema_move()&lt;/em&gt; takes two string arguments: the &lt;em&gt;old_schema&lt;/em&gt; and &lt;em&gt;new_schema&lt;/em&gt;, the old (usually &lt;em&gt;‘public’&lt;/em&gt;) and  new schema names. The new schema needs to be created first. Also moving back from a new schema to the &lt;em&gt;public&lt;/em&gt; schema works.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

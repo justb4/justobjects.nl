@@ -1,9 +1,0 @@
-{{- $clazz := "lazy" }}
-<div class="{{ .Get "data-class" }}">
-  <a href="{{ .Get "data-href"}}">
-    <img class="{{ $clazz }}"
-      src="{{ .Get "data-src" }}"
-      alt="{{ .Get "data-caption"  | safeHTML }}" />
-  </a>
-  <!-- <p class="wp-caption-text wp-caption-dark">{{ .Get "data-caption" }}</p> -->
-</div>

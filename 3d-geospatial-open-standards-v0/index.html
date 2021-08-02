@@ -1,0 +1,883 @@
+
+<!DOCTYPE html>
+<html lang="en" data-figures="" class="page">
+  <head>
+<title>3D Geospatial – Open Standards – v0 | Clarity</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script async src="https://www.googletagmanager.com/gtag/js?id=XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'XXXXXXXXXX');
+</script>
+  
+<meta property="og:locale" content="en" />
+
+<meta property="og:type" content="article">
+<meta name="description" content="This is my evolving overview of 3D Geospatial Open Standards with a focus on web technology: services, HTML5, WebGL. These are notes I keep within Evernote as …">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@justb4">
+<meta name="twitter:title" content="3D Geospatial – Open Standards – v0" />
+<meta property="og:url" content="https://nl.justobjects.org/3d-geospatial-open-standards-v0/" />
+<meta property="og:title" content="3D Geospatial – Open Standards – v0" />
+<meta property="og:description" content="This is my evolving overview of 3D Geospatial Open Standards with a focus on web technology: services, HTML5, WebGL. These are notes I keep within Evernote as …" />
+<meta property="og:image" content="https://nl.justobjects.org/images/thumbnail.png" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://nl.justobjects.org/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://nl.justobjects.org/icons/favicon-32x32.png">
+<link rel="manifest" href="https://nl.justobjects.org/icons/site.webmanifest">
+
+<link rel="canonical" href="https://nl.justobjects.org/3d-geospatial-open-standards-v0/">
+
+    
+
+    
+    
+    <link rel="preload" href="https://nl.justobjects.org/css/styles.34a8e5ad644e4cb7e1b31a88765eee94147cdfbe4eefb4f2b4b96b31d8235512b29db5536b1066fd7ddadce3e97d592ef71e423b49ae9e616d6e9235956cd0c6.css" integrity = "sha512-NKjlrWROTLfhsxqIdl7ulBR8375O77TytLlrMdgjVRKynbVTaxBm/X3a3OPpfVku9x5CO0munmFtbpI1lWzQxg==" as="style" crossorigin="anonymous">
+    <link rel="preload" href="https://nl.justobjects.org/js/bundle.min.d14fbcd65c3ba32e60cab81f8bbe7aa9b7f8b95ff8290e437fb26ff9ab7f7ea0c928db2dca60aac91f192db906f2d90678f83907e4e3994f6ff9fdb5bdea3369.js" as="script" integrity=
+    "sha512-0U&#43;81lw7oy5gyrgfi756qbf4uV/4KQ5Df7Jv&#43;at/fqDJKNstymCqyR8ZLbkG8tkGePg5B&#43;TjmU9v&#43;f21veozaQ==" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" type="text/css" href="https://nl.justobjects.org/css/styles.34a8e5ad644e4cb7e1b31a88765eee94147cdfbe4eefb4f2b4b96b31d8235512b29db5536b1066fd7ddadce3e97d592ef71e423b49ae9e616d6e9235956cd0c6.css" integrity="sha512-NKjlrWROTLfhsxqIdl7ulBR8375O77TytLlrMdgjVRKynbVTaxBm/X3a3OPpfVku9x5CO0munmFtbpI1lWzQxg==" crossorigin="anonymous">
+    
+  </head>
+  
+  
+    
+  
+  <body data-code="8" data-lines="false" id="documentTop">
+
+<header class="nav_header" >
+  <nav class="nav"><a href='https://nl.justobjects.org/' class="nav_brand nav_item" title="Clarity">
+  <img src="https://nl.justobjects.org/logos/header.png" class="logo" alt="Clarity">
+  <div class="nav_close">
+    <div><svg class="icon">
+  <use xlink:href="#open-menu"></use>
+</svg><svg class="icon">
+  <use xlink:href="#closeme"></use>
+</svg></div>
+  </div>
+</a>
+
+    <div class='nav_body nav_body_left'>
+      
+      
+      
+        
+
+  <div class="nav_parent">
+    <a href="https://nl.justobjects.org/about/" class="nav_item" title="About">About </a>
+  </div>
+  <div class="nav_parent">
+    <a href="https://nl.justobjects.org/" class="nav_item" title="Writings">Writings <img src='https://nl.justobjects.org/icons/caret-icon.svg' alt="icon" class="nav_icon"></a>
+    <div class="nav_sub">
+      <span class="nav_child"></span>
+        <a href="https://nl.justobjects.org/posts/" class="nav_child nav_item" title="Blog">Blog</a>
+        <a href="https://nl.justobjects.org/tweets/" class="nav_child nav_item" title="Tweets">Tweets</a>
+        <a href="https://nl.justobjects.org/presentations/" class="nav_child nav_item" title="Presentations">Presentations</a>
+        <a href="https://nl.justobjects.org/publications/" class="nav_child nav_item" title="Publications">Publications</a>
+    </div>
+  </div>
+  <div class="nav_parent">
+    <a href="https://nl.justobjects.org/projects/" class="nav_item" title="Projects">Projects <img src='https://nl.justobjects.org/icons/caret-icon.svg' alt="icon" class="nav_icon"></a>
+    <div class="nav_sub">
+      <span class="nav_child"></span>
+        <a href="https://nl.justobjects.org/projects/" class="nav_child nav_item" title="Overview">Overview</a>
+        <a href="http://heron-mc.org" class="nav_child nav_item" title="Heron Mapping Client">Heron Mapping Client</a>
+        <a href="https://geohealthcheck.org" class="nav_child nav_item" title="GeoHealthCheck – OGC GeoSpatial Web Service Monitoring">GeoHealthCheck – OGC GeoSpatial Web Service Monitoring</a>
+        <a href="http://data.smartemission.nl" class="nav_child nav_item" title="Smart Emission – Open Sensor Web Platform">Smart Emission – Open Sensor Web Platform</a>
+        <a href="http://stetl.org" class="nav_child nav_item" title="Stetl – Streaming ETL">Stetl – Streaming ETL</a>
+        <a href="http://nlextract.nl" class="nav_child nav_item" title="NLExtract – Unlock Dutch Geodata">NLExtract – Unlock Dutch Geodata</a>
+        <a href="https://github.com/justb4/inspire-foss" class="nav_child nav_item" title="INSPIRE FOSS – Free and Open Source for INSPIRE">INSPIRE FOSS – Free and Open Source for INSPIRE</a>
+        <a href="http://7scenes.com" class="nav_child nav_item" title="7Scenes – create mobile games and tours">7Scenes – create mobile games and tours</a>
+        <a href="https://github.com/justb4/mapglow" class="nav_child nav_item" title="MapGlow – heatmaps via WMS">MapGlow – heatmaps via WMS</a>
+        <a href="http://geoskating.com" class="nav_child nav_item" title="GeoSkating – map your inline skating tracks">GeoSkating – map your inline skating tracks</a>
+        <a href="http://georambling.com" class="nav_child nav_item" title="GeoRambling – Just’s Multimedial GPS Hikes">GeoRambling – Just’s Multimedial GPS Hikes</a>
+        <a href="http://pushlets.com" class="nav_child nav_item" title="Pushlets – PubSub via HTTP">Pushlets – PubSub via HTTP</a>
+        <a href="http://justobjects.org/cowcatcher" class="nav_child nav_item" title="CowCatcher – Free Java Training Materials">CowCatcher – Free Java Training Materials</a>
+    </div>
+  </div>
+  <div class="nav_parent">
+    <a href="https://nl.justobjects.org/products/" class="nav_item" title="Products">Products <img src='https://nl.justobjects.org/icons/caret-icon.svg' alt="icon" class="nav_icon"></a>
+    <div class="nav_sub">
+      <span class="nav_child"></span>
+        <a href="https://nl.justobjects.org/map5/" class="nav_child nav_item" title="map5.nl">map5.nl</a>
+        <a href="https://nl.justobjects.org/geoqos/" class="nav_child nav_item" title="geoqos.com">geoqos.com</a>
+    </div>
+  </div>
+  <div class="nav_parent">
+    <a href="https://nl.justobjects.org/contact/" class="nav_item" title="Contact">Contact </a>
+  </div>
+      
+<div class='follow'>
+  <a href="http://www.linkedin.com/in/justb4">
+    <svg class="icon">
+  <use xlink:href="#linkedin"></use>
+</svg>
+  </a>
+  <a href="http://twitter.com/justb4">
+    <svg class="icon">
+  <use xlink:href="#twitter"></use>
+</svg>
+  </a>
+  <a href="https://github.com/justb4">
+    <svg class="icon">
+  <use xlink:href="#github"></use>
+</svg>
+  </a>
+  <a href="http://justobjects.nl/feed/">
+    <svg class="icon">
+  <use xlink:href="#rss"></use>
+</svg>
+  </a>
+<div class="color_mode">
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+</div>
+
+    </div>
+  </nav>
+</header>
+
+    <main>
+  
+<div class="grid-inverse wrap content">
+  <article class="post_content">
+    <h1 class="post_title">3D Geospatial – Open Standards – v0</h1>
+  <div class="post_meta">
+    <span><svg class="icon">
+  <use xlink:href="#calendar"></use>
+</svg></span>
+    <span class="post_date">
+      Jan 29, 2015</span>
+    <span class="post_time"> · 12 min read</span><span>&nbsp;· <a href='https://nl.justobjects.org/tags/3d' title="3D" class="post_tag button button_translucent">3D
+        </a><a href='https://nl.justobjects.org/tags/3dps' title="3DPS" class="post_tag button button_translucent">3DPS
+        </a><a href='https://nl.justobjects.org/tags/bim' title="BIM" class="post_tag button button_translucent">BIM
+        </a><a href='https://nl.justobjects.org/tags/cesium' title="Cesium" class="post_tag button button_translucent">Cesium
+        </a><a href='https://nl.justobjects.org/tags/collada' title="COLLADA" class="post_tag button button_translucent">COLLADA
+        </a><a href='https://nl.justobjects.org/tags/foss4g' title="FOSS4G" class="post_tag button button_translucent">FOSS4G
+        </a><a href='https://nl.justobjects.org/tags/geospatial' title="GeoSpatial" class="post_tag button button_translucent">GeoSpatial
+        </a><a href='https://nl.justobjects.org/tags/gis' title="GIS" class="post_tag button button_translucent">GIS
+        </a><a href='https://nl.justobjects.org/tags/ogc' title="ogc" class="post_tag button button_translucent">ogc
+        </a><a href='https://nl.justobjects.org/tags/osgeo' title="OSgeo" class="post_tag button button_translucent">OSgeo
+        </a><a href='https://nl.justobjects.org/tags/x3d' title="X3D" class="post_tag button button_translucent">X3D
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=3D%20Geospatial%20%e2%80%93%20Open%20Standards%20%e2%80%93%20v0&url=https%3a%2f%2fnl.justobjects.org%2f3d-geospatial-open-standards-v0%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <use xlink:href="#twitter"></use>
+</svg>
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fnl.justobjects.org%2f3d-geospatial-open-standards-v0%2f&t=3D%20Geospatial%20%e2%80%93%20Open%20Standards%20%e2%80%93%20v0" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <use xlink:href="#facebook"></use>
+</svg>
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <use xlink:href="#linkedin"></use>
+</svg>
+    </a>
+    <a href="https://nl.justobjects.org/3d-geospatial-open-standards-v0/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <use xlink:href="#copy"></use>
+</svg>
+    </a>
+  </div>
+  </span>
+  </div>
+
+    
+    <p>This is my evolving overview of 3D Geospatial Open Standards with a focus on web technology: services, HTML5, WebGL. These are notes I keep within <a href="http://evernote.com" target="_blank" rel="noreferrer noopener">Evernote</a>
+ as part of the 3D Geospatial Notebook whose public link is: <a href="https://www.evernote.com/pub/justb4ever/3d-geospatial">https://www.evernote.com/pub/justb4ever/3d-geospatial</a>. For sure, resources are missing, let me know. These notes are synced from Evernote using <a href="http://zapier.com" target="_blank" rel="noreferrer noopener">Zapier</a>
+, so formatting is a bit messy, sorry for that, though I completely revised this blog on Jan 30, 2015.</p>
+<p>The presentations by <a href="https://twitter.com/emmanuel_belo" target="_blank" rel="noreferrer noopener">Emanuel Belo</a>
+ (<a href="http://www.camptocamp.com/en/" target="_blank" rel="noreferrer noopener">Camp2Camp</a>
+, links below) are an excellent start to get a global overview. He mentions the following categories of 3D standards and their organizations:</p>
+<p><em><strong>Geo: OGC</strong></em></p>
+<ul>
+<li>3D Portrayal Services (Proposals: WVS WMS-Like &amp; W3DS WFS-Like) (Just: Now 3DPS)</li>
+<li>KML – XML/COLLADA</li>
+<li>CityGML – representation, storage, and exchange</li>
+<li>CZML (AGI/Cesium) ?</li>
+</ul>
+<p><em><strong>Geo: OSGeo</strong></em></p>
+<ul>
+<li>TMS (Cesium Terrain Server z.B)</li>
+</ul>
+<p> </p>
+<p><em><strong>Web: Web3d</strong></em></p>
+<ul>
+<li> X3D – Extensible 3D Graphics</li>
+</ul>
+<p><em><strong>Graphics: Khronos Group</strong></em></p>
+<ul>
+<li>COLLADA – eXchange / interoperability</li>
+<li>glTF – graphic language Transmission Format</li>
+</ul>
+<p> </p>
+<p><em><strong>Other</strong></em></p>
+<ul>
+<li>TopoJSON</li>
+</ul>
+<p>In the short time I am spending within the 3D domain I think another categorization could be 3D Web Services Standards and 3D Content/Format Standards. A lot of focus is usually on the latter. Within 3D Content/Format Standards my view is that there are the sub-categories based on stages within a 3D rendering pipeline, i.e. from raw source data like CityGML up to 3D-scene encodings like COLLADA and glTF. I see “Terrain” as a separate content category with encodings like height maps and TINs.</p>
+<p>I think/hope that 3D Web Services will gain importance: services to request Content in various encodings plus Terrain data. Techniques like tiling (TMS/WMTS) are already very common within the geospatial world. With the latest developments in vector-tiling I see much potential, especially for terrain and textures (raster) draped on a terrain. Streaming as in video streaming, is not common within the geospatial world but may become of use especially in HTML5 apps (via web sockets?).</p>
+<p><strong>General</strong></p>
+<p>The following presentations by Emanuel Belo from Camp2Camp hit the nail on the head. The content lives up to the title.</p>
+<p>Two versions available, video and slides from FOSS4G 2013, Nottingham (missed that unfortunately) and a later 2014 version.</p>
+<p><a href="https://www.youtube.com/watch?v=9CgU0zs8DlU">https://www.youtube.com/watch?v=9CgU0zs8DlU</a> 3D Web Services And Models For The Web: Where Do We Stand? Belo FOSS4G13</p>
+<p><a href="http://www.slideshare.net/camptocamp/3-d-web-services-and-models-for-the-web">http://www.slideshare.net/camptocamp/3-d-web-services-and-models-for-the-web</a> Belo – ditto slides [1]</p>
+<p><a href="http://www.geospatialworldforum.org/2014/presentation/geo3d/Emmanuel%20Belo%20M.pdf">http://www.geospatialworldforum.org/2014/presentation/geo3d/Emmanuel%20Belo%20M.pdf</a> Belo – ditto 2014 version slides</p>
+<p><strong>Open Geospatial Consortium – OGC</strong></p>
+<p>For open geospatial standards the Open Geospatial Consortium, OGC, is the first standards body to look at. Their standards<br>
+are often aligned with corresponding ISO standards and more recently OGC started collaborating more closely with W3C.</p>
+<p>At least two Standards Working Groups (WSGs) are dedicated to 3D. The more established 3D Information Management (3DIM, CityGML!)) and the probably lesser known 3D Portrayal SWG.</p>
+<p>It should be noted and credited that most of the OGC 3D standards came out of the German <a href="http://www.gdi-3d.de" target="_blank" rel="noreferrer noopener">GDI-DE</a>
+ project.<br>
+At this moment (Jan 2015) two main OGC standards are of importance for 3D: CityGML and the draft standard for 3D Portrayal web services: 3DPS.</p>
+<p><em><strong>OGC – 3D Information Modeling – CityGML</strong></em><br>
+<em>“CityGML is a common information model and XML-based encoding for the representation, storage, and exchange of virtual 3D city and landscape models. CityGML provides a standard model and mechanism for describing 3D objects with respect to their geometry, topology, semantics and appearance, and defines five different levels of detail. Included are also generalization hierarchies between thematic classes, aggregations, relations between objects, and spatial properties. CityGML is highly scalable and datasets can include different urban entities supporting the general trend toward modeling not only individual buildings but also whole sites, districts, cities, regions, and countries.”</em><br>
+<a href="http://www.citygml.org">http://www.citygml.org</a></p>
+<p>SWG: <a href="http://www.opengeospatial.org/projects/groups/3dimwg">http://www.opengeospatial.org/projects/groups/3dimwg</a> – 3D Information Management (3DIM) Domain Working Group<br>
+CityGML: <a href="http://www.opengeospatial.org/standards/citygml">http://www.opengeospatial.org/standards/citygml</a></p>
+<p>OGC candidate 3D Standards | GeoConnexion<br>
+<a href="http://www.geoconnexion.com/articles/ogc-candidate-3d-standards">http://www.geoconnexion.com/articles/ogc-candidate-3d-standards</a><br>
+<a href="http://www.w3ds.org/doku.php">http://www.w3ds.org/doku.php</a></p>
+<p><em><strong>OGC – 3D Web Services – 3D Portrayal</strong></em></p>
+<p>SWG: <a href="http://www.opengeospatial.org/projects/groups/3dpswg">http://www.opengeospatial.org/projects/groups/3dpswg</a> – 3D Portrayal SWG.<br>
+Note the W3DS, WVS, WTS and WPVS are now all obsolete since they have been merged into a single web service standard: the 3D Portrayal Service (3DPS).</p>
+<p>A draft version 1.0.0 is now (January 2015) out for public comment within OGC:<br>
+<a href="http://www.opengeospatial.org/standards/requests/130">http://www.opengeospatial.org/standards/requests/130</a></p>
+<p><em>“The 3D portrayal standard (3DPS) is an OGC service implementation specification targeting the delivery of 3D portrayals in an interoperable fashion. … When client and server(s) involved share a common set of capabilities, it becomes possible to view and analyze 3D geoinformation from diverse sources in a combined manner. …. The 3DPS combines the essential parts of the suggested W3DS and WVS into one common interface.”</em> and</p>
+<p><em>“ The Open Geospatial Consortium (OGC) and the Web3D Consortium have both been working to address the need for interoperability, as well as the content challenges of volume, access speed, and diversity of devices. The Web3D Consortium has focused on open standards for real-time 3D visualization, including streaming, and their members developed a Geospatial Component extension for X3D. The OGC has focused on developing a service interface to provide interoperable access to 3D geospatial data servers. In 2012, a group of OGC members, building on work done in both organizations, completed the 3D Portrayal Interoperability Experiment (3DPIE) to develop and evaluate best practices for 3D portrayal services.”</em></p>
+<p><em>“The candidate OGC 3D Portrayal Service Standard is designed to support both client and server side rendering. For client-side rendering, the client requests a 3D model from the server. The server extracts the requested model from the 3D geodata server and generates a 3D scene graph including geometry and textures. Depending on the server’s capabilities, data formats such as X3D, KML and COLLADA can be used to retrieve the scene graph. The rendering of the scene is done on the client side. In a web client, X3DOM and/or XML3D can be used to integrate the scene into an immersive HTML5 experience. However, there are no fixed format requirements, opening the service for other technologies such as JSON-based glTF. For server side rendering, the client passes the requested content and view parameters to the server. The server then generates layered image depictions of the 3D environment for display on the client. In either scenario, the client’s user can query and navigate through the 3D content.”</em></p>
+<p>Link to 3DPS v1.0.0 for public review on jan 29, 2015:</p>
+<p>Public comment request: <a href="http://www.opengeospatial.org/standards/requests/130" target="_blank"><a href="http://www.opengeospatial.org/standards/requests/130">http://www.opengeospatial.org/standards/requests/130</a></a><br>
+Direct download 3DPS 1.0.0 draft: <a href="https://portal.opengeospatial.org/files/61884" target="_blank"><a href="https://portal.opengeospatial.org/files/61884">https://portal.opengeospatial.org/files/61884</a></a></p>
+<p>For history reasons some notes kept on W3DS and WVS below.</p>
+<p><em>A <strong>Web 3D Service (W3DS)</strong> is a portrayal service for three-dimensional geodata such as landscape models, city models, textured building models, vegetation objects, and streetfurniture. Geodata is delivered as scenes that are comprised of display elements, optimized for efficient real time rendering at high frame rates. 3D Scenes can be interactively displayed and explored by internet browsers with 3D plug-ins, or loaded into virtual globe applications.</em></p>
+<p><em>The <strong>Web View Service (WVS)</strong> is a portrayal service for three-dimensional geodata suchas landscape models, city models, vegetation models, or transportation infrastructure models. A WVS server mainly provides 2D image representing a 3D view on a scene constructed from 3D geodata that is integrated and visualized by the WVS server. In addition to these color images of a 3D scene, a WVS server can advertise and deliver complementary image layers that include geometrical or thematic information: e.g., depth layers, surface normal data, or object id information.</em></p>
+<p><em><strong>OGC – 3D Portrayal Interoperability Experiment (3DPIE)</strong></em><br>
+The OGC …. <em>“3D Portrayal Interoperability Experiment (IE) successfully tested and demonstrated different mechanisms for the portrayal, delivery, and exploitation of 3D geodata based on open standards-based formats and services. …approaches for service-based 3D portrayal based on thedrafts for the candidate standards for 3D portrayal, Web 3D Service (W3DS) and WebView Service (WVS).”</em></p>
+<p>Page: <a href="http://www.opengeospatial.org/projects/initiatives/3dpie">http://www.opengeospatial.org/projects/initiatives/3dpie</a><br>
+Report: <a href="https://portal.opengeospatial.org/files/?artifact_id=49068">https://portal.opengeospatial.org/files/?artifact_id=49068</a></p>
+<p>NB this ultimately lead to the development of the 3D Portrayal Standard which merged W3DS and WVS.</p>
+<p><strong>Open Source Geospatial Foundation – OSGeo</strong><br>
+Although <a href="http://osgeo.org" target="_blank" rel="noreferrer noopener">OSGeo.org</a>
+ is not a standards body, for years the Tiled Map Service TMS spec is intensively used, probably more than its OGC-counterpart WMTS…<br>
+<a href="http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification">http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification</a></p>
+<p>TMS is finding its use in the 3D landscape not just for tiles containing 2D raster maps to be draped over a terrain, but also more and more as a container for height and (compressed) vector tiles. This is an important development, see e.g. Cesium Terrain Server and its two format-encodings for terrain-tiles:<br>
+<a href="https://github.com/AnalyticalGraphicsInc/cesium/wiki/Cesium-Terrain-Server">https://github.com/AnalyticalGraphicsInc/cesium/wiki/Cesium-Terrain-Server</a></p>
+<p><strong>X3D – Web3D</strong><br>
+<em>“Extensible 3D (X3D) Graphics and Humanoid Animation (H-Anim) include a coordinated set of steadily evolving ISO standards. “</em></p>
+<p><a href="http://www.web3d.org/standards">http://www.web3d.org/standards</a> (mostly X3D, equiv with ISO/IEC 19775 (architecture and abstract capabilities), 19776 (encodings), and 19777 (API)))</p>
+<p><strong>X3DOM</strong><br>
+<em>“X3DOM is an adaption of the X3D standard to (X)HTML, ensuring declarative 3D can</em><br>
+<em>be used inside standards-compliant browser. It aims to support a large browser base and</em><br>
+<em>decent X3D feature coverage, while working towards a common declarative 3D standard</em><br>
+<em>in the Declarative 3D community WG at the W3C. The reference implementation is</em><br>
+<em>maintained by Fraunhofer IGD and available under the open-source license MIT.”</em><br>
+<a href="http://www.x3dom.org/">http://www.x3dom.org/</a></p>
+<p><strong>WebGL</strong><br>
+<a href="https://www.khronos.org/webgl/">https://www.khronos.org/webgl/</a><br>
+<em>“WebGL is a standard for programming in 3D with the browser as platform. The final</em><br>
+<em>specification of the standard was published in 2010 and is defined by the Khronos Group,</em><br>
+<em>a consortium which is also in charge of Open GL, Open CL and OpenGL ES (embedded</em><br>
+<em>systems). WebGL provide a context into HTML5 canvas that is 3D Computer Graphics</em><br>
+<em>capable without plug-in.”</em></p>
+<p><strong>Cesium</strong><br>
+Although <a href="http://cesiumjs.org" target="_blank" rel="noreferrer noopener">CesiumJS</a>
+ is mainly a client JavaScript framework based on WebGL and Dojo,  some very useful standards are originating from the project.</p>
+<p><a href="http://cesiumjs.org/data-and-assets/terrain/formats/quantized-mesh-1.0.html">http://cesiumjs.org/data-and-assets/terrain/formats/quantized-mesh-1.0.html</a> quantized mesh via TMS – for terrain services based on TINs.</p>
+<p><a href="https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide">https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide</a> – CZML is a JSON schema for describing a time-dynamic graphical scene</p>
+<p>NEW (august 2015) <em><strong>“3D Tiles”</strong></em> : <a href="https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles">https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles</a>. <em>“3D Tiles are an <a href="https://github.com/AnalyticalGraphicsInc/3d-tiles" target="_blank" rel="noreferrer noopener">open specification</a>
+ for streaming massive heterogeneous 3D geospatial datasets….3D Tiles define a spatial data structure and a set of tile formats designed for 3D and optimized for streaming and rendering. Tiles for 3D models use <a href="https://www.khronos.org/gltf" target="_blank" rel="noreferrer noopener">glTF</a>
+, the WebGL runtime asset format developed by Khronos, which the Cesium team heavily contributes to….”</em></p>
+<p><strong>Collada</strong><br>
+<em>“COLLADA™ defines an XML-based schema to make it easy to transport 3D assets between applications – enabling diverse 3D authoring and content processing tools to be combined into a production pipeline. The intermediate language provides comprehensive encoding of visual scenes including: geometry, shaders and effects, physics, animation, kinematics, and even multiple version representations of the same asset.COLLADA FX enables leading 3D authoring tools to work effectively together to create shader and effects applications and assets to be authored and packaged using OpenGL® Shading Language, Cg, CgFX, and DirectX® FX.”</em></p>
+<p><a href="https://www.khronos.org/collada/">https://www.khronos.org/collada/</a></p>
+<p><strong>KML</strong><br>
+Originally from Keyhole/Google, but since years an OGC Standard. May embed Collada.</p>
+<p><em>“Keyhole Markup Language (KML) is an XML notation for expressing geographic annotation and visualization within Internet-based, two-dimensional maps and three-dimensional Earth browsers. KML was developed for use with Google Earth, which was originally named Keyhole Earth Viewer. It was created by Keyhole, Inc, which was acquired by Google in 2004. KML became an international standard of the Open Geospatial Consortium in 2008.[1][2] Google Earth was the first program able to view and graphically edit KML files. “</em><br>
+Source: <a href="http://en.wikipedia.org/wiki/Keyhole_Markup_Language">http://en.wikipedia.org/wiki/Keyhole_Markup_Language</a></p>
+<p>OGC Standard: <a href="http://www.opengeospatial.org/standards/kml">http://www.opengeospatial.org/standards/kml</a></p>
+<p><em><strong>3D in KML:</strong></em><br>
+<a href="https://developers.google.com/kml/documentation/models">https://developers.google.com/kml/documentation/models</a><br>
+<a href="http://blog.thematicmapping.org/2008/04/proportional-3d-collada-objects-in-kml.html">http://blog.thematicmapping.org/2008/04/proportional-3d-collada-objects-in-kml.html</a><br>
+<a href="http://blog.thematicmapping.org/2008/04/drawing-3d-bars-in-kml.html">http://blog.thematicmapping.org/2008/04/drawing-3d-bars-in-kml.html</a></p>
+<p><strong>glTF</strong><br>
+Final stage OpenGL Transmission Format to enable rapid delivery and loading of 3D content by WebGL, OpenGL, and OpenGL ES APIs.</p>
+<p><em>“The “glTF” project aims to define a final stage OpenGL Transmission Format to enable rapid delivery and loading of 3D content by WebGL, OpenGL, and OpenGL ES APIs. glTF together with COLLADA comprise a standards-based content pipeline for rich 3D web and mobile applications. glTF Specification is a work-in-progress from the COLLADA Working Group; it is not an official Khronos-ratified specification yet. It is incomplete and subject to change. The draft specification and related converters and loaders are available on github.”</em></p>
+<p><a href="https://www.khronos.org/" target="_blank"><a href="https://www.khronos.org/">https://www.khronos.org/</a></a><br>
+<a href="https://www.khronos.org/gltf/" target="_blank"><a href="https://www.khronos.org/gltf/">https://www.khronos.org/gltf/</a></a></p>
+<p><strong>TopoJSON</strong></p>
+<p><em>“TopoJSON is an extension of GeoJSON that encodes topology. Rather than representing geometries discretely, geometries in TopoJSON files are stitched together from shared line segments called arcs. TopoJSON eliminates redundancy, offering much more compact representations of geometry than with GeoJSON; typical TopoJSON files are 80% smaller than their GeoJSON equivalents. In addition, TopoJSON facilitates applications that use topology, such as topology-preserving shape simplification, automatic map coloring, and cartograms.”</em> (i.e. compact TIN-representations!).<br>
+<a href="https://github.com/mbostock/topojson">https://github.com/mbostock/topojson</a></p>
+<p><strong>Germany: SIG 3D</strong><br>
+Germany-based 3D interest group. Started already very early (2002) with 3D geospatial and has a long history. Many useful resources for both standards and implementations can be found via their websites.</p>
+<p><em>“Three-dimensional models of cities and regions play an important role in major applications of architecture, urban planning, surveying, mobile telecommunication or facility management. In the environmental sector 3D city models enable the simulation of noise and exhaust emissions as well as predictions on city climate change affecting a city. Concerning disaster situations like floods, 3D landscape models can help to analyse the affected areas and buildings.”</em></p>
+<p><em>“Since the beginning of 2010 SIG 3D is part of the German Spatial Data Infrastructure (GDI-DE) and coordinates this context the national and international network of 3D activities.”</em></p>
+<p><a href="http://www.sig3d.org/">http://www.sig3d.org/</a><br>
+Several standards like OGC CityGML W3DS, later 3DPS had their origins here.</p>
+<p><strong>The Netherlands: Doorbraak 3D (Breakthrough 3D)</strong><br>
+3D initiative within The Netherlands as a follow-up on earlier successful 3D projects like the 3D-Pilot: <a href="http://www.geonovum.nl/documenten/rapport-eindrapportages-3d-pilot-nl-eerste-fase">http://www.geonovum.nl/documenten/rapport-eindrapportages-3d-pilot-nl-eerste-fase</a></p>
+<p>As a follow-up (2011) of the 3D-Pilot the public standard CityGML-IMGeo was developed. Basically this standardizes detailed smallscale/detailed topography using and extending CityGML: <a href="http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-imgeo-versie-211">http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-imgeo-versie-211</a></p>
+<p>History of 3D geo in The Netherlands: <a href="http://www.geonovum.nl/onderwerpen/3d-geo-informatie/historie-3d-geo-informatie-nl">http://www.geonovum.nl/onderwerpen/3d-geo-informatie/historie-3d-geo-informatie-nl</a></p>
+<p>Now (Jan 2015) starting up a next phase called “3D Doorbraak”, with a recent working conference for establishing the 3D roadmap for The Netherlands: <a href="http://www.geonovum.nl/nieuws/werkconferentie-voor-opstellen-roadmap-3d-doorbraak">http://www.geonovum.nl/nieuws/werkconferentie-voor-opstellen-roadmap-3d-doorbraak</a></p>
+<p>The choice of standards plays an important part.</p>
+<p>See also news items via Twitter (#doorbraak3D): <a href="https://twitter.com/search?q=%23doorbraak3D&amp;src=typd">https://twitter.com/search?q=%23doorbraak3D&amp;src=typd</a></p>
+<p><strong>BIM – IFC</strong></p>
+<p>Now that geospatial information is obtaining more detail and moving into 3D, integration with standards within the Building and infrastructure industry is one of the most obvious use-cases. Building Information Modelling or BIM is a huge standardization effort within the Building and infrastructure domain.</p>
+<p>Geoff ,”Between The Poles”, Zeiss blogs regularly on BIM and Geospatial: <a href="http://geospatial.blogs.com/geospatial/bim/">http://geospatial.blogs.com/geospatial/bim/</a></p>
+<p><em><strong>“Building information modeling</strong> (<strong>BIM</strong>) is a process involving the generation and management of digital representations of physical and functional characteristics of places. <strong>Building information models</strong> (<strong>BIMs</strong>) are files (often but not always in proprietary formats and containing proprietary data) which can be exchanged or networked to support decision-making about a place. Current BIM software is used by individuals, businesses and government agencies who plan, design, construct, operate and maintain diverse physical infrastructures, such as water, wastewater, electricity, gas, refuse and communication utilities, roads, bridges and ports, houses, apartments, schools and shops, offices, factories, warehouses and prisons.”</em></p>
+<p>Source: <a href="http://en.wikipedia.org/wiki/Building_information_modeling">http://en.wikipedia.org/wiki/Building_information_modeling</a></p>
+<p>For information exchange the Industry Foundation Classes are put forward.</p>
+<p>“The <em>Industry Foundation Classes (IFC) data model is intended to describe building and construction industry data.</em></p>
+<p><em>It is a platform neutral, open file format specification that is not controlled by a single vendor or group of vendors. It is an object-based file format with a data model developed bybuildingSMART (formerly the International Alliance for Interoperability, IAI) to facilitate interoperability in the architecture, engineering and construction (AEC) industry, and is a commonly used collaboration format in Building information modeling (BIM) based projects. The IFC model specification is open and available.[1] It is registered by ISO and is an official International Standard ISO 16739:2013.”</em><br>
+Source: <a href="http://en.wikipedia.org/wiki/Industry_Foundation_Classes">http://en.wikipedia.org/wiki/Industry_Foundation_Classes</a></p>
+<p>More: <a href="http://www.ifcwiki.org/index.php/Main_Page">http://www.ifcwiki.org/index.php/Main_Page</a></p>
+
+
+  </article>
+<aside class="sidebar">
+  <section class="sidebar_inner">
+        <h2>Just Objects B.V.</h2>
+      <div class="author_bio">
+        The trading name for the professional activities of Just van den Broecke.
+      </div>
+      <a href='https://nl.justobjects.org/about/' class="button mt-1" role="button" title='Read More'>Read More</a>
+    <h2 class="mt-4">Recent Posts</h2>
+    <ul class="flex-column">
+      <li>
+        <a href="https://nl.justobjects.org/that-was-2020/" class="nav-link" title="That Was 2020">That Was 2020</a>
+      </li>
+      <li>
+        <a href="https://nl.justobjects.org/cheers-to-2019/" class="nav-link" title="Cheers to 2019">Cheers to 2019</a>
+      </li>
+      <li>
+        <a href="https://nl.justobjects.org/2nd-time-around-wfs-v3-pygeoapi/" class="nav-link" title="Second Time Around – WFS v3 and pygeoapi">Second Time Around – WFS v3 and pygeoapi</a>
+      </li>
+    </ul>
+    <div>
+      <h2 class="mt-4 taxonomy" id="categories-section">Categories</h2>
+      <nav class="tags_nav">
+        <a href='https://nl.justobjects.org/categories/projects/' class="post_tag button button_translucent" title="projects">
+          PROJECTS
+          <span class="button_tally">34</span>
+        </a>
+        
+        <a href='https://nl.justobjects.org/categories/osgeo/' class="post_tag button button_translucent" title="osgeo">
+          OSGEO
+          <span class="button_tally">32</span>
+        </a>
+        
+        <a href='https://nl.justobjects.org/categories/software/' class="post_tag button button_translucent" title="software">
+          SOFTWARE
+          <span class="button_tally">30</span>
+        </a>
+        
+        <a href='https://nl.justobjects.org/categories/general/' class="post_tag button button_translucent" title="general">
+          GENERAL
+          <span class="button_tally">21</span>
+        </a>
+        
+        <a href='https://nl.justobjects.org/categories/mobile/' class="post_tag button button_translucent" title="mobile">
+          MOBILE
+          <span class="button_tally">13</span>
+        </a>
+        
+        
+        <br>
+        <div class="post_tags_toggle button">All Categories</div>
+        <div class="post_tags">
+          <div class="tags_list">
+            
+            <a href='https://nl.justobjects.org/categories/general/' class=" post_tag button button_translucent" data-position=21 title="general">GENERAL<span class="button_tally">21</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/categories/mediatech/' class=" post_tag button button_translucent" data-position=5 title="mediatech">MEDIATECH<span class="button_tally">5</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/categories/mobile/' class=" post_tag button button_translucent" data-position=13 title="mobile">MOBILE<span class="button_tally">13</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/categories/osgeo/' class=" post_tag button button_translucent" data-position=32 title="osgeo">OSGEO<span class="button_tally">32</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/categories/projects/' class=" post_tag button button_translucent" data-position=34 title="projects">PROJECTS<span class="button_tally">34</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/categories/smartemission/' class=" post_tag button button_translucent" data-position=8 title="smartemission">SMARTEMISSION<span class="button_tally">8</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/categories/software/' class=" post_tag button button_translucent" data-position=30 title="software">SOFTWARE<span class="button_tally">30</span>
+            </a>
+            
+            <div class="tags_sort"><span title="sort alphabetically">[A~Z]</span><span title="sort by count">[0~9]</span>
+            </div>
+            <span class="tags_hide"><svg class="icon">
+            <use xlink:href="#closeme"></use>
+          </svg></span>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
+      <nav class="tags_nav">
+        <a href='https://nl.justobjects.org/tags/geospatial/' class="post_tag button button_translucent" title="geospatial">
+          GEOSPATIAL
+          <span class="button_tally">16</span>
+        </a>
+        
+        <a href='https://nl.justobjects.org/tags/osgeo/' class="post_tag button button_translucent" title="osgeo">
+          OSGEO
+          <span class="button_tally">16</span>
+        </a>
+        
+        <a href='https://nl.justobjects.org/tags/gis/' class="post_tag button button_translucent" title="gis">
+          GIS
+          <span class="button_tally">12</span>
+        </a>
+        
+        <a href='https://nl.justobjects.org/tags/foss4g/' class="post_tag button button_translucent" title="foss4g">
+          FOSS4G
+          <span class="button_tally">10</span>
+        </a>
+        
+        <a href='https://nl.justobjects.org/tags/sensorthings/' class="post_tag button button_translucent" title="sensorthings">
+          SENSORTHINGS
+          <span class="button_tally">8</span>
+        </a>
+        
+        
+        <br>
+        <div class="post_tags_toggle button">All Tags</div>
+        <div class="post_tags">
+          <div class="tags_list">
+            
+            <a href='https://nl.justobjects.org/tags/3d/' class=" post_tag button button_translucent" data-position=2 title="3d">3D<span class="button_tally">2</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/3dps/' class=" post_tag button button_translucent" data-position=2 title="3dps">3DPS<span class="button_tally">2</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/air-quality/' class=" post_tag button button_translucent" data-position=1 title="air-quality">AIR-QUALITY<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/airquality/' class=" post_tag button button_translucent" data-position=1 title="airquality">AIRQUALITY<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/airsenseur/' class=" post_tag button button_translucent" data-position=1 title="airsenseur">AIRSENSEUR<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/basel/' class=" post_tag button button_translucent" data-position=1 title="basel">BASEL<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/bim/' class=" post_tag button button_translucent" data-position=1 title="bim">BIM<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/cesium/' class=" post_tag button button_translucent" data-position=3 title="cesium">CESIUM<span class="button_tally">3</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/collada/' class=" post_tag button button_translucent" data-position=1 title="collada">COLLADA<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/colorado/' class=" post_tag button button_translucent" data-position=1 title="colorado">COLORADO<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/d3js/' class=" post_tag button button_translucent" data-position=1 title="d3js">D3JS<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/denver/' class=" post_tag button button_translucent" data-position=1 title="denver">DENVER<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/docker/' class=" post_tag button button_translucent" data-position=1 title="docker">DOCKER<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/epgs28992/' class=" post_tag button button_translucent" data-position=1 title="epgs28992">EPGS28992<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/evolution/' class=" post_tag button button_translucent" data-position=1 title="evolution">EVOLUTION<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/foss/' class=" post_tag button button_translucent" data-position=7 title="foss">FOSS<span class="button_tally">7</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/foss4g/' class=" post_tag button button_translucent" data-position=10 title="foss4g">FOSS4G<span class="button_tally">10</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/gdal/' class=" post_tag button button_translucent" data-position=7 title="gdal">GDAL<span class="button_tally">7</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/geodjango/' class=" post_tag button button_translucent" data-position=1 title="geodjango">GEODJANGO<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/geofabriek/' class=" post_tag button button_translucent" data-position=1 title="geofabriek">GEOFABRIEK<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/geohealthcheck/' class=" post_tag button button_translucent" data-position=1 title="geohealthcheck">GEOHEALTHCHECK<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/geonode/' class=" post_tag button button_translucent" data-position=1 title="geonode">GEONODE<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/geonovum/' class=" post_tag button button_translucent" data-position=2 title="geonovum">GEONOVUM<span class="button_tally">2</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/geop/' class=" post_tag button button_translucent" data-position=1 title="geop">GEOP<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/geoqos/' class=" post_tag button button_translucent" data-position=1 title="geoqos">GEOQOS<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/geoserver/' class=" post_tag button button_translucent" data-position=3 title="geoserver">GEOSERVER<span class="button_tally">3</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/geospatial/' class=" post_tag button button_translucent" data-position=16 title="geospatial">GEOSPATIAL<span class="button_tally">16</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/geotoko.nl/' class=" post_tag button button_translucent" data-position=1 title="geotoko.nl">GEOTOKO.NL<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/gis/' class=" post_tag button button_translucent" data-position=12 title="gis">GIS<span class="button_tally">12</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/gps/' class=" post_tag button button_translucent" data-position=1 title="gps">GPS<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/grass/' class=" post_tag button button_translucent" data-position=1 title="grass">GRASS<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/grotegeoshow/' class=" post_tag button button_translucent" data-position=1 title="grotegeoshow">GROTEGEOSHOW<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/iot/' class=" post_tag button button_translucent" data-position=3 title="iot">IOT<span class="button_tally">3</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/jpeg/' class=" post_tag button button_translucent" data-position=1 title="jpeg">JPEG<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/lora/' class=" post_tag button button_translucent" data-position=1 title="lora">LORA<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/lorawan/' class=" post_tag button button_translucent" data-position=1 title="lorawan">LORAWAN<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/map5/' class=" post_tag button button_translucent" data-position=1 title="map5">MAP5<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/map5.nl/' class=" post_tag button button_translucent" data-position=4 title="map5.nl">MAP5.NL<span class="button_tally">4</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/mapnik/' class=" post_tag button button_translucent" data-position=1 title="mapnik">MAPNIK<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/mapproxy/' class=" post_tag button button_translucent" data-position=1 title="mapproxy">MAPPROXY<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/mapserver/' class=" post_tag button button_translucent" data-position=1 title="mapserver">MAPSERVER<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/natural-navigation/' class=" post_tag button button_translucent" data-position=1 title="natural-navigation">NATURAL-NAVIGATION<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/nijmegen/' class=" post_tag button button_translucent" data-position=1 title="nijmegen">NIJMEGEN<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/nlextract/' class=" post_tag button button_translucent" data-position=5 title="nlextract">NLEXTRACT<span class="button_tally">5</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/nltopo/' class=" post_tag button button_translucent" data-position=1 title="nltopo">NLTOPO<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/ogc/' class=" post_tag button button_translucent" data-position=7 title="ogc">OGC<span class="button_tally">7</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/openlayers/' class=" post_tag button button_translucent" data-position=1 title="openlayers">OPENLAYERS<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/openstreetmap/' class=" post_tag button button_translucent" data-position=1 title="openstreetmap">OPENSTREETMAP<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/opentopo/' class=" post_tag button button_translucent" data-position=2 title="opentopo">OPENTOPO<span class="button_tally">2</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/osgeo/' class=" post_tag button button_translucent" data-position=16 title="osgeo">OSGEO<span class="button_tally">16</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/osgeo.nl/' class=" post_tag button button_translucent" data-position=1 title="osgeo.nl">OSGEO.NL<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/oslandia/' class=" post_tag button button_translucent" data-position=1 title="oslandia">OSLANDIA<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/osm/' class=" post_tag button button_translucent" data-position=2 title="osm">OSM<span class="button_tally">2</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/packaging/' class=" post_tag button button_translucent" data-position=1 title="packaging">PACKAGING<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/postgis/' class=" post_tag button button_translucent" data-position=6 title="postgis">POSTGIS<span class="button_tally">6</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/proj/' class=" post_tag button button_translucent" data-position=1 title="proj">PROJ<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/python/' class=" post_tag button button_translucent" data-position=4 title="python">PYTHON<span class="button_tally">4</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/qgis/' class=" post_tag button button_translucent" data-position=1 title="qgis">QGIS<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/raspberry-pi/' class=" post_tag button button_translucent" data-position=2 title="raspberry-pi">RASPBERRY-PI<span class="button_tally">2</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/rtmp/' class=" post_tag button button_translucent" data-position=1 title="rtmp">RTMP<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/sensors/' class=" post_tag button button_translucent" data-position=1 title="sensors">SENSORS<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/sensorthings/' class=" post_tag button button_translucent" data-position=8 title="sensorthings">SENSORTHINGS<span class="button_tally">8</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/sensorweb/' class=" post_tag button button_translucent" data-position=1 title="sensorweb">SENSORWEB<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/sos/' class=" post_tag button button_translucent" data-position=6 title="sos">SOS<span class="button_tally">6</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/sotm/' class=" post_tag button button_translucent" data-position=1 title="sotm">SOTM<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/standards/' class=" post_tag button button_translucent" data-position=1 title="standards">STANDARDS<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/stetl/' class=" post_tag button button_translucent" data-position=2 title="stetl">STETL<span class="button_tally">2</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/streaming/' class=" post_tag button button_translucent" data-position=1 title="streaming">STREAMING<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/streamyard/' class=" post_tag button button_translucent" data-position=1 title="streamyard">STREAMYARD<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/swe/' class=" post_tag button button_translucent" data-position=6 title="swe">SWE<span class="button_tally">6</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/thethingsnetwork/' class=" post_tag button button_translucent" data-position=1 title="thethingsnetwork">THETHINGSNETWORK<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/threejs/' class=" post_tag button button_translucent" data-position=1 title="threejs">THREEJS<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/tilecache/' class=" post_tag button button_translucent" data-position=1 title="tilecache">TILECACHE<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/top10nl/' class=" post_tag button button_translucent" data-position=1 title="top10nl">TOP10NL<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/weather/' class=" post_tag button button_translucent" data-position=3 title="weather">WEATHER<span class="button_tally">3</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/weather-underground/' class=" post_tag button button_translucent" data-position=3 title="weather-underground">WEATHER-UNDERGROUND<span class="button_tally">3</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/weewx/' class=" post_tag button button_translucent" data-position=3 title="weewx">WEEWX<span class="button_tally">3</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/wfs/' class=" post_tag button button_translucent" data-position=1 title="wfs">WFS<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/wms/' class=" post_tag button button_translucent" data-position=3 title="wms">WMS<span class="button_tally">3</span>
+            </a>
+            
+            
+            <a href='https://nl.justobjects.org/tags/x3d/' class=" post_tag button button_translucent" data-position=1 title="x3d">X3D<span class="button_tally">1</span>
+            </a>
+            
+            <div class="tags_sort"><span title="sort alphabetically">[A~Z]</span><span title="sort by count">[0~9]</span>
+            </div>
+            <span class="tags_hide"><svg class="icon">
+            <use xlink:href="#closeme"></use>
+          </svg></span>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+</aside>
+
+  
+</div>
+    </main><svg width="0" height="0" class="hidden">
+  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
+    <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.001 18.001" id="twitter">
+    <path d="M15.891 4.013c.808-.496 1.343-1.173 1.605-2.034a8.68 8.68 0 0 1-2.351.861c-.703-.756-1.593-1.14-2.66-1.14-1.043 0-1.924.366-2.643 1.078a3.56 3.56 0 0 0-1.076 2.605c0 .309.039.585.117.819-3.076-.105-5.622-1.381-7.628-3.837-.34.601-.51 1.213-.51 1.846 0 1.301.549 2.332 1.645 3.089-.625-.053-1.176-.211-1.645-.47 0 .929.273 1.705.82 2.388a3.623 3.623 0 0 0 2.115 1.291c-.312.08-.641.118-.979.118-.312 0-.533-.026-.664-.083.23.757.664 1.371 1.291 1.841a3.652 3.652 0 0 0 2.152.743C4.148 14.173 2.625 14.69.902 14.69c-.422 0-.721-.006-.902-.038 1.697 1.102 3.586 1.649 5.676 1.649 2.139 0 4.029-.542 5.674-1.626 1.645-1.078 2.859-2.408 3.639-3.974a10.77 10.77 0 0 0 1.172-4.892v-.468a7.788 7.788 0 0 0 1.84-1.921 8.142 8.142 0 0 1-2.11.593z"
+      ></path>
+  </symbol>
+  <symbol aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="mail">
+    <path  d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="calendar">
+    <path d="M452 40h-24V0h-40v40H124V0H84v40H60C26.916 40 0 66.916 0 100v352c0 33.084 26.916 60 60 60h392c33.084 0 60-26.916 60-60V100c0-33.084-26.916-60-60-60zm20 412c0 11.028-8.972 20-20 20H60c-11.028 0-20-8.972-20-20V188h432v264zm0-304H40v-48c0-11.028 8.972-20 20-20h24v40h40V80h264v40h40V80h24c11.028 0 20 8.972 20 20v48z"></path>
+    <path d="M76 230h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zM76 310h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zM76 390h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zm80-80h40v40h-40z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="github">
+    <path d="M255.968 5.329C114.624 5.329 0 120.401 0 262.353c0 113.536 73.344 209.856 175.104 243.872 12.8 2.368 17.472-5.568 17.472-12.384 0-6.112-.224-22.272-.352-43.712-71.2 15.52-86.24-34.464-86.24-34.464-11.616-29.696-28.416-37.6-28.416-37.6-23.264-15.936 1.728-15.616 1.728-15.616 25.696 1.824 39.2 26.496 39.2 26.496 22.848 39.264 59.936 27.936 74.528 21.344 2.304-16.608 8.928-27.936 16.256-34.368-56.832-6.496-116.608-28.544-116.608-127.008 0-28.064 9.984-51.008 26.368-68.992-2.656-6.496-11.424-32.64 2.496-68 0 0 21.504-6.912 70.4 26.336 20.416-5.696 42.304-8.544 64.096-8.64 21.728.128 43.648 2.944 64.096 8.672 48.864-33.248 70.336-26.336 70.336-26.336 13.952 35.392 5.184 61.504 2.56 68 16.416 17.984 26.304 40.928 26.304 68.992 0 98.72-59.84 120.448-116.864 126.816 9.184 7.936 17.376 23.616 17.376 47.584 0 34.368-.32 62.08-.32 70.496 0 6.88 4.608 14.88 17.6 12.352C438.72 472.145 512 375.857 512 262.353 512 120.401 397.376 5.329 255.968 5.329z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 212" id="gitlab">
+    <path d="M12.3 74.7h54L43.3 3c-1-3.6-6.4-3.6-7.6 0L12.3 74.8z" />
+    <path d="M12.3 74.7L.5 111c-1 3.2 0 6.8 3 8.8l101.6 74-92.5-119z"/>
+    <path d="M105 193.7l-38.6-119h-54l92.7 119z"/>
+    <path d="M105 193.7l38.7-119H66.4l38.7 119z"/>
+    <path d="M105 193.7l38.7-119H198l-93 119z"/>
+    <path d="M198 74.7l11.6 36.2c1 3 0 6.6-3 8.6l-101.5 74 93-119z"/>
+    <path d="M198 74.7h-54.3L167 3c1.2-3.6 6.4-3.6 7.6 0L198 74.8z"/> 
+  </symbol>
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="rss">
+    <circle cx="3.429" cy="20.571" r="3.429"></circle>
+    <path d="M11.429 24h4.57C15.999 15.179 8.821 8.001 0 8v4.572c6.302.001 11.429 5.126 11.429 11.428z"></path>
+    <path d="M24 24C24 10.766 13.234 0 0 0v4.571c10.714 0 19.43 8.714 19.43 19.429z"></path>
+  </symbol>
+  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="linkedin">
+    <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h362c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zM181 406h-60V196h60zm0-240h-60v-60h60zm210 240h-60V286c0-16.54-13.46-30-30-30s-30 13.46-30 30v120h-60V196h60v11.309C286.719 202.422 296.93 196 316 196c40.691.043 75 36.547 75 79.688zm0 0"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612" id="arrow">
+    <path d="M604.501 440.509L325.398 134.956c-5.331-5.357-12.423-7.627-19.386-7.27-6.989-.357-14.056 1.913-19.387 7.27L7.499 440.509c-9.999 10.024-9.999 26.298 0 36.323s26.223 10.024 36.222 0l262.293-287.164L568.28 476.832c9.999 10.024 26.222 10.024 36.221 0 9.999-10.023 9.999-26.298 0-36.323z"></path>
+  </symbol>
+  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="carly">
+    <path d="M504.971 239.029L448 182.059V84c0-46.317-37.682-84-84-84h-44c-13.255 0-24 10.745-24 24s10.745 24 24 24h44c19.851 0 36 16.149 36 36v108c0 6.365 2.529 12.47 7.029 16.971L454.059 256l-47.029 47.029A24.002 24.002 0 0 0 400 320v108c0 19.851-16.149 36-36 36h-44c-13.255 0-24 10.745-24 24s10.745 24 24 24h44c46.318 0 84-37.683 84-84v-98.059l56.971-56.971c9.372-9.372 9.372-24.568 0-33.941zM112 192V84c0-19.851 16.149-36 36-36h44c13.255 0 24-10.745 24-24S205.255 0 192 0h-44c-46.318 0-84 37.683-84 84v98.059l-56.971 56.97c-9.373 9.373-9.373 24.568 0 33.941L64 329.941V428c0 46.317 37.682 84 84 84h44c13.255 0 24-10.745 24-24s-10.745-24-24-24h-44c-19.851 0-36-16.149-36-36V320c0-6.365-2.529-12.47-7.029-16.971L57.941 256l47.029-47.029A24.002 24.002 0 0 0 112 192z"></path>
+  </symbol>
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="copy">
+    <path d="M23 2.75A2.75 2.75 0 0 0 20.25 0H8.75A2.75 2.75 0 0 0 6 2.75v13.5A2.75 2.75 0 0 0 8.75 19h11.5A2.75 2.75 0 0 0 23 16.25zM18.25 14.5h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5zm0-3h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5zm0-3h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5z"></path>
+    <path d="M8.75 20.5a4.255 4.255 0 0 1-4.25-4.25V2.75c0-.086.02-.166.025-.25H3.75A2.752 2.752 0 0 0 1 5.25v16A2.752 2.752 0 0 0 3.75 24h12a2.752 2.752 0 0 0 2.75-2.75v-.75z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.001 512.001" id="closeme">
+    <path d="M284.286 256.002L506.143 34.144c7.811-7.811 7.811-20.475 0-28.285-7.811-7.81-20.475-7.811-28.285 0L256 227.717 34.143 5.859c-7.811-7.811-20.475-7.811-28.285 0-7.81 7.811-7.811 20.475 0 28.285l221.857 221.857L5.858 477.859c-7.811 7.811-7.811 20.475 0 28.285a19.938 19.938 0 0 0 14.143 5.857 19.94 19.94 0 0 0 14.143-5.857L256 284.287l221.857 221.857c3.905 3.905 9.024 5.857 14.143 5.857s10.237-1.952 14.143-5.857c7.811-7.811 7.811-20.475 0-28.285L284.286 256.002z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="open-menu">
+    <path d="M492 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0-160H20C8.954 76 0 84.954 0 96s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0 320H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="instagram">
+    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id=youtube>
+    <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="stackoverflow">
+    <path d="M21 27v-8h3v11H0V19h3v8h18z"></path><path d="M17.1.2L15 1.8l7.9 10.6 2.1-1.6L17.1.2zm3.7 14.7L10.6 6.4l1.7-2 10.2 8.5-1.7 2zM7.2 12.3l12 5.6 1.1-2.4-12-5.6-1.1 2.4zm-1.8 6.8l13.56 1.96.17-2.38-13.26-2.55-.47 2.97zM19 25H5v-3h14v3z"></path>
+  </symbol>
+</svg>
+
+
+<footer class="footer">
+  <div class="footer_inner wrap pale">
+    <img src='https://nl.justobjects.org/logos/footer.png' class="icon icon_2 transparent" alt="Clarity">
+    <p>Copyright&nbsp;<span class="year"></span>&nbsp;CLARITY. All Rights Reserved</p><a class="to_top" href="#documentTop">
+  <svg class="icon">
+  <use xlink:href="#arrow"></use>
+</svg>
+</a>
+
+  </div>
+</footer>
+
+    <script type="text/javascript" src="https://nl.justobjects.org/js/bundle.min.d14fbcd65c3ba32e60cab81f8bbe7aa9b7f8b95ff8290e437fb26ff9ab7f7ea0c928db2dca60aac91f192db906f2d90678f83907e4e3994f6ff9fdb5bdea3369.js" integrity="sha512-0U&#43;81lw7oy5gyrgfi756qbf4uV/4KQ5Df7Jv&#43;at/fqDJKNstymCqyR8ZLbkG8tkGePg5B&#43;TjmU9v&#43;f21veozaQ==" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

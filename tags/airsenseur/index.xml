@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>airsenseur on Clarity</title>
+    <link>https://nl.justobjects.org/tags/airsenseur/</link>
+    <description>Recent content in airsenseur on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 15 Aug 2018 21:01:46 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/airsenseur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emit #5 – Assembling and Deploying 5 AirSensEURs – a Story in Pictures</title>
+      <link>https://nl.justobjects.org/emit-5-assembling-and-deploying-5-airsenseurs/</link>
+      <pubDate>Wed, 15 Aug 2018 21:01:46 +0000</pubDate>
+      
+      <guid>https://nl.justobjects.org/emit-5-assembling-and-deploying-5-airsenseurs/</guid>
+      <description>
+        
+          &lt;p&gt;This is Emit #5, in a &lt;a href=&#34;https://nl.justobjects.org/category/smartemission/&#34;&gt;series of blog-posts around the Smart Emission Platform&lt;/a&gt;
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.&lt;/p&gt;
+&lt;p&gt;Summer holidays and a heat-wave strikes The Netherlands. Time for some lighter material mainly told in pictures. As highlighted in &lt;a href=&#34;http://justobjects.nl/emit-2/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emit #2&lt;/a&gt;
+, I have the honor of doing a project for the &lt;a href=&#34;https://ec.europa.eu/info/departments/joint-research-centre_en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Union Joint Research Centre&lt;/a&gt;
+  (EU JRC), to deploy five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
+ (ASE) boxes within The Netherlands, attaching these to the &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+ in cooperation with &lt;a href=&#34;https://www.rivm.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RIVM&lt;/a&gt;
+ (National Institute for Public Health and the Environment). The ASE boxes measure four Air Quality (AQ) indicators: NO2 (Nitrogen Dioxide), NO (Nitrogen Monoxide), O3 (Ozone) and CO (Carbon Monoxide) plus meteo (Temp, Humidity, Air Pressure) and GPS. Read more on ASE &lt;a href=&#34;http://publications.jrc.ec.europa.eu/repository/bitstream/JRC109337/jrc109337_airsenseur_part_c_jrc_technical_report_inspire.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;in this article&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/ase-arch.jpg&#34; alt=&#34;ASE Architecture&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_801&#34; style=&#34;width: 996px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-801&#34; loading=&#34;lazy&#34; class=&#34;size-full wp-image-801&#34; src=&#34;uploads/2018/08/ase-arch.jpg&#34; alt=&#34;&#34; width=&#34;986&#34; height=&#34;771&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/ase-arch.jpg 986w, https://justobjects.nl/wp-content/uploads/2018/08/ase-arch-300x235.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/ase-arch-768x601.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/ase-arch-150x117.jpg 150w&#34; sizes=&#34;(max-width: 986px) 100vw, 986px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-801&#34; class=&#34;wp-caption-text&#34;&gt;
+    ASE Architecture
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;The ASE is an Open Hard/Software platform that can be configured with multiple brands/types of sensors. In the current case all four above mentioned AQ sensors are from &lt;a href=&#34;http://www.alphasense.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AlphaSense&lt;/a&gt;
+. As these are relatively cheap sensors (&amp;lt; $100,-), the challenge is to have these calibrated before final deployment. This calibration is done by placing the ASE boxes first at an RIVM station, gather data for a month or two and then calibrate these sensors from official RIVM reference measurements at the same location. Using both the raw ASE data and the RIVM reference data the calibration “formulae” can be determined, before placing the ASEs at their final deployment locations around The Netherlands and have the Smart Emission Platform assemble/publish the (calibrated) data for the next year or so. More info on AirSensEUR via &lt;a href=&#34;https://www.google.com/search?q=airsenseur&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this Google Search&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;Ok, picture time!  Explanatory text is below each picture.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/asenl-unbox-assemble-deploy-9.jpg&#34; alt=&#34;1. ASEs unboxed&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_787&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-787&#34; loading=&#34;lazy&#34; class=&#34;wp-image-787 size-full&#34; src=&#34;uploads/2018/08/asenl-unbox-assemble-deploy-9.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;768&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-9.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-9-300x225.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-9-768x576.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-9-150x113.jpg 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-787&#34; class=&#34;wp-caption-text&#34;&gt;
+    1. ASEs unboxed
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Picture 1: Boxes arrived from EU JRC Italy on June 12, 2018. Assembling: upper left shows the (total of 20) AlphaSense sensors like “blisters” (Dutch “doordrukstrips”), the ASE box (with screwdrivers on top) and the protecting metal outer shield on the right.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/asenl-unbox-assemble-deploy-11.jpg&#34; alt=&#34;2. placing AlphaSense sensors in sockets&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_788&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-788&#34; loading=&#34;lazy&#34; class=&#34;wp-image-788 size-full&#34; src=&#34;uploads/2018/08/asenl-unbox-assemble-deploy-11.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;784&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-11.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-11-300x230.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-11-768x588.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-11-150x115.jpg 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-788&#34; class=&#34;wp-caption-text&#34;&gt;
+    2. placing AlphaSense sensors in sockets
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Picture 2: Very carefully placing the AlphaSense sensors in the ASE Sensor Shield (an Arduino-like board) without touching the top-membrane!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/asenl-unbox-assemble-deploy-12.jpg&#34; alt=&#34;3. All sensors firmly in their sockets&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_790&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-790&#34; loading=&#34;lazy&#34; class=&#34;size-full wp-image-790&#34; src=&#34;uploads/2018/08/asenl-unbox-assemble-deploy-12.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;830&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-12.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-12-300x243.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-12-768x623.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-12-150x122.jpg 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-790&#34; class=&#34;wp-caption-text&#34;&gt;
+    3. All sensors firmly in their sockets
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Picture 3: all sensors placed, attach current and next to network and other configuring!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/asenl-unbox-assemble-deploy-2.jpg&#34; alt=&#34;4. Boxes humming and connected via WIFI to the LAN&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_791&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-791&#34; loading=&#34;lazy&#34; class=&#34;size-full wp-image-791&#34; src=&#34;uploads/2018/08/asenl-unbox-assemble-deploy-2.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;771&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-2.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-2-300x226.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-2-768x578.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-2-150x113.jpg 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-791&#34; class=&#34;wp-caption-text&#34;&gt;
+    4. Boxes humming and connected via WIFI to the LAN
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Picture 4: On default startup (via touch buttons) the ASE will expose a default WIFI access point. This can be used to attach and to login at the “ASE Host Board”, a Raspberry Pi-like board running standard Linux Debian. SSH into each box and further configure e.g. the WIFI settings to become a WIFI client, first having all boxes connect to the local office WLAN.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/asenl-unbox-assemble-deploy-1.jpg&#34; alt=&#34;5. configured for InfluxDB Data Push visualized via Grafana&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_792&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-792&#34; loading=&#34;lazy&#34; class=&#34;size-full wp-image-792&#34; src=&#34;uploads/2018/08/asenl-unbox-assemble-deploy-1.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;715&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-1.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-1-300x209.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-1-768x536.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-1-150x105.jpg 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-792&#34; class=&#34;wp-caption-text&#34;&gt;
+    5. configured for InfluxDB Data Push visualized via Grafana
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Picture 5. Each box runs a Data Aggregator and can be configured to push data to a remote InfluxDB database. In our case we have setup a Smart Emission InfluxDB Data Collector where the (raw) data is received. This InfluxDB datastore is visualized using a Grafana Panel shown in the picture. We see the five boxes ASE_NL_01-05 sensing and pushing data!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/asenl-unbox-assemble-deploy-4.jpg&#34; alt=&#34;6. All packed and in trunk of my car&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_795&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-795&#34; loading=&#34;lazy&#34; class=&#34;wp-image-795 size-full&#34; src=&#34;uploads/2018/08/asenl-unbox-assemble-deploy-4.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;633&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-4.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-4-300x185.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-4-768x475.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-4-150x93.jpg 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-795&#34; class=&#34;wp-caption-text&#34;&gt;
+    6. All packed and in trunk of my car
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Picture 6. A good start, but next we need to go out and place the boxes at the RIVM station for a period of calibration. So tearing down, packing, all into the trunk of my car. Up to the RIVM station! July 30, 2018, Still 35 degrees C outside.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/asenl-unbox-assemble-deploy-3.jpg&#34; alt=&#34;7. The RIVM sensor station, right near the highway&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_796&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-796&#34; loading=&#34;lazy&#34; class=&#34;size-full wp-image-796&#34; src=&#34;uploads/2018/08/asenl-unbox-assemble-deploy-3.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;613&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-3.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-3-300x180.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-3-768x460.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-3-250x150.jpg 250w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-3-150x90.jpg 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-796&#34; class=&#34;wp-caption-text&#34;&gt;
+    7. The RIVM sensor station, right near the highway
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Picture 7. July 30, 2018, 13:00. Arrived at the RIVM station. Now to figure out how to attach the five boxes. The lower horizontal iron pole seems the best option. Put all soft/hardware knowledge away, now real plumbing is required!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/asenl-unbox-assemble-deploy-5.jpg&#34; alt=&#34;8. Could not have made this without the great help of Jan Vonk (RIVM)&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_797&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-797&#34; loading=&#34;lazy&#34; class=&#34;size-full wp-image-797&#34; src=&#34;uploads/2018/08/asenl-unbox-assemble-deploy-5.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;598&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-5.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-5-300x175.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-5-768x449.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-5-150x88.jpg 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-797&#34; class=&#34;wp-caption-text&#34;&gt;
+    8. Could not have made this without the great help of Jan Vonk (RIVM)
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Picture 8. Jan Vonk of RIVM, who also have deployed about 12 ASEs, placing the first boxes on the horizontal pole, so far so good.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/asenl-unbox-assemble-deploy-6-1.jpg&#34; alt=&#34;9. All five boxes attached!&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_798&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-798&#34; loading=&#34;lazy&#34; class=&#34;size-full wp-image-798&#34; src=&#34;uploads/2018/08/asenl-unbox-assemble-deploy-6-1.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;596&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-6-1.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-6-1-300x175.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-6-1-768x447.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-6-1-150x87.jpg 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-798&#34; class=&#34;wp-caption-text&#34;&gt;
+    9. All five boxes attached!
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Picture 9. All five boxes strapped to the pole. Jan Vonk doing the hard work. Next challenge: they need power and WIFI…&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/asenl-unbox-assemble-deploy-7.jpg&#34; alt=&#34;10. Connecting to power&amp;#8230;&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_803&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-803&#34; loading=&#34;lazy&#34; class=&#34;wp-image-803 size-full&#34; src=&#34;uploads/2018/08/asenl-unbox-assemble-deploy-7.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;649&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-7.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-7-300x190.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-7-768x487.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-7-150x95.jpg 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-803&#34; class=&#34;wp-caption-text&#34;&gt;
+    10. Connecting to power&amp;#8230;
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Picture 10. One cannot have enough power sockets.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/asenl-unbox-assemble-deploy-1-1.jpg&#34; alt=&#34;11. Power supplies covered under plastic box&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_804&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-804&#34; loading=&#34;lazy&#34; class=&#34;size-full wp-image-804&#34; src=&#34;uploads/2018/08/asenl-unbox-assemble-deploy-1-1.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;714&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-1-1.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-1-1-300x209.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-1-1-768x536.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-1-1-150x105.jpg 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-804&#34; class=&#34;wp-caption-text&#34;&gt;
+    11. Power supplies covered under plastic box.
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Picture 11. Covering all power supply stuff under tightened box shielded from rain.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/asenl-unbox-assemble-deploy-8.jpg&#34; alt=&#34;12. Moment of truth starting up and attaching to local WIFI&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_805&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-805&#34; loading=&#34;lazy&#34; class=&#34;size-full wp-image-805&#34; src=&#34;uploads/2018/08/asenl-unbox-assemble-deploy-8.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;606&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-8.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-8-300x178.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-8-768x455.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/asenl-unbox-assemble-deploy-8-150x89.jpg 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-805&#34; class=&#34;wp-caption-text&#34;&gt;
+    12. Moment of truth starting up and attaching to local WIFI
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Picture 12. July 30, 2018, 17:00. Last challenge: booting up the boxes and have them connecting to the local RIVM station’s WIFI. I had pre-configured WLAN settings in each box, but this is always a moment of truth: will they connect? If they do they will start sampling and push their raw data to the Smart Emission Platform…Then we can start the calibration period. And success ... they connected!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/grafana-all-pushing.jpg&#34; alt=&#34;13. All boxes connected and sampling and pushing data&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_807&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-807&#34; loading=&#34;lazy&#34; class=&#34;size-full wp-image-807&#34; src=&#34;uploads/2018/08/grafana-all-pushing.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;323&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/grafana-all-pushing.jpg 1024w, https://justobjects.nl/wp-content/uploads/2018/08/grafana-all-pushing-300x95.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/grafana-all-pushing-768x242.jpg 768w, https://justobjects.nl/wp-content/uploads/2018/08/grafana-all-pushing-150x47.jpg 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-807&#34; class=&#34;wp-caption-text&#34;&gt;
+    13. All boxes connected and sampling and pushing data.
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Picture 13. Now on August 15, 2018, with minor hickups, and with great help from the JRC folks Marco Signorini and Michel Gerboles, we have all five boxes sampling and pushing data for the calibration period. The above plot shows raw NO2 data, to be calibrated.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/08/samenmeten-tweet.jpg&#34; alt=&#34;A next step for the RIVM Program &amp;#8220;Together Measuring Air Quality&amp;#8221;&#34;&gt;&lt;/p&gt;
+&lt;!--
+&lt;div id=&#34;attachment_810&#34; style=&#34;width: 596px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img aria-describedby=&#34;caption-attachment-810&#34; loading=&#34;lazy&#34; class=&#34;size-full wp-image-810&#34; src=&#34;uploads/2018/08/samenmeten-tweet.jpg&#34; alt=&#34;&#34; width=&#34;586&#34; height=&#34;427&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2018/08/samenmeten-tweet.jpg 586w, https://justobjects.nl/wp-content/uploads/2018/08/samenmeten-tweet-300x219.jpg 300w, https://justobjects.nl/wp-content/uploads/2018/08/samenmeten-tweet-150x109.jpg 150w&#34; sizes=&#34;(max-width: 586px) 100vw, 586px&#34; /&gt;
+
+  &lt;p id=&#34;caption-attachment-810&#34; class=&#34;wp-caption-text&#34;&gt;
+    A next step for the RIVM Program &amp;#8220;Together Measuring Air Quality&amp;#8221;.
+  &lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;So a good start! The heatwave is over, the next hard work is calibration. Why are we doing this? Well, like with meteorology, RIVM and others are stimulating Air Quality to be measured by basically anyone, from groups of civilians to individuals. For this RIVM has setup the program &lt;a href=&#34;https://www.samenmetenaanluchtkwaliteit.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Samen meten aan Luchtkwaliteit”&lt;/a&gt;
+ (“Together measuring air quality”). Measuring Air Quality is not an easy task. We need to learn by doing, make mistakes, and spread knowledge gained. Both AirSensEUR and Smart Emission are therefore Open. Below some further links:&lt;/p&gt;
+&lt;p&gt;Smart Emission: &lt;a href=&#34;https://github.com/smartemission&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
+, &lt;a href=&#34;http://data.smartemission.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WebSite&lt;/a&gt;
+, &lt;a href=&#34;http://data.smartemission.nl/docs&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Documentation&lt;/a&gt;
+, and &lt;a href=&#34;https://hub.docker.com/u/smartemission/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker Images&lt;/a&gt;
+.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
