@@ -1,8 +1,6 @@
+dist/
+docs/
 resources/_gen/
 .coverage
 .cache
 *~
-
-
-
-
