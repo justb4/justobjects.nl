@@ -1,4 +1,4 @@
-baseURL = "https://www.justobjects.nl"
+baseURL = "https://nl.justobjects.org"
 languageCode = "en-us"
 title = "Just Objects"
 theme = "hugo-clarity"

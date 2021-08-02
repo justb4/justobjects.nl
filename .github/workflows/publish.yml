@@ -3,7 +3,7 @@
 # LICENSE: https://github.com/victoriadrake/hugo-latest-cd/blob/master/LICENSE
 #
 # Changes by Just van den Broecke:
-#
+#  - use https://github.com/marketplace/actions/deploy-to-github-pages
 name: publish-justobjects-website
 
 on:
@@ -44,6 +44,12 @@ jobs:
 
       - name: 🍳 Build site justobjects.nl
         run: ./generate.sh
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: dist # The folder the action should deploy.
 
 #      - name: 🚀 Deploy build
 #        run: |
