@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wfs on Clarity</title>
-    <link>https://nl.justobjects.org/tags/wfs/</link>
+    <link>https://justobjects.nl/tags/wfs/</link>
     <description>Recent content in wfs on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 31 May 2019 23:33:35 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/wfs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 May 2019 23:33:35 +0000</lastBuildDate><atom:link href="https://justobjects.nl/tags/wfs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Second Time Around – WFS v3 and pygeoapi</title>
-      <link>https://nl.justobjects.org/2nd-time-around-wfs-v3-pygeoapi/</link>
+      <link>https://justobjects.nl/2nd-time-around-wfs-v3-pygeoapi/</link>
       <pubDate>Fri, 31 May 2019 23:33:35 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/2nd-time-around-wfs-v3-pygeoapi/</guid>
+      <guid>https://justobjects.nl/2nd-time-around-wfs-v3-pygeoapi/</guid>
       <description>
         
           &lt;p&gt;TLDR;&lt;/p&gt;
@@ -73,7 +73,7 @@
  which is updated constantly via the &lt;a href=&#34;https://github.com/geopython/pygeoapi&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi GitHub repo&lt;/a&gt;
  and &lt;a href=&#34;https://cloud.docker.com/u/geopython/repository/docker/geopython/pygeoapi/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;DockerHub&lt;/a&gt;
 .&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2019/05/image.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/05/image.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;!--
 &lt;figure class=&#34;wp-block-image&#34;&gt;
 &lt;img loading=&#34;lazy&#34; width=&#34;1024&#34; height=&#34;578&#34; src=&#34;https://justobjects.nl/wp-content/uploads/2019/05/image-1024x578.png&#34; alt=&#34;&#34; class=&#34;wp-image-886&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2019/05/image-1024x578.png 1024w, https://justobjects.nl/wp-content/uploads/2019/05/image-300x169.png 300w, https://justobjects.nl/wp-content/uploads/2019/05/image-768x433.png 768w, https://justobjects.nl/wp-content/uploads/2019/05/image-150x85.png 150w, https://justobjects.nl/wp-content/uploads/2019/05/image.png 1200w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt; &lt;/figure&gt;

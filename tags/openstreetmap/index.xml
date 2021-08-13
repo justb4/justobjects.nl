@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>openstreetmap on Clarity</title>
-    <link>https://nl.justobjects.org/tags/openstreetmap/</link>
+    <link>https://justobjects.nl/tags/openstreetmap/</link>
     <description>Recent content in openstreetmap on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 08 May 2015 00:20:28 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/openstreetmap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 May 2015 00:20:28 +0000</lastBuildDate><atom:link href="https://justobjects.nl/tags/openstreetmap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tales from Topographic Lowlands</title>
-      <link>https://nl.justobjects.org/tales-from-topographic-lowlands/</link>
+      <link>https://justobjects.nl/tales-from-topographic-lowlands/</link>
       <pubDate>Fri, 08 May 2015 00:20:28 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/tales-from-topographic-lowlands/</guid>
+      <guid>https://justobjects.nl/tales-from-topographic-lowlands/</guid>
       <description>
         
           &lt;p&gt;As far as Open geo-data is concerned, the Netherlands goes through prosperous times: country-wide datasets for detailed topography (&lt;a href=&#34;http://www.kadaster.nl/web/Themas/Registraties/brt.htm&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;BRT&lt;/a&gt;
@@ -37,22 +37,22 @@
  to convert this dataset to a PostGIS schema and CSV (for addresses) and make these available for download at &lt;a href=&#34;http://data.nlextract.nl/bag&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;data.nlextract.nl/bag&lt;/a&gt;
 . Also the Dutch Base Topography (BRT, Top10NL) is &lt;a href=&#34;https://github.com/opengeogroep/NLExtract/tree/master/top10nl/etl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;processed&lt;/a&gt;
  in the same fashion. Upcoming are GeoTIFFs for the Dutch elevation (yes we have some heights!)  Lidar/LAS data.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/05/nlextract.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/05/nlextract.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2. Creation&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This phase is more interesting, since here true creativity is happening. Two examples to illustrate.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/05/osm-bag.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/05/osm-bag.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;The Addresses and Buildings dataset was immediately of interest to the &lt;a href=&#34;http://www.openstreetmap.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch OpenStreetMap community&lt;/a&gt;
 . After much debate and careful planning a &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/BAGimport&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;structured import&lt;/a&gt;
  has been performed.  This has enriched the Dutch OSM data enormously.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/05/opentopo-1600-otterlo.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/05/opentopo-1600-otterlo.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Now we get to even more visible results. &lt;a href=&#34;https://www.linkedin.com/in/janwillemvanaalst&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jan-Willem van Aalst&lt;/a&gt;
  is a Dutch mapmaker who has combined “the best of” several Dutch open datasets and OpenStreetMap data into a compelling series of beautiful maps under the name &lt;a href=&#34;http://opentopo.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenTopo&lt;/a&gt;
 . His main tool is &lt;a href=&#34;http://qgis.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;QGIS&lt;/a&gt;
 . You can see results on &lt;a href=&#34;http://opentopo.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;his website&lt;/a&gt;
 . But the story does not stop there. Thanks to the work of Frank Steggink who has processed raw Dutch elevation data (AHN2) into GeoTIFFs, Jan-Willem is also producing a very detailed (up to 0.625 m/px about 1:5000 scale) hillshade-map of our entire country.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/05/relief-struct-500x300-1600.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/05/relief-struct-500x300-1600.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;In addition OpenTopo topography has been overlayed on the free Dutch areal imagery from PDOK tiles. Who needs Google Maps ;)?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/05/openlufo-500-300.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/05/openlufo-500-300.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3. Dissemination&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;So how are all these fine results shared? The OpenStreetMap database now contains all Dutch Addresses and Buildings and is always &lt;a href=&#34;http://www.openstreetmap.org/#map=18/52.10386/5.04983&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;visible on OpenStreetMap&lt;/a&gt;
 .&lt;/p&gt;
@@ -67,7 +67,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;http://www.map5.nl&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2015/05/map5.nl_.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2015/05/map5.nl_.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -75,7 +75,7 @@
 
 &lt;p&gt;I have been thinking hard how to offer these services with respect to payment. Similar to what Andy Allan with &lt;a href=&#34;http://www.thunderforest.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.thunderforest.com&lt;/a&gt;
  provides for OSM maps, Map5.nl offers a free and a paid service.  Part of the subscription fees will flow back into the OpenTopo development.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/05/nltopo.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/05/nltopo.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;The software and data behind the map5 services are still free. But to develop and maintain such a service and infrastructure has imminent costs. I hope that organizations within the Netherlands find the map5 services useful and are willing to pay the relatively small yearly fee to expose these maps on their websites publicly. The free service has some small advertisements now and then. After some stable amount of subscriptions these may also go away. You can view the current maps on the &lt;a href=&#34;http://app.map5.nl/nltopo/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLTopo App&lt;/a&gt;
 , which should work on most current (HTML5) mobiles/tablets.&lt;/p&gt;
 

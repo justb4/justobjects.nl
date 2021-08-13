@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>packaging on Clarity</title>
-    <link>https://nl.justobjects.org/tags/packaging/</link>
+    <link>https://justobjects.nl/tags/packaging/</link>
     <description>Recent content in packaging on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 10 Jun 2016 01:03:36 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/packaging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jun 2016 01:03:36 +0000</lastBuildDate><atom:link href="https://justobjects.nl/tags/packaging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deploying Open Source Geospatial Software – Part 1: Challenges</title>
-      <link>https://nl.justobjects.org/deploying-open-source-geospatial-1/</link>
+      <link>https://justobjects.nl/deploying-open-source-geospatial-1/</link>
       <pubDate>Fri, 10 Jun 2016 01:03:36 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/deploying-open-source-geospatial-1/</guid>
+      <guid>https://justobjects.nl/deploying-open-source-geospatial-1/</guid>
       <description>
         
           &lt;p&gt;My blog has been quiet for some time. As many of us I’ve been busy doing projects, all involving Open Source Geo (OSGeo) software. Partly development, writing software, I love it, but also more and more in “what comes next”: deploying and maintaining “the application” with all of its dependencies. For this I have been using several “deployment strategies” I would like to share.  To be specific and for a TL;DR : over the years I went through custom compiles/installs, Debian/Ubuntu(GIS) package installation, writing Debian/RPM packages, using Puppet (not yet Chef), and now sitting on the &lt;a href=&#34;http://docker.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker&lt;/a&gt;

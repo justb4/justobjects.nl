@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>geonovum on Clarity</title>
-    <link>https://nl.justobjects.org/tags/geonovum/</link>
+    <link>https://justobjects.nl/tags/geonovum/</link>
     <description>Recent content in geonovum on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 17 Jan 2020 01:38:19 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/geonovum/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jan 2020 01:38:19 +0000</lastBuildDate><atom:link href="https://justobjects.nl/tags/geonovum/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cheers to 2019</title>
-      <link>https://nl.justobjects.org/cheers-to-2019/</link>
+      <link>https://justobjects.nl/cheers-to-2019/</link>
       <pubDate>Fri, 17 Jan 2020 01:38:19 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/cheers-to-2019/</guid>
+      <guid>https://justobjects.nl/cheers-to-2019/</guid>
       <description>
         
           &lt;p&gt;Overview of my professional life in 2019. Inspired by the concise bullet-point-style of Tom Kralidis’ &lt;a href=&#34;http://www.kralidis.ca/blog/2018/12/28/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cheers to 2018&lt;/a&gt;
@@ -24,7 +24,7 @@
 &lt;p&gt;TL;DR. My 2019 highlight was providing the &lt;a href=&#34;https://geopython.github.io/geopython-workshop/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoPython Workshop&lt;/a&gt;
  (“Doing Geospatial with Python”) at the &lt;a href=&#34;https://2019.foss4g.org/schedule/workshops/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G in Bukarest&lt;/a&gt;
 . A really great team-effort: first remote collaboration to get the content done. Then at the spot, despite network failures, providing a hopefully inspiring workshop on modern GeoPython. Kudos to Tom, Angelos, Francesco, Jachym, Luis and Jorge!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/geopython-workshop-team.jpg&#34; alt=&#34;The GeoPython Workshop Team at FOSS4G 2019 &amp;#8211; Bukarest&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2020/01/geopython-workshop-team.jpg&#34; alt=&#34;The GeoPython Workshop Team at FOSS4G 2019 &amp;#8211; Bukarest&#34;&gt;&lt;/p&gt;
 &lt;!--
 &lt;div id=&#34;attachment_924&#34; style=&#34;width: 830px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;img aria-describedby=&#34;caption-attachment-924&#34; loading=&#34;lazy&#34; class=&#34;size-large wp-image-924&#34; src=&#34;uploads/2020/01/geopython-workshop-team-1024x768.jpg&#34; alt=&#34;&#34; width=&#34;820&#34; height=&#34;615&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team-1024x768.jpg 1024w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team-300x225.jpg 300w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team-768x576.jpg 768w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team-150x113.jpg 150w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team.jpg 1200w&#34; sizes=&#34;(max-width: 820px) 100vw, 820px&#34; /&gt;
@@ -49,7 +49,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://map5.nl/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2020/01/map5.nl_.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/map5.nl_.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -75,7 +75,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://geoqos.com/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2020/01/geoqos.com_.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/geoqos.com_.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -96,10 +96,10 @@
 &lt;p&gt;For the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Commission Joint Research Center&lt;/a&gt;
  (Ispra, Italy)  -deployed five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
  air-quality sensor-stations (NO2, NO, CO, O3) within the Netherlands, connecting these to the &lt;a href=&#34;https://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
-.  &lt;a href=&#34;https://nl.justobjects.org/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;This blog-post&lt;/a&gt;
- describes the overall setup and this &lt;a href=&#34;https://nl.justobjects.org/emit-6-airsenseur-calibration&#34;&gt;post the really good calibration results&lt;/a&gt;
+.  &lt;a href=&#34;https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;This blog-post&lt;/a&gt;
+ describes the overall setup and this &lt;a href=&#34;https://justobjects.nl/emit-6-airsenseur-calibration&#34;&gt;post the really good calibration results&lt;/a&gt;
 .&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
@@ -115,7 +115,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://data.smartemission.nl/smartapp/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2020/01/luftdaten-smartapp.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/luftdaten-smartapp.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -142,7 +142,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://github.com/justb4?tab=overview&amp;amp;from=2019-01-01&amp;amp;to=2019-12-31&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2020/01/gh-contribs-2019-justb4.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/gh-contribs-2019-justb4.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -208,7 +208,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://hub.docker.com/u/justb4&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2020/01/justb4-docker-images.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/justb4-docker-images.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -312,7 +312,7 @@
 &lt;li&gt;
 &lt;p&gt;August 25-31 – &lt;a href=&#34;https://2019.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G – Bukarest&lt;/a&gt;
 . Provided GeoPython workshop. All together with the great GeoPython team as in picture above.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/geopython-ws-foss4g19.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2020/01/geopython-ws-foss4g19.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
@@ -336,7 +336,7 @@
 &lt;ul&gt;
 &lt;li&gt;For &lt;a href=&#34;https://geoqos.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoQoS.com&lt;/a&gt;
  – hosted GeoHealthCheck in the Cloud.&lt;br&gt;
-&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/geoqos-logo.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
+&lt;img src=&#34;https://justobjects.nl/uploads/2020/01/geoqos-logo.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
 &lt;img loading=&#34;lazy&#34; class=&#34;aligncenter  wp-image-929&#34; src=&#34;uploads/2020/01/geoqos-logo.png&#34; alt=&#34;&#34; width=&#34;433&#34; height=&#34;93&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/geoqos-logo.png 765w, https://justobjects.nl/wp-content/uploads/2020/01/geoqos-logo-300x64.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/geoqos-logo-150x32.png 150w&#34; sizes=&#34;(max-width: 433px) 100vw, 433px&#34; /&gt;
@@ -344,7 +344,7 @@
 &lt;ul&gt;
 &lt;li&gt;For the &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
  (OGC API Features, “WFS3”,  in Python) Project&lt;br&gt;
-&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/final-s.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
+&lt;img src=&#34;https://justobjects.nl/uploads/2020/01/final-s.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
 &lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-930&#34; src=&#34;uploads/2020/01/final-s.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;82&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/final-s.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/final-s-150x41.png 150w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;
@@ -352,7 +352,7 @@
 &lt;ul&gt;
 &lt;li&gt;For the &lt;a href=&#34;https://geohealthcheck.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
  project&lt;br&gt;
-&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/medium.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
+&lt;img src=&#34;https://justobjects.nl/uploads/2020/01/medium.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
 &lt;img loading=&#34;lazy&#34; class=&#34;aligncenter  wp-image-931&#34; src=&#34;uploads/2020/01/medium.png&#34; alt=&#34;&#34; width=&#34;419&#34; height=&#34;73&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/medium.png 918w, https://justobjects.nl/wp-content/uploads/2020/01/medium-300x52.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/medium-768x134.png 768w, https://justobjects.nl/wp-content/uploads/2020/01/medium-150x26.png 150w, https://justobjects.nl/wp-content/uploads/2020/01/medium-900x160.png 900w&#34; sizes=&#34;(max-width: 419px) 100vw, 419px&#34; /&gt;
@@ -372,10 +372,10 @@
     
     <item>
       <title>Unlocking Sensor Data – I’ll send an SOS to the world</title>
-      <link>https://nl.justobjects.org/unlocking-sensor-data-sos/</link>
+      <link>https://justobjects.nl/unlocking-sensor-data-sos/</link>
       <pubDate>Thu, 01 Oct 2015 00:42:56 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/unlocking-sensor-data-sos/</guid>
+      <guid>https://justobjects.nl/unlocking-sensor-data-sos/</guid>
       <description>
         
           &lt;p&gt;Revealing: the title refers, for the younger readers, to a great 1979-hit by The Police as expanded below. To be played at the loudest possible volume. If you don’t see anything here below try the YouTube link directly:&lt;/p&gt;
@@ -404,7 +404,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;http://sensors.geonovum.nl/heronviewer/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2015/10/heron-viewer-o3-ts.jpg&#34;
+      src=&#34;https://justobjects.nl/uploads/2015/10/heron-viewer-o3-ts.jpg&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   

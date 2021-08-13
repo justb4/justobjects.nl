@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>lora on Clarity</title>
-    <link>https://nl.justobjects.org/tags/lora/</link>
+    <link>https://justobjects.nl/tags/lora/</link>
     <description>Recent content in lora on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 16 Feb 2018 23:03:57 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/lora/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Feb 2018 23:03:57 +0000</lastBuildDate><atom:link href="https://justobjects.nl/tags/lora/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emit #3 – Things are Moving</title>
-      <link>https://nl.justobjects.org/emit-3/</link>
+      <link>https://justobjects.nl/emit-3/</link>
       <pubDate>Fri, 16 Feb 2018 23:03:57 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/emit-3/</guid>
+      <guid>https://justobjects.nl/emit-3/</guid>
       <description>
         
-          &lt;p&gt;This is Emit #3, in a &lt;a href=&#34;https://nl.justobjects.org/categories/smartemission/&#34;&gt;series of blog-posts around the Smart Emission Platform&lt;/a&gt;
-, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality. In &lt;a href=&#34;https://nl.justobjects.org/emit-1/&#34;&gt;Emit #1&lt;/a&gt;
+          &lt;p&gt;This is Emit #3, in a &lt;a href=&#34;https://justobjects.nl/categories/smartemission/&#34;&gt;series of blog-posts around the Smart Emission Platform&lt;/a&gt;
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality. In &lt;a href=&#34;https://justobjects.nl/emit-1/&#34;&gt;Emit #1&lt;/a&gt;
 , the big picture of the platform was sketched. Subsequent Emits will detail technical aspects of the SE Platform. “Follow the data” will be the main trail loosely adhered to.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/arch-big-picture.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
-&lt;p&gt;Three weeks ago since &lt;a href=&#34;https://nl.justobjects.org/emit-2/&#34;&gt;Emit #2&lt;/a&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/arch-big-picture.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;Three weeks ago since &lt;a href=&#34;https://justobjects.nl/emit-2/&#34;&gt;Emit #2&lt;/a&gt;
 . A lot of Things have been happening since:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;went to &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The Things Conference&lt;/a&gt;
@@ -47,7 +47,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://www.thethingsnetwork.org/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2018/02/ttn-pics.jpg&#34;
+      src=&#34;https://justobjects.nl/uploads/2018/02/ttn-pics.jpg&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -59,7 +59,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://www.thethingsnetwork.org/map&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2018/02/ttn-map.jpg&#34;
+      src=&#34;https://justobjects.nl/uploads/2018/02/ttn-map.jpg&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -70,14 +70,14 @@
 . Via the TTN KickStarter project, I was one of the first backers, already in 2015. The interest was overwhelming, even leading to (Gateway) delivery problems. But a LoRa Gateway to extend TTN is almost a commodity now. You can even &lt;a href=&#34;https://www.thethingsnetwork.org/docs/gateways/start/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;build one yourself&lt;/a&gt;
 . TTN is very much tied to the whole “DIY makers movement”. All TTN designs and code (on &lt;a href=&#34;https://github.com/thethingsnetwork&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
 ) are open. Below a global architecture picture from their site.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/02/ttn-arch.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/02/ttn-arch.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;So TTN organized &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;their first conference&lt;/a&gt;
 , off course in Amsterdam. For three days: it was an amazing success, more than 500 enthousiasts.&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2018/02/ttn-conf.jpg&#34;
+      src=&#34;https://justobjects.nl/uploads/2018/02/ttn-conf.jpg&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -89,7 +89,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://twitter.com/justb4/status/959113531449802752&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2018/02/lopy.jpg&#34;
+      src=&#34;https://justobjects.nl/uploads/2018/02/lopy.jpg&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   

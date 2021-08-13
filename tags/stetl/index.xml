@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>stetl on Clarity</title>
-    <link>https://nl.justobjects.org/tags/stetl/</link>
+    <link>https://justobjects.nl/tags/stetl/</link>
     <description>Recent content in stetl on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 20 Jan 2018 17:02:39 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/stetl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jan 2018 17:02:39 +0000</lastBuildDate><atom:link href="https://justobjects.nl/tags/stetl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emit #1 – Into Spatiotemporal</title>
-      <link>https://nl.justobjects.org/emit-1/</link>
+      <link>https://justobjects.nl/emit-1/</link>
       <pubDate>Sat, 20 Jan 2018 17:02:39 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/emit-1/</guid>
+      <guid>https://justobjects.nl/emit-1/</guid>
       <description>
         
-          &lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-google-photo.jpg&#34; alt=&#34;Smart Emission Googled for Photos&#34;&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-google-photo.jpg&#34; alt=&#34;Smart Emission Googled for Photos&#34;&gt;&lt;/p&gt;
 &lt;p&gt;One of my new year’s resolutions for 2018 was to “blog more”. Not being very active on the well-known social media: a bit tired of Twitter, never really into Facebook, bit of LinkedIn. &lt;a href=&#34;https://lists.osgeo.org/mailman/listinfo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo mailing lists&lt;/a&gt;
 , &lt;a href=&#34;https://github.com/justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
  and &lt;a href=&#34;https://gitter.im/geopython/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gitter&lt;/a&gt;
@@ -41,7 +41,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://feedly.com/i/category/Geospatial&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2018/01/feedly.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2018/01/feedly.png&#34;
       alt=&#34;Feedly shown in web browser&#34; /&gt;
   &lt;/a&gt;
   
@@ -51,7 +51,7 @@
  (SE Platform) in a series of posts, dubbed  ‘Emits’. This is Emit #1. Since 2014 I have been working on several projects, often through &lt;a href=&#34;https://www.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum&lt;/a&gt;
 , and recently via the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Union Joint Research Centre&lt;/a&gt;
  (JRC), that deal with the acquisition, management, web-api-unlocking and visualization of environmental sensor-data, mainly for Air Quality (AQ).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-google.jpg&#34; alt=&#34;Smart Emission Googled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-google.jpg&#34; alt=&#34;Smart Emission Googled&#34;&gt;&lt;/p&gt;
 &lt;p&gt;What made these projects exciting for me is that they brought together many aspects and technologies (read: Open Source projects and &lt;a href=&#34;https://www.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo software&lt;/a&gt;
 ) I had been &lt;a href=&#34;https://justobjects.nl/projects/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;working on&lt;/a&gt;
  through the years. Also, it was the first time I got back into Environmental Chemistry, for which I hold a master’s degree from the University of Amsterdam, &lt;a href=&#34;https://justobjects.nl/writings/publications/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;co-authoring some publications&lt;/a&gt;
@@ -64,11 +64,11 @@
  in 2015-2017. Quoting from the paper &lt;a href=&#34;http://www.ru.nl/publish/pages/774337/carton_etall_aesop-2015_v11_filling_thefeedback_gap_ofexternalities_insmartcities.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Filling the feedback gap of place-related externalities in smart cities”&lt;/a&gt;
 {.reference.external} :&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;“…we present the set-up of the pilot experiment in project “Smart Emission”,&lt;/em&gt; &lt;em&gt;constructing an experimental citizen-sensor-network in the city of Nijmegen. This project, as part of&lt;/em&gt; &lt;em&gt;research program ‘Maps 4 Society,’ is one of the currently running Smart City projects in the&lt;/em&gt; &lt;em&gt;Netherlands. A number of social, technical and governmental innovations are put together in this&lt;/em&gt; &lt;em&gt;project: (1) innovative sensing method: new, low-cost sensors are being designed and built in the&lt;/em&gt; &lt;em&gt;project and tested in practice, using small sensing-modules that measure air quality indicators,&lt;/em&gt; &lt;em&gt;amongst others NO2, CO2, ozone, temperature and noise load. (2) big data: the measured data forms&lt;/em&gt; &lt;em&gt;a refined data-flow from sensing points at places where people live and work: thus forming a ‘big&lt;/em&gt; _picture’ to build a real-time, in-depth understanding of the local distribution of urban air quality (3)_&lt;em&gt;empowering citizens by making visible the ‘externality’ of urban air quality and feeding this into a&lt;/em&gt; &lt;em&gt;bottom-up planning process: the community in the target area get the co-decision-making control over&lt;/em&gt; &lt;em&gt;where the sensors are placed, co-interpret the mapped feedback data, discuss and collectively explore&lt;/em&gt; &lt;em&gt;possible options for improvement (supported by a Maptable instrument) to get a fair and ‘better’&lt;/em&gt; &lt;em&gt;distribution of air pollution in the city, balanced against other spatial qualities. ….”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-nijmegen.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-nijmegen.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;So from the outset the SE Platform is geared towards connecting citizen-owned sensor devices. Many similar programs and initiatives are currently evolving, often under the flag of Citizen Science and Smart Cities. Within the Netherlands, where the SE Nijmegen project originated, the &lt;a href=&#34;http://rivm.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National Institute for Public Health and the Environment&lt;/a&gt;
  (RIVM) was an active project partner, and still stimulates citizens measuring Air Quality via a project and portal: &lt;a href=&#34;https://www.samenmetenaanluchtkwaliteit.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Together Measuring Air Quality”&lt;/a&gt;
 . In the context of discussions on Air Quality, climate change and lowering budgets for governmental environmental institutions, citizen-participation becomes more and more relevant. A whole series of blogs could be devoted to social and political aspects of Citizen Science, but I will stick to tech-stuff here.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-partners.png&#34; alt=&#34;:left&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-partners.png&#34; alt=&#34;:left&#34;&gt;&lt;/p&gt;
 &lt;p&gt;What made working on the SE Nijmegen project exciting and challenging, is that I was given time and opportunity by the project partners (see pic) to not just build a one-time project-specific piece of software, but a reusable set of Open Source components: the Smart Emission Platform ([sources on GitHub][42]).&lt;/p&gt;
 &lt;p&gt;Having had some earlier experience within the &lt;a href=&#34;http://sensors.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum SOSPilot project&lt;/a&gt;
  (2014-2015), investigating among others the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sensor_Observation_Service&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
@@ -76,7 +76,7 @@
 , I was aware of the challenges dealing with what can be called &lt;em&gt;&lt;strong&gt;Spatiotemporal (Big) Data&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;The figure below shows The Big Picture of the SE Platform. Red arrows denote the flow of data: originating from sensor devices, going through Data Management (ETL), unlocked via various web-APIs, and finally “consumed” in client-apps and viewers.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/arch-big-picture.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/arch-big-picture.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;There are many aspects of the SE Platform that can be expanded. These are for upcoming Emits. For now a summary of some of the challenges and applied technologies, to be detailed later:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;raw data from sensors: requires refinement: validation/calibration/aggregation&lt;/li&gt;
@@ -107,7 +107,7 @@
 , Ubuntu, Docker&lt;/li&gt;
 &lt;li&gt;using component-subsets of the platform for small deployments&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/docker-monitoring.jpg&#34; alt=&#34;Monitoring SE Docker Containers: Prometheus+cAdvisor+Grafana&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/docker-monitoring.jpg&#34; alt=&#34;Monitoring SE Docker Containers: Prometheus+cAdvisor+Grafana&#34;&gt;&lt;/p&gt;
 &lt;p&gt;A lot of stuff to uncover, hopefully got your interest if you have read all the way to here. Will try to treat one aspect/technology in each subsequent Emit-blog post. And off course the entire &lt;a href=&#34;https://github.com/geonovum/smartemission/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SE platform is Open Source&lt;/a&gt;
  (GNU GPL), so you are free to download and experiment, and maybe even would like to contribute.&lt;/p&gt;
 
@@ -117,10 +117,10 @@
     
     <item>
       <title>Dances with the GeoPython Tribe</title>
-      <link>https://nl.justobjects.org/dances-with-the-geopython-tribe/</link>
+      <link>https://justobjects.nl/dances-with-the-geopython-tribe/</link>
       <pubDate>Wed, 13 Jul 2016 23:06:10 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/dances-with-the-geopython-tribe/</guid>
+      <guid>https://justobjects.nl/dances-with-the-geopython-tribe/</guid>
       <description>
         
           &lt;p&gt;During June 21-24, 2016 I attended the very first &lt;a href=&#34;http://www.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoPython Conference in Basel Switzerland&lt;/a&gt;
@@ -135,7 +135,7 @@
 &lt;div class=&#34;float_right&#34;&gt;
   &lt;a href=&#34;http://www.geopython.net/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2016/07/gp1-right.jpg&#34;
+      src=&#34;https://justobjects.nl/uploads/2016/07/gp1-right.jpg&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -161,7 +161,7 @@ s, to the lighter weighings of &lt;a href=&#34;https://en.wikipedia.org/wiki/Spr
 &lt;div class=&#34;float_left&#34;&gt;
   &lt;a href=&#34;http://www.geopython.net/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2016/07/gp2-left.jpg&#34;
+      src=&#34;https://justobjects.nl/uploads/2016/07/gp2-left.jpg&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   

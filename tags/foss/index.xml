@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FOSS on Clarity</title>
-    <link>https://nl.justobjects.org/tags/foss/</link>
+    <link>https://justobjects.nl/tags/foss/</link>
     <description>Recent content in FOSS on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 20 Jan 2021 13:24:25 +0000</lastBuildDate><atom:link href="https://nl.justobjects.org/tags/foss/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jan 2021 13:24:25 +0000</lastBuildDate><atom:link href="https://justobjects.nl/tags/foss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>That Was 2020</title>
-      <link>https://nl.justobjects.org/that-was-2020/</link>
+      <link>https://justobjects.nl/that-was-2020/</link>
       <pubDate>Wed, 20 Jan 2021 13:24:25 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/that-was-2020/</guid>
+      <guid>https://justobjects.nl/that-was-2020/</guid>
       <description>
         
           &lt;p&gt;Overview of my professional life in 2020. Highlights of living and working in the Open Source Geospatial and OSGeo(&lt;a href=&#34;https://osgeo.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;.nl&lt;/a&gt;
@@ -24,7 +24,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2021/01/various-4eps.jpg&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/various-4eps.jpg&#34;
       alt=&#34;Screenshots of De Grote Geo Show&#34; /&gt;
   &lt;/a&gt;
   
@@ -49,7 +49,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2021/01/backstage-view-by-niene.jpg&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/backstage-view-by-niene.jpg&#34;
       alt=&#34;StreamYard - Backstage View&#34; /&gt;
   &lt;/a&gt;
   
@@ -72,7 +72,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2021/01/combined2.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/combined2.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -87,7 +87,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2021/01/combined.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/combined.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -104,7 +104,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://www.youtube.com/playlist?list=PLJMEnRQpAfZqCkhGh3lb3KUnXssK7Sk6C&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2021/01/episode-1-10.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/episode-1-10.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -121,7 +121,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2021/01/combined3.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/combined3.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -142,7 +142,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2021/01/grote-geo-eiland-screenshot.jpg&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/grote-geo-eiland-screenshot.jpg&#34;
       alt=&#34;NewYear on &amp;#8220;Grote Geo Eiland&amp;#8221;&#34; /&gt;
   &lt;/a&gt;
   
@@ -170,7 +170,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://www.map5.nl/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2020/01/map5.nl_.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/map5.nl_.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -189,7 +189,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://geoqos.com/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2020/01/geoqos.com_.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/geoqos.com_.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -207,7 +207,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://geotoko.nl/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2021/01/opentopo-keyreg.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/opentopo-keyreg.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -223,7 +223,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://geotoko.nl/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2021/01/bigpicture.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/bigpicture.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -240,7 +240,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://geotoko.nl&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2021/01/geofabriek-keten.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/geofabriek-keten.png&#34;
       alt=&#34;GeoFabriek &amp;#8211; Production Chain&#34; /&gt;
   &lt;/a&gt;
   
@@ -269,7 +269,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://map.naturpark-lueneburger-heide.de/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2021/01/screenshot-1.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/screenshot-1.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -284,7 +284,7 @@
 &lt;h3 id=&#34;open-source-contributions&#34;&gt;Open Source Contributions&lt;/h3&gt;
 &lt;p&gt;Continuous work as a contributor. Apart from some GitLab Projects, you can find/follow me best on &lt;a href=&#34;https://github.com/justb4/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
 .&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2021/01/contribs-2020.png&#34; alt=&#34;GitHub contributions&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2021/01/contribs-2020.png&#34; alt=&#34;GitHub contributions&#34;&gt;&lt;/p&gt;
 &lt;!--
 &lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-965&#34; src=&#34;../uploads/2021/01/contribs-2020.png&#34; alt=&#34;&#34; width=&#34;773&#34; height=&#34;206&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/contribs-2020.png 773w, https://justobjects.nl/wp-content/uploads/2021/01/contribs-2020-300x80.png 300w, https://justobjects.nl/wp-content/uploads/2021/01/contribs-2020-768x205.png 768w, https://justobjects.nl/wp-content/uploads/2021/01/contribs-2020-150x40.png 150w&#34; sizes=&#34;(max-width: 773px) 100vw, 773px&#34; /&gt;
 --&gt;
@@ -315,7 +315,7 @@
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://wegue.heron-mc.org/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2021/01/screenshot-heron-wegue-1.jpg&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/screenshot-heron-wegue-1.jpg&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -423,10 +423,10 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
     
     <item>
       <title>Cheers to 2019</title>
-      <link>https://nl.justobjects.org/cheers-to-2019/</link>
+      <link>https://justobjects.nl/cheers-to-2019/</link>
       <pubDate>Fri, 17 Jan 2020 01:38:19 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/cheers-to-2019/</guid>
+      <guid>https://justobjects.nl/cheers-to-2019/</guid>
       <description>
         
           &lt;p&gt;Overview of my professional life in 2019. Inspired by the concise bullet-point-style of Tom Kralidis’ &lt;a href=&#34;http://www.kralidis.ca/blog/2018/12/28/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cheers to 2018&lt;/a&gt;
@@ -437,7 +437,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;p&gt;TL;DR. My 2019 highlight was providing the &lt;a href=&#34;https://geopython.github.io/geopython-workshop/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoPython Workshop&lt;/a&gt;
  (“Doing Geospatial with Python”) at the &lt;a href=&#34;https://2019.foss4g.org/schedule/workshops/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G in Bukarest&lt;/a&gt;
 . A really great team-effort: first remote collaboration to get the content done. Then at the spot, despite network failures, providing a hopefully inspiring workshop on modern GeoPython. Kudos to Tom, Angelos, Francesco, Jachym, Luis and Jorge!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/geopython-workshop-team.jpg&#34; alt=&#34;The GeoPython Workshop Team at FOSS4G 2019 &amp;#8211; Bukarest&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2020/01/geopython-workshop-team.jpg&#34; alt=&#34;The GeoPython Workshop Team at FOSS4G 2019 &amp;#8211; Bukarest&#34;&gt;&lt;/p&gt;
 &lt;!--
 &lt;div id=&#34;attachment_924&#34; style=&#34;width: 830px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;img aria-describedby=&#34;caption-attachment-924&#34; loading=&#34;lazy&#34; class=&#34;size-large wp-image-924&#34; src=&#34;uploads/2020/01/geopython-workshop-team-1024x768.jpg&#34; alt=&#34;&#34; width=&#34;820&#34; height=&#34;615&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team-1024x768.jpg 1024w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team-300x225.jpg 300w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team-768x576.jpg 768w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team-150x113.jpg 150w, https://justobjects.nl/wp-content/uploads/2020/01/geopython-workshop-team.jpg 1200w&#34; sizes=&#34;(max-width: 820px) 100vw, 820px&#34; /&gt;
@@ -462,7 +462,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://map5.nl/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2020/01/map5.nl_.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/map5.nl_.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -488,7 +488,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://geoqos.com/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2020/01/geoqos.com_.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/geoqos.com_.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -509,10 +509,10 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;p&gt;For the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Commission Joint Research Center&lt;/a&gt;
  (Ispra, Italy)  -deployed five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
  air-quality sensor-stations (NO2, NO, CO, O3) within the Netherlands, connecting these to the &lt;a href=&#34;https://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
-.  &lt;a href=&#34;https://nl.justobjects.org/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;This blog-post&lt;/a&gt;
- describes the overall setup and this &lt;a href=&#34;https://nl.justobjects.org/emit-6-airsenseur-calibration&#34;&gt;post the really good calibration results&lt;/a&gt;
+.  &lt;a href=&#34;https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;This blog-post&lt;/a&gt;
+ describes the overall setup and this &lt;a href=&#34;https://justobjects.nl/emit-6-airsenseur-calibration&#34;&gt;post the really good calibration results&lt;/a&gt;
 .&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
@@ -528,7 +528,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://data.smartemission.nl/smartapp/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2020/01/luftdaten-smartapp.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/luftdaten-smartapp.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -555,7 +555,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://github.com/justb4?tab=overview&amp;amp;from=2019-01-01&amp;amp;to=2019-12-31&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2020/01/gh-contribs-2019-justb4.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/gh-contribs-2019-justb4.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -621,7 +621,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://hub.docker.com/u/justb4&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2020/01/justb4-docker-images.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/justb4-docker-images.png&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -725,7 +725,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;li&gt;
 &lt;p&gt;August 25-31 – &lt;a href=&#34;https://2019.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G – Bukarest&lt;/a&gt;
 . Provided GeoPython workshop. All together with the great GeoPython team as in picture above.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/geopython-ws-foss4g19.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2020/01/geopython-ws-foss4g19.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
@@ -749,7 +749,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;ul&gt;
 &lt;li&gt;For &lt;a href=&#34;https://geoqos.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoQoS.com&lt;/a&gt;
  – hosted GeoHealthCheck in the Cloud.&lt;br&gt;
-&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/geoqos-logo.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
+&lt;img src=&#34;https://justobjects.nl/uploads/2020/01/geoqos-logo.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
 &lt;img loading=&#34;lazy&#34; class=&#34;aligncenter  wp-image-929&#34; src=&#34;uploads/2020/01/geoqos-logo.png&#34; alt=&#34;&#34; width=&#34;433&#34; height=&#34;93&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/geoqos-logo.png 765w, https://justobjects.nl/wp-content/uploads/2020/01/geoqos-logo-300x64.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/geoqos-logo-150x32.png 150w&#34; sizes=&#34;(max-width: 433px) 100vw, 433px&#34; /&gt;
@@ -757,7 +757,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;ul&gt;
 &lt;li&gt;For the &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
  (OGC API Features, “WFS3”,  in Python) Project&lt;br&gt;
-&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/final-s.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
+&lt;img src=&#34;https://justobjects.nl/uploads/2020/01/final-s.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
 &lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-930&#34; src=&#34;uploads/2020/01/final-s.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;82&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/final-s.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/final-s-150x41.png 150w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;
@@ -765,7 +765,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;ul&gt;
 &lt;li&gt;For the &lt;a href=&#34;https://geohealthcheck.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
  project&lt;br&gt;
-&lt;img src=&#34;https://nl.justobjects.org/uploads/2020/01/medium.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
+&lt;img src=&#34;https://justobjects.nl/uploads/2020/01/medium.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
 &lt;img loading=&#34;lazy&#34; class=&#34;aligncenter  wp-image-931&#34; src=&#34;uploads/2020/01/medium.png&#34; alt=&#34;&#34; width=&#34;419&#34; height=&#34;73&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2020/01/medium.png 918w, https://justobjects.nl/wp-content/uploads/2020/01/medium-300x52.png 300w, https://justobjects.nl/wp-content/uploads/2020/01/medium-768x134.png 768w, https://justobjects.nl/wp-content/uploads/2020/01/medium-150x26.png 150w, https://justobjects.nl/wp-content/uploads/2020/01/medium-900x160.png 900w&#34; sizes=&#34;(max-width: 419px) 100vw, 419px&#34; /&gt;
@@ -785,13 +785,13 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
     
     <item>
       <title>Emit #1 – Into Spatiotemporal</title>
-      <link>https://nl.justobjects.org/emit-1/</link>
+      <link>https://justobjects.nl/emit-1/</link>
       <pubDate>Sat, 20 Jan 2018 17:02:39 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/emit-1/</guid>
+      <guid>https://justobjects.nl/emit-1/</guid>
       <description>
         
-          &lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-google-photo.jpg&#34; alt=&#34;Smart Emission Googled for Photos&#34;&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-google-photo.jpg&#34; alt=&#34;Smart Emission Googled for Photos&#34;&gt;&lt;/p&gt;
 &lt;p&gt;One of my new year’s resolutions for 2018 was to “blog more”. Not being very active on the well-known social media: a bit tired of Twitter, never really into Facebook, bit of LinkedIn. &lt;a href=&#34;https://lists.osgeo.org/mailman/listinfo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo mailing lists&lt;/a&gt;
 , &lt;a href=&#34;https://github.com/justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
  and &lt;a href=&#34;https://gitter.im/geopython/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gitter&lt;/a&gt;
@@ -816,7 +816,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://feedly.com/i/category/Geospatial&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2018/01/feedly.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2018/01/feedly.png&#34;
       alt=&#34;Feedly shown in web browser&#34; /&gt;
   &lt;/a&gt;
   
@@ -826,7 +826,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
  (SE Platform) in a series of posts, dubbed  ‘Emits’. This is Emit #1. Since 2014 I have been working on several projects, often through &lt;a href=&#34;https://www.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum&lt;/a&gt;
 , and recently via the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Union Joint Research Centre&lt;/a&gt;
  (JRC), that deal with the acquisition, management, web-api-unlocking and visualization of environmental sensor-data, mainly for Air Quality (AQ).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-google.jpg&#34; alt=&#34;Smart Emission Googled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-google.jpg&#34; alt=&#34;Smart Emission Googled&#34;&gt;&lt;/p&gt;
 &lt;p&gt;What made these projects exciting for me is that they brought together many aspects and technologies (read: Open Source projects and &lt;a href=&#34;https://www.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo software&lt;/a&gt;
 ) I had been &lt;a href=&#34;https://justobjects.nl/projects/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;working on&lt;/a&gt;
  through the years. Also, it was the first time I got back into Environmental Chemistry, for which I hold a master’s degree from the University of Amsterdam, &lt;a href=&#34;https://justobjects.nl/writings/publications/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;co-authoring some publications&lt;/a&gt;
@@ -839,11 +839,11 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
  in 2015-2017. Quoting from the paper &lt;a href=&#34;http://www.ru.nl/publish/pages/774337/carton_etall_aesop-2015_v11_filling_thefeedback_gap_ofexternalities_insmartcities.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Filling the feedback gap of place-related externalities in smart cities”&lt;/a&gt;
 {.reference.external} :&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;“…we present the set-up of the pilot experiment in project “Smart Emission”,&lt;/em&gt; &lt;em&gt;constructing an experimental citizen-sensor-network in the city of Nijmegen. This project, as part of&lt;/em&gt; &lt;em&gt;research program ‘Maps 4 Society,’ is one of the currently running Smart City projects in the&lt;/em&gt; &lt;em&gt;Netherlands. A number of social, technical and governmental innovations are put together in this&lt;/em&gt; &lt;em&gt;project: (1) innovative sensing method: new, low-cost sensors are being designed and built in the&lt;/em&gt; &lt;em&gt;project and tested in practice, using small sensing-modules that measure air quality indicators,&lt;/em&gt; &lt;em&gt;amongst others NO2, CO2, ozone, temperature and noise load. (2) big data: the measured data forms&lt;/em&gt; &lt;em&gt;a refined data-flow from sensing points at places where people live and work: thus forming a ‘big&lt;/em&gt; _picture’ to build a real-time, in-depth understanding of the local distribution of urban air quality (3)_&lt;em&gt;empowering citizens by making visible the ‘externality’ of urban air quality and feeding this into a&lt;/em&gt; &lt;em&gt;bottom-up planning process: the community in the target area get the co-decision-making control over&lt;/em&gt; &lt;em&gt;where the sensors are placed, co-interpret the mapped feedback data, discuss and collectively explore&lt;/em&gt; &lt;em&gt;possible options for improvement (supported by a Maptable instrument) to get a fair and ‘better’&lt;/em&gt; &lt;em&gt;distribution of air pollution in the city, balanced against other spatial qualities. ….”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-nijmegen.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-nijmegen.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;So from the outset the SE Platform is geared towards connecting citizen-owned sensor devices. Many similar programs and initiatives are currently evolving, often under the flag of Citizen Science and Smart Cities. Within the Netherlands, where the SE Nijmegen project originated, the &lt;a href=&#34;http://rivm.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National Institute for Public Health and the Environment&lt;/a&gt;
  (RIVM) was an active project partner, and still stimulates citizens measuring Air Quality via a project and portal: &lt;a href=&#34;https://www.samenmetenaanluchtkwaliteit.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Together Measuring Air Quality”&lt;/a&gt;
 . In the context of discussions on Air Quality, climate change and lowering budgets for governmental environmental institutions, citizen-participation becomes more and more relevant. A whole series of blogs could be devoted to social and political aspects of Citizen Science, but I will stick to tech-stuff here.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/se-partners.png&#34; alt=&#34;:left&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-partners.png&#34; alt=&#34;:left&#34;&gt;&lt;/p&gt;
 &lt;p&gt;What made working on the SE Nijmegen project exciting and challenging, is that I was given time and opportunity by the project partners (see pic) to not just build a one-time project-specific piece of software, but a reusable set of Open Source components: the Smart Emission Platform ([sources on GitHub][42]).&lt;/p&gt;
 &lt;p&gt;Having had some earlier experience within the &lt;a href=&#34;http://sensors.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum SOSPilot project&lt;/a&gt;
  (2014-2015), investigating among others the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sensor_Observation_Service&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
@@ -851,7 +851,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 , I was aware of the challenges dealing with what can be called &lt;em&gt;&lt;strong&gt;Spatiotemporal (Big) Data&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;The figure below shows The Big Picture of the SE Platform. Red arrows denote the flow of data: originating from sensor devices, going through Data Management (ETL), unlocked via various web-APIs, and finally “consumed” in client-apps and viewers.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/arch-big-picture.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/arch-big-picture.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;There are many aspects of the SE Platform that can be expanded. These are for upcoming Emits. For now a summary of some of the challenges and applied technologies, to be detailed later:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;raw data from sensors: requires refinement: validation/calibration/aggregation&lt;/li&gt;
@@ -882,7 +882,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 , Ubuntu, Docker&lt;/li&gt;
 &lt;li&gt;using component-subsets of the platform for small deployments&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2018/01/docker-monitoring.jpg&#34; alt=&#34;Monitoring SE Docker Containers: Prometheus+cAdvisor+Grafana&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/docker-monitoring.jpg&#34; alt=&#34;Monitoring SE Docker Containers: Prometheus+cAdvisor+Grafana&#34;&gt;&lt;/p&gt;
 &lt;p&gt;A lot of stuff to uncover, hopefully got your interest if you have read all the way to here. Will try to treat one aspect/technology in each subsequent Emit-blog post. And off course the entire &lt;a href=&#34;https://github.com/geonovum/smartemission/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SE platform is Open Source&lt;/a&gt;
  (GNU GPL), so you are free to download and experiment, and maybe even would like to contribute.&lt;/p&gt;
 
@@ -892,10 +892,10 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
     
     <item>
       <title>Dances with the GeoPython Tribe</title>
-      <link>https://nl.justobjects.org/dances-with-the-geopython-tribe/</link>
+      <link>https://justobjects.nl/dances-with-the-geopython-tribe/</link>
       <pubDate>Wed, 13 Jul 2016 23:06:10 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/dances-with-the-geopython-tribe/</guid>
+      <guid>https://justobjects.nl/dances-with-the-geopython-tribe/</guid>
       <description>
         
           &lt;p&gt;During June 21-24, 2016 I attended the very first &lt;a href=&#34;http://www.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoPython Conference in Basel Switzerland&lt;/a&gt;
@@ -910,7 +910,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;div class=&#34;float_right&#34;&gt;
   &lt;a href=&#34;http://www.geopython.net/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2016/07/gp1-right.jpg&#34;
+      src=&#34;https://justobjects.nl/uploads/2016/07/gp1-right.jpg&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -936,7 +936,7 @@ s, to the lighter weighings of &lt;a href=&#34;https://en.wikipedia.org/wiki/Spr
 &lt;div class=&#34;float_left&#34;&gt;
   &lt;a href=&#34;http://www.geopython.net/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://nl.justobjects.org/uploads/2016/07/gp2-left.jpg&#34;
+      src=&#34;https://justobjects.nl/uploads/2016/07/gp2-left.jpg&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
   
@@ -961,10 +961,10 @@ s, to the lighter weighings of &lt;a href=&#34;https://en.wikipedia.org/wiki/Spr
     
     <item>
       <title>3D Geospatial – Free and Open Source Software v0</title>
-      <link>https://nl.justobjects.org/3d-geospatial-foss-v0/</link>
+      <link>https://justobjects.nl/3d-geospatial-foss-v0/</link>
       <pubDate>Wed, 28 Jan 2015 11:52:34 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/3d-geospatial-foss-v0/</guid>
+      <guid>https://justobjects.nl/3d-geospatial-foss-v0/</guid>
       <description>
         
           &lt;p&gt;This is my list of FOSS products for 3D Geospatial with a focus on web technology/WebGL and Open Standards. These are notes I keep within Evernote as part of the 3D Geospatial Notebook whose public link is: &lt;a href=&#34;https://www.evernote.com/pub/justb4ever/3d-geospatial&#34;&gt;https://www.evernote.com/pub/justb4ever/3d-geospatial&lt;/a&gt;. This is also the first experiment to auto sync Evernote to WordPress using Zapier, so beware of any glitches in formatting! I am sure I have missed many other great products. Let me know!&lt;/p&gt;
@@ -978,7 +978,7 @@ s, to the lighter weighings of &lt;a href=&#34;https://en.wikipedia.org/wiki/Spr
 &lt;h3 id=&#34;cesium&#34;&gt;Cesium&lt;/h3&gt;
 &lt;p&gt;– General&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;“Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without a plugin. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization. Cesium is open source under the Apache 2.0 license. It is free for commercial and non-commercial use.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cesium.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/cesium.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://cesiumjs.org/&#34;&gt;http://cesiumjs.org/&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;http://cesiumjs.org/presentations/Rendering%20the%20Whole%20Wide%20World%20on%20the%20World%20Wide%20Web.pdf&#34;&gt;http://cesiumjs.org/presentations/Rendering%20the%20Whole%20Wide%20World%20on%20the%20World%20Wide%20Web.pdf&lt;/a&gt; great presentation&lt;/p&gt;
 &lt;p&gt;– Cesium Terrain Service Preparation&lt;br&gt;
@@ -993,23 +993,23 @@ s, to the lighter weighings of &lt;a href=&#34;https://en.wikipedia.org/wiki/Spr
 &lt;a href=&#34;http://cesiumjs.org/2015/01/27/Migrating-from-Earth-to-Cesium/&#34;&gt;http://cesiumjs.org/2015/01/27/Migrating-from-Earth-to-Cesium/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;– Cesium and OpenLayers3&lt;br&gt;
 Cesium has a real focus on (OGC) standards and integrating with software implementing OGC standards. I heard that the Cesium-folks are even proposing additions to OGC 3D standards (CZML? or the very compact terrain tiling using quantized mesh?). That would be great in concert with/as payload for the upcoming 3DPS (3D Portrayal Service) standard.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cesium-ol3.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/cesium-ol3.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://openlayers.org/ol3-cesium/&#34;&gt;http://openlayers.org/ol3-cesium/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;– My Cesium experiments with Dutch OpenTopo tiles and Top10NL-3D Vector&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cesium-just.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/cesium-just.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://app.nlextract.nl/3d/&#34;&gt;http://app.nlextract.nl/3d/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;– My Cesium experiments with Cesium-OpenLayers3 Integration using Dutch Topo Top10NL-3D Vector&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cesium-ol3-just.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/cesium-ol3-just.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://app.nlextract.nl/3d/&#34;&gt;http://app.nlextract.nl/3d/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;tangram&#34;&gt;Tangram&lt;/h3&gt;
 &lt;p&gt;From the folks from &lt;a href=&#34;http://mapzen.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MapZen&lt;/a&gt;
  who make much more cool stuff: &lt;em&gt;“Tangram is a library for rendering 2D &amp;amp; 3D maps with WebGL, using GeoJSON/TopoJSON or binary vector tiles.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/tangram.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/tangram.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/tangrams/tangram&#34;&gt;https://github.com/tangrams/tangram&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://mapzen.com/tangram&#34;&gt;https://mapzen.com/tangram&lt;/a&gt; (demo)&lt;/p&gt;
 &lt;h3 id=&#34;d3js&#34;&gt;D3JS&lt;/h3&gt;
 &lt;p&gt;– General&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/d3js.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/d3js.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;“ &lt;strong&gt;D3.js&lt;/strong&gt; is a JavaScript library for manipulating documents based on data. &lt;strong&gt;D3&lt;/strong&gt; helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.”&lt;/em&gt;&lt;br&gt;
 &lt;a href=&#34;http://d3js.org/&#34;&gt;http://d3js.org/&lt;/a&gt; –&lt;/p&gt;
 &lt;p&gt;– Kind of 3D with D3 – Maps for the Web&lt;br&gt;
@@ -1060,7 +1060,7 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
 &lt;p&gt;&lt;a href=&#34;http://xnavigator.sourceforge.net/doku.php&#34;&gt;http://xnavigator.sourceforge.net/doku.php&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;threejs&#34;&gt;ThreeJS&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;“The aim of the project is to create a lightweight 3D library with a very low level of complexity — in other words, for dummies. The library provides &amp;lt;canvas&amp;gt;, &amp;lt;svg&amp;gt;, CSS3D and WebGL renderers.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/threejs.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/threejs.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://threejs.org&#34;&gt;http://threejs.org&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;w3ds&#34;&gt;W3DS&lt;/h3&gt;
 &lt;p&gt;W3DS (Web 3D Service) is a portrayal service for 3D scenes. Early OGC discussion documents. Now superseded by the 3DPS, the 3D Portrayal Service, now (jan 2015) out for public comment in OGC. This is an early W3DS implementation in GeoServer that started from the dissertation work by Nuno Miguel Carvalho Oliveira (professor: Jorge Gustavo Rocha) at the University of Minho (Portugal).&lt;/p&gt;
@@ -1070,13 +1070,13 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
 &lt;h3 id=&#34;qgishorao&#34;&gt;QGIS/Horao&lt;/h3&gt;
 &lt;p&gt;By OSLandia&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;“A simple viewer built around OpenSceneGraph … designed to listen to commands on its standard input. … The other piece is a Python plugin that is used to connect QGIS signals to the viewer (in another process) to allow loading of QGIS layers with 3D geometries.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/horao.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/horao.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Oslandia/horao&#34;&gt;https://github.com/Oslandia/horao&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;http://www.openscenegraph.org/&#34;&gt;http://www.openscenegraph.org/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;cuardo&#34;&gt;Cuardo&lt;/h3&gt;
 &lt;p&gt;Again By OSLandia, watch these guys!&lt;br&gt;
 &lt;em&gt;“ Cuardo is an OpenSource WebGL 3D data viewer, focusing on urban data analysis and visualization … a 3D GIS web framework based on Three.js and WebGL, oriented toward urban visualization.“&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2015/01/cuardo.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/cuardo.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Oslandia/cuardo&#34;&gt;https://github.com/Oslandia/cuardo&lt;/a&gt;
 &lt;a href=&#34;http://www.oslandia.com/oslandia-releases-cuardo-3d-gis-viewer-en.html&#34;&gt;http://www.oslandia.com/oslandia-releases-cuardo-3d-gis-viewer-en.html&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;suggestions-fromreaders&#34;&gt;Suggestions from Readers&lt;/h3&gt;
@@ -1100,10 +1100,10 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
     
     <item>
       <title>OSGeo Open Source Seminar at Geospatial World Forum</title>
-      <link>https://nl.justobjects.org/osgeo-seminar-gwf-2012/</link>
+      <link>https://justobjects.nl/osgeo-seminar-gwf-2012/</link>
       <pubDate>Tue, 17 Apr 2012 12:11:47 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/osgeo-seminar-gwf-2012/</guid>
+      <guid>https://justobjects.nl/osgeo-seminar-gwf-2012/</guid>
       <description>
         
           &lt;p&gt;The &lt;a href=&#34;http://osgeo.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo Foundation&lt;/a&gt;
@@ -1114,10 +1114,10 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
 . For &lt;a href=&#34;http://osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl&lt;/a&gt;
  this was an opportunity to expose our newly formed chapter. &lt;a href=&#34;http://www.linkedin.com/in/willybakker&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Willy Bakker&lt;/a&gt;
  of OSGeo.nl is still busy trying to arrange OSGeo marketing exposure. I feel very happy and proud that all these experts in their respective fields committed to speak in 15-min slots (the GWF-format). I think the program also stands out in Variety: Open Source for Geospatial here is not just presented from a technical/developers’ angle, but also from end-users’ perspectives in local and global governments, from within education and from the pure business angle. As we have 11 speakers (of which even two presidents!), and hearing someone mutter in the social media about a ‘Dreamteam’, I could not resist collating the undesigned poster as below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2014/06/OSGeo_OpenSource_GWF12_DreamTeam1.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2014/06/OSGeo_OpenSource_GWF12_DreamTeam1.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Below is also the detailed program as it stands now, small changes may occur. As there is little time for questions within the slots, we will devote the Forum at the end to Q&amp;amp;A. Questions can also be posed, even if you are not there, via Twitter, by using the &lt;a href=&#34;https://twitter.com/#!/search/realtime/%23gwfos&#34; title=&#34;twitter tag for questions at GWF OS seminar&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Twitter hashtag #gwfos&lt;/a&gt;
 .&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2014/06/Open-Source-GWF2012-final1-1024x842.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2014/06/Open-Source-GWF2012-final1-1024x842.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://wiki.osgeo.org/images/b/bf/GeospatialWorldForum_2012_OpenSource_Seminar_Program.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Click here for a PDF version of the program&lt;/a&gt;
 &lt;/p&gt;
 
@@ -1127,10 +1127,10 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
     
     <item>
       <title>SOTM and FOSS4G Conferences 2011 Denver</title>
-      <link>https://nl.justobjects.org/sotm-and-foss4g-conferences-2011-denver/</link>
+      <link>https://justobjects.nl/sotm-and-foss4g-conferences-2011-denver/</link>
       <pubDate>Tue, 20 Sep 2011 13:07:19 +0000</pubDate>
       
-      <guid>https://nl.justobjects.org/sotm-and-foss4g-conferences-2011-denver/</guid>
+      <guid>https://justobjects.nl/sotm-and-foss4g-conferences-2011-denver/</guid>
       <description>
         
           &lt;p&gt;What a great time it was in Denver, Colorado, USA ! Attended both the  &lt;a href=&#34;http://stateofthemap.org/&#34; title=&#34;stateofthemap.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenStreetMap State Of The Map (OSM SOTM)&lt;/a&gt;
@@ -1139,10 +1139,10 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
  conferences between september 9 and 16, 2011. Went hiking in between  in the Rocky Mountains (&lt;a href=&#34;http://www.nps.gov/romo/index.htm&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;State Park&lt;/a&gt;
  and &lt;a href=&#34;http://www.coloradowilderness.com/wildpages/indian.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Indian Peaks Wilderness&lt;/a&gt;
 ) where I saw a live bear the first time of my life.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2011/09/nederland-colorado-chipmunketc.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2011/09/nederland-colorado-chipmunketc.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;At my first SOTM I was impressed how strong and vibrant the &lt;a href=&#34;http://openstreetmap.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSM community&lt;/a&gt;
  is, how an ecosystem of tools, data, people and businesses is continuously expanding and how far “The Map” has progressed.  The FOSS4G at the Sheraton Hotel in downtown Denver was very well-organized with high technical/social value. FOSS4G is a must-go conference if you are into FOSS Geo.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2011/09/denver-just-shots.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2011/09/denver-just-shots.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Denver is a real city but with a country-like, mellow atmosphere. Socializing among the participants went smoothly, also since all major pubs were all directly near the Sheraton. The opening social night on tuesday at the &lt;a href=&#34;http://www.wynkoop.com/&#34; title=&#34;www.wynkoop.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Wynkoop Brewery”&lt;/a&gt;
  was an immediate hit. Many also went there on friday to close off. At FOSS4G I gave a talk on &lt;a href=&#34;http://2011.foss4g.org/sessions/openstreetmap-and-inspire-can-twain-meet&#34; title=&#34;2011.foss4g.org/sessions/openstreetmap-and-inspire-can-twain-meet&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“OpenStreetMap and INSPIRE, Can the Twain Meet?”&lt;/a&gt;
 .  You can find my slides in &lt;a href=&#34;https://files.justobjects.nl/jo/assets/presentation/foss4g-2011/html/img0.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;HTML&lt;/a&gt;
@@ -1158,7 +1158,7 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
  found through &lt;a href=&#34;http://www.airbnb.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirBnB&lt;/a&gt;
  in the tiny place &lt;a href=&#34;http://nederlandco.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Nederland, Colorado&lt;/a&gt;
 .&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2011/09/nederland-colorado.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2011/09/nederland-colorado.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Stay tuned to the &lt;a href=&#34;https://wiki.openstreetmap.org/wiki/State_Of_The_Map_2011&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SOTM&lt;/a&gt;
 , &lt;a href=&#34;http://2011.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G&lt;/a&gt;
  and &lt;a href=&#34;http://www.fosslc.org/drupal/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSSLC&lt;/a&gt;
@@ -1166,7 +1166,7 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
 . I should talk more on SOTM and FOSS4G session content but you can find also lots on the mentioned sites and tweets tagged with &lt;a href=&#34;http://twitter.com/#!/search/%23foss4g&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;#foss4g&lt;/a&gt;
  and &lt;a href=&#34;http://twitter.com/#!/search/%23sotm&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;#sotm&lt;/a&gt;
 .&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nl.justobjects.org/uploads/2011/09/colorado-hiking.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2011/09/colorado-hiking.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Next year FOSS4G will be in Beijing, China ! Will SOTM also be held there ?&lt;/p&gt;
 
         
