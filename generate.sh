@@ -12,4 +12,4 @@ mkdir -p dist
 # hugo - if using a theme, replace with `hugo -t <YOURTHEME>`
 hugo -D -t hugo-clarity
 
-echo "nl.justobjects.org" > dist/CNAME
+echo "justobjects.nl" > dist/CNAME
