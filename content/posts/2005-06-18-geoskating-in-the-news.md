@@ -12,7 +12,7 @@ categories:
 ---
 News travels fast on the Net. My website for the mobile GPS project [GeoSkating][1] went from 10s to 1000s of visitors a day when it entered the international blogsphere and the Dutch national newspaper [De Volkskrant][2]. On Google &#8220;geoskating&#8221; [went from 10 hits to 16900 in a week.][3]. I want to thank everyone for their interest, also for the many kind emails I received. It encourages me to proceed with the project.
 
-{{< a-img data-href="https://files.justobjects.nl/jo/assets/doc/geoskating-volkskrant-2005.pdf" data-src="/uploads/2005/06/artikel-vk-magazine-thumb-109x150.jpg" data-caption="Volkskrant article (by Carel Helder)" data-class="float_left w30 h230" >}}
+{{< a-img data-href="https://files.justobjects.nl/doc/geoskating-volkskrant-2005.pdf" data-src="/uploads/2005/06/artikel-vk-magazine-thumb-109x150.jpg" data-caption="Volkskrant article (by Carel Helder)" data-class="float_left w30 h230" >}}
 
 {{< a-img data-href="javascript:return false;" data-src="/uploads/2005/06/gs-stats-small-150x73.jpg" data-class="float_left w30 h230" >}}
 
@@ -29,7 +29,7 @@ News travels fast on the Net. My website for the mobile GPS project [GeoSkating]
 <table border="0" cellspacing="4" cellpadding="4">
   <tr>
     <td>
-      <a href="https://files.justobjects.nl/jo/assets/doc/geoskating-volkskrant-2005.pdf"><br /> <img loading="lazy" class="alignnone size-full wp-image-315" src="uploads/2005/06/artikel-vk-magazine-thumb.jpg" alt="artikel-vk-magazine-thumb" width="180" height="247" srcset="https://justobjects.nl/wp-content/uploads/2005/06/artikel-vk-magazine-thumb.jpg 180w, https://justobjects.nl/wp-content/uploads/2005/06/artikel-vk-magazine-thumb-109x150.jpg 109w" sizes="(max-width: 180px) 100vw, 180px" /></a><br /> Volkskrant article (by Carel Helder).
+      <a href="https://files.justobjects.nl/doc/geoskating-volkskrant-2005.pdf"><br /> <img loading="lazy" class="alignnone size-full wp-image-315" src="uploads/2005/06/artikel-vk-magazine-thumb.jpg" alt="artikel-vk-magazine-thumb" width="180" height="247" srcset="https://justobjects.nl/wp-content/uploads/2005/06/artikel-vk-magazine-thumb.jpg 180w, https://justobjects.nl/wp-content/uploads/2005/06/artikel-vk-magazine-thumb-109x150.jpg 109w" sizes="(max-width: 180px) 100vw, 180px" /></a><br /> Volkskrant article (by Carel Helder).
     </td>
 
     <td>
@@ -64,5 +64,5 @@ News travels fast on the Net. My website for the mobile GPS project [GeoSkating]
 -->
 
  [1]: http://www.geoskating.com
- [2]: https://files.justobjects.nl/jo/assets/doc/geoskating-volkskrant-2005.pdf
+ [2]: https://files.justobjects.nl/doc/geoskating-volkskrant-2005.pdf
  [3]: http://www.google.com/search?q=geoskating
