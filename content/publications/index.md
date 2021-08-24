@@ -21,6 +21,9 @@ Just van den Broecke, Ebrahim Hemmatnia, Ko van Raamsdonk;&nbsp;**_&#8220;Harmon
 Just van den Broecke;&nbsp;**_&#8220;NLExtract pakt de basisregistraties uit &#8211; BAG en BRT ontsloten met Open Source software&#8221;&nbsp;_** [Geo-Info][6], 2013-8/9; Edward Mac Gillavry (ed.)  
 [\[PDF Download\]][7]
 
+Just van den Broecke;&nbsp;**"Hapklare basisregistratiedata via GeoToko.nl"**; published in [BIG Nieuws][25], March 2021; 
+[\[PDF Download\]][26]
+
 # Computing
 
 J.A. van den Broecke;**_&#8220;Multi-user Networking&#8221;_**; Published in**_&#8220;Making Art of Databases&#8221;_**; Joke Brouwer, Arjen Mulder, Susan Charlton (Eds.); V2_ and NAI Publishers, Rotterdam, June 2003; ISBN 90-5662-309-5  
@@ -78,3 +81,5 @@ G.G. Choudhry, J.A. van den Broecke, G.R.B. Webster, and O. Hutzinger;&nbsp;**_&
 [22]: ttp://onlinelibrary.wiley.com/doi/10.1002/etc.5620050703/abstract
 [23]: https://files.justobjects.nl/doc/choudhry1986.pdf
 [24]: http://www.sciencedirect.com/science/article/pii/0045653587902578
+[25]: https://bignieuws.nl/
+[26]: https://files.justobjects.nl/doc/geotoko-bignieuws-mrt2021.pdf
