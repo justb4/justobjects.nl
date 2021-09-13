@@ -6,7 +6,9 @@ date: 2015-03-20T22:35:36+00:00
 featured_image: uploads/2015/03/nltopo-3phones.jpg
 
 ---
-Just Objects offers web services and mobile apps for Dutch topographic and historic maps as a SAAS via [Map5.nl][2]. We offer both a free and a paid service. The free service has some limitations. The paid service offers access to all maps to some limit. This is the best choice when using maps in your daily work or business. Read more on the [Map5.nl website][2].
+Just Objects offers web services and mobile apps for Dutch topographic and historic maps as a 
+SAAS via [Map5.nl][2]. We offer both a free and a paid service. 
+The free service has some limitations. The paid service offers access to all maps to some limit. This is the best choice when using maps in your daily work or business. Read more on the [Map5.nl website][2].
 
 ![ ][1]
 

@@ -3,13 +3,14 @@ title: "Just Objects"
 author: Just van den Broecke
 featured_image: 'uploads/2021/01/backstage-view-by-niene.jpg'
 description: ""
-date: 2015-01-28T12:49:12+00:00
+date: 2021-06-28T12:49:12+00:00
 ---
 
 Just Objects provides services for
 <a title="GIS, Geospatial IT, or Geo-ICT" href="http://en.wikipedia.org/wiki/Geographic_information_system" target="_blank">Geospatial IT</a>, also known as GIS or Geo-ICT, with a focus on <a href="http://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">Free and Open Source</a> (FOSS), Open Standards and Open Data.
 
-Just Objects B.V. is the trading name for the professional activities of <a href="https://www.linkedin.com/in/justb4" target="_blank">Just van den Broecke</a>.
+Just Objects B.V. is the trading name for the professional 
+activities of <a href="https://www.linkedin.com/in/justb4" target="_blank">Just van den Broecke</a>.
 
 The range of services includes: consultancy, training, development, hosting and maintenance.
 

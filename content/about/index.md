@@ -2,7 +2,7 @@
 title: About
 author: Just van den Broecke
 type: page
-date: 2014-06-22T13:59:27+00:00
+date: 2021-06-22T13:59:27+00:00
 
 ---
 Just Objects B.V. is the trading name for the professional activities of [Just van den Broecke][13].

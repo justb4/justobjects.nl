@@ -2,7 +2,7 @@
 title: Writings
 author: Just van den Broecke
 type: page
-date: 2014-06-22T15:53:29+00:00
+date: 2021-06-22T15:53:29+00:00
 
 ---
 <img loading="lazy" class="alignnone wp-image-345" src="uploads/2014/06/writings-300x53.jpg" alt="writings" width="430" height="76" srcset="https://justobjects.nl/wp-content/uploads/2014/06/writings-300x53.jpg 300w, https://justobjects.nl/wp-content/uploads/2014/06/writings-250x44.jpg 250w, https://justobjects.nl/wp-content/uploads/2014/06/writings-150x26.jpg 150w, https://justobjects.nl/wp-content/uploads/2014/06/writings.jpg 567w" sizes="(max-width: 430px) 100vw, 430px" />

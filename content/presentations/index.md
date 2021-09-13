@@ -2,7 +2,7 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2014-06-23T08:04:13+00:00
+date: 2021-06-23T08:04:13+00:00
 
 ---
 Below a selection of various presentations by Just, starting with the most recent. See the more recent presentations on [\[Slideshare\]][1]
