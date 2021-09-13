@@ -2,7 +2,7 @@
 title: Terraform - First Steps on Hetzner Cloud
 author: Just van den Broecke
 type: post
-date: 2021-09-23T13:24:25+00:00
+date: 2021-09-13T13:24:25+00:00
 excerpt: "Having used Ansible on Hetzner for years, let's see what Terraform can add."
 url: /terraform-first-steps/
 featured_image: uploads/2021/09/terraform-logo.png
@@ -153,11 +153,15 @@ $ terraform init
 ```
 You may validate your config:
 
-`$ terraform validate`
+```
+$ terraform validate
+```
 
 Moment of truth: create the resources:
 
-`$ terraform apply`
+```
+$ terraform apply
+```
 
 Verify the existence of the NGINX container 
 by visiting [localhost:8000](http://localhost:8000/) 
@@ -198,7 +202,10 @@ Steps:
 
 My goal was to create a Debian VM, login there with root and SSH key and destroy it afterwards.
 
-`$ mkdir -p ~/project/terraform/learn/terraform-hetzner`
+
+```
+$ mkdir -p ~/project/terraform/learn/terraform-hetzner
+```
 
 Create `main.tf` as follows:
  
