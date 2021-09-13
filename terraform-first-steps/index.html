@@ -391,7 +391,7 @@ many other possiblities to deal with secrets/credentials:</p>
 </code></pre></div><p>Using <code>-auto-approve</code> you skip the interactive approval-step.</p>
 <p>Next check the Hetzner Cloud Console project page and see the new VM running!</p>
 <p>Try to login on your new VM (IP may also be gotten from <code>output.tf</code>, another exercise):</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>$ ssh root@&lt;VM IP
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>$ ssh root@&lt;Your VM IP&gt;
 </code></pre></div><p>Then destroy your VM:</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>$ terraform destroy -auto-approve`
 </code></pre></div><p>There is much more one can do with the Hetzner Provider:

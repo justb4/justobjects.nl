@@ -212,7 +212,7 @@ many other possiblities to deal with secrets/credentials:&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Using &lt;code&gt;-auto-approve&lt;/code&gt; you skip the interactive approval-step.&lt;/p&gt;
 &lt;p&gt;Next check the Hetzner Cloud Console project page and see the new VM running!&lt;/p&gt;
 &lt;p&gt;Try to login on your new VM (IP may also be gotten from &lt;code&gt;output.tf&lt;/code&gt;, another exercise):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ ssh root@&amp;lt;VM IP
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ ssh root@&amp;lt;Your VM IP&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then destroy your VM:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ terraform destroy -auto-approve`
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;There is much more one can do with the Hetzner Provider:
