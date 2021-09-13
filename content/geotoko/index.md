@@ -12,9 +12,9 @@ These include Topography (BRT, BGT), Adresses and Buildings (BAG) and Cadastral 
 
 {{< a-img data-href="https://geotoko.nl/"  data-src="/uploads/2021/09/geotoko.png" data-caption="geotoko.nl - some of the datasets offered">}}
 
-Why? Most of the Open Geospatial Datasets provided by the Dutch government (mostly via Dutch Kadaster)
+Why? Most of the Open Geospatial Datasets provided by the Dutch government (mostly via [Dutch Kadaster/PDOK][6])
 are in an interchange format called "GML". Many parties find this format hard to process.
-Cia the Open Source project NLExtract we have been providing ETL-tools to convert 
+Via the Open Source project [NLExtract](5) we have been providing ETL-tools to convert 
 these datasets to "chewable" formats like PostGIS, GeoPackage and CSV.
 Still this may be a bridge too far for some. Hence we provide the datasets
 already converted to these formats. At reasonable prices!
@@ -26,3 +26,5 @@ a regular [Newsletter][4]. All in Dutch btw.
  [2]: https://geocatalogus.nl
  [3]: https://geotoko.freshdesk.com
  [4]: https://us10.campaign-archive.com/home/?u=c04ae15ca0f4a453f6a958769&id=8de38e85db
+ [5]: https://nlextract.nl
+ [6]: https://pdok.nl
