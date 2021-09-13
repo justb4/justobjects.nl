@@ -22,7 +22,7 @@ Just van den Broecke;&nbsp;**_&#8220;NLExtract pakt de basisregistraties uit &#8
 [\[PDF Download\]][7]
 
 Just van den Broecke;&nbsp;**"Hapklare basisregistratiedata via GeoToko.nl"**; published in [BIG Nieuws][25], March 2021; 
-[\[PDF Download\]][26]
+[\[PDF Download\]][26], [\[Online on CMedia.nl\]][27]
 
 # Computing
 
@@ -83,3 +83,5 @@ G.G. Choudhry, J.A. van den Broecke, G.R.B. Webster, and O. Hutzinger;&nbsp;**_&
 [24]: http://www.sciencedirect.com/science/article/pii/0045653587902578
 [25]: https://bignieuws.nl/
 [26]: https://files.justobjects.nl/doc/geotoko-bignieuws-mrt2021.pdf
+[27]: http://magazine.cmedia.nl/bignieuws-2-2021#!/hapklare-basisregistratiedata-via-geotokonl
+
