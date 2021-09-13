@@ -7,7 +7,236 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 20 Jan 2021 13:24:25 +0000</lastBuildDate><atom:link href="https://justobjects.nl/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Sep 2021 13:24:25 +0000</lastBuildDate><atom:link href="https://justobjects.nl/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform - First Steps on Hetzner Cloud</title>
+      <link>https://justobjects.nl/terraform-first-steps/</link>
+      <pubDate>Mon, 13 Sep 2021 13:24:25 +0000</pubDate>
+      
+      <guid>https://justobjects.nl/terraform-first-steps/</guid>
+      <description>
+        
+          &lt;p&gt;I use &lt;a href=&#34;https://www.ansible.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Ansible&lt;/a&gt;
+ already for years to provision server
+instances and for subsequent CI/CD.
+A recent example is the &lt;a href=&#34;https://apitestdocs.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum OGC API Testbed&lt;/a&gt;
+.
+Here (selective) Docker Containers are automatically deployed on GitHub pushes using Ansible called
+from within a GitHub Workflows.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://apitestdocs.geonovum.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/09/ogcapi-testbed.png&#34;
+      alt=&#34;Geonovum OGC API Testbed CI/CD Architecture&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Now investigating how  &lt;a href=&#34;https://www.terraform.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Terraform&lt;/a&gt;
+
+could play a key role in (Cloud) infrastructure management.
+There is a small overlap between Ansible and Terraform but that is a matter of how they are applied in concert.&lt;/p&gt;
+&lt;p&gt;Ansible is more geared towards maintaining the OS and its running components e.g. Docker Containers on VM-instances.
+Terraform is more geared to maintaining a Cloud infrastructure,
+&amp;quot;in the large&amp;quot;: acquiring VM-instances, networks, DNS.
+If you are familiar with AWS, Google Cloud Platform, or in our case &lt;a href=&#34;https://www.hetzner.com/cloud&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hetzner Cloud&lt;/a&gt;
+,
+it is what you can do by clicking in their respective UIs or
+via their APIs like Hetzner&#39;s &lt;a href=&#34;https://github.com/hetznercloud/cli&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;hcloud&lt;/a&gt;
+.
+And btw: both Ansible and Terraform are Open Source.&lt;/p&gt;
+&lt;p&gt;Quote from
+&lt;a href=&#34;https://www.cprime.com/resources/blog/terraform-and-ansible-tutorial-integrating-terraform-managed-instances-with-ansible-control-nodes/#:%5c~:text=Terraform%20and%20Ansible,-So%2C%20why%20do&amp;amp;text=Terraform%20is%20designed%20to%20provision,necessary%20applications%20on%20that%20machine.&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;random web-search&lt;/a&gt;
+:
+&lt;em&gt;&amp;quot;&lt;strong&gt;Terraform&lt;/strong&gt; is designed to provision different infrastructure components. &lt;strong&gt;Ansible&lt;/strong&gt; is a
+configuration-management and application-deployment tool. It means that you&#39;ll use &lt;strong&gt;Terraform&lt;/strong&gt; first
+to create, for example, a virtual machine and then use &lt;strong&gt;Ansible&lt;/strong&gt; to install necessary applications on that machine.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Both Ansible and Terraform are &amp;quot;declarative&amp;quot;, i.e. configuration-based, where the configuration describes a desired state.
+ctions are &amp;quot;idempotent&amp;quot;, i.e. the same action can be applied multiple times, but when the desired state is reached it won&#39;t have effect.&lt;/p&gt;
+&lt;p&gt;As I plan to apply Terraform in other projects as well, I took a deep dive, following hands-on tutorials from the Terraform website.
+&lt;em&gt;&lt;strong&gt;In a very short time I was amazed by Terraform&#39;s power and elegance!&lt;/strong&gt;&lt;/em&gt;
+My ultimate goal was to manage (acquire, configure, access, destroy) the lifecycle of &lt;a href=&#34;https://www.hetzner.com/cloud&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hetzner Cloud&lt;/a&gt;
+
+Virtual Machines (VMs, VPS&#39;s).
+This all took about less than two hours, documenting my steps along the way.&lt;/p&gt;
+&lt;p&gt;I started at the &lt;a href=&#34;https://learn.hashicorp.com/collections/terraform/aws-get-started&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Getting Started&lt;/a&gt;
+ page.
+While there is a lot of stuff on AWS, Terraform Cloud, I basically stuck to these four steps.
+You may even skip the third (GCP) step. Important is to learn the terminology and config conventions.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Installation&lt;/li&gt;
+&lt;li&gt;Using Docker Provider&lt;/li&gt;
+&lt;li&gt;Using GCP Provider&lt;/li&gt;
+&lt;li&gt;Using Hetzner Cloud Provider
+&lt;br&gt;
+&lt;em&gt;Tip: in IntelliJ IDEA install the Terraform plugin. It will recognise/help with Terraform files!&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;step-1---installation&#34;&gt;Step 1 - Installation&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.hashicorp.com/tutorials/terraform/install-cli&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;learn.hashicorp.com/tutorials/terraform/install-cli &lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;On a Mac with Homebrew install the Terraform CLI:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ brew tap hashicorp/tap
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;$ brew install hashicorp/tap/terraform
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;$ terraform -version
+&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;Terraform v1.0.2
+&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;on darwin_amd64
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&#39;s it!&lt;/p&gt;
+&lt;h3 id=&#34;step-2---using-docker-provider&#34;&gt;Step 2 - Using Docker Provider&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.hashicorp.com/collections/terraform/docker-get-started&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;learn.hashicorp.com/collections/terraform/docker-get-started&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;I started project dirs under &lt;code&gt;~/project/terraform/learn/.&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ mkdir -p ~/project/terraform/learn/terraform-docker-container
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Create a file called main.tf:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;terraform {
+&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;  required_providers {
+&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;    docker = {
+&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;      source  = &amp;#34;kreuzwerker/docker&amp;#34;
+&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;      version = &amp;#34;~ 2.13.0&amp;#34;
+&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;    }
+&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;  }
+&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;}
+&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;provider &amp;#34;docker&amp;#34; {}
+&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;resource &amp;#34;docker_image&amp;#34; &amp;#34;nginx&amp;#34; {
+&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;  name         = &amp;#34;nginx:latest&amp;#34;
+&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;  keep_locally = false
+&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;}
+&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;resource &amp;#34;docker_container&amp;#34; &amp;#34;nginx&amp;#34; {
+&lt;span class=&#34;ln&#34;&gt;18&lt;/span&gt;  image = docker_image.nginx.latest
+&lt;span class=&#34;ln&#34;&gt;19&lt;/span&gt;  name  = &amp;#34;tutorial&amp;#34;
+&lt;span class=&#34;ln&#34;&gt;20&lt;/span&gt;  ports {
+&lt;span class=&#34;ln&#34;&gt;21&lt;/span&gt;    internal = 80
+&lt;span class=&#34;ln&#34;&gt;22&lt;/span&gt;    external = 8000
+&lt;span class=&#34;ln&#34;&gt;23&lt;/span&gt;  }
+&lt;span class=&#34;ln&#34;&gt;24&lt;/span&gt;}
+&lt;span class=&#34;ln&#34;&gt;25&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This defines that we will use the Terraform Provider plugin named
+&amp;quot;docker&amp;quot; with source &lt;a href=&#34;https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;kreuzwerker/docker&lt;/a&gt;
+. `Terraform has a registry of official (Provider) plugins.&lt;/p&gt;
+&lt;p&gt;Now initialize and install the plugin:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;$ terraform init
+&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt; **Initializing the backend...**
+&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt; **Initializing provider plugins...**
+&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;- Finding kreuzwerker/docker versions matching &amp;#34;~ 2.13.0&amp;#34;...
+&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;- Installing kreuzwerker/docker v2.13.0...
+&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;- Installed kreuzwerker/docker v2.13.0 (self-signed, key ID **24E54F214569A8A5**)
+&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;. etc
+&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You may validate your config:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ terraform validate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Moment of truth: create the resources:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ terraform apply
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Verify the existence of the NGINX container
+by visiting &lt;a href=&#34;http://localhost:8000/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;localhost:8000&lt;/a&gt;
+
+in your web browser or running docker ps to see the container.&lt;/p&gt;
+&lt;p&gt;That&#39;s it for Docker. Next is to use a real Cloud Provider.&lt;/p&gt;
+&lt;h3 id=&#34;step-3---using-gcp-provider&#34;&gt;Step 3 - Using GCP Provider&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.hashicorp.com/collections/terraform/gcp-get-started&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;learn.hashicorp.com/collections/terraform/gcp-get-started&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This was actually more elaborate than the Hetzner Cloud exercise.
+I had a GCP account, so this went smooth: first creating a Network and later a VM Instance.
+In this step also learned about using Terraform Providers, Resources, Variables(-files.)
+I leave this as an option and skip to Hetzner Cloud which is the goal of this post.&lt;/p&gt;
+&lt;h3 id=&#34;step-4---using-hetzner-cloud-provider&#34;&gt;Step 4 - Using Hetzner Cloud Provider&lt;/h3&gt;
+&lt;p&gt;The Hetzner Cloud plugin provider was not in the tutorials,
+but it was still not too hard to extrapolate from Step 3,
+from various Hetzner tutorials and from the &lt;code&gt;hetznercloud/hcloud&lt;/code&gt; Terraform Provider.&lt;/p&gt;
+&lt;p&gt;Links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hcloud Provider: &lt;a href=&#34;https://registry.terraform.io/providers/hetznercloud/hcloud/latest&#34;&gt;https://registry.terraform.io/providers/hetznercloud/hcloud/latest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://community.hetzner.com/tutorials/howto-hcloud-terraform&#34;&gt;https://community.hetzner.com/tutorials/howto-hcloud-terraform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://maddevs.io/blog/terraform-hetzner/&#34;&gt;https://maddevs.io/blog/terraform-hetzner/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;using TF-hcloud with Docker: &lt;a href=&#34;https://github.com/insekticid/docker-terraform-hcloud-example/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;github.com/insekticid/docker-terraform-hcloud-example&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Prerequisite is to have a Hetzner Cloud account and
+thus login access to &lt;a href=&#34;https://console.hetzner.cloud&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;console.hetzner.cloud&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;Steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;create a new Project in &lt;a href=&#34;https://console.hetzner.cloud/projects,&#34;&gt;https://console.hetzner.cloud/projects,&lt;/a&gt; e.g. &lt;code&gt;TerraformLearn&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;add your SSH public key to this project via &amp;quot;Security&amp;quot; menu link left&lt;/li&gt;
+&lt;li&gt;generate and copy an API Token for the project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My goal was to create a Debian VM, login there with root and SSH key and destroy it afterwards.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ mkdir -p ~/project/terraform/learn/terraform-hetzner
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Create &lt;code&gt;main.tf&lt;/code&gt; as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;terraform {
+&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;   required_providers {
+&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;     hcloud = {
+&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;       source  = &amp;#34;hetznercloud/hcloud&amp;#34;
+&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;       version = &amp;#34;1.27.2&amp;#34;
+&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;     }
+&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;   }
+&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt; }
+&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt; 
+&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt; provider &amp;#34;hcloud&amp;#34; {
+&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;   token = var.hcloud_token
+&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt; }
+&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt; 
+&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt; resource &amp;#34;hcloud_server&amp;#34; &amp;#34;node1&amp;#34; {
+&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;   name        = &amp;#34;node1&amp;#34;
+&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;   image       = &amp;#34;debian-9&amp;#34;
+&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;   server_type = &amp;#34;cx11&amp;#34;
+&lt;span class=&#34;ln&#34;&gt;18&lt;/span&gt;   ssh_keys = [&amp;#34;just@sunda.lan&amp;#34;]
+&lt;span class=&#34;ln&#34;&gt;19&lt;/span&gt; }
+&lt;span class=&#34;ln&#34;&gt;20&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Create a file &lt;code&gt;variables.tf&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt; # Set the variable value in *.tfvars file
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt; # or using the -var=&amp;#34;hcloud_token=...&amp;#34; CLI option
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt; variable &amp;#34;hcloud_token&amp;#34; {
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;   sensitive = true # Requires terraform = 0.14
+&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt; }
+&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then a file called &lt;code&gt;terraform.tfvars&lt;/code&gt;.
+This is a file with &amp;quot;secrets&amp;quot; normally not checked-in a repo but there are
+many other possiblities to deal with secrets/credentials:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt; hcloud_token = &amp;#34;the token string from Hetzner Cloud API Token&amp;#34;  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Moment of truth: apply!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ terraform init
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;$ terraform apply -auto-approve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Using &lt;code&gt;-auto-approve&lt;/code&gt; you skip the interactive approval-step.&lt;/p&gt;
+&lt;p&gt;Next check the Hetzner Cloud Console project page and see the new VM running!&lt;/p&gt;
+&lt;p&gt;Try to login on your new VM (IP may also be gotten from &lt;code&gt;output.tf&lt;/code&gt;, another exercise):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ ssh root@&amp;lt;VM IP
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then destroy your VM:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ terraform destroy -auto-approve`
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;There is much more one can do with the Hetzner Provider:
+basically everything that is available in the console
+UI and &lt;code&gt;hcloud&lt;/code&gt; API: creating Volumes, managing networks,
+adding SSH-keys, snapshots, using &lt;code&gt;cloud-init&lt;/code&gt; etc.
+See the manpage in particular the Resources drop-down menu:
+&lt;a href=&#34;https://registry.terraform.io/providers/hetznercloud/hcloud/latest/docs&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;registry.terraform.io/providers/hetznercloud/hcloud/latest/docs&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Beware that some Terraform actions are destructive: e.g. upgrading the OS
+will destroy the existing VM and create a new.
+For those cases Floating IPs and auto-provisioning with Ansible will help.
+But in that case Ansible would be more suited to upgrade the OS.
+One can always execute &lt;code&gt;terraform plan&lt;/code&gt; first to see the execution plan.
+My recommendation is to let Terraform handle the basics, and have Ansible manage the details on VMs.&lt;/p&gt;
+&lt;p&gt;Alternatives: TF with DigitalOcean using the DO Provider:
+&lt;a href=&#34;https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;registry.terraform.io/providers/digitalocean/digitalocean/latest/docs&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;All in all: Terraform can form a nice partnership with Ansible.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>That Was 2020</title>
       <link>https://justobjects.nl/that-was-2020/</link>
