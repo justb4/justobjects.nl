@@ -162,11 +162,11 @@
 [[social]]
   name = "linkedin"
   weight = 1
-  url = "http://www.linkedin.com/in/justb4"
+  url = "https://www.linkedin.com/in/justb4"
 [[social]]
   name = "twitter"
   weight = 2
-  url = "http://twitter.com/justb4"
+  url = "https://twitter.com/justb4"
 [[social]]
   name = "github"
   type = "social"
@@ -174,7 +174,7 @@
   url = "https://github.com/justb4"
 [[social]]
   name = "rss"
-  url = "http://justobjects.nl/feed/"
+  url = "https://justobjects.nl/index.xml"
   weight = 4
 
 # other supported social links

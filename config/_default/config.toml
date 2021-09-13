@@ -22,3 +22,15 @@ disableLanguages = ["pt", "ja"]
 category = "categories"
 tag = "tags"
 series = "series"
+
+[[redirects]]
+  from = "/feed"
+  to = "/index.xml"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/feed/"
+  to = "/index.xml"
+  status = 200
+  force = true
