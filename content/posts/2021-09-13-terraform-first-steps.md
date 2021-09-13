@@ -32,7 +32,7 @@ A recent example is the [Geonovum OGC API Testbed](https://apitestdocs.geonovum.
 Here (selective) Docker Containers are automatically deployed on GitHub pushes using Ansible called
 from within a GitHub Workflows.
 
-{{< a-img data-href="https://apitestdocs.geonovum.nl/" data-src="/uploads/2021/09/ogcapi-testbed.png" data-caption="Geonovum OGC API Testbed CI/CD Architecture">}}
+{{< a-img data-href="https://apitestdocs.geonovum.nl/" style="width:50%;" data-src="/uploads/2021/09/ogcapi-testbed.png" data-caption="Geonovum OGC API Testbed CI/CD Architecture">}}
 
 Now investigating how  [Terraform](https://www.terraform.io/) 
 could play a key role in (Cloud) infrastructure management. 
@@ -266,7 +266,7 @@ Next check the Hetzner Cloud Console project page and see the new VM running!
 Try to login on your new VM (IP may also be gotten from `output.tf`, another exercise):
 
 ``` 
-$ ssh root@<VM IP
+$ ssh root@<Your VM IP>
 ``` 
 
 Then destroy your VM:
