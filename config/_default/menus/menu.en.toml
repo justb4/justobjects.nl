@@ -119,12 +119,17 @@
   weight = -102
 [[main]]
   parent = "Products"
-  name = "map5.nl"
+  name = "geotoko.nl - Ready Geodata"
+  url = "geotoko/"
+  weight = -99
+[[main]]
+  parent = "Products"
+  name = "map5.nl - Map Tiles"
   url = "map5/"
   weight = -99
 [[main]]
   parent = "Products"
-  name = "geoqos.com"
+  name = "geoqos.com - Hosted GeoHealthCheck"
   url = "geoqos/"
   weight = -98
 
