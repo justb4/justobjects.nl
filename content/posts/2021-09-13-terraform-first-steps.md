@@ -23,6 +23,7 @@ tags:
   - Terraform
   - GitOps
   - DevOps
+
 ---
 
 I use [Ansible](https://www.ansible.com/) already for years to provision server 
@@ -71,7 +72,7 @@ You may even skip the third (GCP) step. Important is to learn the terminology an
    \
    *Tip: in IntelliJ IDEA install the Terraform plugin. It will recognise/help with Terraform files!* 
 
-## Step 1 - Installation
+### Step 1 - Installation
 
 [learn.hashicorp.com/tutorials/terraform/install-cli ](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
@@ -90,7 +91,7 @@ on darwin_amd64
 
 That's it!
 
-## Step 2 - Using Docker Provider
+### Step 2 - Using Docker Provider
 
 [learn.hashicorp.com/collections/terraform/docker-get-started](https://learn.hashicorp.com/collections/terraform/docker-get-started)
 
@@ -164,7 +165,7 @@ in your web browser or running docker ps to see the container.
 
 That's it for Docker. Next is to use a real Cloud Provider.
 
-## Step 3 - Using GCP Provider
+### Step 3 - Using GCP Provider
 
 [learn.hashicorp.com/collections/terraform/gcp-get-started](https://learn.hashicorp.com/collections/terraform/gcp-get-started)
 
@@ -173,7 +174,7 @@ I had a GCP account, so this went smooth: first creating a Network and later a V
 In this step also learned about using Terraform Providers, Resources, Variables(-files.) 
 I leave this as an option and skip to Hetzner Cloud which is the goal of this post.
 
-## Step 4 - Using Hetzner Cloud Provider
+### Step 4 - Using Hetzner Cloud Provider
 
 The Hetzner Cloud plugin provider was not in the tutorials, 
 but it was still not too hard to extrapolate from Step 3, 
