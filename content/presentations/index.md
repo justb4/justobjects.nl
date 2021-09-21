@@ -10,9 +10,9 @@ Some slides are on [\[Slideshare\]][1]
 
 **_"Geonovum OGC API Testbed" - Open Geodag 2021 - September 14, 2021_** - [\[PDF Slides\]][48]
 
-**_"OSGeo.nl New Year's Party - Slides OSGeo.nl" - 2021-02-14 - Presentation I gave on behalf of OSGeo.nl on the online joint QGIS-NL, OpenStreetMap-NL and OSGeo.nl New Year's party on January 24, 2021._**- [\[Slideshare\]](https://www.slideshare.net/justb4/osgeonl-new-years-party-slides-osgeonl)
+**_"OSGeo.nl New Year's Party - Slides OSGeo.nl" - 2021-01-24 - Presentation I gave on behalf of OSGeo.nl on the online joint QGIS-NL, OpenStreetMap-NL and OSGeo.nl New Year's party on January 24, 2021._**- [\[Slideshare\]](https://www.slideshare.net/justb4/osgeonl-new-years-party-slides-osgeonl)
 
-**_"Just's Career Highlights" - 2021-02-14 - Slides originally used in interview by Jonna on De Grote Geo Show, a live-streaming webshow by OSGeo.nl. Aired on oct 1, 2020. [Video is on YouTube](https://www.youtube.com/watch?v=3l_a5Up8Rgc) . Some highlights of my professional career._** - [\[Slideshare\]](https://www.slideshare.net/justb4/justs-career-highlights-version-2)
+**_"Just's Career Highlights" - 2020-10-01 - Interview by Jonna on De Grote Geo Show, a live-streaming webshow by OSGeo.nl. Aired on oct 1, 2020. [Video is on YouTube](https://www.youtube.com/watch?v=3l_a5Up8Rgc) . Some highlights of my professional career._** - [\[Slideshare\]](https://www.slideshare.net/justb4/justs-career-highlights-version-2)
 
 **_"Open Sensor Networks" - 2019-09-19 - Presentation on Open Sensor Networks, Smart Emission, SensorThings API, TheThingsNetwork,@pycomIOT Presented at [SenseMakersAms Meetup](https://meetup.com/sensemakersams/events/pwflgryzmbxb/)._** - [\[Slideshare\]](https://www.slideshare.net/justb4/open-sensor-networks-173718779)
 
