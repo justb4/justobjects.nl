@@ -14,7 +14,7 @@ Some slides are on [\[Slideshare\]][1]
 
 **_"Just's Career Highlights" - 2021-02-14 - Slides originally used in interview by Jonna on De Grote Geo Show, a live-streaming webshow by OSGeo.nl. Aired on oct 1, 2020. [Video is on YouTube](https://www.youtube.com/watch?v=3l_a5Up8Rgc) . Some highlights of my professional career._** - [\[Slideshare\]](https://www.slideshare.net/justb4/justs-career-highlights-version-2)
 
-**_"Open Sensor Networks" - 2019-09-19 - Presentation on Open Sensor Networks, Smart Emission, SensorThings API, TheThingsNetwork,@pycomIOT Presented at SenseMakersAms Meetup: https://meetup.com/sensemakersams/events/pwflgryzmbxb/_** - [\[Slideshare\]](https://www.slideshare.net/justb4/open-sensor-networks-173718779)
+**_"Open Sensor Networks" - 2019-09-19 - Presentation on Open Sensor Networks, Smart Emission, SensorThings API, TheThingsNetwork,@pycomIOT Presented at [SenseMakersAms Meetup](https://meetup.com/sensemakersams/events/pwflgryzmbxb/)._** - [\[Slideshare\]](https://www.slideshare.net/justb4/open-sensor-networks-173718779)
 
 **_"Open Sensor Networks with LoRa TTN and SensorThings API" - 2018-12-12 - Presentation at LoRaWAN TheThingsNetwork makers event (make a Pet-Tracker with LoRa) organized by Ruimteschepper at Warehouse of Innovation Eindhoven (also home to IoT Eindhoven Meetup Group). Summarizes Smart Emission architecture, thoughts on tech for Spatio-Temporal Data, Internet of Things sorry Internet of Silos. Ending with a demo on LoRaWAN TheThingsNetwork integration with the OGC SensorThings API using MQTT Bridging._** - [\[Slideshare\]](https://www.slideshare.net/justb4/open-sensor-networks-with-lora-ttn-and-sensorthings-api)
 
