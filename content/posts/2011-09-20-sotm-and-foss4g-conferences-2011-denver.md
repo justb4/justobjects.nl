@@ -19,15 +19,15 @@ tags:
   - SOTM
 
 ---
-What a great time it was in Denver, Colorado, USA ! Attended both the  [OpenStreetMap State Of The Map (OSM SOTM)][1] and the [OSGeo][2] [Free and Open Source for Geo (FOSS4G)][3] conferences between september 9 and 16, 2011. Went hiking in between  in the Rocky Mountains ([State Park][4] and [Indian Peaks Wilderness][5]) where I saw a live bear the first time of my life.
+What a great time it was in Denver, Colorado, USA ! Attended both the  [OpenStreetMap State Of The Map (OSM SOTM)][1] and the [OSGeo][2] [Free and Open Source for Geo (FOSS4G)][3] conferences between september 9 and 16, 2011. Went hiking in between  in the Rocky Mountains ([State Park][4] and [Indian Peaks Wilderness][5]) where I saw a live bear the first time of my life.
 
 ![ ](/uploads/2011/09/nederland-colorado-chipmunketc.jpg)
 
-At my first SOTM I was impressed how strong and vibrant the [OSM community][6] is, how an ecosystem of tools, data, people and businesses is continuously expanding and how far &#8220;The Map&#8221; has progressed.  The FOSS4G at the Sheraton Hotel in downtown Denver was very well-organized with high technical/social value. FOSS4G is a must-go conference if you are into FOSS Geo.
+At my first SOTM I was impressed how strong and vibrant the [OSM community][6] is, how an ecosystem of tools, data, people and businesses is continuously expanding and how far &#8220;The Map&#8221; has progressed.  The FOSS4G at the Sheraton Hotel in downtown Denver was very well-organized with high technical/social value. FOSS4G is a must-go conference if you are into FOSS Geo.
 
 ![ ](/uploads/2011/09/denver-just-shots.jpg)
 
-Denver is a real city but with a country-like, mellow atmosphere. Socializing among the participants went smoothly, also since all major pubs were all directly near the Sheraton. The opening social night on tuesday at the [&#8220;Wynkoop Brewery&#8221;][7] was an immediate hit. Many also went there on friday to close off. At FOSS4G I gave a talk on [&#8220;OpenStreetMap and INSPIRE, Can the Twain Meet?&#8221;][8].  You can find my slides in [HTML][9] or [PDF][10]. I prefer staying in Bed & Breakfasts these days: they are in general cheaper, cleaner and cozy compared to regular Hotels/Motels. I had a real pleasant stay at the [Holiday Chalet][11] on East Colfax, run by fashion designer [Crystal Sharp][12] with her [Labrador Clementine][13]. Getting around in Denver was easy and healthy using the [Denver B-Cycle public bicycle sharing][14]. As I had no dataplan on my Android phone, I hacked out the B-Cycle station locations from the B-Cycle website and loaded them into my [Garmin eTrex Legend HCx][15] handheld GPS. The bicycle station locations are also [available on GeoCommons][16] another great geo-sharing site (from a.o. [Andrew Turner][17]) I knew about but never had used before. In the Rocky Mountains I stayed in a [lovely studio treehouse][18] found through [AirBnB][19] in the tiny place [Nederland, Colorado][20].
+Denver is a real city but with a country-like, mellow atmosphere. Socializing among the participants went smoothly, also since all major pubs were all directly near the Sheraton. The opening social night on tuesday at the [&#8220;Wynkoop Brewery&#8221;][7] was an immediate hit. Many also went there on friday to close off. At FOSS4G I gave a talk on [&#8220;OpenStreetMap and INSPIRE, Can the Twain Meet?&#8221;][8].  You can find my slides in [HTML][9] or [PDF][10]. I prefer staying in Bed & Breakfasts these days: they are in general cheaper, cleaner and cozy compared to regular Hotels/Motels. I had a real pleasant stay at the [Holiday Chalet][11] on East Colfax, run by fashion designer [Crystal Sharp][12] with her [Labrador Clementine][13]. Getting around in Denver was easy and healthy using the [Denver B-Cycle public bicycle sharing][14]. As I had no dataplan on my Android phone, I hacked out the B-Cycle station locations from the B-Cycle website and loaded them into my [Garmin eTrex Legend HCx][15] handheld GPS. The bicycle station locations are also [available on GeoCommons][16] another great geo-sharing site (from a.o. [Andrew Turner][17]) I knew about but never had used before. In the Rocky Mountains I stayed in a [lovely studio treehouse][18] found through [AirBnB][19] in the tiny place [Nederland, Colorado][20].
 
 ![ ](/uploads/2011/09/nederland-colorado.jpg)
 
@@ -38,7 +38,7 @@ Stay tuned to the [SOTM][21], [FOSS4G][22] and [FOSSLC][23] websites, since all 
 Next year FOSS4G will be in Beijing, China ! Will SOTM also be held there ?
 
  [1]: http://stateofthemap.org/ "stateofthemap.org"
- [2]: http://osgeo.org
+ [2]: https://osgeo.org
  [3]: http://2011.foss4g.org/ "2011.foss4g.org/"
  [4]: http://www.nps.gov/romo/index.htm
  [5]: http://www.coloradowilderness.com/wildpages/indian.html

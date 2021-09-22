@@ -5,19 +5,19 @@ type: page
 date: 2021-06-22T13:59:27+00:00
 
 ---
-Just Objects B.V. is the trading name for the professional activities of [Just van den Broecke][13].
+Just Objects B.V. is the trading name for the professional activities of [Just van den Broecke][13].
 
 You can [find Just&#8217;s CV here.][1] also [as PDF][2].
 
-Just Objects provides services for [Geospatial IT][14], also known as GIS or Geo-ICT, with a focus on [Free and Open Source][15] (FOSS), Open Standards and Open Data.
+Just Objects provides services for [Geospatial IT][14], also known as GIS or Geo-ICT, with a focus on [Free and Open Source][15] (FOSS), Open Standards and Open Data.
 
 The range of services includes: consultancy, training, development, hosting and maintenance.
 
 Just Objects is a member of the [OpenGeoGroep Cooperation][16].
 
-Just is an [OSGeo][3] [Charter member][17] and founder and now chair of the [OSGeo.nl Foundation][6], the Dutch Chapter of [OSGeo.org][3].
+Just is an [OSGeo][3] [Charter member][17] and founder and now chair of the [OSGeo.nl Foundation][6], the Dutch Chapter of [OSGeo.org][3].
 
-The most active part of this website should be [Just&#8217;s Blog][4], but also checkout his contributions to &#8220;the commons&#8221; via  [his Open Source projects][5] and [OSGeo.nl.][6]
+The most active part of this website should be [Just&#8217;s Blog][4], but also checkout his contributions to &#8220;the commons&#8221; via  [his Open Source projects][5] and [OSGeo.nl.][6]
 
 * September 13, 2021 [Terraform First Steps][18]
 * January 20, 2021 [That Was 2020][7]

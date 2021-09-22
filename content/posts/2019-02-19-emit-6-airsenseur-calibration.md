@@ -3,7 +3,7 @@ title: 'Emit #6 – AirSensEUR Calibration'
 author: Just van den Broecke
 type: post
 date: 2019-02-19T16:23:52+00:00
-excerpt: 'This is Emit #6, in a series of blog-posts around the Smart Emission Platform, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.'
+excerpt: 'This is Emit #6, in a series of blog-posts around the Smart Emission Platform, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.'
 url: /emit-6-airsenseur-calibration/
 featured_image: uploads/2019/02/heron1-150x99.png
 categories:
@@ -25,9 +25,9 @@ tags:
   - wms
 
 ---
-This is Emit #6, in a [series of blog-posts around the Smart Emission Platform][15], an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.
+This is Emit #6, in a [series of blog-posts around the Smart Emission Platform][15], an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.
 
-In [Emit #5 &#8211; Assembling and Deploying 5 AirSensEURs&#8230;][1], I described how , with the great help of Jan Vonk from RIVM, we placed five [AirSensEUR][2] (ASE) air quality stations at the RIVM reference site near the A2 Highway at Breukelen. For about 2.5 months raw data was gathered there while the RIVM station was gathering its data to be used as reference for calibration.
+In [Emit #5 &#8211; Assembling and Deploying 5 AirSensEURs&#8230;][1], I described how , with the great help of Jan Vonk from RIVM, we placed five [AirSensEUR][2] (ASE) air quality stations at the RIVM reference site near the A2 Highway at Breukelen. For about 2.5 months raw data was gathered there while the RIVM station was gathering its data to be used as reference for calibration.
 
 ![ ](/uploads/2019/02/airsenseur-deploy-combined-s.jpg)
 <!--
@@ -43,7 +43,7 @@ Within the ASE boxes the following four gas-sensors were applied:
   * NO2 (Nitrogen Dioxide): the [NO2-B43F][5], see [datasheet][6].
   * NO (Nitric Oxide): the [NO-B4][7], see [datasheet][8].
   * O3 (Ozone): the [OX_A431][9], see [datasheet][10].
-  * CO (Carbon Monoxide): the [CO-A4][11], see [datasheet][12].
+  * CO (Carbon Monoxide): the [CO-A4][11], see [datasheet][12].
 
 ![The Gang of Four Sensors](/uploads/2018/08/asenl-unbox-assemble-deploy-12.jpg)
 <!--
@@ -55,7 +55,7 @@ Within the ASE boxes the following four gas-sensors were applied:
 </div>
 -->
 
-The calibration to be applied is based on [Regression Analysis][13]. This and other calibration-methods have been investigated and evaluated for many types/brands of sensors by the EC-JRC team. Read all in this [landmark article][14] and other references there. 
+The calibration to be applied is based on [Regression Analysis][13]. This and other calibration-methods have been investigated and evaluated for many types/brands of sensors by the EC-JRC team. Read all in this [landmark article][14] and other references there. 
 
 ![ ](/uploads/2019/02/field-calibration-article.png)
 <!--
@@ -71,7 +71,7 @@ Raw ASE and RIVM reference data collection (Breukelen site)
 All ASEs deployed at their target locations
 
 3. Nov/dec 2018  
-Calibration performed by Michel Gerboles at the EC-JRC lab 
+Calibration performed by Michel Gerboles at the EC-JRC lab 
 
 4. Jan 2019  
 Calibration formulas implemented in Smart Emission (SE) platform
@@ -94,7 +94,7 @@ ASE_NL 01 was deployed at an RIVM site in Nijmegen. This allowed us to verify it
 
 ![ ](/uploads/2019/02/deployment-map-s.jpg)
 
-**ad 3)** The calibration was performed by EC-JRC (M. Gerboles) using R and ShinyR webapp. All sources can be found in this [EC-JRC GitHub repo][21]. This process is quite intricate and a bit hard to explain in the context of a blog-post paragraph. I&#8217;ll try a summary:
+**ad 3)** The calibration was performed by EC-JRC (M. Gerboles) using R and ShinyR webapp. All sources can be found in this [EC-JRC GitHub repo][21]. This process is quite intricate and a bit hard to explain in the context of a blog-post paragraph. I&#8217;ll try a summary:
 
 Sensor values are digital readings (0..65535). This is effected by the electrical circuitry within each ASE, for optimal gain. To calculate back to mV and nA a per-sensor (brand+type) calculation is required first before applying any regression formula. A bit is explained in the image below.
 
@@ -114,7 +114,7 @@ The main three outcomes of the calibration are:
 
 Above some scatterplots made for ASE Box 3 NO2 and O3.
 
-**ad 4)** Knowing all equations and their parameters from step 3 above, I attempted to integrate this in the continuous ETL within the Smart Emission Platform. Up to now the platform supported only a single sensor station type: the Intemo Jose(ne). As the platform is fed by harvesting raw data from a set of remote APIs provided by Data Collectors, it was relatively easy to add sensor(-station)-metadata and extend the Refiner ETL to apply calibration algorithms driven by that metadata. 
+**ad 4)** Knowing all equations and their parameters from step 3 above, I attempted to integrate this in the continuous ETL within the Smart Emission Platform. Up to now the platform supported only a single sensor station type: the Intemo Jose(ne). As the platform is fed by harvesting raw data from a set of remote APIs provided by Data Collectors, it was relatively easy to add sensor(-station)-metadata and extend the Refiner ETL to apply calibration algorithms driven by that metadata. 
 
 So for Josene stations the existing ANN calibration would still be applied, while for ASE stations per-sensor linear equations would be performed. All parameterization was already configurable using the [Device, DeviceDefs, DeviceFuncs][22] abstractions in the [SE Stetl implementation][19]. Recently, to allow stations that already send calibrated values, I introduced the [Vanilla Device][23] starting with harvesting [Luftdaten.info][24] stations (more in a later post).
 
@@ -136,11 +136,11 @@ I=a0+a1*NO2+a2*T
 ```
 
 ```
-==> NO2 = (I - a0 - a2 * T) / a1
+==> NO2 = (I - a0 - a2 * T) / a1
 a0-a2 has specific values for each NO2-B43F sensor.
 ```
 
-Now that these formulas and their parameters were implemented, near-realtime values could be made visible in all SE apps (viewers) and APIs such as the [SmartApp][25] and the [Heron Viewer][26].
+Now that these formulas and their parameters were implemented, near-realtime values could be made visible in all SE apps (viewers) and APIs such as the [SmartApp][25] and the [Heron Viewer][26].
 
 {{< a-img data-href="https://data.smartemission.nl/smartapp/" data-src="/uploads/2019/02/smartapp-ase01-nijmegen.png" >}}
 
@@ -166,7 +166,7 @@ Objectivity could be effected since station ASE NL 01 was finally deployed (okt 
 
 ![ ](/uploads/2019/02/nijm-ruy-no2-ASE_NL01-2018-12-25-2019-01-24.png)
 
-I like this image a lot as it shows an almost ideal alignment with an R2 of 0.976 and slope of almost 1. Mind: calibration was thus done at a very different site (about 80 km west) and AQ condition (highway) as the deployment (city street). 
+I like this image a lot as it shows an almost ideal alignment with an R2 of 0.976 and slope of almost 1. Mind: calibration was thus done at a very different site (about 80 km west) and AQ condition (highway) as the deployment (city street). 
 
 ![ ](/uploads/2019/02/asenl01-se-pycal-plots.png)
 

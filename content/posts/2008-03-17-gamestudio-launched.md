@@ -35,7 +35,7 @@ Links
 
 &nbsp;
 
-More photos here: <http://gallery.waag.org/gamesatelier>
+More photos here: <http://gallery.waag.org/gamesatelier>
 
  [1]: /uploads/2008/03/gamesatelier-cohen.jpg
  [2]: /uploads/2008/03/gamesatelier-sara.jpg

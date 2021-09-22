@@ -23,9 +23,9 @@ tags:
   - X3D
 
 ---
-This is my evolving overview of 3D Geospatial Open Standards with a focus on web technology: services, HTML5, WebGL. These are notes I keep within [Evernote][1] as part of the 3D Geospatial Notebook whose public link is: <https://www.evernote.com/pub/justb4ever/3d-geospatial>. For sure, resources are missing, let me know. These notes are synced from Evernote using [Zapier][2], so formatting is a bit messy, sorry for that, though I completely revised this blog on Jan 30, 2015.
+This is my evolving overview of 3D Geospatial Open Standards with a focus on web technology: services, HTML5, WebGL. These are notes I keep within [Evernote][1] as part of the 3D Geospatial Notebook whose public link is: <https://www.evernote.com/pub/justb4ever/3d-geospatial>. For sure, resources are missing, let me know. These notes are synced from Evernote using [Zapier][2], so formatting is a bit messy, sorry for that, though I completely revised this blog on Jan 30, 2015.
 
-The presentations by [Emanuel Belo][3] ([Camp2Camp][4], links below) are an excellent start to get a global overview. He mentions the following categories of 3D standards and their organizations:
+The presentations by [Emanuel Belo][3] ([Camp2Camp][4], links below) are an excellent start to get a global overview. He mentions the following categories of 3D standards and their organizations:
 
 _**Geo: OGC**_
 
@@ -42,7 +42,7 @@ _**Geo: OGC**_
 
 _**Web: Web3d**_
 
-  *  X3D &#8211; Extensible 3D Graphics
+  *  X3D &#8211; Extensible 3D Graphics
 
  _**Graphics: Khronos Group**_
 
@@ -55,9 +55,9 @@ _**Other**_
 
   * TopoJSON
 
-In the short time I am spending within the 3D domain I think another categorization could be 3D Web Services Standards and 3D Content/Format Standards. A lot of focus is usually on the latter. Within 3D Content/Format Standards my view is that there are the sub-categories based on stages within a 3D rendering pipeline, i.e. from raw source data like CityGML up to 3D-scene encodings like COLLADA and glTF. I see &#8220;Terrain&#8221; as a separate content category with encodings like height maps and TINs.
+In the short time I am spending within the 3D domain I think another categorization could be 3D Web Services Standards and 3D Content/Format Standards. A lot of focus is usually on the latter. Within 3D Content/Format Standards my view is that there are the sub-categories based on stages within a 3D rendering pipeline, i.e. from raw source data like CityGML up to 3D-scene encodings like COLLADA and glTF. I see &#8220;Terrain&#8221; as a separate content category with encodings like height maps and TINs.
 
-I think/hope that 3D Web Services will gain importance: services to request Content in various encodings plus Terrain data. Techniques like tiling (TMS/WMTS) are already very common within the geospatial world. With the latest developments in vector-tiling I see much potential, especially for terrain and textures (raster) draped on a terrain. Streaming as in video streaming, is not common within the geospatial world but may become of use especially in HTML5 apps (via web sockets?).
+I think/hope that 3D Web Services will gain importance: services to request Content in various encodings plus Terrain data. Techniques like tiling (TMS/WMTS) are already very common within the geospatial world. With the latest developments in vector-tiling I see much potential, especially for terrain and textures (raster) draped on a terrain. Streaming as in video streaming, is not common within the geospatial world but may become of use especially in HTML5 apps (via web sockets?).
 
 **General**
 
@@ -154,13 +154,13 @@ _&#8220;WebGL is a standard for programming in 3D with the browser as platform. 
  _capable without plug-in.&#8221;_
 
 **Cesium**  
-Although [CesiumJS][7] is mainly a client JavaScript framework based on WebGL and Dojo,  some very useful standards are originating from the project.
+Although [CesiumJS][7] is mainly a client JavaScript framework based on WebGL and Dojo,  some very useful standards are originating from the project.
 
 <http://cesiumjs.org/data-and-assets/terrain/formats/quantized-mesh-1.0.html> quantized mesh via TMS &#8211; for terrain services based on TINs.
 
 <https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide> &#8211; CZML is a JSON schema for describing a time-dynamic graphical scene
 
-NEW (august 2015) _**&#8220;3D Tiles&#8221;**_ : <https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles>. _&#8220;3D Tiles are an [open specification][8] for streaming massive heterogeneous 3D geospatial datasets&#8230;.3D Tiles define a spatial data structure and a set of tile formats designed for 3D and optimized for streaming and rendering. Tiles for 3D models use [glTF][9], the WebGL runtime asset format developed by Khronos, which the Cesium team heavily contributes to&#8230;.&#8221;_
+NEW (august 2015) _**&#8220;3D Tiles&#8221;**_ : <https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles>. _&#8220;3D Tiles are an [open specification][8] for streaming massive heterogeneous 3D geospatial datasets&#8230;.3D Tiles define a spatial data structure and a set of tile formats designed for 3D and optimized for streaming and rendering. Tiles for 3D models use [glTF][9], the WebGL runtime asset format developed by Khronos, which the Cesium team heavily contributes to&#8230;.&#8221;_
 
 **Collada**  
 _&#8220;COLLADA™ defines an XML-based schema to make it easy to transport 3D assets between applications &#8211; enabling diverse 3D authoring and content processing tools to be combined into a production pipeline. The intermediate language provides comprehensive encoding of visual scenes including: geometry, shaders and effects, physics, animation, kinematics, and even multiple version representations of the same asset.COLLADA FX enables leading 3D authoring tools to work effectively together to create shader and effects applications and assets to be authored and packaged using OpenGL® Shading Language, Cg, CgFX, and DirectX® FX.&#8221;_
@@ -190,7 +190,7 @@ _&#8220;The &#8220;glTF&#8221; project aims to define a final stage OpenGL Trans
 
 **TopoJSON**
 
-_&#8220;TopoJSON is an extension of GeoJSON that encodes topology. Rather than representing geometries discretely, geometries in TopoJSON files are stitched together from shared line segments called arcs. TopoJSON eliminates redundancy, offering much more compact representations of geometry than with GeoJSON; typical TopoJSON files are 80% smaller than their GeoJSON equivalents. In addition, TopoJSON facilitates applications that use topology, such as topology-preserving shape simplification, automatic map coloring, and cartograms.&#8221;_ (i.e. compact TIN-representations!).  
+_&#8220;TopoJSON is an extension of GeoJSON that encodes topology. Rather than representing geometries discretely, geometries in TopoJSON files are stitched together from shared line segments called arcs. TopoJSON eliminates redundancy, offering much more compact representations of geometry than with GeoJSON; typical TopoJSON files are 80% smaller than their GeoJSON equivalents. In addition, TopoJSON facilitates applications that use topology, such as topology-preserving shape simplification, automatic map coloring, and cartograms.&#8221;_ (i.e. compact TIN-representations!).  
 <https://github.com/mbostock/topojson>
 
 **Germany: SIG 3D**  
@@ -212,19 +212,19 @@ History of 3D geo in The Netherlands: <http://www.geonovum.nl/onderwerpen/3d-geo
 
 Now (Jan 2015) starting up a next phase called &#8220;3D Doorbraak&#8221;, with a recent working conference for establishing the 3D roadmap for The Netherlands: <http://www.geonovum.nl/nieuws/werkconferentie-voor-opstellen-roadmap-3d-doorbraak>
 
-The choice of standards plays an important part.
+The choice of standards plays an important part.
 
 See also news items via Twitter (#doorbraak3D): <https://twitter.com/search?q=%23doorbraak3D&src=typd>
 
 **BIM &#8211; IFC**
 
-Now that geospatial information is obtaining more detail and moving into 3D, integration with standards within the Building and infrastructure industry is one of the most obvious use-cases. Building Information Modelling or BIM is a huge standardization effort within the Building and infrastructure domain.
+Now that geospatial information is obtaining more detail and moving into 3D, integration with standards within the Building and infrastructure industry is one of the most obvious use-cases. Building Information Modelling or BIM is a huge standardization effort within the Building and infrastructure domain.
 
-Geoff ,&#8221;Between The Poles&#8221;, Zeiss blogs regularly on BIM and Geospatial: <http://geospatial.blogs.com/geospatial/bim/>
+Geoff ,&#8221;Between The Poles&#8221;, Zeiss blogs regularly on BIM and Geospatial: <http://geospatial.blogs.com/geospatial/bim/>
 
 _**&#8220;Building information modeling** (**BIM**) is a process involving the generation and management of digital representations of physical and functional characteristics of places. **Building information models** (**BIMs**) are files (often but not always in proprietary formats and containing proprietary data) which can be exchanged or networked to support decision-making about a place. Current BIM software is used by individuals, businesses and government agencies who plan, design, construct, operate and maintain diverse physical infrastructures, such as water, wastewater, electricity, gas, refuse and communication utilities, roads, bridges and ports, houses, apartments, schools and shops, offices, factories, warehouses and prisons.&#8221;_
 
-Source: <http://en.wikipedia.org/wiki/Building_information_modeling>
+Source: <http://en.wikipedia.org/wiki/Building_information_modeling>
 
 For information exchange the Industry Foundation Classes are put forward.
 
@@ -240,7 +240,7 @@ More: <http://www.ifcwiki.org/index.php/Main_Page>
  [3]: https://twitter.com/emmanuel_belo
  [4]: http://www.camptocamp.com/en/
  [5]: http://www.gdi-3d.de
- [6]: http://osgeo.org
+ [6]: https://osgeo.org
  [7]: http://cesiumjs.org
  [8]: https://github.com/AnalyticalGraphicsInc/3d-tiles
  [9]: https://www.khronos.org/gltf

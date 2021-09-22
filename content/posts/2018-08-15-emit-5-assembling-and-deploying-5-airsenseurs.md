@@ -18,9 +18,9 @@ tags:
   - SWE
 
 ---
-This is Emit #5, in a [series of blog-posts around the Smart Emission Platform][14], an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.
+This is Emit #5, in a [series of blog-posts around the Smart Emission Platform][14], an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.
 
-Summer holidays and a heat-wave strikes The Netherlands. Time for some lighter material mainly told in pictures. As highlighted in [Emit #2][1], I have the honor of doing a project for the [European Union Joint Research Centre][2]  (EU JRC), to deploy five [AirSensEUR][3] (ASE) boxes within The Netherlands, attaching these to the [Smart Emission Platform][4] in cooperation with [RIVM][5] (National Institute for Public Health and the Environment). The ASE boxes measure four Air Quality (AQ) indicators: NO2 (Nitrogen Dioxide), NO (Nitrogen Monoxide), O3 (Ozone) and CO (Carbon Monoxide) plus meteo (Temp, Humidity, Air Pressure) and GPS. Read more on ASE [in this article][6].
+Summer holidays and a heat-wave strikes The Netherlands. Time for some lighter material mainly told in pictures. As highlighted in [Emit #2][1], I have the honor of doing a project for the [European Union Joint Research Centre][2]  (EU JRC), to deploy five [AirSensEUR][3] (ASE) boxes within The Netherlands, attaching these to the [Smart Emission Platform][4] in cooperation with [RIVM][5] (National Institute for Public Health and the Environment). The ASE boxes measure four Air Quality (AQ) indicators: NO2 (Nitrogen Dioxide), NO (Nitrogen Monoxide), O3 (Ozone) and CO (Carbon Monoxide) plus meteo (Temp, Humidity, Air Pressure) and GPS. Read more on ASE [in this article][6].
 
 ![ASE Architecture](/uploads/2018/08/ase-arch.jpg)
 <!--
@@ -35,7 +35,7 @@ Summer holidays and a heat-wave strikes The Netherlands. Time for some lighter m
 
 The ASE is an Open Hard/Software platform that can be configured with multiple brands/types of sensors. In the current case all four above mentioned AQ sensors are from [AlphaSense][7]. As these are relatively cheap sensors (< $100,-), the challenge is to have these calibrated before final deployment. This calibration is done by placing the ASE boxes first at an RIVM station, gather data for a month or two and then calibrate these sensors from official RIVM reference measurements at the same location. Using both the raw ASE data and the RIVM reference data the calibration &#8220;formulae&#8221; can be determined, before placing the ASEs at their final deployment locations around The Netherlands and have the Smart Emission Platform assemble/publish the (calibrated) data for the next year or so. More info on AirSensEUR via [this Google Search][8].
 
-Ok, picture time!  Explanatory text is below each picture.
+Ok, picture time!  Explanatory text is below each picture.
 
 ![1. ASEs unboxed](/uploads/2018/08/asenl-unbox-assemble-deploy-9.jpg)
 <!--
@@ -113,7 +113,7 @@ Picture 5. Each box runs a Data Aggregator and can be configured to push data to
 </div>
 -->
 
-Picture 6. A good start, but next we need to go out and place the boxes at the RIVM station for a period of calibration. So tearing down, packing, all into the trunk of my car. Up to the RIVM station! July 30, 2018, Still 35 degrees C outside.
+Picture 6. A good start, but next we need to go out and place the boxes at the RIVM station for a period of calibration. So tearing down, packing, all into the trunk of my car. Up to the RIVM station! July 30, 2018, Still 35 degrees C outside.
 
 ![7. The RIVM sensor station, right near the highway](/uploads/2018/08/asenl-unbox-assemble-deploy-3.jpg)
 <!--
@@ -221,7 +221,7 @@ So a good start! The heatwave is over, the next hard work is calibration. Why ar
 
 Smart Emission: [GitHub][10], [WebSite][11], [Documentation][12], and [Docker Images][13].
 
- [1]: http://justobjects.nl/emit-2/
+ [1]: https://justobjects.nl/emit-2/
  [2]: https://ec.europa.eu/info/departments/joint-research-centre_en
  [3]: https://airsenseur.org/
  [4]: http://data.smartemission.nl/

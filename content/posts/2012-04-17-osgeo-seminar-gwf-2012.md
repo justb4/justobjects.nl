@@ -23,12 +23,12 @@ Below is also the detailed program as it stands now, small changes may occur. As
 
 [Click here for a PDF version of the program][8]
 
- [1]: http://osgeo.org
+ [1]: https://osgeo.org
  [2]: http://www.geospatialworldforum.org/2012/open.htm "Open Source Seminar at GWF Page"
  [3]: http://maps.google.com/maps/place?q=RAI+Amsterdam,+The+Netherlands&cid=11569527158754808632
- [4]: http://osgeo.nl "OSGeo.nl The Dutch OSGeo Chapter"
+ [4]: https://osgeo.nl "OSGeo.nl The Dutch OSGeo Chapter"
  [5]: http://arnulf.us/Arnulf_Christl
- [6]: http://osgeo.nl
+ [6]: https://osgeo.nl
  [7]: http://www.linkedin.com/in/willybakker
  [8]: http://wiki.osgeo.org/images/b/bf/GeospatialWorldForum_2012_OpenSource_Seminar_Program.pdf
  [9]: https://twitter.com/#!/search/realtime/%23gwfos "twitter tag for questions at GWF OS seminar"

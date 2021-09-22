@@ -12,10 +12,10 @@ The free service has some limitations. The paid service offers access to all map
 
 ![ ][1]
 
-Also upcoming: Mobile Apps: experience map5.nl maps on your phone in a native app. [Try the web-version][3] for now.
+Also upcoming: Mobile Apps: experience map5.nl maps on your phone in a native app. [Try the web-version][3] for now.
 
 {{< a-img data-href="http://app.map5.nl/nltopo" data-src="/uploads/2015/03/nltopo-3phones.jpg" data-caption="1850, 1925 and 2015 in Map5.nl NLTopo Mobile App">}}
 
 [1]: /uploads/2015/03/map5-3maps.jpg
-[2]: http://www.map5.nl
+[2]: https://map5.nl
 [3]: http://app.map5.nl/nltopo

@@ -15,7 +15,7 @@ categories:
 &nbsp;  
 {{< a-img data-href="javascript:return false;" data-src="/uploads/2007/06/schuttevaer2-300x121.jpg" data-class="float_left" >}}
 
-During June 7-9, 2007 the [Dutch Schuttevaerrace][2] was [covered live][3] using Just Objects&#8217; [GeoTracing][4] platform in combination with [Falcom Mambo GPS/GPRS tracking devices][5] attached onboard with 15 boats. I did this project jointly with the [Kenniscentrum Jachtbouw][6] (Dennis Carton, project initiator), [Grrr][7] (Jelmer Boomsma and Rolf Coppens) and the Internet Acedemy of the [Noordelijke Hogeschool Leeuwarden][8] (Frederik van der Meulen, Ronald Klooster).<!--more-->
+During June 7-9, 2007 the [Dutch Schuttevaerrace][2] was [covered live][3] using Just Objects&#8217; [GeoTracing][4] platform in combination with [Falcom Mambo GPS/GPRS tracking devices][5] attached onboard with 15 boats. I did this project jointly with the [Kenniscentrum Jachtbouw][6] (Dennis Carton, project initiator), [Grrr][7] (Jelmer Boomsma and Rolf Coppens) and the Internet Acedemy of the [Noordelijke Hogeschool Leeuwarden][8] (Frederik van der Meulen, Ronald Klooster).<!--more-->
 
 Except with some GPS-fixing and GPRS coverage issues and this event was a huge success.
 

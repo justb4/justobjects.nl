@@ -23,9 +23,9 @@ categories:
 &nbsp;
 
 {{< a-img data-href="https://files.justobjects.nl/presentation/f1550tech/" data-src="/uploads/2005/02/f1150-infra-thumb-199x150.jpg" data-class="float_right" >}}
-[There is a project presentation in streaming video on connect.waag.org][2]. There are also [slides of presentations][3]. I gave at the [Dutch Java User Group (NLJUG)][4] and at the [Society for Old and New Media (KillerClub)][5].
+[There is a project presentation in streaming video on connect.waag.org][2]. There are also [slides of presentations][3]. I gave at the [Dutch Java User Group (NLJUG)][4] and at the [Society for Old and New Media (KillerClub)][5].
 
-The project even hit the national news ! Click [on anchor-man Gijs][7] to watch the Flash video.
+The project even hit the national news ! Click [on anchor-man Gijs][7] to watch the Flash video.
 
 {{< a-img data-href="https://files.justobjects.nl/doc/mg-journaal.html" data-src="/uploads/2005/02/f1150-journaal-thumb-201x150.jpg" data-class="float_left" >}}
 The game evolves around players being personages in an adventure where they help the &#8220;schout&#8221; (medieval police) who will contact them by video when entering zones or reaching (GPS) locations. Players will try to solve assignments given by the &#8220;schout&#8221; on the street or through one of their<br /> team members on the home base, HQ, (behind a Flash-based interface). Assignments are solved by making media (photo&#8217;s, videos) at the spot<br /> and submitting these. The HQ may consult internet for additional media and textual answers. Thus together, teams provide multi-media<br /> content, resulting in a media-collage at the end. Additional game elements include, GPS-based boobytrapping, confrontations and cloaking.

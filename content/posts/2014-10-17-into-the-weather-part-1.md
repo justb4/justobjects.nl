@@ -17,15 +17,15 @@ tags:
 ---
 {{< a-img data-href="http://lib.heron-mc.org/heron/latest/examples/simpletimeslider/" data-src="/uploads/2014/10/wms-time-heron-knmi-300x181.png" data-caption="WMS Time Example with GeoServer in Heron" data-class="float_right">}}
 
-Tagging this post as &#8220;Part 1&#8221;  is ambitious. Beware: there is hardly any &#8220;geo&#8221; for now. In the coming time I hope to share some technical experiences with weather stations, weather software and ultimately exposing weather data via some open geospatial standards like [OGC WMS(-Time)][7] as in [example image right][1], WFS and in particular [SOS (Sensor Observation Service)][8]. The context is an exciting project with [Geonovum][9] in the Netherlands: to transform and expose (via web services and reporting) open/raw Air Quality data from [RIVM][10], the Dutch National Institute for Public Health and the Environment. The main link to this project is [sensors.geonovum.nl][11]. All software is developed as FOSS [via a GitHub project][12]. There are already some results there. I may post on these later.
+Tagging this post as &#8220;Part 1&#8221;  is ambitious. Beware: there is hardly any &#8220;geo&#8221; for now. In the coming time I hope to share some technical experiences with weather stations, weather software and ultimately exposing weather data via some open geospatial standards like [OGC WMS(-Time)][7] as in [example image right][1], WFS and in particular [SOS (Sensor Observation Service)][8]. The context is an exciting project with [Geonovum][9] in the Netherlands: to transform and expose (via web services and reporting) open/raw Air Quality data from [RIVM][10], the Dutch National Institute for Public Health and the Environment. The main link to this project is [sensors.geonovum.nl][11]. All software is developed as FOSS [via a GitHub project][12]. There are already some results there. I may post on these later.
 
 {{< a-img data-href="javascript:return false;" data-src="/uploads/2014/10/sospilot-screenshot-300x206.png" data-class="float_left">}}
 
-Within a sub-project the aim is to expose measurements from a physical weather station via standardized OGC web services like WMS, WFS and SOS.  As a first step I dived into the world of weather hardware and software, in particular their vivid open source/open data communities. A whole new world expanded to me. To no surprise: Location and The Weather are part of everyday life since the beginnings of humanity. [OpenWeatherMap][13] and [Weather Underground][14] are just two of the many communities around open weather data. In addition there&#8217;s an abundance of FOSS weather software. Personal weather stations are measuring not just temperature but also pressure, humidity, rainfall, wind, up to UV radiation and are built [homebrew][3] or [bought for as cheap as $50,-. ][4]
+Within a sub-project the aim is to expose measurements from a physical weather station via standardized OGC web services like WMS, WFS and SOS.  As a first step I dived into the world of weather hardware and software, in particular their vivid open source/open data communities. A whole new world expanded to me. To no surprise: Location and The Weather are part of everyday life since the beginnings of humanity. [OpenWeatherMap][13] and [Weather Underground][14] are just two of the many communities around open weather data. In addition there&#8217;s an abundance of FOSS weather software. Personal weather stations are measuring not just temperature but also pressure, humidity, rainfall, wind, up to UV radiation and are built [homebrew][3] or [bought for as cheap as $50,-. ][4]
 
 ![Weather Hacking](/uploads/2014/10/weather-hacking.png)
 
-Being a noob in weather soft/hardware technology I had to start somewhere and then go step-by-step. The overall &#8220;architecture&#8221; can be even depicted in text:
+Being a noob in weather soft/hardware technology I had to start somewhere and then go step-by-step. The overall &#8220;architecture&#8221; can be even depicted in text:
 
 ```
 weather station --> soft/middleware --> web services + reporting
@@ -33,28 +33,28 @@ weather station --> soft/middleware --> web services + reporting
 
 {{< a-img data-href="http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp" data-src="/uploads/2014/10/davis-vantage-pro2-300x188.jpg" data-class="float_right" data-caption="Davis Vantage Pro2 Weather Station">}}
 
-Being more of a software person, I decided to start with the weather soft/middleware. Also, since Geonovum already owns a [Davis Vantage Pro2 Weather Station][19] and the [Raspberry Pi B+][20] I plan to use is still underway&#8230;
+Being more of a software person, I decided to start with the weather soft/middleware. Also, since Geonovum already owns a [Davis Vantage Pro2 Weather Station][19] and the [Raspberry Pi B+][20] I plan to use is still underway&#8230;
 
-From what I gathered, [weewx][15] is the most widely used engine/framework within the weather FOSS community. Also the fact that it is written in Python with a very extensible architecture immediately settled my choice. Explaining [weewx][15] is a subject by itself but [very well documented][16]. I&#8217;ll try in a few sentences what [weewx][15] does:
+From what I gathered, [weewx][15] is the most widely used engine/framework within the weather FOSS community. Also the fact that it is written in Python with a very extensible architecture immediately settled my choice. Explaining [weewx][15] is a subject by itself but [very well documented][16]. I&#8217;ll try in a few sentences what [weewx][15] does:
 
-  * collect current and archive weather station measurement data (drivers)
-  * storing weather data (archive and statistics) in a database ([SQLite][17] or MySQL)
-  * submitting data to weather community services like [Weather Underground][14]
+  * collect current and archive weather station measurement data (drivers)
+  * storing weather data (archive and statistics) in a database ([SQLite][17] or MySQL)
+  * submitting data to weather community services like [Weather Underground][14]
   * creating formatted/templated reports for your local or remote website
 
-Any of these functionalities is highly extensible through a configurable plugin architecture. The drivers support most common weather stations. Installing is a breeze, either in a local directory or via Linux package managers. Also note that weather data  have quite some different local units (Fahrenheit/Celsius, knots/meters etc). [weewx][15] will all take care of this.
+Any of these functionalities is highly extensible through a configurable plugin architecture. The drivers support most common weather stations. Installing is a breeze, either in a local directory or via Linux package managers. Also note that weather data  have quite some different local units (Fahrenheit/Celsius, knots/meters etc). [weewx][15] will all take care of this.
 
-So, not yet having access to a weather station, what could I do? One of the weather station drivers is the [Simulator][18] which intelligently generates weather data for testing.
+So, not yet having access to a weather station, what could I do? One of the weather station drivers is the [Simulator][18] which intelligently generates weather data for testing.
 
 {{< a-img data-href="http://openweathermap.org/maps" data-src="/uploads/2014/10/openweathermap-300x196.png" data-class="float_right" >}}
 
-Trying to have some real-world data I set out on what appeared to be a two-hour hack: create a weather station driver that obtains its data from an open weather API. There are many off course. I choose the [OpenWeatherMap API][21] to get data in the area of our cabin in the woods near the place of [Otterlo in the Netherlands][22]. Writing this hard-coded driver took just a few line of Python. The [source code can be found here][23]. To not overask the API, I&#8217;ve set the time interval to 2 minutes within the [weewx configuration file][24]. Also it would not be fair to report these values to any of the weather communities. If the weewx community is interested I can donate this software, with some generalization (e.g. URLvia config).
+Trying to have some real-world data I set out on what appeared to be a two-hour hack: create a weather station driver that obtains its data from an open weather API. There are many off course. I choose the [OpenWeatherMap API][21] to get data in the area of our cabin in the woods near the place of [Otterlo in the Netherlands][22]. Writing this hard-coded driver took just a few line of Python. The [source code can be found here][23]. To not overask the API, I&#8217;ve set the time interval to 2 minutes within the [weewx configuration file][24]. Also it would not be fair to report these values to any of the weather communities. If the weewx community is interested I can donate this software, with some generalization (e.g. URLvia config).
 
 But all in all my first driver is still running fine in weewx. The main challenge was converting all the values between different metric systems. weewx allows and even encourages you to store all data in US metrics. All the reporting and conversion utilities will always allow you to show your local metric units.
 
 {{< a-img data-href="javascript:return false;" data-src="/uploads/2014/10/otterlo-weewx-report-300x275.png" data-class="float_left" >}}
 
-As a Linux daemon now runs fine in our test system. It is time to show some results. weewx reporting is basically a website generated via [Cheetah templates][25]. The default template is basic white on black. I found a nice template called [Byteweather][26]. You can find my continuous weather report  here at [sensors.geonovum.nl/weather][27]. Measurements are now building up thanks to the weewx archive database. Values are mostly matching Dutch weather station data. Expect for the rainfall&#8230;Surely we have lots of rain but not that much&#8230;
+As a Linux daemon now runs fine in our test system. It is time to show some results. weewx reporting is basically a website generated via [Cheetah templates][25]. The default template is basic white on black. I found a nice template called [Byteweather][26]. You can find my continuous weather report  here at [sensors.geonovum.nl/weather][27]. Measurements are now building up thanks to the weewx archive database. Values are mostly matching Dutch weather station data. Expect for the rainfall&#8230;Surely we have lots of rain but not that much&#8230;
 
 Next posting I hope to tell more about deploying the Raspberry Pi and connecting to the Geonovum Davis Weather station. Then there will be also more &#8220;geo&#8221; in the post, I promise!
 
