@@ -17,13 +17,13 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Tagging this post as “Part 1” is ambitious. Beware: there is hardly any “geo” for now. In the coming time I hope to share some technical experiences with …">
+<meta name="description" content="Tagging this post as “Part 1” is ambitious. Beware: there is hardly any “geo” for now. In the coming time I hope to share some technical experiences with …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@justb4">
 <meta name="twitter:title" content="Into the Weather – Part 1 – Exploring weewx" />
 <meta property="og:url" content="https://justobjects.nl/into-the-weather-part-1/" />
 <meta property="og:title" content="Into the Weather – Part 1 – Exploring weewx" />
-<meta property="og:description" content="Tagging this post as “Part 1” is ambitious. Beware: there is hardly any “geo” for now. In the coming time I hope to share some technical experiences with …" />
+<meta property="og:description" content="Tagging this post as “Part 1” is ambitious. Beware: there is hardly any “geo” for now. In the coming time I hope to share some technical experiences with …" />
 <meta property="og:image" content="https://justobjects.nl/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://justobjects.nl/icons/apple-touch-icon.png">
@@ -198,12 +198,12 @@
   
 </div>
 
-<p>Tagging this post as “Part 1”  is ambitious. Beware: there is hardly any “geo” for now. In the coming time I hope to share some technical experiences with weather stations, weather software and ultimately exposing weather data via some open geospatial standards like <a href="http://mapserver.org/ogc/wms_time.html" target="_blank" rel="noreferrer noopener">OGC WMS(-Time)</a>
- as in <a href="http://lib.heron-mc.org/heron/latest/examples/simpletimeslider/" target="_blank" rel="noreferrer noopener">example image right</a>
+<p>Tagging this post as “Part 1”  is ambitious. Beware: there is hardly any “geo” for now. In the coming time I hope to share some technical experiences with weather stations, weather software and ultimately exposing weather data via some open geospatial standards like <a href="http://mapserver.org/ogc/wms_time.html" target="_blank" rel="noreferrer noopener">OGC WMS(-Time)</a>
+ as in <a href="http://lib.heron-mc.org/heron/latest/examples/simpletimeslider/" target="_blank" rel="noreferrer noopener">example image right</a>
 , WFS and in particular <a href="http://en.wikipedia.org/wiki/Sensor_Observation_Service" target="_blank" rel="noreferrer noopener">SOS (Sensor Observation Service)</a>
-. The context is an exciting project with <a href="http://www.geonovum.nl/" target="_blank" rel="noreferrer noopener">Geonovum</a>
- in the Netherlands: to transform and expose (via web services and reporting) open/raw Air Quality data from <a href="http://www.rivm.nl/" target="_blank" rel="noreferrer noopener">RIVM</a>
-, the Dutch National Institute for Public Health and the Environment. The main link to this project is <a href="http://sensors.geonovum.nl" target="_blank" rel="noreferrer noopener">sensors.geonovum.nl</a>
+. The context is an exciting project with <a href="http://www.geonovum.nl/" target="_blank" rel="noreferrer noopener">Geonovum</a>
+ in the Netherlands: to transform and expose (via web services and reporting) open/raw Air Quality data from <a href="http://www.rivm.nl/" target="_blank" rel="noreferrer noopener">RIVM</a>
+, the Dutch National Institute for Public Health and the Environment. The main link to this project is <a href="http://sensors.geonovum.nl" target="_blank" rel="noreferrer noopener">sensors.geonovum.nl</a>
 . All software is developed as FOSS <a href="https://github.com/Geonovum/sospilot" target="_blank" rel="noreferrer noopener">via a GitHub project</a>
 . There are already some results there. I may post on these later.</p>
 
@@ -216,13 +216,13 @@
   
 </div>
 
-<p>Within a sub-project the aim is to expose measurements from a physical weather station via standardized OGC web services like WMS, WFS and SOS.  As a first step I dived into the world of weather hardware and software, in particular their vivid open source/open data communities. A whole new world expanded to me. To no surprise: Location and The Weather are part of everyday life since the beginnings of humanity. <a href="http://openweathermap.org/" target="_blank" rel="noreferrer noopener">OpenWeatherMap</a>
+<p>Within a sub-project the aim is to expose measurements from a physical weather station via standardized OGC web services like WMS, WFS and SOS.  As a first step I dived into the world of weather hardware and software, in particular their vivid open source/open data communities. A whole new world expanded to me. To no surprise: Location and The Weather are part of everyday life since the beginnings of humanity. <a href="http://openweathermap.org/" target="_blank" rel="noreferrer noopener">OpenWeatherMap</a>
  and <a href="http://www.wunderground.com/" target="_blank" rel="noreferrer noopener">Weather Underground</a>
- are just two of the many communities around open weather data. In addition there’s an abundance of FOSS weather software. Personal weather stations are measuring not just temperature but also pressure, humidity, rainfall, wind, up to UV radiation and are built <a href="http://www.zipfelmaus.com/blog/arduino-weather-shield-schematics-layout-code-everything-you-need/" target="_blank" rel="noreferrer noopener">homebrew</a>
- or <a href="http://www.weathershop.co.uk/" target="_blank" rel="noreferrer noopener">bought for as cheap as $50,-. </a>
+ are just two of the many communities around open weather data. In addition there’s an abundance of FOSS weather software. Personal weather stations are measuring not just temperature but also pressure, humidity, rainfall, wind, up to UV radiation and are built <a href="http://www.zipfelmaus.com/blog/arduino-weather-shield-schematics-layout-code-everything-you-need/" target="_blank" rel="noreferrer noopener">homebrew</a>
+ or <a href="http://www.weathershop.co.uk/" target="_blank" rel="noreferrer noopener">bought for as cheap as $50,-. </a>
 </p>
 <p><img src="/uploads/2014/10/weather-hacking.png" alt="Weather Hacking"></p>
-<p>Being a noob in weather soft/hardware technology I had to start somewhere and then go step-by-step. The overall “architecture” can be even depicted in text:</p>
+<p>Being a noob in weather soft/hardware technology I had to start somewhere and then go step-by-step. The overall “architecture” can be even depicted in text:</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>weather station --&gt; soft/middleware --&gt; web services + reporting
 </code></pre></div>
 <div class="float_right">
@@ -235,25 +235,25 @@
 </div>
 
 <p>Being more of a software person, I decided to start with the weather soft/middleware. Also, since Geonovum already owns a <a href="http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp" target="_blank" rel="noreferrer noopener">Davis Vantage Pro2 Weather Station</a>
- and the <a href="http://www.raspberrypi.org/products/model-b-plus/" target="_blank" rel="noreferrer noopener">Raspberry Pi B&#43;</a>
+ and the <a href="http://www.raspberrypi.org/products/model-b-plus/" target="_blank" rel="noreferrer noopener">Raspberry Pi B&#43;</a>
  I plan to use is still underway…</p>
 <p>From what I gathered, <a href="http://www.weewx.com" target="_blank" rel="noreferrer noopener">weewx</a>
- is the most widely used engine/framework within the weather FOSS community. Also the fact that it is written in Python with a very extensible architecture immediately settled my choice. Explaining <a href="http://www.weewx.com" target="_blank" rel="noreferrer noopener">weewx</a>
- is a subject by itself but <a href="http://www.weewx.com/docs.html" target="_blank" rel="noreferrer noopener">very well documented</a>
+ is the most widely used engine/framework within the weather FOSS community. Also the fact that it is written in Python with a very extensible architecture immediately settled my choice. Explaining <a href="http://www.weewx.com" target="_blank" rel="noreferrer noopener">weewx</a>
+ is a subject by itself but <a href="http://www.weewx.com/docs.html" target="_blank" rel="noreferrer noopener">very well documented</a>
 . I’ll try in a few sentences what <a href="http://www.weewx.com" target="_blank" rel="noreferrer noopener">weewx</a>
  does:</p>
 <ul>
-<li>collect current and archive weather station measurement data (drivers)</li>
+<li>collect current and archive weather station measurement data (drivers)</li>
 <li>storing weather data (archive and statistics) in a database (<a href="http://www.sqlite.org/" target="_blank" rel="noreferrer noopener">SQLite</a>
- or MySQL)</li>
-<li>submitting data to weather community services like <a href="http://www.wunderground.com/" target="_blank" rel="noreferrer noopener">Weather Underground</a>
+ or MySQL)</li>
+<li>submitting data to weather community services like <a href="http://www.wunderground.com/" target="_blank" rel="noreferrer noopener">Weather Underground</a>
 </li>
 <li>creating formatted/templated reports for your local or remote website</li>
 </ul>
-<p>Any of these functionalities is highly extensible through a configurable plugin architecture. The drivers support most common weather stations. Installing is a breeze, either in a local directory or via Linux package managers. Also note that weather data  have quite some different local units (Fahrenheit/Celsius, knots/meters etc). <a href="http://www.weewx.com" target="_blank" rel="noreferrer noopener">weewx</a>
+<p>Any of these functionalities is highly extensible through a configurable plugin architecture. The drivers support most common weather stations. Installing is a breeze, either in a local directory or via Linux package managers. Also note that weather data  have quite some different local units (Fahrenheit/Celsius, knots/meters etc). <a href="http://www.weewx.com" target="_blank" rel="noreferrer noopener">weewx</a>
  will all take care of this.</p>
 <p>So, not yet having access to a weather station, what could I do? One of the weather station drivers is the <a href="http://www.weewx.com/docs/usersguide.htm#[Simulator]" target="_blank" rel="noreferrer noopener">Simulator</a>
- which intelligently generates weather data for testing.</p>
+ which intelligently generates weather data for testing.</p>
 
 <div class="float_right">
   <a href="http://openweathermap.org/maps">
@@ -264,10 +264,10 @@
   
 </div>
 
-<p>Trying to have some real-world data I set out on what appeared to be a two-hour hack: create a weather station driver that obtains its data from an open weather API. There are many off course. I choose the <a href="http://openweathermap.org/api" target="_blank" rel="noreferrer noopener">OpenWeatherMap API</a>
- to get data in the area of our cabin in the woods near the place of <a href="http://en.wikipedia.org/wiki/Otterlo" target="_blank" rel="noreferrer noopener">Otterlo in the Netherlands</a>
-. Writing this hard-coded driver took just a few line of Python. The <a href="https://github.com/Geonovum/sospilot/blob/master/src/weewx/test/weatherapidriver.py" target="_blank" rel="noreferrer noopener">source code can be found here</a>
-. To not overask the API, I’ve set the time interval to 2 minutes within the <a href="https://github.com/Geonovum/sospilot/blob/master/src/weewx/test/weewx.conf" target="_blank" rel="noreferrer noopener">weewx configuration file</a>
+<p>Trying to have some real-world data I set out on what appeared to be a two-hour hack: create a weather station driver that obtains its data from an open weather API. There are many off course. I choose the <a href="http://openweathermap.org/api" target="_blank" rel="noreferrer noopener">OpenWeatherMap API</a>
+ to get data in the area of our cabin in the woods near the place of <a href="http://en.wikipedia.org/wiki/Otterlo" target="_blank" rel="noreferrer noopener">Otterlo in the Netherlands</a>
+. Writing this hard-coded driver took just a few line of Python. The <a href="https://github.com/Geonovum/sospilot/blob/master/src/weewx/test/weatherapidriver.py" target="_blank" rel="noreferrer noopener">source code can be found here</a>
+. To not overask the API, I’ve set the time interval to 2 minutes within the <a href="https://github.com/Geonovum/sospilot/blob/master/src/weewx/test/weewx.conf" target="_blank" rel="noreferrer noopener">weewx configuration file</a>
 . Also it would not be fair to report these values to any of the weather communities. If the weewx community is interested I can donate this software, with some generalization (e.g. URLvia config).</p>
 <p>But all in all my first driver is still running fine in weewx. The main challenge was converting all the values between different metric systems. weewx allows and even encourages you to store all data in US metrics. All the reporting and conversion utilities will always allow you to show your local metric units.</p>
 
@@ -282,7 +282,7 @@
 
 <p>As a Linux daemon now runs fine in our test system. It is time to show some results. weewx reporting is basically a website generated via <a href="http://www.cheetahtemplate.org/" target="_blank" rel="noreferrer noopener">Cheetah templates</a>
 . The default template is basic white on black. I found a nice template called <a href="http://davies-barnard.co.uk/2014/01/weewx-byteweather-template" target="_blank" rel="noreferrer noopener">Byteweather</a>
-. You can find my continuous weather report  here at <a href="http://sensors.geonovum.nl/weather/" target="_blank" rel="noreferrer noopener">sensors.geonovum.nl/weather</a>
+. You can find my continuous weather report  here at <a href="http://sensors.geonovum.nl/weather/" target="_blank" rel="noreferrer noopener">sensors.geonovum.nl/weather</a>
 . Measurements are now building up thanks to the weewx archive database. Values are mostly matching Dutch weather station data. Expect for the rainfall…Surely we have lots of rain but not that much…</p>
 <p>Next posting I hope to tell more about deploying the Raspberry Pi and connecting to the Geonovum Davis Weather station. Then there will be also more “geo” in the post, I promise!</p>
 

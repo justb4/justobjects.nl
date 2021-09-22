@@ -17,11 +17,11 @@
       <description>
         
           &lt;p&gt;This is Emit #5, in a &lt;a href=&#34;https://justobjects.nl/category/smartemission/&#34;&gt;series of blog-posts around the Smart Emission Platform&lt;/a&gt;
-, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.&lt;/p&gt;
-&lt;p&gt;Summer holidays and a heat-wave strikes The Netherlands. Time for some lighter material mainly told in pictures. As highlighted in &lt;a href=&#34;http://justobjects.nl/emit-2/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emit #2&lt;/a&gt;
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.&lt;/p&gt;
+&lt;p&gt;Summer holidays and a heat-wave strikes The Netherlands. Time for some lighter material mainly told in pictures. As highlighted in &lt;a href=&#34;https://justobjects.nl/emit-2/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emit #2&lt;/a&gt;
 , I have the honor of doing a project for the &lt;a href=&#34;https://ec.europa.eu/info/departments/joint-research-centre_en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Union Joint Research Centre&lt;/a&gt;
-  (EU JRC), to deploy five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
- (ASE) boxes within The Netherlands, attaching these to the &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+  (EU JRC), to deploy five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
+ (ASE) boxes within The Netherlands, attaching these to the &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
  in cooperation with &lt;a href=&#34;https://www.rivm.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RIVM&lt;/a&gt;
  (National Institute for Public Health and the Environment). The ASE boxes measure four Air Quality (AQ) indicators: NO2 (Nitrogen Dioxide), NO (Nitrogen Monoxide), O3 (Ozone) and CO (Carbon Monoxide) plus meteo (Temp, Humidity, Air Pressure) and GPS. Read more on ASE &lt;a href=&#34;http://publications.jrc.ec.europa.eu/repository/bitstream/JRC109337/jrc109337_airsenseur_part_c_jrc_technical_report_inspire.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;in this article&lt;/a&gt;
 .&lt;/p&gt;
@@ -38,7 +38,7 @@
 &lt;p&gt;The ASE is an Open Hard/Software platform that can be configured with multiple brands/types of sensors. In the current case all four above mentioned AQ sensors are from &lt;a href=&#34;http://www.alphasense.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AlphaSense&lt;/a&gt;
 . As these are relatively cheap sensors (&amp;lt; $100,-), the challenge is to have these calibrated before final deployment. This calibration is done by placing the ASE boxes first at an RIVM station, gather data for a month or two and then calibrate these sensors from official RIVM reference measurements at the same location. Using both the raw ASE data and the RIVM reference data the calibration “formulae” can be determined, before placing the ASEs at their final deployment locations around The Netherlands and have the Smart Emission Platform assemble/publish the (calibrated) data for the next year or so. More info on AirSensEUR via &lt;a href=&#34;https://www.google.com/search?q=airsenseur&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this Google Search&lt;/a&gt;
 .&lt;/p&gt;
-&lt;p&gt;Ok, picture time!  Explanatory text is below each picture.&lt;/p&gt;
+&lt;p&gt;Ok, picture time!  Explanatory text is below each picture.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/08/asenl-unbox-assemble-deploy-9.jpg&#34; alt=&#34;1. ASEs unboxed&#34;&gt;&lt;/p&gt;
 &lt;!--
 &lt;div id=&#34;attachment_787&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
@@ -104,7 +104,7 @@
   &lt;/p&gt;
 &lt;/div&gt;
 --&gt;
-&lt;p&gt;Picture 6. A good start, but next we need to go out and place the boxes at the RIVM station for a period of calibration. So tearing down, packing, all into the trunk of my car. Up to the RIVM station! July 30, 2018, Still 35 degrees C outside.&lt;/p&gt;
+&lt;p&gt;Picture 6. A good start, but next we need to go out and place the boxes at the RIVM station for a period of calibration. So tearing down, packing, all into the trunk of my car. Up to the RIVM station! July 30, 2018, Still 35 degrees C outside.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/08/asenl-unbox-assemble-deploy-3.jpg&#34; alt=&#34;7. The RIVM sensor station, right near the highway&#34;&gt;&lt;/p&gt;
 &lt;!--
 &lt;div id=&#34;attachment_796&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;

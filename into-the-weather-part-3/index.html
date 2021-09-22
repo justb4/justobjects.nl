@@ -17,13 +17,13 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="In my last post, Into the Weather – Part 2 , I outlined a global architecture of a Davis Vantage Pro2 weather station connected to a Raspberry Pi (RPi) running …">
+<meta name="description" content="In my last post, Into the Weather – Part 2 , I outlined a global architecture of a Davis Vantage Pro2 weather station connected to a Raspberry Pi (RPi) running …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@justb4">
 <meta name="twitter:title" content="Into the Weather – Part 3 – Publishing Data to the Cloud – 1" />
 <meta property="og:url" content="https://justobjects.nl/into-the-weather-part-3/" />
 <meta property="og:title" content="Into the Weather – Part 3 – Publishing Data to the Cloud – 1" />
-<meta property="og:description" content="In my last post, Into the Weather – Part 2 , I outlined a global architecture of a Davis Vantage Pro2 weather station connected to a Raspberry Pi (RPi) running …" />
+<meta property="og:description" content="In my last post, Into the Weather – Part 2 , I outlined a global architecture of a Davis Vantage Pro2 weather station connected to a Raspberry Pi (RPi) running …" />
 <meta property="og:image" content="https://justobjects.nl/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://justobjects.nl/icons/apple-touch-icon.png">
@@ -197,26 +197,26 @@
   </div>
 
     
-    <p>In my last post, <a href="/into-the-weather-part-2-fun-with-raspberry-pi/">Into the Weather – Part 2</a>
-, I outlined a global architecture of a <a href="http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp" target="_blank" rel="noreferrer noopener">Davis Vantage Pro2</a>
+    <p>In my last post, <a href="/into-the-weather-part-2-fun-with-raspberry-pi/">Into the Weather – Part 2</a>
+, I outlined a global architecture of a <a href="http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp" target="_blank" rel="noreferrer noopener">Davis Vantage Pro2</a>
  weather station connected to a <a href="http://www.raspberrypi.org/" target="_blank" rel="noreferrer noopener">Raspberry Pi</a>
- (RPi) running <a href="http://www.weewx.com/" target="_blank" rel="noreferrer noopener">weewx</a>
- weather software to capture raw weather data. Here I will try to depict how to bring this weather data “from the <a href="http://en.wikipedia.org/wiki/Little_Fluffy_Clouds" target="_blank" rel="noreferrer noopener">fluffy clouds</a>
- into the digital cloud”. Finally, at the end, also some geospatial content. The image below shows the weather station sensors at the Geonovum building rooftop (was quite hazardous replacing a faulty temperature sensor there!) and the Davis console connected to the Raspberry Pi (transparent enclosure). All documentation and code can be found via: <a href="http://sospilot.readthedocs.org" target="_blank" rel="noreferrer noopener">sospilot.readthedocs.org</a>
+ (RPi) running <a href="http://www.weewx.com/" target="_blank" rel="noreferrer noopener">weewx</a>
+ weather software to capture raw weather data. Here I will try to depict how to bring this weather data “from the <a href="http://en.wikipedia.org/wiki/Little_Fluffy_Clouds" target="_blank" rel="noreferrer noopener">fluffy clouds</a>
+ into the digital cloud”. Finally, at the end, also some geospatial content. The image below shows the weather station sensors at the Geonovum building rooftop (was quite hazardous replacing a faulty temperature sensor there!) and the Davis console connected to the Raspberry Pi (transparent enclosure). All documentation and code can be found via: <a href="http://sospilot.readthedocs.org" target="_blank" rel="noreferrer noopener">sospilot.readthedocs.org</a>
 .</p>
 <p><img src="/uploads/2014/12/davis-pws-geonovum-pics1.jpg" alt=" "></p>
 <p>To recap: the <a href="http://www.davisnet.com/weather/" target="_blank" rel="noreferrer noopener">Davis Weather Station</a>
- continuously captures raw weather data through its sensors: temperature (out/in), pressure, wind (speed, direction), rainfall and even UV-radiation. This data is initially gathered within the local console display. This is fine for personal/local usage, but for capturing history, deriving trends and in particular for external sharing this is quite limited. The real fun starts with getting access to the raw data and go from there.</p>
+ continuously captures raw weather data through its sensors: temperature (out/in), pressure, wind (speed, direction), rainfall and even UV-radiation. This data is initially gathered within the local console display. This is fine for personal/local usage, but for capturing history, deriving trends and in particular for external sharing this is quite limited. The real fun starts with getting access to the raw data and go from there.</p>
 <p><img src="/uploads/2014/11/weather-hw-setup.png" alt=" "></p>
 <p>This is where the Raspberry Pi with weewx and later <a href="http://www.stetl.org" target="_blank" rel="noreferrer noopener">Stetl</a>
-, PostGIS, GeoServer and the 52North SOS come in, but I’ll go step-by-step. Let’s first see how we can publish weather data with just weewx.</p>
+, PostGIS, GeoServer and the 52North SOS come in, but I’ll go step-by-step. Let’s first see how we can publish weather data with just weewx.</p>
 <p>My first post <a href="/into-the-weather-part-1/">Into the Weather – Part 1</a>
- in this series introduced weewx, a Python framework for capturing, storing and publishing weather data. The Davis weather station is connected via USB to the RPi. The RPi runs <a href="http://www.weewx.com/" target="_blank" rel="noreferrer noopener">weewx</a>
- to gather and store weather data (in a SQLite DB) from the weather station. But weewx can do more than this: it can also publish weather data to a variety of services. As any well-designed framework, weewx is basically a kernel, the <em>weewx engine</em> with configurable plugins, all specified and parameterized from a single configuration file <em>weewx.conf</em>, like in <a href="https://github.com/Geonovum/sospilot/blob/master/src/weewx/davis/weewx.conf" target="_blank" rel="noreferrer noopener">this example</a>
-. The <em>weewx daemon</em> process runs forever in a main loop continuously calling on all plugins.</p>
-<p>First there are <em>weewx station-drivers</em> that continuously capture raw data from most common weather stations. Although there are many brands of weather stations, many will share common hardware and protocols. The second class of plugins are <em>archiving drivers</em>, where/how to store raw weather data. Two standard archiving drivers are available: SQLite and MySQL. My choice: SQLite. For publication from archived data, a <em>standard reporting driver</em> generates a plain HTML website using an extensible <em>skin containing (HTML) templates</em>. By configuring an FTP or <em>rsync</em> destination, the generated HTML can be published to a remote webserver. This is the first connection to the digital cloud. Off course the skin and templates are highly configurable <a href="https://github.com/Geonovum/sospilot/tree/master/src/weewx/davis/byteweather" target="_blank" rel="noreferrer noopener">as in this example</a>
-. Many examples can be found on the web. I found the nice <a href="http://davies-barnard.co.uk/2014/01/weewx-byteweather-template" target="_blank" rel="noreferrer noopener">byteweather-template by Chris Davies-Barnard</a>
-. Below is the result as can be found at: <a href="http://sensors.geonovum.nl/weewx" target="_blank" rel="noreferrer noopener">sensors.geonovum.nl/weewx</a>
+ in this series introduced weewx, a Python framework for capturing, storing and publishing weather data. The Davis weather station is connected via USB to the RPi. The RPi runs <a href="http://www.weewx.com/" target="_blank" rel="noreferrer noopener">weewx</a>
+ to gather and store weather data (in a SQLite DB) from the weather station. But weewx can do more than this: it can also publish weather data to a variety of services. As any well-designed framework, weewx is basically a kernel, the <em>weewx engine</em> with configurable plugins, all specified and parameterized from a single configuration file <em>weewx.conf</em>, like in <a href="https://github.com/Geonovum/sospilot/blob/master/src/weewx/davis/weewx.conf" target="_blank" rel="noreferrer noopener">this example</a>
+. The <em>weewx daemon</em> process runs forever in a main loop continuously calling on all plugins.</p>
+<p>First there are <em>weewx station-drivers</em> that continuously capture raw data from most common weather stations. Although there are many brands of weather stations, many will share common hardware and protocols. The second class of plugins are <em>archiving drivers</em>, where/how to store raw weather data. Two standard archiving drivers are available: SQLite and MySQL. My choice: SQLite. For publication from archived data, a <em>standard reporting driver</em> generates a plain HTML website using an extensible <em>skin containing (HTML) templates</em>. By configuring an FTP or <em>rsync</em> destination, the generated HTML can be published to a remote webserver. This is the first connection to the digital cloud. Off course the skin and templates are highly configurable <a href="https://github.com/Geonovum/sospilot/tree/master/src/weewx/davis/byteweather" target="_blank" rel="noreferrer noopener">as in this example</a>
+. Many examples can be found on the web. I found the nice <a href="http://davies-barnard.co.uk/2014/01/weewx-byteweather-template" target="_blank" rel="noreferrer noopener">byteweather-template by Chris Davies-Barnard</a>
+. Below is the result as can be found at: <a href="http://sensors.geonovum.nl/weewx" target="_blank" rel="noreferrer noopener">sensors.geonovum.nl/weewx</a>
 .</p>
 
 <div class="">
@@ -228,8 +228,8 @@
   
 </div>
 
-<p>In addition, I’ve added even a more dynamic weather display like the <a href="http://wiki.sandaysoft.com/a/SteelSeries_Gauges" target="_blank" rel="noreferrer noopener">Steelseries Gauges</a>
-, as seen below and via the link <a href="http://sensors.geonovum.nl/weewx/gauges/" target="_blank" rel="noreferrer noopener">sensors.geonovum.nl/weewx/gauges</a>
+<p>In addition, I’ve added even a more dynamic weather display like the <a href="http://wiki.sandaysoft.com/a/SteelSeries_Gauges" target="_blank" rel="noreferrer noopener">Steelseries Gauges</a>
+, as seen below and via the link <a href="http://sensors.geonovum.nl/weewx/gauges/" target="_blank" rel="noreferrer noopener">sensors.geonovum.nl/weewx/gauges</a>
 .</p>
 
 <div class="">
@@ -241,10 +241,10 @@
   
 </div>
 
-<p>Just like other crowd-sourced projects like OpenStreetMap and WikiPedia there are various weather  communities where you can join and publish your weather data via RESTful APIs. weewx provides drivers for most common communities like <a href="http://www.wunderground.com/wundermap?lat=52.152&amp;lon=5.372&amp;zoom=13" target="_blank" rel="noreferrer noopener">Weather Underground</a>
+<p>Just like other crowd-sourced projects like OpenStreetMap and WikiPedia there are various weather  communities where you can join and publish your weather data via RESTful APIs. weewx provides drivers for most common communities like <a href="http://www.wunderground.com/wundermap?lat=52.152&amp;lon=5.372&amp;zoom=13" target="_blank" rel="noreferrer noopener">Weather Underground</a>
  and <a href="http://pwsweather.com/" target="_blank" rel="noreferrer noopener">PWSWeather</a>
-. For example, I registered the Geonovum weather station as  <a href="http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96" target="_blank" rel="noreferrer noopener">Geonovum IUTRECHT96</a>
- as below.</p>
+. For example, I registered the Geonovum weather station as  <a href="http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96" target="_blank" rel="noreferrer noopener">Geonovum IUTRECHT96</a>
+ as below.</p>
 
 <div class="">
   <a href="http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96">
@@ -269,14 +269,14 @@
 
 <p>All in all, there is a fascinating world to explore once you get into the weather domain and its many communities.</p>
 <p>So why am I doing all of this? Apart from having the opportunity to develop this as part of the <a href="http://sospilot.readthedocs.org" target="_blank" rel="noreferrer noopener">SOSPilot Project at Geonovum</a>
-, I think that “geospatial” is moving from 2D to “N-dimensional”: not only more and more “3D”  is hitting the shores (just see the recent 2014 blogs at <a href="http://planet.osgeo.org/" target="_blank" rel="noreferrer noopener">planet.osgeo.org</a>
-), but also location-based sensor data (like Air Quality and weather data) and the <a href="http://en.wikipedia.org/wiki/Internet_of_Things" target="_blank" rel="noreferrer noopener">Internet of Things</a>
- drives a need to deal with time-series data: management, storage, services and visualization. Within the Open Source geospatial world I happily see that many frameworks and tools are extended to deal with 3D, like <a href="http://openlayers.org/ol3-cesium/" target="_blank" rel="noreferrer noopener">OpenLayers/Cesium</a>
- (one of my next posts) and <a href="http://boundlessgeo.com/2013/11/manage-lidar-postgis/" target="_blank" rel="noreferrer noopener">PostGIS/PDAL</a>
- and with Time like in <a href="http://docs.geoserver.org/latest/en/user/services/wms/time.html" target="_blank" rel="noreferrer noopener">GeoServer Dimension</a>
+, I think that “geospatial” is moving from 2D to “N-dimensional”: not only more and more “3D”  is hitting the shores (just see the recent 2014 blogs at <a href="http://planet.osgeo.org/" target="_blank" rel="noreferrer noopener">planet.osgeo.org</a>
+), but also location-based sensor data (like Air Quality and weather data) and the <a href="http://en.wikipedia.org/wiki/Internet_of_Things" target="_blank" rel="noreferrer noopener">Internet of Things</a>
+ drives a need to deal with time-series data: management, storage, services and visualization. Within the Open Source geospatial world I happily see that many frameworks and tools are extended to deal with 3D, like <a href="http://openlayers.org/ol3-cesium/" target="_blank" rel="noreferrer noopener">OpenLayers/Cesium</a>
+ (one of my next posts) and <a href="http://boundlessgeo.com/2013/11/manage-lidar-postgis/" target="_blank" rel="noreferrer noopener">PostGIS/PDAL</a>
+ and with Time like in <a href="http://docs.geoserver.org/latest/en/user/services/wms/time.html" target="_blank" rel="noreferrer noopener">GeoServer Dimension</a>
  support. Also the <a href="http://www.opengeospatial.org/ogc/markets-technologies/swe" target="_blank" rel="noreferrer noopener">OGC Sensor Web Enablement</a>
  and its lighter-weight version <a href="http://ogc-iot.github.io/ogc-iot-api/" target="_blank" rel="noreferrer noopener">OGC SensorThings</a>
- is gaining more attention.</p>
+ is gaining more attention.</p>
 <p>Not yet done with the weather. Next post I will dive into further unlocking weather data via OGC services like WMS and SOS. That would be “Publishing Data to Cloud 9” ;-)</p>
 
 

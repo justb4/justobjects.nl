@@ -16,12 +16,12 @@
       <guid>https://justobjects.nl/3d-geospatial-open-standards-v0/</guid>
       <description>
         
-          &lt;p&gt;This is my evolving overview of 3D Geospatial Open Standards with a focus on web technology: services, HTML5, WebGL. These are notes I keep within &lt;a href=&#34;http://evernote.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Evernote&lt;/a&gt;
+          &lt;p&gt;This is my evolving overview of 3D Geospatial Open Standards with a focus on web technology: services, HTML5, WebGL. These are notes I keep within &lt;a href=&#34;http://evernote.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Evernote&lt;/a&gt;
  as part of the 3D Geospatial Notebook whose public link is: &lt;a href=&#34;https://www.evernote.com/pub/justb4ever/3d-geospatial&#34;&gt;https://www.evernote.com/pub/justb4ever/3d-geospatial&lt;/a&gt;. For sure, resources are missing, let me know. These notes are synced from Evernote using &lt;a href=&#34;http://zapier.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Zapier&lt;/a&gt;
 , so formatting is a bit messy, sorry for that, though I completely revised this blog on Jan 30, 2015.&lt;/p&gt;
-&lt;p&gt;The presentations by &lt;a href=&#34;https://twitter.com/emmanuel_belo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emanuel Belo&lt;/a&gt;
+&lt;p&gt;The presentations by &lt;a href=&#34;https://twitter.com/emmanuel_belo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emanuel Belo&lt;/a&gt;
  (&lt;a href=&#34;http://www.camptocamp.com/en/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Camp2Camp&lt;/a&gt;
-, links below) are an excellent start to get a global overview. He mentions the following categories of 3D standards and their organizations:&lt;/p&gt;
+, links below) are an excellent start to get a global overview. He mentions the following categories of 3D standards and their organizations:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Geo: OGC&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;3D Portrayal Services (Proposals: WVS WMS-Like &amp;amp; W3DS WFS-Like) (Just: Now 3DPS)&lt;/li&gt;
@@ -36,7 +36,7 @@
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Web: Web3d&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt; X3D – Extensible 3D Graphics&lt;/li&gt;
+&lt;li&gt;X3D – Extensible 3D Graphics&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Graphics: Khronos Group&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -48,8 +48,8 @@
 &lt;ul&gt;
 &lt;li&gt;TopoJSON&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In the short time I am spending within the 3D domain I think another categorization could be 3D Web Services Standards and 3D Content/Format Standards. A lot of focus is usually on the latter. Within 3D Content/Format Standards my view is that there are the sub-categories based on stages within a 3D rendering pipeline, i.e. from raw source data like CityGML up to 3D-scene encodings like COLLADA and glTF. I see “Terrain” as a separate content category with encodings like height maps and TINs.&lt;/p&gt;
-&lt;p&gt;I think/hope that 3D Web Services will gain importance: services to request Content in various encodings plus Terrain data. Techniques like tiling (TMS/WMTS) are already very common within the geospatial world. With the latest developments in vector-tiling I see much potential, especially for terrain and textures (raster) draped on a terrain. Streaming as in video streaming, is not common within the geospatial world but may become of use especially in HTML5 apps (via web sockets?).&lt;/p&gt;
+&lt;p&gt;In the short time I am spending within the 3D domain I think another categorization could be 3D Web Services Standards and 3D Content/Format Standards. A lot of focus is usually on the latter. Within 3D Content/Format Standards my view is that there are the sub-categories based on stages within a 3D rendering pipeline, i.e. from raw source data like CityGML up to 3D-scene encodings like COLLADA and glTF. I see “Terrain” as a separate content category with encodings like height maps and TINs.&lt;/p&gt;
+&lt;p&gt;I think/hope that 3D Web Services will gain importance: services to request Content in various encodings plus Terrain data. Techniques like tiling (TMS/WMTS) are already very common within the geospatial world. With the latest developments in vector-tiling I see much potential, especially for terrain and textures (raster) draped on a terrain. Streaming as in video streaming, is not common within the geospatial world but may become of use especially in HTML5 apps (via web sockets?).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;General&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The following presentations by Emanuel Belo from Camp2Camp hit the nail on the head. The content lives up to the title.&lt;/p&gt;
 &lt;p&gt;Two versions available, video and slides from FOSS4G 2013, Nottingham (missed that unfortunately) and a later 2014 version.&lt;/p&gt;
@@ -91,7 +91,7 @@ The OGC …. &lt;em&gt;“3D Portrayal Interoperability Experiment (IE) successf
 Report: &lt;a href=&#34;https://portal.opengeospatial.org/files/?artifact_id=49068&#34;&gt;https://portal.opengeospatial.org/files/?artifact_id=49068&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;NB this ultimately lead to the development of the 3D Portrayal Standard which merged W3DS and WVS.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Open Source Geospatial Foundation – OSGeo&lt;/strong&gt;&lt;br&gt;
-Although &lt;a href=&#34;http://osgeo.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.org&lt;/a&gt;
+Although &lt;a href=&#34;https://osgeo.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.org&lt;/a&gt;
  is not a standards body, for years the Tiled Map Service TMS spec is intensively used, probably more than its OGC-counterpart WMTS…&lt;br&gt;
 &lt;a href=&#34;http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification&#34;&gt;http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;TMS is finding its use in the 3D landscape not just for tiles containing 2D raster maps to be draped over a terrain, but also more and more as a container for height and (compressed) vector tiles. This is an important development, see e.g. Cesium Terrain Server and its two format-encodings for terrain-tiles:&lt;br&gt;
@@ -115,10 +115,10 @@ Although &lt;a href=&#34;http://osgeo.org&#34; target=&#34;_blank&#34; rel=&#34;
 &lt;em&gt;capable without plug-in.”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Cesium&lt;/strong&gt;&lt;br&gt;
 Although &lt;a href=&#34;http://cesiumjs.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CesiumJS&lt;/a&gt;
- is mainly a client JavaScript framework based on WebGL and Dojo,  some very useful standards are originating from the project.&lt;/p&gt;
+ is mainly a client JavaScript framework based on WebGL and Dojo,  some very useful standards are originating from the project.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://cesiumjs.org/data-and-assets/terrain/formats/quantized-mesh-1.0.html&#34;&gt;http://cesiumjs.org/data-and-assets/terrain/formats/quantized-mesh-1.0.html&lt;/a&gt; quantized mesh via TMS – for terrain services based on TINs.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide&#34;&gt;https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide&lt;/a&gt; – CZML is a JSON schema for describing a time-dynamic graphical scene&lt;/p&gt;
-&lt;p&gt;NEW (august 2015) &lt;em&gt;&lt;strong&gt;“3D Tiles”&lt;/strong&gt;&lt;/em&gt; : &lt;a href=&#34;https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles&#34;&gt;https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles&lt;/a&gt;. &lt;em&gt;“3D Tiles are an &lt;a href=&#34;https://github.com/AnalyticalGraphicsInc/3d-tiles&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;open specification&lt;/a&gt;
+&lt;p&gt;NEW (august 2015) &lt;em&gt;&lt;strong&gt;“3D Tiles”&lt;/strong&gt;&lt;/em&gt; : &lt;a href=&#34;https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles&#34;&gt;https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles&lt;/a&gt;. &lt;em&gt;“3D Tiles are an &lt;a href=&#34;https://github.com/AnalyticalGraphicsInc/3d-tiles&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;open specification&lt;/a&gt;
  for streaming massive heterogeneous 3D geospatial datasets….3D Tiles define a spatial data structure and a set of tile formats designed for 3D and optimized for streaming and rendering. Tiles for 3D models use &lt;a href=&#34;https://www.khronos.org/gltf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;glTF&lt;/a&gt;
 , the WebGL runtime asset format developed by Khronos, which the Cesium team heavily contributes to….”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Collada&lt;/strong&gt;&lt;br&gt;
@@ -139,7 +139,7 @@ Final stage OpenGL Transmission Format to enable rapid delivery and loading of 3
 &lt;p&gt;&lt;a href=&#34;https://www.khronos.org/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://www.khronos.org/&#34;&gt;https://www.khronos.org/&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://www.khronos.org/gltf/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://www.khronos.org/gltf/&#34;&gt;https://www.khronos.org/gltf/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TopoJSON&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;“TopoJSON is an extension of GeoJSON that encodes topology. Rather than representing geometries discretely, geometries in TopoJSON files are stitched together from shared line segments called arcs. TopoJSON eliminates redundancy, offering much more compact representations of geometry than with GeoJSON; typical TopoJSON files are 80% smaller than their GeoJSON equivalents. In addition, TopoJSON facilitates applications that use topology, such as topology-preserving shape simplification, automatic map coloring, and cartograms.”&lt;/em&gt; (i.e. compact TIN-representations!).&lt;br&gt;
+&lt;p&gt;&lt;em&gt;“TopoJSON is an extension of GeoJSON that encodes topology. Rather than representing geometries discretely, geometries in TopoJSON files are stitched together from shared line segments called arcs. TopoJSON eliminates redundancy, offering much more compact representations of geometry than with GeoJSON; typical TopoJSON files are 80% smaller than their GeoJSON equivalents. In addition, TopoJSON facilitates applications that use topology, such as topology-preserving shape simplification, automatic map coloring, and cartograms.”&lt;/em&gt; (i.e. compact TIN-representations!).&lt;br&gt;
 &lt;a href=&#34;https://github.com/mbostock/topojson&#34;&gt;https://github.com/mbostock/topojson&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Germany: SIG 3D&lt;/strong&gt;&lt;br&gt;
 Germany-based 3D interest group. Started already very early (2002) with 3D geospatial and has a long history. Many useful resources for both standards and implementations can be found via their websites.&lt;/p&gt;
@@ -152,13 +152,13 @@ Several standards like OGC CityGML W3DS, later 3DPS had their origins here.&lt;/
 &lt;p&gt;As a follow-up (2011) of the 3D-Pilot the public standard CityGML-IMGeo was developed. Basically this standardizes detailed smallscale/detailed topography using and extending CityGML: &lt;a href=&#34;http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-imgeo-versie-211&#34;&gt;http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-imgeo-versie-211&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;History of 3D geo in The Netherlands: &lt;a href=&#34;http://www.geonovum.nl/onderwerpen/3d-geo-informatie/historie-3d-geo-informatie-nl&#34;&gt;http://www.geonovum.nl/onderwerpen/3d-geo-informatie/historie-3d-geo-informatie-nl&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Now (Jan 2015) starting up a next phase called “3D Doorbraak”, with a recent working conference for establishing the 3D roadmap for The Netherlands: &lt;a href=&#34;http://www.geonovum.nl/nieuws/werkconferentie-voor-opstellen-roadmap-3d-doorbraak&#34;&gt;http://www.geonovum.nl/nieuws/werkconferentie-voor-opstellen-roadmap-3d-doorbraak&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The choice of standards plays an important part.&lt;/p&gt;
+&lt;p&gt;The choice of standards plays an important part.&lt;/p&gt;
 &lt;p&gt;See also news items via Twitter (#doorbraak3D): &lt;a href=&#34;https://twitter.com/search?q=%23doorbraak3D&amp;amp;src=typd&#34;&gt;https://twitter.com/search?q=%23doorbraak3D&amp;amp;src=typd&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;BIM – IFC&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Now that geospatial information is obtaining more detail and moving into 3D, integration with standards within the Building and infrastructure industry is one of the most obvious use-cases. Building Information Modelling or BIM is a huge standardization effort within the Building and infrastructure domain.&lt;/p&gt;
-&lt;p&gt;Geoff ,”Between The Poles”, Zeiss blogs regularly on BIM and Geospatial: &lt;a href=&#34;http://geospatial.blogs.com/geospatial/bim/&#34;&gt;http://geospatial.blogs.com/geospatial/bim/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now that geospatial information is obtaining more detail and moving into 3D, integration with standards within the Building and infrastructure industry is one of the most obvious use-cases. Building Information Modelling or BIM is a huge standardization effort within the Building and infrastructure domain.&lt;/p&gt;
+&lt;p&gt;Geoff ,”Between The Poles”, Zeiss blogs regularly on BIM and Geospatial: &lt;a href=&#34;http://geospatial.blogs.com/geospatial/bim/&#34;&gt;http://geospatial.blogs.com/geospatial/bim/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;“Building information modeling&lt;/strong&gt; (&lt;strong&gt;BIM&lt;/strong&gt;) is a process involving the generation and management of digital representations of physical and functional characteristics of places. &lt;strong&gt;Building information models&lt;/strong&gt; (&lt;strong&gt;BIMs&lt;/strong&gt;) are files (often but not always in proprietary formats and containing proprietary data) which can be exchanged or networked to support decision-making about a place. Current BIM software is used by individuals, businesses and government agencies who plan, design, construct, operate and maintain diverse physical infrastructures, such as water, wastewater, electricity, gas, refuse and communication utilities, roads, bridges and ports, houses, apartments, schools and shops, offices, factories, warehouses and prisons.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Source: &lt;a href=&#34;http://en.wikipedia.org/wiki/Building_information_modeling&#34;&gt;http://en.wikipedia.org/wiki/Building_information_modeling&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Source: &lt;a href=&#34;http://en.wikipedia.org/wiki/Building_information_modeling&#34;&gt;http://en.wikipedia.org/wiki/Building_information_modeling&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;For information exchange the Industry Foundation Classes are put forward.&lt;/p&gt;
 &lt;p&gt;“The &lt;em&gt;Industry Foundation Classes (IFC) data model is intended to describe building and construction industry data.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;It is a platform neutral, open file format specification that is not controlled by a single vendor or group of vendors. It is an object-based file format with a data model developed bybuildingSMART (formerly the International Alliance for Interoperability, IAI) to facilitate interoperability in the architecture, engineering and construction (AEC) industry, and is a commonly used collaboration format in Building information modeling (BIM) based projects. The IFC model specification is open and available.[1] It is registered by ISO and is an official International Standard ISO 16739:2013.”&lt;/em&gt;&lt;br&gt;

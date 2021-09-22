@@ -17,13 +17,13 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="This is Emit #3, in a series of blog-posts around the Smart Emission Platform , an Open Source software component framework that facilitates the acquisition, …">
+<meta name="description" content="This is Emit #3, in a series of blog-posts around the Smart Emission Platform , an Open Source software component framework that facilitates the acquisition, …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@justb4">
 <meta name="twitter:title" content="Emit #3 – Things are Moving" />
 <meta property="og:url" content="https://justobjects.nl/emit-3/" />
 <meta property="og:title" content="Emit #3 – Things are Moving" />
-<meta property="og:description" content="This is Emit #3, in a series of blog-posts around the Smart Emission Platform , an Open Source software component framework that facilitates the acquisition, …" />
+<meta property="og:description" content="This is Emit #3, in a series of blog-posts around the Smart Emission Platform , an Open Source software component framework that facilitates the acquisition, …" />
 <meta property="og:image" content="https://justobjects.nl/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://justobjects.nl/icons/apple-touch-icon.png">
@@ -192,7 +192,7 @@
 
     
     <p>This is Emit #3, in a <a href="/categories/smartemission/">series of blog-posts around the Smart Emission Platform</a>
-, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality. In <a href="/emit-1/">Emit #1</a>
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality. In <a href="/emit-1/">Emit #1</a>
 , the big picture of the platform was sketched. Subsequent Emits will detail technical aspects of the SE Platform. “Follow the data” will be the main trail loosely adhered to.</p>
 <p><img src="/uploads/2018/01/arch-big-picture.jpg" alt=" "></p>
 <p>Three weeks ago since <a href="/emit-2/">Emit #2</a>
@@ -201,20 +201,20 @@
 <li>went to <a href="https://www.thethingsnetwork.org/conference/" target="_blank" rel="noreferrer noopener">The Things Conference</a>
 , all about <a href="https://www.thethingsnetwork.org/" target="_blank" rel="noreferrer noopener">building a LoRaWAN network</a>
  with an open global community.</li>
-<li>started at Dutch Kadaster to migrate the Smart Emission Platform  into the <a href="https://www.pdok.nl/en/about-pdok" target="_blank" rel="noreferrer noopener">Dutch National GDI PDOK</a>
+<li>started at Dutch Kadaster to migrate the Smart Emission Platform  into the <a href="https://www.pdok.nl/en/about-pdok" target="_blank" rel="noreferrer noopener">Dutch National GDI PDOK</a>
 .</li>
 <li>Elaborated the <a href="http://www.opengeospatial.org/standards/sensorthings" target="_blank" rel="noreferrer noopener">OGC SensorThings API</a>
- (STA) to see if it can replace <a href="http://www.opengeospatial.org/standards/sos" target="_blank" rel="noreferrer noopener">OGC Sensor Observation Service</a>
+ (STA) to see if it can replace <a href="http://www.opengeospatial.org/standards/sos" target="_blank" rel="noreferrer noopener">OGC Sensor Observation Service</a>
  (SOS).</li>
 </ul>
-<p>A lot to expand on. Will try to briefly summarize on The Things Conference, LoRA and LoRaWAN and save the other tech for later Emits.</p>
+<p>A lot to expand on. Will try to briefly summarize on The Things Conference, LoRA and LoRaWAN and save the other tech for later Emits.</p>
 <p>LoRA and LoRaWAN may sound like a sidestep, but are very much related to for example building a network of Air Quality and other environmental sensors. When deploying such sensors two issues always arise:</p>
 <ul>
 <li>power: need continuous electricity to keep sensors and their computing boards powered</li>
 <li>transmission: need cabled Internet, WIFI or cellular data to transmit sensor-data</li>
 </ul>
-<p>In short, LoRa/LoRaWAN (LoRa=Long Range) is basically a wireless RF technology for long-<wbr />range, low-power and low-throughput communications. You may find many references on the web like from the <a href="https://www.lora-alliance.org" target="_blank" rel="noreferrer noopener">LoRa Alliance</a>
- and <a href="https://www.semtech.com/technology/lora" target="_blank" rel="noreferrer noopener">SemTech</a>
+<p>In short, LoRa/LoRaWAN (LoRa=Long Range) is basically a wireless RF technology for long-<wbr />range, low-power and low-throughput communications. You may find many references on the web like from the <a href="https://www.lora-alliance.org" target="_blank" rel="noreferrer noopener">LoRa Alliance</a>
+ and <a href="https://www.semtech.com/technology/lora" target="_blank" rel="noreferrer noopener">SemTech</a>
 . There is lots of buzz around LoRa. But just like the, <a href="https://wirelessleiden.nl/" target="_blank" rel="noreferrer noopener">Wireless Leiden project</a>
 , who built a public WIFI network around the city, <a href="https://www.thethingsnetwork.org/" target="_blank" rel="noreferrer noopener">The ThingsNetwork</a>
  has embraced LoRa technology to build a world-wide open, community-driven, “overlay network”:</p>
@@ -240,8 +240,8 @@
   
 </div>
 
-<p>And <a href="https://www.thethingsnetwork.org/" target="_blank" rel="noreferrer noopener">The ThingsNetwork</a>
- (TTN) was established in Amsterdam, The Netherlands. As an individual you can extend The Things Network by deploying a <a href="https://www.thethingsnetwork.org/docs/gateways/" target="_blank" rel="noreferrer noopener">Gateway</a>
+<p>And <a href="https://www.thethingsnetwork.org/" target="_blank" rel="noreferrer noopener">The ThingsNetwork</a>
+ (TTN) was established in Amsterdam, The Netherlands. As an individual you can extend The Things Network by deploying a <a href="https://www.thethingsnetwork.org/docs/gateways/" target="_blank" rel="noreferrer noopener">Gateway</a>
 . Via the TTN KickStarter project, I was one of the first backers, already in 2015. The interest was overwhelming, even leading to (Gateway) delivery problems. But a LoRa Gateway to extend TTN is almost a commodity now. You can even <a href="https://www.thethingsnetwork.org/docs/gateways/start/" target="_blank" rel="noreferrer noopener">build one yourself</a>
 . TTN is very much tied to the whole “DIY makers movement”. All TTN designs and code (on <a href="https://github.com/thethingsnetwork" target="_blank" rel="noreferrer noopener">GitHub</a>
 ) are open. Below a global architecture picture from their site.</p>

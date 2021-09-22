@@ -17,13 +17,13 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="This is Emit #6, in a series of blog-posts around the Smart Emission Platform , an Open Source software component framework that facilitates the acquisition, …">
+<meta name="description" content="This is Emit #6, in a series of blog-posts around the Smart Emission Platform , an Open Source software component framework that facilitates the acquisition, …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@justb4">
 <meta name="twitter:title" content="Emit #6 – AirSensEUR Calibration" />
 <meta property="og:url" content="https://justobjects.nl/emit-6-airsenseur-calibration/" />
 <meta property="og:title" content="Emit #6 – AirSensEUR Calibration" />
-<meta property="og:description" content="This is Emit #6, in a series of blog-posts around the Smart Emission Platform , an Open Source software component framework that facilitates the acquisition, …" />
+<meta property="og:description" content="This is Emit #6, in a series of blog-posts around the Smart Emission Platform , an Open Source software component framework that facilitates the acquisition, …" />
 <meta property="og:image" content="https://justobjects.nl/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://justobjects.nl/icons/apple-touch-icon.png">
@@ -197,10 +197,10 @@
 
     
     <p>This is Emit #6, in a <a href="/categories/smartemission/">series of blog-posts around the Smart Emission Platform</a>
-, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.</p>
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.</p>
 <p>In <a href="/emit-5-assembling-and-deploying-5-airsenseurs/">Emit #5 – Assembling and Deploying 5 AirSensEURs…</a>
 , I described how , with the great help of Jan Vonk from RIVM, we placed five <a href="https://airsenseur.org/" target="_blank" rel="noreferrer noopener">AirSensEUR</a>
- (ASE) air quality stations at the RIVM reference site near the A2 Highway at Breukelen. For about 2.5 months raw data was gathered there while the RIVM station was gathering its data to be used as reference for calibration.</p>
+ (ASE) air quality stations at the RIVM reference site near the A2 Highway at Breukelen. For about 2.5 months raw data was gathered there while the RIVM station was gathering its data to be used as reference for calibration.</p>
 <p><img src="/uploads/2019/02/airsenseur-deploy-combined-s.jpg" alt=" "></p>
 <!--
 <img loading="lazy" class="aligncenter  wp-image-864" src="uploads/2019/02/airsenseur-deploy-combined-s-1024x537.jpg" alt="" width="555" height="291" srcset="https://justobjects.nl/wp-content/uploads/2019/02/airsenseur-deploy-combined-s.jpg 1024w, https://justobjects.nl/wp-content/uploads/2019/02/airsenseur-deploy-combined-s-300x157.jpg 300w, https://justobjects.nl/wp-content/uploads/2019/02/airsenseur-deploy-combined-s-768x403.jpg 768w, https://justobjects.nl/wp-content/uploads/2019/02/airsenseur-deploy-combined-s-150x79.jpg 150w" sizes="(max-width: 555px) 100vw, 555px" />
@@ -223,7 +223,7 @@
 <li>O3 (Ozone): the <a href="http://www.alphasense.com/index.php/products/ozone-2/" target="_blank" rel="noreferrer noopener">OX_A431</a>
 , see <a href="http://www.alphasense.com/WEB1213/wp-content/uploads/2018/12/OXA431.pdf" target="_blank" rel="noreferrer noopener">datasheet</a>
 .</li>
-<li>CO (Carbon Monoxide): the <a href="http://www.alphasense.com/index.php/products/carbon-monoxide-safety/" target="_blank" rel="noreferrer noopener">CO-A4</a>
+<li>CO (Carbon Monoxide): the <a href="http://www.alphasense.com/index.php/products/carbon-monoxide-safety/" target="_blank" rel="noreferrer noopener">CO-A4</a>
 , see <a href="http://www.alphasense.com/WEB1213/wp-content/uploads/2017/01/COA4.pdf" target="_blank" rel="noreferrer noopener">datasheet</a>
 .</li>
 </ul>
@@ -237,8 +237,8 @@
 </div>
 -->
 <p>The calibration to be applied is based on <a href="https://en.wikipedia.org/wiki/Regression_analysis" target="_blank" rel="noreferrer noopener">Regression Analysis</a>
-. This and other calibration-methods have been investigated and evaluated for many types/brands of sensors by the EC-JRC team. Read all in this <a href="https://www.sciencedirect.com/science/article/pii/S092540051500355X" target="_blank" rel="noreferrer noopener">landmark article</a>
- and other references there. </p>
+. This and other calibration-methods have been investigated and evaluated for many types/brands of sensors by the EC-JRC team. Read all in this <a href="https://www.sciencedirect.com/science/article/pii/S092540051500355X" target="_blank" rel="noreferrer noopener">landmark article</a>
+ and other references there.</p>
 <p><img src="/uploads/2019/02/field-calibration-article.png" alt=" "></p>
 <!--
 <img loading="lazy" class="wp-image-862 aligncenter" src="uploads/2019/02/field-calibration-article.png" alt="" width="404" height="251" srcset="https://justobjects.nl/wp-content/uploads/2019/02/field-calibration-article.png 665w, https://justobjects.nl/wp-content/uploads/2019/02/field-calibration-article-300x186.png 300w, https://justobjects.nl/wp-content/uploads/2019/02/field-calibration-article-150x93.png 150w" sizes="(max-width: 404px) 100vw, 404px" />
@@ -255,7 +255,7 @@ All ASEs deployed at their target locations</p>
 </li>
 <li>
 <p>Nov/dec 2018<br>
-Calibration performed by Michel Gerboles at the EC-JRC lab </p>
+Calibration performed by Michel Gerboles at the EC-JRC lab</p>
 </li>
 <li>
 <p>Jan 2019<br>
@@ -278,7 +278,7 @@ Analysis of the calibration (<a href="https://github.com/smartemission/docker-se
 <p><img src="/uploads/2019/02/ase-nl-1-5-deployed.jpg" alt=" "></p>
 <p>ASE_NL 01 was deployed at an RIVM site in Nijmegen. This allowed us to verify its calibration with different reference data as with which it was calibrated! See below.</p>
 <p><img src="/uploads/2019/02/deployment-map-s.jpg" alt=" "></p>
-<p><strong>ad 3)</strong> The calibration was performed by EC-JRC (M. Gerboles) using R and ShinyR webapp. All sources can be found in this <a href="https://github.com/ec-jrc/airsenseur-calibration" target="_blank" rel="noreferrer noopener">EC-JRC GitHub repo</a>
+<p><strong>ad 3)</strong> The calibration was performed by EC-JRC (M. Gerboles) using R and ShinyR webapp. All sources can be found in this <a href="https://github.com/ec-jrc/airsenseur-calibration" target="_blank" rel="noreferrer noopener">EC-JRC GitHub repo</a>
 . This process is quite intricate and a bit hard to explain in the context of a blog-post paragraph. I’ll try a summary:</p>
 <p>Sensor values are digital readings (0..65535). This is effected by the electrical circuitry within each ASE, for optimal gain. To calculate back to mV and nA a per-sensor (brand+type) calculation is required first before applying any regression formula. A bit is explained in the image below.</p>
 <p><img src="/uploads/2019/02/readings-vref.jpg" alt=" "></p>
@@ -293,7 +293,7 @@ Analysis of the calibration (<a href="https://github.com/smartemission/docker-se
 </ul>
 <p><img src="/uploads/2019/02/scatterplots-asenl03.jpg" alt=" "></p>
 <p>Above some scatterplots made for ASE Box 3 NO2 and O3.</p>
-<p><strong>ad 4)</strong> Knowing all equations and their parameters from step 3 above, I attempted to integrate this in the continuous ETL within the Smart Emission Platform. Up to now the platform supported only a single sensor station type: the Intemo Jose(ne). As the platform is fed by harvesting raw data from a set of remote APIs provided by Data Collectors, it was relatively easy to add sensor(-station)-metadata and extend the Refiner ETL to apply calibration algorithms driven by that metadata. </p>
+<p><strong>ad 4)</strong> Knowing all equations and their parameters from step 3 above, I attempted to integrate this in the continuous ETL within the Smart Emission Platform. Up to now the platform supported only a single sensor station type: the Intemo Jose(ne). As the platform is fed by harvesting raw data from a set of remote APIs provided by Data Collectors, it was relatively easy to add sensor(-station)-metadata and extend the Refiner ETL to apply calibration algorithms driven by that metadata.</p>
 <p>So for Josene stations the existing ANN calibration would still be applied, while for ASE stations per-sensor linear equations would be performed. All parameterization was already configurable using the <a href="https://github.com/smartemission/docker-se-stetl/tree/mast" target="_blank" rel="noreferrer noopener">Device, DeviceDefs, DeviceFuncs</a>
  abstractions in the <a href="https://github.com/smartemission/docker-se-stetl/" target="_blank" rel="noreferrer noopener">SE Stetl implementation</a>
 . Recently, to allow stations that already send calibrated values, I introduced the <a href="https://github.com/smartemission/docker-se-stetl/blob/master/smartem/devices/vanilla.py" target="_blank" rel="noreferrer noopener">Vanilla Device</a>
@@ -306,10 +306,10 @@ Analysis of the calibration (<a href="https://github.com/smartemission/docker-se
 <span class="ln">2</span>I = 10^9 V/(Gain x Rload)
 </code></pre></div><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>STEP 2 - Ampere (I) to concentration (ug/m3) - Example
 <span class="ln">2</span>I=a0+a1*NO2+a2*T
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>==&gt; NO2 = (I - a0 - a2 * T) / a1
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>==&gt; NO2 = (I - a0 - a2 * T) / a1
 <span class="ln">2</span>a0-a2 has specific values for each NO2-B43F sensor.
 </code></pre></div><p>Now that these formulas and their parameters were implemented, near-realtime values could be made visible in all SE apps (viewers) and APIs such as the <a href="https://data.smartemission.nl/smartapp/" target="_blank" rel="noreferrer noopener">SmartApp</a>
- and the <a href="https://data.smartemission.nl/heron/" target="_blank" rel="noreferrer noopener">Heron Viewer</a>
+ and the <a href="https://data.smartemission.nl/heron/" target="_blank" rel="noreferrer noopener">Heron Viewer</a>
 .</p>
 
 <div class="">
@@ -335,7 +335,7 @@ Analysis of the calibration (<a href="https://github.com/smartemission/docker-se
 <p>Objectivity could be effected since station ASE NL 01 was finally deployed (okt 2018) in Nijmegen, also next to an RIVM station. So the calibration calculations from RIVM refdata in Breukelen could be compared to “Nijmegen”. The implementation for making these scatterplots can be found <a href="https://github.com/smartemission/smartemission/tree/master/etl/calibration" target="_blank" rel="noreferrer noopener">here</a>
 . Lets look at some results, mainly for NO2, as I consider this one of the most important AQ indicator gasses.</p>
 <p><img src="/uploads/2019/02/nijm-ruy-no2-ASE_NL01-2018-12-25-2019-01-24.png" alt=" "></p>
-<p>I like this image a lot as it shows an almost ideal alignment with an R2 of 0.976 and slope of almost 1. Mind: calibration was thus done at a very different site (about 80 km west) and AQ condition (highway) as the deployment (city street). </p>
+<p>I like this image a lot as it shows an almost ideal alignment with an R2 of 0.976 and slope of almost 1. Mind: calibration was thus done at a very different site (about 80 km west) and AQ condition (highway) as the deployment (city street).</p>
 <p><img src="/uploads/2019/02/asenl01-se-pycal-plots.png" alt=" "></p>
 <p>Above are plots for the other gasses as well. First row in Breukelen (no ref CO available in RIVM SOS), front row in Nijmegen. Only NO in Nijmegen is a bit problematic.</p>
 <p><img src="/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09.png" alt=" "></p>

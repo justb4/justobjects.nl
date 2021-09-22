@@ -16,28 +16,28 @@
       <guid>https://justobjects.nl/unlocking-sensor-data-sos/</guid>
       <description>
         
-          &lt;p&gt;Revealing: the title refers, for the younger readers, to a great 1979-hit by The Police as expanded below. To be played at the loudest possible volume. If you don’t see anything here below try the YouTube link directly:&lt;/p&gt;
+          &lt;p&gt;Revealing: the title refers, for the younger readers, to a great 1979-hit by The Police as expanded below. To be played at the loudest possible volume. If you don’t see anything here below try the YouTube link directly:&lt;/p&gt;
 
 &lt;div class=&#34;video&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/MbXWrmQW-OE?controls=1&amp;rel=0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;p&gt;One of the main aspects that glues the OSGeo-world together are OGC-standards: WMS, WFS, WMTS, WCS and WPS are, at least for most insiders, not hollow acronyms. But who knows about and uses SOS? SOS stands for &lt;em&gt;“Sensor Observation Service”&lt;/em&gt;, &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;an OGC standard&lt;/a&gt;
- within the elaborate framework of the &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
-.  SOS provides a standard to publish (SOS-T) and request time-based (meta-) data, mostly from “Sensors”. Its convention is similar to WMS/WFS (GetCapabilities, DescribeSensor, GetObservation etc). Think of weather or air quality measurements over time.&lt;/p&gt;
+&lt;p&gt;One of the main aspects that glues the OSGeo-world together are OGC-standards: WMS, WFS, WMTS, WCS and WPS are, at least for most insiders, not hollow acronyms. But who knows about and uses SOS? SOS stands for &lt;em&gt;“Sensor Observation Service”&lt;/em&gt;, &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;an OGC standard&lt;/a&gt;
+ within the elaborate framework of the &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
+.  SOS provides a standard to publish (SOS-T) and request time-based (meta-) data, mostly from “Sensors”. Its convention is similar to WMS/WFS (GetCapabilities, DescribeSensor, GetObservation etc). Think of weather or air quality measurements over time.&lt;/p&gt;
 &lt;p&gt;The Internet of &lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_Things&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Things (IoT)&lt;/a&gt;
-  is now gaining a strong momentum: &lt;em&gt;“The Internet of Things (IoT) is the network of physical objects or “things” embedded&lt;/em&gt; &lt;em&gt;with electronics, software, sensors, and network connectivity, which enables these  objects to collect and exchange data. The Internet of Things allows objects to be sensed and controlled remotely across existing network infrastructure, creating opportunities for more direct integration between the physical world and computer-based systems, and resulting in improved efficiency, accuracy and economic benefit Each thing is uniquely identifiable through its embedded computing system but is able to interoperate within the existing Internet infrastructure. Experts estimate that the IoT will consist of almost 50 billion  objects by 2020.” (&lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_Things&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;from Wikipedia&lt;/a&gt;
+  is now gaining a strong momentum: &lt;em&gt;“The Internet of Things (IoT) is the network of physical objects or “things” embedded&lt;/em&gt; &lt;em&gt;with electronics, software, sensors, and network connectivity, which enables these  objects to collect and exchange data. The Internet of Things allows objects to be sensed and controlled remotely across existing network infrastructure, creating opportunities for more direct integration between the physical world and computer-based systems, and resulting in improved efficiency, accuracy and economic benefit Each thing is uniquely identifiable through its embedded computing system but is able to interoperate within the existing Internet infrastructure. Experts estimate that the IoT will consist of almost 50 billion  objects by 2020.” (&lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_Things&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;from Wikipedia&lt;/a&gt;
 ).&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;So how will SOS and the generic &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
- will fit into this force? I really don’t know. For many of the OGC-standards like WMS, there are multiple implementations. For SOS  I know about just two: the &lt;a href=&#34;http://52north.org/communities/sensorweb/sos/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;52 North SOS&lt;/a&gt;
+&lt;p&gt;So how will SOS and the generic &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
+ will fit into this force? I really don’t know. For many of the OGC-standards like WMS, there are multiple implementations. For SOS  I know about just two: the &lt;a href=&#34;http://52north.org/communities/sensorweb/sos/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;52 North SOS&lt;/a&gt;
 , and the &lt;a href=&#34;http://istsos.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;IstSOS&lt;/a&gt;
-.  Both of these are powerful with their own strengths and limitations.&lt;/p&gt;
-&lt;p&gt;I have worked successfully with the &lt;a href=&#34;http://52north.org/communities/sensorweb/sos/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;52 North SOS&lt;/a&gt;
- within a &lt;a href=&#34;http://sensors.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch project on Air Quality&lt;/a&gt;
+.  Both of these are powerful with their own strengths and limitations.&lt;/p&gt;
+&lt;p&gt;I have worked successfully with the &lt;a href=&#34;http://52north.org/communities/sensorweb/sos/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;52 North SOS&lt;/a&gt;
+ within a &lt;a href=&#34;http://sensors.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch project on Air Quality&lt;/a&gt;
 . All details are in &lt;a href=&#34;http://sospilot.readthedocs.org/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this online document.&lt;/a&gt;
- In essence we are (still) publishing and emitting Dutch National Air Quality data via a SOS server. At the same time, via GeoServer, using WMS-Time &lt;a href=&#34;http://sensors.geonovum.nl/heronviewer/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;via this web-client&lt;/a&gt;
-. On the way I found that the OGC-SOS Standard is complex and quite cumbersome in its usage. 52 North has provided &lt;a href=&#34;http://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/api-doc/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;a custom REST interface&lt;/a&gt;
- that appeals to be more usable. But SOS with its inner talk of “Procedures” and “Offerings” remains a Hot Potato.&lt;/p&gt;
+ In essence we are (still) publishing and emitting Dutch National Air Quality data via a SOS server. At the same time, via GeoServer, using WMS-Time &lt;a href=&#34;http://sensors.geonovum.nl/heronviewer/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;via this web-client&lt;/a&gt;
+. On the way I found that the OGC-SOS Standard is complex and quite cumbersome in its usage. 52 North has provided &lt;a href=&#34;http://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/api-doc/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;a custom REST interface&lt;/a&gt;
+ that appeals to be more usable. But SOS with its inner talk of “Procedures” and “Offerings” remains a Hot Potato.&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;http://sensors.geonovum.nl/heronviewer/&#34;&gt;
@@ -48,9 +48,9 @@
   
 &lt;/div&gt;
 
-&lt;p&gt;So the broader question is more about the OGC SOS standard and the related &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
-  : how we as an OSGeo-community think it should evolve within the expanding world of the IoT? My opinion is that we need to strive for more ease-of-use. SOS-as-standard is an academic challenge. A window to the future may be the OGC-effort initiated by Steve Liang: the SensorThings API not only provides a simplification from the original  &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
- but also a modern way of community-based cooperation of standards making via GtiHub: &lt;a href=&#34;http://ogc-iot.github.io/ogc-iot-api/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;http://ogc-iot.github.io/ogc-iot-api&lt;/a&gt;
+&lt;p&gt;So the broader question is more about the OGC SOS standard and the related &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
+  : how we as an OSGeo-community think it should evolve within the expanding world of the IoT? My opinion is that we need to strive for more ease-of-use. SOS-as-standard is an academic challenge. A window to the future may be the OGC-effort initiated by Steve Liang: the SensorThings API not only provides a simplification from the original  &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
+ but also a modern way of community-based cooperation of standards making via GtiHub: &lt;a href=&#34;http://ogc-iot.github.io/ogc-iot-api/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;http://ogc-iot.github.io/ogc-iot-api&lt;/a&gt;
 . Time will tell, a message in a bottle will also eventually arrive.&lt;/p&gt;
 
         

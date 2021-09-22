@@ -311,7 +311,7 @@ My recommendation is to let Terraform handle the basics, and have Ansible manage
 &lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-full wp-image-997&#34; src=&#34;../uploads/2021/01/combined2.png&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;214&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2021/01/combined2.png 800w, https://justobjects.nl/wp-content/uploads/2021/01/combined2-300x80.png 300w, https://justobjects.nl/wp-content/uploads/2021/01/combined2-768x205.png 768w, https://justobjects.nl/wp-content/uploads/2021/01/combined2-150x40.png 150w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;
 --&gt;
 &lt;p&gt;Now &lt;strong&gt;&lt;a href=&#34;https://streamyard.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;StreamYard&lt;/a&gt;
-&lt;/strong&gt; is a whole story by itself. In short it differs from all the well-known video-conf programs that it is a Cloud-based Broadcast Studio. Conceptually it is like making a real TV-show. There is a Stage (main screen) which can be “branded” in all sorts of creative, interactive ways: backgrounds, overlays, banners/tickers, video clips (e.g. for intro/outro or soapboxes), screen layouts, chat messages from viewers. All is controlled by one or more “hosts” (Dutch: “regisseurs”). Guests join “backstage” first and can be added to the “stage” when their item starts. And last but not least: the entire Stage can be streamed to multiple destinations at the same time like YouTube, Twitch.tv, LinkedIn etc. but also to custom RTMP servers. Viewers who missed the show could watch back later. StreamYard works completely in the browser, no installs needed. Ok, StreamYard is not Open Source, but their registration is very minimal: one only needs to provide an email adres to which a temporary login code is sent, no profile-filling etc. &lt;/p&gt;
+&lt;/strong&gt; is a whole story by itself. In short it differs from all the well-known video-conf programs that it is a Cloud-based Broadcast Studio. Conceptually it is like making a real TV-show. There is a Stage (main screen) which can be “branded” in all sorts of creative, interactive ways: backgrounds, overlays, banners/tickers, video clips (e.g. for intro/outro or soapboxes), screen layouts, chat messages from viewers. All is controlled by one or more “hosts” (Dutch: “regisseurs”). Guests join “backstage” first and can be added to the “stage” when their item starts. And last but not least: the entire Stage can be streamed to multiple destinations at the same time like YouTube, Twitch.tv, LinkedIn etc. but also to custom RTMP servers. Viewers who missed the show could watch back later. StreamYard works completely in the browser, no installs needed. Ok, StreamYard is not Open Source, but their registration is very minimal: one only needs to provide an email adres to which a temporary login code is sent, no profile-filling etc.&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
@@ -345,7 +345,7 @@ My recommendation is to let Terraform handle the basics, and have Ansible manage
 &lt;p&gt;Enough theory, show me the show! As said you can watch back all shows via &lt;strong&gt;&lt;a href=&#34;https://tv.osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;tv.osgeo.nl&lt;/a&gt;
 &lt;/strong&gt; or directly on the &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCvSAN6ur4RoGUqxtvmgsb8g&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl YouTube Channel&lt;/a&gt;
 &lt;/strong&gt;. Hell, you can even &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLJMEnRQpAfZqCkhGh3lb3KUnXssK7Sk6C&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;binge-watch all episodes&lt;/a&gt;
-&lt;/strong&gt;! &lt;/p&gt;
+&lt;/strong&gt;!&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://tv.osgeo.nl&#34;&gt;
@@ -364,7 +364,7 @@ My recommendation is to let Terraform handle the basics, and have Ansible manage
 &lt;/strong&gt;). We had some great guests in the show, also international guests, to name a few: Nadieh Bremer and Christian Mayer (&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zXIfCLbuVlI&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ep. 7 – Visualization Special&lt;/a&gt;
 &lt;/strong&gt;), Hugo Ledoux (TU Delft on 3D), Linda van den Brink (Geonovum) and Tom Kralidis (&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=3l_a5Up8Rgc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ep 11 – on OGC API Special&lt;/a&gt;
 &lt;/strong&gt;), Anita Graser (&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=lkfVQcp3bpI&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ep. 9 – QGIS Special&lt;/a&gt;
-&lt;/strong&gt;),  Naomi Bueno de Mesquita and Topi Tjukanov (&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rl4-tPbfxOE&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ep 12. MapTime Special&lt;/a&gt;
+&lt;/strong&gt;),  Naomi Bueno de Mesquita and Topi Tjukanov (&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rl4-tPbfxOE&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ep 12. MapTime Special&lt;/a&gt;
 &lt;/strong&gt;). The last show of 2020, &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HTgdEN3nb24&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ep. 13 Christmas Edition, was one big PubQuiz&lt;/a&gt;
 &lt;/strong&gt;.&lt;/p&gt;
 
@@ -557,10 +557,10 @@ My recommendation is to let Terraform handle the basics, and have Ansible manage
 &lt;li&gt;&lt;a href=&#34;https://mapproxy.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MapProxy&lt;/a&gt;
  – joined Program Steering Committee (PSC)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://access.crunchydata.com/documentation/pg_tileserv/latest/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pg_tileserv&lt;/a&gt;
- Vector Tiles directly  from PostGIS!&lt;br&gt;
+ Vector Tiles directly  from PostGIS!&lt;br&gt;
 Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/master/Dockerfile.alpine&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dockerfile&lt;/a&gt;
  and &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/tree/master/examples/docker&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker-example&lt;/a&gt;
- &lt;/li&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;more-contributions-8211-handy-docker-images&#34;&gt;More Contributions – Handy Docker Images&lt;/h3&gt;
 &lt;p&gt;To support many of the Cloud services and Open Source projects, I develop and maintain &lt;a href=&#34;https://github.com/search?q=user%3Ajustb4&amp;#43;docker-&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;handy Docker Images&lt;/a&gt;
@@ -576,12 +576,12 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapfish-print&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapfish-print&lt;/a&gt;
  – for MapFish Print &lt;strong&gt;version 3&lt;/strong&gt;. MapFish Print allows printing maps as PDFs.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapfish-print2&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapfish-print2&lt;/a&gt;
- – for MapFish Print &lt;strong&gt;version 2&lt;/strong&gt; – This version is still used in quite some contexts, at least for &lt;a href=&#34;https://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron&lt;/a&gt;
+ – for MapFish Print &lt;strong&gt;version 2&lt;/strong&gt; – This version is still used in quite some contexts, at least for &lt;a href=&#34;https://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron&lt;/a&gt;
  and &lt;a href=&#34;https://kadviewer.map5.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KadViewer&lt;/a&gt;
 .&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-rclone&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-rclone&lt;/a&gt;
  – Docker image to perform a &lt;a href=&#34;http://rclone.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;rclone&lt;/a&gt;
- sync based on a cron schedule, with &lt;a href=&#34;https://healthchecks.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;healthchecks.io&lt;/a&gt;
+ sync based on a cron schedule, with &lt;a href=&#34;https://healthchecks.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;healthchecks.io&lt;/a&gt;
  monitoring.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-pgbackup&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-pgbackup&lt;/a&gt;
  – automated/scheduled PostgreSQL/PostGIS backups for all PostgreSQL-based Docker Containers in its Docker-network. I think it is nifty: just run and forget: your Postgres backups are taken care of. Inspired by: &lt;a href=&#34;https://github.com/kartoza/docker-pg-backup&#34;&gt;https://github.com/kartoza/docker-pg-backup&lt;/a&gt;.&lt;/li&gt;
@@ -589,15 +589,15 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;p&gt;New Docker images developed in 2020:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapserver&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapserver&lt;/a&gt;
- – Slim Docker Image for MapServer with Lighttpd FastCGI.&lt;/li&gt;
+ – Slim Docker Image for MapServer with Lighttpd FastCGI.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapproxy&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapproxy&lt;/a&gt;
- – MapProxy Docker Image adapted, slimmed, from the &lt;a href=&#34;https://yagajs.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;YAGA Development-Team&lt;/a&gt;
+ – MapProxy Docker Image adapted, slimmed, from the &lt;a href=&#34;https://yagajs.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;YAGA Development-Team&lt;/a&gt;
 . &lt;a href=&#34;https://github.com/yagajs/docker-mapproxy/pull/18&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Awaiting PR merge&lt;/a&gt;
 .&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapproxy-mapserver&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapproxy-mapserver&lt;/a&gt;
  – Docker Image for MapProxy service with built-in MapServer binaries accessed directly (no MapServer service).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-cron&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-cron&lt;/a&gt;
- – Runs Unix cron, includes docker (compose) client for running remote Docker Images.&lt;/li&gt;
+ – Runs Unix cron, includes docker (compose) client for running remote Docker Images.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;osgeonl&#34;&gt;OSGeo.nl&lt;/h3&gt;
 &lt;p&gt;As chair of the board, still involved in the OSGeo Dutch Local Chapter, &lt;a href=&#34;https://osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl&lt;/a&gt;
@@ -638,7 +638,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;li&gt;More effort into &lt;a href=&#34;https://github.com/meggsimum/wegue&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wegue&lt;/a&gt;
  project&lt;/li&gt;
 &lt;li&gt;Get back into Kubernetes and containerism in general&lt;/li&gt;
-&lt;li&gt;Revive old GeoTracing projects  like &lt;a href=&#34;http://georambling.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;georambling.com&lt;/a&gt;
+&lt;li&gt;Revive old GeoTracing projects  like &lt;a href=&#34;http://georambling.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;georambling.com&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;HA projects: weather station, wildlife/bird cam, and AQ monitoring with &lt;a href=&#34;http://www.home-assistant.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Home Assistant&lt;/a&gt;
 &lt;/li&gt;
@@ -659,7 +659,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
       <description>
         
           &lt;p&gt;Overview of my professional life in 2019. Inspired by the concise bullet-point-style of Tom Kralidis’ &lt;a href=&#34;http://www.kralidis.ca/blog/2018/12/28/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cheers to 2018&lt;/a&gt;
-,  on which I based &lt;a href=&#34;http://justobjects.nl/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my previous Cheers to 2018.&lt;/a&gt;
+,  on which I based &lt;a href=&#34;https://justobjects.nl/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my previous Cheers to 2018.&lt;/a&gt;
  Highlights of living and working in the Open Source Geospatial and OSGeo(&lt;a href=&#34;https://osgeo.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;.nl&lt;/a&gt;
 |.&lt;a href=&#34;https://www.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;org&lt;/a&gt;
 )-world in 2019. Organized by “Theme” i.s.o. by month.&lt;/p&gt;
@@ -677,7 +677,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;/div&gt;
 --&gt;
 &lt;p&gt;My second highlight was joining the &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
- project. Had a &lt;a href=&#34;http://justobjects.nl/2nd-time-around-wfs-v3-pygeoapi/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;love/hate relationship with WFS&lt;/a&gt;
+ project. Had a &lt;a href=&#34;https://justobjects.nl/2nd-time-around-wfs-v3-pygeoapi/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;love/hate relationship with WFS&lt;/a&gt;
 , but the new &lt;a href=&#34;https://www.opengeospatial.org/standards/ogcapi-features&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenAPI direction in OGC&lt;/a&gt;
  and the great team behind the pygeoapi project made me want to be part of this. BTW pygeoapi &lt;span style=&#34;font-weight: 400;&#34;&gt;has just (Jan. 2020) received &lt;/span&gt;&lt;a href=&#34;https://www.opengeospatial.org/resource/products/details/?pid=1606&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&amp;lt;span style=&amp;#34;font-weight: 400;&amp;#34;&amp;gt;OGC Compliance Certification and Reference Implementation Status&amp;lt;/span&amp;gt;&lt;/a&gt;
  &lt;span style=&#34;font-weight: 400;&#34;&gt;for OGC API – Features specification.&lt;/span&gt;&lt;/p&gt;
@@ -685,7 +685,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;p&gt;Main focus. Seriously moving into hosting Geospatial Cloud Services, both as a source of income and to support/strengthen underlying open source projects. Warning: shameless ads below.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Throughout 2019 – expanded &lt;a href=&#34;https://map5.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5.nl&lt;/a&gt;
+&lt;p&gt;Throughout 2019 – expanded &lt;a href=&#34;https://map5.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5.nl&lt;/a&gt;
 , a subscription service for Dutch topographic, historical- and embellished hill-shade and arial maps I started to host in 2015.&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
@@ -736,9 +736,9 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;For the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Commission Joint Research Center&lt;/a&gt;
- (Ispra, Italy)  -deployed five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
+ (Ispra, Italy)  -deployed five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
  air-quality sensor-stations (NO2, NO, CO, O3) within the Netherlands, connecting these to the &lt;a href=&#34;https://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
-.  &lt;a href=&#34;https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;This blog-post&lt;/a&gt;
+.  &lt;a href=&#34;https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;This blog-post&lt;/a&gt;
  describes the overall setup and this &lt;a href=&#34;https://justobjects.nl/emit-6-airsenseur-calibration&#34;&gt;post the really good calibration results&lt;/a&gt;
 .&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
@@ -751,7 +751,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;li&gt;
 &lt;p&gt;For &lt;a href=&#34;https://www.nijmegen.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gemeente Nijmegen&lt;/a&gt;
  – integrated &lt;a href=&#34;https://luftdaten.info/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Luftdaten.info&lt;/a&gt;
- finedust  (PM10, PM25)  measurements within the &lt;a href=&#34;https://data.smartemission.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+ finedust  (PM10, PM25)  measurements within the &lt;a href=&#34;https://data.smartemission.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
  via Harvesting.&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
@@ -795,11 +795,11 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 --&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.stetl.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl&lt;/a&gt;
- – Geospatial ETL in Python, maintaining since 2011. Highlight: Py2 to Py3 migration, many thanks:  &lt;a href=&#34;https://github.com/borrob&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Rob van Loon&lt;/a&gt;
+ – Geospatial ETL in Python, maintaining since 2011. Highlight: Py2 to Py3 migration, many thanks:  &lt;a href=&#34;https://github.com/borrob&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Rob van Loon&lt;/a&gt;
 .&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://geohealthcheck.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
  – Service Status and QoS Checker for OGC Web Services – &lt;a href=&#34;https://github.com/geopython/GeoHealthCheck/pulls?q=is%3Apr&amp;#43;is%3Aclosed&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;39 PRs&lt;/a&gt;
- went in! Highlight: Py2 to Py3 migration, again many thanks:  &lt;a href=&#34;https://github.com/borrob&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Rob van Loon&lt;/a&gt;
+ went in! Highlight: Py2 to Py3 migration, again many thanks:  &lt;a href=&#34;https://github.com/borrob&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Rob van Loon&lt;/a&gt;
 . Even added ESRI Feature Server plugin!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
  – a Python server implementation of the &lt;a href=&#34;https://www.opengeospatial.org/blog/2996&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC API suite of standards&lt;/a&gt;
@@ -868,12 +868,12 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapfish-print&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapfish-print&lt;/a&gt;
  – for MapFish Print &lt;strong&gt;version 3&lt;/strong&gt;. MapFish Print allows printing maps as PDFs.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapfish-print2&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapfish-print2&lt;/a&gt;
- – for MapFish Print &lt;strong&gt;version 2&lt;/strong&gt; – This version is still used in quite some contexts, at least for &lt;a href=&#34;https://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron&lt;/a&gt;
+ – for MapFish Print &lt;strong&gt;version 2&lt;/strong&gt; – This version is still used in quite some contexts, at least for &lt;a href=&#34;https://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron&lt;/a&gt;
  and &lt;a href=&#34;https://kadviewer.map5.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KadViewer&lt;/a&gt;
 .&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-rclone&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-rclone&lt;/a&gt;
- – Docker image to perform a &lt;a href=&#34;http://rclone.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;rclone&lt;/a&gt;
- sync based on a cron schedule, with &lt;a href=&#34;https://healthchecks.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;healthchecks.io&lt;/a&gt;
+ – Docker image to perform a &lt;a href=&#34;http://rclone.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;rclone&lt;/a&gt;
+ sync based on a cron schedule, with &lt;a href=&#34;https://healthchecks.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;healthchecks.io&lt;/a&gt;
  monitoring.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-pgbackup&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-pgbackup&lt;/a&gt;
  – automated/scheduled PostgreSQL/PostGIS backups for all PostgreSQL-based Docker Containers in its Docker-network. I think it is nifty: just run and forget: your Postgres backups are taken care of. Inspired by: &lt;a href=&#34;https://github.com/kartoza/docker-pg-backup&#34;&gt;https://github.com/kartoza/docker-pg-backup&lt;/a&gt;.&lt;/li&gt;
@@ -892,7 +892,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;h3 id=&#34;conferences-8211-attended&#34;&gt;Conferences – Attended&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Jan 31-Feb 1 –  &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;TheThingsNetwork Conference&lt;/a&gt;
+&lt;p&gt;Jan 31-Feb 1 –  &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;TheThingsNetwork Conference&lt;/a&gt;
 . About &lt;a href=&#34;https://en.wikipedia.org/wiki/LoRa&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Lora(WAN)&lt;/a&gt;
 .&lt;/p&gt;
 &lt;/li&gt;
@@ -985,7 +985,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 --&gt;
 &lt;ul&gt;
 &lt;li&gt;For the &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
- (OGC API Features, “WFS3”,  in Python) Project&lt;br&gt;
+ (OGC API Features, “WFS3”,  in Python) Project&lt;br&gt;
 &lt;img src=&#34;https://justobjects.nl/uploads/2020/01/final-s.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
@@ -1101,14 +1101,14 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
       <guid>https://justobjects.nl/dances-with-the-geopython-tribe/</guid>
       <description>
         
-          &lt;p&gt;During June 21-24, 2016 I attended the very first &lt;a href=&#34;http://www.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoPython Conference in Basel Switzerland&lt;/a&gt;
+          &lt;p&gt;During June 21-24, 2016 I attended the very first &lt;a href=&#34;http://www.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoPython Conference in Basel Switzerland&lt;/a&gt;
 . This event was organized by the &lt;a href=&#34;http://www.fhnw.ch/habg/ivgi/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Institute of Geomatics Engineering of the FHNW – University of Applied Sciences and Arts Northwestern Switzerland&lt;/a&gt;
  and &lt;a href=&#34;http://www.meetup.com/PyBasel-Basel-Python-Meetup/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyBasel&lt;/a&gt;
-, the local Python User Group Northwestern Switzerland. In particular I should mention key-organizer  &lt;a href=&#34;https://www.linkedin.com/in/martinchristen&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Martin Christen&lt;/a&gt;
- from FHNW. He and his team made this into a such a great event that GeoPython 2017 is already planned. About 130 people attended, most from Europe, but also from other continents.  For a TL;DR the conference website &lt;a href=&#34;http://www.geopython.net&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.geopython.net&lt;/a&gt;
-  provides you all the details: not just the program, but also the “post-processing”: slides, photo’s (&lt;a href=&#34;https://www.flickr.com/photos/144781014@N02/sets/72157667869241134/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;on Flickr&lt;/a&gt;
-) etc.  The conference also included time and resources (room, food, beverages) for code-sprints. One of the outcomes of the conference-survey was to establish a public GeoPython mailing list at python.org. Details: to subscribe, send mail to:  &lt;u&gt;&lt;a href=&#34;mailto:GeoPython-subscribe@python.org&#34;&gt;GeoPython-subscribe@python.org&lt;/a&gt;
- &lt;/u&gt;with the keyword “subscribe” in the subject, or use the web-interface: &lt;a href=&#34;https://mail.python.org/mm3/mailman3/lists/geopython.python.org/&#34;&gt;https://mail.python.org/mm3/mailman3/lists/geopython.python.org/&lt;/a&gt;.&lt;/p&gt;
+, the local Python User Group Northwestern Switzerland. In particular I should mention key-organizer  &lt;a href=&#34;https://www.linkedin.com/in/martinchristen&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Martin Christen&lt;/a&gt;
+ from FHNW. He and his team made this into a such a great event that GeoPython 2017 is already planned. About 130 people attended, most from Europe, but also from other continents.  For a TL;DR the conference website &lt;a href=&#34;http://www.geopython.net&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.geopython.net&lt;/a&gt;
+  provides you all the details: not just the program, but also the “post-processing”: slides, photo’s (&lt;a href=&#34;https://www.flickr.com/photos/144781014@N02/sets/72157667869241134/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;on Flickr&lt;/a&gt;
+) etc.  The conference also included time and resources (room, food, beverages) for code-sprints. One of the outcomes of the conference-survey was to establish a public GeoPython mailing list at python.org. Details: to subscribe, send mail to:  &lt;u&gt;&lt;a href=&#34;mailto:GeoPython-subscribe@python.org&#34;&gt;GeoPython-subscribe@python.org&lt;/a&gt;
+ &lt;/u&gt;with the keyword “subscribe” in the subject, or use the web-interface: &lt;a href=&#34;https://mail.python.org/mm3/mailman3/lists/geopython.python.org/&#34;&gt;https://mail.python.org/mm3/mailman3/lists/geopython.python.org/&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&#34;float_right&#34;&gt;
   &lt;a href=&#34;http://www.geopython.net/&#34;&gt;
@@ -1119,22 +1119,22 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
   
 &lt;/div&gt;
 
-&lt;p&gt;So why a dedicated GeoPython conference? IMHO Python makes more and more  sense for Open Source geospatial development. Not just for custom geo-scripting or glueing with e.g. &lt;a href=&#34;http://gdal.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GDAL&lt;/a&gt;
+&lt;p&gt;So why a dedicated GeoPython conference? IMHO Python makes more and more  sense for Open Source geospatial development. Not just for custom geo-scripting or glueing with e.g. &lt;a href=&#34;http://gdal.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GDAL&lt;/a&gt;
 , or for developing plugins for &lt;a href=&#34;http://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/plugins.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;QGIS&lt;/a&gt;
  and &lt;a href=&#34;https://grass.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GRASS&lt;/a&gt;
-, but more and more as a mature framework language for geospatial processing and  OGC services. The projects &lt;a href=&#34;http://pywps.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyWPS&lt;/a&gt;
+, but more and more as a mature framework language for geospatial processing and  OGC services. The projects &lt;a href=&#34;http://pywps.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyWPS&lt;/a&gt;
  and &lt;a href=&#34;http://pycsw.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyCSW&lt;/a&gt;
- are an example of the latter. To access OGC services from Python clients there is &lt;a href=&#34;http://geopython.github.io/OWSLib/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OWSLib&lt;/a&gt;
-. Upcoming geospatial CMS frameworks like &lt;a href=&#34;http://geonode.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoNode&lt;/a&gt;
- and the very recent  &lt;a href=&#34;http://boundlessgeo.com/exchange/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Boundless Exchange&lt;/a&gt;
-, powered by GeoNode, show that Python has the potential to become “the new Java” within the Open Source geospatial world.&lt;/p&gt;
-&lt;p&gt;Did I say “Java”? Ok: did almost 20 years of Java, from the very first JDK somewhere in 95/96 (Applets!), through &lt;a href=&#34;https://en.wikipedia.org/wiki/Microsoft_Java_Virtual_Machine&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sun vs Microsoft over Java&lt;/a&gt;
-, from the heaviness of &lt;a href=&#34;https://en.wikipedia.org/wiki/Enterprise_JavaBeans&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;J2EE/EJB&lt;/a&gt;
+ are an example of the latter. To access OGC services from Python clients there is &lt;a href=&#34;http://geopython.github.io/OWSLib/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OWSLib&lt;/a&gt;
+. Upcoming geospatial CMS frameworks like &lt;a href=&#34;http://geonode.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoNode&lt;/a&gt;
+ and the very recent  &lt;a href=&#34;http://boundlessgeo.com/exchange/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Boundless Exchange&lt;/a&gt;
+, powered by GeoNode, show that Python has the potential to become “the new Java” within the Open Source geospatial world.&lt;/p&gt;
+&lt;p&gt;Did I say “Java”? Ok: did almost 20 years of Java, from the very first JDK somewhere in 95/96 (Applets!), through &lt;a href=&#34;https://en.wikipedia.org/wiki/Microsoft_Java_Virtual_Machine&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sun vs Microsoft over Java&lt;/a&gt;
+, from the heaviness of &lt;a href=&#34;https://en.wikipedia.org/wiki/Enterprise_JavaBeans&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;J2EE/EJB&lt;/a&gt;
 s, to the lighter weighings of &lt;a href=&#34;https://en.wikipedia.org/wiki/Spring_Framework&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Spring&lt;/a&gt;
-, the settling of Java as a backend/server technology. Sidestep: “Java” seems to be a central keyword in my family’s ancestry: &lt;a href=&#34;https://en.wikipedia.org/wiki/Pieter_van_den_Broecke&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my great-great grandfather was one of the first people in the world to drink a cup of Java&lt;/a&gt;
- and also was one of the first to set foot on the Indonesian island of Java, being on the same ship with &lt;a href=&#34;https://nl.wikipedia.org/wiki/Jan_Pieterszoon_Coen&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jan Pieterszoon Coen&lt;/a&gt;
+, the settling of Java as a backend/server technology. Sidestep: “Java” seems to be a central keyword in my family’s ancestry: &lt;a href=&#34;https://en.wikipedia.org/wiki/Pieter_van_den_Broecke&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my great-great grandfather was one of the first people in the world to drink a cup of Java&lt;/a&gt;
+ and also was one of the first to set foot on the Indonesian island of Java, being on the same ship with &lt;a href=&#34;https://nl.wikipedia.org/wiki/Jan_Pieterszoon_Coen&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jan Pieterszoon Coen&lt;/a&gt;
 . My grandfather lived for 20 years in &lt;a href=&#34;https://en.wikipedia.org/wiki/Malang&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Malang&lt;/a&gt;
- (East Java), working as a civil (Delft) engineer. But I am diverting. The colonial period was by times a violent (by the Dutch) episode in Dutch history, not to be proud of.&lt;/p&gt;
+ (East Java), working as a civil (Delft) engineer. But I am diverting. The colonial period was by times a violent (by the Dutch) episode in Dutch history, not to be proud of.&lt;/p&gt;
 
 &lt;div class=&#34;float_left&#34;&gt;
   &lt;a href=&#34;http://www.geopython.net/&#34;&gt;
@@ -1145,18 +1145,18 @@ s, to the lighter weighings of &lt;a href=&#34;https://en.wikipedia.org/wiki/Spr
   
 &lt;/div&gt;
 
-&lt;p&gt;But times they are a-changing, technologies are evolving. I am happy these days to develop in Python (and JavaScript for the web-frontend). Like moving from C/C++ to Java back then, and now from Java to Python, what appeals to me: shortened development times, lesser lines of code  to debug and maintain, ease of deployment, a central repository (&lt;a href=&#34;https://pypi.python.org/pypi&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyPi&lt;/a&gt;
-) , an independent, vibrant community and possibly more.  But again I am diverting, there are great and stable geo-products in Java like &lt;a href=&#34;http://geoserver.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoServer&lt;/a&gt;
+&lt;p&gt;But times they are a-changing, technologies are evolving. I am happy these days to develop in Python (and JavaScript for the web-frontend). Like moving from C/C++ to Java back then, and now from Java to Python, what appeals to me: shortened development times, lesser lines of code  to debug and maintain, ease of deployment, a central repository (&lt;a href=&#34;https://pypi.python.org/pypi&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyPi&lt;/a&gt;
+) , an independent, vibrant community and possibly more.  But again I am diverting, there are great and stable geo-products in Java like &lt;a href=&#34;http://geoserver.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoServer&lt;/a&gt;
  I use daily. Diversity in programming languages is good. Someone (&lt;a href=&#34;https://www.linkedin.com/in/jodygarnett&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jody Garnett&lt;/a&gt;
-?) posted somewhere about the C-tribe and Java-tribe within the Open Source geospatial world, but can’t find the reference. Back to the subject of this post!&lt;/p&gt;
+?) posted somewhere about the C-tribe and Java-tribe within the Open Source geospatial world, but can’t find the reference. Back to the subject of this post!&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Like said, the organizing team has done a great job postprocessing the event, to be found via &lt;a href=&#34;http://www.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.geopython.net&lt;/a&gt;
- so listing all talks/workshops will not add value here. My overall feeling was that this conference, like the very first &lt;a href=&#34;http://2006.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G in Lausanne&lt;/a&gt;
- I attended in 2006, was the beginning of a global community. Above all this was also an event where folks with a shared interest met and conversed. Often at conferences one learns and shares the most during breaks and social gatherings. In short: I learned a lot, being a relative newcomer in the geospatial Python community: GeoNode, GeoDjango, Python with Grass, and much more. For example I learned about some general Python technologies like the  &lt;a href=&#34;http://jupyter.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jupyter Notebook&lt;/a&gt;
- that many presenters used. I found that many (like me) are using &lt;a href=&#34;http://flask.pocoo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Flask&lt;/a&gt;
- for simple Python webapps/REST APIs. Flask expresses one of features I like about Python: minimalism.&lt;/p&gt;
-&lt;p&gt;I am grateful to the organizing team that I could &lt;a href=&#34;http://www.slideshare.net/justb4/geospatial-etl-with-stetl-geopython-2016&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;present Stetl&lt;/a&gt;
- in the last session on the last day, since I submitted past the deadline. Luckily the room was still filled, though the cold beer was tempting just ahead. Mind: during the conference there was a heatwave, above 30 degrees C each day, yes in Switzerland. But all in all this was a very cool conference! Hope to see you at GeoPython 2017!&lt;/p&gt;
+&lt;p&gt;Like said, the organizing team has done a great job postprocessing the event, to be found via &lt;a href=&#34;http://www.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.geopython.net&lt;/a&gt;
+ so listing all talks/workshops will not add value here. My overall feeling was that this conference, like the very first &lt;a href=&#34;http://2006.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G in Lausanne&lt;/a&gt;
+ I attended in 2006, was the beginning of a global community. Above all this was also an event where folks with a shared interest met and conversed. Often at conferences one learns and shares the most during breaks and social gatherings. In short: I learned a lot, being a relative newcomer in the geospatial Python community: GeoNode, GeoDjango, Python with Grass, and much more. For example I learned about some general Python technologies like the  &lt;a href=&#34;http://jupyter.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jupyter Notebook&lt;/a&gt;
+ that many presenters used. I found that many (like me) are using &lt;a href=&#34;http://flask.pocoo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Flask&lt;/a&gt;
+ for simple Python webapps/REST APIs. Flask expresses one of features I like about Python: minimalism.&lt;/p&gt;
+&lt;p&gt;I am grateful to the organizing team that I could &lt;a href=&#34;http://www.slideshare.net/justb4/geospatial-etl-with-stetl-geopython-2016&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;present Stetl&lt;/a&gt;
+ in the last session on the last day, since I submitted past the deadline. Luckily the room was still filled, though the cold beer was tempting just ahead. Mind: during the conference there was a heatwave, above 30 degrees C each day, yes in Switzerland. But all in all this was a very cool conference! Hope to see you at GeoPython 2017!&lt;/p&gt;
 
         
       </description>

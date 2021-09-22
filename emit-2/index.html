@@ -17,13 +17,13 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="This is Emit #2, in a series of blog-posts around the Smart Emission Platform , an Open Source software component framework that facilitates the acquisition, …">
+<meta name="description" content="This is Emit #2, in a series of blog-posts around the Smart Emission Platform , an Open Source software component framework that facilitates the acquisition, …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@justb4">
 <meta name="twitter:title" content="Emit #2 – On Air Quality Sensors" />
 <meta property="og:url" content="https://justobjects.nl/emit-2/" />
 <meta property="og:title" content="Emit #2 – On Air Quality Sensors" />
-<meta property="og:description" content="This is Emit #2, in a series of blog-posts around the Smart Emission Platform , an Open Source software component framework that facilitates the acquisition, …" />
+<meta property="og:description" content="This is Emit #2, in a series of blog-posts around the Smart Emission Platform , an Open Source software component framework that facilitates the acquisition, …" />
 <meta property="og:image" content="https://justobjects.nl/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://justobjects.nl/icons/apple-touch-icon.png">
@@ -185,36 +185,36 @@
 
     
     <p>This is Emit #2, in a <a href="/categories/smartemission/">series of blog-posts around the Smart Emission Platform</a>
-, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality. In <a href="/emit-1/">Emit #1</a>
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality. In <a href="/emit-1/">Emit #1</a>
 , the big picture of the platform was sketched. Subsequent Emits will detail technical aspects of the SE Platform. “Follow the data” will be the main trail loosely adhered to.</p>
 <p><img src="/uploads/2018/01/arch-big-picture.jpg" alt=" "></p>
-<p>In this Emit I will talk a bit about sensors as the data flow originates there. Mind, this is not my area of expertise, but much of the SE platform, in particular data processing (ETL),  is built around challenges of dealing with (cheap) sensors for Air Quality.</p>
+<p>In this Emit I will talk a bit about sensors as the data flow originates there. Mind, this is not my area of expertise, but much of the SE platform, in particular data processing (ETL),  is built around challenges of dealing with (cheap) sensors for Air Quality.</p>
 <p><img src="/uploads/2018/01/cheap-aq-sensors.jpg" alt=" "></p>
 <p>Previously I posted about meteo sensors and weather stations (<a href="/into-the-weather-part-1/">part 1</a>
 , <a href="/into-the-weather-part-2-fun-with-raspberry-pi/">part 2</a>
 , <a href="/into-the-weather-part-3/">part 3</a>
-): how to connect a weather station to a Raspberry Pi and publish weather data “to the cloud”.  Now this was relatively easy, due to the availability of:</p>
+): how to connect a weather station to a Raspberry Pi and publish weather data “to the cloud”.  Now this was relatively easy, due to the availability of:</p>
 <ul>
-<li>affordable hardware, like meteo sensors and <a href="https://www.wunderground.com/weatherstation/buyingguide.asp" target="_blank" rel="noreferrer noopener">Personal Weather Stations</a>
+<li>affordable hardware, like meteo sensors and <a href="https://www.wunderground.com/weatherstation/buyingguide.asp" target="_blank" rel="noreferrer noopener">Personal Weather Stations</a>
 </li>
-<li>Open Source software to collect, store and visualize data like <a href="http://www.weewx.com/" target="_blank" rel="noreferrer noopener">weewx</a>
+<li>Open Source software to collect, store and visualize data like <a href="http://www.weewx.com/" target="_blank" rel="noreferrer noopener">weewx</a>
 </li>
 <li>community cloud services like <a href="https://www.wunderground.com/" target="_blank" rel="noreferrer noopener">Weather Underground</a>
  and <a href="https://wow.metoffice.gov.uk/" target="_blank" rel="noreferrer noopener">Met Office WOW</a>
- to publish your data</li>
+ to publish your data</li>
 </ul>
-<p>So without any programming, you can be “in business” quite quickly with your personal weather station. In addition: meteo sensors (temperature, humidity, pressure, wind, rain) in general produce relatively “clean/interpretable data”. From a cheap  sensor like the <a href="https://www.adafruit.com/product/385" target="_blank" rel="noreferrer noopener">$9,95 DH22 Temperature Humidity Sensor</a>
-, it is relatively straightforward to read-out temperature and humidity via an Arduino Board or Raspberry Pi. Personal Weather Stations provide even more internal software, so most meteo data comes out in well-known units (Fahrenheit/Celsius, HectoPascal, etc).</p>
-<p>Now this is a whole different story for (cheap) Air Quality sensors.  It begins with the fact that measuring Air Quality indicators like Carbon Monoxide/Dioxide (CO, CO2), Nitrogen Monoxide/Dioxide (NO, NO2), Particulate Matter (PM, i.e. fine dust), Ozone (O3) <em>requires many ways …, with both simple chemical and physical methods and with more sophisticated electronic techniques</em> (from <a href="http://www.enviropedia.org.uk/Air_Quality/Measuring.php" target="_blank" rel="noreferrer noopener">www.enviropedia.org.uk</a>
+<p>So without any programming, you can be “in business” quite quickly with your personal weather station. In addition: meteo sensors (temperature, humidity, pressure, wind, rain) in general produce relatively “clean/interpretable data”. From a cheap  sensor like the <a href="https://www.adafruit.com/product/385" target="_blank" rel="noreferrer noopener">$9,95 DH22 Temperature Humidity Sensor</a>
+, it is relatively straightforward to read-out temperature and humidity via an Arduino Board or Raspberry Pi. Personal Weather Stations provide even more internal software, so most meteo data comes out in well-known units (Fahrenheit/Celsius, HectoPascal, etc).</p>
+<p>Now this is a whole different story for (cheap) Air Quality sensors.  It begins with the fact that measuring Air Quality indicators like Carbon Monoxide/Dioxide (CO, CO2), Nitrogen Monoxide/Dioxide (NO, NO2), Particulate Matter (PM, i.e. fine dust), Ozone (O3) <em>requires many ways …, with both simple chemical and physical methods and with more sophisticated electronic techniques</em> (from <a href="http://www.enviropedia.org.uk/Air_Quality/Measuring.php" target="_blank" rel="noreferrer noopener">www.enviropedia.org.uk</a>
 ). While techniques for measuring weather data have evolved for maybe hundreds of years, measuring Air Quality is relatively new and mostly within the domain of “chemistry”, and when it comes to sensors, very expensive.</p>
 <p>Recently, this has changed. Not only are governmental environmental agencies facing lowering budgets, but more importantly, a growing number of civilian initiatives want to “take things in their own hand” with respect to measuring Air Quality. As a result more and more affordable/cheap sensors and creative solutions like the <a href="http://ispex.nl/" target="_blank" rel="noreferrer noopener">iSpex</a>
  (measure PM on your iPhone) are entering the market. But given the (chemical) complexity, <a href="https://www.sciencedirect.com/science/article/pii/S0160412016309989" target="_blank" rel="noreferrer noopener">how reliable are these sensors</a>
 ? Is the data that they produce readily usable? Like with Celsius to Fahrenheit, is it a matter of providing some simple formula?</p>
 <p>IMHO unfortunately not, but things are getting better as time passes. It also depends on the chemical component you want to measure. For example, Nitrogen Dioxide (NO2) and Ozone (O3) appear to be much harder to measure than CO/CO2. Particulate Matter is a whole story by itself as one deals with, well, “dust” in many shapes and especially sizes (PM10, PM2.5, PM1).</p>
 <p><img src="/uploads/2018/01/cheapaq.jpg" alt=" "></p>
-<p>There is ample research for the quest of finding cheap AQ sensors: their limitations, reliabilities, particularities. Within the Smart Emission Project, I am working with RIVM, the <a href="http://rivm.nl/" target="_blank" rel="noreferrer noopener">Dutch National Institute for Public Health and the Environment</a>
- and the <a href="https://ec.europa.eu/jrc/en" target="_blank" rel="noreferrer noopener">European Union Joint Research Centre</a>
- (JRC), who both did extensive research on cheap AQ sensors. I know there is much more, but forgot to mention that the main message of this Emit is that <em><strong>“measuring AQ has far more challenges than measuring weather data”</strong></em>. One of the main conclusions, again IMHO, is that, yes, it is possible (to use cheap AQ sensors), but one has to do <strong><em>Calibration</em></strong>. Below some links if you are interested in the state of RIVM and EU JRC research:</p>
+<p>There is ample research for the quest of finding cheap AQ sensors: their limitations, reliabilities, particularities. Within the Smart Emission Project, I am working with RIVM, the <a href="http://rivm.nl/" target="_blank" rel="noreferrer noopener">Dutch National Institute for Public Health and the Environment</a>
+ and the <a href="https://ec.europa.eu/jrc/en" target="_blank" rel="noreferrer noopener">European Union Joint Research Centre</a>
+ (JRC), who both did extensive research on cheap AQ sensors. I know there is much more, but forgot to mention that the main message of this Emit is that <em><strong>“measuring AQ has far more challenges than measuring weather data”</strong></em>. One of the main conclusions, again IMHO, is that, yes, it is possible (to use cheap AQ sensors), but one has to do <strong><em>Calibration</em></strong>. Below some links if you are interested in the state of RIVM and EU JRC research:</p>
 <ul>
 <li>RIVM – <a href="http://www.rivm.nl/dsresource?objectid=420a3851-7bae-4a1b-8c57-587422cb21b4&amp;type=org&amp;disposition=inline" target="_blank" rel="noreferrer noopener">Luchtkwaliteit meten met sensoren</a>
  (Measuring AQ with Sensors), J. Wesseling et al, sorry in Dutch.</li>
@@ -234,9 +234,9 @@
 <p>In the course of the project I was fortunate to follow a workshop at <a href="https://ec.europa.eu/jrc/en" target="_blank" rel="noreferrer noopener">EU JRC</a>
  for their amazing Open Hardware/Software product <a href="http://www.airsenseur.org/" target="_blank" rel="noreferrer noopener">AirSensEUR</a>
 . At the spot each of us assembled a complete ASE, connecting these to standard web services like SOS. The ASE Open Hardware approach also allows it to embed a multitude of sensor types and brands. The workshop had participants from the major national environmental agencies in Europe. In fact RIVM is now <a href="https://www.samenmetenaanluchtkwaliteit.nl/airsenseur" target="_blank" rel="noreferrer noopener">deploying and testing about 18 AirSensEURs</a>
-. Coming year I have the task to deploy five ASEs within The Netherlands. Two of them are already  humming at my desk for testing.</p>
+. Coming year I have the task to deploy five ASEs within The Netherlands. Two of them are already  humming at my desk for testing.</p>
 <p><img src="/uploads/2018/01/ase-jo.jpg" alt="AirSensEUR #2 at my desk"></p>
-<p>Describing AirSensEUR would require a full post by itself. Quoting: <em>“AirSensEUR is an open framework focused on air quality monitoring using low cost sensors. The project started on 2014 from a group of passionate researchers and engineers. The framework is composed by a set of electronic boards, firmware, and several software applications.”</em></p>
+<p>Describing AirSensEUR would require a full post by itself. Quoting: <em>“AirSensEUR is an open framework focused on air quality monitoring using low cost sensors. The project started on 2014 from a group of passionate researchers and engineers. The framework is composed by a set of electronic boards, firmware, and several software applications.”</em></p>
 <p><img src="/uploads/2018/01/airsenseur.jpg" alt="EU JRC AirSensEURs"></p>
 <p>So currently (jan 2018) the SE Platform supports both the Josene/Jose and AirSensEUR sensor devices.</p>
 
@@ -249,7 +249,7 @@
   
 </div>
 
-<p>The Air Quality sensor data coming out of  these devices still requires cleanup and  Calibration. This is part of the data handling within the SE platform, subject of one of the upcoming Emits.</p>
+<p>The Air Quality sensor data coming out of  these devices still requires cleanup and  Calibration. This is part of the data handling within the SE platform, subject of one of the upcoming Emits.</p>
 <p>This post was meant to give you a taste of the challenges around using (cheap) sensors for Air Quality and introduce the two sensor devices (Josene, AirSensEUR) currently used/supported by the Smart Emission Platform. Many details are still to be uncovered. These will be subjects of upcoming Emits.</p>
 
 

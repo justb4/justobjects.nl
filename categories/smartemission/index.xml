@@ -17,7 +17,7 @@
       <description>
         
           &lt;p&gt;Overview of my professional life in 2019. Inspired by the concise bullet-point-style of Tom Kralidis’ &lt;a href=&#34;http://www.kralidis.ca/blog/2018/12/28/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cheers to 2018&lt;/a&gt;
-,  on which I based &lt;a href=&#34;http://justobjects.nl/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my previous Cheers to 2018.&lt;/a&gt;
+,  on which I based &lt;a href=&#34;https://justobjects.nl/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my previous Cheers to 2018.&lt;/a&gt;
  Highlights of living and working in the Open Source Geospatial and OSGeo(&lt;a href=&#34;https://osgeo.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;.nl&lt;/a&gt;
 |.&lt;a href=&#34;https://www.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;org&lt;/a&gt;
 )-world in 2019. Organized by “Theme” i.s.o. by month.&lt;/p&gt;
@@ -35,7 +35,7 @@
 &lt;/div&gt;
 --&gt;
 &lt;p&gt;My second highlight was joining the &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
- project. Had a &lt;a href=&#34;http://justobjects.nl/2nd-time-around-wfs-v3-pygeoapi/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;love/hate relationship with WFS&lt;/a&gt;
+ project. Had a &lt;a href=&#34;https://justobjects.nl/2nd-time-around-wfs-v3-pygeoapi/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;love/hate relationship with WFS&lt;/a&gt;
 , but the new &lt;a href=&#34;https://www.opengeospatial.org/standards/ogcapi-features&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenAPI direction in OGC&lt;/a&gt;
  and the great team behind the pygeoapi project made me want to be part of this. BTW pygeoapi &lt;span style=&#34;font-weight: 400;&#34;&gt;has just (Jan. 2020) received &lt;/span&gt;&lt;a href=&#34;https://www.opengeospatial.org/resource/products/details/?pid=1606&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&amp;lt;span style=&amp;#34;font-weight: 400;&amp;#34;&amp;gt;OGC Compliance Certification and Reference Implementation Status&amp;lt;/span&amp;gt;&lt;/a&gt;
  &lt;span style=&#34;font-weight: 400;&#34;&gt;for OGC API – Features specification.&lt;/span&gt;&lt;/p&gt;
@@ -43,7 +43,7 @@
 &lt;p&gt;Main focus. Seriously moving into hosting Geospatial Cloud Services, both as a source of income and to support/strengthen underlying open source projects. Warning: shameless ads below.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Throughout 2019 – expanded &lt;a href=&#34;https://map5.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5.nl&lt;/a&gt;
+&lt;p&gt;Throughout 2019 – expanded &lt;a href=&#34;https://map5.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5.nl&lt;/a&gt;
 , a subscription service for Dutch topographic, historical- and embellished hill-shade and arial maps I started to host in 2015.&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
@@ -94,9 +94,9 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;For the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Commission Joint Research Center&lt;/a&gt;
- (Ispra, Italy)  -deployed five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
+ (Ispra, Italy)  -deployed five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
  air-quality sensor-stations (NO2, NO, CO, O3) within the Netherlands, connecting these to the &lt;a href=&#34;https://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
-.  &lt;a href=&#34;https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;This blog-post&lt;/a&gt;
+.  &lt;a href=&#34;https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;This blog-post&lt;/a&gt;
  describes the overall setup and this &lt;a href=&#34;https://justobjects.nl/emit-6-airsenseur-calibration&#34;&gt;post the really good calibration results&lt;/a&gt;
 .&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
@@ -109,7 +109,7 @@
 &lt;li&gt;
 &lt;p&gt;For &lt;a href=&#34;https://www.nijmegen.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gemeente Nijmegen&lt;/a&gt;
  – integrated &lt;a href=&#34;https://luftdaten.info/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Luftdaten.info&lt;/a&gt;
- finedust  (PM10, PM25)  measurements within the &lt;a href=&#34;https://data.smartemission.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+ finedust  (PM10, PM25)  measurements within the &lt;a href=&#34;https://data.smartemission.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
  via Harvesting.&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
@@ -153,11 +153,11 @@
 --&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.stetl.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl&lt;/a&gt;
- – Geospatial ETL in Python, maintaining since 2011. Highlight: Py2 to Py3 migration, many thanks:  &lt;a href=&#34;https://github.com/borrob&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Rob van Loon&lt;/a&gt;
+ – Geospatial ETL in Python, maintaining since 2011. Highlight: Py2 to Py3 migration, many thanks:  &lt;a href=&#34;https://github.com/borrob&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Rob van Loon&lt;/a&gt;
 .&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://geohealthcheck.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
  – Service Status and QoS Checker for OGC Web Services – &lt;a href=&#34;https://github.com/geopython/GeoHealthCheck/pulls?q=is%3Apr&amp;#43;is%3Aclosed&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;39 PRs&lt;/a&gt;
- went in! Highlight: Py2 to Py3 migration, again many thanks:  &lt;a href=&#34;https://github.com/borrob&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Rob van Loon&lt;/a&gt;
+ went in! Highlight: Py2 to Py3 migration, again many thanks:  &lt;a href=&#34;https://github.com/borrob&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Rob van Loon&lt;/a&gt;
 . Even added ESRI Feature Server plugin!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
  – a Python server implementation of the &lt;a href=&#34;https://www.opengeospatial.org/blog/2996&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC API suite of standards&lt;/a&gt;
@@ -226,12 +226,12 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapfish-print&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapfish-print&lt;/a&gt;
  – for MapFish Print &lt;strong&gt;version 3&lt;/strong&gt;. MapFish Print allows printing maps as PDFs.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapfish-print2&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapfish-print2&lt;/a&gt;
- – for MapFish Print &lt;strong&gt;version 2&lt;/strong&gt; – This version is still used in quite some contexts, at least for &lt;a href=&#34;https://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron&lt;/a&gt;
+ – for MapFish Print &lt;strong&gt;version 2&lt;/strong&gt; – This version is still used in quite some contexts, at least for &lt;a href=&#34;https://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron&lt;/a&gt;
  and &lt;a href=&#34;https://kadviewer.map5.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KadViewer&lt;/a&gt;
 .&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-rclone&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-rclone&lt;/a&gt;
- – Docker image to perform a &lt;a href=&#34;http://rclone.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;rclone&lt;/a&gt;
- sync based on a cron schedule, with &lt;a href=&#34;https://healthchecks.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;healthchecks.io&lt;/a&gt;
+ – Docker image to perform a &lt;a href=&#34;http://rclone.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;rclone&lt;/a&gt;
+ sync based on a cron schedule, with &lt;a href=&#34;https://healthchecks.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;healthchecks.io&lt;/a&gt;
  monitoring.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-pgbackup&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-pgbackup&lt;/a&gt;
  – automated/scheduled PostgreSQL/PostGIS backups for all PostgreSQL-based Docker Containers in its Docker-network. I think it is nifty: just run and forget: your Postgres backups are taken care of. Inspired by: &lt;a href=&#34;https://github.com/kartoza/docker-pg-backup&#34;&gt;https://github.com/kartoza/docker-pg-backup&lt;/a&gt;.&lt;/li&gt;
@@ -250,7 +250,7 @@
 &lt;h3 id=&#34;conferences-8211-attended&#34;&gt;Conferences – Attended&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Jan 31-Feb 1 –  &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;TheThingsNetwork Conference&lt;/a&gt;
+&lt;p&gt;Jan 31-Feb 1 –  &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;TheThingsNetwork Conference&lt;/a&gt;
 . About &lt;a href=&#34;https://en.wikipedia.org/wiki/LoRa&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Lora(WAN)&lt;/a&gt;
 .&lt;/p&gt;
 &lt;/li&gt;
@@ -343,7 +343,7 @@
 --&gt;
 &lt;ul&gt;
 &lt;li&gt;For the &lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
- (OGC API Features, “WFS3”,  in Python) Project&lt;br&gt;
+ (OGC API Features, “WFS3”,  in Python) Project&lt;br&gt;
 &lt;img src=&#34;https://justobjects.nl/uploads/2020/01/final-s.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
@@ -379,10 +379,10 @@
       <description>
         
           &lt;p&gt;This is Emit #6, in a &lt;a href=&#34;https://justobjects.nl/categories/smartemission/&#34;&gt;series of blog-posts around the Smart Emission Platform&lt;/a&gt;
-, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.&lt;/p&gt;
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.&lt;/p&gt;
 &lt;p&gt;In &lt;a href=&#34;https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;Emit #5 – Assembling and Deploying 5 AirSensEURs…&lt;/a&gt;
 , I described how , with the great help of Jan Vonk from RIVM, we placed five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
- (ASE) air quality stations at the RIVM reference site near the A2 Highway at Breukelen. For about 2.5 months raw data was gathered there while the RIVM station was gathering its data to be used as reference for calibration.&lt;/p&gt;
+ (ASE) air quality stations at the RIVM reference site near the A2 Highway at Breukelen. For about 2.5 months raw data was gathered there while the RIVM station was gathering its data to be used as reference for calibration.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/airsenseur-deploy-combined-s.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;!--
 &lt;img loading=&#34;lazy&#34; class=&#34;aligncenter  wp-image-864&#34; src=&#34;uploads/2019/02/airsenseur-deploy-combined-s-1024x537.jpg&#34; alt=&#34;&#34; width=&#34;555&#34; height=&#34;291&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2019/02/airsenseur-deploy-combined-s.jpg 1024w, https://justobjects.nl/wp-content/uploads/2019/02/airsenseur-deploy-combined-s-300x157.jpg 300w, https://justobjects.nl/wp-content/uploads/2019/02/airsenseur-deploy-combined-s-768x403.jpg 768w, https://justobjects.nl/wp-content/uploads/2019/02/airsenseur-deploy-combined-s-150x79.jpg 150w&#34; sizes=&#34;(max-width: 555px) 100vw, 555px&#34; /&gt;
@@ -405,7 +405,7 @@
 &lt;li&gt;O3 (Ozone): the &lt;a href=&#34;http://www.alphasense.com/index.php/products/ozone-2/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OX_A431&lt;/a&gt;
 , see &lt;a href=&#34;http://www.alphasense.com/WEB1213/wp-content/uploads/2018/12/OXA431.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;datasheet&lt;/a&gt;
 .&lt;/li&gt;
-&lt;li&gt;CO (Carbon Monoxide): the &lt;a href=&#34;http://www.alphasense.com/index.php/products/carbon-monoxide-safety/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CO-A4&lt;/a&gt;
+&lt;li&gt;CO (Carbon Monoxide): the &lt;a href=&#34;http://www.alphasense.com/index.php/products/carbon-monoxide-safety/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CO-A4&lt;/a&gt;
 , see &lt;a href=&#34;http://www.alphasense.com/WEB1213/wp-content/uploads/2017/01/COA4.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;datasheet&lt;/a&gt;
 .&lt;/li&gt;
 &lt;/ul&gt;
@@ -419,8 +419,8 @@
 &lt;/div&gt;
 --&gt;
 &lt;p&gt;The calibration to be applied is based on &lt;a href=&#34;https://en.wikipedia.org/wiki/Regression_analysis&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Regression Analysis&lt;/a&gt;
-. This and other calibration-methods have been investigated and evaluated for many types/brands of sensors by the EC-JRC team. Read all in this &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S092540051500355X&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;landmark article&lt;/a&gt;
- and other references there. &lt;/p&gt;
+. This and other calibration-methods have been investigated and evaluated for many types/brands of sensors by the EC-JRC team. Read all in this &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S092540051500355X&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;landmark article&lt;/a&gt;
+ and other references there.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/field-calibration-article.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;!--
 &lt;img loading=&#34;lazy&#34; class=&#34;wp-image-862 aligncenter&#34; src=&#34;uploads/2019/02/field-calibration-article.png&#34; alt=&#34;&#34; width=&#34;404&#34; height=&#34;251&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2019/02/field-calibration-article.png 665w, https://justobjects.nl/wp-content/uploads/2019/02/field-calibration-article-300x186.png 300w, https://justobjects.nl/wp-content/uploads/2019/02/field-calibration-article-150x93.png 150w&#34; sizes=&#34;(max-width: 404px) 100vw, 404px&#34; /&gt;
@@ -437,7 +437,7 @@ All ASEs deployed at their target locations&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Nov/dec 2018&lt;br&gt;
-Calibration performed by Michel Gerboles at the EC-JRC lab &lt;/p&gt;
+Calibration performed by Michel Gerboles at the EC-JRC lab&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Jan 2019&lt;br&gt;
@@ -460,7 +460,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/ase-nl-1-5-deployed.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;ASE_NL 01 was deployed at an RIVM site in Nijmegen. This allowed us to verify its calibration with different reference data as with which it was calibrated! See below.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/deployment-map-s.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;ad 3)&lt;/strong&gt; The calibration was performed by EC-JRC (M. Gerboles) using R and ShinyR webapp. All sources can be found in this &lt;a href=&#34;https://github.com/ec-jrc/airsenseur-calibration&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EC-JRC GitHub repo&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;ad 3)&lt;/strong&gt; The calibration was performed by EC-JRC (M. Gerboles) using R and ShinyR webapp. All sources can be found in this &lt;a href=&#34;https://github.com/ec-jrc/airsenseur-calibration&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EC-JRC GitHub repo&lt;/a&gt;
 . This process is quite intricate and a bit hard to explain in the context of a blog-post paragraph. I’ll try a summary:&lt;/p&gt;
 &lt;p&gt;Sensor values are digital readings (0..65535). This is effected by the electrical circuitry within each ASE, for optimal gain. To calculate back to mV and nA a per-sensor (brand+type) calculation is required first before applying any regression formula. A bit is explained in the image below.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/readings-vref.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
@@ -475,7 +475,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/scatterplots-asenl03.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Above some scatterplots made for ASE Box 3 NO2 and O3.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;ad 4)&lt;/strong&gt; Knowing all equations and their parameters from step 3 above, I attempted to integrate this in the continuous ETL within the Smart Emission Platform. Up to now the platform supported only a single sensor station type: the Intemo Jose(ne). As the platform is fed by harvesting raw data from a set of remote APIs provided by Data Collectors, it was relatively easy to add sensor(-station)-metadata and extend the Refiner ETL to apply calibration algorithms driven by that metadata. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ad 4)&lt;/strong&gt; Knowing all equations and their parameters from step 3 above, I attempted to integrate this in the continuous ETL within the Smart Emission Platform. Up to now the platform supported only a single sensor station type: the Intemo Jose(ne). As the platform is fed by harvesting raw data from a set of remote APIs provided by Data Collectors, it was relatively easy to add sensor(-station)-metadata and extend the Refiner ETL to apply calibration algorithms driven by that metadata.&lt;/p&gt;
 &lt;p&gt;So for Josene stations the existing ANN calibration would still be applied, while for ASE stations per-sensor linear equations would be performed. All parameterization was already configurable using the &lt;a href=&#34;https://github.com/smartemission/docker-se-stetl/tree/mast&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Device, DeviceDefs, DeviceFuncs&lt;/a&gt;
  abstractions in the &lt;a href=&#34;https://github.com/smartemission/docker-se-stetl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SE Stetl implementation&lt;/a&gt;
 . Recently, to allow stations that already send calibrated values, I introduced the &lt;a href=&#34;https://github.com/smartemission/docker-se-stetl/blob/master/smartem/devices/vanilla.py&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Vanilla Device&lt;/a&gt;
@@ -488,10 +488,10 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;I = 10^9 V/(Gain x Rload)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;STEP 2 - Ampere (I) to concentration (ug/m3) - Example
 &lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;I=a0+a1*NO2+a2*T
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;==&amp;gt; NO2 = (I - a0 - a2 * T) / a1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;==&amp;gt; NO2 = (I - a0 - a2 * T) / a1
 &lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;a0-a2 has specific values for each NO2-B43F sensor.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now that these formulas and their parameters were implemented, near-realtime values could be made visible in all SE apps (viewers) and APIs such as the &lt;a href=&#34;https://data.smartemission.nl/smartapp/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SmartApp&lt;/a&gt;
- and the &lt;a href=&#34;https://data.smartemission.nl/heron/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron Viewer&lt;/a&gt;
+ and the &lt;a href=&#34;https://data.smartemission.nl/heron/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron Viewer&lt;/a&gt;
 .&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
@@ -517,7 +517,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;p&gt;Objectivity could be effected since station ASE NL 01 was finally deployed (okt 2018) in Nijmegen, also next to an RIVM station. So the calibration calculations from RIVM refdata in Breukelen could be compared to “Nijmegen”. The implementation for making these scatterplots can be found &lt;a href=&#34;https://github.com/smartemission/smartemission/tree/master/etl/calibration&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;here&lt;/a&gt;
 . Lets look at some results, mainly for NO2, as I consider this one of the most important AQ indicator gasses.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/nijm-ruy-no2-ASE_NL01-2018-12-25-2019-01-24.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
-&lt;p&gt;I like this image a lot as it shows an almost ideal alignment with an R2 of 0.976 and slope of almost 1. Mind: calibration was thus done at a very different site (about 80 km west) and AQ condition (highway) as the deployment (city street). &lt;/p&gt;
+&lt;p&gt;I like this image a lot as it shows an almost ideal alignment with an R2 of 0.976 and slope of almost 1. Mind: calibration was thus done at a very different site (about 80 km west) and AQ condition (highway) as the deployment (city street).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/asenl01-se-pycal-plots.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Above are plots for the other gasses as well. First row in Breukelen (no ref CO available in RIVM SOS), front row in Nijmegen. Only NO in Nijmegen is a bit problematic.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
@@ -540,7 +540,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
       <description>
         
           &lt;p&gt;Never too late to look back. Inspired by the concise bullet-point-style of Tom Kralidis’ &lt;a href=&#34;http://www.kralidis.ca/blog/2018/12/28/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cheers to 2018&lt;/a&gt;
-,  my personal highlights of living and working in the Open Source Geospatial and OSGeo(.nl|org)-world in 2018. I’ll post 2019 reso’s later. Not just personal projects, but also events from the &lt;a href=&#34;https://osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl Local Chapter&lt;/a&gt;
+,  my personal highlights of living and working in the Open Source Geospatial and OSGeo(.nl|org)-world in 2018. I’ll post 2019 reso’s later. Not just personal projects, but also events from the &lt;a href=&#34;https://osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl Local Chapter&lt;/a&gt;
  in which I am involved since its beginnings.&lt;/p&gt;
 &lt;h3 id=&#34;january&#34;&gt;January&lt;/h3&gt;
 &lt;ul&gt;
@@ -555,7 +555,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
  (what would OSGeo.nl be without Erik?) and &lt;a href=&#34;https://www.un-ihe.org/hans-van-der-kwast&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hans van der Kwast&lt;/a&gt;
  (IHE).&lt;/li&gt;
 &lt;li&gt;Started working on a contract for the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Commission Joint Research Center&lt;/a&gt;
- (Ispra, Italy)  to deploy five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
+ (Ispra, Italy)  to deploy five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
  air-quality stations within the Netherlands, connecting these to the &lt;a href=&#34;https://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
 . More in &lt;a href=&#34;https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this blog-post&lt;/a&gt;
 .&lt;/li&gt;
@@ -564,11 +564,11 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;ul&gt;
 &lt;li&gt;As first-timer went to &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;TheThingsNetwork Conference&lt;/a&gt;
 . What an amazing event! For some years already into &lt;a href=&#34;https://en.wikipedia.org/wiki/LoRa&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Lora(WAN)&lt;/a&gt;
- and maintaining a TTN Gateway, I learned so much, also from the workshops there, that I wrote a &lt;a href=&#34;http://justobjects.nl/emit-3/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;separate blog-post about this event&lt;/a&gt;
+ and maintaining a TTN Gateway, I learned so much, also from the workshops there, that I wrote a &lt;a href=&#34;https://justobjects.nl/emit-3/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;separate blog-post about this event&lt;/a&gt;
 .&lt;/li&gt;
 &lt;li&gt;Started contracting (eventually until sept 30, 2018) at Dutch Kadaster to migrate the entire Smart Emission (SE) Platform to Kadaster infrastructure. Initially just migrating the &lt;a href=&#34;https://cloud.docker.com/u/smartemission/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SE Docker Images&lt;/a&gt;
 , normally two-weeks (to be honest, a day’s) work, BUT, as a (nice) surprise learned we had to move SE “To The Cloud”, that is to &lt;a href=&#34;https://azure.microsoft.com/en-us/services/kubernetes-service/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Azure Kubernetes (AKS)&lt;/a&gt;
-, well that kept me and one Kadaster-colleague (learned a lot from you Gerwin!) busy till end of september at least  2-3 days a week!&lt;/li&gt;
+, well that kept me and one Kadaster-colleague (learned a lot from you Gerwin!) busy till end of september at least  2-3 days a week!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;march&#34;&gt;March&lt;/h3&gt;
 &lt;ul&gt;
@@ -579,7 +579,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 ) which required a re-architecture of GHC. But more importantly socializing with Tom and other folks there, well, Bonn, need I say more…Thanks organizers: &lt;a href=&#34;https://wiki.osgeo.org/wiki/Astrid_Emde&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Astrid Emde&lt;/a&gt;
  et al. for this great week!&lt;/li&gt;
 &lt;li&gt;In that same codesprint week I also attended several talks at the yearly &lt;a href=&#34;https://fossgis-konferenz.de/2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSSGIS Conference&lt;/a&gt;
-  there. The FOSSGIS Conference is a major event in Europe as it involves all German-speaking (DACH) countries, plus their OpenStreetMap communities. Even with my high-school German language knowledge very well to follow.  As an exception to the rule I was grateful to be allowed to give a &lt;a href=&#34;https://geohealthcheck.org/presentation/#/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck presentation&lt;/a&gt;
+  there. The FOSSGIS Conference is a major event in Europe as it involves all German-speaking (DACH) countries, plus their OpenStreetMap communities. Even with my high-school German language knowledge very well to follow.  As an exception to the rule I was grateful to be allowed to give a &lt;a href=&#34;https://geohealthcheck.org/presentation/#/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck presentation&lt;/a&gt;
  in English. Thanks to &lt;a href=&#34;https://www.ccc.de&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CCC&lt;/a&gt;
 , FOSSGIS always videotapes all talks, so you can &lt;a href=&#34;https://media.ccc.de/v/2018-5294-geohealthcheck&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;watch some of my stuttering here&lt;/a&gt;
 .&lt;/li&gt;
@@ -588,7 +588,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;ul&gt;
 &lt;li&gt;With OSGeo.nl we and our community-members more and more try to organize small, hands-on events that are lightweight to organize. The &lt;a href=&#34;https://osgeo.nl/2018/04/verslag-nlextract-hacking-day/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLExtract Hacking Day&lt;/a&gt;
  was a success! Thanks to organizer Frank Steggink (who also wrote the report), and a great space offered by &lt;a href=&#34;https://www.webmapper.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WebMapper&lt;/a&gt;
- (Edward MacGillavry) in the &lt;a href=&#34;https://sifutrecht.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Social Impact Factory Utrecht.&lt;/a&gt;
+ (Edward MacGillavry) in the &lt;a href=&#34;https://sifutrecht.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Social Impact Factory Utrecht.&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;may&#34;&gt;May&lt;/h3&gt;
@@ -617,10 +617,10 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;li&gt;Heat-wave more and more building up.. But that did not stop the great OSGeo.nl organizing team to host the second &lt;a href=&#34;https://foss4g.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G-NL in Almere&lt;/a&gt;
 . July 10-11. Kudos to Erik Meerburg and team for two great days of workshops and conf!&lt;/li&gt;
 &lt;li&gt;At the FOSS4G-NL I had the honor to &lt;a href=&#34;https://www.slideshare.net/justb4/osgeonlopeningfoss4gnl2018&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;open the conference&lt;/a&gt;
- and  present the &lt;a href=&#34;https://geoforum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;national Dutch GeoForum: geoforum.nl.&lt;/a&gt;
- We jointly (Kadaster, WebMapper, OSGeo.nl) extended the existing Dutch Kadaster PDOK Forum. As OSGeo.nl we did not want to launch yet another forum but to bundle forces.  Since that launch hundreds of folks registered.&lt;/li&gt;
+ and  present the &lt;a href=&#34;https://geoforum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;national Dutch GeoForum: geoforum.nl.&lt;/a&gt;
+ We jointly (Kadaster, WebMapper, OSGeo.nl) extended the existing Dutch Kadaster PDOK Forum. As OSGeo.nl we did not want to launch yet another forum but to bundle forces.  Since that launch hundreds of folks registered.&lt;/li&gt;
 &lt;li&gt;Week after: off to &lt;a href=&#34;https://foss4g-europe.osgeopt.pt/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G-EU&lt;/a&gt;
- in &lt;a href=&#34;https://en.wikipedia.org/wiki/Guimar%C3%A3es&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Guimarães&lt;/a&gt;
+ in &lt;a href=&#34;https://en.wikipedia.org/wiki/Guimar%C3%A3es&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Guimarães&lt;/a&gt;
 ,Portugal. FOSS4G-EU is always something special. Folks gather from literally every country in Europe. From the Baltic States to Croatia. In a cosy atmosphere &lt;a href=&#34;https://wiki.osgeo.org/wiki/Jorge_Gustavo_Rocha&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Jorge Gustavo Rocha&lt;/a&gt;
  and the LOC made this into a great event. Great talks during the day and every evening (and sometimes nights) in this small-town university city it was easy to find and gather with the OSGeo-folks on the main square &lt;a href=&#34;https://en.wikipedia.org/wiki/Historic_Centre_of_Guimar%C3%A3es&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Largo da Oliveira&lt;/a&gt;
 .&lt;/li&gt;
@@ -698,7 +698,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 ? Yes, the &lt;a href=&#34;https://postgisdag.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PostGIS Day&lt;/a&gt;
 ! That’s exactly what the LOC team (Steven M. Ottens and Tom van Tilburg) organized. Deliberately keeping it low-profile to attract high-profile PostGIS hackers. And how they did! The format was an &lt;a href=&#34;https://en.wikipedia.org/wiki/Unconference&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;unconference&lt;/a&gt;
 . Even as a considered PostGIS veteran (starting with a PostGIS workshop from &lt;a href=&#34;http://2006.foss4g.org/contributionDisplay0b28.html?contribId=47&amp;amp;sessionId=61&amp;amp;confId=1&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Paul Ramsey in Lausanne 2006&lt;/a&gt;
-) my  brain was crushing hearing stuff like from &lt;a href=&#34;http://www.gdmc.nl/martijn/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Martijn Meijers&lt;/a&gt;
+) my  brain was crushing hearing stuff like from &lt;a href=&#34;http://www.gdmc.nl/martijn/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Martijn Meijers&lt;/a&gt;
  - &lt;em&gt;&lt;a href=&#34;https://www.google.com/search?q=Indexing&amp;#43;AIS&amp;#43;data&amp;#43;%2F&amp;#43;point&amp;#43;clouds&amp;#43;with&amp;#43;a&amp;#43;Space&amp;#43;Filling&amp;#43;Curve&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;aq=t&amp;amp;channel=rcs&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Indexing AIS data / point clouds with a Space Filling Curve&lt;/a&gt;
 &lt;/em&gt;.&lt;/p&gt;
 
@@ -717,7 +717,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Through my various projects thinking: All GeoData is Spatio-Temporal. Presented in Eindhoven at a Ruimteschepper event: &lt;em&gt;LoRaWAN TheThingsNetwork makers event&lt;/em&gt;. &lt;a href=&#34;https://www.slideshare.net/justb4/open-sensor-networks-with-lora-ttn-and-sensorthings-api&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Slides are here&lt;/a&gt;
-.  For one thing attempted to bridge the world of IoT with OGC SensorWeb via the &lt;a href=&#34;https://en.wikipedia.org/wiki/SensorThings_API&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SensorThings API&lt;/a&gt;
+.  For one thing attempted to bridge the world of IoT with OGC SensorWeb via the &lt;a href=&#34;https://en.wikipedia.org/wiki/SensorThings_API&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SensorThings API&lt;/a&gt;
  in a PoC.&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
@@ -759,11 +759,11 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
       <description>
         
           &lt;p&gt;This is Emit #5, in a &lt;a href=&#34;https://justobjects.nl/category/smartemission/&#34;&gt;series of blog-posts around the Smart Emission Platform&lt;/a&gt;
-, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.&lt;/p&gt;
-&lt;p&gt;Summer holidays and a heat-wave strikes The Netherlands. Time for some lighter material mainly told in pictures. As highlighted in &lt;a href=&#34;http://justobjects.nl/emit-2/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emit #2&lt;/a&gt;
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.&lt;/p&gt;
+&lt;p&gt;Summer holidays and a heat-wave strikes The Netherlands. Time for some lighter material mainly told in pictures. As highlighted in &lt;a href=&#34;https://justobjects.nl/emit-2/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emit #2&lt;/a&gt;
 , I have the honor of doing a project for the &lt;a href=&#34;https://ec.europa.eu/info/departments/joint-research-centre_en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Union Joint Research Centre&lt;/a&gt;
-  (EU JRC), to deploy five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
- (ASE) boxes within The Netherlands, attaching these to the &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+  (EU JRC), to deploy five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
+ (ASE) boxes within The Netherlands, attaching these to the &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
  in cooperation with &lt;a href=&#34;https://www.rivm.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RIVM&lt;/a&gt;
  (National Institute for Public Health and the Environment). The ASE boxes measure four Air Quality (AQ) indicators: NO2 (Nitrogen Dioxide), NO (Nitrogen Monoxide), O3 (Ozone) and CO (Carbon Monoxide) plus meteo (Temp, Humidity, Air Pressure) and GPS. Read more on ASE &lt;a href=&#34;http://publications.jrc.ec.europa.eu/repository/bitstream/JRC109337/jrc109337_airsenseur_part_c_jrc_technical_report_inspire.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;in this article&lt;/a&gt;
 .&lt;/p&gt;
@@ -780,7 +780,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;p&gt;The ASE is an Open Hard/Software platform that can be configured with multiple brands/types of sensors. In the current case all four above mentioned AQ sensors are from &lt;a href=&#34;http://www.alphasense.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AlphaSense&lt;/a&gt;
 . As these are relatively cheap sensors (&amp;lt; $100,-), the challenge is to have these calibrated before final deployment. This calibration is done by placing the ASE boxes first at an RIVM station, gather data for a month or two and then calibrate these sensors from official RIVM reference measurements at the same location. Using both the raw ASE data and the RIVM reference data the calibration “formulae” can be determined, before placing the ASEs at their final deployment locations around The Netherlands and have the Smart Emission Platform assemble/publish the (calibrated) data for the next year or so. More info on AirSensEUR via &lt;a href=&#34;https://www.google.com/search?q=airsenseur&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this Google Search&lt;/a&gt;
 .&lt;/p&gt;
-&lt;p&gt;Ok, picture time!  Explanatory text is below each picture.&lt;/p&gt;
+&lt;p&gt;Ok, picture time!  Explanatory text is below each picture.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/08/asenl-unbox-assemble-deploy-9.jpg&#34; alt=&#34;1. ASEs unboxed&#34;&gt;&lt;/p&gt;
 &lt;!--
 &lt;div id=&#34;attachment_787&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
@@ -846,7 +846,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;/p&gt;
 &lt;/div&gt;
 --&gt;
-&lt;p&gt;Picture 6. A good start, but next we need to go out and place the boxes at the RIVM station for a period of calibration. So tearing down, packing, all into the trunk of my car. Up to the RIVM station! July 30, 2018, Still 35 degrees C outside.&lt;/p&gt;
+&lt;p&gt;Picture 6. A good start, but next we need to go out and place the boxes at the RIVM station for a period of calibration. So tearing down, packing, all into the trunk of my car. Up to the RIVM station! July 30, 2018, Still 35 degrees C outside.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/08/asenl-unbox-assemble-deploy-3.jpg&#34; alt=&#34;7. The RIVM sensor station, right near the highway&#34;&gt;&lt;/p&gt;
 &lt;!--
 &lt;div id=&#34;attachment_796&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
@@ -955,8 +955,8 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
       <description>
         
           &lt;p&gt;This is Emit #4, in a &lt;a href=&#34;https://justobjects.nl/categories/smartemission/&#34;&gt;series of blog-posts around the Smart Emission Platform&lt;/a&gt;
-, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.&lt;/p&gt;
-&lt;p&gt;A lot of things have happened with the project since the &lt;a href=&#34;http://justobjects.nl/emit-3/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;last Emit #3&lt;/a&gt;
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.&lt;/p&gt;
+&lt;p&gt;A lot of things have happened with the project since the &lt;a href=&#34;https://justobjects.nl/emit-3/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;last Emit #3&lt;/a&gt;
  (feb 2018 already). The main news is that the SE Platform is now being migrated to the national Dutch GDI services infrastructure, &lt;a href=&#34;https://www.pdok.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PDOK&lt;/a&gt;
 . This infrastructure, entirely built with OSGeo software, is maintained by the &lt;a href=&#34;https://www.kadaster.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch Kadaster&lt;/a&gt;
  and already (since 2010) provides open access to Dutch geospatial datasets and -services including the Dutch INSPIRE access point. Having the SE Platform hosted and maintained within PDOK gives a tremendous opportunity for long-term evolution and stability beyond its initial project-based funding.&lt;/p&gt;
@@ -964,17 +964,17 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
  Cloud roll-out. This could be the subject of an entire post by itself. For this we’re setting up a &lt;a href=&#34;https://github.com/smartemission&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;fresh GitHub organization&lt;/a&gt;
 , plus &lt;a href=&#34;https://hub.docker.com/r/smartemission/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SE Docker Images via DockerHub&lt;/a&gt;
 . All work-in-progress but first results are already tangible.&lt;/p&gt;
-&lt;p&gt;So what’s this Push or Pull about? As announced in &lt;a href=&#34;http://justobjects.nl/emit-1/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emit #1&lt;/a&gt;
+&lt;p&gt;So what’s this Push or Pull about? As announced in &lt;a href=&#34;https://justobjects.nl/emit-1/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emit #1&lt;/a&gt;
 , I’ll try to explain the SE architecture “by following the data”. So sensor data is acquired by sensor stations constantly, 24 hours a day, and lots of it. To give somewhat of a figure: within the SE project the &lt;a href=&#34;http://www.snuffle.org/doku.php?id=josene&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Intemo Sensor Station “Josene”&lt;/a&gt;
- station provides more than 100 different sensor values, “indicators”. These range from meteo-data like Temperature, Humidity, Pressure, to Air Quality values for NO2 (Nitrogen Dioxide), CO2 (Carbon Dioxide), O3 (Ozone), finedust (PM) and audio/noise indicators (sound pressure) like Decibels (A) min/max/average for about 30 frequency bands (see image below).&lt;/p&gt;
+ station provides more than 100 different sensor values, “indicators”. These range from meteo-data like Temperature, Humidity, Pressure, to Air Quality values for NO2 (Nitrogen Dioxide), CO2 (Carbon Dioxide), O3 (Ozone), finedust (PM) and audio/noise indicators (sound pressure) like Decibels (A) min/max/average for about 30 frequency bands (see image below).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/04/sound-josene.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
-&lt;p&gt;Values for these about 100 indicators are sampled about every 20 seconds. Even with about one hundred Josene sensor stations currently one can imagine this will produce “a lot of data” to say the least. O yes, and we also like to keep all data, i.e. maintain history…Josene sensor-stations are connected via Wifi and will have to send their data to “somewhere”. Eventually, a user will need to view/consume sensor-data via an app, like the &lt;a href=&#34;http://data.smartemission.nl/smartapp/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SmartApp&lt;/a&gt;
+&lt;p&gt;Values for these about 100 indicators are sampled about every 20 seconds. Even with about one hundred Josene sensor stations currently one can imagine this will produce “a lot of data” to say the least. O yes, and we also like to keep all data, i.e. maintain history…Josene sensor-stations are connected via Wifi and will have to send their data to “somewhere”. Eventually, a user will need to view/consume sensor-data via an app, like the &lt;a href=&#34;http://data.smartemission.nl/smartapp/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SmartApp&lt;/a&gt;
  (see image below), or web-services without being overwhelmed.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/04/smartapp.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
-&lt;p&gt;So how does the SE Platform deal with this potential tsunami of data? Well, the keywords are Buffering, Harvesting and Aggregation. Back to following the data. Each Josense sensor station will constantly push its data to what is called a &lt;em&gt;&lt;strong&gt;Data Collector&lt;/strong&gt;&lt;/em&gt; within the SE architecture. A Data Collector is basically a buffer (server) that will store bulk “timeseries” data for each station. Data is stored in bulk, i.e. not every sample is stored in an individual record but as blobs. The granularity is one blob per station/per day/per hour.  This already reduces data records to 24 blobs per day per station. A lot of storage but a reasonable number of records. Also remind: this is raw, unvalidated, unaggregated data. Best is to first show a picture from the global architecture as below.&lt;/p&gt;
+&lt;p&gt;So how does the SE Platform deal with this potential tsunami of data? Well, the keywords are Buffering, Harvesting and Aggregation. Back to following the data. Each Josense sensor station will constantly push its data to what is called a &lt;em&gt;&lt;strong&gt;Data Collector&lt;/strong&gt;&lt;/em&gt; within the SE architecture. A Data Collector is basically a buffer (server) that will store bulk “timeseries” data for each station. Data is stored in bulk, i.e. not every sample is stored in an individual record but as blobs. The granularity is one blob per station/per day/per hour.  This already reduces data records to 24 blobs per day per station. A lot of storage but a reasonable number of records. Also remind: this is raw, unvalidated, unaggregated data. Best is to first show a picture from the global architecture as below.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/04/se-global-arch.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Starting at the bottom of the picture above: Sensors send (push) their raw data to their attached Data Collector. Currently this even happens outside the SE Platform: the two Data Collectors from the left are maintained by our partners Intemo (Intemo Data Collector) and CityGIS (CityGIS Data Collector) within their own premises. In the course of the project we have been adding another Data Collector based on InfluxDB for the AirSensEUR. Also the RIVM SOS is viewed as a Data Collector for purposes of Calibration (for another Emit).&lt;/p&gt;
-&lt;p&gt;The important notice is that the SE Platform deploys &lt;em&gt;&lt;strong&gt;Harvesters&lt;/strong&gt;&lt;/em&gt; that constantly &lt;em&gt;&lt;strong&gt;Pull&lt;/strong&gt;&lt;/em&gt; the raw data from a series of Data Collectors. So this is where the Push/Pull decoupling is realized. For this (Pull) we have developed a simple &lt;a href=&#34;https://github.com/Geonovum/smartemission/tree/master/docs/specs/rawsensor-api&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Raw Sensor REST API&lt;/a&gt;
+&lt;p&gt;The important notice is that the SE Platform deploys &lt;em&gt;&lt;strong&gt;Harvesters&lt;/strong&gt;&lt;/em&gt; that constantly &lt;em&gt;&lt;strong&gt;Pull&lt;/strong&gt;&lt;/em&gt; the raw data from a series of Data Collectors. So this is where the Push/Pull decoupling is realized. For this (Pull) we have developed a simple &lt;a href=&#34;https://github.com/Geonovum/smartemission/tree/master/docs/specs/rawsensor-api&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Raw Sensor REST API&lt;/a&gt;
  nicknamed the &lt;em&gt;&lt;strong&gt;Whale API&lt;/strong&gt;&lt;/em&gt;. Each Data Collector exposes its buffered bulk data (history) as JSON Blobs via this very simple API, independent from its internal storage technology. One may ask: why all this unnecessary indirection? Basically, here we have the Push/Pull decoupling realized. This gave us many advantages:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Sensors only need “one IP-address to send to”&lt;/li&gt;
@@ -1006,7 +1006,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
       <description>
         
           &lt;p&gt;This is Emit #3, in a &lt;a href=&#34;https://justobjects.nl/categories/smartemission/&#34;&gt;series of blog-posts around the Smart Emission Platform&lt;/a&gt;
-, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality. In &lt;a href=&#34;https://justobjects.nl/emit-1/&#34;&gt;Emit #1&lt;/a&gt;
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality. In &lt;a href=&#34;https://justobjects.nl/emit-1/&#34;&gt;Emit #1&lt;/a&gt;
 , the big picture of the platform was sketched. Subsequent Emits will detail technical aspects of the SE Platform. “Follow the data” will be the main trail loosely adhered to.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/arch-big-picture.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Three weeks ago since &lt;a href=&#34;https://justobjects.nl/emit-2/&#34;&gt;Emit #2&lt;/a&gt;
@@ -1015,20 +1015,20 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;li&gt;went to &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The Things Conference&lt;/a&gt;
 , all about &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;building a LoRaWAN network&lt;/a&gt;
  with an open global community.&lt;/li&gt;
-&lt;li&gt;started at Dutch Kadaster to migrate the Smart Emission Platform  into the &lt;a href=&#34;https://www.pdok.nl/en/about-pdok&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National GDI PDOK&lt;/a&gt;
+&lt;li&gt;started at Dutch Kadaster to migrate the Smart Emission Platform  into the &lt;a href=&#34;https://www.pdok.nl/en/about-pdok&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National GDI PDOK&lt;/a&gt;
 .&lt;/li&gt;
 &lt;li&gt;Elaborated the &lt;a href=&#34;http://www.opengeospatial.org/standards/sensorthings&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorThings API&lt;/a&gt;
- (STA) to see if it can replace &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
+ (STA) to see if it can replace &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
  (SOS).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;A lot to expand on. Will try to briefly summarize on The Things Conference, LoRA and LoRaWAN and save the other tech for later Emits.&lt;/p&gt;
+&lt;p&gt;A lot to expand on. Will try to briefly summarize on The Things Conference, LoRA and LoRaWAN and save the other tech for later Emits.&lt;/p&gt;
 &lt;p&gt;LoRA and LoRaWAN may sound like a sidestep, but are very much related to for example building a network of Air Quality and other environmental sensors. When deploying such sensors two issues always arise:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;power: need continuous electricity to keep sensors and their computing boards powered&lt;/li&gt;
 &lt;li&gt;transmission: need cabled Internet, WIFI or cellular data to transmit sensor-data&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In short, LoRa/LoRaWAN (LoRa=Long Range) is basically a wireless RF technology for long-&lt;wbr /&gt;range, low-power and low-throughput communications. You may find many references on the web like from the &lt;a href=&#34;https://www.lora-alliance.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;LoRa Alliance&lt;/a&gt;
- and &lt;a href=&#34;https://www.semtech.com/technology/lora&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SemTech&lt;/a&gt;
+&lt;p&gt;In short, LoRa/LoRaWAN (LoRa=Long Range) is basically a wireless RF technology for long-&lt;wbr /&gt;range, low-power and low-throughput communications. You may find many references on the web like from the &lt;a href=&#34;https://www.lora-alliance.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;LoRa Alliance&lt;/a&gt;
+ and &lt;a href=&#34;https://www.semtech.com/technology/lora&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SemTech&lt;/a&gt;
 . There is lots of buzz around LoRa. But just like the, &lt;a href=&#34;https://wirelessleiden.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wireless Leiden project&lt;/a&gt;
 , who built a public WIFI network around the city, &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The ThingsNetwork&lt;/a&gt;
  has embraced LoRa technology to build a world-wide open, community-driven, “overlay network”:&lt;/p&gt;
@@ -1054,8 +1054,8 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   
 &lt;/div&gt;
 
-&lt;p&gt;And &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The ThingsNetwork&lt;/a&gt;
- (TTN) was established in Amsterdam, The Netherlands. As an individual you can extend The Things Network by deploying a &lt;a href=&#34;https://www.thethingsnetwork.org/docs/gateways/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gateway&lt;/a&gt;
+&lt;p&gt;And &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The ThingsNetwork&lt;/a&gt;
+ (TTN) was established in Amsterdam, The Netherlands. As an individual you can extend The Things Network by deploying a &lt;a href=&#34;https://www.thethingsnetwork.org/docs/gateways/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gateway&lt;/a&gt;
 . Via the TTN KickStarter project, I was one of the first backers, already in 2015. The interest was overwhelming, even leading to (Gateway) delivery problems. But a LoRa Gateway to extend TTN is almost a commodity now. You can even &lt;a href=&#34;https://www.thethingsnetwork.org/docs/gateways/start/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;build one yourself&lt;/a&gt;
 . TTN is very much tied to the whole “DIY makers movement”. All TTN designs and code (on &lt;a href=&#34;https://github.com/thethingsnetwork&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
 ) are open. Below a global architecture picture from their site.&lt;/p&gt;
@@ -1099,36 +1099,36 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
       <description>
         
           &lt;p&gt;This is Emit #2, in a &lt;a href=&#34;https://justobjects.nl/categories/smartemission/&#34;&gt;series of blog-posts around the Smart Emission Platform&lt;/a&gt;
-, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality. In &lt;a href=&#34;https://justobjects.nl/emit-1/&#34;&gt;Emit #1&lt;/a&gt;
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality. In &lt;a href=&#34;https://justobjects.nl/emit-1/&#34;&gt;Emit #1&lt;/a&gt;
 , the big picture of the platform was sketched. Subsequent Emits will detail technical aspects of the SE Platform. “Follow the data” will be the main trail loosely adhered to.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/arch-big-picture.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
-&lt;p&gt;In this Emit I will talk a bit about sensors as the data flow originates there. Mind, this is not my area of expertise, but much of the SE platform, in particular data processing (ETL),  is built around challenges of dealing with (cheap) sensors for Air Quality.&lt;/p&gt;
+&lt;p&gt;In this Emit I will talk a bit about sensors as the data flow originates there. Mind, this is not my area of expertise, but much of the SE platform, in particular data processing (ETL),  is built around challenges of dealing with (cheap) sensors for Air Quality.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/cheap-aq-sensors.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Previously I posted about meteo sensors and weather stations (&lt;a href=&#34;https://justobjects.nl/into-the-weather-part-1/&#34;&gt;part 1&lt;/a&gt;
 , &lt;a href=&#34;https://justobjects.nl/into-the-weather-part-2-fun-with-raspberry-pi/&#34;&gt;part 2&lt;/a&gt;
 , &lt;a href=&#34;https://justobjects.nl/into-the-weather-part-3/&#34;&gt;part 3&lt;/a&gt;
-): how to connect a weather station to a Raspberry Pi and publish weather data “to the cloud”.  Now this was relatively easy, due to the availability of:&lt;/p&gt;
+): how to connect a weather station to a Raspberry Pi and publish weather data “to the cloud”.  Now this was relatively easy, due to the availability of:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;affordable hardware, like meteo sensors and &lt;a href=&#34;https://www.wunderground.com/weatherstation/buyingguide.asp&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Personal Weather Stations&lt;/a&gt;
+&lt;li&gt;affordable hardware, like meteo sensors and &lt;a href=&#34;https://www.wunderground.com/weatherstation/buyingguide.asp&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Personal Weather Stations&lt;/a&gt;
 &lt;/li&gt;
-&lt;li&gt;Open Source software to collect, store and visualize data like &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+&lt;li&gt;Open Source software to collect, store and visualize data like &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;community cloud services like &lt;a href=&#34;https://www.wunderground.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Weather Underground&lt;/a&gt;
  and &lt;a href=&#34;https://wow.metoffice.gov.uk/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Met Office WOW&lt;/a&gt;
- to publish your data&lt;/li&gt;
+ to publish your data&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;So without any programming, you can be “in business” quite quickly with your personal weather station. In addition: meteo sensors (temperature, humidity, pressure, wind, rain) in general produce relatively “clean/interpretable data”. From a cheap  sensor like the &lt;a href=&#34;https://www.adafruit.com/product/385&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;$9,95 DH22 Temperature Humidity Sensor&lt;/a&gt;
-, it is relatively straightforward to read-out temperature and humidity via an Arduino Board or Raspberry Pi. Personal Weather Stations provide even more internal software, so most meteo data comes out in well-known units (Fahrenheit/Celsius, HectoPascal, etc).&lt;/p&gt;
-&lt;p&gt;Now this is a whole different story for (cheap) Air Quality sensors.  It begins with the fact that measuring Air Quality indicators like Carbon Monoxide/Dioxide (CO, CO2), Nitrogen Monoxide/Dioxide (NO, NO2), Particulate Matter (PM, i.e. fine dust), Ozone (O3) &lt;em&gt;requires many ways …, with both simple chemical and physical methods and with more sophisticated electronic techniques&lt;/em&gt; (from &lt;a href=&#34;http://www.enviropedia.org.uk/Air_Quality/Measuring.php&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.enviropedia.org.uk&lt;/a&gt;
+&lt;p&gt;So without any programming, you can be “in business” quite quickly with your personal weather station. In addition: meteo sensors (temperature, humidity, pressure, wind, rain) in general produce relatively “clean/interpretable data”. From a cheap  sensor like the &lt;a href=&#34;https://www.adafruit.com/product/385&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;$9,95 DH22 Temperature Humidity Sensor&lt;/a&gt;
+, it is relatively straightforward to read-out temperature and humidity via an Arduino Board or Raspberry Pi. Personal Weather Stations provide even more internal software, so most meteo data comes out in well-known units (Fahrenheit/Celsius, HectoPascal, etc).&lt;/p&gt;
+&lt;p&gt;Now this is a whole different story for (cheap) Air Quality sensors.  It begins with the fact that measuring Air Quality indicators like Carbon Monoxide/Dioxide (CO, CO2), Nitrogen Monoxide/Dioxide (NO, NO2), Particulate Matter (PM, i.e. fine dust), Ozone (O3) &lt;em&gt;requires many ways …, with both simple chemical and physical methods and with more sophisticated electronic techniques&lt;/em&gt; (from &lt;a href=&#34;http://www.enviropedia.org.uk/Air_Quality/Measuring.php&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.enviropedia.org.uk&lt;/a&gt;
 ). While techniques for measuring weather data have evolved for maybe hundreds of years, measuring Air Quality is relatively new and mostly within the domain of “chemistry”, and when it comes to sensors, very expensive.&lt;/p&gt;
 &lt;p&gt;Recently, this has changed. Not only are governmental environmental agencies facing lowering budgets, but more importantly, a growing number of civilian initiatives want to “take things in their own hand” with respect to measuring Air Quality. As a result more and more affordable/cheap sensors and creative solutions like the &lt;a href=&#34;http://ispex.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;iSpex&lt;/a&gt;
  (measure PM on your iPhone) are entering the market. But given the (chemical) complexity, &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0160412016309989&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;how reliable are these sensors&lt;/a&gt;
 ? Is the data that they produce readily usable? Like with Celsius to Fahrenheit, is it a matter of providing some simple formula?&lt;/p&gt;
 &lt;p&gt;IMHO unfortunately not, but things are getting better as time passes. It also depends on the chemical component you want to measure. For example, Nitrogen Dioxide (NO2) and Ozone (O3) appear to be much harder to measure than CO/CO2. Particulate Matter is a whole story by itself as one deals with, well, “dust” in many shapes and especially sizes (PM10, PM2.5, PM1).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/cheapaq.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
-&lt;p&gt;There is ample research for the quest of finding cheap AQ sensors: their limitations, reliabilities, particularities. Within the Smart Emission Project, I am working with RIVM, the &lt;a href=&#34;http://rivm.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National Institute for Public Health and the Environment&lt;/a&gt;
- and the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Union Joint Research Centre&lt;/a&gt;
- (JRC), who both did extensive research on cheap AQ sensors. I know there is much more, but forgot to mention that the main message of this Emit is that &lt;em&gt;&lt;strong&gt;“measuring AQ has far more challenges than measuring weather data”&lt;/strong&gt;&lt;/em&gt;. One of the main conclusions, again IMHO, is that, yes, it is possible (to use cheap AQ sensors), but one has to do &lt;strong&gt;&lt;em&gt;Calibration&lt;/em&gt;&lt;/strong&gt;. Below some links if you are interested in the state of RIVM and EU JRC research:&lt;/p&gt;
+&lt;p&gt;There is ample research for the quest of finding cheap AQ sensors: their limitations, reliabilities, particularities. Within the Smart Emission Project, I am working with RIVM, the &lt;a href=&#34;http://rivm.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National Institute for Public Health and the Environment&lt;/a&gt;
+ and the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Union Joint Research Centre&lt;/a&gt;
+ (JRC), who both did extensive research on cheap AQ sensors. I know there is much more, but forgot to mention that the main message of this Emit is that &lt;em&gt;&lt;strong&gt;“measuring AQ has far more challenges than measuring weather data”&lt;/strong&gt;&lt;/em&gt;. One of the main conclusions, again IMHO, is that, yes, it is possible (to use cheap AQ sensors), but one has to do &lt;strong&gt;&lt;em&gt;Calibration&lt;/em&gt;&lt;/strong&gt;. Below some links if you are interested in the state of RIVM and EU JRC research:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;RIVM – &lt;a href=&#34;http://www.rivm.nl/dsresource?objectid=420a3851-7bae-4a1b-8c57-587422cb21b4&amp;amp;type=org&amp;amp;disposition=inline&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Luchtkwaliteit meten met sensoren&lt;/a&gt;
  (Measuring AQ with Sensors), J. Wesseling et al, sorry in Dutch.&lt;/li&gt;
@@ -1148,9 +1148,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;p&gt;In the course of the project I was fortunate to follow a workshop at &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EU JRC&lt;/a&gt;
  for their amazing Open Hardware/Software product &lt;a href=&#34;http://www.airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
 . At the spot each of us assembled a complete ASE, connecting these to standard web services like SOS. The ASE Open Hardware approach also allows it to embed a multitude of sensor types and brands. The workshop had participants from the major national environmental agencies in Europe. In fact RIVM is now &lt;a href=&#34;https://www.samenmetenaanluchtkwaliteit.nl/airsenseur&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;deploying and testing about 18 AirSensEURs&lt;/a&gt;
-. Coming year I have the task to deploy five ASEs within The Netherlands. Two of them are already  humming at my desk for testing.&lt;/p&gt;
+. Coming year I have the task to deploy five ASEs within The Netherlands. Two of them are already  humming at my desk for testing.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/ase-jo.jpg&#34; alt=&#34;AirSensEUR #2 at my desk&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Describing AirSensEUR would require a full post by itself. Quoting: &lt;em&gt;“AirSensEUR is an open framework focused on air quality monitoring using low cost sensors. The project started on 2014 from a group of passionate researchers and engineers. The framework is composed by a set of electronic boards, firmware, and several software applications.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Describing AirSensEUR would require a full post by itself. Quoting: &lt;em&gt;“AirSensEUR is an open framework focused on air quality monitoring using low cost sensors. The project started on 2014 from a group of passionate researchers and engineers. The framework is composed by a set of electronic boards, firmware, and several software applications.”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/airsenseur.jpg&#34; alt=&#34;EU JRC AirSensEURs&#34;&gt;&lt;/p&gt;
 &lt;p&gt;So currently (jan 2018) the SE Platform supports both the Josene/Jose and AirSensEUR sensor devices.&lt;/p&gt;
 
@@ -1163,7 +1163,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   
 &lt;/div&gt;
 
-&lt;p&gt;The Air Quality sensor data coming out of  these devices still requires cleanup and  Calibration. This is part of the data handling within the SE platform, subject of one of the upcoming Emits.&lt;/p&gt;
+&lt;p&gt;The Air Quality sensor data coming out of  these devices still requires cleanup and  Calibration. This is part of the data handling within the SE platform, subject of one of the upcoming Emits.&lt;/p&gt;
 &lt;p&gt;This post was meant to give you a taste of the challenges around using (cheap) sensors for Air Quality and introduce the two sensor devices (Josene, AirSensEUR) currently used/supported by the Smart Emission Platform. Many details are still to be uncovered. These will be subjects of upcoming Emits.&lt;/p&gt;
 
         
@@ -1179,11 +1179,11 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
       <description>
         
           &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-google-photo.jpg&#34; alt=&#34;Smart Emission Googled for Photos&#34;&gt;&lt;/p&gt;
-&lt;p&gt;One of my new year’s resolutions for 2018 was to “blog more”. Not being very active on the well-known social media: a bit tired of Twitter, never really into Facebook, bit of LinkedIn. &lt;a href=&#34;https://lists.osgeo.org/mailman/listinfo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo mailing lists&lt;/a&gt;
+&lt;p&gt;One of my new year’s resolutions for 2018 was to “blog more”. Not being very active on the well-known social media: a bit tired of Twitter, never really into Facebook, bit of LinkedIn. &lt;a href=&#34;https://lists.osgeo.org/mailman/listinfo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo mailing lists&lt;/a&gt;
 , &lt;a href=&#34;https://github.com/justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
  and &lt;a href=&#34;https://gitter.im/geopython/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gitter&lt;/a&gt;
  is where you can find me most (thanks Jody, for reminding!). And I read many blogs, especially on my &lt;a href=&#34;https://en.wikipedia.org/wiki/Nexus_10&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Nexus 10&lt;/a&gt;
- tablet and &lt;a href=&#34;https://www.fairphone.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Fairphone 2&lt;/a&gt;
+ tablet and &lt;a href=&#34;https://www.fairphone.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Fairphone 2&lt;/a&gt;
  via the awesome &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
  App. If you have not heard of &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
  (or any other blog-feed collectors), stop here and check out &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
@@ -1209,23 +1209,23 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   
 &lt;/div&gt;
 
-&lt;p&gt;Enough sidestepping, my goal is to share tech around the Open Source &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
- (SE Platform) in a series of posts, dubbed  ‘Emits’. This is Emit #1. Since 2014 I have been working on several projects, often through &lt;a href=&#34;https://www.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum&lt;/a&gt;
+&lt;p&gt;Enough sidestepping, my goal is to share tech around the Open Source &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+ (SE Platform) in a series of posts, dubbed  ‘Emits’. This is Emit #1. Since 2014 I have been working on several projects, often through &lt;a href=&#34;https://www.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum&lt;/a&gt;
 , and recently via the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Union Joint Research Centre&lt;/a&gt;
  (JRC), that deal with the acquisition, management, web-api-unlocking and visualization of environmental sensor-data, mainly for Air Quality (AQ).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-google.jpg&#34; alt=&#34;Smart Emission Googled&#34;&gt;&lt;/p&gt;
 &lt;p&gt;What made these projects exciting for me is that they brought together many aspects and technologies (read: Open Source projects and &lt;a href=&#34;https://www.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo software&lt;/a&gt;
 ) I had been &lt;a href=&#34;https://justobjects.nl/projects/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;working on&lt;/a&gt;
- through the years. Also, it was the first time I got back into Environmental Chemistry, for which I hold a master’s degree from the University of Amsterdam, &lt;a href=&#34;https://justobjects.nl/writings/publications/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;co-authoring some publications&lt;/a&gt;
+ through the years. Also, it was the first time I got back into Environmental Chemistry, for which I hold a master’s degree from the University of Amsterdam, &lt;a href=&#34;https://justobjects.nl/writings/publications/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;co-authoring some publications&lt;/a&gt;
 , yes, many many years ago.&lt;/p&gt;
 &lt;p&gt;So what is the &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
- and what makes it exciting and relevant? In a nutshell (&lt;a href=&#34;http://smartplatform.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;read the tech doc here&lt;/a&gt;
-): The goal of the SE Platform is to facilitate the acquisition (harvesting)  of sensor-data from a multitude of sensor devices and make this data available via standardized formats and web-APIs (mainly: &lt;a href=&#34;http://www.opengeospatial.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Standards&lt;/a&gt;
+ and what makes it exciting and relevant? In a nutshell (&lt;a href=&#34;http://smartplatform.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;read the tech doc here&lt;/a&gt;
+): The goal of the SE Platform is to facilitate the acquisition (harvesting)  of sensor-data from a multitude of sensor devices and make this data available via standardized formats and web-APIs (mainly: &lt;a href=&#34;http://www.opengeospatial.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Standards&lt;/a&gt;
 ) and Viewers. The SE Platform originates, what is now called the &lt;a href=&#34;http://smartemission.ruhosting.nl/visitors/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;award-winning&lt;/a&gt;
-, &lt;a href=&#34;http://smartemission.ruhosting.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Nijmegen project&lt;/a&gt;
- in 2015-2017. Quoting from the paper &lt;a href=&#34;http://www.ru.nl/publish/pages/774337/carton_etall_aesop-2015_v11_filling_thefeedback_gap_ofexternalities_insmartcities.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Filling the feedback gap of place-related externalities in smart cities”&lt;/a&gt;
-{.reference.external} :&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;“…we present the set-up of the pilot experiment in project “Smart Emission”,&lt;/em&gt; &lt;em&gt;constructing an experimental citizen-sensor-network in the city of Nijmegen. This project, as part of&lt;/em&gt; &lt;em&gt;research program ‘Maps 4 Society,’ is one of the currently running Smart City projects in the&lt;/em&gt; &lt;em&gt;Netherlands. A number of social, technical and governmental innovations are put together in this&lt;/em&gt; &lt;em&gt;project: (1) innovative sensing method: new, low-cost sensors are being designed and built in the&lt;/em&gt; &lt;em&gt;project and tested in practice, using small sensing-modules that measure air quality indicators,&lt;/em&gt; &lt;em&gt;amongst others NO2, CO2, ozone, temperature and noise load. (2) big data: the measured data forms&lt;/em&gt; &lt;em&gt;a refined data-flow from sensing points at places where people live and work: thus forming a ‘big&lt;/em&gt; _picture’ to build a real-time, in-depth understanding of the local distribution of urban air quality (3)_&lt;em&gt;empowering citizens by making visible the ‘externality’ of urban air quality and feeding this into a&lt;/em&gt; &lt;em&gt;bottom-up planning process: the community in the target area get the co-decision-making control over&lt;/em&gt; &lt;em&gt;where the sensors are placed, co-interpret the mapped feedback data, discuss and collectively explore&lt;/em&gt; &lt;em&gt;possible options for improvement (supported by a Maptable instrument) to get a fair and ‘better’&lt;/em&gt; &lt;em&gt;distribution of air pollution in the city, balanced against other spatial qualities. ….”&lt;/em&gt;&lt;/p&gt;
+, &lt;a href=&#34;http://smartemission.ruhosting.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Nijmegen project&lt;/a&gt;
+ in 2015-2017. Quoting from the paper &lt;a href=&#34;http://www.ru.nl/publish/pages/774337/carton_etall_aesop-2015_v11_filling_thefeedback_gap_ofexternalities_insmartcities.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Filling the feedback gap of place-related externalities in smart cities”&lt;/a&gt;
+{.reference.external} :&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“…we present the set-up of the pilot experiment in project “Smart Emission”,&lt;/em&gt; &lt;em&gt;constructing an experimental citizen-sensor-network in the city of Nijmegen. This project, as part of&lt;/em&gt; &lt;em&gt;research program ‘Maps 4 Society,’ is one of the currently running Smart City projects in the&lt;/em&gt; &lt;em&gt;Netherlands. A number of social, technical and governmental innovations are put together in this&lt;/em&gt; &lt;em&gt;project: (1) innovative sensing method: new, low-cost sensors are being designed and built in the&lt;/em&gt; &lt;em&gt;project and tested in practice, using small sensing-modules that measure air quality indicators,&lt;/em&gt; &lt;em&gt;amongst others NO2, CO2, ozone, temperature and noise load. (2) big data: the measured data forms&lt;/em&gt; &lt;em&gt;a refined data-flow from sensing points at places where people live and work: thus forming a ‘big&lt;/em&gt; _picture’ to build a real-time, in-depth understanding of the local distribution of urban air quality (3)_&lt;em&gt;empowering citizens by making visible the ‘externality’ of urban air quality and feeding this into a&lt;/em&gt; &lt;em&gt;bottom-up planning process: the community in the target area get the co-decision-making control over&lt;/em&gt; &lt;em&gt;where the sensors are placed, co-interpret the mapped feedback data, discuss and collectively explore&lt;/em&gt; &lt;em&gt;possible options for improvement (supported by a Maptable instrument) to get a fair and ‘better’&lt;/em&gt; &lt;em&gt;distribution of air pollution in the city, balanced against other spatial qualities. ….”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-nijmegen.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;So from the outset the SE Platform is geared towards connecting citizen-owned sensor devices. Many similar programs and initiatives are currently evolving, often under the flag of Citizen Science and Smart Cities. Within the Netherlands, where the SE Nijmegen project originated, the &lt;a href=&#34;http://rivm.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National Institute for Public Health and the Environment&lt;/a&gt;
  (RIVM) was an active project partner, and still stimulates citizens measuring Air Quality via a project and portal: &lt;a href=&#34;https://www.samenmetenaanluchtkwaliteit.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Together Measuring Air Quality”&lt;/a&gt;
@@ -1233,7 +1233,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-partners.png&#34; alt=&#34;:left&#34;&gt;&lt;/p&gt;
 &lt;p&gt;What made working on the SE Nijmegen project exciting and challenging, is that I was given time and opportunity by the project partners (see pic) to not just build a one-time project-specific piece of software, but a reusable set of Open Source components: the Smart Emission Platform ([sources on GitHub][42]).&lt;/p&gt;
 &lt;p&gt;Having had some earlier experience within the &lt;a href=&#34;http://sensors.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum SOSPilot project&lt;/a&gt;
- (2014-2015), investigating among others the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sensor_Observation_Service&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
+ (2014-2015), investigating among others the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sensor_Observation_Service&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
  to unlock &lt;a href=&#34;http://www.lml.rivm.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RIVM AQ data (LML)&lt;/a&gt;
 , I was aware of the challenges dealing with what can be called &lt;em&gt;&lt;strong&gt;Spatiotemporal (Big) Data&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
@@ -1256,7 +1256,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;li&gt;is &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
  (SOS) and SWE still viable?&lt;/li&gt;
 &lt;li&gt;how powerful is the &lt;a href=&#34;http://www.opengeospatial.org/standards/sensorthings&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorThings API&lt;/a&gt;
- (STA) standard?&lt;/li&gt;
+ (STA) standard?&lt;/li&gt;
 &lt;li&gt;deployment with Docker and &lt;a href=&#34;https://docs.docker.com/compose/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker Compose&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;Docker and host systems monitoring: &lt;a href=&#34;https://prometheus.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Prometheus&lt;/a&gt;

@@ -17,7 +17,7 @@
       <description>
         
           &lt;p&gt;This is Emit #3, in a &lt;a href=&#34;https://justobjects.nl/categories/smartemission/&#34;&gt;series of blog-posts around the Smart Emission Platform&lt;/a&gt;
-, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality. In &lt;a href=&#34;https://justobjects.nl/emit-1/&#34;&gt;Emit #1&lt;/a&gt;
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality. In &lt;a href=&#34;https://justobjects.nl/emit-1/&#34;&gt;Emit #1&lt;/a&gt;
 , the big picture of the platform was sketched. Subsequent Emits will detail technical aspects of the SE Platform. “Follow the data” will be the main trail loosely adhered to.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/arch-big-picture.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Three weeks ago since &lt;a href=&#34;https://justobjects.nl/emit-2/&#34;&gt;Emit #2&lt;/a&gt;
@@ -26,20 +26,20 @@
 &lt;li&gt;went to &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The Things Conference&lt;/a&gt;
 , all about &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;building a LoRaWAN network&lt;/a&gt;
  with an open global community.&lt;/li&gt;
-&lt;li&gt;started at Dutch Kadaster to migrate the Smart Emission Platform  into the &lt;a href=&#34;https://www.pdok.nl/en/about-pdok&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National GDI PDOK&lt;/a&gt;
+&lt;li&gt;started at Dutch Kadaster to migrate the Smart Emission Platform  into the &lt;a href=&#34;https://www.pdok.nl/en/about-pdok&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National GDI PDOK&lt;/a&gt;
 .&lt;/li&gt;
 &lt;li&gt;Elaborated the &lt;a href=&#34;http://www.opengeospatial.org/standards/sensorthings&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorThings API&lt;/a&gt;
- (STA) to see if it can replace &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
+ (STA) to see if it can replace &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
  (SOS).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;A lot to expand on. Will try to briefly summarize on The Things Conference, LoRA and LoRaWAN and save the other tech for later Emits.&lt;/p&gt;
+&lt;p&gt;A lot to expand on. Will try to briefly summarize on The Things Conference, LoRA and LoRaWAN and save the other tech for later Emits.&lt;/p&gt;
 &lt;p&gt;LoRA and LoRaWAN may sound like a sidestep, but are very much related to for example building a network of Air Quality and other environmental sensors. When deploying such sensors two issues always arise:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;power: need continuous electricity to keep sensors and their computing boards powered&lt;/li&gt;
 &lt;li&gt;transmission: need cabled Internet, WIFI or cellular data to transmit sensor-data&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In short, LoRa/LoRaWAN (LoRa=Long Range) is basically a wireless RF technology for long-&lt;wbr /&gt;range, low-power and low-throughput communications. You may find many references on the web like from the &lt;a href=&#34;https://www.lora-alliance.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;LoRa Alliance&lt;/a&gt;
- and &lt;a href=&#34;https://www.semtech.com/technology/lora&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SemTech&lt;/a&gt;
+&lt;p&gt;In short, LoRa/LoRaWAN (LoRa=Long Range) is basically a wireless RF technology for long-&lt;wbr /&gt;range, low-power and low-throughput communications. You may find many references on the web like from the &lt;a href=&#34;https://www.lora-alliance.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;LoRa Alliance&lt;/a&gt;
+ and &lt;a href=&#34;https://www.semtech.com/technology/lora&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SemTech&lt;/a&gt;
 . There is lots of buzz around LoRa. But just like the, &lt;a href=&#34;https://wirelessleiden.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wireless Leiden project&lt;/a&gt;
 , who built a public WIFI network around the city, &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The ThingsNetwork&lt;/a&gt;
  has embraced LoRa technology to build a world-wide open, community-driven, “overlay network”:&lt;/p&gt;
@@ -65,8 +65,8 @@
   
 &lt;/div&gt;
 
-&lt;p&gt;And &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The ThingsNetwork&lt;/a&gt;
- (TTN) was established in Amsterdam, The Netherlands. As an individual you can extend The Things Network by deploying a &lt;a href=&#34;https://www.thethingsnetwork.org/docs/gateways/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gateway&lt;/a&gt;
+&lt;p&gt;And &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The ThingsNetwork&lt;/a&gt;
+ (TTN) was established in Amsterdam, The Netherlands. As an individual you can extend The Things Network by deploying a &lt;a href=&#34;https://www.thethingsnetwork.org/docs/gateways/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gateway&lt;/a&gt;
 . Via the TTN KickStarter project, I was one of the first backers, already in 2015. The interest was overwhelming, even leading to (Gateway) delivery problems. But a LoRa Gateway to extend TTN is almost a commodity now. You can even &lt;a href=&#34;https://www.thethingsnetwork.org/docs/gateways/start/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;build one yourself&lt;/a&gt;
 . TTN is very much tied to the whole “DIY makers movement”. All TTN designs and code (on &lt;a href=&#34;https://github.com/thethingsnetwork&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
 ) are open. Below a global architecture picture from their site.&lt;/p&gt;
@@ -110,11 +110,11 @@
       <description>
         
           &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-google-photo.jpg&#34; alt=&#34;Smart Emission Googled for Photos&#34;&gt;&lt;/p&gt;
-&lt;p&gt;One of my new year’s resolutions for 2018 was to “blog more”. Not being very active on the well-known social media: a bit tired of Twitter, never really into Facebook, bit of LinkedIn. &lt;a href=&#34;https://lists.osgeo.org/mailman/listinfo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo mailing lists&lt;/a&gt;
+&lt;p&gt;One of my new year’s resolutions for 2018 was to “blog more”. Not being very active on the well-known social media: a bit tired of Twitter, never really into Facebook, bit of LinkedIn. &lt;a href=&#34;https://lists.osgeo.org/mailman/listinfo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo mailing lists&lt;/a&gt;
 , &lt;a href=&#34;https://github.com/justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
  and &lt;a href=&#34;https://gitter.im/geopython/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Gitter&lt;/a&gt;
  is where you can find me most (thanks Jody, for reminding!). And I read many blogs, especially on my &lt;a href=&#34;https://en.wikipedia.org/wiki/Nexus_10&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Nexus 10&lt;/a&gt;
- tablet and &lt;a href=&#34;https://www.fairphone.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Fairphone 2&lt;/a&gt;
+ tablet and &lt;a href=&#34;https://www.fairphone.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Fairphone 2&lt;/a&gt;
  via the awesome &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
  App. If you have not heard of &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
  (or any other blog-feed collectors), stop here and check out &lt;a href=&#34;https://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Feedly&lt;/a&gt;
@@ -140,23 +140,23 @@
   
 &lt;/div&gt;
 
-&lt;p&gt;Enough sidestepping, my goal is to share tech around the Open Source &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
- (SE Platform) in a series of posts, dubbed  ‘Emits’. This is Emit #1. Since 2014 I have been working on several projects, often through &lt;a href=&#34;https://www.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum&lt;/a&gt;
+&lt;p&gt;Enough sidestepping, my goal is to share tech around the Open Source &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
+ (SE Platform) in a series of posts, dubbed  ‘Emits’. This is Emit #1. Since 2014 I have been working on several projects, often through &lt;a href=&#34;https://www.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum&lt;/a&gt;
 , and recently via the &lt;a href=&#34;https://ec.europa.eu/jrc/en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Union Joint Research Centre&lt;/a&gt;
  (JRC), that deal with the acquisition, management, web-api-unlocking and visualization of environmental sensor-data, mainly for Air Quality (AQ).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-google.jpg&#34; alt=&#34;Smart Emission Googled&#34;&gt;&lt;/p&gt;
 &lt;p&gt;What made these projects exciting for me is that they brought together many aspects and technologies (read: Open Source projects and &lt;a href=&#34;https://www.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo software&lt;/a&gt;
 ) I had been &lt;a href=&#34;https://justobjects.nl/projects/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;working on&lt;/a&gt;
- through the years. Also, it was the first time I got back into Environmental Chemistry, for which I hold a master’s degree from the University of Amsterdam, &lt;a href=&#34;https://justobjects.nl/writings/publications/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;co-authoring some publications&lt;/a&gt;
+ through the years. Also, it was the first time I got back into Environmental Chemistry, for which I hold a master’s degree from the University of Amsterdam, &lt;a href=&#34;https://justobjects.nl/writings/publications/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;co-authoring some publications&lt;/a&gt;
 , yes, many many years ago.&lt;/p&gt;
 &lt;p&gt;So what is the &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
- and what makes it exciting and relevant? In a nutshell (&lt;a href=&#34;http://smartplatform.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;read the tech doc here&lt;/a&gt;
-): The goal of the SE Platform is to facilitate the acquisition (harvesting)  of sensor-data from a multitude of sensor devices and make this data available via standardized formats and web-APIs (mainly: &lt;a href=&#34;http://www.opengeospatial.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Standards&lt;/a&gt;
+ and what makes it exciting and relevant? In a nutshell (&lt;a href=&#34;http://smartplatform.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;read the tech doc here&lt;/a&gt;
+): The goal of the SE Platform is to facilitate the acquisition (harvesting)  of sensor-data from a multitude of sensor devices and make this data available via standardized formats and web-APIs (mainly: &lt;a href=&#34;http://www.opengeospatial.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Standards&lt;/a&gt;
 ) and Viewers. The SE Platform originates, what is now called the &lt;a href=&#34;http://smartemission.ruhosting.nl/visitors/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;award-winning&lt;/a&gt;
-, &lt;a href=&#34;http://smartemission.ruhosting.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Nijmegen project&lt;/a&gt;
- in 2015-2017. Quoting from the paper &lt;a href=&#34;http://www.ru.nl/publish/pages/774337/carton_etall_aesop-2015_v11_filling_thefeedback_gap_ofexternalities_insmartcities.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Filling the feedback gap of place-related externalities in smart cities”&lt;/a&gt;
-{.reference.external} :&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;“…we present the set-up of the pilot experiment in project “Smart Emission”,&lt;/em&gt; &lt;em&gt;constructing an experimental citizen-sensor-network in the city of Nijmegen. This project, as part of&lt;/em&gt; &lt;em&gt;research program ‘Maps 4 Society,’ is one of the currently running Smart City projects in the&lt;/em&gt; &lt;em&gt;Netherlands. A number of social, technical and governmental innovations are put together in this&lt;/em&gt; &lt;em&gt;project: (1) innovative sensing method: new, low-cost sensors are being designed and built in the&lt;/em&gt; &lt;em&gt;project and tested in practice, using small sensing-modules that measure air quality indicators,&lt;/em&gt; &lt;em&gt;amongst others NO2, CO2, ozone, temperature and noise load. (2) big data: the measured data forms&lt;/em&gt; &lt;em&gt;a refined data-flow from sensing points at places where people live and work: thus forming a ‘big&lt;/em&gt; _picture’ to build a real-time, in-depth understanding of the local distribution of urban air quality (3)_&lt;em&gt;empowering citizens by making visible the ‘externality’ of urban air quality and feeding this into a&lt;/em&gt; &lt;em&gt;bottom-up planning process: the community in the target area get the co-decision-making control over&lt;/em&gt; &lt;em&gt;where the sensors are placed, co-interpret the mapped feedback data, discuss and collectively explore&lt;/em&gt; &lt;em&gt;possible options for improvement (supported by a Maptable instrument) to get a fair and ‘better’&lt;/em&gt; &lt;em&gt;distribution of air pollution in the city, balanced against other spatial qualities. ….”&lt;/em&gt;&lt;/p&gt;
+, &lt;a href=&#34;http://smartemission.ruhosting.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Nijmegen project&lt;/a&gt;
+ in 2015-2017. Quoting from the paper &lt;a href=&#34;http://www.ru.nl/publish/pages/774337/carton_etall_aesop-2015_v11_filling_thefeedback_gap_ofexternalities_insmartcities.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Filling the feedback gap of place-related externalities in smart cities”&lt;/a&gt;
+{.reference.external} :&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“…we present the set-up of the pilot experiment in project “Smart Emission”,&lt;/em&gt; &lt;em&gt;constructing an experimental citizen-sensor-network in the city of Nijmegen. This project, as part of&lt;/em&gt; &lt;em&gt;research program ‘Maps 4 Society,’ is one of the currently running Smart City projects in the&lt;/em&gt; &lt;em&gt;Netherlands. A number of social, technical and governmental innovations are put together in this&lt;/em&gt; &lt;em&gt;project: (1) innovative sensing method: new, low-cost sensors are being designed and built in the&lt;/em&gt; &lt;em&gt;project and tested in practice, using small sensing-modules that measure air quality indicators,&lt;/em&gt; &lt;em&gt;amongst others NO2, CO2, ozone, temperature and noise load. (2) big data: the measured data forms&lt;/em&gt; &lt;em&gt;a refined data-flow from sensing points at places where people live and work: thus forming a ‘big&lt;/em&gt; _picture’ to build a real-time, in-depth understanding of the local distribution of urban air quality (3)_&lt;em&gt;empowering citizens by making visible the ‘externality’ of urban air quality and feeding this into a&lt;/em&gt; &lt;em&gt;bottom-up planning process: the community in the target area get the co-decision-making control over&lt;/em&gt; &lt;em&gt;where the sensors are placed, co-interpret the mapped feedback data, discuss and collectively explore&lt;/em&gt; &lt;em&gt;possible options for improvement (supported by a Maptable instrument) to get a fair and ‘better’&lt;/em&gt; &lt;em&gt;distribution of air pollution in the city, balanced against other spatial qualities. ….”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-nijmegen.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;So from the outset the SE Platform is geared towards connecting citizen-owned sensor devices. Many similar programs and initiatives are currently evolving, often under the flag of Citizen Science and Smart Cities. Within the Netherlands, where the SE Nijmegen project originated, the &lt;a href=&#34;http://rivm.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch National Institute for Public Health and the Environment&lt;/a&gt;
  (RIVM) was an active project partner, and still stimulates citizens measuring Air Quality via a project and portal: &lt;a href=&#34;https://www.samenmetenaanluchtkwaliteit.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“Together Measuring Air Quality”&lt;/a&gt;
@@ -164,7 +164,7 @@
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-partners.png&#34; alt=&#34;:left&#34;&gt;&lt;/p&gt;
 &lt;p&gt;What made working on the SE Nijmegen project exciting and challenging, is that I was given time and opportunity by the project partners (see pic) to not just build a one-time project-specific piece of software, but a reusable set of Open Source components: the Smart Emission Platform ([sources on GitHub][42]).&lt;/p&gt;
 &lt;p&gt;Having had some earlier experience within the &lt;a href=&#34;http://sensors.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum SOSPilot project&lt;/a&gt;
- (2014-2015), investigating among others the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sensor_Observation_Service&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
+ (2014-2015), investigating among others the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sensor_Observation_Service&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
  to unlock &lt;a href=&#34;http://www.lml.rivm.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RIVM AQ data (LML)&lt;/a&gt;
 , I was aware of the challenges dealing with what can be called &lt;em&gt;&lt;strong&gt;Spatiotemporal (Big) Data&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
@@ -187,7 +187,7 @@
 &lt;li&gt;is &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Observation Service&lt;/a&gt;
  (SOS) and SWE still viable?&lt;/li&gt;
 &lt;li&gt;how powerful is the &lt;a href=&#34;http://www.opengeospatial.org/standards/sensorthings&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorThings API&lt;/a&gt;
- (STA) standard?&lt;/li&gt;
+ (STA) standard?&lt;/li&gt;
 &lt;li&gt;deployment with Docker and &lt;a href=&#34;https://docs.docker.com/compose/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker Compose&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;Docker and host systems monitoring: &lt;a href=&#34;https://prometheus.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Prometheus&lt;/a&gt;
@@ -216,18 +216,18 @@
       <guid>https://justobjects.nl/gps-hiking-evolution-navigation/</guid>
       <description>
         
-          &lt;p&gt;On sunday August 25, 2015 I provided a talk/workshop for a local knowledge network of friends and acquaintances in Amsterdam. TLDR; see &lt;a href=&#34;http://gps.justobjects.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;gps.justobjects.nl&lt;/a&gt;
+          &lt;p&gt;On sunday August 25, 2015 I provided a talk/workshop for a local knowledge network of friends and acquaintances in Amsterdam. TLDR; see &lt;a href=&#34;http://gps.justobjects.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;gps.justobjects.nl&lt;/a&gt;
 . Originally, I would talk about &lt;em&gt;“Hiking with GPS”&lt;/em&gt;. But as I started pondering about this subject I decided to broaden the content to include also the evolution of navigation. My reasoning was:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;by using GPS we unlearn navigational skills such as compass and map reading&lt;/li&gt;
-&lt;li&gt;my personal interest in human evolution for example the route humans followed out of Africa&lt;/li&gt;
+&lt;li&gt;my personal interest in human evolution for example the route humans followed out of Africa&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/08/out-of-africa.jpg&#34; alt=&#34;Routes (red) of Homo Sapiens out of Africa to populate the World&#34;&gt;&lt;/p&gt;
 &lt;p&gt;So I combined all these elements into a new title/subject &lt;em&gt;“GPS Hiking and The Evolution of Navigation”&lt;/em&gt;. See also &lt;a href=&#34;http://www.slideshare.net/justb4/wandelen-met-gps-en-de-evolutie-van-navigatie&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;these slides&lt;/a&gt;
 .&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Natural Navigation&lt;/strong&gt;&lt;br&gt;
-I was already reading and practicing the intriguing art of Natural Navigation which in short allows one to find direction without any device nor map. By reading and interpreting signs of nature one can determine direction, i.e. where The North is.&lt;/p&gt;
-&lt;p&gt;Natural Navigation is not just about finding direction by sun, moon and stars, but in particular by interpreting our natural surroundings, i.e. the land, the plants, the trees and animals. Natural forces shape these surroundings, making them asymmetric under the influence of their prevailing forces. This asymmetry in nature provides clues for example where the North is.&lt;/p&gt;
+I was already reading and practicing the intriguing art of Natural Navigation which in short allows one to find direction without any device nor map. By reading and interpreting signs of nature one can determine direction, i.e. where The North is.&lt;/p&gt;
+&lt;p&gt;Natural Navigation is not just about finding direction by sun, moon and stars, but in particular by interpreting our natural surroundings, i.e. the land, the plants, the trees and animals. Natural forces shape these surroundings, making them asymmetric under the influence of their prevailing forces. This asymmetry in nature provides clues for example where the North is.&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;http://www.naturalnavigator.com&#34;&gt;
@@ -239,7 +239,7 @@ I was already reading and practicing the intriguing art of Natural Navigation w
 &lt;/div&gt;
 
 &lt;p&gt;For instance: sun, rain and wind strongly shape the direction that trees and their branches grow. A prevailing south-western wind will bend trees slightly north-east.&lt;/p&gt;
-&lt;p&gt;But also mosses and lichen on trees give clues about direction. This has saved me once in finding my way when hiking on a cloudy day without GPS and an emptying smartphone.&lt;/p&gt;
+&lt;p&gt;But also mosses and lichen on trees give clues about direction. This has saved me once in finding my way when hiking on a cloudy day without GPS and an emptying smartphone.&lt;/p&gt;
 &lt;p&gt;To get started with Natural Navigation I recommend the books by Tristan Gooley via &lt;a href=&#34;http://www.naturalnavigator.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;www.naturalnavigator.com&lt;/a&gt;
 .&lt;/p&gt;
 
@@ -252,15 +252,15 @@ I was already reading and practicing the intriguing art of Natural Navigation w
   
 &lt;/div&gt;
 
-&lt;p&gt;I am also intrigued in how early humans navigated. As hunter/gatherers we had to cross enormous stretches of land, often going far out from a base camp for a hunt or food collection. Did these first humans use dogs for navigation, made landmarks?They sure must have been masters at Natural Navigation. We can get some clues from indigenous people today. Years ago I read a fascinating book &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Songlines&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“The Songlines” by Bruce Chatwin&lt;/a&gt;
-, which in short told how Australian Aboriginals could navigate throughout their continent, or &lt;a href=&#34;https://en.wikipedia.org/wiki/Songline&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;as Wikipedia explains&lt;/a&gt;
+&lt;p&gt;I am also intrigued in how early humans navigated. As hunter/gatherers we had to cross enormous stretches of land, often going far out from a base camp for a hunt or food collection. Did these first humans use dogs for navigation, made landmarks?They sure must have been masters at Natural Navigation. We can get some clues from indigenous people today. Years ago I read a fascinating book &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Songlines&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“The Songlines” by Bruce Chatwin&lt;/a&gt;
+, which in short told how Australian Aboriginals could navigate throughout their continent, or &lt;a href=&#34;https://en.wikipedia.org/wiki/Songline&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;as Wikipedia explains&lt;/a&gt;
 :&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;“Within the animist belief system of Indigenous Australians, a songline, also called dreaming&lt;/em&gt; &lt;em&gt;track, is one of the paths across the land which mark the route followed by localised ‘creator-beings’ during the Dreaming (creation time, JvdB). The paths of the songlines are recorded in traditional songs, stories, dance, and painting.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/08/songlines.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;A knowledgeable person is able to navigate across the land by repeating the words of the song,&lt;/em&gt; &lt;em&gt;which describe the location of landmarks, waterholes, and other natural phenomena.”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Going Outdoors&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/08/lezing-foto-1.jpg&#34; alt=&#34;GeoCaching and Natural Navigation&#34;&gt;&lt;/p&gt;
-&lt;p&gt;We ended the session by doing an exercise with both Natural Navigation and following a route and GeoCaching with GPS. Here my &lt;a href=&#34;http://gps.justobjects.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Map5.nl&lt;/a&gt;
+&lt;p&gt;We ended the session by doing an exercise with both Natural Navigation and following a route and GeoCaching with GPS. Here my &lt;a href=&#34;http://gps.justobjects.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Map5.nl&lt;/a&gt;
  &lt;a href=&#34;http://app.map5.nl/nltopo/?key=gast&amp;amp;gpx=gpx/vliegenbos238.gpx&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLTopo App&lt;/a&gt;
  appeared useful for those without GPS.&lt;/p&gt;
 
@@ -274,10 +274,10 @@ I was already reading and practicing the intriguing art of Natural Navigation w
 &lt;/div&gt;
 
 &lt;p&gt; &lt;/p&gt;
-&lt;p&gt;It was fun afternoon, maybe something to reenact in another setting. Let me know if you are interested.&lt;/p&gt;
+&lt;p&gt;It was fun afternoon, maybe something to reenact in another setting. Let me know if you are interested.&lt;/p&gt;
 &lt;p&gt;You can find the landing page of this talk/workshop at &lt;a href=&#34;http://gps.justobjects.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;gps.justobjects.nl&lt;/a&gt;
- and &lt;a href=&#34;http://www.slideshare.net/justb4/wandelen-met-gps-en-de-evolutie-van-navigatie&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;slides on Slideshare&lt;/a&gt;
-. In Dutch but you may view the &lt;a href=&#34;https://translate.google.com/translate?sl=nl&amp;amp;tl=en&amp;amp;js=y&amp;amp;prev=_t&amp;amp;hl=en&amp;amp;ie=UTF-8&amp;amp;u=http%3A%2F%2Fgps.justobjects.nl%2F&amp;amp;edit-text=&amp;amp;act=url&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;page via Google Translate&lt;/a&gt;
+ and &lt;a href=&#34;http://www.slideshare.net/justb4/wandelen-met-gps-en-de-evolutie-van-navigatie&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;slides on Slideshare&lt;/a&gt;
+. In Dutch but you may view the &lt;a href=&#34;https://translate.google.com/translate?sl=nl&amp;amp;tl=en&amp;amp;js=y&amp;amp;prev=_t&amp;amp;hl=en&amp;amp;ie=UTF-8&amp;amp;u=http%3A%2F%2Fgps.justobjects.nl%2F&amp;amp;edit-text=&amp;amp;act=url&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;page via Google Translate&lt;/a&gt;
 .&lt;/p&gt;
 
         
@@ -349,8 +349,8 @@ I was already reading and practicing the intriguing art of Natural Navigation w
 &lt;/p&gt;
 &lt;p&gt;During June 7-9, 2007 the &lt;a href=&#34;http://www.schuttevaerrace.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch Schuttevaerrace&lt;/a&gt;
  was &lt;a href=&#34;http://www.geosailing.com/svr&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;covered live&lt;/a&gt;
- using Just Objects’ &lt;a href=&#34;http://www.geotracing.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoTracing&lt;/a&gt;
- platform in combination with &lt;a href=&#34;http://www.falcom.de/index.php?id=801&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Falcom Mambo GPS/GPRS tracking devices&lt;/a&gt;
+ using Just Objects’ &lt;a href=&#34;http://www.geotracing.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoTracing&lt;/a&gt;
+ platform in combination with &lt;a href=&#34;http://www.falcom.de/index.php?id=801&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Falcom Mambo GPS/GPRS tracking devices&lt;/a&gt;
  attached onboard with 15 boats. I did this project jointly with the &lt;a href=&#34;http://www.kenniscentrumjachtbouw.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Kenniscentrum Jachtbouw&lt;/a&gt;
  (Dennis Carton, project initiator), &lt;a href=&#34;http://www.grrr.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Grrr&lt;/a&gt;
  (Jelmer Boomsma and Rolf Coppens) and the Internet Acedemy of the &lt;a href=&#34;http://www.nhl.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Noordelijke Hogeschool Leeuwarden&lt;/a&gt;
@@ -697,12 +697,12 @@ If you are developing Bluetooth-based MIDlets using &lt;a href=&#34;http://www.j
 &lt;/div&gt;
 
 &lt;a href=&#34;http://connectmedia.waag.org/media/freq1550killerclub.mov&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;There is a project presentation in streaming video on connect.waag.org&lt;/a&gt;
-. There are also &lt;a href=&#34;https://files.justobjects.nl/doc/jspring-2005.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;slides of presentations&lt;/a&gt;
+. There are also &lt;a href=&#34;https://files.justobjects.nl/doc/jspring-2005.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;slides of presentations&lt;/a&gt;
 . I gave at the &lt;a href=&#34;http://www.nljug.org/en/pages/events/content/jspring_2005/sessions/00001&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch Java User Group (NLJUG)&lt;/a&gt;
  and at the &lt;a href=&#34;http://extern.waag.org/just/freq1550&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Society for Old and New Media (KillerClub)&lt;/a&gt;
 .&lt;/p&gt;
 &lt;p&gt;The project even hit the national news ! Click &lt;a href=&#34;https://files.justobjects.nl/doc/mg-journaal.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;on anchor-man Gijs&lt;/a&gt;
- to watch the Flash video.&lt;/p&gt;
+ to watch the Flash video.&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;float_left&#34;&gt;
   &lt;a href=&#34;https://files.justobjects.nl/doc/mg-journaal.html&#34;&gt;

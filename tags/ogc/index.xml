@@ -98,10 +98,10 @@
       <description>
         
           &lt;p&gt;This is Emit #6, in a &lt;a href=&#34;https://justobjects.nl/categories/smartemission/&#34;&gt;series of blog-posts around the Smart Emission Platform&lt;/a&gt;
-, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.&lt;/p&gt;
+, an Open Source software component framework that facilitates the acquisition, processing and (OGC web-API) unlocking of spatiotemporal sensor-data, mainly for Air Quality and other environmental sensor-data like noise.&lt;/p&gt;
 &lt;p&gt;In &lt;a href=&#34;https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;Emit #5 – Assembling and Deploying 5 AirSensEURs…&lt;/a&gt;
 , I described how , with the great help of Jan Vonk from RIVM, we placed five &lt;a href=&#34;https://airsenseur.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;AirSensEUR&lt;/a&gt;
- (ASE) air quality stations at the RIVM reference site near the A2 Highway at Breukelen. For about 2.5 months raw data was gathered there while the RIVM station was gathering its data to be used as reference for calibration.&lt;/p&gt;
+ (ASE) air quality stations at the RIVM reference site near the A2 Highway at Breukelen. For about 2.5 months raw data was gathered there while the RIVM station was gathering its data to be used as reference for calibration.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/airsenseur-deploy-combined-s.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;!--
 &lt;img loading=&#34;lazy&#34; class=&#34;aligncenter  wp-image-864&#34; src=&#34;uploads/2019/02/airsenseur-deploy-combined-s-1024x537.jpg&#34; alt=&#34;&#34; width=&#34;555&#34; height=&#34;291&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2019/02/airsenseur-deploy-combined-s.jpg 1024w, https://justobjects.nl/wp-content/uploads/2019/02/airsenseur-deploy-combined-s-300x157.jpg 300w, https://justobjects.nl/wp-content/uploads/2019/02/airsenseur-deploy-combined-s-768x403.jpg 768w, https://justobjects.nl/wp-content/uploads/2019/02/airsenseur-deploy-combined-s-150x79.jpg 150w&#34; sizes=&#34;(max-width: 555px) 100vw, 555px&#34; /&gt;
@@ -124,7 +124,7 @@
 &lt;li&gt;O3 (Ozone): the &lt;a href=&#34;http://www.alphasense.com/index.php/products/ozone-2/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OX_A431&lt;/a&gt;
 , see &lt;a href=&#34;http://www.alphasense.com/WEB1213/wp-content/uploads/2018/12/OXA431.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;datasheet&lt;/a&gt;
 .&lt;/li&gt;
-&lt;li&gt;CO (Carbon Monoxide): the &lt;a href=&#34;http://www.alphasense.com/index.php/products/carbon-monoxide-safety/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CO-A4&lt;/a&gt;
+&lt;li&gt;CO (Carbon Monoxide): the &lt;a href=&#34;http://www.alphasense.com/index.php/products/carbon-monoxide-safety/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CO-A4&lt;/a&gt;
 , see &lt;a href=&#34;http://www.alphasense.com/WEB1213/wp-content/uploads/2017/01/COA4.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;datasheet&lt;/a&gt;
 .&lt;/li&gt;
 &lt;/ul&gt;
@@ -138,8 +138,8 @@
 &lt;/div&gt;
 --&gt;
 &lt;p&gt;The calibration to be applied is based on &lt;a href=&#34;https://en.wikipedia.org/wiki/Regression_analysis&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Regression Analysis&lt;/a&gt;
-. This and other calibration-methods have been investigated and evaluated for many types/brands of sensors by the EC-JRC team. Read all in this &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S092540051500355X&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;landmark article&lt;/a&gt;
- and other references there. &lt;/p&gt;
+. This and other calibration-methods have been investigated and evaluated for many types/brands of sensors by the EC-JRC team. Read all in this &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S092540051500355X&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;landmark article&lt;/a&gt;
+ and other references there.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/field-calibration-article.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;!--
 &lt;img loading=&#34;lazy&#34; class=&#34;wp-image-862 aligncenter&#34; src=&#34;uploads/2019/02/field-calibration-article.png&#34; alt=&#34;&#34; width=&#34;404&#34; height=&#34;251&#34; srcset=&#34;https://justobjects.nl/wp-content/uploads/2019/02/field-calibration-article.png 665w, https://justobjects.nl/wp-content/uploads/2019/02/field-calibration-article-300x186.png 300w, https://justobjects.nl/wp-content/uploads/2019/02/field-calibration-article-150x93.png 150w&#34; sizes=&#34;(max-width: 404px) 100vw, 404px&#34; /&gt;
@@ -156,7 +156,7 @@ All ASEs deployed at their target locations&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Nov/dec 2018&lt;br&gt;
-Calibration performed by Michel Gerboles at the EC-JRC lab &lt;/p&gt;
+Calibration performed by Michel Gerboles at the EC-JRC lab&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Jan 2019&lt;br&gt;
@@ -179,7 +179,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/ase-nl-1-5-deployed.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;ASE_NL 01 was deployed at an RIVM site in Nijmegen. This allowed us to verify its calibration with different reference data as with which it was calibrated! See below.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/deployment-map-s.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;ad 3)&lt;/strong&gt; The calibration was performed by EC-JRC (M. Gerboles) using R and ShinyR webapp. All sources can be found in this &lt;a href=&#34;https://github.com/ec-jrc/airsenseur-calibration&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EC-JRC GitHub repo&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;ad 3)&lt;/strong&gt; The calibration was performed by EC-JRC (M. Gerboles) using R and ShinyR webapp. All sources can be found in this &lt;a href=&#34;https://github.com/ec-jrc/airsenseur-calibration&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EC-JRC GitHub repo&lt;/a&gt;
 . This process is quite intricate and a bit hard to explain in the context of a blog-post paragraph. I’ll try a summary:&lt;/p&gt;
 &lt;p&gt;Sensor values are digital readings (0..65535). This is effected by the electrical circuitry within each ASE, for optimal gain. To calculate back to mV and nA a per-sensor (brand+type) calculation is required first before applying any regression formula. A bit is explained in the image below.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/readings-vref.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
@@ -194,7 +194,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/scatterplots-asenl03.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Above some scatterplots made for ASE Box 3 NO2 and O3.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;ad 4)&lt;/strong&gt; Knowing all equations and their parameters from step 3 above, I attempted to integrate this in the continuous ETL within the Smart Emission Platform. Up to now the platform supported only a single sensor station type: the Intemo Jose(ne). As the platform is fed by harvesting raw data from a set of remote APIs provided by Data Collectors, it was relatively easy to add sensor(-station)-metadata and extend the Refiner ETL to apply calibration algorithms driven by that metadata. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ad 4)&lt;/strong&gt; Knowing all equations and their parameters from step 3 above, I attempted to integrate this in the continuous ETL within the Smart Emission Platform. Up to now the platform supported only a single sensor station type: the Intemo Jose(ne). As the platform is fed by harvesting raw data from a set of remote APIs provided by Data Collectors, it was relatively easy to add sensor(-station)-metadata and extend the Refiner ETL to apply calibration algorithms driven by that metadata.&lt;/p&gt;
 &lt;p&gt;So for Josene stations the existing ANN calibration would still be applied, while for ASE stations per-sensor linear equations would be performed. All parameterization was already configurable using the &lt;a href=&#34;https://github.com/smartemission/docker-se-stetl/tree/mast&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Device, DeviceDefs, DeviceFuncs&lt;/a&gt;
  abstractions in the &lt;a href=&#34;https://github.com/smartemission/docker-se-stetl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SE Stetl implementation&lt;/a&gt;
 . Recently, to allow stations that already send calibrated values, I introduced the &lt;a href=&#34;https://github.com/smartemission/docker-se-stetl/blob/master/smartem/devices/vanilla.py&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Vanilla Device&lt;/a&gt;
@@ -207,10 +207,10 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;I = 10^9 V/(Gain x Rload)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;STEP 2 - Ampere (I) to concentration (ug/m3) - Example
 &lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;I=a0+a1*NO2+a2*T
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;==&amp;gt; NO2 = (I - a0 - a2 * T) / a1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;==&amp;gt; NO2 = (I - a0 - a2 * T) / a1
 &lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;a0-a2 has specific values for each NO2-B43F sensor.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now that these formulas and their parameters were implemented, near-realtime values could be made visible in all SE apps (viewers) and APIs such as the &lt;a href=&#34;https://data.smartemission.nl/smartapp/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SmartApp&lt;/a&gt;
- and the &lt;a href=&#34;https://data.smartemission.nl/heron/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron Viewer&lt;/a&gt;
+ and the &lt;a href=&#34;https://data.smartemission.nl/heron/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron Viewer&lt;/a&gt;
 .&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
@@ -236,7 +236,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;p&gt;Objectivity could be effected since station ASE NL 01 was finally deployed (okt 2018) in Nijmegen, also next to an RIVM station. So the calibration calculations from RIVM refdata in Breukelen could be compared to “Nijmegen”. The implementation for making these scatterplots can be found &lt;a href=&#34;https://github.com/smartemission/smartemission/tree/master/etl/calibration&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;here&lt;/a&gt;
 . Lets look at some results, mainly for NO2, as I consider this one of the most important AQ indicator gasses.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/nijm-ruy-no2-ASE_NL01-2018-12-25-2019-01-24.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
-&lt;p&gt;I like this image a lot as it shows an almost ideal alignment with an R2 of 0.976 and slope of almost 1. Mind: calibration was thus done at a very different site (about 80 km west) and AQ condition (highway) as the deployment (city street). &lt;/p&gt;
+&lt;p&gt;I like this image a lot as it shows an almost ideal alignment with an R2 of 0.976 and slope of almost 1. Mind: calibration was thus done at a very different site (about 80 km west) and AQ condition (highway) as the deployment (city street).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/asenl01-se-pycal-plots.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Above are plots for the other gasses as well. First row in Breukelen (no ref CO available in RIVM SOS), front row in Nijmegen. Only NO in Nijmegen is a bit problematic.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2019/02/breuk-sw-no2-ASE_NL_All-2018-09-10-2018-10-09.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
@@ -258,32 +258,32 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
       <guid>https://justobjects.nl/deploying-open-source-geospatial-1/</guid>
       <description>
         
-          &lt;p&gt;My blog has been quiet for some time. As many of us I’ve been busy doing projects, all involving Open Source Geo (OSGeo) software. Partly development, writing software, I love it, but also more and more in “what comes next”: deploying and maintaining “the application” with all of its dependencies. For this I have been using several “deployment strategies” I would like to share.  To be specific and for a TL;DR : over the years I went through custom compiles/installs, Debian/Ubuntu(GIS) package installation, writing Debian/RPM packages, using Puppet (not yet Chef), and now sitting on the &lt;a href=&#34;http://docker.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker&lt;/a&gt;
+          &lt;p&gt;My blog has been quiet for some time. As many of us I’ve been busy doing projects, all involving Open Source Geo (OSGeo) software. Partly development, writing software, I love it, but also more and more in “what comes next”: deploying and maintaining “the application” with all of its dependencies. For this I have been using several “deployment strategies” I would like to share.  To be specific and for a TL;DR : over the years I went through custom compiles/installs, Debian/Ubuntu(GIS) package installation, writing Debian/RPM packages, using Puppet (not yet Chef), and now sitting on the &lt;a href=&#34;http://docker.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker&lt;/a&gt;
  of the Bay. For many this last sentence may be gibberish, so I will try to sketch some context first. Calling this blog &lt;em&gt;Part 1&lt;/em&gt; also hopefully keeps me attached to the subject and writing as I have very good news. But today, ‘helas’, the bad and the ugly.&lt;/p&gt;
-&lt;p&gt;In terms of architecture I always prefer a “best-of-breed” selection of Open Source Geospatial (OSGeo) software components, rather than select a single platform/”Suite”. Nothing against Suites, this is a domain where  Open Source Geo providers, are, literally, “stacking up” against proprietary GIS providers. &lt;a href=&#34;http://boundlessgeo.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Boundless&lt;/a&gt;
+&lt;p&gt;In terms of architecture I always prefer a “best-of-breed” selection of Open Source Geospatial (OSGeo) software components, rather than select a single platform/”Suite”. Nothing against Suites, this is a domain where  Open Source Geo providers, are, literally, “stacking up” against proprietary GIS providers. &lt;a href=&#34;http://boundlessgeo.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Boundless&lt;/a&gt;
 , &lt;a href=&#34;http://www.geo-solutions.it/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoSolutions&lt;/a&gt;
 , &lt;a href=&#34;http://www.geomajas.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geomajas&lt;/a&gt;
-, to name a few, have great platforms you should check out.  Because I like to dive deep into open source geospatial technology, trying to contribute where possible, even &lt;a href=&#34;https://github.com/justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;writing some myself&lt;/a&gt;
-, and having experienced the pros and cons of each individual component, I tend to go for a best fit in a project. For example, for WMS/WFS I may apply &lt;a href=&#34;http://mapserver.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MapServer&lt;/a&gt;
- or &lt;a href=&#34;http://geoserver.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoServer&lt;/a&gt;
- or &lt;a href=&#34;http://deegree.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;deegree&lt;/a&gt;
+, to name a few, have great platforms you should check out.  Because I like to dive deep into open source geospatial technology, trying to contribute where possible, even &lt;a href=&#34;https://github.com/justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;writing some myself&lt;/a&gt;
+, and having experienced the pros and cons of each individual component, I tend to go for a best fit in a project. For example, for WMS/WFS I may apply &lt;a href=&#34;http://mapserver.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MapServer&lt;/a&gt;
+ or &lt;a href=&#34;http://geoserver.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoServer&lt;/a&gt;
+ or &lt;a href=&#34;http://deegree.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;deegree&lt;/a&gt;
 , for web clients &lt;a href=&#34;http://openlayers.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenLayers&lt;/a&gt;
- or &lt;a href=&#34;http://leaflet.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Leaflet.&lt;/a&gt;
- As for tiling, well, to be honest, nothing beats &lt;a href=&#34;http://MapProxy.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MapProxy&lt;/a&gt;
+ or &lt;a href=&#34;http://leaflet.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Leaflet.&lt;/a&gt;
+ As for tiling, well, to be honest, nothing beats &lt;a href=&#34;http://MapProxy.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MapProxy&lt;/a&gt;
 . &lt;a href=&#34;http://gdal.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GDAL&lt;/a&gt;
- , &lt;a href=&#34;http://qgis.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;QGIS&lt;/a&gt;
+ , &lt;a href=&#34;http://qgis.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;QGIS&lt;/a&gt;
 , &lt;a href=&#34;http://grass.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GRASS&lt;/a&gt;
 , &lt;a href=&#34;http://geonetwork-opensource.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoNetwork&lt;/a&gt;
- or &lt;a href=&#34;http://pycsw.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pycsw&lt;/a&gt;
-, I could go on. I am a huge fan of each of these projects, standing on the shoulders of giants when using their products.  It depends on the project’s requirements what I choose.&lt;/p&gt;
-&lt;p&gt;But going for a “best-of-breed” architecture, where a selection of Open Source Geospatial components is made, usually extended with custom software and configurations, creates challenges in deployment and maintenance. With the latter I mean: going into production (live) and maintaining the system for an N number of years through modifications and updates. “Getting it working” on a single system will often succeed, possibly after a great number of Google searches,  mailing list threads, then finally getting all components and dependencies installed, often by hand. In some cases even recompiling components, moving libraries, setting PATHs etc. At some point “it all works” but at the same time we enter the “don’t touch it”  phase. We have an “upgrading issue”, but doable on a single system/server.&lt;/p&gt;
-&lt;p&gt;To worsen this situation: most professional IT-departments employ a multi-step deployment-strategy. There is not just a single system where the application runs, but several systems, each dedicated to, and named after their phase in deployment. For example, governmental projects within The Netherlands often deploy “OTAP”. &lt;a href=&#34;https://nl.wikipedia.org/wiki/OTAP&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OTAP&lt;/a&gt;
+ or &lt;a href=&#34;http://pycsw.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pycsw&lt;/a&gt;
+, I could go on. I am a huge fan of each of these projects, standing on the shoulders of giants when using their products.  It depends on the project’s requirements what I choose.&lt;/p&gt;
+&lt;p&gt;But going for a “best-of-breed” architecture, where a selection of Open Source Geospatial components is made, usually extended with custom software and configurations, creates challenges in deployment and maintenance. With the latter I mean: going into production (live) and maintaining the system for an N number of years through modifications and updates. “Getting it working” on a single system will often succeed, possibly after a great number of Google searches,  mailing list threads, then finally getting all components and dependencies installed, often by hand. In some cases even recompiling components, moving libraries, setting PATHs etc. At some point “it all works” but at the same time we enter the “don’t touch it”  phase. We have an “upgrading issue”, but doable on a single system/server.&lt;/p&gt;
+&lt;p&gt;To worsen this situation: most professional IT-departments employ a multi-step deployment-strategy. There is not just a single system where the application runs, but several systems, each dedicated to, and named after their phase in deployment. For example, governmental projects within The Netherlands often deploy “OTAP”. &lt;a href=&#34;https://nl.wikipedia.org/wiki/OTAP&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OTAP&lt;/a&gt;
  (in English &lt;a href=&#34;https://en.wikipedia.org/wiki/Development,_testing,_acceptance_and_production&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;DTAP&lt;/a&gt;
-) stands for Development, Test, Acceptance, Production. These are, often rigorously, separated computing infrastructures (servers, clients). An application with all its dependencies has to be deployed sequentially on/through each of these phases, sometimes called “pillars” (Dutch: zuilen). In many cases a direct connection between these systems is blocked by the IT-department.  In the simplest case, we have a Test and Production system. Hence, our carefully handcrafted system will have a major challenge getting from one pillar to the next.  But I am not finished yet, we have the “tribal thing” going on in Open Source Geospatial software. Let me expand.&lt;/p&gt;
-&lt;p&gt;Diversity is good. Also in software. Over the years Open Source Geospatial software has been developed using a plethora of programming languages. Each came with a variety of deployment systems. I am talking about Java, Python, JavaScript/NodeJS, C/C++, and recently Go. These languages usually have some kind of library and deployment technology. Take Java: for server side components we need to have an “J2EE Container”, in most cases Tomcat, and deploy &lt;em&gt;.war&lt;/em&gt; files (e.g. GeoServer or GeoNetwork). For Python and “CGI-able” components like MapServer, we may just need a CGI-server like Apache or Nginx.  Each of these products deploys in its own way, has its own method for maintaining its configuration and managing updates. In Dutch we call this a “Lappendeken”. The closest translation I found is a “patchwork”, that is to say a diverse deployment and maintenance system. Individual products may provide a “GUI” to manage configurations, stored in diverse ways, from single XML/YAML files to even databases. No way to manage these products in a uniform way. For an outsider, or a cynical proprietary GIS-provider, this all could be labeled, as “Open Source Geospatial (deployment) is a big mess”.&lt;/p&gt;
-&lt;p&gt;So dear readers,  sketching this bag of problems, in a positive sense: challenges, how we go from here? As I indicated, there is good news. The answer, my friend, lies in _abstraction. _Abstraction is the way that software technology has always progressed: from machine instructions to assembly and programming languages, through data structures, objects and classes. To components and packages. Coupling and cohesion is another progressing force: maximizing cohesion (do one thing good) and minimizing coupling (reduce dependencies). All in all I have been finding solutions to the above problems using very accessible technologies. In the next two parts I hope to expand on these further as I am picking just two (Deployment Strategies) for now. The first is &lt;a href=&#34;https://wiki.debian.org/Packaging&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Debian Packaging&lt;/a&gt;
- (with some &lt;a href=&#34;https://puppet.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Puppet&lt;/a&gt;
-), the second is &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker&lt;/a&gt;
+) stands for Development, Test, Acceptance, Production. These are, often rigorously, separated computing infrastructures (servers, clients). An application with all its dependencies has to be deployed sequentially on/through each of these phases, sometimes called “pillars” (Dutch: zuilen). In many cases a direct connection between these systems is blocked by the IT-department.  In the simplest case, we have a Test and Production system. Hence, our carefully handcrafted system will have a major challenge getting from one pillar to the next.  But I am not finished yet, we have the “tribal thing” going on in Open Source Geospatial software. Let me expand.&lt;/p&gt;
+&lt;p&gt;Diversity is good. Also in software. Over the years Open Source Geospatial software has been developed using a plethora of programming languages. Each came with a variety of deployment systems. I am talking about Java, Python, JavaScript/NodeJS, C/C++, and recently Go. These languages usually have some kind of library and deployment technology. Take Java: for server side components we need to have an “J2EE Container”, in most cases Tomcat, and deploy &lt;em&gt;.war&lt;/em&gt; files (e.g. GeoServer or GeoNetwork). For Python and “CGI-able” components like MapServer, we may just need a CGI-server like Apache or Nginx.  Each of these products deploys in its own way, has its own method for maintaining its configuration and managing updates. In Dutch we call this a “Lappendeken”. The closest translation I found is a “patchwork”, that is to say a diverse deployment and maintenance system. Individual products may provide a “GUI” to manage configurations, stored in diverse ways, from single XML/YAML files to even databases. No way to manage these products in a uniform way. For an outsider, or a cynical proprietary GIS-provider, this all could be labeled, as “Open Source Geospatial (deployment) is a big mess”.&lt;/p&gt;
+&lt;p&gt;So dear readers,  sketching this bag of problems, in a positive sense: challenges, how we go from here? As I indicated, there is good news. The answer, my friend, lies in _abstraction. _Abstraction is the way that software technology has always progressed: from machine instructions to assembly and programming languages, through data structures, objects and classes. To components and packages. Coupling and cohesion is another progressing force: maximizing cohesion (do one thing good) and minimizing coupling (reduce dependencies). All in all I have been finding solutions to the above problems using very accessible technologies. In the next two parts I hope to expand on these further as I am picking just two (Deployment Strategies) for now. The first is &lt;a href=&#34;https://wiki.debian.org/Packaging&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Debian Packaging&lt;/a&gt;
+ (with some &lt;a href=&#34;https://puppet.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Puppet&lt;/a&gt;
+), the second is &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Docker&lt;/a&gt;
 . In short: what to expect in my next two blogs (Part 2 and Part 3):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;&lt;strong&gt;Debian Packaging:&lt;/strong&gt;&lt;/em&gt; writing Debian packages to maintain software and configuration in a multi-step deployment environment&lt;/li&gt;
@@ -303,28 +303,28 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
       <guid>https://justobjects.nl/unlocking-sensor-data-sos/</guid>
       <description>
         
-          &lt;p&gt;Revealing: the title refers, for the younger readers, to a great 1979-hit by The Police as expanded below. To be played at the loudest possible volume. If you don’t see anything here below try the YouTube link directly:&lt;/p&gt;
+          &lt;p&gt;Revealing: the title refers, for the younger readers, to a great 1979-hit by The Police as expanded below. To be played at the loudest possible volume. If you don’t see anything here below try the YouTube link directly:&lt;/p&gt;
 
 &lt;div class=&#34;video&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/MbXWrmQW-OE?controls=1&amp;rel=0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;p&gt;One of the main aspects that glues the OSGeo-world together are OGC-standards: WMS, WFS, WMTS, WCS and WPS are, at least for most insiders, not hollow acronyms. But who knows about and uses SOS? SOS stands for &lt;em&gt;“Sensor Observation Service”&lt;/em&gt;, &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;an OGC standard&lt;/a&gt;
- within the elaborate framework of the &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
-.  SOS provides a standard to publish (SOS-T) and request time-based (meta-) data, mostly from “Sensors”. Its convention is similar to WMS/WFS (GetCapabilities, DescribeSensor, GetObservation etc). Think of weather or air quality measurements over time.&lt;/p&gt;
+&lt;p&gt;One of the main aspects that glues the OSGeo-world together are OGC-standards: WMS, WFS, WMTS, WCS and WPS are, at least for most insiders, not hollow acronyms. But who knows about and uses SOS? SOS stands for &lt;em&gt;“Sensor Observation Service”&lt;/em&gt;, &lt;a href=&#34;http://www.opengeospatial.org/standards/sos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;an OGC standard&lt;/a&gt;
+ within the elaborate framework of the &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
+.  SOS provides a standard to publish (SOS-T) and request time-based (meta-) data, mostly from “Sensors”. Its convention is similar to WMS/WFS (GetCapabilities, DescribeSensor, GetObservation etc). Think of weather or air quality measurements over time.&lt;/p&gt;
 &lt;p&gt;The Internet of &lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_Things&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Things (IoT)&lt;/a&gt;
-  is now gaining a strong momentum: &lt;em&gt;“The Internet of Things (IoT) is the network of physical objects or “things” embedded&lt;/em&gt; &lt;em&gt;with electronics, software, sensors, and network connectivity, which enables these  objects to collect and exchange data. The Internet of Things allows objects to be sensed and controlled remotely across existing network infrastructure, creating opportunities for more direct integration between the physical world and computer-based systems, and resulting in improved efficiency, accuracy and economic benefit Each thing is uniquely identifiable through its embedded computing system but is able to interoperate within the existing Internet infrastructure. Experts estimate that the IoT will consist of almost 50 billion  objects by 2020.” (&lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_Things&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;from Wikipedia&lt;/a&gt;
+  is now gaining a strong momentum: &lt;em&gt;“The Internet of Things (IoT) is the network of physical objects or “things” embedded&lt;/em&gt; &lt;em&gt;with electronics, software, sensors, and network connectivity, which enables these  objects to collect and exchange data. The Internet of Things allows objects to be sensed and controlled remotely across existing network infrastructure, creating opportunities for more direct integration between the physical world and computer-based systems, and resulting in improved efficiency, accuracy and economic benefit Each thing is uniquely identifiable through its embedded computing system but is able to interoperate within the existing Internet infrastructure. Experts estimate that the IoT will consist of almost 50 billion  objects by 2020.” (&lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_Things&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;from Wikipedia&lt;/a&gt;
 ).&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;So how will SOS and the generic &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
- will fit into this force? I really don’t know. For many of the OGC-standards like WMS, there are multiple implementations. For SOS  I know about just two: the &lt;a href=&#34;http://52north.org/communities/sensorweb/sos/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;52 North SOS&lt;/a&gt;
+&lt;p&gt;So how will SOS and the generic &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
+ will fit into this force? I really don’t know. For many of the OGC-standards like WMS, there are multiple implementations. For SOS  I know about just two: the &lt;a href=&#34;http://52north.org/communities/sensorweb/sos/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;52 North SOS&lt;/a&gt;
 , and the &lt;a href=&#34;http://istsos.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;IstSOS&lt;/a&gt;
-.  Both of these are powerful with their own strengths and limitations.&lt;/p&gt;
-&lt;p&gt;I have worked successfully with the &lt;a href=&#34;http://52north.org/communities/sensorweb/sos/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;52 North SOS&lt;/a&gt;
- within a &lt;a href=&#34;http://sensors.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch project on Air Quality&lt;/a&gt;
+.  Both of these are powerful with their own strengths and limitations.&lt;/p&gt;
+&lt;p&gt;I have worked successfully with the &lt;a href=&#34;http://52north.org/communities/sensorweb/sos/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;52 North SOS&lt;/a&gt;
+ within a &lt;a href=&#34;http://sensors.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch project on Air Quality&lt;/a&gt;
 . All details are in &lt;a href=&#34;http://sospilot.readthedocs.org/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this online document.&lt;/a&gt;
- In essence we are (still) publishing and emitting Dutch National Air Quality data via a SOS server. At the same time, via GeoServer, using WMS-Time &lt;a href=&#34;http://sensors.geonovum.nl/heronviewer/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;via this web-client&lt;/a&gt;
-. On the way I found that the OGC-SOS Standard is complex and quite cumbersome in its usage. 52 North has provided &lt;a href=&#34;http://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/api-doc/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;a custom REST interface&lt;/a&gt;
- that appeals to be more usable. But SOS with its inner talk of “Procedures” and “Offerings” remains a Hot Potato.&lt;/p&gt;
+ In essence we are (still) publishing and emitting Dutch National Air Quality data via a SOS server. At the same time, via GeoServer, using WMS-Time &lt;a href=&#34;http://sensors.geonovum.nl/heronviewer/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;via this web-client&lt;/a&gt;
+. On the way I found that the OGC-SOS Standard is complex and quite cumbersome in its usage. 52 North has provided &lt;a href=&#34;http://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/api-doc/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;a custom REST interface&lt;/a&gt;
+ that appeals to be more usable. But SOS with its inner talk of “Procedures” and “Offerings” remains a Hot Potato.&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;http://sensors.geonovum.nl/heronviewer/&#34;&gt;
@@ -335,9 +335,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   
 &lt;/div&gt;
 
-&lt;p&gt;So the broader question is more about the OGC SOS standard and the related &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
-  : how we as an OSGeo-community think it should evolve within the expanding world of the IoT? My opinion is that we need to strive for more ease-of-use. SOS-as-standard is an academic challenge. A window to the future may be the OGC-effort initiated by Steve Liang: the SensorThings API not only provides a simplification from the original  &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
- but also a modern way of community-based cooperation of standards making via GtiHub: &lt;a href=&#34;http://ogc-iot.github.io/ogc-iot-api/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;http://ogc-iot.github.io/ogc-iot-api&lt;/a&gt;
+&lt;p&gt;So the broader question is more about the OGC SOS standard and the related &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
+  : how we as an OSGeo-community think it should evolve within the expanding world of the IoT? My opinion is that we need to strive for more ease-of-use. SOS-as-standard is an academic challenge. A window to the future may be the OGC-effort initiated by Steve Liang: the SensorThings API not only provides a simplification from the original  &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
+ but also a modern way of community-based cooperation of standards making via GtiHub: &lt;a href=&#34;http://ogc-iot.github.io/ogc-iot-api/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;http://ogc-iot.github.io/ogc-iot-api&lt;/a&gt;
 . Time will tell, a message in a bottle will also eventually arrive.&lt;/p&gt;
 
         
@@ -352,12 +352,12 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
       <guid>https://justobjects.nl/3d-geospatial-open-standards-v0/</guid>
       <description>
         
-          &lt;p&gt;This is my evolving overview of 3D Geospatial Open Standards with a focus on web technology: services, HTML5, WebGL. These are notes I keep within &lt;a href=&#34;http://evernote.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Evernote&lt;/a&gt;
+          &lt;p&gt;This is my evolving overview of 3D Geospatial Open Standards with a focus on web technology: services, HTML5, WebGL. These are notes I keep within &lt;a href=&#34;http://evernote.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Evernote&lt;/a&gt;
  as part of the 3D Geospatial Notebook whose public link is: &lt;a href=&#34;https://www.evernote.com/pub/justb4ever/3d-geospatial&#34;&gt;https://www.evernote.com/pub/justb4ever/3d-geospatial&lt;/a&gt;. For sure, resources are missing, let me know. These notes are synced from Evernote using &lt;a href=&#34;http://zapier.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Zapier&lt;/a&gt;
 , so formatting is a bit messy, sorry for that, though I completely revised this blog on Jan 30, 2015.&lt;/p&gt;
-&lt;p&gt;The presentations by &lt;a href=&#34;https://twitter.com/emmanuel_belo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emanuel Belo&lt;/a&gt;
+&lt;p&gt;The presentations by &lt;a href=&#34;https://twitter.com/emmanuel_belo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emanuel Belo&lt;/a&gt;
  (&lt;a href=&#34;http://www.camptocamp.com/en/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Camp2Camp&lt;/a&gt;
-, links below) are an excellent start to get a global overview. He mentions the following categories of 3D standards and their organizations:&lt;/p&gt;
+, links below) are an excellent start to get a global overview. He mentions the following categories of 3D standards and their organizations:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Geo: OGC&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;3D Portrayal Services (Proposals: WVS WMS-Like &amp;amp; W3DS WFS-Like) (Just: Now 3DPS)&lt;/li&gt;
@@ -372,7 +372,7 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Web: Web3d&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt; X3D – Extensible 3D Graphics&lt;/li&gt;
+&lt;li&gt;X3D – Extensible 3D Graphics&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Graphics: Khronos Group&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -384,8 +384,8 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
 &lt;ul&gt;
 &lt;li&gt;TopoJSON&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In the short time I am spending within the 3D domain I think another categorization could be 3D Web Services Standards and 3D Content/Format Standards. A lot of focus is usually on the latter. Within 3D Content/Format Standards my view is that there are the sub-categories based on stages within a 3D rendering pipeline, i.e. from raw source data like CityGML up to 3D-scene encodings like COLLADA and glTF. I see “Terrain” as a separate content category with encodings like height maps and TINs.&lt;/p&gt;
-&lt;p&gt;I think/hope that 3D Web Services will gain importance: services to request Content in various encodings plus Terrain data. Techniques like tiling (TMS/WMTS) are already very common within the geospatial world. With the latest developments in vector-tiling I see much potential, especially for terrain and textures (raster) draped on a terrain. Streaming as in video streaming, is not common within the geospatial world but may become of use especially in HTML5 apps (via web sockets?).&lt;/p&gt;
+&lt;p&gt;In the short time I am spending within the 3D domain I think another categorization could be 3D Web Services Standards and 3D Content/Format Standards. A lot of focus is usually on the latter. Within 3D Content/Format Standards my view is that there are the sub-categories based on stages within a 3D rendering pipeline, i.e. from raw source data like CityGML up to 3D-scene encodings like COLLADA and glTF. I see “Terrain” as a separate content category with encodings like height maps and TINs.&lt;/p&gt;
+&lt;p&gt;I think/hope that 3D Web Services will gain importance: services to request Content in various encodings plus Terrain data. Techniques like tiling (TMS/WMTS) are already very common within the geospatial world. With the latest developments in vector-tiling I see much potential, especially for terrain and textures (raster) draped on a terrain. Streaming as in video streaming, is not common within the geospatial world but may become of use especially in HTML5 apps (via web sockets?).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;General&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The following presentations by Emanuel Belo from Camp2Camp hit the nail on the head. The content lives up to the title.&lt;/p&gt;
 &lt;p&gt;Two versions available, video and slides from FOSS4G 2013, Nottingham (missed that unfortunately) and a later 2014 version.&lt;/p&gt;
@@ -427,7 +427,7 @@ The OGC …. &lt;em&gt;“3D Portrayal Interoperability Experiment (IE) successf
 Report: &lt;a href=&#34;https://portal.opengeospatial.org/files/?artifact_id=49068&#34;&gt;https://portal.opengeospatial.org/files/?artifact_id=49068&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;NB this ultimately lead to the development of the 3D Portrayal Standard which merged W3DS and WVS.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Open Source Geospatial Foundation – OSGeo&lt;/strong&gt;&lt;br&gt;
-Although &lt;a href=&#34;http://osgeo.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.org&lt;/a&gt;
+Although &lt;a href=&#34;https://osgeo.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.org&lt;/a&gt;
  is not a standards body, for years the Tiled Map Service TMS spec is intensively used, probably more than its OGC-counterpart WMTS…&lt;br&gt;
 &lt;a href=&#34;http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification&#34;&gt;http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;TMS is finding its use in the 3D landscape not just for tiles containing 2D raster maps to be draped over a terrain, but also more and more as a container for height and (compressed) vector tiles. This is an important development, see e.g. Cesium Terrain Server and its two format-encodings for terrain-tiles:&lt;br&gt;
@@ -451,10 +451,10 @@ Although &lt;a href=&#34;http://osgeo.org&#34; target=&#34;_blank&#34; rel=&#34;
 &lt;em&gt;capable without plug-in.”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Cesium&lt;/strong&gt;&lt;br&gt;
 Although &lt;a href=&#34;http://cesiumjs.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CesiumJS&lt;/a&gt;
- is mainly a client JavaScript framework based on WebGL and Dojo,  some very useful standards are originating from the project.&lt;/p&gt;
+ is mainly a client JavaScript framework based on WebGL and Dojo,  some very useful standards are originating from the project.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://cesiumjs.org/data-and-assets/terrain/formats/quantized-mesh-1.0.html&#34;&gt;http://cesiumjs.org/data-and-assets/terrain/formats/quantized-mesh-1.0.html&lt;/a&gt; quantized mesh via TMS – for terrain services based on TINs.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide&#34;&gt;https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide&lt;/a&gt; – CZML is a JSON schema for describing a time-dynamic graphical scene&lt;/p&gt;
-&lt;p&gt;NEW (august 2015) &lt;em&gt;&lt;strong&gt;“3D Tiles”&lt;/strong&gt;&lt;/em&gt; : &lt;a href=&#34;https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles&#34;&gt;https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles&lt;/a&gt;. &lt;em&gt;“3D Tiles are an &lt;a href=&#34;https://github.com/AnalyticalGraphicsInc/3d-tiles&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;open specification&lt;/a&gt;
+&lt;p&gt;NEW (august 2015) &lt;em&gt;&lt;strong&gt;“3D Tiles”&lt;/strong&gt;&lt;/em&gt; : &lt;a href=&#34;https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles&#34;&gt;https://cesiumjs.org/2015/08/10/Introducing-3D-Tiles&lt;/a&gt;. &lt;em&gt;“3D Tiles are an &lt;a href=&#34;https://github.com/AnalyticalGraphicsInc/3d-tiles&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;open specification&lt;/a&gt;
  for streaming massive heterogeneous 3D geospatial datasets….3D Tiles define a spatial data structure and a set of tile formats designed for 3D and optimized for streaming and rendering. Tiles for 3D models use &lt;a href=&#34;https://www.khronos.org/gltf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;glTF&lt;/a&gt;
 , the WebGL runtime asset format developed by Khronos, which the Cesium team heavily contributes to….”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Collada&lt;/strong&gt;&lt;br&gt;
@@ -475,7 +475,7 @@ Final stage OpenGL Transmission Format to enable rapid delivery and loading of 3
 &lt;p&gt;&lt;a href=&#34;https://www.khronos.org/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://www.khronos.org/&#34;&gt;https://www.khronos.org/&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://www.khronos.org/gltf/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://www.khronos.org/gltf/&#34;&gt;https://www.khronos.org/gltf/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TopoJSON&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;“TopoJSON is an extension of GeoJSON that encodes topology. Rather than representing geometries discretely, geometries in TopoJSON files are stitched together from shared line segments called arcs. TopoJSON eliminates redundancy, offering much more compact representations of geometry than with GeoJSON; typical TopoJSON files are 80% smaller than their GeoJSON equivalents. In addition, TopoJSON facilitates applications that use topology, such as topology-preserving shape simplification, automatic map coloring, and cartograms.”&lt;/em&gt; (i.e. compact TIN-representations!).&lt;br&gt;
+&lt;p&gt;&lt;em&gt;“TopoJSON is an extension of GeoJSON that encodes topology. Rather than representing geometries discretely, geometries in TopoJSON files are stitched together from shared line segments called arcs. TopoJSON eliminates redundancy, offering much more compact representations of geometry than with GeoJSON; typical TopoJSON files are 80% smaller than their GeoJSON equivalents. In addition, TopoJSON facilitates applications that use topology, such as topology-preserving shape simplification, automatic map coloring, and cartograms.”&lt;/em&gt; (i.e. compact TIN-representations!).&lt;br&gt;
 &lt;a href=&#34;https://github.com/mbostock/topojson&#34;&gt;https://github.com/mbostock/topojson&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Germany: SIG 3D&lt;/strong&gt;&lt;br&gt;
 Germany-based 3D interest group. Started already very early (2002) with 3D geospatial and has a long history. Many useful resources for both standards and implementations can be found via their websites.&lt;/p&gt;
@@ -488,13 +488,13 @@ Several standards like OGC CityGML W3DS, later 3DPS had their origins here.&lt;/
 &lt;p&gt;As a follow-up (2011) of the 3D-Pilot the public standard CityGML-IMGeo was developed. Basically this standardizes detailed smallscale/detailed topography using and extending CityGML: &lt;a href=&#34;http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-imgeo-versie-211&#34;&gt;http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-imgeo-versie-211&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;History of 3D geo in The Netherlands: &lt;a href=&#34;http://www.geonovum.nl/onderwerpen/3d-geo-informatie/historie-3d-geo-informatie-nl&#34;&gt;http://www.geonovum.nl/onderwerpen/3d-geo-informatie/historie-3d-geo-informatie-nl&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Now (Jan 2015) starting up a next phase called “3D Doorbraak”, with a recent working conference for establishing the 3D roadmap for The Netherlands: &lt;a href=&#34;http://www.geonovum.nl/nieuws/werkconferentie-voor-opstellen-roadmap-3d-doorbraak&#34;&gt;http://www.geonovum.nl/nieuws/werkconferentie-voor-opstellen-roadmap-3d-doorbraak&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The choice of standards plays an important part.&lt;/p&gt;
+&lt;p&gt;The choice of standards plays an important part.&lt;/p&gt;
 &lt;p&gt;See also news items via Twitter (#doorbraak3D): &lt;a href=&#34;https://twitter.com/search?q=%23doorbraak3D&amp;amp;src=typd&#34;&gt;https://twitter.com/search?q=%23doorbraak3D&amp;amp;src=typd&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;BIM – IFC&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Now that geospatial information is obtaining more detail and moving into 3D, integration with standards within the Building and infrastructure industry is one of the most obvious use-cases. Building Information Modelling or BIM is a huge standardization effort within the Building and infrastructure domain.&lt;/p&gt;
-&lt;p&gt;Geoff ,”Between The Poles”, Zeiss blogs regularly on BIM and Geospatial: &lt;a href=&#34;http://geospatial.blogs.com/geospatial/bim/&#34;&gt;http://geospatial.blogs.com/geospatial/bim/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now that geospatial information is obtaining more detail and moving into 3D, integration with standards within the Building and infrastructure industry is one of the most obvious use-cases. Building Information Modelling or BIM is a huge standardization effort within the Building and infrastructure domain.&lt;/p&gt;
+&lt;p&gt;Geoff ,”Between The Poles”, Zeiss blogs regularly on BIM and Geospatial: &lt;a href=&#34;http://geospatial.blogs.com/geospatial/bim/&#34;&gt;http://geospatial.blogs.com/geospatial/bim/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;“Building information modeling&lt;/strong&gt; (&lt;strong&gt;BIM&lt;/strong&gt;) is a process involving the generation and management of digital representations of physical and functional characteristics of places. &lt;strong&gt;Building information models&lt;/strong&gt; (&lt;strong&gt;BIMs&lt;/strong&gt;) are files (often but not always in proprietary formats and containing proprietary data) which can be exchanged or networked to support decision-making about a place. Current BIM software is used by individuals, businesses and government agencies who plan, design, construct, operate and maintain diverse physical infrastructures, such as water, wastewater, electricity, gas, refuse and communication utilities, roads, bridges and ports, houses, apartments, schools and shops, offices, factories, warehouses and prisons.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Source: &lt;a href=&#34;http://en.wikipedia.org/wiki/Building_information_modeling&#34;&gt;http://en.wikipedia.org/wiki/Building_information_modeling&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Source: &lt;a href=&#34;http://en.wikipedia.org/wiki/Building_information_modeling&#34;&gt;http://en.wikipedia.org/wiki/Building_information_modeling&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;For information exchange the Industry Foundation Classes are put forward.&lt;/p&gt;
 &lt;p&gt;“The &lt;em&gt;Industry Foundation Classes (IFC) data model is intended to describe building and construction industry data.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;It is a platform neutral, open file format specification that is not controlled by a single vendor or group of vendors. It is an object-based file format with a data model developed bybuildingSMART (formerly the International Alliance for Interoperability, IAI) to facilitate interoperability in the architecture, engineering and construction (AEC) industry, and is a commonly used collaboration format in Building information modeling (BIM) based projects. The IFC model specification is open and available.[1] It is registered by ISO and is an official International Standard ISO 16739:2013.”&lt;/em&gt;&lt;br&gt;
@@ -513,32 +513,32 @@ Source: &lt;a href=&#34;http://en.wikipedia.org/wiki/Industry_Foundation_Classes
       <guid>https://justobjects.nl/3d-geospatial-foss-v0/</guid>
       <description>
         
-          &lt;p&gt;This is my list of FOSS products for 3D Geospatial with a focus on web technology/WebGL and Open Standards. These are notes I keep within Evernote as part of the 3D Geospatial Notebook whose public link is: &lt;a href=&#34;https://www.evernote.com/pub/justb4ever/3d-geospatial&#34;&gt;https://www.evernote.com/pub/justb4ever/3d-geospatial&lt;/a&gt;. This is also the first experiment to auto sync Evernote to WordPress using Zapier, so beware of any glitches in formatting! I am sure I have missed many other great products. Let me know!&lt;/p&gt;
+          &lt;p&gt;This is my list of FOSS products for 3D Geospatial with a focus on web technology/WebGL and Open Standards. These are notes I keep within Evernote as part of the 3D Geospatial Notebook whose public link is: &lt;a href=&#34;https://www.evernote.com/pub/justb4ever/3d-geospatial&#34;&gt;https://www.evernote.com/pub/justb4ever/3d-geospatial&lt;/a&gt;. This is also the first experiment to auto sync Evernote to WordPress using Zapier, so beware of any glitches in formatting! I am sure I have missed many other great products. Let me know!&lt;/p&gt;
 &lt;h3 id=&#34;oslandia&#34;&gt;OSLandia&lt;/h3&gt;
-&lt;p&gt;OSLandia from Paris, France  is one of the most active companies contributing to 3D Geospatial FOSS.
+&lt;p&gt;OSLandia from Paris, France  is one of the most active companies contributing to 3D Geospatial FOSS.
 &lt;a href=&#34;http://www.oslandia.com/&#34;&gt;http://www.oslandia.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.oslandia.com/postgis-3d-foss4g-video-and-workshop-en.html&#34;&gt;http://www.oslandia.com/postgis-3d-foss4g-video-and-workshop-en.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;– The latest PostGIS and QGIS 3D enhancements presented at &lt;a href=&#34;http://2013.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G&lt;/a&gt;
- by Oslandia – GIS goes 3D : an OpenSource stack – Olivier Courtin – FOSS4G 2014&lt;/p&gt;
+&lt;p&gt;– The latest PostGIS and QGIS 3D enhancements presented at &lt;a href=&#34;http://2013.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G&lt;/a&gt;
+ by Oslandia – GIS goes 3D : an OpenSource stack – Olivier Courtin – FOSS4G 2014&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://vimeo.com/106846660&#34;&gt;http://vimeo.com/106846660&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;cesium&#34;&gt;Cesium&lt;/h3&gt;
 &lt;p&gt;– General&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;“Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without a plugin. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization. Cesium is open source under the Apache 2.0 license. It is free for commercial and non-commercial use.”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/cesium.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://cesiumjs.org/&#34;&gt;http://cesiumjs.org/&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://cesiumjs.org/presentations/Rendering%20the%20Whole%20Wide%20World%20on%20the%20World%20Wide%20Web.pdf&#34;&gt;http://cesiumjs.org/presentations/Rendering%20the%20Whole%20Wide%20World%20on%20the%20World%20Wide%20Web.pdf&lt;/a&gt; great presentation&lt;/p&gt;
+&lt;a href=&#34;http://cesiumjs.org/presentations/Rendering%20the%20Whole%20Wide%20World%20on%20the%20World%20Wide%20Web.pdf&#34;&gt;http://cesiumjs.org/presentations/Rendering%20the%20Whole%20Wide%20World%20on%20the%20World%20Wide%20Web.pdf&lt;/a&gt; great presentation&lt;/p&gt;
 &lt;p&gt;– Cesium Terrain Service Preparation&lt;br&gt;
 &lt;a href=&#34;https://github.com/giohappy/gdal2cesium&#34;&gt;https://github.com/giohappy/gdal2cesium&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://github.com/kaktus40/Cesium-GeoserverTerrainProvider&#34;&gt;https://github.com/kaktus40/Cesium-GeoserverTerrainProvider&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;– Creating 3D terrains with Cesium – Bjørn Sandvik&lt;br&gt;
+&lt;p&gt;– Creating 3D terrains with Cesium – Bjørn Sandvik&lt;br&gt;
 &lt;a href=&#34;http://blog.thematicmapping.org/2014/10/3d-terrains-with-cesium.html&#34;&gt;http://blog.thematicmapping.org/2014/10/3d-terrains-with-cesium.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;– Migrating from Google Earth to Cesium&lt;br&gt;
-&lt;em&gt;This is a guest post by Greg Angevine, Founder of &lt;a href=&#34;http://cubecities.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cube Cities Inc&lt;/a&gt;
-. His company has used the Google Earth plugin for years and has recently built impressive work with Cesium (like &lt;a href=&#34;https://twitter.com/CesiumJS/status/552845347484364800&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this&lt;/a&gt;
+&lt;p&gt;– Migrating from Google Earth to Cesium&lt;br&gt;
+&lt;em&gt;This is a guest post by Greg Angevine, Founder of &lt;a href=&#34;http://cubecities.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cube Cities Inc&lt;/a&gt;
+. His company has used the Google Earth plugin for years and has recently built impressive work with Cesium (like &lt;a href=&#34;https://twitter.com/CesiumJS/status/552845347484364800&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this&lt;/a&gt;
 )&lt;/em&gt;&lt;br&gt;
 &lt;a href=&#34;http://cesiumjs.org/2015/01/27/Migrating-from-Earth-to-Cesium/&#34;&gt;http://cesiumjs.org/2015/01/27/Migrating-from-Earth-to-Cesium/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;– Cesium and OpenLayers3&lt;br&gt;
-Cesium has a real focus on (OGC) standards and integrating with software implementing OGC standards. I heard that the Cesium-folks are even proposing additions to OGC 3D standards (CZML? or the very compact terrain tiling using quantized mesh?). That would be great in concert with/as payload for the upcoming 3DPS (3D Portrayal Service) standard.&lt;/p&gt;
+Cesium has a real focus on (OGC) standards and integrating with software implementing OGC standards. I heard that the Cesium-folks are even proposing additions to OGC 3D standards (CZML? or the very compact terrain tiling using quantized mesh?). That would be great in concert with/as payload for the upcoming 3DPS (3D Portrayal Service) standard.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/cesium-ol3.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://openlayers.org/ol3-cesium/&#34;&gt;http://openlayers.org/ol3-cesium/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;– My Cesium experiments with Dutch OpenTopo tiles and Top10NL-3D Vector&lt;/p&gt;
@@ -556,7 +556,7 @@ Cesium has a real focus on (OGC) standards and integrating with software impleme
 &lt;h3 id=&#34;d3js&#34;&gt;D3JS&lt;/h3&gt;
 &lt;p&gt;– General&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/d3js.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;“ &lt;strong&gt;D3.js&lt;/strong&gt; is a JavaScript library for manipulating documents based on data. &lt;strong&gt;D3&lt;/strong&gt; helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.”&lt;/em&gt;&lt;br&gt;
+&lt;p&gt;&lt;em&gt;“ &lt;strong&gt;D3.js&lt;/strong&gt; is a JavaScript library for manipulating documents based on data. &lt;strong&gt;D3&lt;/strong&gt; helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.”&lt;/em&gt;&lt;br&gt;
 &lt;a href=&#34;http://d3js.org/&#34;&gt;http://d3js.org/&lt;/a&gt; –&lt;/p&gt;
 &lt;p&gt;– Kind of 3D with D3 – Maps for the Web&lt;br&gt;
 &lt;a href=&#34;http://www.web-maps.com/gisblog/?p=1370&#34;&gt;http://www.web-maps.com/gisblog/?p=1370&lt;/a&gt;&lt;/p&gt;
@@ -566,38 +566,38 @@ Cesium has a real focus on (OGC) standards and integrating with software impleme
 &lt;p&gt;PostGIS has many 3D facilities. Check these out.&lt;/p&gt;
 &lt;p&gt;– Lidar/Pointclouds in PostGIS:
 &lt;a href=&#34;https://github.com/pgpointcloud/pointcloud&#34;&gt;https://github.com/pgpointcloud/pointcloud&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://workshops.boundlessgeo.com/tutorial-lidar/&#34;&gt;http://workshops.boundlessgeo.com/tutorial-lidar/&lt;/a&gt; (tutorial)&lt;br&gt;
-&lt;a href=&#34;http://s3.cleverelephant.ca/foss4gna2013-pointcloud.pdf&#34;&gt;http://s3.cleverelephant.ca/foss4gna2013-pointcloud.pdf&lt;/a&gt; (paul ramsey slides)&lt;br&gt;
+&lt;a href=&#34;http://workshops.boundlessgeo.com/tutorial-lidar/&#34;&gt;http://workshops.boundlessgeo.com/tutorial-lidar/&lt;/a&gt; (tutorial)&lt;br&gt;
+&lt;a href=&#34;http://s3.cleverelephant.ca/foss4gna2013-pointcloud.pdf&#34;&gt;http://s3.cleverelephant.ca/foss4gna2013-pointcloud.pdf&lt;/a&gt; (paul ramsey slides)&lt;br&gt;
 &lt;a href=&#34;http://boundlessgeo.com/2013/11/manage-lidar-postgis/&#34;&gt;http://boundlessgeo.com/2013/11/manage-lidar-postgis/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;– TIN Support&lt;br&gt;
 &lt;a href=&#34;https://smathermather.wordpress.com/2013/12/18/2-5d-tins-in-postgis/&#34;&gt;https://smathermather.wordpress.com/2013/12/18/2-5d-tins-in-postgis/&lt;/a&gt; and&lt;br&gt;
-&lt;a href=&#34;https://github.com/smathermather/postgis-etc/blob/master/3D/AsTin.sql&#34;&gt;https://github.com/smathermather/postgis-etc/blob/master/3D/AsTin.sql&lt;/a&gt; – create TINs with &lt;a href=&#34;http://postgis.net/docs/ST_DelaunayTriangles.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ST_DelaunayTriangles&lt;/a&gt;
+&lt;a href=&#34;https://github.com/smathermather/postgis-etc/blob/master/3D/AsTin.sql&#34;&gt;https://github.com/smathermather/postgis-etc/blob/master/3D/AsTin.sql&lt;/a&gt; – create TINs with &lt;a href=&#34;http://postgis.net/docs/ST_DelaunayTriangles.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ST_DelaunayTriangles&lt;/a&gt;
 &lt;br&gt;
 &lt;a href=&#34;http://www.oslandia.com/full-spatial-database-power-in-2-lines-en.html&#34;&gt;http://www.oslandia.com/full-spatial-database-power-in-2-lines-en.html&lt;/a&gt;&lt;br&gt;
-also check: GRASS: &lt;a href=&#34;http://grass.osgeo.org/grass70/manuals/addons/v.delaunay3d.html&#34;&gt;http://grass.osgeo.org/grass70/manuals/addons/v.delaunay3d.html&lt;/a&gt;&lt;/p&gt;
+also check: GRASS: &lt;a href=&#34;http://grass.osgeo.org/grass70/manuals/addons/v.delaunay3d.html&#34;&gt;http://grass.osgeo.org/grass70/manuals/addons/v.delaunay3d.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;– X3D Generation&lt;br&gt;
 &lt;a href=&#34;http://postgis.net/docs/ST_AsX3D.html&#34;&gt;http://postgis.net/docs/ST_AsX3D.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;– 3ddb for PostGIS (CityGML)&lt;br&gt;
 &lt;a href=&#34;http://www.3dcitydb.org/&#34;&gt;http://www.3dcitydb.org/&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://github.com/3dcitydb&#34;&gt;https://github.com/3dcitydb&lt;/a&gt; GitHub&lt;br&gt;
+&lt;a href=&#34;https://github.com/3dcitydb&#34;&gt;https://github.com/3dcitydb&lt;/a&gt; GitHub&lt;br&gt;
 &lt;a href=&#34;http://www.3dcitydb.org/3dcitydb/fileadmin/downloaddata/3dcitydb-v2_0_6-postgis-tutorial.pdf&#34;&gt;http://www.3dcitydb.org/3dcitydb/fileadmin/downloaddata/3dcitydb-v2_0_6-postgis-tutorial.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;– A New Dimension To PostGIS : 3D – &lt;a href=&#34;http://2013.foss4g.org/conf/programme/people/250/index.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Olivier Courtin&lt;/a&gt;
- (Oslandia) with &lt;a href=&#34;http://2013.foss4g.org/conf/programme/people/139/index.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hugo Mercier&lt;/a&gt;
+&lt;p&gt;– A New Dimension To PostGIS : 3D – &lt;a href=&#34;http://2013.foss4g.org/conf/programme/people/250/index.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Olivier Courtin&lt;/a&gt;
+ (Oslandia) with &lt;a href=&#34;http://2013.foss4g.org/conf/programme/people/139/index.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hugo Mercier&lt;/a&gt;
  (Oslandia)&lt;br&gt;
 &lt;a href=&#34;http://2013.foss4g.org/conf/programme/presentations/7/index.html&#34;&gt;http://2013.foss4g.org/conf/programme/presentations/7/index.html&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;http://www.slideshare.net/SimeonNedkov/postgis-3d-implementation&#34;&gt;http://www.slideshare.net/SimeonNedkov/postgis-3d-implementation&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://www.youtube.com/watch?v=tQbE6B8JaHI&#34;&gt;https://www.youtube.com/watch?v=tQbE6B8JaHI&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;– PostGIS and CGAL
-CGAL &lt;a href=&#34;https://www.cgal.org/&#34;&gt;https://www.cgal.org/&lt;/a&gt; and &lt;a href=&#34;https://smathermather.wordpress.com/2013/12/05/postgis-with-sfcgal-videos-how-did-i-miss-these-videos/&#34;&gt;https://smathermather.wordpress.com/2013/12/05/postgis-with-sfcgal-videos-how-did-i-miss-these-videos/&lt;/a&gt;&lt;br&gt;
-SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;/a&gt; “ &lt;em&gt;SFCGAL&lt;/em&gt; is a C++ wrapper library around &lt;em&gt;&lt;a href=&#34;http://www.cgal.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CGAL&lt;/a&gt;
- with the aim of supporting ISO 19107:2013 and &lt;a href=&#34;http://www.opengeospatial.org/standards/sfa&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Simple Features Access 1.2&lt;/a&gt;
+CGAL &lt;a href=&#34;https://www.cgal.org/&#34;&gt;https://www.cgal.org/&lt;/a&gt; and &lt;a href=&#34;https://smathermather.wordpress.com/2013/12/05/postgis-with-sfcgal-videos-how-did-i-miss-these-videos/&#34;&gt;https://smathermather.wordpress.com/2013/12/05/postgis-with-sfcgal-videos-how-did-i-miss-these-videos/&lt;/a&gt;&lt;br&gt;
+SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;/a&gt; “ &lt;em&gt;SFCGAL&lt;/em&gt; is a C++ wrapper library around &lt;em&gt;&lt;a href=&#34;http://www.cgal.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CGAL&lt;/a&gt;
+ with the aim of supporting ISO 19107:2013 and &lt;a href=&#34;http://www.opengeospatial.org/standards/sfa&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Simple Features Access 1.2&lt;/a&gt;
  for 3D operations.”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;– Other PostGIS 3D Stuff&lt;br&gt;
-&lt;em&gt;“This post explains how to setup a powerful spatial data store (PostGIS) with a wide range of features (SFCGAL, PgRouting, PostgreSQL PointCloud, PDAL)“&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;“This post explains how to setup a powerful spatial data store (PostGIS) with a wide range of features (SFCGAL, PgRouting, PostgreSQL PointCloud, PDAL)“&lt;/em&gt;&lt;br&gt;
 &lt;a href=&#34;http://www.oslandia.com/full-spatial-database-power-in-2-lines-en.html&#34;&gt;http://www.oslandia.com/full-spatial-database-power-in-2-lines-en.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://postgis3d.blogspot.nl/&#34;&gt;http://postgis3d.blogspot.nl/&lt;/a&gt; (Camp2Camp – 2007 – by Mathieu ..?)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://postgis3d.blogspot.nl/&#34;&gt;http://postgis3d.blogspot.nl/&lt;/a&gt; (Camp2Camp – 2007 – by Mathieu ..?)&lt;/p&gt;
 &lt;h3 id=&#34;xnavigator&#34;&gt;XNavigator&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;“XNavigator is an interactive 3D viewer and integrated client for exploring virtual city and landscape models. Instead of defining its own proprietary communication protocols, open OGC standards are used. The Open Geospatial Consortium (OGC) defines standards for accessing spatial information over the internet.  The main 3D content is downloaded from a Web 3D Service (W3DS).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“XNavigator is an interactive 3D viewer and integrated client for exploring virtual city and landscape models. Instead of defining its own proprietary communication protocols, open OGC standards are used. The Open Geospatial Consortium (OGC) defines standards for accessing spatial information over the internet.  The main 3D content is downloaded from a Web 3D Service (W3DS).&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Additional OGC services which can be accessed include:&lt;/em&gt;&lt;br&gt;
 &lt;em&gt;- Web Map Service (WMS)&lt;/em&gt;&lt;br&gt;
 &lt;em&gt;- Open Location Services (OpenLS) including Route Service, Directory Service, and Geocoder&lt;/em&gt;&lt;br&gt;
@@ -609,7 +609,7 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/threejs.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://threejs.org&#34;&gt;http://threejs.org&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;w3ds&#34;&gt;W3DS&lt;/h3&gt;
-&lt;p&gt;W3DS (Web 3D Service) is a portrayal service for 3D scenes. Early OGC discussion documents. Now superseded by the 3DPS, the 3D Portrayal Service, now (jan 2015) out for public comment in OGC. This is an early W3DS implementation in GeoServer that started from the dissertation work by Nuno Miguel Carvalho Oliveira (professor: Jorge Gustavo Rocha) at the University of Minho (Portugal).&lt;/p&gt;
+&lt;p&gt;W3DS (Web 3D Service) is a portrayal service for 3D scenes. Early OGC discussion documents. Now superseded by the 3DPS, the 3D Portrayal Service, now (jan 2015) out for public comment in OGC. This is an early W3DS implementation in GeoServer that started from the dissertation work by Nuno Miguel Carvalho Oliveira (professor: Jorge Gustavo Rocha) at the University of Minho (Portugal).&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://mei.di.uminho.pt/sites/default/files/dissertacoes//eeum_di_dissertacao_pg18391.pdf&#34;&gt;http://mei.di.uminho.pt/sites/default/files/dissertacoes//eeum_di_dissertacao_pg18391.pdf&lt;/a&gt; – Dissertation&lt;br&gt;
 &lt;a href=&#34;https://github.com/geoserver/geoserver/tree/master/src/community/w3ds&#34;&gt;https://github.com/geoserver/geoserver/tree/master/src/community/w3ds&lt;/a&gt; – GeoServer community module&lt;br&gt;
 &lt;a href=&#34;http://osgeo-org.1560.x6.nabble.com/W3DS-Implementation-up-and-running-td4665127.html&#34;&gt;http://osgeo-org.1560.x6.nabble.com/W3DS-Implementation-up-and-running-td4665127.html&lt;/a&gt; – email on GeoServer list&lt;/p&gt;
@@ -625,18 +625,18 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2015/01/cuardo.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Oslandia/cuardo&#34;&gt;https://github.com/Oslandia/cuardo&lt;/a&gt;
 &lt;a href=&#34;http://www.oslandia.com/oslandia-releases-cuardo-3d-gis-viewer-en.html&#34;&gt;http://www.oslandia.com/oslandia-releases-cuardo-3d-gis-viewer-en.html&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;suggestions-fromreaders&#34;&gt;Suggestions from Readers&lt;/h3&gt;
+&lt;h3 id=&#34;suggestions-from-readers&#34;&gt;Suggestions from Readers&lt;/h3&gt;
 &lt;p&gt;After the first version I got quite some suggestions. Thanks!&lt;/p&gt;
-&lt;p&gt;– Glob3Mobile – &lt;a href=&#34;https://twitter.com/DiegoGomezDeck&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;@DiegoGomezDeck&lt;/a&gt;
+&lt;p&gt;– Glob3Mobile – &lt;a href=&#34;https://twitter.com/DiegoGomezDeck&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;@DiegoGomezDeck&lt;/a&gt;
 &lt;br&gt;
-&lt;em&gt;“ G3M is a framework developed and designed to:&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;- Develop mobile maps apps in 2D, 2,5D and 3D&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;- Work with real time data&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;- Integrate any kind of data (format,size)&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;“ G3M is a framework developed and designed to:&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Develop mobile maps apps in 2D, 2,5D and 3D&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Work with real time data&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- Integrate any kind of data (format,size)&lt;/em&gt;&lt;br&gt;
 &lt;em&gt;- Be integrated on any legacy system&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;- High performance mobile native development&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- High performance mobile native development&lt;/em&gt;&lt;br&gt;
 &lt;em&gt;- Multi Touch screens&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;- Face the problem of the mobile performance as an integrated problem between server &amp;amp; client&lt;/em&gt;&lt;/p&gt;
+&lt;em&gt;- Face the problem of the mobile performance as an integrated problem between server &amp;amp; client&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Works on iOS, Android devices and HTML5 environments. “&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.glob3mobile.com/&#34;&gt;http://www.glob3mobile.com/&lt;/a&gt;&lt;/p&gt;
 
@@ -652,26 +652,26 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
       <guid>https://justobjects.nl/into-the-weather-part-3/</guid>
       <description>
         
-          &lt;p&gt;In my last post, &lt;a href=&#34;https://justobjects.nl/into-the-weather-part-2-fun-with-raspberry-pi/&#34;&gt;Into the Weather – Part 2&lt;/a&gt;
-, I outlined a global architecture of a &lt;a href=&#34;http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Davis Vantage Pro2&lt;/a&gt;
+          &lt;p&gt;In my last post, &lt;a href=&#34;https://justobjects.nl/into-the-weather-part-2-fun-with-raspberry-pi/&#34;&gt;Into the Weather – Part 2&lt;/a&gt;
+, I outlined a global architecture of a &lt;a href=&#34;http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Davis Vantage Pro2&lt;/a&gt;
  weather station connected to a &lt;a href=&#34;http://www.raspberrypi.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Raspberry Pi&lt;/a&gt;
- (RPi) running &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
- weather software to capture raw weather data. Here I will try to depict how to bring this weather data “from the &lt;a href=&#34;http://en.wikipedia.org/wiki/Little_Fluffy_Clouds&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;fluffy clouds&lt;/a&gt;
- into the digital cloud”. Finally, at the end, also some geospatial content. The image below shows the weather station sensors at the Geonovum building rooftop (was quite hazardous replacing a faulty temperature sensor there!) and the Davis console connected to the Raspberry Pi (transparent enclosure). All documentation and code can be found via: &lt;a href=&#34;http://sospilot.readthedocs.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sospilot.readthedocs.org&lt;/a&gt;
+ (RPi) running &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ weather software to capture raw weather data. Here I will try to depict how to bring this weather data “from the &lt;a href=&#34;http://en.wikipedia.org/wiki/Little_Fluffy_Clouds&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;fluffy clouds&lt;/a&gt;
+ into the digital cloud”. Finally, at the end, also some geospatial content. The image below shows the weather station sensors at the Geonovum building rooftop (was quite hazardous replacing a faulty temperature sensor there!) and the Davis console connected to the Raspberry Pi (transparent enclosure). All documentation and code can be found via: &lt;a href=&#34;http://sospilot.readthedocs.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sospilot.readthedocs.org&lt;/a&gt;
 .&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2014/12/davis-pws-geonovum-pics1.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;To recap: the &lt;a href=&#34;http://www.davisnet.com/weather/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Davis Weather Station&lt;/a&gt;
- continuously captures raw weather data through its sensors: temperature (out/in), pressure, wind (speed, direction), rainfall and even UV-radiation. This data is initially gathered within the local console display. This is fine for personal/local usage, but for capturing history, deriving trends and in particular for external sharing this is quite limited. The real fun starts with getting access to the raw data and go from there.&lt;/p&gt;
+ continuously captures raw weather data through its sensors: temperature (out/in), pressure, wind (speed, direction), rainfall and even UV-radiation. This data is initially gathered within the local console display. This is fine for personal/local usage, but for capturing history, deriving trends and in particular for external sharing this is quite limited. The real fun starts with getting access to the raw data and go from there.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2014/11/weather-hw-setup.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
 &lt;p&gt;This is where the Raspberry Pi with weewx and later &lt;a href=&#34;http://www.stetl.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl&lt;/a&gt;
-, PostGIS, GeoServer and the 52North SOS come in, but I’ll go step-by-step. Let’s first see how we can publish weather data with just weewx.&lt;/p&gt;
+, PostGIS, GeoServer and the 52North SOS come in, but I’ll go step-by-step. Let’s first see how we can publish weather data with just weewx.&lt;/p&gt;
 &lt;p&gt;My first post &lt;a href=&#34;https://justobjects.nl/into-the-weather-part-1/&#34;&gt;Into the Weather – Part 1&lt;/a&gt;
- in this series introduced weewx, a Python framework for capturing, storing and publishing weather data. The Davis weather station is connected via USB to the RPi. The RPi runs &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
- to gather and store weather data (in a SQLite DB) from the weather station. But weewx can do more than this: it can also publish weather data to a variety of services. As any well-designed framework, weewx is basically a kernel, the &lt;em&gt;weewx engine&lt;/em&gt; with configurable plugins, all specified and parameterized from a single configuration file &lt;em&gt;weewx.conf&lt;/em&gt;, like in &lt;a href=&#34;https://github.com/Geonovum/sospilot/blob/master/src/weewx/davis/weewx.conf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this example&lt;/a&gt;
-. The &lt;em&gt;weewx daemon&lt;/em&gt; process runs forever in a main loop continuously calling on all plugins.&lt;/p&gt;
-&lt;p&gt;First there are &lt;em&gt;weewx station-drivers&lt;/em&gt; that continuously capture raw data from most common weather stations. Although there are many brands of weather stations, many will share common hardware and protocols. The second class of plugins are &lt;em&gt;archiving drivers&lt;/em&gt;, where/how to store raw weather data. Two standard archiving drivers are available: SQLite and MySQL. My choice: SQLite. For publication from archived data, a &lt;em&gt;standard reporting driver&lt;/em&gt; generates a plain HTML website using an extensible &lt;em&gt;skin containing (HTML) templates&lt;/em&gt;. By configuring an FTP or &lt;em&gt;rsync&lt;/em&gt; destination, the generated HTML can be published to a remote webserver. This is the first connection to the digital cloud. Off course the skin and templates are highly configurable &lt;a href=&#34;https://github.com/Geonovum/sospilot/tree/master/src/weewx/davis/byteweather&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;as in this example&lt;/a&gt;
-. Many examples can be found on the web. I found the nice &lt;a href=&#34;http://davies-barnard.co.uk/2014/01/weewx-byteweather-template&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;byteweather-template by Chris Davies-Barnard&lt;/a&gt;
-. Below is the result as can be found at: &lt;a href=&#34;http://sensors.geonovum.nl/weewx&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sensors.geonovum.nl/weewx&lt;/a&gt;
+ in this series introduced weewx, a Python framework for capturing, storing and publishing weather data. The Davis weather station is connected via USB to the RPi. The RPi runs &lt;a href=&#34;http://www.weewx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx&lt;/a&gt;
+ to gather and store weather data (in a SQLite DB) from the weather station. But weewx can do more than this: it can also publish weather data to a variety of services. As any well-designed framework, weewx is basically a kernel, the &lt;em&gt;weewx engine&lt;/em&gt; with configurable plugins, all specified and parameterized from a single configuration file &lt;em&gt;weewx.conf&lt;/em&gt;, like in &lt;a href=&#34;https://github.com/Geonovum/sospilot/blob/master/src/weewx/davis/weewx.conf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;this example&lt;/a&gt;
+. The &lt;em&gt;weewx daemon&lt;/em&gt; process runs forever in a main loop continuously calling on all plugins.&lt;/p&gt;
+&lt;p&gt;First there are &lt;em&gt;weewx station-drivers&lt;/em&gt; that continuously capture raw data from most common weather stations. Although there are many brands of weather stations, many will share common hardware and protocols. The second class of plugins are &lt;em&gt;archiving drivers&lt;/em&gt;, where/how to store raw weather data. Two standard archiving drivers are available: SQLite and MySQL. My choice: SQLite. For publication from archived data, a &lt;em&gt;standard reporting driver&lt;/em&gt; generates a plain HTML website using an extensible &lt;em&gt;skin containing (HTML) templates&lt;/em&gt;. By configuring an FTP or &lt;em&gt;rsync&lt;/em&gt; destination, the generated HTML can be published to a remote webserver. This is the first connection to the digital cloud. Off course the skin and templates are highly configurable &lt;a href=&#34;https://github.com/Geonovum/sospilot/tree/master/src/weewx/davis/byteweather&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;as in this example&lt;/a&gt;
+. Many examples can be found on the web. I found the nice &lt;a href=&#34;http://davies-barnard.co.uk/2014/01/weewx-byteweather-template&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;byteweather-template by Chris Davies-Barnard&lt;/a&gt;
+. Below is the result as can be found at: &lt;a href=&#34;http://sensors.geonovum.nl/weewx&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sensors.geonovum.nl/weewx&lt;/a&gt;
 .&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
@@ -683,8 +683,8 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
   
 &lt;/div&gt;
 
-&lt;p&gt;In addition, I’ve added even a more dynamic weather display like the &lt;a href=&#34;http://wiki.sandaysoft.com/a/SteelSeries_Gauges&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Steelseries Gauges&lt;/a&gt;
-, as seen below and via the link &lt;a href=&#34;http://sensors.geonovum.nl/weewx/gauges/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sensors.geonovum.nl/weewx/gauges&lt;/a&gt;
+&lt;p&gt;In addition, I’ve added even a more dynamic weather display like the &lt;a href=&#34;http://wiki.sandaysoft.com/a/SteelSeries_Gauges&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Steelseries Gauges&lt;/a&gt;
+, as seen below and via the link &lt;a href=&#34;http://sensors.geonovum.nl/weewx/gauges/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;sensors.geonovum.nl/weewx/gauges&lt;/a&gt;
 .&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
@@ -696,10 +696,10 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
   
 &lt;/div&gt;
 
-&lt;p&gt;Just like other crowd-sourced projects like OpenStreetMap and WikiPedia there are various weather  communities where you can join and publish your weather data via RESTful APIs. weewx provides drivers for most common communities like &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Weather Underground&lt;/a&gt;
+&lt;p&gt;Just like other crowd-sourced projects like OpenStreetMap and WikiPedia there are various weather  communities where you can join and publish your weather data via RESTful APIs. weewx provides drivers for most common communities like &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Weather Underground&lt;/a&gt;
  and &lt;a href=&#34;http://pwsweather.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PWSWeather&lt;/a&gt;
-. For example, I registered the Geonovum weather station as  &lt;a href=&#34;http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum IUTRECHT96&lt;/a&gt;
- as below.&lt;/p&gt;
+. For example, I registered the Geonovum weather station as  &lt;a href=&#34;http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum IUTRECHT96&lt;/a&gt;
+ as below.&lt;/p&gt;
 
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96&#34;&gt;
@@ -724,14 +724,14 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
 
 &lt;p&gt;All in all, there is a fascinating world to explore once you get into the weather domain and its many communities.&lt;/p&gt;
 &lt;p&gt;So why am I doing all of this? Apart from having the opportunity to develop this as part of the &lt;a href=&#34;http://sospilot.readthedocs.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SOSPilot Project at Geonovum&lt;/a&gt;
-, I think that “geospatial” is moving from 2D to “N-dimensional”: not only more and more “3D”  is hitting the shores (just see the recent 2014 blogs at &lt;a href=&#34;http://planet.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;planet.osgeo.org&lt;/a&gt;
-), but also location-based sensor data (like Air Quality and weather data) and the &lt;a href=&#34;http://en.wikipedia.org/wiki/Internet_of_Things&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Internet of Things&lt;/a&gt;
- drives a need to deal with time-series data: management, storage, services and visualization. Within the Open Source geospatial world I happily see that many frameworks and tools are extended to deal with 3D, like &lt;a href=&#34;http://openlayers.org/ol3-cesium/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenLayers/Cesium&lt;/a&gt;
- (one of my next posts) and &lt;a href=&#34;http://boundlessgeo.com/2013/11/manage-lidar-postgis/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PostGIS/PDAL&lt;/a&gt;
- and with Time like in &lt;a href=&#34;http://docs.geoserver.org/latest/en/user/services/wms/time.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoServer Dimension&lt;/a&gt;
+, I think that “geospatial” is moving from 2D to “N-dimensional”: not only more and more “3D”  is hitting the shores (just see the recent 2014 blogs at &lt;a href=&#34;http://planet.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;planet.osgeo.org&lt;/a&gt;
+), but also location-based sensor data (like Air Quality and weather data) and the &lt;a href=&#34;http://en.wikipedia.org/wiki/Internet_of_Things&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Internet of Things&lt;/a&gt;
+ drives a need to deal with time-series data: management, storage, services and visualization. Within the Open Source geospatial world I happily see that many frameworks and tools are extended to deal with 3D, like &lt;a href=&#34;http://openlayers.org/ol3-cesium/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenLayers/Cesium&lt;/a&gt;
+ (one of my next posts) and &lt;a href=&#34;http://boundlessgeo.com/2013/11/manage-lidar-postgis/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PostGIS/PDAL&lt;/a&gt;
+ and with Time like in &lt;a href=&#34;http://docs.geoserver.org/latest/en/user/services/wms/time.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoServer Dimension&lt;/a&gt;
  support. Also the &lt;a href=&#34;http://www.opengeospatial.org/ogc/markets-technologies/swe&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC Sensor Web Enablement&lt;/a&gt;
  and its lighter-weight version &lt;a href=&#34;http://ogc-iot.github.io/ogc-iot-api/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorThings&lt;/a&gt;
- is gaining more attention.&lt;/p&gt;
+ is gaining more attention.&lt;/p&gt;
 &lt;p&gt;Not yet done with the weather. Next post I will dive into further unlocking weather data via OGC services like WMS and SOS. That would be “Publishing Data to Cloud 9” ;-)&lt;/p&gt;
 
         

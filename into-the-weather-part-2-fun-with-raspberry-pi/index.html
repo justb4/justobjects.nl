@@ -17,13 +17,13 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="This is a follow-up to “Into the Weather – Part 1 – Exploring weewx” . Sorry, still almost no geospatial content for now. To recap: I am trying to setup an …">
+<meta name="description" content="This is a follow-up to “Into the Weather – Part 1 – Exploring weewx” . Sorry, still almost no geospatial content for now. To recap: I am trying to setup an …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@justb4">
 <meta name="twitter:title" content="Into the Weather – Part 2 – Fun with Raspberry Pi" />
 <meta property="og:url" content="https://justobjects.nl/into-the-weather-part-2-fun-with-raspberry-pi/" />
 <meta property="og:title" content="Into the Weather – Part 2 – Fun with Raspberry Pi" />
-<meta property="og:description" content="This is a follow-up to “Into the Weather – Part 1 – Exploring weewx” . Sorry, still almost no geospatial content for now. To recap: I am trying to setup an …" />
+<meta property="og:description" content="This is a follow-up to “Into the Weather – Part 1 – Exploring weewx” . Sorry, still almost no geospatial content for now. To recap: I am trying to setup an …" />
 <meta property="og:image" content="https://justobjects.nl/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://justobjects.nl/icons/apple-touch-icon.png">
@@ -199,35 +199,35 @@
   </div>
 
     
-    <p>This is a follow-up to <a href="/into-the-weather-part-1/">“Into the Weather – Part 1 – Exploring weewx”</a>
-. Sorry, still almost no geospatial content for now. To recap: I am trying to setup an infrastructure where measurements from a <a href="http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp" target="_blank" rel="noreferrer noopener">Davis Vantage Pro2 Weather Station</a>
+    <p>This is a follow-up to <a href="/into-the-weather-part-1/">“Into the Weather – Part 1 – Exploring weewx”</a>
+. Sorry, still almost no geospatial content for now. To recap: I am trying to setup an infrastructure where measurements from a <a href="http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp" target="_blank" rel="noreferrer noopener">Davis Vantage Pro2 Weather Station</a>
  are collected and exposed to web services, most notably OGC Services like <a href="http://docs.geoserver.org/latest/en/user/services/wms/time.html" target="_blank" rel="noreferrer noopener">WMS-Time</a>
  and SOS, the <a href="http://www.opengeospatial.org/standards/sos" target="_blank" rel="noreferrer noopener">Sensor Observation Service</a>
-. The TLDR; /impatient can view results at <a href="http://sensors.geonovum.nl" target="_blank" rel="noreferrer noopener">sensors.geonovum.nl</a>
-, sources in the <a href="https://github.com/Geonovum/sospilot/tree/master/src" target="_blank" rel="noreferrer noopener">GitHub project</a>
- and in general <a href="http://sospilot.readthedocs.org/en/latest/" target="_blank" rel="noreferrer noopener">the documentation</a>
+. The TLDR; /impatient can view results at <a href="http://sensors.geonovum.nl" target="_blank" rel="noreferrer noopener">sensors.geonovum.nl</a>
+, sources in the <a href="https://github.com/Geonovum/sospilot/tree/master/src" target="_blank" rel="noreferrer noopener">GitHub project</a>
+ and in general <a href="http://sospilot.readthedocs.org/en/latest/" target="_blank" rel="noreferrer noopener">the documentation</a>
 .</p>
-<p>As this setup needs to be run from within my client’s local intranet with available servers “in the Cloud” there is a need for a “relaying middleman”.</p>
-<p>The <a href="http://www.raspberrypi.org/" target="_blank" rel="noreferrer noopener">Raspberry Pi</a>
- (RPi) was my first choice. The RPi is a credit-card sized computer that can run Linux-es like <a href="http://www.raspbian.org/" target="_blank" rel="noreferrer noopener">Raspbian</a>
-, a Linux OS based on <a href="https://www.debian.org/" target="_blank" rel="noreferrer noopener">Debian</a>
-. As the Davis weather station console has a USB-interface and <a href="http://www.weewx.com/" target="_blank" rel="noreferrer noopener">weewx</a>
- supports read-outs from Davis weather stations, choosing the RPi was obvious. The combination RPi, Raspbian, weewx (try <a href="https://www.google.nl/search?q=RPi%2C&#43;Raspbian%2C&#43;weewx" target="_blank" rel="noreferrer noopener">this Google search</a>
-) is becoming more and more popular for setting up public and community-based weather stations.</p>
-<p>By now it is time to depict the overall architecture as in the image below.</p>
+<p>As this setup needs to be run from within my client’s local intranet with available servers “in the Cloud” there is a need for a “relaying middleman”.</p>
+<p>The <a href="http://www.raspberrypi.org/" target="_blank" rel="noreferrer noopener">Raspberry Pi</a>
+ (RPi) was my first choice. The RPi is a credit-card sized computer that can run Linux-es like <a href="http://www.raspbian.org/" target="_blank" rel="noreferrer noopener">Raspbian</a>
+, a Linux OS based on <a href="https://www.debian.org/" target="_blank" rel="noreferrer noopener">Debian</a>
+. As the Davis weather station console has a USB-interface and <a href="http://www.weewx.com/" target="_blank" rel="noreferrer noopener">weewx</a>
+ supports read-outs from Davis weather stations, choosing the RPi was obvious. The combination RPi, Raspbian, weewx (try <a href="https://www.google.nl/search?q=RPi%2C&#43;Raspbian%2C&#43;weewx" target="_blank" rel="noreferrer noopener">this Google search</a>
+) is becoming more and more popular for setting up public and community-based weather stations.</p>
+<p>By now it is time to depict the overall architecture as in the image below.</p>
 <p><img src="/uploads/2014/11/weather-hw-setup1.png" alt=" "></p>
 <p>The Davis weather station will connect via USB to the RPi. The RPi will run <a href="http://www.weewx.com/" target="_blank" rel="noreferrer noopener">weewx</a>
- to gather and store weather data (in a SQLite DB) from the weather station. In addition the RPi will run ETL software based on <a href="http://www.stetl.org" target="_blank" rel="noreferrer noopener">Stetl</a>
+ to gather and store weather data (in a SQLite DB) from the weather station. In addition the RPi will run ETL software based on <a href="http://www.stetl.org" target="_blank" rel="noreferrer noopener">Stetl</a>
  to publish weather data to a PostgreSQL/PostGIS database in a cloud server. Using <a href="http://geoserver.org" target="_blank" rel="noreferrer noopener">Geoserver</a>
  and the <a href="http://52north.org/communities/sensorweb/sos/" target="_blank" rel="noreferrer noopener">52North SOS</a>
  the cloud server will expose the weather data via web services like WMS (Time), WFS and SOS and plain HTML using custom weather web templates like the fabulous <a href="http://wiki.sandaysoft.com/a/SteelSeries_Gauges" target="_blank" rel="noreferrer noopener">steelseries gauges</a>
 . I will expand on the software setup in the next post.</p>
 <p>For now I will focus on acquiring and setting up the RPi, as this was a fun-exercise by itself. I ordered a kit with a Raspberry Pi Model B+ with power unit, casing, micro SD and WIFI USB adapter (<a href="http://www.kiwi-electronics.nl/raspberry-pi/raspberry-pi-accessoires/wi-pi-draadloze-usb-adapter-voor-raspberry-pi" target="_blank" rel="noreferrer noopener">WiPi</a>
 ) at <a href="http://www.kiwi-electronics.nl/" target="_blank" rel="noreferrer noopener">Kiwi Electronics</a>
-. The whole package arrived the next day.</p>
+. The whole package arrived the next day.</p>
 <p><img src="/uploads/2014/11/rasp-pi-all1.jpg" alt=" "></p>
 <p>From unboxing to having everything installed with the <a href="/into-the-weather-part-1/">weewx Simulator (see Part 1)</a>
- went smooth. It would take too far to describe all the install steps and gotcha’s. I’ve summarized these here in the <a href="http://sospilot.readthedocs.org/en/latest/raspberrypi-install.html" target="_blank" rel="noreferrer noopener">RPi installation doc</a>
+ went smooth. It would take too far to describe all the install steps and gotcha’s. I’ve summarized these here in the <a href="http://sospilot.readthedocs.org/en/latest/raspberrypi-install.html" target="_blank" rel="noreferrer noopener">RPi installation doc</a>
 . Apart from a standard Raspbian install, I paid in particular attention to two aspects:</p>
 <ul>
 <li>running unattended as a headless server, i.e. monitoring and self-healing</li>
@@ -237,12 +237,12 @@
 .</p>
 <p>All in all this step was to get weewx running, still in simulator mode, storing raw weather data in a SQLite database and publishing HTML reports.</p>
 <p>So the final result is an RPi humming silently, weewx reporting regularly. In general having a stable system for the next steps: gathering and publishing the weather data to the OGC services like WMS, WFS and SOS. The <a href="http://www.stetl.org" target="_blank" rel="noreferrer noopener">Python-based Stetl framework</a>
-, again proved to be instrumental to this effort, both on the RPi and on the Linux server in the Cloud.  This will be a subject for my next post. See the architecture below.</p>
+, again proved to be instrumental to this effort, both on the RPi and on the Linux server in the Cloud.  This will be a subject for my next post. See the architecture below.</p>
 <p><img src="/uploads/2014/11/weather-sw-setup.png" alt=" "></p>
-<p>Summarizing: A Stetl process (<a href="https://github.com/Geonovum/sospilot/tree/master/src/weather/weewx2pg" target="_blank" rel="noreferrer noopener">Stetl sync</a>
+<p>Summarizing: A Stetl process (<a href="https://github.com/Geonovum/sospilot/tree/master/src/weather/weewx2pg" target="_blank" rel="noreferrer noopener">Stetl sync</a>
 ) continuously gathers and publishes weather data to a remote PostgreSQL/PostGIS server. Through PostgreSQL-VIEWs refined weather data is immediately available to GeoServer as WMS(Time) and WFS sources, and via another Stetl process (<a href="https://github.com/Geonovum/sospilot/tree/master/src/weather/pg2sos" target="_blank" rel="noreferrer noopener">Stetl SOS</a>
 ) published via SOS-T (ala WFS-T) to the SOS. The weewx engine has a plugin to publish a flat HTML website via <em>rsync</em> using configurable templates.</p>
-<p>There is much to expand still. I’m excited to see this whole infrastructure work in such a short time <em><strong>thanks to</strong> <strong>all these developers that produce all of the Open Source software involved here</strong></em>: from the core Debian/Raspbian OSs, the weewx weather software, PostgreSQL/PostGIS, GeoServer and the 52North SOS. The proverbial sentence is: <em><strong>I am just standing on the shoulders of you giants</strong></em>. This is the way humanity should evolve regarding soft/hardware-technology. Thanks again, and if you have read this far, I hope to see you in my next post !</p>
+<p>There is much to expand still. I’m excited to see this whole infrastructure work in such a short time <em><strong>thanks to</strong> <strong>all these developers that produce all of the Open Source software involved here</strong></em>: from the core Debian/Raspbian OSs, the weewx weather software, PostgreSQL/PostGIS, GeoServer and the 52North SOS. The proverbial sentence is: <em><strong>I am just standing on the shoulders of you giants</strong></em>. This is the way humanity should evolve regarding soft/hardware-technology. Thanks again, and if you have read this far, I hope to see you in my next post !</p>
 
 
   </article>
