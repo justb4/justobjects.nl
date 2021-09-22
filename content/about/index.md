@@ -17,7 +17,9 @@ Just Objects is a member of the [OpenGeoGroep Cooperation][16].
 
 Just is an [OSGeo][3] [Charter member][17] and founder and now chair of the [OSGeo.nl Foundation][6], the Dutch Chapter of [OSGeo.org][3].
 
-The most active part of this website should be [Just&#8217;s Blog][4], but also checkout his contributions to &#8220;the commons&#8221; via  [his Open Source projects][5] and [OSGeo.nl.][6]
+The most active part of this website should be [Just&#8217;s Blog][4], 
+but also checkout his contributions to &#8220;the commons&#8221; 
+via  [his Open Source projects][5] and [OSGeo.nl.][6]. Latest blog posts:
 
 * September 13, 2021 [Terraform First Steps][18]
 * January 20, 2021 [That Was 2020][7]
@@ -40,7 +42,7 @@ The most active part of this website should be [Just&#8217;s Blog][4], but also 
  [11]: https://justobjects.nl/cheers-to-2018/ "Cheers to 2018"
  [12]: https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/ "Emit #5 – Assembling and Deploying 5 AirSensEURs – a Story in Pictures"
  [13]: httpss://www.linkedin.com/in/justb4
- [14]: http://en.wikipedia.org/wiki/Geographic_information_system "GIS, Geospatial IT, or Geo-ICT"
+ [14]: https://en.wikipedia.org/wiki/Geographic_information_system "GIS, Geospatial IT, or Geo-ICT"
  [15]: https://en.wikipedia.org/wiki/Free_and_open-source_software
  [16]: https://opengeogroep.nl
  [17]: https://wiki.osgeo.org/wiki/Just_van_den_Broecke
