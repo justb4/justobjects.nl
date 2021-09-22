@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://justobjects.nl/contact/</loc>
+    <lastmod>2021-09-22T16:05:10+00:00</lastmod>
+  </url><url>
     <loc>https://justobjects.nl/projects/</loc>
     <lastmod>2021-09-22T09:25:31+00:00</lastmod>
   </url><url>
@@ -85,9 +88,6 @@
   </url><url>
     <loc>https://justobjects.nl/about/</loc>
     <lastmod>2021-06-22T13:59:27+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/contact/</loc>
-    <lastmod>2021-06-07T16:05:10+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/front/</loc>
     <lastmod>2021-01-28T12:49:12+00:00</lastmod>
