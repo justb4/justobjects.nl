@@ -8,7 +8,7 @@ date: 2021-09-21T08:04:13+00:00
 Below a selection of various presentations by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
 
-**_"Geonovum OGC API Testbed" - Open Geodag 2021 - September 14, 2021_** - [\[PDF Slides\]][48]
+**_"Geonovum OGC API Testbed" - Open Geodag 2021 - September 14, 2021_** - [\[PDF Slides\]][48] - [\[Video Recording\]](https://youtu.be/apVe6dA5rqs?t=386).
 
 **_"OSGeo.nl New Year's Party - Slides OSGeo.nl" - 2021-01-24 - Presentation I gave on behalf of OSGeo.nl on the online joint QGIS-NL, OpenStreetMap-NL and OSGeo.nl New Year's party on January 24, 2021._**- [\[Slideshare\]](https://www.slideshare.net/justb4/osgeonl-new-years-party-slides-osgeonl)
 
