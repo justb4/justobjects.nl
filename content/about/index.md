@@ -19,7 +19,7 @@ Just is an [OSGeo][3] [Charter member][17] and founder and now chair of the [OSG
 
 The most active part of this website should be [Just&#8217;s Blog][4], 
 but also checkout his contributions to &#8220;the commons&#8221; 
-via  [his Open Source projects][5] and [OSGeo.nl.][6]. Latest blog posts:
+via  [his Open Source projects][5] and [OSGeo.nl][6]. Latest blog posts:
 
 * September 13, 2021 [Terraform First Steps][18]
 * January 20, 2021 [That Was 2020][7]

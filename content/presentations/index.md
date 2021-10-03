@@ -8,7 +8,15 @@ date: 2021-09-21T08:04:13+00:00
 Below a selection of various presentations by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
 
+**_"GeoHealthCheck - A Quality of Service Monitor for Geospatial Web Services" - [FOSS4G 2021](https://2021.foss4g.org/) - September 30, 2021_** - [\[HTML Slides\]](https://geohealthcheck.org/presentation/) - [\[Abstract\]](https://callforpapers.2021.foss4g.org/foss4g2021/talk/9NBETK/).
+
+**_"Doing Geospatial in Python" - [FOSS4G 2021](https://2021.foss4g.org/) - September 28, 2021_** - Workshop (4h): introduction to performing common GIS/geospatial tasks using Python geospatial tools such as OWSLib, Shapely, Fiona/Rasterio, and common geospatial libraries like GDAL, PROJ, pycsw, as well as other tools from the geopython toolchain. -  [\[HTML Startpage\]](https://geopython.github.io/geopython-workshop/) - [\[Abstract\]](https://callforpapers.2021.foss4g.org/foss4g-2021-workshop/talk/7N3G3N/).
+
 **_"Geonovum OGC API Testbed" - Open Geodag 2021 - September 14, 2021_** - [\[PDF Slides\]][48] - [\[Video Recording\]](https://youtu.be/apVe6dA5rqs?t=386).
+
+**_"Geonovum OGC API Testbed" - DiS Online: OGC en toegankelijke APIs - September 7, 2021_** - [\[Event en PDF Slides\]](https://www.geobasisregistraties.nl/basisregistraties/documenten/publicatie/2021/09/07/dis-online-ogc-en-toegankelijke-apis).
+
+**_"Read BAG (Dutch Buildings & Addresses dataset) with Docker in 5 minutes" - 2021-04-08 - De Grote Geo Show, a live-streaming webshow by OSGeo.nl. Ep. 16 "GIS met je Toetsenbord". Aired on april 8, 2021. [Video recording on YouTube](https://youtu.be/iOiliIAorD4?t=3542)._**
 
 **_"OSGeo.nl New Year's Party - Slides OSGeo.nl" - 2021-01-24 - Presentation I gave on behalf of OSGeo.nl on the online joint QGIS-NL, OpenStreetMap-NL and OSGeo.nl New Year's party on January 24, 2021._**- [\[Slideshare\]](https://www.slideshare.net/justb4/osgeonl-new-years-party-slides-osgeonl)
 
