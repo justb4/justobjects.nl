@@ -2,7 +2,7 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2021-10-20T16:04:13+00:00
+date: 2021-10-19T16:04:13+00:00
 
 ---
 Below a selection of various presentations by Just starting from the most recent to as far as 1996 (!). 
