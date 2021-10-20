@@ -2,11 +2,15 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2021-09-21T08:04:13+00:00
+date: 2021-10-20T16:04:13+00:00
 
 ---
 Below a selection of various presentations by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
+
+**_"FOSS4G-NL 2021 - Closing Words" - FOSS4G-NL 2021 - Oktober 20, 2021 - Enschede_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2021/foss4gnl-2021-slot-just.pdf).
+
+**_"Zo gemakkelijk kun je geo-webdiensten uitrollen!" - FOSS4G-NL 2021 - Oktober 20, 2021 - Enschede_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2021/foss4gnl-deploy-2021-just.pdf).
 
 **_"GeoHealthCheck - A Quality of Service Monitor for Geospatial Web Services" - [FOSS4G 2021](https://2021.foss4g.org/) - September 30, 2021_** - [\[HTML Slides\]](https://geohealthcheck.org/presentation/) - [\[Abstract\]](https://callforpapers.2021.foss4g.org/foss4g2021/talk/9NBETK/).
 
