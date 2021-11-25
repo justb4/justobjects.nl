@@ -2,7 +2,7 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2021-10-19T16:04:13+00:00
+date: 2021-11-24T16:04:13+00:00
 
 ---
 Below a selection of various presentations by Just starting from the most recent to as far as 1996 (!). 
@@ -12,7 +12,7 @@ Some slides are on [\[Slideshare\]][1]
 
 **_"Zo gemakkelijk kun je geo-webdiensten uitrollen!" - FOSS4G-NL 2021 - Oktober 20, 2021 - Enschede_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2021/foss4gnl-deploy-2021-just.pdf).
 
-**_"GeoHealthCheck - A Quality of Service Monitor for Geospatial Web Services" - [FOSS4G 2021](https://2021.foss4g.org/) - September 30, 2021_** - [\[HTML Slides\]](https://geohealthcheck.org/presentation/) - [\[Abstract\]](https://callforpapers.2021.foss4g.org/foss4g2021/talk/9NBETK/).
+**_"GeoHealthCheck - A Quality of Service Monitor for Geospatial Web Services" - [FOSS4G 2021](https://2021.foss4g.org/) - September 30, 2021_** - [\[HTML Slides\]](https://geohealthcheck.org/presentation/) - [\[Abstract\]](https://callforpapers.2021.foss4g.org/foss4g2021/talk/9NBETK/) - [Video recording on YouTube](https://www.youtube.com/watch?v=t7Y8FuaE-_M). 
 
 **_"Doing Geospatial in Python" - [FOSS4G 2021](https://2021.foss4g.org/) - September 28, 2021_** - Workshop (4h): introduction to performing common GIS/geospatial tasks using Python geospatial tools such as OWSLib, Shapely, Fiona/Rasterio, and common geospatial libraries like GDAL, PROJ, pycsw, as well as other tools from the geopython toolchain. -  [\[HTML Startpage\]](https://geopython.github.io/geopython-workshop/) - [\[Abstract\]](https://callforpapers.2021.foss4g.org/foss4g-2021-workshop/talk/7N3G3N/).
 
