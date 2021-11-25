@@ -1,10 +1,10 @@
 ---
-title: Deploying OSGeo Software using GitOps
+title: Deploying an OGC API Features Stack using GitOps
 author: Just van den Broecke
 type: post
 date: 2021-10-25T12:24:25+00:00
-excerpt: "GitOps is often associated with Kubernetes, but we have used it more lightweight."
-url: /osgeo-software-gitops/![img.png](img.png)
+excerpt: "GitOps is often associated with Kubernetes, but here we use a lightweight variant."
+url: /ogc-webservices-gitops/
 featured_image: uploads/2021/10/gitops-geonovum-logo.png
 categories:
   - General
@@ -26,6 +26,13 @@ tags:
 
 ---
 
+The first question you may ask: what the h* is GitOps? 
+TLDR; GitOps here is a CI/CD variant where we use Git, in our case GitHub, to store 
+*all* (code, configuration etc) information needed for deploying a complete stack of 
+OGC REST API Features. On pushes to GitHub, GH Workflows/Actions are triggered that run
+Ansible playbooks to (re-)deploy Docker-based (OGC API) services on a remote VM.
+
+That is still a mouthful of jargon.
 
 I use [Ansible](https://www.ansible.com/) already for years to provision server 
 instances and for subsequent CI/CD. 
@@ -33,7 +40,7 @@ A recent example is the [Geonovum OGC API Testbed](https://apitestdocs.geonovum.
 Here (selective) Docker Containers are automatically deployed on GitHub pushes using Ansible called
 from within a GitHub Workflows.
 
-{{< a-img data-href="https://apitestdocs.geonovum.nl/" style="width:50%;" data-src="/uploads/2021/09/ogcapi-testbed.png" data-caption="Geonovum OGC API Testbed CI/CD Architecture">}}
+{{< a-img data-href="https://apitestdocs.geonovum.nl/" style="width:50%;" data-src="/uploads/2021/10/ogcapi-testbed.png" data-caption="Geonovum OGC API Testbed CI/CD Architecture">}}
 
 Now investigating how  [Terraform](https://www.terraform.io/) 
 could play a key role in (Cloud) infrastructure management. 
