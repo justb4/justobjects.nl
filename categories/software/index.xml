@@ -9,14 +9,20 @@
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Mon, 25 Oct 2021 12:24:25 +0000</lastBuildDate><atom:link href="https://justobjects.nl/categories/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Deploying OSGeo Software using GitOps</title>
-      <link>https://justobjects.nl/osgeo-software-gitops/![img.png](img.png)</link>
+      <title>Deploying an OGC API Features Stack using GitOps</title>
+      <link>https://justobjects.nl/ogc-webservices-gitops/</link>
       <pubDate>Mon, 25 Oct 2021 12:24:25 +0000</pubDate>
       
-      <guid>https://justobjects.nl/osgeo-software-gitops/![img.png](img.png)</guid>
+      <guid>https://justobjects.nl/ogc-webservices-gitops/</guid>
       <description>
         
-          &lt;p&gt;I use &lt;a href=&#34;https://www.ansible.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Ansible&lt;/a&gt;
+          &lt;p&gt;The first question you may ask: what the h* is GitOps?
+TLDR; GitOps here is a CI/CD variant where we use Git, in our case GitHub, to store
+*all* (code, configuration etc) information needed for deploying a complete stack of
+OGC REST API Features. On pushes to GitHub, GH Workflows/Actions are triggered that run
+Ansible playbooks to (re-)deploy Docker-based (OGC API) services on a remote VM.&lt;/p&gt;
+&lt;p&gt;That is still a mouthful of jargon.&lt;/p&gt;
+&lt;p&gt;I use &lt;a href=&#34;https://www.ansible.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Ansible&lt;/a&gt;
  already for years to provision server
 instances and for subsequent CI/CD.
 A recent example is the &lt;a href=&#34;https://apitestdocs.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum OGC API Testbed&lt;/a&gt;
@@ -27,7 +33,7 @@ from within a GitHub Workflows.&lt;/p&gt;
 &lt;div class=&#34;&#34;&gt;
   &lt;a href=&#34;https://apitestdocs.geonovum.nl/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
-      src=&#34;https://justobjects.nl/uploads/2021/09/ogcapi-testbed.png&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/10/ogcapi-testbed.png&#34;
       alt=&#34;Geonovum OGC API Testbed CI/CD Architecture&#34; /&gt;
   &lt;/a&gt;
   

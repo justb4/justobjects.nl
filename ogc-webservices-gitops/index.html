@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en" data-figures="" class="page">
   <head>
-<title>Deploying OSGeo Software using GitOps | Clarity</title>
+<title>Deploying an OGC API Features Stack using GitOps | Clarity</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,20 +17,20 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="I use Ansible already for years to provision server instances and for subsequent CI/CD. A recent example is the Geonovum OGC API Testbed . Here (selective) …">
+<meta name="description" content="The first question you may ask: what the h* is GitOps? TLDR; GitOps here is a CI/CD variant where we use Git, in our case GitHub, to store *all* (code, …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@justb4">
-<meta name="twitter:title" content="Deploying OSGeo Software using GitOps" />
-<meta property="og:url" content="https://justobjects.nl/osgeo-software-gitops/![img.png](img.png)" />
-<meta property="og:title" content="Deploying OSGeo Software using GitOps" />
-<meta property="og:description" content="I use Ansible already for years to provision server instances and for subsequent CI/CD. A recent example is the Geonovum OGC API Testbed . Here (selective) …" />
+<meta name="twitter:title" content="Deploying an OGC API Features Stack using GitOps" />
+<meta property="og:url" content="https://justobjects.nl/ogc-webservices-gitops/" />
+<meta property="og:title" content="Deploying an OGC API Features Stack using GitOps" />
+<meta property="og:description" content="The first question you may ask: what the h* is GitOps? TLDR; GitOps here is a CI/CD variant where we use Git, in our case GitHub, to store *all* (code, …" />
 <meta property="og:image" content="https://justobjects.nl/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://justobjects.nl/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://justobjects.nl/icons/favicon-32x32.png">
 <link rel="manifest" href="https://justobjects.nl/icons/site.webmanifest">
 
-<link rel="canonical" href="https://justobjects.nl/osgeo-software-gitops/![img.png]%28img.png%29">
+<link rel="canonical" href="https://justobjects.nl/ogc-webservices-gitops/">
 
     
 
@@ -148,7 +148,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Deploying OSGeo Software using GitOps</h1>
+    <h1 class="post_title">Deploying an OGC API Features Stack using GitOps</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <use xlink:href="#calendar"></use>
@@ -171,12 +171,12 @@
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Deploying%20OSGeo%20Software%20using%20GitOps&url=https%3a%2f%2fjustobjects.nl%2fosgeo-software-gitops%2f%21%5bimg.png%5d%28img.png%29&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Deploying%20an%20OGC%20API%20Features%20Stack%20using%20GitOps&url=https%3a%2f%2fjustobjects.nl%2fogc-webservices-gitops%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <use xlink:href="#twitter"></use>
 </svg>
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjustobjects.nl%2fosgeo-software-gitops%2f%21%5bimg.png%5d%28img.png%29&t=Deploying%20OSGeo%20Software%20using%20GitOps" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjustobjects.nl%2fogc-webservices-gitops%2f&t=Deploying%20an%20OGC%20API%20Features%20Stack%20using%20GitOps" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <use xlink:href="#facebook"></use>
 </svg>
@@ -186,7 +186,7 @@
   <use xlink:href="#linkedin"></use>
 </svg>
     </a>
-    <a href="https://justobjects.nl/osgeo-software-gitops/![img.png]%28img.png%29" title="Copy Link" class="link link_yank">
+    <a href="https://justobjects.nl/ogc-webservices-gitops/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <use xlink:href="#copy"></use>
 </svg>
@@ -196,7 +196,13 @@
   </div>
 
     
-    <p>I use <a href="https://www.ansible.com/" target="_blank" rel="noreferrer noopener">Ansible</a>
+    <p>The first question you may ask: what the h* is GitOps?
+TLDR; GitOps here is a CI/CD variant where we use Git, in our case GitHub, to store
+*all* (code, configuration etc) information needed for deploying a complete stack of
+OGC REST API Features. On pushes to GitHub, GH Workflows/Actions are triggered that run
+Ansible playbooks to (re-)deploy Docker-based (OGC API) services on a remote VM.</p>
+<p>That is still a mouthful of jargon.</p>
+<p>I use <a href="https://www.ansible.com/" target="_blank" rel="noreferrer noopener">Ansible</a>
  already for years to provision server
 instances and for subsequent CI/CD.
 A recent example is the <a href="https://apitestdocs.geonovum.nl/" target="_blank" rel="noreferrer noopener">Geonovum OGC API Testbed</a>
@@ -207,7 +213,7 @@ from within a GitHub Workflows.</p>
 <div class="">
   <a href="https://apitestdocs.geonovum.nl/">
     <img class="lazy"
-      src="/uploads/2021/09/ogcapi-testbed.png"
+      src="/uploads/2021/10/ogcapi-testbed.png"
       alt="Geonovum OGC API Testbed CI/CD Architecture" />
   </a>
   
