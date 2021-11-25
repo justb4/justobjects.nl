@@ -2,7 +2,7 @@
 title: Deploying an OGC API Features Stack using GitOps
 author: Just van den Broecke
 type: post
-date: 2021-10-25T12:24:25+00:00
+date: 2022-10-25T12:24:25+00:00
 excerpt: "GitOps is often associated with Kubernetes, but here we use a lightweight variant."
 url: /ogc-webservices-gitops/
 featured_image: uploads/2021/10/gitops-geonovum-logo.png
