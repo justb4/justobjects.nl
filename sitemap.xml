@@ -3,67 +3,70 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://justobjects.nl/presentations/</loc>
-    <lastmod>2021-10-19T16:04:13+00:00</lastmod>
+    <lastmod>2021-11-24T16:04:13+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/ansible/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/osgeo-software-gitops/![img.png](img.png)</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/devops/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/docker/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/foss/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/general/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/geospatial/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/gis/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/gitops/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/osgeo/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/osgeo/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/posts/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/projects/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/python/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/qgis/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/software/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/terraform/</loc>
+    <lastmod>2021-10-25T12:24:25+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/contact/</loc>
     <lastmod>2021-09-22T16:05:10+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/projects/</loc>
     <lastmod>2021-09-22T09:25:31+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/ansible/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/categories/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/devops/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/docker/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/foss/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/categories/general/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/geospatial/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/gis/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/gitops/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/osgeo/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/categories/osgeo/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/posts/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/categories/projects/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/python/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/qgis/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/categories/software/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/terraform/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/terraform-first-steps/</loc>
     <lastmod>2021-09-13T13:24:25+00:00</lastmod>
