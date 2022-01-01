@@ -8,9 +8,9 @@ date: 2021-11-24T16:04:13+00:00
 Below a selection of various presentations by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
 
-**_"Ten Years of OSGeo.nl - A Story in Pictures" - De Grote Geo Show - Episode 19 (video) - December 2, 2021 - Online_** - [Video recording on YouTube](https://www.youtube.com/watch?v=yMAxQEg0fSw) - [\[Episode Info\]](https://tv.osgeo.nl/episode/episode-0019/).
+**_"Ten Years of OSGeo.nl - A Story in Pictures" - De Grote Geo Show - Episode 19 (video) - December 2, 2021 - Online_** - [\[Video recording on YouTube\]](https://www.youtube.com/watch?v=yMAxQEg0fSw) - [\[Episode Info\]](https://tv.osgeo.nl/episode/episode-0019/).
 
-**_"OGC API Features" - Geonovum - Kennisplatform APIs - [Dutch API Strategy - Geo-extension WG](https://www.geonovum.nl/over-geonovum/agenda/werkgroep-nederlandse-api-strategie-geo-extensie) - November 24, 2021 - Online_** - [\[PDF Slides by OGC\]](https://files.justobjects.nl/presentation/geonovum-2021-api-strategie/OGC-API-Features.pdf) - [\[Video Recording\]](https://youtu.be/apVe6dA5rqs?t=386).
+**_"OGC API Features" - Geonovum - Kennisplatform APIs - [Dutch API Strategy - Geo-extension WG](https://www.geonovum.nl/over-geonovum/agenda/werkgroep-nederlandse-api-strategie-geo-extensie) - November 24, 2021 - Online_** - [\[PDF Slides by OGC\]](https://files.justobjects.nl/presentation/geonovum-2021-api-strategie/OGC-API-Features.pdf).
 
 **_"FOSS4G-NL 2021 - Closing Words" - FOSS4G-NL 2021 - Oktober 20, 2021 - Enschede_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2021/foss4gnl-2021-slot-just.pdf).
 
