@@ -221,11 +221,11 @@ Ongoing in 2021:
 
 ### More Contributions - Handy Docker Images
 
-To support many of the Cloud services and Open Source projects, I develop and maintain [handy Docker Images][62], also available from [my DockerHub][24],
-ongoing in 2021, for many moved to Github Workflows build/push, replacing DockerHub Autobuild (still awaiting Open Source waver...):
+To support many of the Cloud services and Open Source projects, I develop and maintain [handy Docker Images][62], also available from [my DockerHub][24].
+Ongoing in 2021. In the progress of moving all to Github Workflows build/push, replacing DockerHub Autobuild (still awaiting DockerHub Open Source waiver...):
 
 * [docker-awstats][25] - AWStats in Docker, oldie, but very effective webstats. Deploy multiple instances in single Docker container. Highly configurable, e.g. also for [Traefik][26] access logs.
-* [docker-jmeter][27] - [Apache JMeter][28] wrapped in Docker. Over 10 million pulls at end of 2021 (and zero donations)!
+* [docker-jmeter][27] - [Apache JMeter][28] wrapped in Docker. Over 10 million pulls at end of 2021. And 180 stars, but still [zero donations](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=3QZW9SNGCWBM4)! C'mon people, not even using JMeter myself...
 * [docker-mapfish-print][29] - for MapFish Print **version 3**. MapFish Print allows printing maps as PDFs.
 * [docker-mapfish-print2][30] - for MapFish Print **version 2** - This version is still used in quite some contexts, at least for [Heron][20] and [KadViewer][31].
 * [docker-rclone][32] - Docker image to perform a [rclone][63] sync based on a cron schedule, with [healthchecks.io][64] monitoring.
@@ -244,14 +244,14 @@ ongoing in 2021, for many moved to Github Workflows build/push, replacing Docker
 
 [FOSS4G Buenos Aires][36] needs special mention. As an online conference, apart from amazing content, I was very impressed with the 
 technical and organizational setup. Even the social events were fun to join. Folks are tired of Zoom, Teams, etc but
-the FOSS4G LOC had introduced tools like Work Adventure and StreamYard to enable more "cozyness". 
+the FOSS4G LOC had introduced tools like [Work Adventure](https://workadventu.re/) and [StreamYard](https://streamyard.com/) (also used by OSgeo.nl in Big Geo Show) to enable more "cozyness". 
 Offcourse nothing can replace a real event, but this came close. The Gala Dinner was really fun!
 
 Jody Garnett words it very well in his Tweet:
 
 {{< a-img data-href="https://mobile.twitter.com/jodygarnett/status/1444022337968295938" data-src="/uploads/2022/foss4g/thankyou.png" data-caption="Thank You!" >}}
 
-Not to forget, always in hearts: Malena Libman (1983-2021).
+Never forget, always in our hearts: Malena Libman (1983-2021).
 FOSS4G 2021 was also a conference dedicated to, and in memory of, Malena Libman. 
 She was a pillar of the FOSS4G community and a leading organizer of this conference. 
 
@@ -285,16 +285,14 @@ Below talks and workshops I provided in 2021. A complete list of [presentations]
 
 * **_"OSGeo.nl New Year's Party - Slides OSGeo.nl" - 2021-01-24 - Presentation I gave on behalf of OSGeo.nl on the online joint QGIS-NL, OpenStreetMap-NL and OSGeo.nl New Year's party on January 24, 2021._**- [\[Slideshare\]](https://www.slideshare.net/justb4/osgeonl-new-years-party-slides-osgeonl)
 
-geopython-workshop-group
-
 {{< a-img data-href="https://callforpapers.2021.foss4g.org/foss4g-2021-workshop/talk/7N3G3N/" data-src="/uploads/2022/foss4g/geopython-workshop-group.jpg" data-caption="Geopython Workshop at FOSS4G Buenos Aires " >}}
 
-Not as much fun as in 2019 Bukarest but giving the Geopython Workshop at FOSS4G Buenos Aires with those great minds
-was still a 2021-highlight.
+Not as much fun as in 2019 Bukarest, but providing the Geopython Workshop at FOSS4G Buenos Aires with those great minds
+is still a 2021-highlight.
 
 ## 9. Resolutions for 2022
 
-* Customer portal for map5.nl 
+* Customer portal for [map5.nl](https://map5.nl) 
 * Get back into Kubernetes 
 * Advance further into full-lifecycle GitOps
 * Advance further into Vector Tiling
