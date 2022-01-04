@@ -137,7 +137,7 @@ Thanks to all who made this event a success!
 This was already my 2020 highlight. You can watch back all shows via **[tv.osgeo.nl][3]** or directly on 
 the **[OSGeo.nl YouTube Channel][42]**. Hell, you can even **[binge-watch all episodes][4]**! 
 
-{{< a-img data-href="tv.osgeo.nl" data-src="/uploads/2022/dggs/osm.jpg" data-caption="Episode 15 - OpenStreetMap Special with Ilya Zverev" >}}
+{{< a-img data-href="https://youtu.be/nhlIqMyBIig" data-src="/uploads/2022/dggs/osm.jpg" data-caption="Episode 15 - OpenStreetMap Special with Ilya Zverev" >}}
 
 In 2021 we did six shows, each a Special:
 
@@ -148,20 +148,20 @@ In 2021 we did six shows, each a Special:
 * Episode 18: [Cartography Special](https://tv.osgeo.nl/episode/episode-0018/)
 * Episode 19: [Ten Years of OSGeo.nl - Story in Pictures](https://tv.osgeo.nl/episode/episode-0019/)
 
-{{< a-img data-href="tv.osgeo.nl" data-src="/uploads/2022/dggs/gis-keyboard.jpg" data-caption="Episode 16 - GIS with your Keyboard"  >}}
+{{< a-img data-href="https://tv.osgeo.nl/episode/episode-0016/" data-src="/uploads/2022/dggs/gis-keyboard.jpg" data-caption="Episode 16 - GIS with your Keyboard"  >}}
 
 With a real instant-music-composer-performer, [Luciën Greefkes](https://www.muziektaal.nl/) 
 in our team, we together made a [new DGGS leader video](https://www.youtube.com/watch?v=ZrfrcpWR29s).
 
 ### OSGeo.nl - Ten Year Anniversary
                                      
-OSGeo.nl was established on Dec 2, 2011. So 10 years and wtill going strong.
-As we were in a new wave, had a small online event. Below the epic picture (by Arnulf Christl) 
-taken at the GIN Congres Utrecht where we got together to start OSGeo.nl.
+OSGeo.nl was established on Dec 2, 2011. So 10 years, still going strong! 
+On dec 2, 2021 we were in a new wave, so a small online event. Below the epic picture (by Arnulf Christl) 
+taken at the GIN Congres Utrecht 2011 where we got together to start OSGeo.nl.
 
 {{< a-img data-href="https://osgeo.nl/" data-src="/uploads/2022/osgeonl-founding.jpg" data-caption="OSGeo.nl Founding Mothers and Fathers - 2011" >}}
 
-A special episode of the Big Geo Show presents: [Ten Years of OSGeo.nl - Story in Pictures](https://tv.osgeo.nl/episode/episode-0019/).
+A special episode of the Big Geo Show presents: [Ten Years of OSGeo.nl - Story in Pictures](https://youtu.be/yMAxQEg0fSw).
 
 ## 5. Geospatial Cloud Services
 
@@ -174,17 +174,17 @@ projects with which they are developed. Warning: shameless ads below. All below 
 {{< a-img data-href="https://www.map5.nl/" data-src="/uploads/2020/01/map5.nl_.png" >}}
 
 
-  * **[GeoQoS.com][6]** is a hosted **[GeoHealthCheck][7]** (GHC) service on a subscription basis. GHC is an uptime and QoS monitor for (OGC) web services. Customers get their own GHC instance. **[GeoQoS.com][6]** saves the burden of self-hosting GHC. In 2021 started work more on API, using [FastAPI](https://fastapi.tiangolo.com/), and new UI for GHC.
+  * **[GeoQoS.com][6]** is a hosted **[GeoHealthCheck][7]** (GHC) service on a subscription basis. GHC is an uptime and QoS monitor for (OGC) web services. Customers get their own GHC instance. **[GeoQoS.com][6]** saves the burden of self-hosting GHC. In 2021 started work on a GHC API, using [FastAPI](https://fastapi.tiangolo.com/), and a new GHC-UI.
 
 {{< a-img data-href="https://geoqos.com/" data-src="/uploads/2020/01/geoqos.com_.png" >}}
 
 
-  * **[geotoko.nl][8]**. geotoko.nl, in short GeoToko, is basically a webshop to download Dutch open geo-datasets. Here one may ask: Dutch geospatial data like Topography, Addresses and Buildings, is already open and publicly available, mainly via **[Kadaster-PDOK][51]**. So why bother reselling? This needs some explanation.
+  * **[geotoko.nl][8]**, in short GeoToko, is basically a webshop to download Dutch open geo-datasets. One may ask: Dutch geospatial data like Topography, Addresses and Buildings, is already open and publicly available, mainly via **[Kadaster-PDOK][51]**. So why bother reselling? Explanation follows.
 
 {{< a-img data-href="https://geotoko.nl/" data-src="/uploads/2021/01/opentopo-keyreg.png" >}}
 
 
-  Most Dutch Open geospatial datasets, as available from governmental institutions like Kadaster, are provided in a neutral exchange-format. In practice: GML (Application Schema). Most users are not able to directly digest complex GML in their applications (or don't want to spend time on that). For over 10 years we run the Open Source project **[NLExtract][52]** to convert these datasets into formats like PostGIS and CSV that can be directly used in applications. NLExtract itself builds on **[Stetl][11]**, an Open Source geospatial ETL-library in Python. NLExtract/Stetl is used a lot, but still will require users to install/maintain an NLExtract/Stetl installation, download datasets, run the ETL, check results etc. That may also be a bridge too far, if e.g. all a customer needs is a one-time CSV of say, all 10 million addresses in The Netherlands. So GeoToko taps into this niche, providing ready-to-use, often enriched Dutch datasets. Pricing is reasonable, compared to other providers, plus organizations and individuals may get highly reduced pricing when they work on Open data applications like OpenStreetMap.
+  Most Dutch Open geospatial datasets, available from governmental institutions like Kadaster, are provided in a neutral exchange-format. In practice: GML (Application Schema). Most users are not able to directly digest complex GML in their applications (or don't want to spend time on that). For over 10 years we run the Open Source project **[NLExtract][52]** to convert these datasets into formats like PostGIS and CSV that can be directly used in applications. NLExtract itself builds on **[Stetl][11]**, an Open Source geospatial ETL-library in Python. NLExtract/Stetl is used a lot, but still will require users to install/maintain an NLExtract/Stetl installation, download datasets, run the ETL, check results etc. That may also be a bridge too far, if e.g. all a customer needs is a one-time CSV of say, all 10 million addresses in The Netherlands. So GeoToko taps into this niche, providing ready-to-use, often enriched Dutch datasets. Pricing is reasonable, compared to other providers, plus organizations and individuals may get highly reduced pricing when they work on Open data applications like OpenStreetMap.
 
 {{< a-img data-href="https://geotoko.nl/" data-src="/uploads/2021/01/bigpicture.png" >}}
 
