@@ -26,9 +26,9 @@ Below follow 2021-highlights organized by theme and/or project.
 
 ## 1. Fun Home Automation Projects
 
-Some of my 2022 resolutions resolved in 2021: 
+Some of my 2022 fun resolutions resolved in 2021: 
 
-* Installed a [HP1000SE PRO Wi-Fi Internet Wireless Weather Station](https://www.froggit.de/product_info.php?language=en&info=p436_hp1000se-pro-wi-fi-internet-wireless-weather-station.html). Using [weewx on Raspberry Pi](https://github.com/justb4/weatherstation). Publishing a.o. to [Weather Underground](https://www.wunderground.com/dashboard/pws/IGELDERL153).
+* Installed an [HP1000SE PRO Wi-Fi Internet Wireless Weather Station](https://www.froggit.de/product_info.php?language=en&info=p436_hp1000se-pro-wi-fi-internet-wireless-weather-station.html). Using [weewx on Raspberry Pi](https://github.com/justb4/weatherstation). Publishing a.o. to [Weather Underground](https://www.wunderground.com/dashboard/pws/IGELDERL153).
 * Wildcam
 
 {{< a-img data-src="/uploads/2022/wildcam.jpg" data-caption="Some mammals on the Wildcam" >}}
@@ -70,10 +70,10 @@ I was very lucky that my main three contracts in 2021 involved GitOps. One proje
 
 ### Geonovum
 
-It all begin in June at [Geonovum](https://www.geonovum.nl/themas/testbed-ogc-apis) who started an OGC API Testbed as part of
-the ongoing [Dutch API Strategy](https://www.geonovum.nl/themas/kennisplatform-apis) theme. 
+It all began in June at [Geonovum](https://www.geonovum.nl/themas/testbed-ogc-apis) who started an OGC API Testbed as part of
+their ongoing [Dutch API Strategy](https://www.geonovum.nl/themas/kennisplatform-apis) theme. 
 
-Together with [GeoCat](https://geocat.net) (Paul van Genuchten) we developed a full-stack deployment of several OGC API Features implementations.
+Together with [GeoCat](https://geocat.net) [Paul van Genuchten](https://www.linkedin.com/in/paulvangenuchten/), developed a full-stack deployment for several [OGC API Features](https://ogcapi.ogc.org/features/) implementations.
 The picture below depicts the stack elements:
 
 {{< a-img data-href="https://apitestdocs.geonovum.nl/" data-src="/uploads/2022/gitops/services-stack.png" data-caption="GitOps Deployment - Operational Stack" >}}
@@ -89,12 +89,12 @@ These results were presented at several occasions in 2021. See the Presentations
 
 ### Geocat
 
-For GeoCat (again with Paul van Genuchten) we have been defining how to further migrate to full GitOps 
+For GeoCat (again with Paul van Genuchten), exploring and setting out how to further migrate to full GitOps 
 for the [GeoCat Live](https://www.geocat.net/live/) environment.
 
 ### European Commission - Joint Research Center
 
-I was already involved in a contract with [EC-JRC](https://ec.europa.eu/info/departments/joint-research-centre_en) 
+Was already involved in a contract with [EC-JRC](https://ec.europa.eu/info/departments/joint-research-centre_en) 
 for pan-EU data sharing as a member of the "EU JRC ELISE Pool of Experts".
 An honour to be working (and still working) with these great minds from the international geospatial world!
 
