@@ -28,7 +28,7 @@ Will do in a later post: &lt;a href=&#34;https://waarneming.nl/users/146535/obse
 , &#39;catching&#39; big game on new wildcam, developed outdoor GPS-game (Veluwe Big Five), some progress on guitar-playing,
 discovering The Netherlands outback, becoming
 a &lt;a href=&#34;https://www.billystrings.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Billy Strings&lt;/a&gt;
- fan. These are a few of my favourite things, so more later....&lt;/p&gt;
+ fan. These are a few of my favourite things, more later....&lt;/p&gt;
 &lt;p&gt;TL;DR Main three 2021 highlights:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Organizing and attending an in-real-life &lt;a href=&#34;https://foss4g.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G-NL&lt;/a&gt;
@@ -72,7 +72,7 @@ With the great effort by &lt;a href=&#34;https://github.com/peter-govind&#34; ta
  (via &lt;a href=&#34;https://freelance.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;freelance.com&lt;/a&gt;
 ), we converted the complete site (about 20 years of blogs)
 to &lt;a href=&#34;https://github.com/justb4/justobjects.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hugo&amp;#43;Github&lt;/a&gt;
-, using GitHub Workflows to &amp;quot;deploy-on-commit&amp;quot;. My first piece of GitOps, more to follow, in 2021.
+, using GitHub Workflows to &amp;quot;publish-on-commit&amp;quot;. My first piece of GitOps, more to follow, in 2021.
 Though there are still some fixes to do, very happy with the result. Maintaining is now a breeze.&lt;/p&gt;
 &lt;h2 id=&#34;3-gitops&#34;&gt;3. GitOps&lt;/h2&gt;
 &lt;p&gt;Gradually &lt;a href=&#34;https://www.weave.works/technologies/gitops/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitOps&lt;/a&gt;
@@ -166,7 +166,7 @@ For now the GitHub repo is at &lt;a href=&#34;https://github.com/justb4/ogc-api-
 
 &lt;h2 id=&#34;4-osgeonl&#34;&gt;4. OSGeo.nl&lt;/h2&gt;
 &lt;h3 id=&#34;foss4g-nl-2021---irl&#34;&gt;FOSS4G-NL 2021 - IRL&lt;/h3&gt;
-&lt;p&gt;Yes, it happened! Inbetween COVID-Waves a LOC lead by the great &lt;a href=&#34;https://www.linkedin.com/in/erikmeerburg/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Erik Meerburg&lt;/a&gt;
+&lt;p&gt;Yes, it happened! In between COVID-Waves a LOC lead by the great &lt;a href=&#34;https://www.linkedin.com/in/erikmeerburg/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Erik Meerburg&lt;/a&gt;
  achieved to organize
 an in-real-life (IRL) &lt;a href=&#34;https://foss4g.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;4th OSGeo.nl FOSS4G-NL conference&lt;/a&gt;
 .
@@ -338,7 +338,7 @@ For this a framework called GeoFabriek, &amp;quot;GeoFactory&amp;quot;, was deve
 &lt;p&gt;New in 2021:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/fastapi-users-starter&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FastAPI-Users starter Template repo&lt;/a&gt;
-&lt;/li&gt;
+ - adding full user management to FastAPI.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://nlextract.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLExtract&lt;/a&gt;
  - added ETL for BAG version 2, my first PRs for GDAL!&lt;/li&gt;
 &lt;/ul&gt;
@@ -370,7 +370,7 @@ For this a framework called GeoFabriek, &amp;quot;GeoFactory&amp;quot;, was deve
 &lt;p&gt;To support many of the Cloud services and Open Source projects, I develop and maintain &lt;a href=&#34;https://github.com/search?q=user%3Ajustb4&amp;#43;docker-&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;handy Docker Images&lt;/a&gt;
 , also available from &lt;a href=&#34;https://hub.docker.com/u/justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my DockerHub&lt;/a&gt;
 .
-Ongoing in 2021. In the progress of moving all to Github Workflows build/push, replacing DockerHub Autobuild (still awaiting DockerHub Open Source waiver...):&lt;/p&gt;
+Ongoing in 2021. In progress of moving all to Github Workflows build/push, replacing DockerHub Autobuild (still awaiting DockerHub Open Source waiver...):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-awstats&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-awstats&lt;/a&gt;
  - AWStats in Docker, oldie, but very effective webstats. Deploy multiple instances in single Docker container. Highly configurable, e.g. also for &lt;a href=&#34;https://docs.traefik.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Traefik&lt;/a&gt;
@@ -504,12 +504,12 @@ As the &lt;a href=&#34;https://www.osgeo.org/foundation-news/malena-libman-recei
   &lt;a href=&#34;https://callforpapers.2021.foss4g.org/foss4g-2021-workshop/talk/7N3G3N/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2022/foss4g/geopython-workshop-group.jpg&#34;
-      alt=&#34;Geopython Workshop at FOSS4G Buenos Aires &#34; /&gt;
+      alt=&#34;Geopython Workshop at FOSS4G Buenos Aires&#34; /&gt;
   &lt;/a&gt;
   
 &lt;/div&gt;
 
-&lt;p&gt;Not as much fun as in 2019 Bukarest, but providing the Geopython Workshop at FOSS4G Buenos Aires with those great minds
+&lt;p&gt;Not as much fun as in 2019 Bukarest, but providing the Geopython Workshop at FOSS4G Buenos Aires with these great minds
 is still a 2021-highlight.&lt;/p&gt;
 &lt;h2 id=&#34;9-resolutions-for-2022&#34;&gt;9. Resolutions for 2022&lt;/h2&gt;
 &lt;ul&gt;
