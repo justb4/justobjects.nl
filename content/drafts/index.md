@@ -6,4 +6,315 @@ date: 2022-01-01T12:49:12+00:00
 
 ---
 
-Drafts folder.
+Overview of my professional life in 2021. Highlights of living and working in the Open Source Geospatial and OSGeo([.nl][1]|.[org][2])-world in 2021. 
+Organized by "Theme".
+
+Like 2020, 2021 was again a "special year" in pandemic terms. How to cope? 
+Like Paul Ramsey writes: ["I feel like sharing some of my favourite things"](http://blog.cleverelephant.ca/2022/01/things.html).
+Will do in a later blog: [Bird-watching](https://waarneming.nl/users/146535/observations/), Wolf-tracking workshop, 'catching' big game on new wildcam, developed outdoor GPS-game (Veluwe Big Five), some progress on guitar-playing, 
+discovering The Netherlands outback, becoming a [Billy Strings](https://www.billystrings.com/) fan]. These are a few of my favourite things, more later....
+
+
+TL;DR Main three highlights: 
+
+* Organizing a in-real-life FOSS4G-NL with OSGeo.nl
+* Attending, presenting, moderating, online FOSS4G Buenos Aires 
+* Deep-diving into GitOps. 
+
+Below follow 2021-highlights organized by theme and/or project.
+
+### Fun Home Automation Projects
+
+Some of my 2022 resolutions in 2021: 
+
+* Installed a [HP1000SE PRO Wi-Fi Internet Wireless Weather Station](https://www.froggit.de/product_info.php?language=en&info=p436_hp1000se-pro-wi-fi-internet-wireless-weather-station.html). Publishing a.o. to [Weather Underground](https://www.wunderground.com/dashboard/pws/IGELDERL153).
+* Wildcam
+
+More on these later.
+
+### New Website
+
+For years my website/blog [justobjects.nl](https://justobjects.nl) ran on Wordpress at the famous, and first (est. 1993), 
+Dutch internet/hosting provider [XS4ALL](https://en.wikipedia.org/wiki/XS4ALL). XS4ALL was sold to KPN (1998), remained an independent brand,
+but was finally dismantled in 2021. 
+
+So in early 2021 I needed a new hosting provider. This was also a good moment to migrate my website to [Hugo](https://gohugo.io/).
+With the great effort by @peter-govind (via [freelance.com](https://freelance.com)), we converted the complete site (about 20 years of blogs) 
+to [Hugo+Github](https://github.com/justb4/justobjects.nl), using GitHub Workflows to "deploy-on-commit". My first piece of GitOps, more to follow in 2021.
+Though there are still some fixes to do, I am very happy with the result. Maintaining is now a breeze.
+
+### GitOps
+
+Gradually [GitOps](https://www.weave.works/technologies/gitops/) became my main theme in 2021. 
+Main discovery that there was actually a name (GitOps) for CI/CD practices I (you) have been doing over the past years.
+For example, in 2019 I worked on the [pygeoapi demo server](https://github.com/geopython/demo.pygeoapi.io). But this can be taken further
+until reaching the phase of "look ma, no hands!". No more Box Hugging, i.e. manual actions on VMs etc.
+
+So what is GitOps? Many definitions are available. Often [tied to Kubernetes](https://www.manning.com/books/gitops-and-kubernetes) (K8s), but GitOps is broader than K8s.
+The most concise I found at [RedHat](https://www.redhat.com/en/topics/devops/what-is-gitops):
+
+_"GitOps is a set of practices to manage infrastructure and application configurations using Git, an open source version control system. GitOps works by using Git as a single source of truth for declarative infrastructure and applications."_
+
+One of the key GitOps phrases I often quote is: **"The Truth is in Git"**. Especially now in times of fake-news, I love speaking those words in presentations.
+Pun-aside, it takes effort to have 100% of your deployment sources in Git. In particular all required credentials 
+(passwords, keys etc) Think of storing credentials in a public GitHub repo, how? Did some amazing discoveries in that arena.
+
+
+I was very lucky that my main three contracts in 2021 involved implementing GitOps. One sort of followed the other.
+
+#### Geonovum
+
+It all begin in June at [Geonovum](https://www.geonovum.nl/themas/testbed-ogc-apis) who started an OGC API Testbed as part of
+the ongoing [Dutch API Strategy](https://www.geonovum.nl/themas/kennisplatform-apis) theme. 
+
+Together with [GeoCat](https://geocat.net) (Paul van Genuchten) we developed a full-stack deployment of several OGC API Features implementations.
+The picture below depicts the stack elements:
+
+{{< a-img data-href="https://apitestdocs.geonovum.nl/" data-src="/uploads/2022/gitops/services-stack.png" >}}
+
+The challenge was to provide a testbed environment where third parties could further extend and experiment.
+Eventually we developed a deployment fully based on [GitOps within GitHub](https://github.com/Geonovum/ogc-api-testbed) as a GitHub Template repo.
+You can read details in the [documentation](https://apitestdocs.geonovum.nl/).
+The picture below depicts the GitOps workflow:
+
+{{< a-img data-href="https://apitestdocs.geonovum.nl/" data-src="/uploads/2022/gitops/schema.png" >}}
+
+These results were presented at several occasions in 2021. See the Presentations below.
+
+#### Geocat
+
+For GeoCat (again with Paul van Genuchten) we have been defining how to further migrate to full GitOps 
+for the [GeoCat Live](https://www.geocat.net/live/) environment.
+
+#### European Commission - Joint Research Center
+
+I was already involved in a contract with [EC-JRC](https://ec.europa.eu/info/departments/joint-research-centre_en) 
+for pan-EU data sharing as a member of the "EU JRC ELISE Pool of Experts".
+An honour to be working (and still working) with these great minds from the international geospatial world!
+
+My focus within the team was/is on data services deployment, my pitch, first deliverable, called
+*"The Power of Orchestrated Containerisation for Data Services"*.
+
+The full outcome of the project will be publicly published as a JRC Technical Report (JRC127730?) titled:
+*"Emerging approaches for data-driven innovation in Europe"*. For this report I wrote the 
+chapter *"Deployment of an OGC API Features web service using GitOps"*
+ 
+Apart from reporting, I also provided a full-stack OGC API Features service based on [pygeoapi](https://pygeoapi.io).
+Using the [Geonovum OGC API GitHub Template](https://github.com/Geonovum/ogc-api-testbed) 
+with an empty Ubuntu VM, this was a great Proof-of-Concept: it took just about 2 hours to
+get the complete stack, thus including stuff like SSL-certificates, Traefik proxy, OS-hardening etc, [up and running](https://jrc.map5.nl/).
+For now the GitHub repo is at [github.com/justb4/ogc-api-jrc/](https://github.com/justb4/ogc-api-jrc/).
+
+
+### OSGeo.nl
+
+#### The Big Geo Show
+
+This was already my 2020 highlight. You can watch back all shows via **[tv.osgeo.nl][3]** or directly on 
+the **[OSGeo.nl YouTube Channel][42]**. Hell, you can even **[binge-watch all episodes][4]**! 
+
+In 2021 we did six shows, each a Special:
+
+* Episode 14: [Newyear with QGIS-NL and OpenStreetMap-NL communities](https://tv.osgeo.nl/episode/episode-0014/). 
+* Episode 15: [OpenStreetMap Special](https://tv.osgeo.nl/episode/episode-0015/). Special guest: Ilya Zverev a.k.a. [Zverik](https://wiki.openstreetmap.org/wiki/User:Zverik)!
+* Episode 16: [GIS with your Keyboard](https://tv.osgeo.nl/episode/episode-0016/)
+* Episode 17: [On Geospatial Databases](https://tv.osgeo.nl/episode/episode-0017/)
+* Episode 18: [Cartography Special](https://tv.osgeo.nl/episode/episode-0018/)
+* Episode 19: [Ten Years of OSGeo.nl - Story in Pictures](https://tv.osgeo.nl/episode/episode-0019/)
+
+{{< a-img data-href="tv.osgeo.nl" data-src="/uploads/2022/dggs/gis-keyboard.jpg" >}}
+
+With a real instant-music-composer-performer, [Luciën Greefkes](https://www.muziektaal.nl/) 
+in our team, we together made a [new DGGS leader video](https://www.youtube.com/watch?v=ZrfrcpWR29s).
+
+### OSGeo.nl - Ten Year Anniversary
+
+### Geospatial Cloud Services
+
+Moving into providing Geospatial Cloud Services last few years, both as a source of income and to support/strengthen underlying open source projects with which they are developed. Warning: shameless ads below.
+
+  * **[map5.nl][5]** is a subscription service for Dutch topographic, historical- and embellished hill-shade and arial maps I started to host in 2015. In 2020 the entire map5.nl server-infrastructure was moved from custom Ubuntu-installs to a complete **[Ansible][50]**/Docker-based setup.
+
+{{< a-img data-href="https://www.map5.nl/" data-src="/uploads/2020/01/map5.nl_.png" >}}
+
+
+  * **[GeoQoS.com][6]** is a hosted **[GeoHealthCheck][7]** (GHC) service on a subscription basis. GHC is an uptime and QoS monitor for (OGC) web services. Customers get their own GHC instance. **[GeoQoS.com][6]** saves the burden of self-hosting GHC. Launch was in 2019, growing steady in 2020. Expect to work more on API and new UI for GeoHealthCheck (below) in 2021.
+
+{{< a-img data-href="https://geoqos.com/" data-src="/uploads/2020/01/geoqos.com_.png" >}}
+
+
+  * Feb 2020 - launched **[geotoko.nl][8]**. geotoko.nl, in short GeoToko, is basically a webshop to download Dutch open geo-datasets. Here one may ask: Dutch geospatial data like Topography, Addresses and Buildings, is already open and publicly available, mainly via **[Kadaster-PDOK][51]**. So why bother reselling? This needs some explanation.
+
+{{< a-img data-href="https://geotoko.nl/" data-src="/uploads/2021/01/opentopo-keyreg.png" >}}
+
+
+  Most Dutch Open geospatial datasets, as available from governmental institutions like Kadaster, are provided in a neutral exchange-format. In practice: GML (Application Schema). Most users are not able to directly digest complex GML in their applications (or don't want to spend time on that). For over 10 years we run the Open Source project **[NLExtract][52]** to convert these datasets into formats like PostGIS and CSV that can be directly used in applications. NLExtract itself builds on **[Stetl][11]**, an Open Source geospatial ETL-library in Python. NLExtract/Stetl is used a lot, but still will require users to install/maintain an NLExtract/Stetl installation, download datasets, run the ETL, check results etc. That may also be a bridge too far, if e.g. all a customer needs is a one-time CSV of say, all 10 million addresses in The Netherlands. So GeoToko taps into this niche, providing ready-to-use, often enriched Dutch datasets. Pricing is reasonable, compared to other providers, plus organizations and individuals may get highly reduced pricing when they work on Open data applications like OpenStreetMap.
+
+{{< a-img data-href="https://geotoko.nl/" data-src="/uploads/2021/01/bigpicture.png" >}}
+
+  As for development: the **[GeoToko webshop][8]** was developed with Django, Flask/nginx (Download management), Stripe (backend payments) and **[CKAN][53]**. The latter to provide a product-catalogue, sample data and metadata in general, all via **[GeoCatalogus.nl][54]**.
+
+{{< a-img data-href="https://geotoko.nl" data-src="/uploads/2021/01/geofabriek-keten.png" data-caption="GeoFabriek - Production Chain">}}
+
+
+  Further development concerned automating the NLExtract/Stetl ETL-processes. For this a framework called GeoFabriek, "GeoFactory", was developed. This automates the entire chain from checking new dataset versions at Kadaster, through downloading, conversions, packing for download and updating the metadata (in GeoCatalogus.nl).
+
+
+
+### Open Source Contributions
+
+Continuous work as a contributor. Apart from some GitLab Projects, you can find/follow me best on [GitHub][10].
+
+![GitHub contributions](/uploads/2022/github-contribs-2021.png)
+
+New in 2021:
+
+* [FastAPI-Users starter Template repo](https://github.com/justb4/fastapi-users-starter)
+
+Ongoing in 2021:
+
+* [Stetl][11] - Geospatial ETL in Python, maintaining since 2011.
+* [GeoHealthCheck][12] - Service Status and QoS Checker for OGC Web Services.
+* [pygeoapi][13] - a Python server implementation of the [OGC API suite of standards][57] - joined this great project in 2019. Also in PSC.
+* [pygeoapi demo server][14] - provided the (auto-)deployment stack for the pygeoapi demo server ([code at GitHub][15]). Added [COVID-19 NL data provider][58].
+* [NLExtract][16] - ETL for Dutch geospatial datasets.
+* [Wegue][17] - geo-webclient framework based on [Vue.js][18] with OpenLayers started by [Christian Mayer][19]. Joined this great project in 2019. Unfortunately hardly contribs in 2021.
+* [Heron MC][20] - Web Mapping Client based on [GeoExt][21] and OpenLayers. Yes, old tech but still in wide use. In time hope to migrate to [Wegue][17] (see above). Migrating Heron to Wegue, see first example below.
+  
+
+### More Contributions - Handy Docker Images
+
+To support many of the Cloud services and Open Source projects, I develop and maintain [handy Docker Images][62], also available from [my DockerHub][24],
+ongoing in 2021:
+
+* [docker-awstats][25] - AWStats in Docker, oldie, but very effective webstats. Deploy multiple instances in single Docker container. Highly configurable, e.g. also for [Traefik][26] access logs.
+* [docker-jmeter][27] - [Apache JMeter][28] wrapped in Docker. Over 1 million pulls!
+* [docker-mapfish-print][29] - for MapFish Print **version 3**. MapFish Print allows printing maps as PDFs.
+* [docker-mapfish-print2][30] - for MapFish Print **version 2** - This version is still used in quite some contexts, at least for [Heron][20] and [KadViewer][31].
+* [docker-rclone][32] - Docker image to perform a [rclone][63] sync based on a cron schedule, with [healthchecks.io][64] monitoring.
+* [docker-pgbackup][33] - automated/scheduled PostgreSQL/PostGIS backups for all PostgreSQL-based Docker Containers in its Docker-network. I think it is nifty: just run and forget: your Postgres backups are taken care of. Inspired by: <https://github.com/kartoza/docker-pg-backup>.
+* [docker-mapserver][65] - Slim Docker Image for MapServer with Lighttpd FastCGI.
+* [docker-mapproxy][66] - MapProxy Docker Image adapted, slimmed, from the [YAGA Development-Team][67]. [Awaiting PR merge][68].
+* [docker-mapproxy-mapserver][69] - Docker Image for MapProxy service with built-in MapServer binaries accessed directly (no MapServer service).
+* [docker-cron][70] - Runs Unix cron, includes docker (compose) client for running remote Docker Images.
+
+
+### Conferences - Attended
+
+* Feb 6-7 [FOSSDEM 2021](https://archive.fosdem.org/2021/) - Virtual
+* Sept 27- Oct 22 - [FOSS4G Buenos Aires][36] - Virtual
+* Oct 19-20 - [FOSS4G-NL at ITC Enschede][72] - 
+
+### Talks & Workshops - Provided
+
+Below talks and workshops I provided in 2021. A complete list of [presentations](/presentations/) is available.
+
+* **_"Ten Years of OSGeo.nl - A Story in Pictures" - De Grote Geo Show - Episode 19 (video) - December 2, 2021 - Online_** - [\[Video recording on YouTube\]](https://www.youtube.com/watch?v=yMAxQEg0fSw) - [\[Episode Info\]](https://tv.osgeo.nl/episode/episode-0019/).
+
+* **_"OGC API Features" - Geonovum - Kennisplatform APIs - [Dutch API Strategy - Geo-extension WG](https://www.geonovum.nl/over-geonovum/agenda/werkgroep-nederlandse-api-strategie-geo-extensie) - November 24, 2021 - Online_** - [\[PDF Slides by OGC\]](https://files.justobjects.nl/presentation/geonovum-2021-api-strategie/OGC-API-Features.pdf).
+
+* **_"FOSS4G-NL 2021 - Closing Words" - FOSS4G-NL 2021 - Oktober 20, 2021 - Enschede_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2021/foss4gnl-2021-slot-just.pdf).
+
+* **_"Zo gemakkelijk kun je geo-webdiensten uitrollen!" - FOSS4G-NL 2021 - Oktober 20, 2021 - Enschede_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2021/foss4gnl-deploy-2021-just.pdf).
+
+* **_"GeoHealthCheck - A Quality of Service Monitor for Geospatial Web Services" - [FOSS4G 2021](https://2021.foss4g.org/) - September 30, 2021_** - [\[HTML Slides\]](https://geohealthcheck.org/presentation/) - [\[Abstract\]](https://callforpapers.2021.foss4g.org/foss4g2021/talk/9NBETK/) - [\[Video recording on YouTube\]](https://www.youtube.com/watch?v=t7Y8FuaE-_M). 
+
+* **_"Doing Geospatial in Python" - [FOSS4G 2021](https://2021.foss4g.org/) - September 28, 2021_** - Workshop (4h): introduction to performing common GIS/geospatial tasks using Python geospatial tools such as OWSLib, Shapely, Fiona/Rasterio, and common geospatial libraries like GDAL, PROJ, pycsw, as well as other tools from the geopython toolchain. -  [\[HTML Startpage\]](https://geopython.github.io/geopython-workshop/) - [\[Abstract\]](https://callforpapers.2021.foss4g.org/foss4g-2021-workshop/talk/7N3G3N/).
+
+* **_"Geonovum OGC API Testbed" - Open Geodag 2021 - September 14, 2021_** - [\[PDF Slides\]][48] - [\[Video Recording\]](https://youtu.be/apVe6dA5rqs?t=386).
+
+* **_"Geonovum OGC API Testbed" - DiS Online: OGC en toegankelijke APIs - September 7, 2021_** - [\[Event en PDF Slides\]](https://www.geobasisregistraties.nl/basisregistraties/documenten/publicatie/2021/09/07/dis-online-ogc-en-toegankelijke-apis).
+
+* **_"Read BAG (Dutch Buildings & Addresses dataset) with Docker in 5 minutes" - 2021-04-08 - De Grote Geo Show, a live-streaming webshow by OSGeo.nl. Ep. 16 "GIS met je Toetsenbord". Aired on april 8, 2021. [Video recording on YouTube](https://youtu.be/iOiliIAorD4?t=3542)._**
+
+* **_"OSGeo.nl New Year's Party - Slides OSGeo.nl" - 2021-01-24 - Presentation I gave on behalf of OSGeo.nl on the online joint QGIS-NL, OpenStreetMap-NL and OSGeo.nl New Year's party on January 24, 2021._**- [\[Slideshare\]](https://www.slideshare.net/justb4/osgeonl-new-years-party-slides-osgeonl)
+
+
+### Resolutions 2022
+
+* Customer portal for map5.nl 
+* Get back into Kubernetes 
+* Move further into GitOps in general
+* More effort into [Wegue][17] project
+* Revive old GeoTracing projects  like [georambling.com][77]
+* More favourite things
+* Whatever comes around.
+
+ [1]: https://osgeo.nl/
+ [2]: https://www.osgeo.org/
+ [3]: https://tv.osgeo.nl
+ [4]: https://www.youtube.com/playlist?list=PLJMEnRQpAfZqCkhGh3lb3KUnXssK7Sk6C
+ [5]: https://www.map5.nl/
+ [6]: https://geoqos.com/
+ [7]: https://geohealthcheck.org/
+ [8]: https://geotoko.nl
+ [9]: https://map.naturpark-lueneburger-heide.de/
+ [10]: https://github.com/justb4/
+ [11]: https://www.stetl.org/
+ [12]: https://geohealthcheck.org
+ [13]: https://pygeoapi.io/
+ [14]: https://demo.pygeoapi.io/
+ [15]: https://github.com/geopython/demo.pygeoapi.io
+ [16]: https://nlextract.nl/
+ [17]: https://github.com/meggsimum/wegue
+ [18]: https://vuejs.org/
+ [19]: https://github.com/chrismayer
+ [20]: https://heron-mc.org/
+ [21]: https://www.geoext.org/
+ [22]: https://wegue.heron-mc.org/
+ [23]: https://mapproxy.org
+ [24]: https://hub.docker.com/u/justb4
+ [25]: https://github.com/justb4/docker-awstats
+ [26]: https://docs.traefik.io/
+ [27]: https://github.com/justb4/docker-jmeter
+ [28]: https://jmeter.apache.org/
+ [29]: https://github.com/justb4/docker-mapfish-print
+ [30]: https://github.com/justb4/docker-mapfish-print2
+ [31]: https://kadviewer.map5.nl/
+ [32]: https://github.com/justb4/docker-rclone
+ [33]: https://github.com/justb4/docker-pgbackup
+ [34]: https://osgeo.nl
+ [35]: https://vuejs.amsterdam/
+ [36]: http://2020.geopython.net/
+ [37]: https://www.slideshare.net/justb4/
+ [38]: https://obsproject.com/
+ [39]: https://www.learnwithjason.dev/
+ [40]: https://streamyard.com
+ [41]: https://gohugo.io/
+ [42]: https://www.youtube.com/channel/UCvSAN6ur4RoGUqxtvmgsb8g
+ [43]: https://www.youtube.com/watch?v=UViczA8pvJs
+ [44]: https://www.youtube.com/watch?v=8qSTPE8Gkoc
+ [45]: https://www.youtube.com/watch?v=zXIfCLbuVlI
+ [46]: https://www.youtube.com/watch?v=3l_a5Up8Rgc
+ [47]: https://www.youtube.com/watch?v=lkfVQcp3bpI
+ [48]: https://www.youtube.com/watch?v=rl4-tPbfxOE
+ [49]: https://www.youtube.com/watch?v=HTgdEN3nb24
+ [50]: https://www.ansible.com/
+ [51]: https://pdok.nl
+ [52]: https://github.com/nlextract/NLExtract
+ [53]: https://ckan.org
+ [54]: https://geocatalogus.nl
+ [55]: https://www.geolicious.de/
+ [56]: https://github.com/stevage
+ [57]: https://www.opengeospatial.org/blog/2996
+ [58]: https://demo.pygeoapi.io/covid-19
+ [59]: https://access.crunchydata.com/documentation/pg_tileserv/latest/
+ [60]: https://github.com/CrunchyData/pg_tileserv/blob/master/Dockerfile.alpine
+ [61]: https://github.com/CrunchyData/pg_tileserv/tree/master/examples/docker
+ [62]: https://github.com/search?q=user%3Ajustb4+docker-
+ [63]: http://rclone.org/
+ [64]: https://healthchecks.io/
+ [65]: https://github.com/justb4/docker-mapserver
+ [66]: https://github.com/justb4/docker-mapproxy
+ [67]: https://yagajs.org/
+ [68]: https://github.com/yagajs/docker-mapproxy/pull/18
+ [69]: https://github.com/justb4/docker-mapproxy-mapserver
+ [70]: https://github.com/justb4/docker-cron
+ [71]: https://geoforum.nl/t/osgeo-nl-en-openstreetmap-nl-nieuwjaarsborrel-zo-13-jan-2019-hilversum/2170
+ [72]: https://info.crunchydata.com/en/postgis-day-2020-crunchy-data
+ [73]: http://2020.geopython.net/schedule.html
+ [74]: https://pygeoapi.io/presentations/default/#/frontpage
+ [75]: https://summit.geonode.org/schedule/#session-106
+ [76]: https://www.rivm.nl/en
+ [77]: http://georambling.com
+ [78]: http://www.home-assistant.io/
