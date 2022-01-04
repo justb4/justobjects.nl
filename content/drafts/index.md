@@ -148,7 +148,7 @@ In 2021 we did six shows, each a Special:
 * Episode 18: [Cartography Special](https://tv.osgeo.nl/episode/episode-0018/)
 * Episode 19: [Ten Years of OSGeo.nl - Story in Pictures](https://tv.osgeo.nl/episode/episode-0019/)
 
-{{< a-img data-href="tv.osgeo.nl" data-src="/uploads/2022/dggs/gis-keyboard.jpg" data-caption="Episode 16 - GIS with your Keyboard  >}}
+{{< a-img data-href="tv.osgeo.nl" data-src="/uploads/2022/dggs/gis-keyboard.jpg" data-caption="Episode 16 - GIS with your Keyboard"  >}}
 
 With a real instant-music-composer-performer, [Luciën Greefkes](https://www.muziektaal.nl/) 
 in our team, we together made a [new DGGS leader video](https://www.youtube.com/watch?v=ZrfrcpWR29s).
