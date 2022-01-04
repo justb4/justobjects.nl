@@ -137,6 +137,8 @@ Thanks to all who made this event a success!
 This was already my 2020 highlight. You can watch back all shows via **[tv.osgeo.nl][3]** or directly on 
 the **[OSGeo.nl YouTube Channel][42]**. Hell, you can even **[binge-watch all episodes][4]**! 
 
+{{< a-img data-href="tv.osgeo.nl" data-src="/uploads/2022/dggs/osm.jpg" data-caption="Episode 15 - OpenStreetMap Special with Ilya Zverev" >}}
+
 In 2021 we did six shows, each a Special:
 
 * Episode 14: [Newyear with QGIS-NL and OpenStreetMap-NL communities](https://tv.osgeo.nl/episode/episode-0014/). 
@@ -146,7 +148,7 @@ In 2021 we did six shows, each a Special:
 * Episode 18: [Cartography Special](https://tv.osgeo.nl/episode/episode-0018/)
 * Episode 19: [Ten Years of OSGeo.nl - Story in Pictures](https://tv.osgeo.nl/episode/episode-0019/)
 
-{{< a-img data-href="tv.osgeo.nl" data-src="/uploads/2022/dggs/gis-keyboard.jpg" >}}
+{{< a-img data-href="tv.osgeo.nl" data-src="/uploads/2022/dggs/gis-keyboard.jpg" data-caption="Episode 16 - GIS with your Keyboard  >}}
 
 With a real instant-music-composer-performer, [Luciën Greefkes](https://www.muziektaal.nl/) 
 in our team, we together made a [new DGGS leader video](https://www.youtube.com/watch?v=ZrfrcpWR29s).
