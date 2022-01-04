@@ -2,6 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://justobjects.nl/adios-2021/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/foss/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/foss4g/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/general/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/geofabriek/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/geohealthcheck/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/geoqos/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/geospatial/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/geotoko.nl/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/gis/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/grotegeoshow/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/map5.nl/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/nlextract/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/osgeo/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/osgeo/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/osgeo.nl/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/posts/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/projects/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/python/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/qgis/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/rtmp/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/software/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/streaming/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/streamyard/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/</loc>
+    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
+  </url><url>
     <loc>https://justobjects.nl/drafts/</loc>
     <lastmod>2022-01-04T12:49:12+00:00</lastmod>
   </url><url>
@@ -17,52 +95,13 @@
     <loc>https://justobjects.nl/tags/ansible/</loc>
     <lastmod>2021-09-13T13:24:25+00:00</lastmod>
   </url><url>
-    <loc>https://justobjects.nl/categories/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
     <loc>https://justobjects.nl/tags/devops/</loc>
     <lastmod>2021-09-13T13:24:25+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/tags/docker/</loc>
     <lastmod>2021-09-13T13:24:25+00:00</lastmod>
   </url><url>
-    <loc>https://justobjects.nl/tags/foss/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/categories/general/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/geospatial/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/gis/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
     <loc>https://justobjects.nl/tags/gitops/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/osgeo/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/categories/osgeo/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/posts/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/categories/projects/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/python/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/qgis/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/categories/software/</loc>
-    <lastmod>2021-09-13T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/</loc>
     <lastmod>2021-09-13T13:24:25+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/tags/terraform/</loc>
@@ -94,42 +133,6 @@
   </url><url>
     <loc>https://justobjects.nl/front/</loc>
     <lastmod>2021-01-28T12:49:12+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/foss4g/</loc>
-    <lastmod>2021-01-20T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/geofabriek/</loc>
-    <lastmod>2021-01-20T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/geohealthcheck/</loc>
-    <lastmod>2021-01-20T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/geoqos/</loc>
-    <lastmod>2021-01-20T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/geotoko.nl/</loc>
-    <lastmod>2021-01-20T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/grotegeoshow/</loc>
-    <lastmod>2021-01-20T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/map5.nl/</loc>
-    <lastmod>2021-01-20T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/nlextract/</loc>
-    <lastmod>2021-01-20T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/osgeo.nl/</loc>
-    <lastmod>2021-01-20T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/rtmp/</loc>
-    <lastmod>2021-01-20T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/streaming/</loc>
-    <lastmod>2021-01-20T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/streamyard/</loc>
-    <lastmod>2021-01-20T13:24:25+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/that-was-2020/</loc>
     <lastmod>2021-01-20T13:24:25+00:00</lastmod>

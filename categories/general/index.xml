@@ -7,7 +7,529 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 13 Sep 2021 13:24:25 +0000</lastBuildDate><atom:link href="https://justobjects.nl/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 13:24:25 +0000</lastBuildDate><atom:link href="https://justobjects.nl/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adiós 2021</title>
+      <link>https://justobjects.nl/adios-2021/</link>
+      <pubDate>Tue, 04 Jan 2022 13:24:25 +0000</pubDate>
+      
+      <guid>https://justobjects.nl/adios-2021/</guid>
+      <description>
+        
+          &lt;p&gt;Overview of my professional life in 2021. Highlights of living and working in the Open Source Geospatial and OSGeo(&lt;a href=&#34;https://osgeo.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;.nl&lt;/a&gt;
+|.&lt;a href=&#34;https://www.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;org&lt;/a&gt;
+)-world in 2021.
+Organized by &amp;quot;Theme&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Like 2020, 2021 was again a &amp;quot;special year&amp;quot; in pandemic terms. How to cope?
+Like Paul Ramsey writes: &lt;a href=&#34;http://blog.cleverelephant.ca/2022/01/things.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;I feel like sharing some of my favourite things&lt;/a&gt;
+.
+Will do in a later post: &lt;a href=&#34;https://waarneming.nl/users/146535/observations/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Bird-watching&lt;/a&gt;
+, &lt;a href=&#34;https://www.weylintracking.nl/workshop-wolvensporen/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wolf-tracking workshop&lt;/a&gt;
+, &#39;catching&#39; big game on new wildcam, developed outdoor GPS-game (Veluwe Big Five), some progress on guitar-playing,
+discovering The Netherlands outback, becoming
+a &lt;a href=&#34;https://www.billystrings.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Billy Strings&lt;/a&gt;
+ fan. These are a few of my favourite things, so more later....&lt;/p&gt;
+&lt;p&gt;TL;DR Main three 2021 highlights:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Organizing and attending an in-real-life &lt;a href=&#34;https://foss4g.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G-NL&lt;/a&gt;
+ with OSGeo.nl&lt;/li&gt;
+&lt;li&gt;Attending, presenting, moderating, online &lt;a href=&#34;https://2021.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G Buenos Aires&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Deep-diving into &lt;a href=&#34;https://www.redhat.com/en/topics/devops/what-is-gitop&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitOps&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Below follow 2021-highlights organized by theme and/or project.&lt;/p&gt;
+&lt;h2 id=&#34;1-fun-home-automation-projects&#34;&gt;1. Fun Home Automation Projects&lt;/h2&gt;
+&lt;p&gt;Some of my 2022 fun resolutions resolved in 2021:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installed an &lt;a href=&#34;https://www.froggit.de/product_info.php?language=en&amp;amp;info=p436_hp1000se-pro-wi-fi-internet-wireless-weather-station.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;HP1000SE PRO Wi-Fi Internet Wireless Weather Station&lt;/a&gt;
+. Using &lt;a href=&#34;https://github.com/justb4/weatherstation&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;weewx on Raspberry Pi&lt;/a&gt;
+. Publishing a.o. to &lt;a href=&#34;https://www.wunderground.com/dashboard/pws/IGELDERL153&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Weather Underground&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Wildcam&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/wildcam.jpg&#34;
+      alt=&#34;Some mammals on the Wildcam&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;More on these later.&lt;/p&gt;
+&lt;h2 id=&#34;2-new-website&#34;&gt;2. New Website&lt;/h2&gt;
+&lt;p&gt;For years my website/blog &lt;a href=&#34;https://justobjects.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;justobjects.nl&lt;/a&gt;
+ ran on Wordpress at the famous, and first (est. 1993),
+Dutch internet/hosting provider &lt;a href=&#34;https://en.wikipedia.org/wiki/XS4ALL&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;XS4ALL&lt;/a&gt;
+. XS4ALL was sold to KPN (1998), remained an independent brand,
+but was finally dismantled in 2021.&lt;/p&gt;
+&lt;p&gt;So in early 2021 a new hosting provider was needed.
+This was also a good moment to migrate my website to &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hugo&lt;/a&gt;
+.
+With the great effort by &lt;a href=&#34;https://github.com/peter-govind&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;@peter-govind&lt;/a&gt;
+ (via &lt;a href=&#34;https://freelance.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;freelance.com&lt;/a&gt;
+), we converted the complete site (about 20 years of blogs)
+to &lt;a href=&#34;https://github.com/justb4/justobjects.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Hugo&amp;#43;Github&lt;/a&gt;
+, using GitHub Workflows to &amp;quot;deploy-on-commit&amp;quot;. My first piece of GitOps, more to follow, in 2021.
+Though there are still some fixes to do, very happy with the result. Maintaining is now a breeze.&lt;/p&gt;
+&lt;h2 id=&#34;3-gitops&#34;&gt;3. GitOps&lt;/h2&gt;
+&lt;p&gt;Gradually &lt;a href=&#34;https://www.weave.works/technologies/gitops/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitOps&lt;/a&gt;
+ became my main theme in 2021.
+Discovered that there was actually a name (GitOps) for CI/CD practices I (you) have been doing over the past years.
+For example, in 2019 I worked on the &lt;a href=&#34;https://github.com/geopython/demo.pygeoapi.io&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi demo server&lt;/a&gt;
+. GitOps can always be taken further
+until reaching the phase: &amp;quot;look ma, no hands!&amp;quot;. No more &amp;quot;Box Hugging&amp;quot;, i.e. no more SSH-ing, manual actions on VMs etc.&lt;/p&gt;
+&lt;p&gt;So what is GitOps? Many definitions are available. Often &lt;a href=&#34;https://www.manning.com/books/gitops-and-kubernetes&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;tied to Kubernetes&lt;/a&gt;
+ (K8s), but GitOps is broader than K8s.
+The most concise I found at &lt;a href=&#34;https://www.redhat.com/en/topics/devops/what-is-gitops&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;RedHat&lt;/a&gt;
+:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;quot;GitOps is a set of practices to manage infrastructure and application configurations using Git, an open source version control system. GitOps works by using Git as a single source of truth for declarative infrastructure and applications.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I often quote here: &lt;strong&gt;&amp;quot;The Truth is in Git!&amp;quot;&lt;/strong&gt;. Especially now in times of fake-news, I love speaking those words in presentations.
+The quest of humanity is over: We Found The Truth, It Is In Git :-).
+Pun aside, it takes effort to have 100% of your deployment sources and configs in Git. In particular all required credentials
+(passwords, keys etc). Think of storing credentials in a public GitHub repo, how? Did some amazing discoveries in that area like
+(combining) GitHub Secrets and &lt;a href=&#34;https://docs.ansible.com/ansible/latest/cli/ansible-vault.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Ansible Vault&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;I was very lucky that my main three contracts in 2021 involved GitOps. One project sort of followed the other.&lt;/p&gt;
+&lt;h3 id=&#34;geonovum&#34;&gt;Geonovum&lt;/h3&gt;
+&lt;p&gt;It all began in June at &lt;a href=&#34;https://www.geonovum.nl/themas/testbed-ogc-apis&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum&lt;/a&gt;
+ who started an OGC API Testbed as part of
+their ongoing &lt;a href=&#34;https://www.geonovum.nl/themas/kennisplatform-apis&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch API Strategy&lt;/a&gt;
+ theme.&lt;/p&gt;
+&lt;p&gt;Together with &lt;a href=&#34;https://geocat.net&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoCat&lt;/a&gt;
+ &lt;a href=&#34;https://www.linkedin.com/in/paulvangenuchten/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Paul van Genuchten&lt;/a&gt;
+, developed a full-stack deployment for several &lt;a href=&#34;https://ogcapi.ogc.org/features/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC API Features&lt;/a&gt;
+ implementations.
+The picture below depicts the stack elements:&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://apitestdocs.geonovum.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/gitops/services-stack.png&#34;
+      alt=&#34;GitOps Deployment - Operational Stack&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;The challenge was to provide a testbed environment where third parties could further extend and experiment.
+Eventually we developed a deployment fully based on &lt;a href=&#34;https://github.com/Geonovum/ogc-api-testbed&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitOps within GitHub&lt;/a&gt;
+ as a GitHub Template repo.
+You can read details in the &lt;a href=&#34;https://apitestdocs.geonovum.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;documentation&lt;/a&gt;
+.
+The picture below depicts the GitOps workflow:&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://apitestdocs.geonovum.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/gitops/schema.png&#34;
+      alt=&#34;GitOps Workflow&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;These results were presented at several occasions in 2021. See the Presentations below.&lt;/p&gt;
+&lt;h3 id=&#34;geocat&#34;&gt;Geocat&lt;/h3&gt;
+&lt;p&gt;For GeoCat (again with Paul van Genuchten), exploring and setting out how to further migrate to full GitOps
+for the &lt;a href=&#34;https://www.geocat.net/live/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoCat Live&lt;/a&gt;
+ environment.&lt;/p&gt;
+&lt;h3 id=&#34;european-commission---joint-research-center&#34;&gt;European Commission - Joint Research Center&lt;/h3&gt;
+&lt;p&gt;Was already working on a contract with &lt;a href=&#34;https://ec.europa.eu/info/departments/joint-research-centre_en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EC-JRC&lt;/a&gt;
+
+for pan-EU data sharing as a member of the &amp;quot;EU JRC ELISE Pool of Experts&amp;quot;.
+An honour to be (still) working with all these great minds from the international geospatial world!&lt;/p&gt;
+&lt;p&gt;My focus within the team was/is on data services deployment. My pitch and first deliverable, was called
+&lt;em&gt;&amp;quot;The Power of Orchestrated Containerisation for Data Services&amp;quot;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The full outcome of the project will be published (publicly) as a JRC Technical Report (JRC127730?) titled:
+&lt;em&gt;&amp;quot;Emerging approaches for data-driven innovation in Europe&amp;quot;&lt;/em&gt;. For this report, wrote the
+chapter &lt;em&gt;&amp;quot;Deployment of an OGC API Features web service using GitOps&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Apart from reporting in text, also provided a full-stack OGC API Features service based on &lt;a href=&#34;https://pygeoapi.io&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+.
+Using the &lt;a href=&#34;https://github.com/Geonovum/ogc-api-testbed&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geonovum OGC API GitHub Template&lt;/a&gt;
+
+on a fresh Ubuntu VM provided by JRC, this was a great Proof-of-Concept: took just 2 hours to
+get the complete stack, including stuff like SSL-certificates, &lt;a href=&#34;https://traefik.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Traefik&lt;/a&gt;
+ proxy (love Traefik!), OS-hardening etc, &lt;a href=&#34;https://jrc.map5.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;up and running&lt;/a&gt;
+.
+For now the GitHub repo is at &lt;a href=&#34;https://github.com/justb4/ogc-api-jrc/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;github.com/justb4/ogc-api-jrc/&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://apitestdocs.geonovum.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/gitops/pygeoapi-jrc.png&#34;
+      alt=&#34;pygeoapi for EC JRC&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;h2 id=&#34;4-osgeonl&#34;&gt;4. OSGeo.nl&lt;/h2&gt;
+&lt;h3 id=&#34;foss4g-nl-2021---irl&#34;&gt;FOSS4G-NL 2021 - IRL&lt;/h3&gt;
+&lt;p&gt;Yes, it happened! Inbetween COVID-Waves a LOC lead by the great &lt;a href=&#34;https://www.linkedin.com/in/erikmeerburg/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Erik Meerburg&lt;/a&gt;
+ achieved to organize
+an in-real-life (IRL) &lt;a href=&#34;https://foss4g.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;4th OSGeo.nl FOSS4G-NL conference&lt;/a&gt;
+.
+Abiding with COVID-regulations at the time. At ITC Enschede on October 19-20 2021. Using 2G access.
+Zero COVID-cases after.&lt;/p&gt;
+&lt;p&gt;One day of Workshops followed by a one-day conference with great international keynotes
+by &lt;a href=&#34;https://www.linkedin.com/in/amelieagagnon/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Amelie A Gagnon from UNESCO-IIEP&lt;/a&gt;
+ and
+&lt;a href=&#34;https://www.linkedin.com/in/kurtmenke&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Kurt Menke from Septima DK&lt;/a&gt;
+, plus three parallel sessions.
+We are still preparing the website to publish all presentations.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://foss4g.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/foss4gnl/group-photo.jpg&#34;
+      alt=&#34;Group Photo FOSS4G 2021&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Looks unreal this group photo, but this was in 2021!
+Thanks to all who made this event a success!&lt;/p&gt;
+&lt;h3 id=&#34;the-big-geo-show&#34;&gt;The Big Geo Show&lt;/h3&gt;
+&lt;p&gt;This was already my 2020 highlight. You can watch back all shows via &lt;strong&gt;&lt;a href=&#34;https://tv.osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;tv.osgeo.nl&lt;/a&gt;
+&lt;/strong&gt; or directly on
+the &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCvSAN6ur4RoGUqxtvmgsb8g&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl YouTube Channel&lt;/a&gt;
+&lt;/strong&gt;. Hell, you can even &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLJMEnRQpAfZqCkhGh3lb3KUnXssK7Sk6C&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;binge-watch all episodes&lt;/a&gt;
+&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://youtu.be/nhlIqMyBIig&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/dggs/osm.jpg&#34;
+      alt=&#34;Episode 15 - OpenStreetMap Special with Ilya Zverev&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;In 2021 we did six shows, each a Special:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Episode 14: &lt;a href=&#34;https://tv.osgeo.nl/episode/episode-0014/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Newyear with QGIS-NL and OpenStreetMap-NL communities&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Episode 15: &lt;a href=&#34;https://tv.osgeo.nl/episode/episode-0015/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenStreetMap Special&lt;/a&gt;
+. Special guest: Ilya Zverev a.k.a. &lt;a href=&#34;https://wiki.openstreetmap.org/wiki/User:Zverik&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Zverik&lt;/a&gt;
+!&lt;/li&gt;
+&lt;li&gt;Episode 16: &lt;a href=&#34;https://tv.osgeo.nl/episode/episode-0016/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GIS with your Keyboard&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Episode 17: &lt;a href=&#34;https://tv.osgeo.nl/episode/episode-0017/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;On Geospatial Databases&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Episode 18: &lt;a href=&#34;https://tv.osgeo.nl/episode/episode-0018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cartography Special&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Episode 19: &lt;a href=&#34;https://tv.osgeo.nl/episode/episode-0019/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Ten Years of OSGeo.nl - Story in Pictures&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://tv.osgeo.nl/episode/episode-0016/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/dggs/gis-keyboard.jpg&#34;
+      alt=&#34;Episode 16 - GIS with your Keyboard&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;With a real instant-music-composer-performer, &lt;a href=&#34;https://www.muziektaal.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Luciën Greefkes&lt;/a&gt;
+
+in our team, we together made a &lt;a href=&#34;https://www.youtube.com/watch?v=ZrfrcpWR29s&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;new DGGS leader video&lt;/a&gt;
+.&lt;/p&gt;
+&lt;h3 id=&#34;osgeonl---ten-year-anniversary&#34;&gt;OSGeo.nl - Ten Year Anniversary&lt;/h3&gt;
+&lt;p&gt;OSGeo.nl was established on Dec 2, 2011. So 10 years, still going strong!
+On dec 2, 2021 we were in a new wave, so a small online event. Below the epic picture (by Arnulf Christl)
+taken at the GIN Congres Utrecht 2011 where we got together to start OSGeo.nl.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://osgeo.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/osgeonl-founding.jpg&#34;
+      alt=&#34;OSGeo.nl Founding Mothers and Fathers - 2011&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;A special episode of the Big Geo Show presents: &lt;a href=&#34;https://youtu.be/yMAxQEg0fSw&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Ten Years of OSGeo.nl - Story in Pictures&lt;/a&gt;
+.&lt;/p&gt;
+&lt;h2 id=&#34;5-geospatial-cloud-services&#34;&gt;5. Geospatial Cloud Services&lt;/h2&gt;
+&lt;p&gt;Moved into providing Geospatial Cloud Services last few years,
+both as a source of income and to support/strengthen underlying open source
+projects with which they are developed. Warning: shameless ads below. All below was ongoing in 2021.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.map5.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5.nl&lt;/a&gt;
+&lt;/strong&gt; is a subscription service for Dutch topographic, historical- and embellished hill-shade and arial maps I started to host in 2015. In 2021 work started for a map5.nl user portal.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://www.map5.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/map5.nl_.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://geoqos.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoQoS.com&lt;/a&gt;
+&lt;/strong&gt; is a hosted &lt;strong&gt;&lt;a href=&#34;https://geohealthcheck.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+&lt;/strong&gt; (GHC) service on a subscription basis. GHC is an uptime and QoS monitor for (OGC) web services. Customers get their own GHC instance. &lt;strong&gt;&lt;a href=&#34;https://geoqos.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoQoS.com&lt;/a&gt;
+&lt;/strong&gt; saves the burden of self-hosting GHC. In 2021 started work on a GHC API, using &lt;a href=&#34;https://fastapi.tiangolo.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FastAPI&lt;/a&gt;
+, and a new GHC-UI.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://geoqos.com/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2020/01/geoqos.com_.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://geotoko.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;geotoko.nl&lt;/a&gt;
+&lt;/strong&gt;, in short GeoToko, is basically a webshop to download Dutch open geo-datasets. One may ask: Dutch geospatial data like Topography, Addresses and Buildings, is already open and publicly available, mainly via &lt;strong&gt;&lt;a href=&#34;https://pdok.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Kadaster-PDOK&lt;/a&gt;
+&lt;/strong&gt;. So why bother reselling? Explanation follows.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://geotoko.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/opentopo-keyreg.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Most Dutch Open geospatial datasets, available from governmental institutions like Kadaster, are provided in a neutral exchange-format. In practice: GML (Application Schema). Most users are not able to directly digest complex GML in their applications (or don&#39;t want to spend time on that). For over 10 years we run the Open Source project &lt;strong&gt;&lt;a href=&#34;https://github.com/nlextract/NLExtract&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLExtract&lt;/a&gt;
+&lt;/strong&gt; to convert these datasets into formats like PostGIS and CSV that can be directly used in applications. NLExtract itself builds on &lt;strong&gt;&lt;a href=&#34;https://www.stetl.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl&lt;/a&gt;
+&lt;/strong&gt;, an Open Source geospatial ETL-library in Python. NLExtract/Stetl is used a lot, but still will require users to install/maintain an NLExtract/Stetl installation, download datasets, run the ETL, check results etc. That may also be a bridge too far, if e.g. all a customer needs is a one-time CSV of say, all 10 million addresses in The Netherlands. So GeoToko taps into this niche, providing ready-to-use, often enriched Dutch datasets. Pricing is reasonable, compared to other providers, plus organizations and individuals may get highly reduced pricing when they work on Open data applications like OpenStreetMap.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://geotoko.nl/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/bigpicture.png&#34;
+      alt=&#34;&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;As for development: the &lt;strong&gt;&lt;a href=&#34;https://geotoko.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoToko webshop&lt;/a&gt;
+&lt;/strong&gt; was developed with Django, Flask/nginx (Download management), Stripe (backend payments) and &lt;strong&gt;&lt;a href=&#34;https://ckan.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CKAN&lt;/a&gt;
+&lt;/strong&gt;. The latter to provide a product-catalogue, sample data and metadata in general, all via &lt;strong&gt;&lt;a href=&#34;https://geocatalogus.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoCatalogus.nl&lt;/a&gt;
+&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://geotoko.nl&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2021/01/geofabriek-keten.png&#34;
+      alt=&#34;GeoFabriek - Production Chain&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Further development concerned automating the NLExtract/Stetl ETL-processes.
+For this a framework called GeoFabriek, &amp;quot;GeoFactory&amp;quot;, was developed. This automates the entire chain from checking new dataset versions at Kadaster, through downloading, conversions, packing for download and updating the metadata (in GeoCatalogus.nl).&lt;/p&gt;
+&lt;h2 id=&#34;6-open-source-contributions&#34;&gt;6. Open Source Contributions&lt;/h2&gt;
+&lt;p&gt;Continuous work as a contributor. Apart from some GitLab Projects, you can find/follow me best on &lt;a href=&#34;https://github.com/justb4/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GitHub&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2022/github-contribs-2021.png&#34; alt=&#34;GitHub contributions&#34;&gt;&lt;/p&gt;
+&lt;p&gt;New in 2021:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/fastapi-users-starter&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FastAPI-Users starter Template repo&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nlextract.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLExtract&lt;/a&gt;
+ - added ETL for BAG version 2, my first PRs for GDAL!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ongoing in 2021:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.stetl.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Stetl&lt;/a&gt;
+ - Geospatial ETL in Python, maintaining since 2011.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://geohealthcheck.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoHealthCheck&lt;/a&gt;
+ - Service Status and QoS Checker for OGC Web Services.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi&lt;/a&gt;
+ - a Python server implementation of the &lt;a href=&#34;https://www.opengeospatial.org/blog/2996&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC API suite of standards&lt;/a&gt;
+ - joined this great project in 2019. Also in PSC.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://demo.pygeoapi.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;pygeoapi demo server&lt;/a&gt;
+ - provided the (auto-)deployment stack for the pygeoapi demo server (&lt;a href=&#34;https://github.com/geopython/demo.pygeoapi.io&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;code at GitHub&lt;/a&gt;
+). Added &lt;a href=&#34;https://demo.pygeoapi.io/covid-19&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;COVID-19 NL data provider&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nlextract.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;NLExtract&lt;/a&gt;
+ - ETL for Dutch geospatial datasets.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/meggsimum/wegue&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wegue&lt;/a&gt;
+ - geo-webclient framework based on &lt;a href=&#34;https://vuejs.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Vue.js&lt;/a&gt;
+ with OpenLayers started by &lt;a href=&#34;https://github.com/chrismayer&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Christian Mayer&lt;/a&gt;
+. Joined this great project in 2019. Unfortunately hardly contribs in 2021.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron MC&lt;/a&gt;
+ - Web Mapping Client based on &lt;a href=&#34;https://www.geoext.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GeoExt&lt;/a&gt;
+ and OpenLayers. Yes, old tech but still in wide use. In time hope to migrate to &lt;a href=&#34;https://github.com/meggsimum/wegue&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wegue&lt;/a&gt;
+ (see above). Migrating Heron to Wegue, see first example below.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;more-contributions---handy-docker-images&#34;&gt;More Contributions - Handy Docker Images&lt;/h3&gt;
+&lt;p&gt;To support many of the Cloud services and Open Source projects, I develop and maintain &lt;a href=&#34;https://github.com/search?q=user%3Ajustb4&amp;#43;docker-&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;handy Docker Images&lt;/a&gt;
+, also available from &lt;a href=&#34;https://hub.docker.com/u/justb4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my DockerHub&lt;/a&gt;
+.
+Ongoing in 2021. In the progress of moving all to Github Workflows build/push, replacing DockerHub Autobuild (still awaiting DockerHub Open Source waiver...):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-awstats&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-awstats&lt;/a&gt;
+ - AWStats in Docker, oldie, but very effective webstats. Deploy multiple instances in single Docker container. Highly configurable, e.g. also for &lt;a href=&#34;https://docs.traefik.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Traefik&lt;/a&gt;
+ access logs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-jmeter&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-jmeter&lt;/a&gt;
+ - &lt;a href=&#34;https://jmeter.apache.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Apache JMeter&lt;/a&gt;
+ wrapped in Docker. Over 10 million pulls at end of 2021. And 180 stars, but still &lt;a href=&#34;https://www.paypal.com/donate/?cmd=_s-xclick&amp;amp;hosted_button_id=3QZW9SNGCWBM4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;zero donations&lt;/a&gt;
+! C&#39;mon people, not even using JMeter myself...&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapfish-print&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapfish-print&lt;/a&gt;
+ - for MapFish Print &lt;strong&gt;version 3&lt;/strong&gt;. MapFish Print allows printing maps as PDFs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapfish-print2&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapfish-print2&lt;/a&gt;
+ - for MapFish Print &lt;strong&gt;version 2&lt;/strong&gt; - This version is still used in quite some contexts, at least for &lt;a href=&#34;https://heron-mc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Heron&lt;/a&gt;
+ and &lt;a href=&#34;https://kadviewer.map5.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KadViewer&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-rclone&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-rclone&lt;/a&gt;
+ - Docker image to perform a &lt;a href=&#34;http://rclone.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;rclone&lt;/a&gt;
+ sync based on a cron schedule, with &lt;a href=&#34;https://healthchecks.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;healthchecks.io&lt;/a&gt;
+ monitoring.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-pgbackup&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-pgbackup&lt;/a&gt;
+ - automated/scheduled PostgreSQL/PostGIS backups for all PostgreSQL-based Docker Containers in its Docker-network. I think it is nifty: just run and forget: your Postgres backups are taken care of. Inspired by: &lt;a href=&#34;https://github.com/kartoza/docker-pg-backup&#34;&gt;https://github.com/kartoza/docker-pg-backup&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapserver&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapserver&lt;/a&gt;
+ - Slim Docker Image for MapServer with Lighttpd FastCGI.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapproxy&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapproxy&lt;/a&gt;
+ - MapProxy Docker Image adapted, slimmed, from the &lt;a href=&#34;https://yagajs.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;YAGA Development-Team&lt;/a&gt;
+. &lt;a href=&#34;https://github.com/yagajs/docker-mapproxy/pull/18&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Awaiting PR merge&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-mapproxy-mapserver&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-mapproxy-mapserver&lt;/a&gt;
+ - Docker Image for MapProxy service with built-in MapServer binaries accessed directly (no MapServer service).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/justb4/docker-cron&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;docker-cron&lt;/a&gt;
+ - Runs Unix cron, includes docker (compose) client for running remote Docker Images.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;7-conferences---attended&#34;&gt;7. Conferences - Attended&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Feb 6-7 &lt;a href=&#34;https://archive.fosdem.org/2021/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSSDEM 2021&lt;/a&gt;
+ - Virtual&lt;/li&gt;
+&lt;li&gt;Sept 27- Oct 22 - &lt;a href=&#34;http://2020.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G Buenos Aires&lt;/a&gt;
+ - Virtual&lt;/li&gt;
+&lt;li&gt;Oct 19-20 - &lt;a href=&#34;https://info.crunchydata.com/en/postgis-day-2020-crunchy-data&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G-NL at ITC Enschede&lt;/a&gt;
+ - In Real Life&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://2020.geopython.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G Buenos Aires&lt;/a&gt;
+ needs special mention. As an online conference, apart from amazing content, I was very impressed with the
+technical and organizational setup. Even the social events were fun to join. Folks are tired of Zoom, Teams, etc but
+the FOSS4G LOC had introduced tools like &lt;a href=&#34;https://workadventu.re/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Work Adventure&lt;/a&gt;
+ and &lt;a href=&#34;https://streamyard.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;StreamYard&lt;/a&gt;
+ (also used by OSgeo.nl in Big Geo Show) to enable more &amp;quot;cozyness&amp;quot;.
+Offcourse nothing can replace a real event, but this came close. The Gala Dinner was really fun!&lt;/p&gt;
+&lt;p&gt;Jody Garnett words it very well in his Tweet:&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://mobile.twitter.com/jodygarnett/status/1444022337968295938&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/foss4g/thankyou.png&#34;
+      alt=&#34;Thank You!&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Never forget, always in our hearts: Malena Libman (1983-2021).
+FOSS4G 2021 was also a conference dedicated to, and in memory of, Malena Libman.
+She was a pillar of the FOSS4G community and a leading organizer of this conference.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://mappery.org/malena-libman/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/foss4g/malena.png&#34;
+      alt=&#34;Malena - Photo from mappery.org&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Malena was the right and truthful winner of the Sol Katz Award 2021.
+As the &lt;a href=&#34;https://www.osgeo.org/foundation-news/malena-libman-receives-the-2021-sol-katz-award/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.org website states&lt;/a&gt;
+:
+&lt;em&gt;&amp;quot;Malena Libman is the Sol Katz Award winner 2021. The prize was presented at the FOSS4G closing session and handed over to her friends &amp;amp; family who accepted the award on her behalf since we sadly lost Malena in April 2021 to COVID-19.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;8-talks--workshops---provided&#34;&gt;8. Talks &amp;amp; Workshops - Provided&lt;/h2&gt;
+&lt;p&gt;Below talks and workshops I provided in 2021. A complete list of &lt;a href=&#34;https://justobjects.nl/presentations/&#34;&gt;presentations&lt;/a&gt;
+ is available.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Ten Years of OSGeo.nl - A Story in Pictures&amp;quot; - De Grote Geo Show - Episode 19 (video) - December 2, 2021 - Online&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://www.youtube.com/watch?v=yMAxQEg0fSw&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Video recording on YouTube]&lt;/a&gt;
+ - &lt;a href=&#34;https://tv.osgeo.nl/episode/episode-0019/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Episode Info]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;OGC API Features&amp;quot; - Geonovum - Kennisplatform APIs - &lt;a href=&#34;https://www.geonovum.nl/over-geonovum/agenda/werkgroep-nederlandse-api-strategie-geo-extensie&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch API Strategy - Geo-extension WG&lt;/a&gt;
+ - November 24, 2021 - Online&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/geonovum-2021-api-strategie/OGC-API-Features.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides by OGC]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;FOSS4G-NL 2021 - Closing Words&amp;quot; - FOSS4G-NL 2021 - Oktober 20, 2021 - Enschede&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/foss4gnl-2021/foss4gnl-2021-slot-just.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Zo gemakkelijk kun je geo-webdiensten uitrollen!&amp;quot; - FOSS4G-NL 2021 - Oktober 20, 2021 - Enschede&lt;/em&gt;&lt;/strong&gt; - On GitOps for OSGeo Software -  &lt;a href=&#34;https://files.justobjects.nl/presentation/foss4gnl-2021/foss4gnl-deploy-2021-just.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;GeoHealthCheck - A Quality of Service Monitor for Geospatial Web Services&amp;quot; - &lt;a href=&#34;https://2021.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G 2021&lt;/a&gt;
+ - September 30, 2021&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://geohealthcheck.org/presentation/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[HTML Slides]&lt;/a&gt;
+ - &lt;a href=&#34;https://callforpapers.2021.foss4g.org/foss4g2021/talk/9NBETK/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Abstract]&lt;/a&gt;
+ - &lt;a href=&#34;https://www.youtube.com/watch?v=t7Y8FuaE-_M&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Video recording on YouTube]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Doing Geospatial in Python&amp;quot; - &lt;a href=&#34;https://2021.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G 2021&lt;/a&gt;
+ - September 28, 2021&lt;/em&gt;&lt;/strong&gt; - Workshop (4h): introduction to performing common GIS/geospatial tasks using Python geospatial tools such as OWSLib, Shapely, Fiona/Rasterio, and common geospatial libraries like GDAL, PROJ, pycsw, as well as other tools from the geopython toolchain. -  &lt;a href=&#34;https://geopython.github.io/geopython-workshop/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[HTML Startpage]&lt;/a&gt;
+ - &lt;a href=&#34;https://callforpapers.2021.foss4g.org/foss4g-2021-workshop/talk/7N3G3N/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Abstract]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Geonovum OGC API Testbed&amp;quot; - Open Geodag 2021 - September 14, 2021&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://www.youtube.com/watch?v=rl4-tPbfxOE&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+ - &lt;a href=&#34;https://youtu.be/apVe6dA5rqs?t=386&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Video Recording]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Geonovum OGC API Testbed&amp;quot; - DiS Online: OGC en toegankelijke APIs - September 7, 2021&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://www.geobasisregistraties.nl/basisregistraties/documenten/publicatie/2021/09/07/dis-online-ogc-en-toegankelijke-apis&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Event en PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Read BAG (Dutch Buildings &amp;amp; Addresses dataset) with Docker in 5 minutes&amp;quot; - 2021-04-08 - De Grote Geo Show, a live-streaming webshow by OSGeo.nl. Ep. 16 &amp;quot;GIS met je Toetsenbord&amp;quot;. Aired on april 8, 2021. &lt;a href=&#34;https://youtu.be/iOiliIAorD4?t=3542&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Video recording on YouTube&lt;/a&gt;
+.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;OSGeo.nl New Year&#39;s Party - Slides OSGeo.nl&amp;quot; - 2021-01-24 - Presentation I gave on behalf of OSGeo.nl on the online joint QGIS-NL, OpenStreetMap-NL and OSGeo.nl New Year&#39;s party on January 24, 2021.&lt;/em&gt;&lt;/strong&gt;- &lt;a href=&#34;https://www.slideshare.net/justb4/osgeonl-new-years-party-slides-osgeonl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Slideshare]&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://callforpapers.2021.foss4g.org/foss4g-2021-workshop/talk/7N3G3N/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/foss4g/geopython-workshop-group.jpg&#34;
+      alt=&#34;Geopython Workshop at FOSS4G Buenos Aires &#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Not as much fun as in 2019 Bukarest, but providing the Geopython Workshop at FOSS4G Buenos Aires with those great minds
+is still a 2021-highlight.&lt;/p&gt;
+&lt;h2 id=&#34;9-resolutions-for-2022&#34;&gt;9. Resolutions for 2022&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Customer portal for &lt;a href=&#34;https://map5.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5.nl&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Get back into Kubernetes&lt;/li&gt;
+&lt;li&gt;Advance further into full-lifecycle GitOps&lt;/li&gt;
+&lt;li&gt;Advance further into Vector Tiling&lt;/li&gt;
+&lt;li&gt;More effort into &lt;a href=&#34;https://github.com/meggsimum/wegue&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wegue&lt;/a&gt;
+ project&lt;/li&gt;
+&lt;li&gt;Revive old GeoTracing projects  like &lt;a href=&#34;http://georambling.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;georambling.com&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;More favourite things&lt;/li&gt;
+&lt;li&gt;Whatever comes around.&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>Terraform - First Steps on Hetzner Cloud</title>
       <link>https://justobjects.nl/terraform-first-steps/</link>
