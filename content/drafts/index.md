@@ -10,7 +10,7 @@ Overview of my professional life in 2021. Highlights of living and working in th
 Organized by "Theme".
 
 Like 2020, 2021 was again a "special year" in pandemic terms. How to cope? 
-Like Paul Ramsey writes: *"[I feel like sharing some of my favourite things](http://blog.cleverelephant.ca/2022/01/things.html)"_.
+Like Paul Ramsey writes: [I feel like sharing some of my favourite things](http://blog.cleverelephant.ca/2022/01/things.html).
 Will do in a later blog: [Bird-watching](https://waarneming.nl/users/146535/observations/), [Wolf-tracking workshop](https://www.weylintracking.nl/workshop-wolvensporen/), 'catching' big game on new wildcam, developed outdoor GPS-game (Veluwe Big Five), some progress on guitar-playing, 
 discovering The Netherlands outback, becoming 
 a [Billy Strings](https://www.billystrings.com/) fan. These are a few of my favourite things, more later....
@@ -154,7 +154,7 @@ in our team, we together made a [new DGGS leader video](https://www.youtube.com/
                                      
 OSGeo.nl was established on Dec 2, 2011. So 10 years and wtill going strong.
 As we were in a new wave, had a small online event. Below the epic picture (by Arnulf Christl) 
-taken aat the GIN Congres Utrecht where we got together to start OSGeo.nl.
+taken at the GIN Congres Utrecht where we got together to start OSGeo.nl.
 
 {{< a-img data-href="https://osgeo.nl/" data-src="/uploads/2022/osgeonl-founding.jpg" data-caption="OSGeo.nl Founding Mothers and Fathers - 2011" >}}
 
@@ -164,19 +164,19 @@ A special episode of the Big Geo Show presents: [Ten Years of OSGeo.nl - Story i
 
 Moved into providing Geospatial Cloud Services last few years, 
 both as a source of income and to support/strengthen underlying open source 
-projects with which they are developed. Warning: shameless ads below.
+projects with which they are developed. Warning: shameless ads below. All below was ongoing in 2021.
 
-  * **[map5.nl][5]** is a subscription service for Dutch topographic, historical- and embellished hill-shade and arial maps I started to host in 2015. In 2020 the entire map5.nl server-infrastructure was moved from custom Ubuntu-installs to a complete **[Ansible][50]**/Docker-based setup.
+  * **[map5.nl][5]** is a subscription service for Dutch topographic, historical- and embellished hill-shade and arial maps I started to host in 2015. In 2021 work started for a map5.nl user portal.
 
 {{< a-img data-href="https://www.map5.nl/" data-src="/uploads/2020/01/map5.nl_.png" >}}
 
 
-  * **[GeoQoS.com][6]** is a hosted **[GeoHealthCheck][7]** (GHC) service on a subscription basis. GHC is an uptime and QoS monitor for (OGC) web services. Customers get their own GHC instance. **[GeoQoS.com][6]** saves the burden of self-hosting GHC. Launch was in 2019, growing steady in 2020. Expect to work more on API and new UI for GeoHealthCheck (below) in 2021.
+  * **[GeoQoS.com][6]** is a hosted **[GeoHealthCheck][7]** (GHC) service on a subscription basis. GHC is an uptime and QoS monitor for (OGC) web services. Customers get their own GHC instance. **[GeoQoS.com][6]** saves the burden of self-hosting GHC. In 2021 started work more on API, using [FastAPI](https://fastapi.tiangolo.com/), and new UI for GHC.
 
 {{< a-img data-href="https://geoqos.com/" data-src="/uploads/2020/01/geoqos.com_.png" >}}
 
 
-  * **[geotoko.nl][8]**. geotoko.nl, in short GeoToko, basically a webshop to download Dutch open geo-datasets. Here one may ask: Dutch geospatial data like Topography, Addresses and Buildings, is already open and publicly available, mainly via **[Kadaster-PDOK][51]**. So why bother reselling? This needs some explanation.
+  * **[geotoko.nl][8]**. geotoko.nl, in short GeoToko, is basically a webshop to download Dutch open geo-datasets. Here one may ask: Dutch geospatial data like Topography, Addresses and Buildings, is already open and publicly available, mainly via **[Kadaster-PDOK][51]**. So why bother reselling? This needs some explanation.
 
 {{< a-img data-href="https://geotoko.nl/" data-src="/uploads/2021/01/opentopo-keyreg.png" >}}
 
@@ -219,10 +219,10 @@ Ongoing in 2021:
 ### More Contributions - Handy Docker Images
 
 To support many of the Cloud services and Open Source projects, I develop and maintain [handy Docker Images][62], also available from [my DockerHub][24],
-ongoing in 2021:
+ongoing in 2021, for many moved to Github Workflows build/push, replacing DockerHub Autobuild (still awaiting Open Source waver...):
 
 * [docker-awstats][25] - AWStats in Docker, oldie, but very effective webstats. Deploy multiple instances in single Docker container. Highly configurable, e.g. also for [Traefik][26] access logs.
-* [docker-jmeter][27] - [Apache JMeter][28] wrapped in Docker. Over 1 million pulls!
+* [docker-jmeter][27] - [Apache JMeter][28] wrapped in Docker. Over 10 million pulls at end of 2021 (and zero donations)!
 * [docker-mapfish-print][29] - for MapFish Print **version 3**. MapFish Print allows printing maps as PDFs.
 * [docker-mapfish-print2][30] - for MapFish Print **version 2** - This version is still used in quite some contexts, at least for [Heron][20] and [KadViewer][31].
 * [docker-rclone][32] - Docker image to perform a [rclone][63] sync based on a cron schedule, with [healthchecks.io][64] monitoring.
@@ -240,9 +240,9 @@ ongoing in 2021:
 * Oct 19-20 - [FOSS4G-NL at ITC Enschede][72] - In Real Life
 
 [FOSS4G Buenos Aires][36] needs special mention. As an online conference, apart from amazing content, I was very impressed with the 
-technical and organizational setup. Even the social events were fun to join. Often people are tired of Zoom, Teams, etc but
-the LOC had introduced tools like Work Adventure and StreamYard to enable more "cozyness". 
-Offcourse nothing can replace a real event, but this came close. The Dinner Gala was really fun.
+technical and organizational setup. Even the social events were fun to join. Folks are tired of Zoom, Teams, etc but
+the FOSS4G LOC had introduced tools like Work Adventure and StreamYard to enable more "cozyness". 
+Offcourse nothing can replace a real event, but this came close. The Gala Dinner was really fun!
 
 Jody Garnett words it very well in his Tweet:
 
@@ -258,7 +258,7 @@ Below talks and workshops I provided in 2021. A complete list of [presentations]
 
 * **_"FOSS4G-NL 2021 - Closing Words" - FOSS4G-NL 2021 - Oktober 20, 2021 - Enschede_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2021/foss4gnl-2021-slot-just.pdf).
 
-* **_"Zo gemakkelijk kun je geo-webdiensten uitrollen!" - FOSS4G-NL 2021 - Oktober 20, 2021 - Enschede_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2021/foss4gnl-deploy-2021-just.pdf).
+* **_"Zo gemakkelijk kun je geo-webdiensten uitrollen!" - FOSS4G-NL 2021 - Oktober 20, 2021 - Enschede_** - On GitOps for OSGeo Software -  [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2021/foss4gnl-deploy-2021-just.pdf).
 
 * **_"GeoHealthCheck - A Quality of Service Monitor for Geospatial Web Services" - [FOSS4G 2021](https://2021.foss4g.org/) - September 30, 2021_** - [\[HTML Slides\]](https://geohealthcheck.org/presentation/) - [\[Abstract\]](https://callforpapers.2021.foss4g.org/foss4g2021/talk/9NBETK/) - [\[Video recording on YouTube\]](https://www.youtube.com/watch?v=t7Y8FuaE-_M). 
 
