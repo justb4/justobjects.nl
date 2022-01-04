@@ -248,6 +248,16 @@ Jody Garnett words it very well in his Tweet:
 
 {{< a-img data-href="https://mobile.twitter.com/jodygarnett/status/1444022337968295938" data-src="/uploads/2022/foss4g/thankyou.png" data-caption="Thank You!" >}}
 
+Not to forget, always in hearts: Malena Libman (1983-2021).
+FOSS4G 2021 was also a conference dedicated to, and in memory of, Malena Libman. 
+She was a pillar of the FOSS4G community and a leading organizer of this conference. 
+
+{{< a-img data-href="https://mappery.org/malena-libman/" data-src="/uploads/2022/foss4g/malena.png" data-caption="Malena - Photo from mappery.org" >}}
+
+Malena was the right and truthful winner of the Sol Katz Award 2021. 
+As the [OSGeo.org website states](https://www.osgeo.org/foundation-news/malena-libman-receives-the-2021-sol-katz-award/):
+*"Malena Libman is the Sol Katz Award winner 2021. The prize was presented at the FOSS4G closing session and handed over to her friends & family who accepted the award on her behalf since we sadly lost Malena in April 2021 to COVID-19."*
+
 ## 8. Talks & Workshops - Provided
 
 Below talks and workshops I provided in 2021. A complete list of [presentations](/presentations/) is available.
