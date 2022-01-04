@@ -2,7 +2,7 @@
 title: Drafts
 author: Just van den Broecke
 type: page
-date: 2022-01-01T12:49:12+00:00
+date: 2022-01-04T12:49:12+00:00
 
 ---
 
@@ -10,45 +10,49 @@ Overview of my professional life in 2021. Highlights of living and working in th
 Organized by "Theme".
 
 Like 2020, 2021 was again a "special year" in pandemic terms. How to cope? 
-Like Paul Ramsey writes: ["I feel like sharing some of my favourite things"](http://blog.cleverelephant.ca/2022/01/things.html).
-Will do in a later blog: [Bird-watching](https://waarneming.nl/users/146535/observations/), Wolf-tracking workshop, 'catching' big game on new wildcam, developed outdoor GPS-game (Veluwe Big Five), some progress on guitar-playing, 
-discovering The Netherlands outback, becoming a [Billy Strings](https://www.billystrings.com/) fan]. These are a few of my favourite things, more later....
+Like Paul Ramsey writes: *"[I feel like sharing some of my favourite things](http://blog.cleverelephant.ca/2022/01/things.html)"_.
+Will do in a later blog: [Bird-watching](https://waarneming.nl/users/146535/observations/), [Wolf-tracking workshop](https://www.weylintracking.nl/workshop-wolvensporen/), 'catching' big game on new wildcam, developed outdoor GPS-game (Veluwe Big Five), some progress on guitar-playing, 
+discovering The Netherlands outback, becoming 
+a [Billy Strings](https://www.billystrings.com/) fan. These are a few of my favourite things, more later....
 
 
 TL;DR Main three highlights: 
 
-* Organizing a in-real-life FOSS4G-NL with OSGeo.nl
-* Attending, presenting, moderating, online FOSS4G Buenos Aires 
-* Deep-diving into GitOps. 
+* Organizing and attending an in-real-life [FOSS4G-NL](https://foss4g.nl/) with OSGeo.nl
+* Attending, presenting, moderating, online [FOSS4G Buenos Aires](https://2021.foss4g.org/) 
+* Deep-diving into [GitOps](https://www.redhat.com/en/topics/devops/what-is-gitop). 
 
 Below follow 2021-highlights organized by theme and/or project.
 
-### Fun Home Automation Projects
+## 1. Fun Home Automation Projects
 
-Some of my 2022 resolutions in 2021: 
+Some of my 2022 resolutions resolved in 2021: 
 
-* Installed a [HP1000SE PRO Wi-Fi Internet Wireless Weather Station](https://www.froggit.de/product_info.php?language=en&info=p436_hp1000se-pro-wi-fi-internet-wireless-weather-station.html). Publishing a.o. to [Weather Underground](https://www.wunderground.com/dashboard/pws/IGELDERL153).
+* Installed a [HP1000SE PRO Wi-Fi Internet Wireless Weather Station](https://www.froggit.de/product_info.php?language=en&info=p436_hp1000se-pro-wi-fi-internet-wireless-weather-station.html). Using [weewx on Raspberry Pi](https://github.com/justb4/weatherstation). Publishing a.o. to [Weather Underground](https://www.wunderground.com/dashboard/pws/IGELDERL153).
 * Wildcam
+
+{{< a-img data-src="/uploads/2022/wildcam.jpg" data-caption="Some mammals on the Wildcam" >}}
 
 More on these later.
 
-### New Website
+## 2. New Website
 
 For years my website/blog [justobjects.nl](https://justobjects.nl) ran on Wordpress at the famous, and first (est. 1993), 
 Dutch internet/hosting provider [XS4ALL](https://en.wikipedia.org/wiki/XS4ALL). XS4ALL was sold to KPN (1998), remained an independent brand,
 but was finally dismantled in 2021. 
 
-So in early 2021 I needed a new hosting provider. This was also a good moment to migrate my website to [Hugo](https://gohugo.io/).
-With the great effort by @peter-govind (via [freelance.com](https://freelance.com)), we converted the complete site (about 20 years of blogs) 
-to [Hugo+Github](https://github.com/justb4/justobjects.nl), using GitHub Workflows to "deploy-on-commit". My first piece of GitOps, more to follow in 2021.
-Though there are still some fixes to do, I am very happy with the result. Maintaining is now a breeze.
+So in early 2021 a new hosting provider was needed. 
+This was also a good moment to migrate my website to [Hugo](https://gohugo.io/).
+With the great effort by [@peter-govind](https://github.com/peter-govind) (via [freelance.com](https://freelance.com)), we converted the complete site (about 20 years of blogs) 
+to [Hugo+Github](https://github.com/justb4/justobjects.nl), using GitHub Workflows to "deploy-on-commit". My first piece of GitOps, more to follow, in 2021.
+Though there are still some fixes to do, very happy with the result. Maintaining is now a breeze.
 
-### GitOps
+## 3. GitOps
 
 Gradually [GitOps](https://www.weave.works/technologies/gitops/) became my main theme in 2021. 
-Main discovery that there was actually a name (GitOps) for CI/CD practices I (you) have been doing over the past years.
-For example, in 2019 I worked on the [pygeoapi demo server](https://github.com/geopython/demo.pygeoapi.io). But this can be taken further
-until reaching the phase of "look ma, no hands!". No more Box Hugging, i.e. manual actions on VMs etc.
+Discovered that there was actually a name (GitOps) for CI/CD practices I (you) have been doing over the past years.
+For example, in 2019 I worked on the [pygeoapi demo server](https://github.com/geopython/demo.pygeoapi.io). GitOps can always be taken further
+until reaching the phase: "look ma, no hands!". No more "Box Hugging", i.e. no more SSH-ing, manual actions on VMs etc.
 
 So what is GitOps? Many definitions are available. Often [tied to Kubernetes](https://www.manning.com/books/gitops-and-kubernetes) (K8s), but GitOps is broader than K8s.
 The most concise I found at [RedHat](https://www.redhat.com/en/topics/devops/what-is-gitops):
@@ -57,12 +61,13 @@ _"GitOps is a set of practices to manage infrastructure and application configur
 
 One of the key GitOps phrases I often quote is: **"The Truth is in Git"**. Especially now in times of fake-news, I love speaking those words in presentations.
 Pun-aside, it takes effort to have 100% of your deployment sources in Git. In particular all required credentials 
-(passwords, keys etc) Think of storing credentials in a public GitHub repo, how? Did some amazing discoveries in that arena.
+(passwords, keys etc) Think of storing credentials in a public GitHub repo, how? Did some amazing discoveries in that area like
+(combining) GitHub Secrets and [Ansible Vault](https://docs.ansible.com/ansible/latest/cli/ansible-vault.html).
 
 
-I was very lucky that my main three contracts in 2021 involved implementing GitOps. One sort of followed the other.
+I was very lucky that my main three contracts in 2021 involved GitOps. One project sort of followed the other.
 
-#### Geonovum
+### Geonovum
 
 It all begin in June at [Geonovum](https://www.geonovum.nl/themas/testbed-ogc-apis) who started an OGC API Testbed as part of
 the ongoing [Dutch API Strategy](https://www.geonovum.nl/themas/kennisplatform-apis) theme. 
@@ -70,23 +75,23 @@ the ongoing [Dutch API Strategy](https://www.geonovum.nl/themas/kennisplatform-a
 Together with [GeoCat](https://geocat.net) (Paul van Genuchten) we developed a full-stack deployment of several OGC API Features implementations.
 The picture below depicts the stack elements:
 
-{{< a-img data-href="https://apitestdocs.geonovum.nl/" data-src="/uploads/2022/gitops/services-stack.png" >}}
+{{< a-img data-href="https://apitestdocs.geonovum.nl/" data-src="/uploads/2022/gitops/services-stack.png" data-caption="GitOps Deployment - Operational Stack" >}}
 
 The challenge was to provide a testbed environment where third parties could further extend and experiment.
 Eventually we developed a deployment fully based on [GitOps within GitHub](https://github.com/Geonovum/ogc-api-testbed) as a GitHub Template repo.
 You can read details in the [documentation](https://apitestdocs.geonovum.nl/).
 The picture below depicts the GitOps workflow:
 
-{{< a-img data-href="https://apitestdocs.geonovum.nl/" data-src="/uploads/2022/gitops/schema.png" >}}
+{{< a-img data-href="https://apitestdocs.geonovum.nl/" data-src="/uploads/2022/gitops/schema.png" data-caption="GitOps Workflow" >}}
 
 These results were presented at several occasions in 2021. See the Presentations below.
 
-#### Geocat
+### Geocat
 
 For GeoCat (again with Paul van Genuchten) we have been defining how to further migrate to full GitOps 
 for the [GeoCat Live](https://www.geocat.net/live/) environment.
 
-#### European Commission - Joint Research Center
+### European Commission - Joint Research Center
 
 I was already involved in a contract with [EC-JRC](https://ec.europa.eu/info/departments/joint-research-centre_en) 
 for pan-EU data sharing as a member of the "EU JRC ELISE Pool of Experts".
@@ -105,10 +110,28 @@ with an empty Ubuntu VM, this was a great Proof-of-Concept: it took just about 2
 get the complete stack, thus including stuff like SSL-certificates, Traefik proxy, OS-hardening etc, [up and running](https://jrc.map5.nl/).
 For now the GitHub repo is at [github.com/justb4/ogc-api-jrc/](https://github.com/justb4/ogc-api-jrc/).
 
+{{< a-img data-href="https://apitestdocs.geonovum.nl/" data-src="/uploads/2022/gitops/pygeoapi-jrc.png" data-caption="pygeoapi for EC JRC" >}}
 
-### OSGeo.nl
+## 4. OSGeo.nl
 
-#### The Big Geo Show
+### FOSS4G-NL 2021 - IRL
+
+Yes, it happened! Inbetween COVID-Waves a LOC lead by the great [Erik Meerburg](https://www.linkedin.com/in/erikmeerburg/) achieved to organize 
+an in-real-life (IRL) and [4th OSGeo.nl FOSS4G-NL conference](https://foss4g.nl). 
+All within regulations at the time. At ITC Enschede on October 19-20 2021. Using 2G access. 
+Zero COVID-cases after.
+
+One day of Workshops followed by a one-day conference with great international keynotes 
+by [Amelie A Gagnon from UNESCO-IIEP](https://www.linkedin.com/in/amelieagagnon/) and 
+[Kurt Menke from Septima DK](https://www.linkedin.com/in/kurtmenke), plus three parallel sessions.
+We are still preparing the website to publish all presentations.
+
+{{< a-img data-href="https://foss4g.nl/" data-src="/uploads/2022/foss4gnl/group-photo.jpg" data-caption="Group Photo FOSS4G 2021" >}}
+
+Looks unreal this group photo, but this was in 2021!
+Thanks to all who made this event a success!
+
+### The Big Geo Show
 
 This was already my 2020 highlight. You can watch back all shows via **[tv.osgeo.nl][3]** or directly on 
 the **[OSGeo.nl YouTube Channel][42]**. Hell, you can even **[binge-watch all episodes][4]**! 
@@ -128,10 +151,20 @@ With a real instant-music-composer-performer, [Luciën Greefkes](https://www.muz
 in our team, we together made a [new DGGS leader video](https://www.youtube.com/watch?v=ZrfrcpWR29s).
 
 ### OSGeo.nl - Ten Year Anniversary
+                                     
+OSGeo.nl was established on Dec 2, 2011. So 10 years and wtill going strong.
+As we were in a new wave, had a small online event. Below the epic picture (by Arnulf Christl) 
+taken aat the GIN Congres Utrecht where we got together to start OSGeo.nl.
 
-### Geospatial Cloud Services
+{{< a-img data-href="https://osgeo.nl/" data-src="/uploads/2022/osgeonl-founding.jpg" data-caption="OSGeo.nl Founding Mothers and Fathers - 2011" >}}
 
-Moving into providing Geospatial Cloud Services last few years, both as a source of income and to support/strengthen underlying open source projects with which they are developed. Warning: shameless ads below.
+A special episode of the Big Geo Show presents: [Ten Years of OSGeo.nl - Story in Pictures](https://tv.osgeo.nl/episode/episode-0019/).
+
+## 5. Geospatial Cloud Services
+
+Moved into providing Geospatial Cloud Services last few years, 
+both as a source of income and to support/strengthen underlying open source 
+projects with which they are developed. Warning: shameless ads below.
 
   * **[map5.nl][5]** is a subscription service for Dutch topographic, historical- and embellished hill-shade and arial maps I started to host in 2015. In 2020 the entire map5.nl server-infrastructure was moved from custom Ubuntu-installs to a complete **[Ansible][50]**/Docker-based setup.
 
@@ -143,7 +176,7 @@ Moving into providing Geospatial Cloud Services last few years, both as a source
 {{< a-img data-href="https://geoqos.com/" data-src="/uploads/2020/01/geoqos.com_.png" >}}
 
 
-  * Feb 2020 - launched **[geotoko.nl][8]**. geotoko.nl, in short GeoToko, is basically a webshop to download Dutch open geo-datasets. Here one may ask: Dutch geospatial data like Topography, Addresses and Buildings, is already open and publicly available, mainly via **[Kadaster-PDOK][51]**. So why bother reselling? This needs some explanation.
+  * **[geotoko.nl][8]**. geotoko.nl, in short GeoToko, basically a webshop to download Dutch open geo-datasets. Here one may ask: Dutch geospatial data like Topography, Addresses and Buildings, is already open and publicly available, mainly via **[Kadaster-PDOK][51]**. So why bother reselling? This needs some explanation.
 
 {{< a-img data-href="https://geotoko.nl/" data-src="/uploads/2021/01/opentopo-keyreg.png" >}}
 
@@ -157,11 +190,11 @@ Moving into providing Geospatial Cloud Services last few years, both as a source
 {{< a-img data-href="https://geotoko.nl" data-src="/uploads/2021/01/geofabriek-keten.png" data-caption="GeoFabriek - Production Chain">}}
 
 
-  Further development concerned automating the NLExtract/Stetl ETL-processes. For this a framework called GeoFabriek, "GeoFactory", was developed. This automates the entire chain from checking new dataset versions at Kadaster, through downloading, conversions, packing for download and updating the metadata (in GeoCatalogus.nl).
+Further development concerned automating the NLExtract/Stetl ETL-processes. 
+For this a framework called GeoFabriek, "GeoFactory", was developed. This automates the entire chain from checking new dataset versions at Kadaster, through downloading, conversions, packing for download and updating the metadata (in GeoCatalogus.nl).
 
 
-
-### Open Source Contributions
+## 6. Open Source Contributions
 
 Continuous work as a contributor. Apart from some GitLab Projects, you can find/follow me best on [GitHub][10].
 
@@ -170,6 +203,7 @@ Continuous work as a contributor. Apart from some GitLab Projects, you can find/
 New in 2021:
 
 * [FastAPI-Users starter Template repo](https://github.com/justb4/fastapi-users-starter)
+* [NLExtract][16] - added ETL for BAG version 2, my first PRs for GDAL!
 
 Ongoing in 2021:
 
@@ -199,13 +233,22 @@ ongoing in 2021:
 * [docker-cron][70] - Runs Unix cron, includes docker (compose) client for running remote Docker Images.
 
 
-### Conferences - Attended
+## 7. Conferences - Attended
 
 * Feb 6-7 [FOSSDEM 2021](https://archive.fosdem.org/2021/) - Virtual
 * Sept 27- Oct 22 - [FOSS4G Buenos Aires][36] - Virtual
-* Oct 19-20 - [FOSS4G-NL at ITC Enschede][72] - 
+* Oct 19-20 - [FOSS4G-NL at ITC Enschede][72] - In Real Life
 
-### Talks & Workshops - Provided
+[FOSS4G Buenos Aires][36] needs special mention. As an online conference, apart from amazing content, I was very impressed with the 
+technical and organizational setup. Even the social events were fun to join. Often people are tired of Zoom, Teams, etc but
+the LOC had introduced tools like Work Adventure and StreamYard to enable more "cozyness". 
+Offcourse nothing can replace a real event, but this came close. The Dinner Gala was really fun.
+
+Jody Garnett words it very well in his Tweet:
+
+{{< a-img data-href="https://mobile.twitter.com/jodygarnett/status/1444022337968295938" data-src="/uploads/2022/foss4g/thankyou.png" data-caption="Thank You!" >}}
+
+## 8. Talks & Workshops - Provided
 
 Below talks and workshops I provided in 2021. A complete list of [presentations](/presentations/) is available.
 
@@ -229,8 +272,14 @@ Below talks and workshops I provided in 2021. A complete list of [presentations]
 
 * **_"OSGeo.nl New Year's Party - Slides OSGeo.nl" - 2021-01-24 - Presentation I gave on behalf of OSGeo.nl on the online joint QGIS-NL, OpenStreetMap-NL and OSGeo.nl New Year's party on January 24, 2021._**- [\[Slideshare\]](https://www.slideshare.net/justb4/osgeonl-new-years-party-slides-osgeonl)
 
+geopython-workshop-group
 
-### Resolutions 2022
+{{< a-img data-href="https://callforpapers.2021.foss4g.org/foss4g-2021-workshop/talk/7N3G3N/" data-src="/uploads/2022/foss4g/geopython-workshop-group.jpg" data-caption="Geopython Workshop at FOSS4G Buenos Aires " >}}
+
+Not as much fun as in 2019 Bukarest but giving the Geopython Workshop at FOSS4G Buenos Aires with those great minds
+was still a 2021-highlight.
+
+## 9. Resolutions for 2022
 
 * Customer portal for map5.nl 
 * Get back into Kubernetes 
