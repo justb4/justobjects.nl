@@ -11,12 +11,12 @@ Organized by "Theme".
 
 Like 2020, 2021 was again a "special year" in pandemic terms. How to cope? 
 Like Paul Ramsey writes: [I feel like sharing some of my favourite things](http://blog.cleverelephant.ca/2022/01/things.html).
-Will do in a later blog: [Bird-watching](https://waarneming.nl/users/146535/observations/), [Wolf-tracking workshop](https://www.weylintracking.nl/workshop-wolvensporen/), 'catching' big game on new wildcam, developed outdoor GPS-game (Veluwe Big Five), some progress on guitar-playing, 
+Will do in a later post: [Bird-watching](https://waarneming.nl/users/146535/observations/), [Wolf-tracking workshop](https://www.weylintracking.nl/workshop-wolvensporen/), 'catching' big game on new wildcam, developed outdoor GPS-game (Veluwe Big Five), some progress on guitar-playing, 
 discovering The Netherlands outback, becoming 
-a [Billy Strings](https://www.billystrings.com/) fan. These are a few of my favourite things, more later....
+a [Billy Strings](https://www.billystrings.com/) fan. These are a few of my favourite things, so more later....
 
 
-TL;DR Main three highlights: 
+TL;DR Main three 2021 highlights: 
 
 * Organizing and attending an in-real-life [FOSS4G-NL](https://foss4g.nl/) with OSGeo.nl
 * Attending, presenting, moderating, online [FOSS4G Buenos Aires](https://2021.foss4g.org/) 
@@ -59,9 +59,10 @@ The most concise I found at [RedHat](https://www.redhat.com/en/topics/devops/wha
 
 _"GitOps is a set of practices to manage infrastructure and application configurations using Git, an open source version control system. GitOps works by using Git as a single source of truth for declarative infrastructure and applications."_
 
-One of the key GitOps phrases I often quote is: **"The Truth is in Git"**. Especially now in times of fake-news, I love speaking those words in presentations.
-Pun-aside, it takes effort to have 100% of your deployment sources in Git. In particular all required credentials 
-(passwords, keys etc) Think of storing credentials in a public GitHub repo, how? Did some amazing discoveries in that area like
+I often quote here: **"The Truth is in Git!"**. Especially now in times of fake-news, I love speaking those words in presentations.
+The quest of humanity is over: We Found The Truth, It Is In Git :-).
+Pun aside, it takes effort to have 100% of your deployment sources and configs in Git. In particular all required credentials 
+(passwords, keys etc). Think of storing credentials in a public GitHub repo, how? Did some amazing discoveries in that area like
 (combining) GitHub Secrets and [Ansible Vault](https://docs.ansible.com/ansible/latest/cli/ansible-vault.html).
 
 
