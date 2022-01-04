@@ -94,21 +94,21 @@ for the [GeoCat Live](https://www.geocat.net/live/) environment.
 
 ### European Commission - Joint Research Center
 
-Was already involved in a contract with [EC-JRC](https://ec.europa.eu/info/departments/joint-research-centre_en) 
+Was already working on a contract with [EC-JRC](https://ec.europa.eu/info/departments/joint-research-centre_en) 
 for pan-EU data sharing as a member of the "EU JRC ELISE Pool of Experts".
-An honour to be working (and still working) with these great minds from the international geospatial world!
+An honour to be (still) working with all these great minds from the international geospatial world!
 
-My focus within the team was/is on data services deployment, my pitch, first deliverable, called
+My focus within the team was/is on data services deployment. My pitch and first deliverable, was called
 *"The Power of Orchestrated Containerisation for Data Services"*.
 
-The full outcome of the project will be publicly published as a JRC Technical Report (JRC127730?) titled:
-*"Emerging approaches for data-driven innovation in Europe"*. For this report I wrote the 
+The full outcome of the project will be published (publicly) as a JRC Technical Report (JRC127730?) titled:
+*"Emerging approaches for data-driven innovation in Europe"*. For this report, wrote the 
 chapter *"Deployment of an OGC API Features web service using GitOps"*
  
-Apart from reporting, I also provided a full-stack OGC API Features service based on [pygeoapi](https://pygeoapi.io).
+Apart from reporting in text, also provided a full-stack OGC API Features service based on [pygeoapi](https://pygeoapi.io).
 Using the [Geonovum OGC API GitHub Template](https://github.com/Geonovum/ogc-api-testbed) 
-with an empty Ubuntu VM, this was a great Proof-of-Concept: it took just about 2 hours to
-get the complete stack, thus including stuff like SSL-certificates, Traefik proxy, OS-hardening etc, [up and running](https://jrc.map5.nl/).
+on a fresh Ubuntu VM provided by JRC, this was a great Proof-of-Concept: took just 2 hours to
+get the complete stack, including stuff like SSL-certificates, [Traefik](https://traefik.io/) proxy (love Traefik!), OS-hardening etc, [up and running](https://jrc.map5.nl/).
 For now the GitHub repo is at [github.com/justb4/ogc-api-jrc/](https://github.com/justb4/ogc-api-jrc/).
 
 {{< a-img data-href="https://apitestdocs.geonovum.nl/" data-src="/uploads/2022/gitops/pygeoapi-jrc.png" data-caption="pygeoapi for EC JRC" >}}
@@ -118,8 +118,8 @@ For now the GitHub repo is at [github.com/justb4/ogc-api-jrc/](https://github.co
 ### FOSS4G-NL 2021 - IRL
 
 Yes, it happened! Inbetween COVID-Waves a LOC lead by the great [Erik Meerburg](https://www.linkedin.com/in/erikmeerburg/) achieved to organize 
-an in-real-life (IRL) and [4th OSGeo.nl FOSS4G-NL conference](https://foss4g.nl). 
-All within regulations at the time. At ITC Enschede on October 19-20 2021. Using 2G access. 
+an in-real-life (IRL) [4th OSGeo.nl FOSS4G-NL conference](https://foss4g.nl). 
+Abiding with COVID-regulations at the time. At ITC Enschede on October 19-20 2021. Using 2G access. 
 Zero COVID-cases after.
 
 One day of Workshops followed by a one-day conference with great international keynotes 
@@ -294,7 +294,8 @@ was still a 2021-highlight.
 
 * Customer portal for map5.nl 
 * Get back into Kubernetes 
-* Move further into GitOps in general
+* Advance further into full-lifecycle GitOps
+* Advance further into Vector Tiling
 * More effort into [Wegue][17] project
 * Revive old GeoTracing projects  like [georambling.com][77]
 * More favourite things
