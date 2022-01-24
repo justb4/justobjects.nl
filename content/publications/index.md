@@ -2,7 +2,7 @@
 title: Publications
 author: Just van den Broecke
 type: page
-date: 2014-06-23T09:16:55+00:00
+date: 2022-01-10T09:16:55+00:00
 
 ---
 # SensorWeb/IoT
