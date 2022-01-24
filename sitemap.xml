@@ -5,6 +5,9 @@
     <loc>https://justobjects.nl/presentations/</loc>
     <lastmod>2022-01-24T10:04:13+00:00</lastmod>
   </url><url>
+    <loc>https://justobjects.nl/publications/</loc>
+    <lastmod>2022-01-10T09:16:55+00:00</lastmod>
+  </url><url>
     <loc>https://justobjects.nl/adios-2021/</loc>
     <lastmod>2022-01-04T13:24:25+00:00</lastmod>
   </url><url>
@@ -379,9 +382,6 @@
   </url><url>
     <loc>https://justobjects.nl/new-website-but-what-is-open-geospatial/</loc>
     <lastmod>2014-07-03T00:07:20+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/publications/</loc>
-    <lastmod>2014-06-23T09:16:55+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/moving-postgis-tables-from-the-public-schema-to-a-new-schema/</loc>
     <lastmod>2013-02-01T16:40:38+00:00</lastmod>
