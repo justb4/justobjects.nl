@@ -24,6 +24,8 @@ Just van den Broecke; **"NLExtract pakt de basisregistraties uit - BAG en BRT on
 Just van den Broecke; **"Hapklare basisregistratiedata via GeoToko.nl"**; published in [BIG Nieuws][25], March 2021; 
 [\[PDF Download\]][26], [\[Online on CMedia.nl\]][27]
 
+Granell, C., Mooney, P., Jirka, S., Rieke, M., Ostermann, F., Van Den Broecke, J., Sarretta, A., Verhulst, S., Dencik, L., Oost, H., Micheli, M., Minghini, M., Kotsev, A. and Schade, S., **"Emerging approaches for data-driven innovation in Europe"**, EUR 30969 EN, Publications Office of the European Union, Luxembourg, 2022, ISBN 978-92-76-46936-0, doi:10.2760/511775, [JRC127730][28] - [\[PDF Download\]][29].
+
 # Computing
 
 J.A. van den Broecke (Waag Society); **"Multi-user Networking"**; Published in **"Making Art of Databases"** ; Joke Brouwer, Arjen Mulder, Susan Charlton (Eds.); V2_ and NAI Publishers, Rotterdam, June 2003; ISBN 90-5662-309-5  
@@ -84,4 +86,5 @@ G.G. Choudhry, J.A. van den Broecke, G.R.B. Webster, and O. Hutzinger; **"Enviro
 [25]: https://bignieuws.nl/
 [26]: https://files.justobjects.nl/doc/geotoko-bignieuws-mrt2021.pdf
 [27]: http://magazine.cmedia.nl/bignieuws-2-2021#!/hapklare-basisregistratiedata-via-geotokonl
-
+[28]: https://publications.jrc.ec.europa.eu/repository/handle/JRC127730
+[29]: https://publications.jrc.ec.europa.eu/repository/bitstream/JRC127730/JRC127730_01.pdf

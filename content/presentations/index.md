@@ -2,11 +2,13 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2021-11-24T16:04:13+00:00
+date: 2022-01-24T10:04:13+00:00
 
 ---
 Below a selection of various presentations by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
+
+**_"Enforcing Automation in Building, Testing and Deployment of Software Applications - January 24, 2022 - Online_** - [Emerging approaches for data-driven innovation in Europe](https://publications.jrc.ec.europa.eu/repository/handle/JRC127730) - [\[PDF Slides\]](https://files.justobjects.nl/presentation/ec-jrc-elise-2022-1/final-just-v1.pdf) - [\[Video Recording on YouTube\]](https://www.youtube.com/watch?v=ufYk3garoIc).
 
 **_"Ten Years of OSGeo.nl - A Story in Pictures" - De Grote Geo Show - Episode 19 (video) - December 2, 2021 - Online_** - [\[Video recording on YouTube\]](https://www.youtube.com/watch?v=yMAxQEg0fSw) - [\[Episode Info\]](https://tv.osgeo.nl/episode/episode-0019/).
 
