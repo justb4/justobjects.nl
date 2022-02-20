@@ -8,7 +8,9 @@ date: 2022-01-24T10:04:13+00:00
 Below a selection of various presentations by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
 
-**_"Enforcing Automation in Building, Testing and Deployment of Software Applications - January 24, 2022 - Online_** - [Emerging approaches for data-driven innovation in Europe](https://publications.jrc.ec.europa.eu/repository/handle/JRC127730) - [\[PDF Slides\]](https://files.justobjects.nl/presentation/ec-jrc-elise-2022-1/final-just-v1.pdf) - [\[Video Recording on YouTube\]](https://youtu.be/ufYk3garoIc?t=2565).
+**_"GitOps and Containerisation for INSPIRE - Automation in Building, Testing and Deployment of Software Application - February 4, 2022 - Online_** - [European Commission - INSPIRE Maintenance and Implementation Group (MIG) - 68th MIG-T Meeting](https://wikis.ec.europa.eu/display/InspireMIG/68th+MIG-T+meeting+2022-02-04) - [\[PDF Slides\]](https://files.justobjects.nl/presentation/ec-mig-2022-1/gitops-just-04feb2022-v1.pdf).
+
+**_"Enforcing Automation in Building, Testing and Deployment of Software Applications - January 24, 2022 - Online_** - [Emerging approaches for data-driven innovation in Europe](https://publications.jrc.ec.europa.eu/repository/handle/JRC127730) - [\[PDF Slides\]](https://files.justobjects.nl/presentation/ec-jrc-elise-2022-1/final-just-v1.pdf) - [\[Video Recording on YouTube\]](https://youtu.be/9rKeZZqGfc8?t=2118).
 
 **_"Ten Years of OSGeo.nl - A Story in Pictures" - De Grote Geo Show - Episode 19 (video) - December 2, 2021 - Online_** - [\[Video recording on YouTube\]](https://www.youtube.com/watch?v=yMAxQEg0fSw) - [\[Episode Info\]](https://tv.osgeo.nl/episode/episode-0019/).
 

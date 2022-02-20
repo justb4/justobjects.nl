@@ -21,6 +21,7 @@ The most active part of this website should be [Just&#8217;s Blog][4],
 but also checkout his contributions to &#8220;the commons&#8221; 
 via  [his Open Source projects][5] and [OSGeo.nl][6]. Latest blog posts:
 
+* January 4, 2022 [Adiós 2021][19]
 * September 13, 2021 [Terraform First Steps][18]
 * January 20, 2021 [That Was 2020][7]
 * January 17, 2020 [Cheers to 2019][8]
@@ -47,3 +48,5 @@ via  [his Open Source projects][5] and [OSGeo.nl][6]. Latest blog posts:
  [16]: https://opengeogroep.nl
  [17]: https://wiki.osgeo.org/wiki/Just_van_den_Broecke
  [18]: https://justobjects.nl/terraform-first-steps/ "Terraform First Steps"
+ [19]: https://justobjects.nl/adios-2021/ "Adiós 2021"
+ 
