@@ -2,13 +2,15 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2022-01-24T10:04:13+00:00
+date: 2022-04-21T09:04:13+00:00
 
 ---
 Below a selection of various presentations by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
 
-**_"GitOps and Containerisation for INSPIRE - Automation in Building, Testing and Deployment of Software Application - February 4, 2022 - Online_** - [European Commission - INSPIRE Maintenance and Implementation Group (MIG) - 68th MIG-T Meeting](https://wikis.ec.europa.eu/display/InspireMIG/68th+MIG-T+meeting+2022-02-04) - [\[PDF Slides\]](https://files.justobjects.nl/presentation/ec-mig-2022-1/gitops-just-04feb2022-v1.pdf).
+**_"GitOps and Containerisation for INSPIRE - April 21, 2022 - Online_** - Geonovum Operationeel INSPIRE Overleg - [\[PDF Slides\]](https://files.justobjects.nl/presentation/geonovum-inspire-2022/gitops-just-21apr2022-v1.pdf).
+
+**_"GitOps and Containerisation for INSPIRE - Automation in Building, Testing and Deployment of Software Applications - February 4, 2022 - Online_** - [European Commission - INSPIRE Maintenance and Implementation Group (MIG) - 68th MIG-T Meeting](https://wikis.ec.europa.eu/display/InspireMIG/68th+MIG-T+meeting+2022-02-04) - [\[PDF Slides\]](https://files.justobjects.nl/presentation/ec-mig-2022-1/gitops-just-04feb2022-v1.pdf).
 
 **_"Enforcing Automation in Building, Testing and Deployment of Software Applications - January 24, 2022 - Online_** - [Emerging approaches for data-driven innovation in Europe](https://publications.jrc.ec.europa.eu/repository/handle/JRC127730) - [\[PDF Slides\]](https://files.justobjects.nl/presentation/ec-jrc-elise-2022-1/final-just-v1.pdf) - [\[Video Recording on YouTube\]](https://youtu.be/9rKeZZqGfc8?t=2118).
 
