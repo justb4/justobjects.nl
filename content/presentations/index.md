@@ -2,7 +2,7 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2022-04-21T09:04:13+00:00
+date: 2022-08-24T07:04:13+00:00
 
 ---
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
@@ -58,7 +58,7 @@ Some slides are on [\[Slideshare\]][1]
 
 **_"Smart Emission Data Platform" - 2017-1-17 - Architecture of the Smart Emission Data Platform. Presentation given on jan 17, 2017 at RIVM, Bilthoven._** - [\[Slideshare\]](https://www.slideshare.net/justb4/smart-emission-data-platform)
 
-**_"De Levenscyclus van Open Geodata met Open Source Tools" - 2017-07-22 - Presented together with Jan-Willem van Aalst and Frank Steggink at the Dutch CartoDay, March 15, 2017. See full program here:  https://www.cartodag.nl/programma-cartodag-2017. Subject was how to eventually create online topographical maps from Open but Raw datasets: how to transform (ETL), create maps (QGIS), and publish on the web using Open Source service components like MapServer and MapProxy via  https://map5.nl_** - [\[Slideshare\]](https://www.slideshare.net/justb4/de-levenscyclus-van-open-geodata-met-open-source-tools)
+**_"De Levenscyclus van Open Geodata met Open Source Tools" - 2017-03-15 - Presented together with Jan-Willem van Aalst and Frank Steggink at the Dutch CartoDay, March 15, 2017. See full program here:  https://www.cartodag.nl/programma-cartodag-2017. Subject was how to eventually create online topographical maps from Open but Raw datasets: how to transform (ETL), create maps (QGIS), and publish on the web using Open Source service components like MapServer and MapProxy via  https://map5.nl_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/cartodag-2017/levenscyclus-opengeodata.pdf)
 
 **_"ReactJS For Geospatial" - 2017-04-07 - Presentation for the JavaKnights, javaknights.slack.com. Describes my road through the years (since 1998) using various web-mapping/GIS JavaScript frameworks (Google Maps, ExtJS, GeoExt, Heron) . Eventually ReactJS (i.s.o. AngularJS) seems to become the next framework for Open Source geospatial (GIS) web-apps like earlier GeoExt (built on OpenLayers+ExtJS). At least, looking at some of the major web-mapping frameworks like MapStore2, Boundless-SDK and GeoMoose (v3). Leaflet, OpenLayers and/or CesiumJS are always the foundation. Some ReactJS, Flux and React-native intro included. NB GeoExt and AngularJS (Swiss Topo, ngeo) are still evolving and used (e.g. Heron, Flamingo) within Open Source web-mapping. It is up to you to evaluate all options (frameworks) and decide what fits your projects best._** - [\[Slideshare\]](https://www.slideshare.net/justb4/reactjs-for-geospatial)
 
