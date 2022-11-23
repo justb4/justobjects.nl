@@ -2,19 +2,21 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2022-10-11T07:04:13+00:00
+date: 2022-11-22T07:04:13+00:00
 
 ---
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
 
+**_"map5topo - a New Topographic Map of The Netherlands" - [Geomob Barcelona - November 22, 2022](https://thegeomob.com/post/nov-22nd-2022-geomobbcn-details)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/geomob-bcn-2022/map5topo.pdf).
+
 **_"Introducing map5topo - a new Topographic Map of The Netherlands" - Information Sessions - Oktober 5+6, 2022 - Online_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/map5topo-2022/221005-info-session.pdf).
 
 **_"GeoHealthCheck - A Quality of Service Monitor for Geospatial Web Services" - [FOSS4G 2022](https://2022.foss4g.org/) - August 24, 2022_** - [\[HTML Slides\]](https://geohealthcheck.org/presentation/) - [\[Abstract\]](https://talks.osgeo.org/foss4g-2022/talk/XMAYMU/). 
 
-**_"Diving into pygeoapi" - [FOSS4G 2022](https://2022.foss4g.org/) - September 22, 2022_** - Workshop (4h): using pygeoapi to cover publishing geospatial data to the Web, and using the API from QGIS, OWSLib and a web browser -  [\[HTML Startpage\]](https://dive.pygeoapi.io) - [\[Abstract\]](https://talks.osgeo.org/foss4g-2022-workshops/talk/RBJPRF/).
+**_"Diving into pygeoapi" - [FOSS4G 2022](https://2022.foss4g.org/) - August 22, 2022_** - Workshop (4h): using pygeoapi to cover publishing geospatial data to the Web, and using the API from QGIS, OWSLib and a web browser -  [\[HTML Startpage\]](https://dive.pygeoapi.io) - [\[Abstract\]](https://talks.osgeo.org/foss4g-2022-workshops/talk/RBJPRF/).
 
-**_"Doing Geospatial in Python" - [FOSS4G 2022](https://2022.foss4g.org/) - September 22, 2022_** - Workshop (4h): introduction to performing common GIS/geospatial tasks using Python geospatial tools such as OWSLib, Shapely, Fiona/Rasterio, and common geospatial libraries like GDAL, PROJ, pycsw, as well as other tools from the geopython toolchain. -  [\[HTML Startpage\]](https://geopython.github.io/geopython-workshop/) - [\[Abstract\]](https://talks.osgeo.org/foss4g-2022-workshops/talk/JG7GPS/).
+**_"Doing Geospatial in Python" - [FOSS4G 2022](https://2022.foss4g.org/) - August 22, 2022_** - Workshop (4h): introduction to performing common GIS/geospatial tasks using Python geospatial tools such as OWSLib, Shapely, Fiona/Rasterio, and common geospatial libraries like GDAL, PROJ, pycsw, as well as other tools from the geopython toolchain. -  [\[HTML Startpage\]](https://geopython.github.io/geopython-workshop/) - [\[Abstract\]](https://talks.osgeo.org/foss4g-2022-workshops/talk/JG7GPS/).
 
 **_"GitOps and Containerisation for INSPIRE - April 21, 2022 - Online_** - Geonovum Operationeel INSPIRE Overleg - [\[PDF Slides\]](https://files.justobjects.nl/presentation/geonovum-inspire-2022/gitops-just-21apr2022-v1.pdf).
 
