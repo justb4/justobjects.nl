@@ -164,18 +164,22 @@
   weight = 1
   url = "https://www.linkedin.com/in/justb4"
 [[social]]
-  name = "twitter"
+  name = "mastodon"
   weight = 2
+  url = "https://mapstodon.space/@justb4"
+[[social]]
+  name = "twitter"
+  weight = 3
   url = "https://twitter.com/justb4"
 [[social]]
   name = "github"
   type = "social"
-  weight = 3
+  weight = 4
   url = "https://github.com/justb4"
 [[social]]
   name = "rss"
   url = "https://justobjects.nl/index.xml"
-  weight = 4
+  weight = 5
 
 # other supported social links
 # name = "youtube"
