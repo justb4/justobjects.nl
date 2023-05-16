@@ -2,7 +2,7 @@
 title: Projects
 author: Just van den Broecke
 type: page
-date: 2021-09-22T09:25:31+00:00
+date: 2023-05-15T09:25:31+00:00
 featured_image: uploads/2011/09/colorado-hiking-672x202.jpg
 
 ---
@@ -12,6 +12,32 @@ To see what he is working on today, best is to visit his [GitHub Profile](https:
 
 Below is an overview of the main projects. Each project has its own project page. 
 The most recent and active projects start from the top. Warning: some links are stale.
+
+# map5topo
+
+See the [map5.nl website](https://map5.nl) 
+and the [map5topo Newsletters #5 and later](https://us10.campaign-archive.com/home/?u=dc76804d91aeb81849bd5071c&id=53b2ade233) (sorry in Dutch).
+
+Presentations:
+
+* **_"map5topo - a New Topographic Map of The Netherlands" - [Geomob Barcelona - November 22, 2022](https://thegeomob.com/post/nov-22nd-2022-geomobbcn-details)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/geomob-bcn-2022/map5topo.pdf).
+* **_"Introducing map5topo - a new Topographic Map of The Netherlands" - Information Sessions - Oktober 5+6, 2022 - Online_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/map5topo-2022/221005-info-session.pdf).
+
+### Goal
+
+Develop a (the best!) topographic map of The Netherlands using both OpenStreetMap and Dutch Open Data in a "best-of" approach.
+For Dutch Open Data using sources from Dutch Kadaster/PDOK: BAG, BRK, BRT, BGT, height data from AHN (hillshading and contour-lines),
+road info from NWB (Rijkswaterstaat).
+
+Major contributions by [Niene Boeijen](https://nieneb.nl/).
+
+### Comment
+
+This project was started in 2022 and is still continued in 2023. 
+Several of the projects mentioned below are used, in particular NLExtract for 
+ETL.
+This will become
+an Open Source project once the code and data ETL has been cleaned-up.
 
 # Wegue
 

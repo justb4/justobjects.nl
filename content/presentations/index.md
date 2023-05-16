@@ -2,11 +2,13 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2022-11-22T07:04:13+00:00
+date: 2023-05-15T07:04:13+00:00
 
 ---
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
+
+**_"Additions to pygeoapi for Geonovum Tender (with GeoCat) - April 20, 2023 - Online_** - [\[HTML Slides\]](https://pygeoapi.io/presentations/geonovum-tender-2023/).
 
 **_"map5topo - a New Topographic Map of The Netherlands" - [Geomob Barcelona - November 22, 2022](https://thegeomob.com/post/nov-22nd-2022-geomobbcn-details)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/geomob-bcn-2022/map5topo.pdf).
 

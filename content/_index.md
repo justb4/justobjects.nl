@@ -14,7 +14,7 @@ activities of <a href="https://www.linkedin.com/in/justb4" target="_blank">Just 
 
 The range of services includes: consultancy, training, development, hosting and maintenance.
 
-Just Objects is a member of the <a title="OpenGeoGroep" href="http://opengeogroep.nl" target="_blank">OpenGeoGroep Cooperation</a>.
+Just Objects is a member of the <a title="OpenGeoGroep" href="https://opengeogroep.nl" target="_blank">OpenGeoGroep Cooperation</a>.
 
 Just is an <a href="https://osgeo.org" target="_blank">OSGeo</a> <a href="http://wiki.osgeo.org/wiki/Just_van_den_Broecke" target="_blank">Charter member</a> and secretary of the <a title="OSGeo.nl" href="https://osgeo.nl" target="_blank">OSGeo.nl Foundation</a>, the Dutch Language Chapter of [OSGeo.org][1].
 
