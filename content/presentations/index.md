@@ -10,6 +10,8 @@ Some slides are on [\[Slideshare\]][1]
 
 **_"map5topo - een nieuwe, frisse topokaart van Nederland" - [FOSS4GNL Middelburg - September 14, 2022](https://foss4g.nl)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2023/map5topo-foss4gnl-2023.pdf).
 
+**_"OpenStreetMap: Slim de kaart editen met apps!" - Met [Casper Kersten](https://www.openstreetmap.org/user/Friendly_Ghost) - [FOSS4GNL Middelburg - September 13, 2022](https://foss4g.nl)_** - [\[Workshop Website\]](https://osmws.osgeo.nl) - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2023/osm-workshop-foss4gnl-2023.pdf).
+
 **_"Additions to pygeoapi for Geonovum Tender (with GeoCat) - April 20, 2023 - Online_** - [\[HTML Slides\]](https://pygeoapi.io/presentations/geonovum-tender-2023/).
 
 **_"map5topo - a New Topographic Map of The Netherlands" - [Geomob Barcelona - November 22, 2022](https://thegeomob.com/post/nov-22nd-2022-geomobbcn-details)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/geomob-bcn-2022/map5topo.pdf).
