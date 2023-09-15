@@ -2,7 +2,7 @@
 title: About
 author: Just van den Broecke
 type: page
-date: 2021-06-22T13:59:27+00:00
+date: 2023-09-15T10:59:27+00:00
 
 ---
 Just Objects B.V. is the trading name for the professional activities of [Just van den Broecke][13].
@@ -15,7 +15,9 @@ The range of services includes: consultancy, training, development, hosting and 
 
 Just Objects is a member of the [OpenGeoGroep Cooperation][16].
 
-Just is an [OSGeo][3] [Charter member][17] and founder and now chair of the [OSGeo.nl Foundation][6], the Dutch Chapter of [OSGeo.org][3].
+Just is an <a href="https://osgeo.org" target="_blank">OSGeo</a> <a href="http://wiki.osgeo.org/wiki/Just_van_den_Broecke" target="_blank">Charter member</a> 
+and founder/former chair (and still on the board) 
+of <a title="OSGeo.nl" href="https://osgeo.nl" target="_blank">OSGeo.nl Foundation</a>, the Dutch Local Chapter of [OSGeo.org][1].
 
 The most active part of this website should be [Just&#8217;s Blog][4], 
 but also checkout his contributions to &#8220;the commons&#8221; 
@@ -33,7 +35,7 @@ via  [his Open Source projects][5] and [OSGeo.nl][6]. Latest blog posts:
  [1]: https://files.justobjects.nl/doc/cv.html
  [2]: https://files.justobjects.nl/doc/cv.pdf
  [3]: https://osgeo.org
- [4]: https://justobjects.nl/writings/blog/ "Just's Blog"
+ [4]: https://justobjects.nl/posts/ "Just's Blog"
  [5]: https://justobjects.nl/projects/
  [6]: https://osgeo.nl
  [7]: https://justobjects.nl/that-was-2020/ "That Was 2020"

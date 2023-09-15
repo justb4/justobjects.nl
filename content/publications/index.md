@@ -34,7 +34,7 @@ J.A. van den Broecke (Waag Society); **"Multi-user Networking"**; Published in *
 Linda Rising (ed.); **"Design Patterns in Communications Software"**; (includes [my article written with Jim Coplien][10]) Cambridge University Press June 2001; ISBN 0521790409  
 [\[Reference\]][11]
 
-J.A. van den Broecke; **"Pushlets, Part 1: Send events from servlets to DHTML client browsers"** ; JavaWorld, March 2000  
+J.A. van den Broecke; **"Pushlets, Part 1: Send events from servlets to DHTML client browsers"** ; JavaWorld (now on InfoWorld), March 2000  
 [\[Online HTML\]][12] [\[www.pushlets.com\]][13]
 
 J.A. van den Broecke (AT&T/Lucent), [J.O. Coplien][14] (AT&T/Lucent); **"Using Design Patterns to Build a Framework for Multimedia Networking"**; Bell Labs Technical Journal Volume 2 Number 1 Winter 1997; pp 166-187  
@@ -59,32 +59,32 @@ G.G. Choudhry, J.A. van den Broecke, G.R.B. Webster, and O. Hutzinger; **"Photoc
 G.G. Choudhry, J.A. van den Broecke, G.R.B. Webster, and O. Hutzinger; **"Environmental Photoincorporations of polychlorobenzenes into several humic model monomers"**; 1987 Proceedings of the Third International Symposium on *"Environmental Pollution and its Impact on Life in the Mediterranean Region"*; Istanbul, Turkey, September 1-4, 1985; Guest eds. H. Parlar et al., Pergamon Press, New York  
 [\[Link\]][24]
 
-[1]: http://52north.org/files/sensorweb/GSWConference2016/Geospatial_Sensor_Webs_Conference_2016_2.pdf
-[2]: http://smartplatform.readthedocs.io/en/latest/_static/dissemination/sensorweb-munster-30aug2016/paper-munster-conf.pdf
+[1]: https://52north.org/files/sensorweb/GSWConference2016/Geospatial_Sensor_Webs_Conference_2016_2.pdf
+[2]: https://smartplatform.readthedocs.io/en/latest/_static/dissemination/sensorweb-munster-30aug2016/paper-munster-conf.pdf
 [3]: https://www.researchgate.net/publication/344163000_Calibration_of_AirSensEUR_boxes_during_a_field_study_in_the_Netherlands
-[4]: http://ijsdir.jrc.ec.europa.eu/index.php/ijsdir/article/view/181
+[4]: https://ijsdir.jrc.ec.europa.eu/index.php/ijsdir/article/view/181
 [5]: https://files.justobjects.nl/doc/inspire-harm-jrc-2010.pdf
-[6]: http://www.geo-info.nl/
+[6]: https://www.geo-info.nl/
 [7]: https://files.justobjects.nl/doc/nlextract-geoinfo-130908.pdf
-[8]: http://www.v2.nl/publishing/making-art-of-databases
+[8]: https://www.v2.nl/publishing/making-art-of-databases
 [9]: https://files.justobjects.nl/presentation/deaf03/slide.0.0.html
 [10]: https://files.justobjects.nl/doc/bltj97.pdf
-[11]: http://portal.acm.org/citation.cfm?id=566110
-[12]: http://www.javaworld.com/jw-03-2000/jw-03-pushlet.html
-[13]: http://www.pushlets.com/
-[14]: http://www.linkedin.com/in/coplien
+[11]: https://portal.acm.org/citation.cfm?id=566110
+[12]: https://www.infoworld.com/article/2076063/pushlets--send-events-from-servlets-to-dhtml-client-browsers.html
+[13]: https://www.pushlets.com/
+[14]: https://www.linkedin.com/in/coplien
 [15]: https://files.justobjects.nl/doc/bltj97.pdf
 [16]: https://files.justobjects.nl/doc/hpdc96.pdf
 [17]: https://files.justobjects.nl/doc/hpdc-slides/index.htm
-[18]: http://www.sciencedirect.com/science/article/pii/0045653583901984
+[18]: https://www.sciencedirect.com/science/article/pii/0045653583901984
 [19]: https://files.justobjects.nl/doc/choudhry1983.pdf
-[20]: http://www.sciencedirect.com/science/article/pii/0045653587902578
+[20]: https://www.sciencedirect.com/science/article/pii/0045653587902578
 [21]: https://files.justobjects.nl/doc/choudhry1987.pdf
 [22]: ttp://onlinelibrary.wiley.com/doi/10.1002/etc.5620050703/abstract
 [23]: https://files.justobjects.nl/doc/choudhry1986.pdf
-[24]: http://www.sciencedirect.com/science/article/pii/0045653587902578
+[24]: https://www.sciencedirect.com/science/article/pii/0045653587902578
 [25]: https://bignieuws.nl/
 [26]: https://files.justobjects.nl/doc/geotoko-bignieuws-mrt2021.pdf
-[27]: http://magazine.cmedia.nl/bignieuws-2-2021#!/hapklare-basisregistratiedata-via-geotokonl
+[27]: https://magazine.cmedia.nl/bignieuws-2-2021#!/hapklare-basisregistratiedata-via-geotokonl
 [28]: https://publications.jrc.ec.europa.eu/repository/handle/JRC127730
 [29]: https://publications.jrc.ec.europa.eu/repository/bitstream/JRC127730/JRC127730_01.pdf

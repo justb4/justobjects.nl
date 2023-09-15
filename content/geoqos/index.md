@@ -16,10 +16,11 @@ But how would you know when a single layer is failing, or degrading in performan
 
 This requires [Geospatial Service-aware Monitoring][3].
 
-The Open Source tool [GeoHealthCheck (GHC)][4] does exactly that: detailed healthchecks on many (QoS) aspects of (OGC) geospatial web services. But you may want to be relieved of deploying and maintaining a GHC service instance yourself. Hence, geoqos.com offers Hosted GeoHealthCheck, in the Cloud, on a subscription basis.
+The Open Source tool [GeoHealthCheck (GHC)][4] does exactly that: 
+detailed healthchecks on many (QoS) aspects of (OGC) geospatial web services. But you may want to be relieved of deploying and maintaining a GHC service instance yourself. Hence, geoqos.com offers Hosted GeoHealthCheck, in the Cloud, on a subscription basis.
 
  [1]: https://geoqos.com
  [2]: https://geohealthcheck.org
- [3]: http://geohealthcheck.org/presentation/index.html
- [4]: http://geohealthcheck.org/
+ [3]: https://geohealthcheck.org/presentation/
+ [4]: https://geohealthcheck.org/
  [5]: /uploads/2018/12/logo-rectangle.png

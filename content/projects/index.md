@@ -20,6 +20,7 @@ and the [map5topo Newsletters #5 and later](https://us10.campaign-archive.com/ho
 
 Presentations:
 
+* **_"map5topo - een nieuwe, frisse topokaart van Nederland" - [FOSS4GNL Middelburg - September 14, 2023](https://foss4g.nl)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2023/map5topo-foss4gnl-2023.pdf).
 * **_"map5topo - a New Topographic Map of The Netherlands" - [Geomob Barcelona - November 22, 2022](https://thegeomob.com/post/nov-22nd-2022-geomobbcn-details)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/geomob-bcn-2022/map5topo.pdf).
 * **_"Introducing map5topo - a new Topographic Map of The Netherlands" - Information Sessions - Oktober 5+6, 2022 - Online_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/map5topo-2022/221005-info-session.pdf).
 
@@ -29,11 +30,11 @@ Develop a (the best!) topographic map of The Netherlands using both OpenStreetMa
 For Dutch Open Data using sources from Dutch Kadaster/PDOK: BAG, BRK, BRT, BGT, height data from AHN (hillshading and contour-lines),
 road info from NWB (Rijkswaterstaat).
 
-Major contributions by [Niene Boeijen](https://nieneb.nl/).
+Map design by [Niene Boeijen](https://nieneb.nl/).
 
 ### Comment
 
-This project was started in 2022 and is still continued in 2023. 
+This project was started in 2022 and is still continued. 
 Several of the projects mentioned below are used, in particular NLExtract for 
 ETL.
 This will become

@@ -5,26 +5,49 @@ type: page
 date: 2021-01-28T12:49:12+00:00
 
 ---
-Just Objects provides services for <a title="GIS, Geospatial IT, or Geo-ICT" href="http://en.wikipedia.org/wiki/Geographic_information_system" target="_blank">Geospatial IT</a>, also known as GIS or Geo-ICT, with a focus on <a href="http://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">Free and Open Source</a> (FOSS), Open Standards and Open Data.
+Just Objects B.V. is the trading name for the professional activities of [Just van den Broecke][13].
 
-Just Objects B.V. is the trading name for the professional activities of <a href="https://www.linkedin.com/in/justb4" target="_blank">Just van den Broecke</a>.
+You can [find Just&#8217;s CV here.][1] also [as PDF][2].
+
+Just Objects provides services for [Geospatial IT][14], also known as GIS or Geo-ICT, with a focus on [Free and Open Source][15] (FOSS), Open Standards and Open Data.
 
 The range of services includes: consultancy, training, development, hosting and maintenance.
 
-Just Objects is a member of the <a title="OpenGeoGroep" href="http://opengeogroep.nl" target="_blank">OpenGeoGroep Cooperation</a>.
+Just Objects is a member of the [OpenGeoGroep Cooperation][16].
 
-Just is an <a href="https://osgeo.org" target="_blank">OSGeo</a> <a href="http://wiki.osgeo.org/wiki/Just_van_den_Broecke" target="_blank">Charter member</a> and secretary of the <a title="OSGeo.nl" href="https://osgeo.nl" target="_blank">OSGeo.nl Foundation</a>, the Dutch Language Chapter of [OSGeo.org][1].
+Just is an <a href="https://osgeo.org" target="_blank">OSGeo</a> <a href="http://wiki.osgeo.org/wiki/Just_van_den_Broecke" target="_blank">Charter member</a> 
+and founder/former chair (and still on the board) 
+of <a title="OSGeo.nl" href="https://osgeo.nl" target="_blank">OSGeo.nl Foundation</a>, the Dutch Local Chapter of [OSGeo.org][1].
 
-The most active part of this website is [Just&#8217;s Blog][2], so look there or below for what is new.
+The most active part of this website should be [Just&#8217;s Blog][4], 
+but also checkout his contributions to &#8220;the commons&#8221; 
+via  [his Open Source projects][5] and [OSGeo.nl][6]. Latest blog posts:
 
-<!--via SimplePie with RSSImport-->
+* January 4, 2022 [Adiós 2021][19]
+* September 13, 2021 [Terraform First Steps][18]
+* January 20, 2021 [That Was 2020][7]
+* January 17, 2020 [Cheers to 2019][8]
+* May 31, 2019 [Second Time Around – WFS v3 and pygeoapi][9]
+* February 19, 2019 [Emit #6 – AirSensEUR Calibration][10]
+* January 11, 2019 [Cheers to 2018][11]
+* August 15, 2018 [Emit #5 – Assembling and Deploying 5 AirSensEURs – a Story in Pictures][12]
 
-  * <small>January 20, 2021</small>[That Was 2020][3]
-  * <small>January 17, 2020</small>[Cheers to 2019][4]
-  * <small>May 31, 2019</small>[Second Time Around – WFS v3 and pygeoapi][5]
-
- [1]: https://osgeo.org
- [2]: https://justobjects.nl/writings/blog/ "Just's Blog"
- [3]: https://justobjects.nl/that-was-2020/ "That Was 2020"
- [4]: https://justobjects.nl/cheers-to-2019/ "Cheers to 2019"
- [5]: https://justobjects.nl/2nd-time-around-wfs-v3-pygeoapi/ "Second Time Around – WFS v3 and pygeoapi"
+ [1]: https://files.justobjects.nl/doc/cv.html
+ [2]: https://files.justobjects.nl/doc/cv.pdf
+ [3]: https://osgeo.org
+ [4]: https://justobjects.nl/posts/ "Just's Blog"
+ [5]: https://justobjects.nl/projects/
+ [6]: https://osgeo.nl
+ [7]: https://justobjects.nl/that-was-2020/ "That Was 2020"
+ [8]: https://justobjects.nl/cheers-to-2019/ "Cheers to 2019"
+ [9]: https://justobjects.nl/2nd-time-around-wfs-v3-pygeoapi/ "Second Time Around – WFS v3 and pygeoapi"
+ [10]: https://justobjects.nl/emit-6-airsenseur-calibration/ "Emit #6 – AirSensEUR Calibration"
+ [11]: https://justobjects.nl/cheers-to-2018/ "Cheers to 2018"
+ [12]: https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/ "Emit #5 – Assembling and Deploying 5 AirSensEURs – a Story in Pictures"
+ [13]: httpss://www.linkedin.com/in/justb4
+ [14]: https://en.wikipedia.org/wiki/Geographic_information_system "GIS, Geospatial IT, or Geo-ICT"
+ [15]: https://en.wikipedia.org/wiki/Free_and_open-source_software
+ [16]: https://opengeogroep.nl
+ [17]: https://wiki.osgeo.org/wiki/Just_van_den_Broecke
+ [18]: https://justobjects.nl/terraform-first-steps/ "Terraform First Steps"
+ [19]: https://justobjects.nl/adios-2021/ "Adiós 2021"

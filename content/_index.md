@@ -16,20 +16,26 @@ The range of services includes: consultancy, training, development, hosting and 
 
 Just Objects is a member of the <a title="OpenGeoGroep" href="https://opengeogroep.nl" target="_blank">OpenGeoGroep Cooperation</a>.
 
-Just is an <a href="https://osgeo.org" target="_blank">OSGeo</a> <a href="http://wiki.osgeo.org/wiki/Just_van_den_Broecke" target="_blank">Charter member</a> and secretary of the <a title="OSGeo.nl" href="https://osgeo.nl" target="_blank">OSGeo.nl Foundation</a>, the Dutch Language Chapter of [OSGeo.org][1].
+Just is an <a href="https://osgeo.org" target="_blank">OSGeo</a> <a href="http://wiki.osgeo.org/wiki/Just_van_den_Broecke" target="_blank">Charter member</a> 
+and founder/former chair (and still on the board) 
+of <a title="OSGeo.nl" href="https://osgeo.nl" target="_blank">OSGeo.nl Foundation</a>, the Dutch Local Chapter of [OSGeo.org][1].
+
+He tries to be a regular OpenStreetMap mapper.
 
 The most active part of this website is [Just&#8217;s Blog][2], so look there or below for what is new.
 
 <!--via SimplePie with RSSImport-->
 
+  * <small>January 4, 2022</small>[Adiós 2021][7]
   * <small>September 13, 2021</small>[Terraform First Steps][6]
   * <small>January 20, 2021</small>[That Was 2020][3]
   * <small>January 17, 2020</small>[Cheers to 2019][4]
   * <small>May 31, 2019</small>[Second Time Around – WFS v3 and pygeoapi][5]
 
  [1]: https://osgeo.org
- [2]: https://justobjects.nl/writings/blog/ "Just's Blog"
+ [2]: https://justobjects.nl/blog/ "Just's Blog"
  [3]: https://justobjects.nl/that-was-2020/ "That Was 2020"
  [4]: https://justobjects.nl/cheers-to-2019/ "Cheers to 2019"
  [5]: https://justobjects.nl/2nd-time-around-wfs-v3-pygeoapi/ "Second Time Around – WFS v3 and pygeoapi"
  [6]: https://justobjects.nl/terraform-first-steps/ "Terraform first steps"
+ [7]: https://justobjects.nl/adios-2021/ "Adiós 2021"

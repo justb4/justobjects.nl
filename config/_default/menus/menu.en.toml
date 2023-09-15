@@ -11,31 +11,26 @@
 [[main]]
   name = "Writings"
   identifier = "Writings"
-  # url = "writings/"
+  url = "writings/"
   weight = -108
 [[main]]
   parent = "Writings"
   name = "Blog"
-  # url = "writings/blog/"
-  # url = "blog/"
   url = "posts/"
   weight = -99
 [[main]]
   parent = "Writings"
-  name = "Tweets"
-  # url = "writings/tweets/"
-  url = "tweets/"
+  name = "Presentations"
+  url = "presentations/"
   weight = -98
 [[main]]
   parent = "Writings"
-  name = "Presentations"
-  # url = "writings/presentations/"
-  url = "presentations/"
+  name = "Toots"
+  url = "toots/"
   weight = -97
 [[main]]
   parent = "Writings"
   name = "Publications"
-  # url = "writings/publications/"
   url = "publications/"
   weight = -96
 
@@ -51,7 +46,6 @@
   weight = -99
 [[main]]
   parent = "Projects"
-  # name = "Heron Mapping Client →"
   name = "Heron Mapping Client"
   url = "http://heron-mc.org"
   weight = -98
@@ -69,12 +63,12 @@
 [[main]]
   parent = "Projects"
   name = "Stetl – Streaming ETL"
-  url = "http://stetl.org"
+  url = "https://stetl.org"
   weight = -95
 [[main]]
   parent = "Projects"
   name = "NLExtract – Unlock Dutch Geodata"
-  url = "http://nlextract.nl"
+  url = "https://nlextract.nl"
   weight = -94
 [[main]]
   parent = "Projects"
@@ -84,7 +78,7 @@
 [[main]]
   parent = "Projects"
   name = "7Scenes – create mobile games and tours"
-  url = "http://7scenes.com"
+  url = "https://7scenes.com"
   weight = -92
 [[main]]
   parent = "Projects"
@@ -94,22 +88,22 @@
 [[main]]
   parent = "Projects"
   name = "GeoSkating – map your inline skating tracks"
-  url = "http://geoskating.com"
+  url = "https://geoskating.com"
   weight = -90
 [[main]]
   parent = "Projects"
   name = "GeoRambling – Just’s Multimedial GPS Hikes"
-  url = "http://georambling.com"
+  url = "https://georambling.com"
   weight = -89
 [[main]]
   parent = "Projects"
-  name = "Pushlets – PubSub via HTTP"
-  url = "http://pushlets.com"
+  name = "Pushlets – PubSub via HTTP (stale)"
+  url = "https://pushlets.com"
   weight = -88
 [[main]]
   parent = "Projects"
   name = "CowCatcher – Free Java Training Materials"
-  url = "http://justobjects.org/cowcatcher"
+  url = "https://justobjects.org/cowcatcher"
   weight = -87
 
 [[main]]
@@ -167,10 +161,6 @@
   name = "mastodon"
   weight = 2
   url = "https://mapstodon.space/@justb4"
-[[social]]
-  name = "twitter"
-  weight = 3
-  url = "https://twitter.com/justb4"
 [[social]]
   name = "github"
   type = "social"

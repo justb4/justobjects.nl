@@ -8,9 +8,17 @@ date: 2023-09-14T07:04:13+00:00
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
 
-**_"map5topo - een nieuwe, frisse topokaart van Nederland" - [FOSS4GNL Middelburg - September 14, 2022](https://foss4g.nl)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2023/map5topo-foss4gnl-2023.pdf).
+**_"map5topo - een nieuwe, frisse topokaart van Nederland" - [FOSS4GNL Middelburg - September 14, 2023](https://foss4g.nl)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2023/map5topo-foss4gnl-2023.pdf).
 
-**_"OpenStreetMap: Slim de kaart editen met apps!" - Met [Casper Kersten](https://www.openstreetmap.org/user/Friendly_Ghost) - [FOSS4GNL Middelburg - September 13, 2022](https://foss4g.nl)_** - [\[Workshop Website\]](https://osmws.osgeo.nl) - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2023/osm-workshop-foss4gnl-2023.pdf).
+**_"OpenStreetMap: Slim de kaart editen met apps!" - Met [Casper Kersten](https://www.openstreetmap.org/user/Friendly_Ghost) - [FOSS4GNL Middelburg - September 13, 2023](https://foss4g.nl)_** - [\[Workshop Website\]](https://osmws.osgeo.nl) - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2023/osm-workshop-foss4gnl-2023.pdf).
+
+**_"GeoHealthCheck - A Quality of Service Monitor for Geospatial Web Services" - with Tom Kralidis - [FOSS4G 2023](https://2023.foss4g.org/) - June 30, 2023_** - [\[HTML Slides\]](https://geohealthcheck.org/presentation/) - [\[Abstract\]](https://talks.osgeo.org/foss4g-2023/talk/FJFFMF/). 
+
+**_"pygeoapi project status 2023" - with Tom Kralidis a.o. - [FOSS4G 2023](https://2023.foss4g.org/) - June 30, 2023_** - [\[HTML Slides\]](https://pygeoapi.io/presentations/foss4g2023/) - [\[Abstract\]](https://talks.osgeo.org/foss4g-2023/talk/7WYYYR/). 
+
+**_"Diving into pygeoapi" - [FOSS4G 2023](https://2023.foss4g.org/) - June 27, 2023_** - Workshop (4h): using pygeoapi to cover publishing geospatial data to the Web, and using the API from QGIS, OWSLib and a web browser -  [\[HTML Startpage\]](https://dive.pygeoapi.io) - [\[Abstract\]](https://talks.osgeo.org/foss4g-2023-workshop/talk/U7JEEF/).
+
+**_"Doing Geospatial in Python" - [FOSS4G 2023](https://2023.foss4g.org/) - June 26, 2023_** - Workshop (4h): introduction to performing common GIS/geospatial tasks using Python geospatial tools such as OWSLib, Shapely, Fiona/Rasterio, GeoPandas and common geospatial libraries like GDAL, PROJ, pycsw, as well as other tools from the geopython toolchain. -  [\[HTML Startpage\]](https://geopython.github.io/geopython-workshop/) - [\[Abstract\]](https://talks.osgeo.org/foss4g-2023-workshop/talk/ZS7R93/).
 
 **_"Additions to pygeoapi for Geonovum Tender (with GeoCat) - April 20, 2023 - Online_** - [\[HTML Slides\]](https://pygeoapi.io/presentations/geonovum-tender-2023/).
 
