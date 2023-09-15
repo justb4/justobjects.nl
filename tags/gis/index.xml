@@ -1542,7 +1542,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
       <guid>https://justobjects.nl/cheers-to-2018/</guid>
       <description>
         
-          &lt;p&gt;Never too late to look back. Inspired by the concise bullet-point-style of Tom Kralidis’ &lt;a href=&#34;http://www.kralidis.ca/blog/2018/12/28/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cheers to 2018&lt;/a&gt;
+          &lt;p&gt;Never too late to look back. Inspired by the concise bullet-point-style of Tom Kralidis’ &lt;a href=&#34;https://www.kralidis.ca/blog/2018/12/28/cheers-to-2018/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cheers to 2018&lt;/a&gt;
 ,  my personal highlights of living and working in the Open Source Geospatial and OSGeo(.nl|org)-world in 2018. I’ll post 2019 reso’s later. Not just personal projects, but also events from the &lt;a href=&#34;https://osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo.nl Local Chapter&lt;/a&gt;
  in which I am involved since its beginnings.&lt;/p&gt;
 &lt;h3 id=&#34;january&#34;&gt;January&lt;/h3&gt;
@@ -1701,7 +1701,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 ? Yes, the &lt;a href=&#34;https://postgisdag.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PostGIS Day&lt;/a&gt;
 ! That’s exactly what the LOC team (Steven M. Ottens and Tom van Tilburg) organized. Deliberately keeping it low-profile to attract high-profile PostGIS hackers. And how they did! The format was an &lt;a href=&#34;https://en.wikipedia.org/wiki/Unconference&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;unconference&lt;/a&gt;
 . Even as a considered PostGIS veteran (starting with a PostGIS workshop from &lt;a href=&#34;http://2006.foss4g.org/contributionDisplay0b28.html?contribId=47&amp;amp;sessionId=61&amp;amp;confId=1&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Paul Ramsey in Lausanne 2006&lt;/a&gt;
-) my  brain was crushing hearing stuff like from &lt;a href=&#34;http://www.gdmc.nl/martijn/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Martijn Meijers&lt;/a&gt;
+) my  brain was crushing hearing stuff like from &lt;a href=&#34;https://www.gdmc.nl/martijn/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Martijn Meijers&lt;/a&gt;
  - &lt;em&gt;&lt;a href=&#34;https://www.google.com/search?q=Indexing&amp;#43;AIS&amp;#43;data&amp;#43;%2F&amp;#43;point&amp;#43;clouds&amp;#43;with&amp;#43;a&amp;#43;Space&amp;#43;Filling&amp;#43;Curve&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;aq=t&amp;amp;channel=rcs&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Indexing AIS data / point clouds with a Space Filling Curve&lt;/a&gt;
 &lt;/em&gt;.&lt;/p&gt;
 
@@ -1799,7 +1799,7 @@ Contributed &lt;a href=&#34;https://github.com/CrunchyData/pg_tileserv/blob/mast
 &lt;p&gt;&lt;img src=&#34;https://justobjects.nl/uploads/2018/01/se-google.jpg&#34; alt=&#34;Smart Emission Googled&#34;&gt;&lt;/p&gt;
 &lt;p&gt;What made these projects exciting for me is that they brought together many aspects and technologies (read: Open Source projects and &lt;a href=&#34;https://www.osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OSGeo software&lt;/a&gt;
 ) I had been &lt;a href=&#34;https://justobjects.nl/projects/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;working on&lt;/a&gt;
- through the years. Also, it was the first time I got back into Environmental Chemistry, for which I hold a master’s degree from the University of Amsterdam, &lt;a href=&#34;https://justobjects.nl/writings/publications/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;co-authoring some publications&lt;/a&gt;
+ through the years. Also, it was the first time I got back into Environmental Chemistry, for which I hold a master’s degree from the University of Amsterdam, &lt;a href=&#34;https://justobjects.nl/publications/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;co-authoring some publications&lt;/a&gt;
 , yes, many many years ago.&lt;/p&gt;
 &lt;p&gt;So what is the &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
  and what makes it exciting and relevant? In a nutshell (&lt;a href=&#34;http://smartplatform.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;read the tech doc here&lt;/a&gt;

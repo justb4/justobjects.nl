@@ -187,8 +187,8 @@ to that of Samba. A regular cronjob extracts all top-Shoutcast channels.&lt;/p&g
       <guid>https://justobjects.nl/h/</guid>
       <description>
         
-          &lt;p&gt;Investigated the &lt;a href=&#34;http://www.w3.org/AudioVideo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;W3C SMIL (Synchronized Multimedia Interchange Language)&lt;/a&gt;
-. Goal was to see what SMIL is and how it can be used in the &lt;a href=&#34;http://www.keyworx.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KeyWorX&lt;/a&gt;
+          &lt;p&gt;Investigated the &lt;a href=&#34;https://www.w3.org/AudioVideo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;W3C SMIL (Synchronized Multimedia Interchange Language)&lt;/a&gt;
+. Goal was to see what SMIL is and how it can be used in the &lt;a href=&#34;https://www.keyworx.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KeyWorX&lt;/a&gt;
  multi-user environment.&lt;/p&gt;
 &lt;p&gt;(from &lt;a href=&#34;http://www.w3.org/AudioVideo&#34;&gt;http://www.w3.org/AudioVideo&lt;/a&gt;)&lt;br&gt;
 The Synchronized Multimedia Integration Language (SMIL, pronounced &amp;quot;smile&amp;quot;) enables simple authoring of interactive audiovisual presentations. SMIL is typically used for &amp;quot;rich media&amp;quot;/multimedia presentations which integrate streaming audio and video with images, text or any other media type. SMIL is an easy-to-learn HTML-like language, and many SMIL presentations are written using a simple text-editor.&lt;/p&gt;
@@ -197,7 +197,7 @@ The Synchronized Multimedia Integration Language (SMIL, pronounced &amp;quot;smi
 &lt;li&gt;&lt;a href=&#34;http://www.xml.com/pub/a/2002/05/29/smil.html&#34;&gt;http://www.xml.com/pub/a/2002/05/29/smil.html&lt;/a&gt; – good starting point, create your first SMIL presentation in 21 minutes!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.helio.org/products/smil/tutorial/toc.html&#34;&gt;http://www.helio.org/products/smil/tutorial/toc.html&lt;/a&gt; – good&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.cwi.nl/~media/SMIL/Tutorial/SMILTut.html&#34;&gt;http://www.cwi.nl/~media/SMIL/Tutorial/SMILTut.html&lt;/a&gt; – slides&lt;/li&gt;
-&lt;li&gt;do a &lt;a href=&#34;http://www.google.com/search?q=SMIL&amp;#43;Tutorial&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Google search on SMIL tutorial&lt;/a&gt;
+&lt;li&gt;do a &lt;a href=&#34;https://www.google.com/search?q=SMIL&amp;#43;Tutorial&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Google search on SMIL tutorial&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 

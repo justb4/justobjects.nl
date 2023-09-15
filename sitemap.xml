@@ -2,11 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://justobjects.nl/toots/</loc>
+    <lastmod>2023-09-15T10:09:09+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/contact/</loc>
+    <lastmod>2023-09-14T10:05:10+00:00</lastmod>
+  </url><url>
     <loc>https://justobjects.nl/presentations/</loc>
     <lastmod>2023-09-14T07:04:13+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/projects/</loc>
     <lastmod>2023-05-15T09:25:31+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/map5/</loc>
+    <lastmod>2023-03-20T22:35:36+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/publications/</loc>
     <lastmod>2022-01-10T09:16:55+00:00</lastmod>
@@ -92,9 +101,6 @@
     <loc>https://justobjects.nl/drafts/</loc>
     <lastmod>2022-01-04T12:49:12+00:00</lastmod>
   </url><url>
-    <loc>https://justobjects.nl/contact/</loc>
-    <lastmod>2021-09-22T16:05:10+00:00</lastmod>
-  </url><url>
     <loc>https://justobjects.nl/tags/ansible/</loc>
     <lastmod>2021-09-13T13:24:25+00:00</lastmod>
   </url><url>
@@ -122,17 +128,11 @@
     <loc>https://justobjects.nl/</loc>
     <lastmod>2021-06-28T12:49:12+00:00</lastmod>
   </url><url>
-    <loc>https://justobjects.nl/tweets/</loc>
-    <lastmod>2021-06-24T11:09:09+00:00</lastmod>
-  </url><url>
     <loc>https://justobjects.nl/blog/</loc>
     <lastmod>2021-06-23T08:09:56+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/writings/</loc>
     <lastmod>2021-06-22T15:53:29+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/about/</loc>
-    <lastmod>2021-06-22T13:59:27+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/front/</loc>
     <lastmod>2021-01-28T12:49:12+00:00</lastmod>
@@ -316,9 +316,6 @@
   </url><url>
     <loc>https://justobjects.nl/tales-from-topographic-lowlands/</loc>
     <lastmod>2015-05-08T00:20:28+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/map5/</loc>
-    <lastmod>2015-03-20T22:35:36+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/tags/3d/</loc>
     <lastmod>2015-01-29T14:06:51+00:00</lastmod>
