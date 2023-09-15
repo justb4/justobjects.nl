@@ -9,7 +9,8 @@ Just Objects B.V. is the trading name for the professional activities of [Just v
 
 You can [find Just&#8217;s CV here.][1] also [as PDF][2].
 
-Just Objects provides services for [Geospatial IT][14], also known as GIS or Geo-ICT, with a focus on [Free and Open Source][15] (FOSS), Open Standards and Open Data.
+Just Objects provides services for [Geospatial IT][14], also known as GIS or Geo-ICT, 
+with a focus on [Free and Open Source][15] (FOSS), Open Standards and Open Data.
 
 The range of services includes: consultancy, training, development, hosting and maintenance.
 
@@ -18,6 +19,8 @@ Just Objects is a member of the [OpenGeoGroep Cooperation][16].
 Just is an <a href="https://osgeo.org" target="_blank">OSGeo</a> <a href="http://wiki.osgeo.org/wiki/Just_van_den_Broecke" target="_blank">Charter member</a> 
 and founder/former chair (and still on the board) 
 of <a title="OSGeo.nl" href="https://osgeo.nl" target="_blank">OSGeo.nl Foundation</a>, the Dutch Local Chapter of [OSGeo.org][1].
+
+He tries to be a regular [OpenStreetMap mapper](https://www.openstreetmap.org/user/justb).
 
 The most active part of this website should be [Just&#8217;s Blog][4], 
 but also checkout his contributions to &#8220;the commons&#8221; 

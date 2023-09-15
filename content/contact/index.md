@@ -9,10 +9,10 @@ Just Objects B.V.
 Just van den Broecke &#8211; Director  
 [Resume/CV][1]
  
-LinkedIn: [linkedin.com/in/justb4][6]
-Patreon: [patreon.com/justb4][2]  
-GitHub: [github.com/justb4][3]  
-Mastodon: [mapstodon.space/@justb4][4]
+LinkedIn: [linkedin.com/in/justb4][6]  
+Patreon: [patreon.com/justb4][2]    
+GitHub: [github.com/justb4][3]    
+Mastodon: [mapstodon.space/@justb4][4]  
 
 van der Hoochlaan 3  
 1181 PL Amstelveen  

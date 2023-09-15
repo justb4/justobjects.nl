@@ -20,7 +20,7 @@ Just is an <a href="https://osgeo.org" target="_blank">OSGeo</a> <a href="http:/
 and founder/former chair (and still on the board) 
 of <a title="OSGeo.nl" href="https://osgeo.nl" target="_blank">OSGeo.nl Foundation</a>, the Dutch Local Chapter of [OSGeo.org][1].
 
-He tries to be a regular OpenStreetMap mapper.
+He tries to be a regular [OpenStreetMap mapper](https://www.openstreetmap.org/user/justb).
 
 The most active part of this website is [Just&#8217;s Blog][2], so look there or below for what is new.
 
