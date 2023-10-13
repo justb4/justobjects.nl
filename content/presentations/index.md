@@ -2,11 +2,13 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2023-09-14T07:04:13+00:00
+date: 2023-10-13T07:04:13+00:00
 
 ---
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
+
+**_"map5topo - A New&Fresh Topographic Map of The Netherlands" - [MaptimeAMS - Mapping the Future - October 12, 2023](https://www.meetup.com/maptime-ams/events/296554603)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2023/map5topo-maptime-2023.pdf).
 
 **_"map5topo - een nieuwe, frisse topokaart van Nederland" - [FOSS4GNL Middelburg - September 14, 2023](https://foss4g.nl)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2023/map5topo-foss4gnl-2023.pdf).
 

@@ -15,11 +15,16 @@ The most recent and active projects start from the top. Warning: some links are 
 
 # map5topo
 
+map5topo is a new (2023) topographic digital map covering The Netherlands plus parts of bordering countries. 
+The map5topo project started in April 2022 and is ongoing since.
+
 See the [map5.nl website](https://map5.nl) 
 and the [map5topo Newsletters #5 and later](https://us10.campaign-archive.com/home/?u=dc76804d91aeb81849bd5071c&id=53b2ade233) (sorry in Dutch).
+Technical documentation the [map5topo website](https://map5topo.nl) 
 
-Presentations:
+Presentations (most recent first):
 
+* **_"map5topo - A New&Fresh Topographic Map of The Netherlands" - [MaptimeAMS - Mapping the Future - October 12, 2023](https://www.meetup.com/maptime-ams/events/296554603)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2023/map5topo-maptime-2023.pdf).
 * **_"map5topo - een nieuwe, frisse topokaart van Nederland" - [FOSS4GNL Middelburg - September 14, 2023](https://foss4g.nl)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2023/map5topo-foss4gnl-2023.pdf).
 * **_"map5topo - a New Topographic Map of The Netherlands" - [Geomob Barcelona - November 22, 2022](https://thegeomob.com/post/nov-22nd-2022-geomobbcn-details)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/geomob-bcn-2022/map5topo.pdf).
 * **_"Introducing map5topo - a new Topographic Map of The Netherlands" - Information Sessions - Oktober 5+6, 2022 - Online_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/map5topo-2022/221005-info-session.pdf).
@@ -34,11 +39,9 @@ Map design by [Niene Boeijen](https://nieneb.nl/).
 
 ### Comment
 
-This project was started in 2022 and is still continued. 
-Several of the projects mentioned below are used, in particular NLExtract for 
-ETL.
-This will become
-an Open Source project once the code and data ETL has been cleaned-up.
+This project was started in 2022 and is ongoing. 
+Several of the projects mentioned below are used, in particular NLExtract for ETL.
+This will become an Open Source project once the code and data ETL has been cleaned-up.
 
 # Wegue
 

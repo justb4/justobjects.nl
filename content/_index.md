@@ -3,7 +3,7 @@ title: "Just Objects"
 author: Just van den Broecke
 featured_image: 'uploads/2021/01/backstage-view-by-niene.jpg'
 description: ""
-date: 2021-06-28T12:49:12+00:00
+date: 2023-10-12T12:49:12+00:00
 ---
 
 Just Objects provides services for
