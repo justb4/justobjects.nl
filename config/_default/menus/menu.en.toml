@@ -19,8 +19,8 @@
   weight = -98
 [[main]]
   parent = "Writings"
-  name = "Toots"
-  url = "toots/"
+  name = "Mastodon"
+  url = "mastodon/"
   weight = -97
 [[main]]
   parent = "Writings"

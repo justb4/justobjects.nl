@@ -22,6 +22,10 @@ already converted to these formats. At reasonable prices!
 There is a (CKAN-based)  [GeoCatalogue][2] and we provide a [Helpdesk][3] and 
 a regular [Newsletter][4]. All in Dutch btw.
 
+Notifications, mainly new datasets, for [geotoko.nl](https://geotoko.nl) are still on Twitter/X:
+
+* [[twitter.com/geotoko_nl]](https://twitter.com/geotoko_nl) - Tweets related to [geotoko.nl](https://geotoko.nl)
+
  [1]: https://geotoko.nl
  [2]: https://geocatalogus.nl
  [3]: https://geotoko.freshdesk.com
