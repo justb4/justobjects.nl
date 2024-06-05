@@ -127,7 +127,6 @@
   weight = -101
 
 # social menu links
-
 [[social]]
   name = "linkedin"
   weight = 1
@@ -142,13 +141,17 @@
   weight = 4
   url = "https://github.com/justb4"
 [[social]]
+  name = "youtube"
+  url = "https://www.youtube.com/@georambler"
+  weight = 5
+[[social]]
   name = "rss"
   url = "https://justobjects.nl/index.xml"
-  weight = 5
+  weight = 6
 
 # other supported social links
 # name = "youtube"
-# url = "https://www.youtube.com/#"
+# url = "https://www.youtube.com/@georambler"
 # name = "facebook"
 # url = "https://facebook.com/#"
 # name = "instagram"
