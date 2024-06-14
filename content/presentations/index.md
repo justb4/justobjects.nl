@@ -136,14 +136,12 @@ Some slides are on [\[Slideshare\]][1]
 
 **_"OSGeo.nl Evolution and Status Report" - 2012-09-12 - Presented at the OSGeo.nl IRL Meeting on sept 12 2012. OSGeo.nl is the Dutch Language Chapter of OSGeo.org, the Open Source Geospatial Foundation. The mission of OSGeo.nl is to spread and promote the knowledge, use and adoption of Open Source Software and -Data for Geo-information within the Dutch language area. This presentation shows the OSGeo.nl history since 2007 leading into the current status as of 120912. See https://osgeo.nl._** - [\[Slideshare\]](https://www.slideshare.net/justb4/os-geonl-statusjustvandenbroecke1024)
 
-**_"How to get rich and save the world with Open Source - Keynote OSGeo.nl Day" - 2012-06-28 - Keynote slides used at OSGeo.nl Day June 28, 2012 in Velp, The Netherlands. See also https://osgeo.nl. Shows models of doing business with Open Source using a value chain. Also introduces OSGeo, OSGeo.nl._** - [\[Slideshare\]](https://www.slideshare.net/justb4/how-to-get-rich-and-save-the-world-with-open-source-keynote-osgeonl-day)
-
-**_"The Heron Mapping Client" - 2012-06-19 - Presentation of the Heron Mapping Client at the OSGeo Bolsena Codesprint 2012. Heron is a browser-based JavaScript client for visualizaing and manipullating geospatial maps and data. Heron MC is based on OpenLayers, GeoExt and ExtJS and is Open Source under the GPL v3 license._** - [\[Slideshare\]](https://www.slideshare.net/justb4/the-heron-mapping-client)
+**_"How to get rich and save the world with Open Source - Keynote OSGeo.nl Day" - 2012-06-28 - Keynote slides used at OSGeo.nl Day June 28, 2012 in Velp, The Netherlands. See also https://osgeo.nl. Shows models of doing business with Open Source using a value chain. Also introduces OSGeo, OSGeo.nl._** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/osgeonl-dag-2012/how-to-get-rich-etc.pdf).
 
 **_"GeoRambling with OpenTraces" - OSGeo Bolsena - June 14, 2012_**  
 [\[HTML Slides\]][4] [\[PDF Slides\]][5]
 
-**_"Heron Web Mapping Client" - OSGeo Bolsena - June 11, 2012_**  
+**_"The Heron Mapping Client" - 2012-06-11 - Presentation of the Heron Mapping Client at the OSGeo Bolsena Codesprint 2012. Heron is a browser-based JavaScript client for visualizaing and manipullating geospatial maps and data. Heron MC is based on OpenLayers, GeoExt and ExtJS and is Open Source under the GPL v3 license._** 
 [\[HTML Slides\]][6] [\[PDF Slides\]][7]
 
 **_"OSGeo.nl - Doe Mee !" - Geo Freedom Day, Baarn, NL - December 11, 2011_**  
