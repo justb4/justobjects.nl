@@ -255,7 +255,7 @@ Some slides are on [\[Slideshare\]][1]
 [37]: https://files.justobjects.nl/presentation/bolsena-7scenes/index.html
 [38]: https://files.justobjects.nl/presentation/bolsena-jeeves-tester/index.html
 [39]: https://files.justobjects.nl/presentation/7scenesjk/index.html
-[40]:  https://www.geotracing.com/presentation
+[40]:  https://files.justobjects.nl/presentation/foss4g-2006/index.html
 [41]:  https://www.pushlets.com/presentation
 [42]: https://files.justobjects.nl/presentation/geotracing-lm-05/index.html
 [43]: https://files.justobjects.nl/presentation/jspring05/index.html
