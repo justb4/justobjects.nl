@@ -2,11 +2,19 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2023-10-13T07:04:13+00:00
+date: 2024-07-12T07:04:13+00:00
 
 ---
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
+
+**_"Travel with Locative Media" - [MaptimeAMS - Summertime Meetup - July 11, 2024](https://www.meetup.com/maptime-ams/events/301733093/)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2024/travel-locmedia-2024.pdf).
+
+**_"pygeoapi mid-year update 2024" - with Tom Kralidis a.o. - [FOSS4GE 2024, Tartu, Estonia](https://2024.europe.foss4g.org/) - July 3, 2024_** - [\[HTML Slides\]](https://pygeoapi.io/presentations/foss4g-europe2024/) - [\[Abstract\]](https://talks.osgeo.org/foss4g-europe-2024/talk/EQSNSK/). 
+
+**_"Diving into pygeoapi" - [FOSS4GE 2024, Tartu, Estonia](https://2024.europe.foss4g.org/) - July 2, 2024_** - Workshop (4h): using pygeoapi to cover publishing geospatial data to the Web, and using the API from QGIS, OWSLib and a web browser -  [\[HTML Startpage\]](https://dive.pygeoapi.io) - [\[Abstract\]](https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/FEZSAC/).
+
+**_"Doing Geospatial in Python" - [FOSS4GE 2024, Tartu, Estonia](https://2024.europe.foss4g.org/) - July 2, 2024_** - Workshop (4h): introduction to performing common GIS/geospatial tasks using Python geospatial tools such as OWSLib, Shapely, Fiona/Rasterio, GeoPandas and common geospatial libraries like GDAL, PROJ, pycsw, as well as other tools from the geopython toolchain. -  [\[HTML Startpage\]](https://geopython.github.io/geopython-workshop/) - [\[Abstract\]](https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/NTYN7P/).
 
 **_"map5topo - A New&Fresh Topographic Map of The Netherlands" - [MaptimeAMS - Mapping the Future - October 12, 2023](https://www.meetup.com/maptime-ams/events/296554603)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2023/map5topo-maptime-2023.pdf).
 
