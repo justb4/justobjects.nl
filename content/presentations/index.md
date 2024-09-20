@@ -8,6 +8,8 @@ date: 2024-07-12T07:04:13+00:00
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
 
+**_"Melting Dutch open data and OpenStreetMap into a single schema" - [MaptimeAMS - End of Summer Meetup - Sept 19, 2024](https://www.meetup.com/maptime-ams/events/301851869)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2024/map5-data-maptime-just-2024.pdf).
+
 **_"Travel with Locative Media" - [MaptimeAMS - Summertime Meetup - July 11, 2024](https://www.meetup.com/maptime-ams/events/301733093/)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2024/travel-locmedia-2024.pdf).
 
 **_"pygeoapi mid-year update 2024" - with Tom Kralidis a.o. - [FOSS4GE 2024, Tartu, Estonia](https://2024.europe.foss4g.org/) - July 3, 2024_** - [\[HTML Slides\]](https://pygeoapi.io/presentations/foss4g-europe2024/) - [\[Abstract\]](https://talks.osgeo.org/foss4g-europe-2024/talk/EQSNSK/). 
