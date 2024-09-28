@@ -2,11 +2,13 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2024-07-12T07:04:13+00:00
+date: 2024-09-28T07:04:13+00:00
 
 ---
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
+
+**_"Basisregistraties en OpenStreetMap mixen voor map5topo kaarten" - [FOSS4G-BE-NL - Baarle - Sept 26, 2024](https://foss4g.nl/)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gbenl-2024/map5-data-foss4gbenl-just-2024.pdf).
 
 **_"Melting Dutch open data and OpenStreetMap into a single schema" - [MaptimeAMS - End of Summer Meetup - Sept 19, 2024](https://www.meetup.com/maptime-ams/events/301851869)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2024/map5-data-maptime-just-2024.pdf).
 
