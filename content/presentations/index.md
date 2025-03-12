@@ -2,11 +2,15 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2024-09-28T07:04:13+00:00
+date: 2025-03-12T07:04:13+00:00
 
 ---
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
+
+**_"Docker for Geo Workshop - Provided March 2025"_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/docker-workshop-2025/lego-bash-docker.pdf).
+
+**_"OpenStreetMap Workshops - Provided in Spain Feb 2025 - Alpumapa - Mapas y Tapas" - [alpumapa.xyz](https://alpumapa.xyz/)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/alpumapa/osm-workshop-alpumapa-2025-v1.pdf).
 
 **_"Basisregistraties en OpenStreetMap mixen voor map5topo kaarten" - [FOSS4G-BE-NL - Baarle - Sept 26, 2024](https://foss4g.nl/)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gbenl-2024/map5-data-foss4gbenl-just-2024.pdf).
 
