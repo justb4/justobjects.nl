@@ -8,6 +8,8 @@ date: 2025-03-27T07:04:13+00:00
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
 
+**_"Mapas y Tapas. A personal story of starting a local mapping community in Andalusia, Spain" - [MaptimeAMS - Springtime Mapping Party - April 16, 2025](https://www.meetup.com/maptime-ams/events/306803644/)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2025/maptime-alpumapa-2025-v1.pdf).
+
 **_"Wie MapLibre und Vektorkarten die Welt übernehmen" - [FOSSGIS 2025, Múnster, Germany](https://fossgis-konferenz.de/2025/) - March 26, 2025_** - [abstract](https://pretalx.com/fossgis2025/talk/7BYCBD/) - [VIDEO](https://ffmuc.media.ccc.de//events/fossgis/2025/h264-hd/fossgis2025-58293-deu-Wie_MapLibre_und_Vektorkarten_die_Welt_uebernehmen_hd.mp4) - [\[PDF Slides\]](https://files.justobjects.nl/presentation/fossgis2025/maplibre-fossgis-2025.pdf).
 
 **_"Docker for Geo Workshop - Provided March 2025"_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/docker-workshop-2025/lego-bash-docker.pdf).
