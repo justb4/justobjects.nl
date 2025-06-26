@@ -2,11 +2,13 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2025-03-27T07:04:13+00:00
+date: 2025-06-26T07:04:13+00:00
 
 ---
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
+
+**_"Natural Navigation (plus some evolution of navigation)" - [MaptimeAMS - Summertime Meetup - June 25, 2025](https://www.meetup.com/maptime-ams/events/308158861/)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2025/maptime-natural-nav-2025-v1.pdf).
 
 **_"Mapas y Tapas. A personal story of starting a local mapping community in Andalusia, Spain" - [MaptimeAMS - Springtime Mapping Party - April 16, 2025](https://www.meetup.com/maptime-ams/events/306803644/)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2025/maptime-alpumapa-2025-v1.pdf).
 
