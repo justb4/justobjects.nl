@@ -2,11 +2,13 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2025-06-26T07:04:13+00:00
+date: 2025-11-26T07:04:13+00:00
 
 ---
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
+
+**_"Natural Navigation Workshop" - [Party Niene Jeroen - Unconference - July 12, 2025](https://wiki.this-way.nl/index.php?title=Natural_Navigation)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/niene-jeroen-2025/natural-navigation-ws-2025.pdf).
 
 **_"Natural Navigation (plus some evolution of navigation)" - [MaptimeAMS - Summertime Meetup - June 25, 2025](https://www.meetup.com/maptime-ams/events/308158861/)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2025/maptime-natural-nav-2025-v1.pdf).
 
