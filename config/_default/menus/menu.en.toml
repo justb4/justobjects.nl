@@ -37,6 +37,11 @@
   parent = "Projects"
   name = "Overview"
   url = "projects/"
+  weight = -100
+[[main]]
+  parent = "Projects"
+  name = "OpenStreetMap Workshops in Spain"
+  url = "https://alpumapa.xyz"
   weight = -99
 [[main]]
   parent = "Projects"

@@ -2,7 +2,7 @@
 title: Projects
 author: Just van den Broecke
 type: page
-date: 2023-05-15T09:25:31+00:00
+date: 2025-09-09T09:25:31+00:00
 featured_image: uploads/2011/09/colorado-hiking-672x202.jpg
 
 ---
@@ -13,9 +13,33 @@ To see what he is working on today, best is to visit his [GitHub Profile](https:
 Below is an overview of the main projects. Each project has its own project page. 
 The most recent and active projects start from the top. Warning: some links are stale.
 
-# map5topo
+# Mapas y Tapas - 2025+ - OpenStreetMap Workshops in Spain
 
-map5topo is a new (2023) topographic digital map covering The Netherlands plus parts of bordering countries. 
+I spend part of the year in the [Alpujarra(s)](https://en.wikipedia.org/wiki/Alpujarras), in 
+Andalusia, Spain. 
+There, as maps in general are quite "sparse", even from [IGN.es](https://www.ign.es/), I initiated a series
+of OpenStreetMap mapping workshops, gradually building a local community of mappers. 
+
+The local group is aptly called "Mapas y Tapas", as a typical mapping party, "Fiesta de Mapeando" , here
+involves (free, libre) tapas as well.
+A typical workshop starts some theory, like "What is OSM" and then 
+we hit the streets with [EveryDoor](https://every-door.app/) 
+and [StreetComplete](https://streetcomplete.app/). 
+
+Gave multiple workshops, all through the websites I maintain:
+
+* https://alpumapa.xyz (English)
+* https://alpumapa.xyz/es (in Spanish)
+
+If you like to join, or cooperate on the materials, which are general, let me know!
+
+Also joined the [OSM-ES community](https://openstreetmap.es/) on Telegram, volunteered to maintain the [OSM-ES HOT Tasking Manager](https://github.com/OSM-es/tasking-manager)
+and working on a [proposal for importing SIOSE Landcover into OSM](https://community.openstreetmap.org/t/uso-de-siose-landuse-landcover-para-openstreetmap/134392).
+
+# map5topo - 2022+
+
+[map5topo](https://map5topo.nl) is a topographic digital map covering The Netherlands 
+plus parts of bordering countries, made with open data. 
 The map5topo project started in April 2022 and is ongoing since.
 
 See the [map5.nl website](https://map5.nl) 
@@ -24,6 +48,9 @@ Technical documentation the [map5topo website](https://map5topo.nl)
 
 Presentations (most recent first):
 
+* **_"Wie MapLibre und Vektorkarten die Welt übernehmen" - [FOSSGIS 2025, Múnster, Germany](https://fossgis-konferenz.de/2025/) - March 26, 2025_** - [abstract](https://pretalx.com/fossgis2025/talk/7BYCBD/) - [VIDEO](https://ffmuc.media.ccc.de//events/fossgis/2025/h264-hd/fossgis2025-58293-deu-Wie_MapLibre_und_Vektorkarten_die_Welt_uebernehmen_hd.mp4) - [\[PDF Slides\]](https://files.justobjects.nl/presentation/fossgis2025/maplibre-fossgis-2025.pdf).
+* **_"Basisregistraties en OpenStreetMap mixen voor map5topo kaarten" - [FOSS4G-BE-NL - Baarle - Sept 26, 2024](https://foss4g.nl/)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gbenl-2024/map5-data-foss4gbenl-just-2024.pdf).
+* **_"Melting Dutch open data and OpenStreetMap into a single schema" - [MaptimeAMS - End of Summer Meetup - Sept 19, 2024](https://www.meetup.com/maptime-ams/events/301851869)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2024/map5-data-maptime-just-2024.pdf).
 * **_"map5topo - A New&Fresh Topographic Map of The Netherlands" - [MaptimeAMS - Mapping the Future - October 12, 2023](https://www.meetup.com/maptime-ams/events/296554603)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2023/map5topo-maptime-2023.pdf).
 * **_"map5topo - een nieuwe, frisse topokaart van Nederland" - [FOSS4GNL Middelburg - September 14, 2023](https://foss4g.nl)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/foss4gnl-2023/map5topo-foss4gnl-2023.pdf).
 * **_"map5topo - a New Topographic Map of The Netherlands" - [Geomob Barcelona - November 22, 2022](https://thegeomob.com/post/nov-22nd-2022-geomobbcn-details)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/geomob-bcn-2022/map5topo.pdf).
@@ -39,7 +66,7 @@ Map design by [Niene Boeijen](https://nieneb.nl/).
 
 ### Comment
 
-This project was started in 2022 and is ongoing. 
+This project is ongoing. 
 Several of the projects mentioned below are used, in particular NLExtract for ETL.
 This will become an Open Source project once the code and data ETL has been cleaned-up.
 
