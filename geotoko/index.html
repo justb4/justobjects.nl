@@ -17,13 +17,13 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Via geotoko.nl ready-to-use Dutch Open Geospatial datasets are offered. These include Topography (BRT, BGT), Adresses and Buildings (BAG) and Cadastral Parcels …">
+<meta name="description" content="Via geotoko.nl ready-to-use Dutch Open Geospatial datasets are offered. These include Topography (BRT, BGT), Adresses and Buildings (BAG), Cadastral Parcels …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@justb4">
 <meta name="twitter:title" content="geotoko.nl" />
 <meta property="og:url" content="https://justobjects.nl/geotoko/" />
 <meta property="og:title" content="geotoko.nl" />
-<meta property="og:description" content="Via geotoko.nl ready-to-use Dutch Open Geospatial datasets are offered. These include Topography (BRT, BGT), Adresses and Buildings (BAG) and Cadastral Parcels …" />
+<meta property="og:description" content="Via geotoko.nl ready-to-use Dutch Open Geospatial datasets are offered. These include Topography (BRT, BGT), Adresses and Buildings (BAG), Cadastral Parcels …" />
 <meta property="og:image" content="https://justobjects.nl/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://justobjects.nl/icons/apple-touch-icon.png">
@@ -160,7 +160,7 @@
   <use xlink:href="#calendar"></use>
 </svg></span>
     <span class="post_date">
-      Sep 13, 2021</span>
+      Apr 1, 2026</span>
     <span class="post_time"> · 1 min read</span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
@@ -188,7 +188,7 @@
     
     <p>Via <a href="https://geotoko.nl" target="_blank" rel="noreferrer noopener">geotoko.nl</a>
  ready-to-use Dutch Open Geospatial datasets are offered.
-These include Topography (BRT, BGT), Adresses and Buildings (BAG) and Cadastral Parcels (BRK).</p>
+These include Topography (BRT, BGT), Adresses and Buildings (BAG), Cadastral Parcels (BRK) and OpenStreetMap (OSM).</p>
 
 <div class="">
   <a href="https://geotoko.nl/">
@@ -201,24 +201,52 @@ These include Topography (BRT, BGT), Adresses and Buildings (BAG) and Cadastral 
 
 <p>Why? Most of the Open Geospatial Datasets provided by the Dutch government (mostly via <a href="https://pdok.nl" target="_blank" rel="noreferrer noopener">Dutch Kadaster/PDOK</a>
 )
-are in an interchange format called &quot;GML&quot;. Many parties find this format hard to process.
-Via the Open Source project <a href="5">NLExtract</a>
+are in an interchange format called &quot;GML&quot;, an XML dialect. Many parties find this format hard to process.</p>
+<p>Via the Open Source project <a href="5">NLExtract</a>
  we have been providing ETL-tools to convert
-these datasets to &quot;chewable&quot; formats like PostGIS, GeoPackage and CSV.
+these datasets to &quot;chewable&quot;, &quot;hapklaar&quot; in Dutch, formats like PostGIS, GeoPackage and CSV.
 Still this may be a bridge too far for some. Hence we provide the datasets
-already converted to these formats. At reasonable prices!</p>
-<p>There is a (CKAN-based)  <a href="https://geocatalogus.nl" target="_blank" rel="noreferrer noopener">GeoCatalogue</a>
- and we provide a <a href="https://geotoko.freshdesk.com" target="_blank" rel="noreferrer noopener">Helpdesk</a>
- and
-a regular <a href="https://us10.campaign-archive.com/home/?u=c04ae15ca0f4a453f6a958769&amp;id=8de38e85db" target="_blank" rel="noreferrer noopener">Newsletter</a>
-. All in Dutch btw.</p>
-<p>Notifications, mainly new datasets, for <a href="https://geotoko.nl" target="_blank" rel="noreferrer noopener">geotoko.nl</a>
- are still on Twitter/X:</p>
-<ul>
-<li><a href="https://twitter.com/geotoko_nl" target="_blank" rel="noreferrer noopener">[twitter.com/geotoko_nl]</a>
- - Tweets related to <a href="https://geotoko.nl" target="_blank" rel="noreferrer noopener">geotoko.nl</a>
-</li>
-</ul>
+already converted to these formats. And at reasonable prices!</p>
+<p>Browse the <a href="https://geocatalogus.nl" target="_blank" rel="noreferrer noopener">Catalogue of Datasets</a>
+ for product details.</p>
+<p>We also publish a <a href="https://us10.campaign-archive.com/home/?u=c04ae15ca0f4a453f6a958769&amp;id=8de38e85db" target="_blank" rel="noreferrer noopener">Newsletter</a>
+. For questions and support there is a <a href="https://geotoko.freshdesk.com" target="_blank" rel="noreferrer noopener">Helpdesk</a>
+,
+simply invoked by sending email to <a href="mailto:support@geotoko.nl">support@geotoko.nl</a>. Also if you have questions now!</p>
+<p>Latest news, like announcing renewed datasets, via the <a href="https://mastodon.nl/@geotoko" target="_blank" rel="noreferrer noopener">geotoko account</a>
+ on Mastodon:</p>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@idotj/mastodon-embed-timeline@latest/dist/mastodon-timeline.min.css" >
+<script src="https://cdn.jsdelivr.net/npm/@idotj/mastodon-embed-timeline@latest/dist/mastodon-timeline.umd.js" ></script>
+
+<div id="mt-container" class="mt-container">
+  <div class="mt-body" role="feed">
+    <div class="mt-loading-spinner"></div>
+  </div>
+</div>
+<script>
+  
+  
+  
+  
+  window.addEventListener("load", () => {
+    const myTimeline = new MastodonTimeline.Init({
+      instanceUrl: "https://mastodon.nl",
+      timelineType: "profile",
+      userId: "113940475384473448",
+      profileName: "@geotoko",
+      maxNbPostFetch: "10",
+      maxNbPostShow: "10",
+      defaultTheme: "dark",
+      markdownBlockquote: true,
+      hidePinnedPosts: true,
+      hideReblog: true,
+    });
+  });
+</script>
+
 
 
   </article>
