@@ -9,7 +9,6 @@ Just Objects B.V.
 Just van den Broecke &#8211; Director  
 [Resume/CV][1]
  
-LinkedIn: [linkedin.com/in/justb4][6]  
 Patreon: [patreon.com/justb4][2]    
 GitHub: [github.com/justb4][3]    
 Mastodon: [mapstodon.space/@justb4][4]  
@@ -26,4 +25,3 @@ Web: [justobjects.nl][5]
  [3]: https://github.com/justb4
  [4]: https://mapstodon.space/@justb4
  [5]: https://justobjects.nl
- [6]: https://www.linkedin.com/in/justb4
