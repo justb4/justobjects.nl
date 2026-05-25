@@ -47,7 +47,7 @@ via  [his Open Source projects][5] and [OSGeo.nl][6]. Latest blog posts:
  [10]: https://justobjects.nl/emit-6-airsenseur-calibration/ "Emit #6 – AirSensEUR Calibration"
  [11]: https://justobjects.nl/cheers-to-2018/ "Cheers to 2018"
  [12]: https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/ "Emit #5 – Assembling and Deploying 5 AirSensEURs – a Story in Pictures"
- [13]: httpss://www.linkedin.com/in/justb4
+ [13]: https://mapstodon.space/@justb4
  [14]: https://en.wikipedia.org/wiki/Geographic_information_system "GIS, Geospatial IT, or Geo-ICT"
  [15]: https://en.wikipedia.org/wiki/Free_and_open-source_software
  [16]: https://opengeogroep.nl
