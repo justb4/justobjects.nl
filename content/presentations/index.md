@@ -8,7 +8,7 @@ date: 2025-07-04T07:04:13+00:00
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
 
-**_"Mapeo móvil para OpenStreetMap" - [Válor - Granada - Spain - alpumapa.xyz/es](https://alpumapa.xyz/es) (in Spanish)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/alpumapa/osm-workshop-es.pdf).
+**_"Mapeando con tu móvil para OpenStreetMap" - [Válor - Granada - Spain - alpumapa.xyz/es](https://alpumapa.xyz/es) (in Spanish)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/alpumapa/osm-workshop-es.pdf).
 
 **_"OpenStreetMap Mobile Mapping Workshop" - [Maptime AMS July 2025](https://www.meetup.com/maptime-ams/events/309055084/) - [alpumapa.xyz](https://alpumapa.xyz/)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/alpumapa/osm-workshop-2025-v2.pdf).
 
