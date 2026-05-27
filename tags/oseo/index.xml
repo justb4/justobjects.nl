@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OSeo on Clarity</title>
+    <link>https://justobjects.nl/tags/oseo/</link>
+    <description>Recent content in OSeo on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 25 May 2026 07:24:25 +0000</lastBuildDate><atom:link href="https://justobjects.nl/tags/oseo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adiós 2022-2025</title>
+      <link>https://justobjects.nl/adios-2022-2025/</link>
+      <pubDate>Mon, 25 May 2026 07:24:25 +0000</pubDate>
+      
+      <guid>https://justobjects.nl/adios-2022-2025/</guid>
+      <description>
+        
+          &lt;p&gt;Filling a 4-year gap here! Did not find time to post itemized yearly overviews, plus
+other updates. And that while even more has been happening compared to the past &amp;quot;COVID-years&amp;quot;.
+Will stick to highlights with a promise to add regular updates.&lt;/p&gt;
+&lt;p&gt;Below a brief overview of my professional life during 2022-2025.
+Highlights of living and working in the Open Source Geospatial and OSGeo(&lt;a href=&#34;https://osgeo.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;.nl&lt;/a&gt;
+|.&lt;a href=&#34;https://osgeo.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;org&lt;/a&gt;
+)-world,&lt;br&gt;
+organized by &amp;quot;Theme&amp;quot;.&lt;/p&gt;
+&lt;p&gt;TL;DR Main 2022-2025 highlights:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed a topographic map of The Netherlands: &lt;a href=&#34;https://map5topo/nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5topo&lt;/a&gt;
+ from public (OSM, Kadaster, ...) data-sources.&lt;/li&gt;
+&lt;li&gt;Back into OpenStreetMap &lt;a href=&#34;https://www.openstreetmap.org/user/justb&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;mapping&lt;/a&gt;
+ and more.&lt;/li&gt;
+&lt;li&gt;Part-time living and working in Southern Spain as &amp;quot;Un Nomad Digital&amp;quot;, &amp;quot;un teletrabajador&amp;quot;.&lt;/li&gt;
+&lt;li&gt;Combining the two above: providing &lt;a href=&#34;https://alpumapa.xyz&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenStreetMap Workshops in Spain&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Attending FOSS4G and other conferences, providing presentations and workshops&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Expanding these highlights.&lt;/p&gt;
+&lt;h2 id=&#34;1-map5topo---rich-topographic-map-of-the-netherlands&#34;&gt;1. map5topo - rich topographic map of The Netherlands&lt;/h2&gt;
+&lt;p&gt;According to &lt;a href=&#34;https://map5.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5.nl&lt;/a&gt;
+ customers we have a product to be proud of.
+I say specifically &amp;quot;we&amp;quot; as &lt;a href=&#34;https://map5topo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;map5topo&lt;/a&gt;
+ is developed
+together with top Dutch digital cartographer &lt;a href=&#34;https://nieneb.nl/online-projects/map5/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Niene Boeijen&lt;/a&gt;
+.
+The map5topo project started in April 2022 and is ongoing since.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://app.map5.nl/map5topo/full/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/map5topo/naarden.jpg&#34;
+      alt=&#34;map5topo Naarden&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;So what is the map5topo map about?
+In short: it is a digital raster+vector map covering The Netherlands
+constructed with Dutch Open Data and deployed via web &lt;em&gt;&amp;quot;mapping&amp;quot;&lt;/em&gt; services and apps. That is a mouthful, we&#39;ll break this up next.
+I often say to friends &lt;em&gt;&amp;quot;...like Google Maps, but prettier and much more detailed&amp;quot;&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;try-the-demo&#34;&gt;Try the demo!&lt;/h3&gt;
+&lt;p&gt;We can spend many words here, but if you are curious, &lt;a href=&#34;https://app.map5.nl/map5topo/full/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;try the free demo&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://app.map5.nl/map5topo/full/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/map5topo/demo-full.jpg&#34;
+      alt=&#34;map5topo demo&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;h3 id=&#34;constructed-with-dutch-open-data&#34;&gt;Constructed with Dutch Open Data&lt;/h3&gt;
+&lt;p&gt;These days, a digital map is created from &amp;quot;source data&amp;quot;.&lt;/p&gt;
+&lt;p&gt;map5topo source data originates from Open Datasets like the Dutch &lt;a href=&#34;https://www.geobasisregistraties.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Key Registries, Basisregistraties&lt;/a&gt;
+: BAG, BRT, BGT, BRK, ..., provided
+via &lt;a href=&#34;https://pdok.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Kadaster PDOK&lt;/a&gt;
+ and from &lt;a href=&#34;https://openstreetmap.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenStreetMap&lt;/a&gt;
+ data. Our challenge was to combine all these datasets into one
+uniform data model. I think we did a nice effort: take &amp;quot;the-best-of&amp;quot; from each dataset, unification in feature classification, plus
+scale-based detailing. See the &lt;a href=&#34;https://map5topo.nl/design/data/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;data design&lt;/a&gt;
+ for details.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://map5topo.nl/design/data/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/map5topo/data-design.jpg&#34;
+      alt=&#34;map5topo data design&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;h3 id=&#34;deployed-via-web-mapping-services&#34;&gt;Deployed via web mapping services&lt;/h3&gt;
+&lt;p&gt;map5topo is provided commercially by map5.nl via standardized &amp;quot;tiled&amp;quot; web services like &lt;a href=&#34;https://www.ogc.org/standards/wmts/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC WMTS&lt;/a&gt;
+, but also &amp;quot;XYZ&amp;quot;
+(Google/OSM tiles, a.k.a. Web Mercator) tiles. Currently, mainly raster (image) tiles, including &amp;quot;HQ Retina&amp;quot; (double density), but also experimental Vector Tiles.&lt;/p&gt;
+&lt;p&gt;Customers can integrate these maps into their applications. A well-known example is &lt;a href=&#34;https://www.wandelnet.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Wandelnet&lt;/a&gt;
+, a major hiking site in The Netherlands.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://www.wandelnet.nl/wandelroute/1874/Veluwe-Zwerfpad-etappe-02&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/map5topo/wandelnet.jpg&#34;
+      alt=&#34;map5topo wandelnet&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;There&#39;s also various &lt;a href=&#34;https://app.map5.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;apps we provide&lt;/a&gt;
+, like the &lt;a href=&#34;https://kadviewer.map5.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;KadViewer&lt;/a&gt;
+, originally a pilot-viewer for Dutch Kadaster.&lt;/p&gt;
+&lt;h3 id=&#34;try-it-on-your-phone&#34;&gt;Try it on your phone!&lt;/h3&gt;
+&lt;p&gt;There is a free map5topo app for mobile devices like smartphones and tablets for both &lt;a href=&#34;https://play.google.com/store/apps/details?id=nl.map5topo.viewerapp&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Android&lt;/a&gt;
+ and Apple IOS like iPhone.
+Developed by &lt;a href=&#34;https://github.com/louwers&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Bart Louwers&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://play.google.com/store/apps/details?id=nl.map5topo.viewerapp&amp;amp;hl=en&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/map5topo/map5topo-app-0.jpg&#34;
+      alt=&#34;map5topo app&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;h3 id=&#34;open-source-&#34;&gt;Open Source ?&lt;/h3&gt;
+&lt;p&gt;In the planning. &lt;a href=&#34;https://github.com/map5nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Some repos are already open&lt;/a&gt;
+. Let me know if you like to co-develop.&lt;/p&gt;
+&lt;h2 id=&#34;2-openstreetmap-mapping&#34;&gt;2. OpenStreetMap Mapping&lt;/h2&gt;
+&lt;p&gt;I am supposed to be a veteran OSM-mapper, &lt;a href=&#34;https://www.openstreetmap.org/user/justb&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;my profile&lt;/a&gt;
+ registered in 2005!
+But for many years my mapping efforts were zero.
+But in recent years I picked up mapping again.
+Regular mapping like hiking paths, and specialized projects like Dutch buildings and addresses with the &lt;a href=&#34;https://wiki.openstreetmap.org/wiki/NL:BAGupdate&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;JOSM BAG Updater&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;Mainly mapping in The Netherlands and Spain (latter see below).
+Over 17000 contributions in the last year now!&lt;/p&gt;
+&lt;h2 id=&#34;3-moving-to-southern-spain&#34;&gt;3. Moving to Southern Spain&lt;/h2&gt;
+&lt;p&gt;After renting homes three winters in the wonderful area of &lt;a href=&#34;https://en.wikipedia.org/wiki/Alpujarras&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The Alpujarras&lt;/a&gt;
+ (Andalusia),
+made the move to buy a small &amp;quot;cortijo&amp;quot;, a simple whitewashed house.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://en.wikipedia.org/wiki/Alpujarras&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/spain/casa-terrace.jpg&#34;
+      alt=&#34;casa terrace&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;What can I say? Landscapes, hiking, the people, the &amp;quot;fiestas&amp;quot;, birds &amp;amp; wildlife, the food, are all &amp;quot;estupendo&amp;quot; as is said here.
+Working as a digital nomad is easy, internet providers are ok, there&#39;s even shared workspaces.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://en.wikipedia.org/wiki/Alpujarras&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/spain/landscape.jpg&#34;
+      alt=&#34;spain landscape&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;My Spanish langauge, a must here, is improving, following courses
+like &lt;a href=&#34;https://www.overalspaans.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Overal Spaans&lt;/a&gt;
+ (recommended!) for B1/B2 level, plus a local conversation class organized by the village.&lt;/p&gt;
+&lt;h2 id=&#34;4-openstreetmap-workshops-in-spain&#34;&gt;4. OpenStreetMap Workshops in Spain&lt;/h2&gt;
+&lt;p&gt;Spain is a huge country. Many rural areas like &lt;a href=&#34;https://en.wikipedia.org/wiki/Alpujarras&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The Alpujarras&lt;/a&gt;
+ are not mapped in great detail.
+Though there are still very active mappers in the area. From the beginning I started adding mainly new hiking paths, surveying with GPS via &lt;a href=&#34;https://www.comaps.app/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CoMaps&lt;/a&gt;
+.
+I also joined the &lt;a href=&#34;https://openstreetmap.es/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Spanish OSM Community&lt;/a&gt;
+ (OSM-ES), simply by joining the OSM-ES Telegram group and weekly video-meetups.&lt;/p&gt;
+&lt;p&gt;In Spain I learned to follow the &lt;a href=&#34;https://wiki.openstreetmap.org/wiki/Spanish_Cadastre/Buildings_import&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Catastro Buildings and Addresses import&lt;/a&gt;
+ processes
+and I am working on a possible &lt;a href=&#34;https://github.com/justb4/SIOSE2OSM&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;SIOSE Landcover/Landuse import&lt;/a&gt;
+ (WIP).&lt;/p&gt;
+&lt;p&gt;My gratitude goes out to &lt;a href=&#34;https://www.openstreetmap.org/user/Robot8A&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Héctor Ochoa Ortiz&lt;/a&gt;
+ who introduced me
+to the welcoming Spanish OSM community and helped along the way.&lt;/p&gt;
+&lt;p&gt;After having given a mobile OSM mapping workshop at &lt;a href=&#34;https://osmws.osgeo.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4GNL Middelburg 2023&lt;/a&gt;
+ and talking to local people in my village, I got the idea to
+organize OpenStreetMap workshops here. We aptly named our group here &lt;strong&gt;&amp;quot;Mapas y Tapas&amp;quot;&lt;/strong&gt;.
+The idea being to eventually have Mapping Parties: meet in a bar, map on the streets and &amp;quot;en el campo&amp;quot;, reconvene with drinks and the all-abundant &amp;quot;tapas&amp;quot;.
+But first some education was required. I gave several workshops (see below) to learn mobile mapping with
+&lt;a href=&#34;https://every-door.app/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;EveryDoor&lt;/a&gt;
+ and &lt;a href=&#34;https://streetcomplete.app/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;StreetComplete&lt;/a&gt;
+.
+The latest workshops I even provided in Spanish (with some help of local friends)! Also some &lt;a href=&#34;https://www.comaps.app/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;CoMaps&lt;/a&gt;
+ instruction,
+as people get lost while hiking using Google Maps.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://alpumapa.xyz&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/spain/alpumapa-1.jpg&#34;
+      alt=&#34;alpumapa 1&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;There is one website for these workshops, also for self-study:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://alpumapa.xyz&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;alpumapa.xyz&lt;/a&gt;
+, or in Spanish at &lt;a href=&#34;https://alpumapa.xyz/es/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;alpumapa.xyz/es&lt;/a&gt;
+.&lt;/p&gt;
+&lt;h2 id=&#34;5-conferences---attended&#34;&gt;5. Conferences - Attended&lt;/h2&gt;
+&lt;p&gt;Below conferences and meetups I attended in 2022-2025, in chronological order.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://foss4g.org&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/foss4gs.jpg&#34;
+      alt=&#34;foss4gs 1&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;August 2022 - &lt;a href=&#34;https://2022.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G 2022 Florence&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;November 2022 - &lt;a href=&#34;https://thegeomob.com/post/nov-22nd-2022-geomobbcn-details&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geomob Barcelona&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;June 2023 &lt;a href=&#34;https://2023.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G 2023 Kosovo&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;September 2023 - &lt;a href=&#34;https://2023.foss4g.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4GNL Middelburg&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;October 2023 - &lt;a href=&#34;https://www.meetup.com/maptime-ams/events/296554603&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Maptime Amsterdam - Mapping the Future&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;July 2024 - &lt;a href=&#34;https://2024.europe.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G-EU 2024, Tartu, Estonia&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;July 2024 - &lt;a href=&#34;https://www.meetup.com/maptime-ams/events/301733093/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Maptime Amsterdam - Summertime Meetup&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;September 2024 - &lt;a href=&#34;https://www.meetup.com/maptime-ams/events/301851869&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Maptime Amsterdam - End of Summer Meetup&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;September 2024 - &lt;a href=&#34;https://2024.foss4g.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Combined FOSS4G-BE-NL - Baarle&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;February 2025 - OpenStreetMap Workshops in Spain - &lt;a href=&#34;https://alpumapa.xyz/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;alpumapa.xyz&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;March 2025 - Docker for Geo Workshop - &lt;a href=&#34;https://files.justobjects.nl/presentation/docker-workshop-2025/lego-bash-docker.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;March 2025 - &lt;a href=&#34;https://fossgis-konferenz.de/2025/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSSGIS 2025, Múnster, Germany&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;April 2025 - &lt;a href=&#34;https://www.meetup.com/maptime-ams/events/306803644/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Maptime Amsterdam - Springtime Mapping Party - April 16, 2025&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;July 2025 - &lt;a href=&#34;https://wiki.this-way.nl/index.php?title=Natural_Navigation&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Unconference - Party Niene Jeroen - July 12, 2025&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;July 2025 - &lt;a href=&#34;https://www.meetup.com/maptime-ams/events/309055084/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Maptime Amsterdam&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;July 2025 - &lt;a href=&#34;https://2025.foss4g.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4GNL Wageningen&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;July 2025 - &lt;a href=&#34;https://2025.europe.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G-EU 2025, Mostar&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;August 2025 - &lt;a href=&#34;https://www.meetup.com/maptime-ams/events/309055084&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Maptime Amsterdam&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;September 2025 - &lt;a href=&#34;https://alpumapa.xyz/es&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenStreetMap Workshops - alpumapa.xyz/es&lt;/a&gt;
+ (in Spanish)&lt;/li&gt;
+&lt;li&gt;October 2025 - &lt;a href=&#34;https://www.meetup.com/maptime-ams/events/306803644&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Maptime Amsterdam&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;6-talks--workshops---provided&#34;&gt;6. Talks &amp;amp; Workshops - Provided&lt;/h2&gt;
+&lt;p&gt;Below talks and workshops I provided in 2022-2025, latest first.
+A complete list of &lt;a href=&#34;https://justobjects.nl/presentations/&#34;&gt;presentations&lt;/a&gt;
+ is available.&lt;/p&gt;
+
+&lt;div class=&#34;&#34;&gt;
+  &lt;a href=&#34;https://2024.europe.foss4g.org/&#34;&gt;
+    &lt;img class=&#34;lazy&#34;
+      src=&#34;https://justobjects.nl/uploads/2022/foss4g-team.jpg&#34;
+      alt=&#34;foss4g-eu workshop pygeoapi team Tartu&#34; /&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Mapeando con tu móvil para OpenStreetMap&amp;quot; - &lt;a href=&#34;https://alpumapa.xyz/es&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Válor - Granada - Spain - alpumapa.xyz/es&lt;/a&gt;
+ (in Spanish)&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/alpumapa/osm-workshop-es.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;OpenStreetMap Mobile Mapping Workshop&amp;quot; - &lt;a href=&#34;https://www.meetup.com/maptime-ams/events/309055084/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Maptime AMS July 2025&lt;/a&gt;
+ - &lt;a href=&#34;https://alpumapa.xyz/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;alpumapa.xyz&lt;/a&gt;
+&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/alpumapa/osm-workshop-2025-v2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Natural Navigation Workshop&amp;quot; - &lt;a href=&#34;https://wiki.this-way.nl/index.php?title=Natural_Navigation&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Party Niene Jeroen - Unconference - July 12, 2025&lt;/a&gt;
+&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/niene-jeroen-2025/natural-navigation-ws-2025.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Natural Navigation (plus some evolution of navigation)&amp;quot; - &lt;a href=&#34;https://www.meetup.com/maptime-ams/events/308158861/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MaptimeAMS - Summertime Meetup - June 25, 2025&lt;/a&gt;
+&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/maptime-2025/maptime-natural-nav-2025-v1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Mapas y Tapas. A personal story of starting a local mapping community in Andalusia, Spain&amp;quot; - &lt;a href=&#34;https://www.meetup.com/maptime-ams/events/306803644/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MaptimeAMS - Springtime Mapping Party - April 16, 2025&lt;/a&gt;
+&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/maptime-2025/maptime-alpumapa-2025-v1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Wie MapLibre und Vektorkarten die Welt übernehmen&amp;quot; - &lt;a href=&#34;https://fossgis-konferenz.de/2025/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSSGIS 2025, Múnster, Germany&lt;/a&gt;
+ - March 26, 2025&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://pretalx.com/fossgis2025/talk/7BYCBD/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;abstract&lt;/a&gt;
+ - &lt;a href=&#34;https://ffmuc.media.ccc.de//events/fossgis/2025/h264-hd/fossgis2025-58293-deu-Wie_MapLibre_und_Vektorkarten_die_Welt_uebernehmen_hd.mp4&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;VIDEO&lt;/a&gt;
+ - &lt;a href=&#34;https://files.justobjects.nl/presentation/fossgis2025/maplibre-fossgis-2025.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Docker for Geo Workshop - Provided March 2025&amp;quot;&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/docker-workshop-2025/lego-bash-docker.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;OpenStreetMap Workshops - Provided in Spain Feb 2025 - Alpumapa - Mapas y Tapas&amp;quot; - &lt;a href=&#34;https://alpumapa.xyz/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;alpumapa.xyz&lt;/a&gt;
+&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/alpumapa/osm-workshop-alpumapa-2025-v1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Basisregistraties en OpenStreetMap mixen voor map5topo kaarten&amp;quot; - &lt;a href=&#34;https://foss4g.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G-BE-NL - Baarle - Sept 26, 2024&lt;/a&gt;
+&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/foss4gbenl-2024/map5-data-foss4gbenl-just-2024.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Melting Dutch open data and OpenStreetMap into a single schema&amp;quot; - &lt;a href=&#34;https://www.meetup.com/maptime-ams/events/301851869&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MaptimeAMS - End of Summer Meetup - Sept 19, 2024&lt;/a&gt;
+&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/maptime-2024/map5-data-maptime-just-2024.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Travel with Locative Media&amp;quot; - &lt;a href=&#34;https://www.meetup.com/maptime-ams/events/301733093/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MaptimeAMS - Summertime Meetup - July 11, 2024&lt;/a&gt;
+&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/maptime-2024/travel-locmedia-2024.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;pygeoapi mid-year update 2024&amp;quot; - with Tom Kralidis a.o. - &lt;a href=&#34;https://2024.europe.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4GE 2024, Tartu, Estonia&lt;/a&gt;
+ - July 3, 2024&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://pygeoapi.io/presentations/foss4g-europe2024/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[HTML Slides]&lt;/a&gt;
+ - &lt;a href=&#34;https://talks.osgeo.org/foss4g-europe-2024/talk/EQSNSK/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Abstract]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Diving into pygeoapi&amp;quot; - &lt;a href=&#34;https://2024.europe.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4GE 2024, Tartu, Estonia&lt;/a&gt;
+ - July 2, 2024&lt;/em&gt;&lt;/strong&gt; - Workshop (4h): using pygeoapi to cover publishing geospatial data to the Web, and using the API from QGIS, OWSLib and a web browser -  &lt;a href=&#34;https://dive.pygeoapi.io&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[HTML Startpage]&lt;/a&gt;
+ - &lt;a href=&#34;https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/FEZSAC/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Abstract]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Doing Geospatial in Python&amp;quot; - &lt;a href=&#34;https://2024.europe.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4GE 2024, Tartu, Estonia&lt;/a&gt;
+ - July 2, 2024&lt;/em&gt;&lt;/strong&gt; - Workshop (4h): introduction to performing common GIS/geospatial tasks using Python geospatial tools such as OWSLib, Shapely, Fiona/Rasterio, GeoPandas and common geospatial libraries like GDAL, PROJ, pycsw, as well as other tools from the geopython toolchain. -  &lt;a href=&#34;https://geopython.github.io/geopython-workshop/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[HTML Startpage]&lt;/a&gt;
+ - &lt;a href=&#34;https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/NTYN7P/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Abstract]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;map5topo - A New&amp;amp;Fresh Topographic Map of The Netherlands&amp;quot; - &lt;a href=&#34;https://www.meetup.com/maptime-ams/events/296554603&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;MaptimeAMS - Mapping the Future - October 12, 2023&lt;/a&gt;
+&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/maptime-2023/map5topo-maptime-2023.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;map5topo - een nieuwe, frisse topokaart van Nederland&amp;quot; - &lt;a href=&#34;https://foss4g.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4GNL Middelburg - September 14, 2023&lt;/a&gt;
+&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/foss4gnl-2023/map5topo-foss4gnl-2023.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;OpenStreetMap: Slim de kaart editen met apps!&amp;quot; - Met &lt;a href=&#34;https://www.openstreetmap.org/user/Friendly_Ghost&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Casper Kersten&lt;/a&gt;
+ - &lt;a href=&#34;https://foss4g.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4GNL Middelburg - September 13, 2023&lt;/a&gt;
+&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://osmws.osgeo.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Workshop Website]&lt;/a&gt;
+ - &lt;a href=&#34;https://files.justobjects.nl/presentation/foss4gnl-2023/osm-workshop-foss4gnl-2023.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;GeoHealthCheck - A Quality of Service Monitor for Geospatial Web Services&amp;quot; - with Tom Kralidis - &lt;a href=&#34;https://2023.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G 2023&lt;/a&gt;
+ - June 30, 2023&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://geohealthcheck.org/presentation/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[HTML Slides]&lt;/a&gt;
+ - &lt;a href=&#34;https://talks.osgeo.org/foss4g-2023/talk/FJFFMF/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Abstract]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;pygeoapi project status 2023&amp;quot; - with Tom Kralidis a.o. - &lt;a href=&#34;https://2023.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G 2023&lt;/a&gt;
+ - June 30, 2023&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://pygeoapi.io/presentations/foss4g2023/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[HTML Slides]&lt;/a&gt;
+ - &lt;a href=&#34;https://talks.osgeo.org/foss4g-2023/talk/7WYYYR/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Abstract]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Diving into pygeoapi&amp;quot; - &lt;a href=&#34;https://2023.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G 2023&lt;/a&gt;
+ - June 27, 2023&lt;/em&gt;&lt;/strong&gt; - Workshop (4h): using pygeoapi to cover publishing geospatial data to the Web, and using the API from QGIS, OWSLib and a web browser -  &lt;a href=&#34;https://dive.pygeoapi.io&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[HTML Startpage]&lt;/a&gt;
+ - &lt;a href=&#34;https://talks.osgeo.org/foss4g-2023-workshop/talk/U7JEEF/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Abstract]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Doing Geospatial in Python&amp;quot; - &lt;a href=&#34;https://2023.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G 2023&lt;/a&gt;
+ - June 26, 2023&lt;/em&gt;&lt;/strong&gt; - Workshop (4h): introduction to performing common GIS/geospatial tasks using Python geospatial tools such as OWSLib, Shapely, Fiona/Rasterio, GeoPandas and common geospatial libraries like GDAL, PROJ, pycsw, as well as other tools from the geopython toolchain. -  &lt;a href=&#34;https://geopython.github.io/geopython-workshop/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[HTML Startpage]&lt;/a&gt;
+ - &lt;a href=&#34;https://talks.osgeo.org/foss4g-2023-workshop/talk/ZS7R93/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Abstract]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Additions to pygeoapi for Geonovum Tender (with GeoCat) - April 20, 2023 - Online&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://pygeoapi.io/presentations/geonovum-tender-2023/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[HTML Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;map5topo - a New Topographic Map of The Netherlands&amp;quot; - &lt;a href=&#34;https://thegeomob.com/post/nov-22nd-2022-geomobbcn-details&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Geomob Barcelona - November 22, 2022&lt;/a&gt;
+&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/geomob-bcn-2022/map5topo.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Introducing map5topo - a new Topographic Map of The Netherlands&amp;quot; - Information Sessions - Oktober 5+6, 2022 - Online&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://files.justobjects.nl/presentation/map5topo-2022/221005-info-session.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;GeoHealthCheck - A Quality of Service Monitor for Geospatial Web Services&amp;quot; - &lt;a href=&#34;https://2022.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G 2022&lt;/a&gt;
+ - August 24, 2022&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://geohealthcheck.org/presentation/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[HTML Slides]&lt;/a&gt;
+ - &lt;a href=&#34;https://talks.osgeo.org/foss4g-2022/talk/XMAYMU/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Abstract]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Diving into pygeoapi&amp;quot; - &lt;a href=&#34;https://2022.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G 2022&lt;/a&gt;
+ - August 22, 2022&lt;/em&gt;&lt;/strong&gt; - Workshop (4h): using pygeoapi to cover publishing geospatial data to the Web, and using the API from QGIS, OWSLib and a web browser -  &lt;a href=&#34;https://dive.pygeoapi.io&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[HTML Startpage]&lt;/a&gt;
+ - &lt;a href=&#34;https://talks.osgeo.org/foss4g-2022-workshops/talk/RBJPRF/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Abstract]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Doing Geospatial in Python&amp;quot; - &lt;a href=&#34;https://2022.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;FOSS4G 2022&lt;/a&gt;
+ - August 22, 2022&lt;/em&gt;&lt;/strong&gt; - Workshop (4h): introduction to performing common GIS/geospatial tasks using Python geospatial tools such as OWSLib, Shapely, Fiona/Rasterio, and common geospatial libraries like GDAL, PROJ, pycsw, as well as other tools from the geopython toolchain. -  &lt;a href=&#34;https://geopython.github.io/geopython-workshop/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[HTML Startpage]&lt;/a&gt;
+ - &lt;a href=&#34;https://talks.osgeo.org/foss4g-2022-workshops/talk/JG7GPS/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Abstract]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;GitOps and Containerisation for INSPIRE - April 21, 2022 - Online&lt;/em&gt;&lt;/strong&gt; - Geonovum Operationeel INSPIRE Overleg - &lt;a href=&#34;https://files.justobjects.nl/presentation/geonovum-inspire-2022/gitops-just-21apr2022-v1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;GitOps and Containerisation for INSPIRE - Automation in Building, Testing and Deployment of Software Applications - February 4, 2022 - Online&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://wikis.ec.europa.eu/display/InspireMIG/68th&amp;#43;MIG-T&amp;#43;meeting&amp;#43;2022-02-04&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;European Commission - INSPIRE Maintenance and Implementation Group (MIG) - 68th MIG-T Meeting&lt;/a&gt;
+ - &lt;a href=&#34;https://files.justobjects.nl/presentation/ec-mig-2022-1/gitops-just-04feb2022-v1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;quot;Enforcing Automation in Building, Testing and Deployment of Software Applications - January 24, 2022 - Online&lt;/em&gt;&lt;/strong&gt; - &lt;a href=&#34;https://publications.jrc.ec.europa.eu/repository/handle/JRC127730&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Emerging approaches for data-driven innovation in Europe&lt;/a&gt;
+ - &lt;a href=&#34;https://files.justobjects.nl/presentation/ec-jrc-elise-2022-1/final-just-v1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[PDF Slides]&lt;/a&gt;
+ - &lt;a href=&#34;https://youtu.be/9rKeZZqGfc8?t=2118&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[Video Recording on YouTube]&lt;/a&gt;
+.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

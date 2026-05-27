@@ -2,6 +2,75 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://justobjects.nl/adios-2022-2025/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/foss/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/foss4g/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/general/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/geohealthcheck/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/geoqos/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/geospatial/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/geotoko.nl/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/gis/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/grotegeoshow/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/map5.nl/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/nlextract/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/openstreetmap/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/oseo/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/osgeo/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/osgeo.nl/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/posts/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/projects/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/python/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/software/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/categories/spain/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://justobjects.nl/tags/</loc>
+    <lastmod>2026-05-25T07:24:25+00:00</lastmod>
+  </url><url>
     <loc>https://justobjects.nl/geotoko/</loc>
     <lastmod>2026-04-01T10:11:21+00:00</lastmod>
   </url><url>
@@ -32,64 +101,10 @@
     <loc>https://justobjects.nl/adios-2021/</loc>
     <lastmod>2022-01-04T13:24:25+00:00</lastmod>
   </url><url>
-    <loc>https://justobjects.nl/adios-2021/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/categories/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/foss/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/foss4g/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/categories/general/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
     <loc>https://justobjects.nl/tags/geofabriek/</loc>
     <lastmod>2022-01-04T13:24:25+00:00</lastmod>
   </url><url>
-    <loc>https://justobjects.nl/tags/geohealthcheck/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/geoqos/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/geospatial/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/geotoko.nl/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/gis/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/grotegeoshow/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/map5.nl/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/nlextract/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
     <loc>https://justobjects.nl/tags/osgeo/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/categories/osgeo/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/osgeo.nl/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/posts/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/categories/projects/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/python/</loc>
     <lastmod>2022-01-04T13:24:25+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/tags/qgis/</loc>
@@ -98,16 +113,10 @@
     <loc>https://justobjects.nl/tags/rtmp/</loc>
     <lastmod>2022-01-04T13:24:25+00:00</lastmod>
   </url><url>
-    <loc>https://justobjects.nl/categories/software/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
     <loc>https://justobjects.nl/tags/streaming/</loc>
     <lastmod>2022-01-04T13:24:25+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/tags/streamyard/</loc>
-    <lastmod>2022-01-04T13:24:25+00:00</lastmod>
-  </url><url>
-    <loc>https://justobjects.nl/tags/</loc>
     <lastmod>2022-01-04T13:24:25+00:00</lastmod>
   </url><url>
     <loc>https://justobjects.nl/drafts/</loc>
