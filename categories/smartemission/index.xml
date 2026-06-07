@@ -50,9 +50,9 @@
   &lt;a href=&#34;https://map5.nl/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2020/01/map5.nl_.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -76,9 +76,9 @@
   &lt;a href=&#34;https://geoqos.com/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2020/01/geoqos.com_.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -116,9 +116,9 @@
   &lt;a href=&#34;https://data.smartemission.nl/smartapp/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2020/01/luftdaten-smartapp.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -143,9 +143,9 @@
   &lt;a href=&#34;https://github.com/justb4?tab=overview&amp;amp;from=2019-01-01&amp;amp;to=2019-12-31&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2020/01/gh-contribs-2019-justb4.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;!--
@@ -209,9 +209,9 @@
   &lt;a href=&#34;https://hub.docker.com/u/justb4&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2020/01/justb4-docker-images.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -498,9 +498,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://data.smartemission.nl/smartapp/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/02/smartapp-ase01-nijmegen.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Within the Heron Viewer we can compare for example NO2, not only with Josene measurements, but also with official RIVM values.&lt;/p&gt;
@@ -601,9 +601,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://github.com/justb4?tab=overview&amp;amp;from=2018-01-01&amp;amp;to=2018-12-31&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/github-2018-just.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;h3 id=&#34;june&#34;&gt;June&lt;/h3&gt;
@@ -635,9 +635,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/ase-rivm-breukelen.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;h3 id=&#34;september&#34;&gt;September&lt;/h3&gt;
@@ -658,9 +658,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://data.smartemission.nl/grafana-dc/d/HVSBmbHmz/airsenseur-netherlands-deploy&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/ases-o3.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -687,9 +687,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://www.geonovum.nl/over-geonovum/agenda/geo-gebruikersfestival-2018-en-sdinext&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/geofestival-2018.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -706,9 +706,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://postgisdag.nl/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/postgisday-2018.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -724,9 +724,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://www.slideshare.net/justb4/open-sensor-networks-with-lora-ttn-and-sensorthings-api&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/poc-ttn-sta.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -738,9 +738,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://geohealthcheck.org/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/plotly-ghc.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -1037,9 +1037,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://www.thethingsnetwork.org/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/02/ttn-pics.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;“The Things Network is building a network for the Internet of Things by creating abundant data connectivity, so applications and businesses can flourish. The technology we use is called LoRaWAN and it allows for things to talk to the internet without 3G or WiFi. So no WiFi codes and no mobile subscriptions. It features low battery usage, long range and low bandwidth. Perfect for the internet of things.”&lt;/em&gt;&lt;/p&gt;
@@ -1049,9 +1049,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://www.thethingsnetwork.org/map&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/02/ttn-map.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;And &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The ThingsNetwork&lt;/a&gt;
@@ -1067,9 +1067,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/02/ttn-conf.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;The conf was very hands-on with lots of free workshops (with free takeaway hardware). Followed several workshops, which were intense (hardware+software hacking) but always rewarding (blinking green lights!). One to mention in particular (as a Python programmer) was on &lt;a href=&#34;https://pycom.io/product/lopy/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;LoPy&lt;/a&gt;
@@ -1079,9 +1079,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://twitter.com/justb4/status/959113531449802752&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/02/lopy.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;All in all this conference made me eager to explore more of LoRA with TTN, in particular to explore possibilities for citizen-based sensor-networks for environmental, in particular air quality, data. I am aware that “IoT” has some bad connotations when it comes to security, especially from closed technologies. But IoT is a movement we cannot stop. With and end-to-end open technology like the TTN there is at least the possibility to avoid the “black box”-part and take things in our own hand.&lt;/p&gt;
@@ -1158,9 +1158,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://twitter.com/justb4/status/734789344389701632&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/01/ase-ws.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;The Air Quality sensor data coming out of  these devices still requires cleanup and  Calibration. This is part of the data handling within the SE platform, subject of one of the upcoming Emits.&lt;/p&gt;
@@ -1204,9 +1204,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://feedly.com/i/category/Geospatial&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/01/feedly.png&#34;
+      style=&#34;&#34;
       alt=&#34;Feedly shown in web browser&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Enough sidestepping, my goal is to share tech around the Open Source &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;

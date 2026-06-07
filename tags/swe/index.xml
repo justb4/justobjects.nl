@@ -136,9 +136,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://data.smartemission.nl/smartapp/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/02/smartapp-ase01-nijmegen.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Within the Heron Viewer we can compare for example NO2, not only with Josene measurements, but also with official RIVM values.&lt;/p&gt;
@@ -239,9 +239,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://github.com/justb4?tab=overview&amp;amp;from=2018-01-01&amp;amp;to=2018-12-31&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/github-2018-just.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;h3 id=&#34;june&#34;&gt;June&lt;/h3&gt;
@@ -273,9 +273,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/ase-rivm-breukelen.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;h3 id=&#34;september&#34;&gt;September&lt;/h3&gt;
@@ -296,9 +296,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://data.smartemission.nl/grafana-dc/d/HVSBmbHmz/airsenseur-netherlands-deploy&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/ases-o3.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -325,9 +325,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://www.geonovum.nl/over-geonovum/agenda/geo-gebruikersfestival-2018-en-sdinext&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/geofestival-2018.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -344,9 +344,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://postgisdag.nl/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/postgisday-2018.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -362,9 +362,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://www.slideshare.net/justb4/open-sensor-networks-with-lora-ttn-and-sensorthings-api&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/poc-ttn-sta.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -376,9 +376,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://geohealthcheck.org/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/01/plotly-ghc.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -619,9 +619,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;http://sensors.geonovum.nl/heronviewer/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2015/10/heron-viewer-o3-ts.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;So the broader question is more about the OGC SOS standard and the related &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
@@ -667,9 +667,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;http://sensors.geonovum.nl/weewx/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/weewx-geonovum-screen1.png&#34;
+      style=&#34;&#34;
       alt=&#34;Weewx Standard Report&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;In addition, I’ve added even a more dynamic weather display like the &lt;a href=&#34;http://wiki.sandaysoft.com/a/SteelSeries_Gauges&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Steelseries Gauges&lt;/a&gt;
@@ -680,9 +680,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;http://sensors.geonovum.nl/weewx/gauges/index.html&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/weewx-geonovum-gauges-screen1.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Just like other crowd-sourced projects like OpenStreetMap and WikiPedia there are various weather  communities where you can join and publish your weather data via RESTful APIs. weewx provides drivers for most common communities like &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Weather Underground&lt;/a&gt;
@@ -694,9 +694,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/wu-geonovum-pws1.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Weather Underground also provides various apps and a map, the &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WunderMap&lt;/a&gt;
@@ -706,9 +706,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/wundermap-nl1.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;All in all, there is a fascinating world to explore once you get into the weather domain and its many communities.&lt;/p&gt;

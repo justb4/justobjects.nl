@@ -217,9 +217,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://data.smartemission.nl/smartapp/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/02/smartapp-ase01-nijmegen.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Within the Heron Viewer we can compare for example NO2, not only with Josene measurements, but also with official RIVM values.&lt;/p&gt;
@@ -330,9 +330,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;http://sensors.geonovum.nl/heronviewer/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2015/10/heron-viewer-o3-ts.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;So the broader question is more about the OGC SOS standard and the related &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;
@@ -678,9 +678,9 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
   &lt;a href=&#34;http://sensors.geonovum.nl/weewx/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/weewx-geonovum-screen1.png&#34;
+      style=&#34;&#34;
       alt=&#34;Weewx Standard Report&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;In addition, I’ve added even a more dynamic weather display like the &lt;a href=&#34;http://wiki.sandaysoft.com/a/SteelSeries_Gauges&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Steelseries Gauges&lt;/a&gt;
@@ -691,9 +691,9 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
   &lt;a href=&#34;http://sensors.geonovum.nl/weewx/gauges/index.html&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/weewx-geonovum-gauges-screen1.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Just like other crowd-sourced projects like OpenStreetMap and WikiPedia there are various weather  communities where you can join and publish your weather data via RESTful APIs. weewx provides drivers for most common communities like &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Weather Underground&lt;/a&gt;
@@ -705,9 +705,9 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
   &lt;a href=&#34;http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/wu-geonovum-pws1.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Weather Underground also provides various apps and a map, the &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WunderMap&lt;/a&gt;
@@ -717,9 +717,9 @@ SFCGAL &lt;a href=&#34;http://www.sfcgal.org/&#34;&gt;http://www.sfcgal.org/&lt;
   &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/wundermap-nl1.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;All in all, there is a fascinating world to explore once you get into the weather domain and its many communities.&lt;/p&gt;

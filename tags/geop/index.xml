@@ -29,9 +29,9 @@
   &lt;a href=&#34;http://www.geopython.net/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2016/07/gp1-right.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;So why a dedicated GeoPython conference? IMHO Python makes more and more  sense for Open Source geospatial development. Not just for custom geo-scripting or glueing with e.g. &lt;a href=&#34;http://gdal.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GDAL&lt;/a&gt;
@@ -55,9 +55,9 @@ s, to the lighter weighings of &lt;a href=&#34;https://en.wikipedia.org/wiki/Spr
   &lt;a href=&#34;http://www.geopython.net/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2016/07/gp2-left.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;But times they are a-changing, technologies are evolving. I am happy these days to develop in Python (and JavaScript for the web-frontend). Like moving from C/C++ to Java back then, and now from Java to Python, what appeals to me: shortened development times, lesser lines of code  to debug and maintain, ease of deployment, a central repository (&lt;a href=&#34;https://pypi.python.org/pypi&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;PyPi&lt;/a&gt;

@@ -136,9 +136,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://data.smartemission.nl/smartapp/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2019/02/smartapp-ase01-nijmegen.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Within the Heron Viewer we can compare for example NO2, not only with Josene measurements, but also with official RIVM values.&lt;/p&gt;
@@ -209,9 +209,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://www.thethingsnetwork.org/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/02/ttn-pics.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;“The Things Network is building a network for the Internet of Things by creating abundant data connectivity, so applications and businesses can flourish. The technology we use is called LoRaWAN and it allows for things to talk to the internet without 3G or WiFi. So no WiFi codes and no mobile subscriptions. It features low battery usage, long range and low bandwidth. Perfect for the internet of things.”&lt;/em&gt;&lt;/p&gt;
@@ -221,9 +221,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://www.thethingsnetwork.org/map&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/02/ttn-map.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;And &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The ThingsNetwork&lt;/a&gt;
@@ -239,9 +239,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/02/ttn-conf.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;The conf was very hands-on with lots of free workshops (with free takeaway hardware). Followed several workshops, which were intense (hardware+software hacking) but always rewarding (blinking green lights!). One to mention in particular (as a Python programmer) was on &lt;a href=&#34;https://pycom.io/product/lopy/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;LoPy&lt;/a&gt;
@@ -251,9 +251,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;https://twitter.com/justb4/status/959113531449802752&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/02/lopy.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;All in all this conference made me eager to explore more of LoRA with TTN, in particular to explore possibilities for citizen-based sensor-networks for environmental, in particular air quality, data. I am aware that “IoT” has some bad connotations when it comes to security, especially from closed technologies. But IoT is a movement we cannot stop. With and end-to-end open technology like the TTN there is at least the possibility to avoid the “black box”-part and take things in our own hand.&lt;/p&gt;
@@ -297,9 +297,9 @@ Analysis of the calibration (&lt;a href=&#34;https://github.com/smartemission/do
   &lt;a href=&#34;http://sensors.geonovum.nl/heronviewer/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2015/10/heron-viewer-o3-ts.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;So the broader question is more about the OGC SOS standard and the related &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;

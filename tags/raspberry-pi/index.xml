@@ -42,9 +42,9 @@
   &lt;a href=&#34;http://sensors.geonovum.nl/weewx/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/weewx-geonovum-screen1.png&#34;
+      style=&#34;&#34;
       alt=&#34;Weewx Standard Report&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;In addition, I’ve added even a more dynamic weather display like the &lt;a href=&#34;http://wiki.sandaysoft.com/a/SteelSeries_Gauges&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Steelseries Gauges&lt;/a&gt;
@@ -55,9 +55,9 @@
   &lt;a href=&#34;http://sensors.geonovum.nl/weewx/gauges/index.html&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/weewx-geonovum-gauges-screen1.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Just like other crowd-sourced projects like OpenStreetMap and WikiPedia there are various weather  communities where you can join and publish your weather data via RESTful APIs. weewx provides drivers for most common communities like &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Weather Underground&lt;/a&gt;
@@ -69,9 +69,9 @@
   &lt;a href=&#34;http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/wu-geonovum-pws1.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Weather Underground also provides various apps and a map, the &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WunderMap&lt;/a&gt;
@@ -81,9 +81,9 @@
   &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/wundermap-nl1.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;All in all, there is a fascinating world to explore once you get into the weather domain and its many communities.&lt;/p&gt;

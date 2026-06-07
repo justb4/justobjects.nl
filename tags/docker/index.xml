@@ -28,9 +28,9 @@ from within a GitHub Workflows.&lt;/p&gt;
   &lt;a href=&#34;https://apitestdocs.geonovum.nl/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2021/09/ogcapi-testbed.png&#34;
+      style=&#34;width:75%&#34;
       alt=&#34;Geonovum OGC API Testbed CI/CD Architecture&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Now investigating how  &lt;a href=&#34;https://www.terraform.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Terraform&lt;/a&gt;

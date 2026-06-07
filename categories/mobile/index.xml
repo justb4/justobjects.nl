@@ -48,9 +48,9 @@
   &lt;a href=&#34;https://www.thethingsnetwork.org/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/02/ttn-pics.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;“The Things Network is building a network for the Internet of Things by creating abundant data connectivity, so applications and businesses can flourish. The technology we use is called LoRaWAN and it allows for things to talk to the internet without 3G or WiFi. So no WiFi codes and no mobile subscriptions. It features low battery usage, long range and low bandwidth. Perfect for the internet of things.”&lt;/em&gt;&lt;/p&gt;
@@ -60,9 +60,9 @@
   &lt;a href=&#34;https://www.thethingsnetwork.org/map&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/02/ttn-map.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;And &lt;a href=&#34;https://www.thethingsnetwork.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;The ThingsNetwork&lt;/a&gt;
@@ -78,9 +78,9 @@
   &lt;a href=&#34;https://www.thethingsnetwork.org/conference/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/02/ttn-conf.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;The conf was very hands-on with lots of free workshops (with free takeaway hardware). Followed several workshops, which were intense (hardware+software hacking) but always rewarding (blinking green lights!). One to mention in particular (as a Python programmer) was on &lt;a href=&#34;https://pycom.io/product/lopy/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;LoPy&lt;/a&gt;
@@ -90,9 +90,9 @@
   &lt;a href=&#34;https://twitter.com/justb4/status/959113531449802752&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/02/lopy.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;All in all this conference made me eager to explore more of LoRA with TTN, in particular to explore possibilities for citizen-based sensor-networks for environmental, in particular air quality, data. I am aware that “IoT” has some bad connotations when it comes to security, especially from closed technologies. But IoT is a movement we cannot stop. With and end-to-end open technology like the TTN there is at least the possibility to avoid the “black box”-part and take things in our own hand.&lt;/p&gt;
@@ -135,9 +135,9 @@
   &lt;a href=&#34;https://feedly.com/i/category/Geospatial&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2018/01/feedly.png&#34;
+      style=&#34;&#34;
       alt=&#34;Feedly shown in web browser&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Enough sidestepping, my goal is to share tech around the Open Source &lt;a href=&#34;http://data.smartemission.nl/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Smart Emission Platform&lt;/a&gt;
@@ -233,9 +233,9 @@ I was already reading and practicing the intriguing art of Natural Navigation wh
   &lt;a href=&#34;http://www.naturalnavigator.com&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2015/08/tree-combined-wind-growth.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;Left tree shaped by wind, right by the sun (src: The Natural Navigator, Gooley)&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;For instance: sun, rain and wind strongly shape the direction that trees and their branches grow. A prevailing south-western wind will bend trees slightly north-east.&lt;/p&gt;
@@ -247,9 +247,9 @@ I was already reading and practicing the intriguing art of Natural Navigation wh
   &lt;a href=&#34;http://www.naturalnavigator.com&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2015/08/book-tnn-gooley.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;The Natural Navigator by Tristan Gooley&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;I am also intrigued in how early humans navigated. As hunter/gatherers we had to cross enormous stretches of land, often going far out from a base camp for a hunt or food collection. Did these first humans use dogs for navigation, made landmarks?They sure must have been masters at Natural Navigation. We can get some clues from indigenous people today. Years ago I read a fascinating book &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Songlines&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;“The Songlines” by Bruce Chatwin&lt;/a&gt;
@@ -268,9 +268,9 @@ I was already reading and practicing the intriguing art of Natural Navigation wh
   &lt;a href=&#34;http://app.map5.nl/nltopo/?key=gast&amp;amp;gpx=gpx/vliegenbos238.gpx&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2015/08/nltopo-app.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;The Route and Caches in the Map5.nl NLTopo App&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt; &lt;/p&gt;
@@ -301,9 +301,9 @@ I was already reading and practicing the intriguing art of Natural Navigation wh
   &lt;a href=&#34;#ZgotmplZ&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2007/10/walkandplay-thumb-300x242.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt; &lt;/p&gt;
@@ -342,9 +342,9 @@ I was already reading and practicing the intriguing art of Natural Navigation wh
   &lt;a href=&#34;#ZgotmplZ&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2007/06/schuttevaer2-300x121.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;During June 7-9, 2007 the &lt;a href=&#34;http://www.schuttevaerrace.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Dutch Schuttevaerrace&lt;/a&gt;
@@ -434,9 +434,9 @@ I was already reading and practicing the intriguing art of Natural Navigation wh
   &lt;a href=&#34;#ZgotmplZ&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2007/04/waag-sarai1-map-300x205.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
@@ -536,9 +536,9 @@ I was already reading and practicing the intriguing art of Natural Navigation wh
   &lt;a href=&#34;#ZgotmplZ&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2006/04/sotce-300x236.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.senseofthecity.nl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Sense of the City&lt;/a&gt;
@@ -622,9 +622,9 @@ Through Pushlets the browser receives real-time events like player movements and
   &lt;a href=&#34;#ZgotmplZ&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2005/03/bluetooth.gif&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 Since Mac OS X is already my preferred platform for Java development, I was very pleased to experience that J2ME development for MIDP 2.0 has finally become reality. I can now develop, compile, verify, package, run, debug and deploy MIDP 2.0 MIDlets from within my Java IDE (&lt;a href=&#34;http://www.jetbrains.com&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;IntelliJ IDEA&lt;/a&gt;
@@ -651,9 +651,9 @@ Since Mac OS X is already my preferred platform for Java development, I was very
   &lt;a href=&#34;#ZgotmplZ&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2005/03/gps-earthmate.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 If you are developing Bluetooth-based MIDlets using &lt;a href=&#34;http://www.jcp.org/en/jsr/detail?id=82&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;the JSR-82 Bluetooth API&lt;/a&gt;
@@ -678,9 +678,9 @@ If you are developing Bluetooth-based MIDlets using &lt;a href=&#34;http://www.j
   &lt;a href=&#34;http://www.computable.nl/artikels/archief5/d07hb5nh.htm&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2005/02/f1150-hq-small-200x150.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;a href=&#34;http://freq1550.waag.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Frequency 1550&lt;/a&gt;
@@ -691,9 +691,9 @@ If you are developing Bluetooth-based MIDlets using &lt;a href=&#34;http://www.j
   &lt;a href=&#34;https://files.justobjects.nl/presentation/f1550tech/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2005/02/f1150-infra-thumb-199x150.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;a href=&#34;http://connectmedia.waag.org/media/freq1550killerclub.mov&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;There is a project presentation in streaming video on connect.waag.org&lt;/a&gt;
@@ -708,9 +708,9 @@ If you are developing Bluetooth-based MIDlets using &lt;a href=&#34;http://www.j
   &lt;a href=&#34;https://files.justobjects.nl/doc/mg-journaal.html&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2005/02/f1150-journaal-thumb-201x150.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 The game evolves around players being personages in an adventure where they help the “schout” (medieval police) who will contact them by video when entering zones or reaching (GPS) locations. Players will try to solve assignments given by the “schout” on the street or through one of their&lt;br /&gt; team members on the home base, HQ, (behind a Flash-based interface). Assignments are solved by making media (photo’s, videos) at the spot&lt;br /&gt; and submitting these. The HQ may consult internet for additional media and textual answers. Thus together, teams provide multi-media&lt;br /&gt; content, resulting in a media-collage at the end. Additional game elements include, GPS-based boobytrapping, confrontations and cloaking.&lt;/p&gt;

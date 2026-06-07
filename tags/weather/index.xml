@@ -42,9 +42,9 @@
   &lt;a href=&#34;http://sensors.geonovum.nl/weewx/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/weewx-geonovum-screen1.png&#34;
+      style=&#34;&#34;
       alt=&#34;Weewx Standard Report&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;In addition, I’ve added even a more dynamic weather display like the &lt;a href=&#34;http://wiki.sandaysoft.com/a/SteelSeries_Gauges&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Steelseries Gauges&lt;/a&gt;
@@ -55,9 +55,9 @@
   &lt;a href=&#34;http://sensors.geonovum.nl/weewx/gauges/index.html&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/weewx-geonovum-gauges-screen1.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Just like other crowd-sourced projects like OpenStreetMap and WikiPedia there are various weather  communities where you can join and publish your weather data via RESTful APIs. weewx provides drivers for most common communities like &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Weather Underground&lt;/a&gt;
@@ -69,9 +69,9 @@
   &lt;a href=&#34;http://www.wunderground.com/personal-weather-station/dashboard?ID=IUTRECHT96&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/wu-geonovum-pws1.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Weather Underground also provides various apps and a map, the &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;WunderMap&lt;/a&gt;
@@ -81,9 +81,9 @@
   &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=52.152&amp;amp;lon=5.372&amp;amp;zoom=13&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/12/wundermap-nl1.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;All in all, there is a fascinating world to explore once you get into the weather domain and its many communities.&lt;/p&gt;
@@ -172,9 +172,9 @@
   &lt;a href=&#34;http://lib.heron-mc.org/heron/latest/examples/simpletimeslider/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/10/wms-time-heron-knmi-300x181.png&#34;
+      style=&#34;&#34;
       alt=&#34;WMS Time Example with GeoServer in Heron&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Tagging this post as “Part 1”  is ambitious. Beware: there is hardly any “geo” for now. In the coming time I hope to share some technical experiences with weather stations, weather software and ultimately exposing weather data via some open geospatial standards like &lt;a href=&#34;http://mapserver.org/ogc/wms_time.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC WMS(-Time)&lt;/a&gt;
@@ -190,9 +190,9 @@
   &lt;a href=&#34;#ZgotmplZ&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/10/sospilot-screenshot-300x206.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Within a sub-project the aim is to expose measurements from a physical weather station via standardized OGC web services like WMS, WFS and SOS.  As a first step I dived into the world of weather hardware and software, in particular their vivid open source/open data communities. A whole new world expanded to me. To no surprise: Location and The Weather are part of everyday life since the beginnings of humanity. &lt;a href=&#34;http://openweathermap.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenWeatherMap&lt;/a&gt;
@@ -208,9 +208,9 @@
   &lt;a href=&#34;http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/10/davis-vantage-pro2-300x188.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;Davis Vantage Pro2 Weather Station&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Being more of a software person, I decided to start with the weather soft/middleware. Also, since Geonovum already owns a &lt;a href=&#34;http://www.davisnet.com/weather/products/vantage-pro-professional-weather-stations.asp&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Davis Vantage Pro2 Weather Station&lt;/a&gt;
@@ -238,9 +238,9 @@
   &lt;a href=&#34;http://openweathermap.org/maps&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/10/openweathermap-300x196.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;Trying to have some real-world data I set out on what appeared to be a two-hour hack: create a weather station driver that obtains its data from an open weather API. There are many off course. I choose the &lt;a href=&#34;http://openweathermap.org/api&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenWeatherMap API&lt;/a&gt;
@@ -254,9 +254,9 @@
   &lt;a href=&#34;#ZgotmplZ&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2014/10/otterlo-weewx-report-300x275.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;As a Linux daemon now runs fine in our test system. It is time to show some results. weewx reporting is basically a website generated via &lt;a href=&#34;http://www.cheetahtemplate.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Cheetah templates&lt;/a&gt;

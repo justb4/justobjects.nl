@@ -50,9 +50,9 @@
   &lt;a href=&#34;https://map5.nl/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2020/01/map5.nl_.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -76,9 +76,9 @@
   &lt;a href=&#34;https://geoqos.com/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2020/01/geoqos.com_.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -116,9 +116,9 @@
   &lt;a href=&#34;https://data.smartemission.nl/smartapp/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2020/01/luftdaten-smartapp.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -143,9 +143,9 @@
   &lt;a href=&#34;https://github.com/justb4?tab=overview&amp;amp;from=2019-01-01&amp;amp;to=2019-12-31&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2020/01/gh-contribs-2019-justb4.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;!--
@@ -209,9 +209,9 @@
   &lt;a href=&#34;https://hub.docker.com/u/justb4&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2020/01/justb4-docker-images.png&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;/li&gt;
@@ -405,9 +405,9 @@
   &lt;a href=&#34;http://sensors.geonovum.nl/heronviewer/&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2015/10/heron-viewer-o3-ts.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 &lt;p&gt;So the broader question is more about the OGC SOS standard and the related &lt;a href=&#34;http://www.opengeospatial.org/projects/groups/sensorwebdwg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OGC SensorWeb Enablement&lt;/a&gt;

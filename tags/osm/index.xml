@@ -73,9 +73,9 @@
   &lt;a href=&#34;#ZgotmplZ&#34;&gt;
     &lt;img class=&#34;lazy&#34;
       src=&#34;https://justobjects.nl/uploads/2010/03/osm-rdtiles-150x150.jpg&#34;
+      style=&#34;&#34;
       alt=&#34;&#34; /&gt;
   &lt;/a&gt;
-  
 &lt;/div&gt;
 
 This article documents how to generate &lt;a href=&#34;http://www.openstreetmap.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenStreetMap (OSM)&lt;/a&gt;
