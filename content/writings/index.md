@@ -2,10 +2,11 @@
 title: Writings
 author: Just van den Broecke
 type: page
-date: 2021-06-22T15:53:29+00:00
+date: 2026-06-07T10:53:29+00:00
 
 ---
-<img loading="lazy" class="alignnone wp-image-345" src="/uploads/2014/06/writings-300x53.jpg" alt="writings" width="430" height="76"  />
+
+{{< a-img data-href="/writings" style="width:75%" data-src="/uploads/2014/06/writings-300x53.jpg" data-caption="writings">}}
 
 Use the Writings-dropdown menu to see various writings by Just :  
 [Blog][1], [Toots][2], [Presentations][3] and [Publications][4].
@@ -14,13 +15,14 @@ Use the Writings-dropdown menu to see various writings by Just :
 
 Latest blog posts:
 
-  * <small>January 4, 2022</small>[Adiós 2021][11]
-  * <small>January 20, 2021</small>[That Was 2020][5]
-  * <small>January 17, 2020</small>[Cheers to 2019][6]
-  * <small>May 31, 2019</small>[Second Time Around – WFS v3 and pygeoapi][7]
-  * <small>February 19, 2019</small>[Emit #6 – AirSensEUR Calibration][8]
-  * <small>January 11, 2019</small>[Cheers to 2018][9]
-  * <small>August 15, 2018</small>[Emit #5 – Assembling and Deploying 5 AirSensEURs – a Story in Pictures][10]
+  * May 27, 2026 - [Adiós 2022-2025][12]
+  * January 4, 2022 - [Adiós 2021][11]
+  * January 20, 2021 - [That Was 2020][5]
+  * January 17, 2020 - [Cheers to 2019][6]
+  * May 31, 2019 - [Second Time Around – WFS v3 and pygeoapi][7]
+  * February 19, 2019 - [Emit #6 – AirSensEUR Calibration][8]
+  * January 11, 2019 - [Cheers to 2018][9]
+  * August 15, 2018 - [Emit #5 – Assembling and Deploying 5 AirSensEURs – a Story in Pictures][10]
 
 &nbsp;
 
@@ -35,3 +37,4 @@ Latest blog posts:
  [9]: https://justobjects.nl/cheers-to-2018/ "Cheers to 2018"
  [10]: https://justobjects.nl/emit-5-assembling-and-deploying-5-airsenseurs/ "Emit #5 – Assembling and Deploying 5 AirSensEURs – a Story in Pictures"
  [11]: https://justobjects.nl/adios-2021/ "Adiós 2021"
+ [12]: /adios-2022-2025/ "Adiós 2022-2025"

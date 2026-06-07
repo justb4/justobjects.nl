@@ -6,7 +6,7 @@ date: 2024-05-24T10:09:09+00:00
 
 ---
 
-Just has moved from Twitter/X to Mastodon. His Mapstodon account is
+Just has moved from Twitter/X to Mastodon. His Mapstodon (not a spelling error) account is
 [mapstodon.space/@justb4](https://mapstodon.space/@justb4). Below his last 10 'toots'.
 
 {{< mastodon "mapstodon.space" "justb4" 109537026133479309 20 >}}
