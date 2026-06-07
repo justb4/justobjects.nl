@@ -32,7 +32,7 @@ A recent example is the [Geonovum OGC API Testbed](https://apitestdocs.geonovum.
 Here (selective) Docker Containers are automatically deployed on GitHub pushes using Ansible called
 from within a GitHub Workflows.
 
-{{< a-img data-href="https://apitestdocs.geonovum.nl/" style="width:50%;" data-src="/uploads/2021/09/ogcapi-testbed.png" data-caption="Geonovum OGC API Testbed CI/CD Architecture">}}
+{{< a-img data-href="https://apitestdocs.geonovum.nl/" style="width:75%" data-src="/uploads/2021/09/ogcapi-testbed.png" data-caption="Geonovum OGC API Testbed CI/CD Architecture">}}
 
 Now investigating how  [Terraform](https://www.terraform.io/) 
 could play a key role in (Cloud) infrastructure management. 
