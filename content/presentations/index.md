@@ -2,11 +2,13 @@
 title: Presentations
 author: Just van den Broecke
 type: page
-date: 2025-07-04T07:04:13+00:00
+date: 2026-10-13T07:04:13+00:00
 
 ---
 Below a selection of various talks, presentations and workshops by Just starting from the most recent to as far as 1996 (!). 
 Some slides are on [\[Slideshare\]][1]
+
+**_"No Fear of Heights! - Mapping Open Elevation Data for NL" - [MaptimeAMS - Autumn Meetup - Oct 12, 2026](https://www.meetup.com/maptime-ams/events/316610212/)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/maptime-2026/elevation-maptime-just-2026.pdf).
 
 **_"Mapeando con tu móvil para OpenStreetMap" - [Válor - Granada - Spain - alpumapa.xyz/es](https://alpumapa.xyz/es) (in Spanish)_** - [\[PDF Slides\]](https://files.justobjects.nl/presentation/alpumapa/osm-workshop-es.pdf).
 
