@@ -2,7 +2,7 @@
 title: Vote for OSGeo.nl
 author: Just van den Broecke
 type: post
-date: 2026-10-13T10:24:25+00:00
+date: 2026-10-13T16:24:25+00:00
 excerpt: "OSGeo.nl has been nominated for the most prestigious geo-award within The Netherlands: the Geo Prestige Award 2026. This is a callout: vote for us!"
 url: /vote-osgeonl-2026/
 featured_image: uploads/2026/vote-osgeonl-gin.jpg
@@ -36,7 +36,7 @@ OSGeo.NL has been nominated in the Organization category.
 
 We’ve been nominated... but naturally, we want to win! 
 And since we are the only community-based organization (the other nominees are companies), we’re asking everyone to vote for us!
-We have been active, an assocation since 2011, in many respects, most natably our anual [FOSS4G.nl](https://foss4g.nl)
+We have been active, an assocation since 2011, in many respects, most notably our anual [FOSS4G.nl](https://foss4g.nl)
 
 Voting takes place via a standard online form. 
 You can view all nominees [here](https://geoinformatienederland.nl/over-ons/gin-awards/geo-prestige-award-2026-de-genomineerden). 
