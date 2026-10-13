@@ -8,7 +8,7 @@
     {{- $title = .Title }}
   {{- end }}
 {{- end }}
-<title>{{ with $title }}{{ . }} {{ $separator }} {{ end }}{{ .Site.Title }}</title>
+<title>{{ with $title }}{{ . }}{{ end }}</title>
 <meta charset="utf-8">
 {{- with $params.ga_verify }}
   <meta name="google-site-verification" content="{{ . }}">
